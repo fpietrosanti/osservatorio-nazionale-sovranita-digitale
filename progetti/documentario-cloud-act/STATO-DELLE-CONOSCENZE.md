@@ -265,6 +265,68 @@ rinegoziano con Google) ed EDPS/Commissione. Il caso forte è il **Baden-Württe
 rinunciato a M365 nelle scuole. Il «divieto dell'Assia 2019» fu **ritirato dopo tre settimane**, e nel
 novembre 2025 l'HBDI avrebbe dichiarato M365 conforme — **verifica urgente**.
 
+### A14. L'EUCS **non esiste ancora** — contraddizione D1 risolta ✅
+**Prova decisiva, fonte primaria istituzionale**: nella proposta **COM(2026) 502 final** (*Cloud and AI
+Development Act*, Bruxelles 3.6.2026) la Commissione scrive che ENISA sta sviluppando l'EUCS «*which has
+**not yet been adopted***» e che «*work will resume*».
+👉 **Nessun atto giuridico, non in vigore, zero certificati emessi.**
+
+1. **Nessun livello High contiene requisiti di sovranità**: rimossi il 22 marzo 2024, **mai reintrodotti**.
+   Il CADA formalizza il principio opposto: «*cybersecurity must be distinguished from sovereignty
+   requirements*» e «*Certification under the Cybersecurity Act… is not suited for addressing sovereignty
+   concerns*».
+2. **«High+» non è mai stato un livello formale**: il Cybersecurity Act (Reg. 2019/881, art. 52) ne prevede
+   tre. Era l'**etichetta negoziale** dei criteri di immunità.
+3. **La sovranità è rinata altrove**: i *Union assurance levels* 1-4 del CADA (art. 16 + All. II). Il
+   **livello 4** è nella sostanza l'High+ mancato — stabilimento UE, personale cittadino UE, nessun controllo
+   di paese terzo, supporto tecnico solo dall'UE, SBOM, separazione effettiva capogruppo/controllate extra-UE.
+   ⚠️ Ma vincola **gli appalti pubblici**, non il mercato, ed è **ancora una proposta in codecisione**.
+
+🚨 **Su sota.io**: la pagina è stata riletta e **nella versione online oggi afferma l'opposto** di quanto
+riportato in precedenza — «*Even EUCS High does not currently mandate that cloud providers be EU-incorporated
+or EU-controlled*». Contiene inoltre una colonna «EUCS Status (2026)» per singoli fornitori che è
+**inesistente**. **Confermato: non usare quelle tabelle come fonte.**
+
+### A15. 🔄 L'Italia ha chiesto la sovranità — e l'ha co-scritta. Narrativa da rovesciare
+**«L'Italia non ha chiesto la sovranità» è FALSO.** Va corretto ovunque.
+
+- **Luglio 2021** — l'Italia è **coautrice con Francia, Germania e Spagna** del non-paper che aggiungeva
+  **immunità dal diritto straniero** e localizzazione UE al livello «high» dell'EUCS. Prova indiretta ma
+  solida: esiste un documento olandese il cui *titolo* la nomina — «*Opinion of the Netherlands on the
+  non-paper by **DE, ES, FR and IT** on the EUCS requirements for immunity from non-EU laws*» (citato due
+  volte nel cepInput 8/2025). Fonte sull'autoria: Kenneth Propp, Cross-Border Data Forum, 13.9.2022 —
+  **fonte ostile ai requisiti, che nondimeno attesta la paternità italiana**.
+- **Dicembre 2022** — l'Italia **non firma** il non-paper contrario degli undici Stati (DK, EE, FI, EL, IE,
+  LV, LT, PL, SK, SE, NL).
+- **15-16 aprile 2024, ECCG** — l'ACN rappresenta l'Italia; il voto sulla proposta belga che rimuove la
+  sovranità è rinviato. Il **17 aprile Butti**, su *La Verità*: la proposta «*permetterebbe ai fornitori…
+  anche quelli che operano sotto la giurisdizione di governi esterni all'UE, di essere certificati come
+  sicuri*»; e «*altri paesi invece, tra cui l'Italia, hanno sollecitato l'adozione di standard più elevati
+  e rigorosi*».
+- **ACN, Relazione annuale al Parlamento**: lo schema dovrà «*contemperare le esigenze di mercato con le
+  istanze di autonomia e di non dipendenza da tecnologie extra-UE*».
+- **Fronte opposto italiano**: **AmCham Italy** firmataria nel maggio 2024 della dichiarazione per adottare
+  l'EUCS **senza** sovranità.
+- ✅ **Risolve il dubbio di A6**: **Aruba S.p.A. è firmataria certa** della lettera del **10 aprile 2024**
+  con TIM (fonte Reuters). ⚠️ È una lettera **diversa** da quella del 10 giugno 2024 di eucshighplus.eu:
+  per quest'ultima l'ambiguità «Aruba / arubanetworks» **resta valida**.
+
+> **🎯 LA TESI CORRETTA, ed è più forte di quella sbagliata:**
+> Il divario non è fra l'Italia e le sue parole. È **fra ciò che l'Italia ha chiesto a Bruxelles e ciò che
+> ha scritto in casa propria**. Per cinque anni ha premuto per la clausola di immunità a livello europeo e
+> ha perso. Negli stessi anni **non l'ha mai introdotta nel proprio schema nazionale** — l'unico strumento
+> che non dipendeva dal voto di nessun altro. E ora, con il CADA, la decisione torna agli Stati membri via
+> valutazione di rischio (art. 29): **quella valutazione non è ancora stata fatta.**
+
+⚠️ **Coalizione dei dodici (dic. 2023)**: **l'elenco non esiste in fonte pubblica**. L'EUISS cita «twelve
+Member States» senza nominarne alcuno tranne i Paesi Bassi. **L'esclusione dell'Italia è una deduzione
+solida, non un fatto accertato** — va detto così in onda.
+
+**Non pubblici**: il non-paper 2021, i verbali ECCG, le istruzioni di posizione ad ACN, l'elenco dei dodici.
+**Due strade a maggior rendimento**: (1) **accesso agli atti al Consiglio** (Reg. 1049/2001) per il non-paper
+DE/ES/FR/IT; (2) la **relazione del Governo ex art. 6 l. 234/2012** su COM(2026) 502 — atto parlamentare
+pubblico che contiene la posizione negoziale italiana.
+
 ---
 
 ## 🟡 B — SOLIDO, DA CONFERMARE PRIMA DELLA MESSA IN ONDA
@@ -322,7 +384,7 @@ Google $900M dal 2020 (region Milano e Torino con TIM) · Equinix €4 mld 2026-
 
 ---
 
-## ⚫ D — CONTRADDIZIONI DA RISOLVERE
+## ⚫ D — CONTRADDIZIONI ✅ RISOLTE
 
 ### D1. Stato reale dei livelli EUCS (🔴 bloccante)
 - **EUISS** (dossier 04): i requisiti di sovranità furono **rimossi** il 22/03/2024.
@@ -332,7 +394,7 @@ Non possono essere entrambe vere.
 🚨 **sota.io è un fornitore commerciale che elenca sé stesso tra i qualificabili**: conflitto d'interesse.
 🔗 https://sota.io/blog/eucs-cloud-assurance-levels-which-providers-qualify-eu-sovereignty-2026
 🔗 **Fonte da consultare per dirimere**: https://www.enisa.europa.eu/ (schema EUCS)
-*(approfondimento in corso — dossier 10)*
+✅ **RISOLTA — vedi A14: ha ragione EUISS. L'EUCS non è ancora stato adottato e nessun livello contiene requisiti di sovranità.** La pagina sota.io, riletta, oggi afferma essa stessa l'opposto di quanto le era stato attribuito.
 
 ---
 
@@ -341,7 +403,7 @@ Non possono essere entrambe vere.
 | # | Domanda aperta | Perché è importante | Dove cercare |
 |---|---|---|---|
 | ~~C1~~ | ~~Il Regolamento ACN contiene una clausola di immunità?~~ | ✅ **RISOLTO — vedi A7. Risposta: NO**, verificato sul testo integrale | — |
-| **C2** | Come si è espressa **l'Italia** nel negoziato ECCG sui criteri High+? Era tra i dodici Stati che ne chiesero la rimozione? | È l'informazione politicamente più pesante dell'intero progetto | Atti ECCG, posizioni ufficiali del Governo, eventuale accesso agli atti |
+| ~~C2~~ | ~~Come si è espressa l'Italia in sede ECCG?~~ | ✅ **RISOLTO — vedi A15. Ha co-scritto i criteri di immunità e ha perso** | — |
 | ~~C3~~ | ~~Quanto denaro PNRR è finito a fornitori USA?~~ | ✅ **RISOLTO — vedi A9. Non è tracciabile, e l'assenza è documentata** | — |
 | ~~C4~~ | ~~Quanti servizi qualificati ACN poggiano su tecnologia USA?~~ | ✅ **RISOLTO — vedi A10.** Catalogo analizzato: 2.107 schede, 826 fornitori | — |
 | **C5** | Esito finale della domanda risarcitoria Fastweb/Aruba (€ 579 mln richiesti) | Se lo Stato è stato condannato, è spesa pubblica causata dalla prelazione illegittima | giustizia-amministrativa.it; testi integrali TAR Lazio 4338/2023 e Cons. Stato 9210/2023 |
@@ -351,7 +413,7 @@ Non possono essere entrambe vere.
 | **C10** | Su quali infrastrutture sono finiti i dati delle scuole italiane migrate col PNRR? | Non esiste dato pubblico: sarebbe lo scoop del blocco scuola | FOIA al MIM + incrocio catalogo ACN / avvisi PNRR |
 | **C8** | **Aruba S.p.A.** è tra i firmatari EUCS High+? | Il link nell'elenco punta a HPE Aruba Networks | Verifica diretta presso la campagna |
 
-*(Risolti: C1 → A7 · C3 → A9 · C4 → A10 · C6 → A12 · C7 → A13. Resta in corso il dossier 10 sulla posizione dell'Italia in sede ECCG.)*
+*(Risolti: C1 → A7 · C2 → A15 · C3 → A9 · C4 → A10 · C6 → A12 · C7 → A13. Restano C5, C8, C9, C10 — tutte verifiche manuali su fonti non automatizzabili.)*
 
 ---
 
@@ -391,3 +453,12 @@ Non possono essere entrambe vere.
     sui canoni IP: ometterlo è manipolatorio, e la contro-parte lo sa.
 15. **Non dire che l'Assia ha vietato Microsoft nelle scuole**: quel divieto fu ritirato dopo tre settimane.
     Il caso solido è il **Baden-Württemberg**.
+16. **🔴 LA PIÙ IMPORTANTE — non dire «l'Italia non ha chiesto la sovranità»**: è falso. L'ha **co-scritta**
+    nel 2021 con Francia, Germania e Spagna, non ha firmato il non-paper contrario nel 2022, e nell'aprile
+    2024 il Sottosegretario ha pubblicamente contestato la rimozione. Il divario vero è **fra ciò che
+    l'Italia ha chiesto a Bruxelles e ciò che ha scritto in casa propria**. Chi ha seguito il dossier lo sa,
+    e la formulazione sbagliata ci farebbe passare per disinformati.
+17. **Non affermare che l'Italia era tra i dodici Stati che chiesero la rimozione**: quell'elenco **non
+    esiste in fonte pubblica**. È una deduzione, e va detta come tale.
+18. **Non dire che l'EUCS «sta per essere adottato»**: al giugno 2026 la Commissione stessa scrive che
+    «*non è ancora stato adottato*». Zero certificati emessi.
