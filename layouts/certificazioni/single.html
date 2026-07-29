@@ -206,6 +206,27 @@
     </div>
   </div>
 
+  <!-- FONTI -->
+  <div class="row justify-content-center mb-4">
+    <div class="col-lg-10">
+      <h2 class="mb-3">{{ if $isEN }}Sources and further reading{{ else }}Fonti e approfondimenti{{ end }}</h2>
+      <div class="link-list-wrapper">
+        <ul class="link-list">
+          <li><a class="list-item" href="https://learn.microsoft.com/en-us/partner-center/enroll/csp-national-clouds-overview" target="_blank" rel="noopener"><span>Microsoft Learn — <em>national clouds</em></span></a>
+            <p class="small text-muted ps-4 mb-2">{{ if $isEN }}Vendor's own documentation: how Microsoft's national clouds work and who operates them.{{ else }}Documentazione del fornitore: come funzionano i national cloud di Microsoft e chi li gestisce.{{ end }}</p></li>
+          <li><a class="list-item" href="https://eucshighplus.eu/" target="_blank" rel="noopener"><span>eucshighplus.eu</span></a>
+            <p class="small text-muted ps-4 mb-2">{{ if $isEN }}The campaign for the inclusion of High+ criteria, with the full list of supporters. Coordinated by Airbus.{{ else }}La campagna per l'inclusione dei criteri High+, con l'elenco completo dei sostenitori. Coordinata da Airbus.{{ end }}</p></li>
+          <li><a class="list-item" href="https://sovereignedge.eu/wp-content/uploads/2024/06/EUCS_OpenLetter_10June2024.pdf" target="_blank" rel="noopener"><span>{{ if $isEN }}Open letter of 10 June 2024 (PDF){{ else }}Lettera aperta del 10 giugno 2024 (PDF){{ end }}</span></a>
+            <p class="small text-muted ps-4 mb-2">{{ if $isEN }}The users' position: why voluntary High+ criteria do not distort the market.{{ else }}La posizione degli utenti: perché criteri High+ volontari non distorcono il mercato.{{ end }}</p></li>
+          <li><a class="list-item" href="https://www.erpimplementation.eu/en/erp-sovereign-cloud-europe-secnumcloud-hds-bsi-c5-2026/" target="_blank" rel="noopener"><span>{{ if $isEN }}Comparison of European certifications: SecNumCloud, HDS, BSI C5{{ else }}Confronto tra certificazioni europee: SecNumCloud, HDS, BSI C5{{ end }}</span></a>
+            <p class="small text-muted ps-4 mb-2">{{ if $isEN }}Specialist secondary source on the requirements of each scheme and which providers are certified.{{ else }}Fonte secondaria specializzata sui requisiti dei singoli schemi e sui fornitori certificati.{{ end }}</p></li>
+          <li><a class="list-item" href="https://sota.io/blog/eucs-cloud-assurance-levels-which-providers-qualify-eu-sovereignty-2026" target="_blank" rel="noopener"><span>sota.io — {{ if $isEN }}EUCS assurance levels and which providers qualify{{ else }}i livelli di assurance EUCS e quali fornitori qualificano{{ end }}</span></a>
+            <p class="small text-muted ps-4 mb-2">{{ if $isEN }}A detailed reading of the tiers and a provider-by-provider table. <strong>Read with care:</strong> the author is a commercial cloud provider that lists itself among the qualifying suppliers, and its description of the High tier conflicts with the documented removal of the sovereignty requirements in March 2024. Useful for understanding the debate, not to be used as an authoritative source on the scheme's current state.{{ else }}Lettura dettagliata dei livelli e tabella fornitore per fornitore. <strong>Da leggere con cautela:</strong> l'autore è un fornitore cloud commerciale che elenca sé stesso tra i qualificabili, e la sua descrizione del livello High confligge con la documentata rimozione dei requisiti di sovranità del marzo 2024. Utile per capire il dibattito, non utilizzabile come fonte autorevole sullo stato attuale dello schema.{{ end }}</p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
   <div class="row justify-content-center">
     <div class="col-lg-10">
       <p class="small text-muted">{{ if $isEN }}<strong>Verification note.</strong> The status of the sovereignty requirements in the EUCS scheme adopted in 2026 is disputed between sources and is being verified against the ENISA text. The absence of an immunity clause in the Italian ACN scheme results from the public documentation examined and is being verified against the operative text of Directorial Decree 21007/24. We will update this page as verification proceeds.{{ else }}<strong>Nota di verifica.</strong> Lo stato dei requisiti di sovranità nello schema EUCS adottato nel 2026 risulta discordante tra le fonti ed è in corso di verifica sul testo ENISA. L'assenza di una clausola di immunità nello schema italiano ACN risulta dalla documentazione pubblica esaminata ed è in corso di verifica sul testo operativo del Decreto Direttoriale 21007/24. Aggiorneremo questa pagina man mano che le verifiche procedono.{{ end }}</p>
