@@ -113,6 +113,62 @@ d'administration et de supervision du service doivent être réalisées depuis l
 Fornitori e va aperto a mano (non incide sulla risposta: i requisiti sono nell'Allegato 4, letto per intero).
 Nessuna determinazione successiva modificativa rinvenuta — affidabilità MEDIA su questo punto specifico.
 
+### A8. 🔥 La gara del cloud di Stato fu vinta da Aruba e Fastweb — non dalla cordata che gestisce il PSN
+**AFFIDABILITÀ ALTA** — Corte dei conti, Delib. 30/2024/G (7 febbraio 2024), p. 16, testuale:
+«*il 22 giugno 2022 la gara è stata aggiudicata al RTI costituito da **Aruba e Fastweb** (mandataria);
+il **7 luglio 2022**, il RTI promotore ha esercitato il **diritto di prelazione** previsto dalla procedura
+di gara. Pertanto, la realizzazione e la gestione del PSN sono state affidate all'operatore economico
+costituito dal raggruppamento **Sogei, Leonardo, C.D.P Equity e Tim**.*»
+L'offerta vincente aveva uno sconto medio del **39,19%**.
+
+**Il contenzioso** — TAR Lazio n. 4338/2023 dichiarò **inammissibile l'offerta del RTI TIM** per due difetti
+fisici: distanza minima di 500 km fra le due region (rispettata solo sulla direttrice Pomezia–Santo Stefano
+Ticino, **513 km**) e rischio sismico di **Pomezia, passata da zona 3 a 2B**. Il **Consiglio di Stato,
+Sez. V, 24 ottobre 2023, n. 9210** ha confermato accertando **l'illegittimo esercizio della prelazione**;
+la Corte dei conti registra che l'Amministrazione voleva impugnare anche l'accertamento, nella motivazione,
+«*addirittura di un "affidamento diretto" della concessione*».
+Il raggruppamento ha però **continuato a gestire il PSN**: per le opere PNRR l'art. 125 c.p.a. (richiamato
+dall'art. 48 c. 4 d.l. 77/2021) esclude subentro e inefficacia del contratto — il rimedio è solo risarcitorio.
+**Risarcimenti richiesti: Fastweb € 551.938.000 · Aruba € 27.126.000 · totale € 579.064.000.**
+
+⚠️ **CONTRO-ARGOMENTO OBBLIGATORIO**: il diritto di prelazione del promotore era **previsto ex ante dalla
+lex specialis** (art. 183 c. 15 d.lgs. 50/2016) e noto a tutti i concorrenti. Non fu un espediente
+sopravvenuto. Il contro-contro-argomento è che il Consiglio di Stato ha accertato illegittimo *quell'esercizio*.
+🔴 **DA VERIFICARE, priorità alta**: l'esito finale della domanda risarcitoria (giustizia-amministrativa.it)
+e i testi integrali di TAR Lazio 4338/2023 e Cons. Stato Sez. V 9210/2023.
+
+### A9. Il denaro non è tracciabile — ed è un'assenza documentata, non una supposizione
+Scaricati i dataset ufficiali del DTD: **22.162 candidature finanziate** sulla misura 1.2 per
+**€ 1.343.231.660**, venti colonne, **nessun campo fornitore**. Verifica diretta e riproducibile.
+**Tre cause strutturali documentate**: (1) erogazione a *lump sum*, che elimina la rendicontazione delle
+fatture; (2) il DTD si dichiara per iscritto «*estraneo al rapporto*» tra amministrazione e concessionario;
+(3) **10.947 scuole e 10.887 comuni** sono stazioni appaltanti autonome.
+
+> **La conclusione sostenibile non è «miliardi finiti in America» — non ne abbiamo la prova. È: l'Italia ha
+> speso 1,9 miliardi per la sovranità digitale costruendo un sistema in cui è impossibile sapere quanta parte
+> di quel denaro abbia comprato tecnologia sovrana. L'opacità è il fatto verificabile.**
+
+⚠️ Due punti da chiarire col DTD: il totale di € 1,343 mld **eccede la dotazione di 1.000 mln**, e manca la
+legenda ufficiale degli stati `E`/`R`/`A`.
+
+### A10. Composizione del catalogo ACN — Google è il primo fornitore del cloud della PA italiana
+Catalogo scaricato e analizzato (**2.107 schede, 826 fornitori**): **Google Cloud Italy è il primo fornitore
+con 59 servizi qualificati**. Il PSN vende sei servizi denominati alla lettera «*Secure Public Cloud Amazon
+Web Services / Microsoft / Google*».
+⚖️ **Contro-fatto onesto da riportare**: i **nove servizi di livello massimo (QC4)** sono tutti e soli
+nativi PSN. **Sulla fascia dei dati strategici la linea tiene.** Va detto.
+
+### A11. Non solo non esiste un vincolo a comprare europeo: la legge vieta di discriminare gli USA
+**Art. 69 d.lgs. 36/2023** obbliga a trattare gli operatori statunitensi **non meno favorevolmente**, in
+quanto firmatari dell'Accordo sugli appalti pubblici dell'OMC. L'**IPI (Reg. UE 2022/1031)** è per
+costruzione **inapplicabile ai firmatari dell'AAP**: è strutturalmente cieco proprio verso il maggiore
+fornitore extra-UE.
+
+> 🔑 **Perché questo rafforza la tesi invece di indebolirla**: non si *può* escludere Microsoft per legge —
+> e infatti la Francia non l'ha fatto. Ha scritto un **requisito di sicurezza** che un fornitore soggetto a
+> legge extra-UE non può soddisfare se non ristrutturandosi. **La via della certificazione non è una
+> preferenza: è l'unica porta compatibile con il diritto degli appalti.**
+
 ---
 
 ## 🟡 B — SOLIDO, DA CONFERMARE PRIMA DELLA MESSA IN ONDA
@@ -190,14 +246,14 @@ Non possono essere entrambe vere.
 |---|---|---|---|
 | ~~C1~~ | ~~Il Regolamento ACN contiene una clausola di immunità?~~ | ✅ **RISOLTO — vedi A7. Risposta: NO**, verificato sul testo integrale | — |
 | **C2** | Come si è espressa **l'Italia** nel negoziato ECCG sui criteri High+? Era tra i dodici Stati che ne chiesero la rimozione? | È l'informazione politicamente più pesante dell'intero progetto | Atti ECCG, posizioni ufficiali del Governo, eventuale accesso agli atti |
-| **C3** | Quanto denaro PNRR è finito a fornitori statunitensi? | Se non è tracciabile, **l'impossibilità di tracciarlo è essa stessa la notizia** | Contratti Consip, accordi quadro, rendicontazione misure 1.1 e 1.2, Corte dei conti |
-| **C4** | Quanti dei servizi qualificati ACN poggiano su tecnologia USA? | Serve per dire «su N servizi qualificati, M sono su tecnologia statunitense». Senza il conteggio, niente numeri | Catalogo ACN dei servizi qualificati (*lead non confermato: ~2.285 voci*) |
-| **C5** | Composizione e quote societarie del PSN; ingresso di AWS nel PSN | Base fattuale del blocco PSN | Atti di aggiudicazione, visure, comunicati |
+| ~~C3~~ | ~~Quanto denaro PNRR è finito a fornitori USA?~~ | ✅ **RISOLTO — vedi A9. Non è tracciabile, e l'assenza è documentata** | — |
+| ~~C4~~ | ~~Quanti servizi qualificati ACN poggiano su tecnologia USA?~~ | ✅ **RISOLTO — vedi A10.** Catalogo analizzato: 2.107 schede, 826 fornitori | — |
+| **C5** | Esito finale della domanda risarcitoria Fastweb/Aruba (€ 579 mln richiesti) | Se lo Stato è stato condannato, è spesa pubblica causata dalla prelazione illegittima | giustizia-amministrativa.it; testi integrali TAR Lazio 4338/2023 e Cons. Stato 9210/2023 |
 | **C6** | Tenuta del **Data Privacy Framework** e stato del PCLOB | È la replica standard: «col DPF il problema è risolto». Senza risposta siamo scoperti | Decisione di adeguatezza 10/07/2023, causa Latombe, EDPB |
 | **C7** | Asimmetria USA/Cina/UE e lock-in scolastico | Due atti interi del documentario | FedRAMP, Buy American Act, IPI Reg. 2022/1031, decisioni Garanti privacy UE su scuole |
 | **C8** | **Aruba S.p.A.** è tra i firmatari EUCS High+? | Il link nell'elenco punta a HPE Aruba Networks | Verifica diretta presso la campagna |
 
-*(C1 risolto → A7. C2, C3, C6, C7 hanno approfondimenti in corso — dossier 10, 03, 01b, 05)*
+*(C1 → A7 · C3 → A9 · C4 → A10, risolti. C2, C6, C7 hanno approfondimenti in corso — dossier 10, 01b, 05)*
 
 ---
 
@@ -219,3 +275,11 @@ Non possono essere entrambe vere.
    integralmente è ciò che rende la citazione inattaccabile.
 7. **Non presentare il modello cinese come tutela dei diritti**: risponde a esigenze di controllo statale.
    L'argomento corretto è solo strutturale — *quando un governo lo impone, il modello si realizza*.
+8. **Non confondere base d'asta e spesa effettiva.** I «2,7 miliardi» del PSN **non sono soldi che lo Stato
+   versa**: sono il tetto di valore della concessione, cioè il fatturato potenziale massimo generabile in
+   tredici anni vendendo servizi alle PA. La Corte dei conti segnala che è *l'errore giornalistico più
+   frequente su questo dossier*. Farlo in TV significa regalare la replica.
+9. **Non dire che la prelazione fu un espediente**: era prevista dal bando e nota a tutti prima delle offerte.
+   Il fatto è un altro, ed è più forte: **il Consiglio di Stato ha accertato che quell'esercizio fu illegittimo**.
+10. **Non dire che gli americani hanno il livello massimo di qualificazione**: i nove servizi QC4 sono tutti
+    e soli nativi PSN. Dirlo rafforza la nostra credibilità sul resto.
