@@ -169,6 +169,102 @@ fornitore extra-UE.
 > legge extra-UE non può soddisfare se non ristrutturandosi. **La via della certificazione non è una
 > preferenza: è l'unica porta compatibile con il diritto degli appalti.**
 
+### A12. Il Data Privacy Framework **non copre** il CLOUD Act — e lo dice per iscritto ✅ *(era C6, risolto)*
+È la replica standard dei fornitori: «col DPF il problema è risolto». Ora abbiamo la confutazione su fonte
+primaria, e sta in tre reperti.
+
+**1. Il DPF cede il passo, testualmente.** *DPF Principles*, Principio I.5(a), letto verbatim sul PDF del
+Dipartimento del Commercio USA: «*Adherence to these Principles may be limited: (a) to the extent necessary
+to comply with a **court order** or meet public interest, **law enforcement**, or national security
+requirements…*»
+🎯 Un mandato §2703 **è letteralmente** una di quelle cose. **Il DPF non limita il CLOUD Act: gli cede il
+passo per iscritto.**
+
+**2. Chi subisce un ordine CLOUD Act non ha accesso al tribunale del ricorso.** EO 14086, Sez. 4: una
+*covered violation* è quella che «*arises from **signals intelligence activities***». Un ordine di procedura
+penale non lo è → **niente DPRC**. Confermato indipendentemente da COM(2024) 451.
+
+**3. La Commissione, certificando il DPF, non ha esaminato lo strumento.** COM(2024) 451 final (22 pp.,
+letto integralmente): ricerca full-text → **0 occorrenze di «CLOUD Act»**, e testualmente «*the below
+findings only concern developments in the area of **national security***».
+
+**Il resto del quadro, tutto da fonte primaria:**
+- **La Commissione aveva indicato dove si sarebbe rotto** (COM(2024) 451, conclusione, ottobre 2024):
+  vigilare su rapporti PCLOB, modifiche alla 702, nomine PCLOB. **Tutti e tre sono poi saltati.**
+  Contestualmente ha diradato le revisioni a **tre anni** — prossima nel **2027**.
+- **PCLOB senza quorum dal 27 gennaio 2025**: prova materiale nel *Staff Report* del 25 settembre 2025,
+  uscito come rapporto dello staff endorsato da **un solo** membro (Beth A. Williams).
+- **Formula fissa di risposta al ricorrente** (EO 14086 §3(d)(i)(H)), verbatim: nessuna motivazione, e
+  «*without confirming or denying*».
+- **Latombe T-553/23** (respinto il 3/9/2025) con il limite decisivo: il Tribunale ha giudicato la situazione
+  **al 10 luglio 2023**. Impugnazione depositata il 31/10/2025.
+- **Trump v. Slaughter** (29 giugno 2026, 6-3) supera *Humphrey's Executor*; noyb ha chiesto il ritiro
+  dell'adeguatezza lo stesso giorno, la Commissione «valuterà».
+  ⚖️ **Esiste però una contro-analisi forte** (Christakis/Propp/Swire, IAPP, 8 luglio 2026) secondo cui la
+  sentenza non travolge la DPRC. **Va citata per prima, non per ultima**: anticiparla ci rende inattaccabili.
+
+⚠️ **Accessi falliti dichiarati**: eur-lex (decisione 2023/1795), curia, europarl, edpb.europa.eu, justice.gov,
+federalregister.gov (l'EO è stato letto su *The American Presidency Project*). Il numero della causa d'appello
+CGUE (C-703/25 P) e l'ECLI della sentenza Latombe sono **DA VERIFICARE**.
+🔗 Il dossier `01b` elenca **18 URL primari** da aprire a mano.
+
+### A13. ⚠️ L'asimmetria esiste, ma NON funziona come credevamo — tesi corretta ✅ *(era C7)*
+
+**Tre assunti di partenza sono risultati SBAGLIATI e vanno abbandonati:**
+
+❌ **«Il Buy American Act impedisce di comprare tecnologia europea».** Falso, e c'è la prova nel testo:
+la **FAR 25.103(e)** contiene un'**esenzione esplicita per l'information technology che sia *commercial
+product***. Inoltre il BAA copre solo *supplies* e materiali da costruzione, **non i servizi**. Il Berry
+Amendment riguarda cibo, tessuti, calzature e bandiere.
+🚨 **Se in TV diciamo «gli USA escludono per legge il software europeo», veniamo smentiti in cinque minuti.**
+
+❌ **«FedRAMP impone la cittadinanza statunitense al personale».** Falso: l'ufficio FedRAMP ha scritto
+«*there is no government-wide requirement on citizenship*». L'obbligo di dichiarare proprietà/controllo/
+influenza straniera (**FOCI Declaration**, policy A2LA R311, in attuazione del §3612 del FedRAMP
+Authorization Act) è imposto ai **3PAO — gli auditor**, non ai fornitori cloud. Il divieto esplicito su
+cittadinanza e localizzazione esiste solo nel **DoD Cloud SRG** per i livelli IL4/IL5, cioè **solo Difesa**.
+L'esclusione reale è la **somma di quattro strati**, nessuno dei quali dice «vietato agli europei».
+
+❌ **«Il Documento 79 cinese ordina di rimuovere il software straniero».** Trappola documentata: **CSET
+(Georgetown)** ha tradotto il documento SASAC n. 79/2022 e annota testualmente che «*the publicly available
+version of Document 79 translated below does not mention anything about removing foreign software*». La
+storia «Delete America» viene dal *Wall Street Journal* (7 marzo 2024), su **fonti anonime** e un documento
+non copiabile.
+✅ **Sostituirlo con la lista MIIT/CISEC del 26 dicembre 2023** — 18 CPU, 6 sistemi operativi, 11 database,
+tutti cinesi: pubblica e verificabile.
+
+**Quello che invece REGGE ed è più forte:**
+
+🎯 **Priorità 1 da verificare a mano — potrebbe essere il fatto più forte dell'intero blocco**: contare sul
+**FedRAMP Marketplace** quanti CSP con casa madre europea siano autorizzati. L'unico caso emerso è
+**SAP NS2**, che è una controllata **statunitense** di SAP.
+> Se confermato: **per vendere al governo americano un europeo deve diventare americano — esattamente ciò
+> che l'Europa non chiede agli americani.** Questa è l'asimmetria vera, e non ha bisogno di leggi inventate.
+
+**IPI**: attivato **una sola volta in tre anni** — Reg. esec. (UE) 2025/1197, 19 giugno 2025, contro la Cina,
+dispositivi medici sopra 5 M€. **Mai contro gli USA, mai sul digitale.** L'FSR ha soglie da 250 M€,
+inutilizzabile per un ente locale.
+**CADA** (COM(2026) 502, 3 giugno 2026): introduce quattro livelli di sovranità e il Livello 3 richiede
+«*personnel citizenship*» — **l'UE copia il meccanismo americano** — ma la preferenza europea è
+dichiaratamente «*ancillary and not decisive*». Revisione delle direttive appalti slittata a settembre 2026.
+
+⚖️ **Dato che contraddice la nostra tesi e va citato comunque**: Eurostat mostra un disavanzo UE di
+**126,3 mld €** sui canoni di proprietà intellettuale, ma un **avanzo di 60,4 mld €** sui servizi di
+telecomunicazione e informatica (effetto Irlanda). **Ometterlo sarebbe manipolatorio.**
+
+**Tema scuola — il vuoto è la notizia:**
+Non esiste **alcun dato pubblico** su quante scuole italiane usino Google o Microsoft. Nella misura 1.2 le
+scuole sono conteggiate dentro le «oltre 12.700 PA locali e scuole»: **un target europeo certificato senza
+che sia pubblico su quali infrastrutture siano finiti i dati degli studenti.**
+→ FOIA al MIM + incrocio del catalogo ACN con gli avvisi PNRR: **sarebbe lo scoop del blocco**.
+
+⚠️ **Il «lock-in di competenze» non regge come vorremmo**: nessuno studio empirico longitudinale reperito.
+Esiste advocacy (FSFE, 2011) e letteratura sul lock-in *istituzionale* (LiMux/Monaco), che è altra cosa.
+⚠️ **Due casi europei finiscono con un adeguamento, non con un'espulsione**: Paesi Bassi (SURF/SIVON
+rinegoziano con Google) ed EDPS/Commissione. Il caso forte è il **Baden-Württemberg**, che ha davvero
+rinunciato a M365 nelle scuole. Il «divieto dell'Assia 2019» fu **ritirato dopo tre settimane**, e nel
+novembre 2025 l'HBDI avrebbe dichiarato M365 conforme — **verifica urgente**.
+
 ---
 
 ## 🟡 B — SOLIDO, DA CONFERMARE PRIMA DELLA MESSA IN ONDA
@@ -249,11 +345,13 @@ Non possono essere entrambe vere.
 | ~~C3~~ | ~~Quanto denaro PNRR è finito a fornitori USA?~~ | ✅ **RISOLTO — vedi A9. Non è tracciabile, e l'assenza è documentata** | — |
 | ~~C4~~ | ~~Quanti servizi qualificati ACN poggiano su tecnologia USA?~~ | ✅ **RISOLTO — vedi A10.** Catalogo analizzato: 2.107 schede, 826 fornitori | — |
 | **C5** | Esito finale della domanda risarcitoria Fastweb/Aruba (€ 579 mln richiesti) | Se lo Stato è stato condannato, è spesa pubblica causata dalla prelazione illegittima | giustizia-amministrativa.it; testi integrali TAR Lazio 4338/2023 e Cons. Stato 9210/2023 |
-| **C6** | Tenuta del **Data Privacy Framework** e stato del PCLOB | È la replica standard: «col DPF il problema è risolto». Senza risposta siamo scoperti | Decisione di adeguatezza 10/07/2023, causa Latombe, EDPB |
-| **C7** | Asimmetria USA/Cina/UE e lock-in scolastico | Due atti interi del documentario | FedRAMP, Buy American Act, IPI Reg. 2022/1031, decisioni Garanti privacy UE su scuole |
+| ~~C6~~ | ~~Tenuta del Data Privacy Framework?~~ | ✅ **RISOLTO — vedi A12. Il DPF non copre il CLOUD Act e lo dice per iscritto** | — |
+| ~~C7~~ | ~~Asimmetria USA/Cina/UE e scuola~~ | ✅ **RISOLTO — vedi A13, con tre assunti di partenza CORRETTI** | — |
+| **C9** | Quanti CSP con casa madre europea sono autorizzati FedRAMP? | Se la risposta è «zero, salvo chi si è fatto americano», è il fatto più forte del blocco asimmetria | FedRAMP Marketplace (verifica manuale) |
+| **C10** | Su quali infrastrutture sono finiti i dati delle scuole italiane migrate col PNRR? | Non esiste dato pubblico: sarebbe lo scoop del blocco scuola | FOIA al MIM + incrocio catalogo ACN / avvisi PNRR |
 | **C8** | **Aruba S.p.A.** è tra i firmatari EUCS High+? | Il link nell'elenco punta a HPE Aruba Networks | Verifica diretta presso la campagna |
 
-*(C1 → A7 · C3 → A9 · C4 → A10, risolti. C2, C6, C7 hanno approfondimenti in corso — dossier 10, 01b, 05)*
+*(Risolti: C1 → A7 · C3 → A9 · C4 → A10 · C6 → A12 · C7 → A13. Resta in corso il dossier 10 sulla posizione dell'Italia in sede ECCG.)*
 
 ---
 
@@ -283,3 +381,13 @@ Non possono essere entrambe vere.
    Il fatto è un altro, ed è più forte: **il Consiglio di Stato ha accertato che quell'esercizio fu illegittimo**.
 10. **Non dire che gli americani hanno il livello massimo di qualificazione**: i nove servizi QC4 sono tutti
     e soli nativi PSN. Dirlo rafforza la nostra credibilità sul resto.
+11. **Non dire «il Buy American Act esclude il software europeo»**: la FAR 25.103(e) esenta l'IT commerciale
+    e il BAA non copre i servizi. È l'errore che ci farebbe smontare più in fretta di tutti.
+12. **Non dire «FedRAMP impone la cittadinanza americana»**: l'obbligo FOCI riguarda gli **auditor 3PAO**,
+    non i fornitori cloud. Il divieto su cittadinanza esiste solo nel DoD Cloud SRG, cioè solo per la Difesa.
+13. **Non citare il «Documento 79» cinese come ordine di rimuovere il software straniero**: la versione
+    pubblica tradotta da CSET non lo dice. Usare invece la lista MIIT/CISEC del 26 dicembre 2023.
+14. **Non omettere l'avanzo di 60,4 mld € sui servizi informatici** quando si cita il disavanzo di 126,3 mld
+    sui canoni IP: ometterlo è manipolatorio, e la contro-parte lo sa.
+15. **Non dire che l'Assia ha vietato Microsoft nelle scuole**: quel divieto fu ritirato dopo tre settimane.
+    Il caso solido è il **Baden-Württemberg**.
