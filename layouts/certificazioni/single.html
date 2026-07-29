@@ -1,0 +1,216 @@
+{{ define "main" }}
+{{ $isEN := eq site.Language.Lang "en" }}
+{{ $spritesURL := "https://cdn.jsdelivr.net/npm/bootstrap-italia@2.18.1/dist/svg/sprites.svg" }}
+<div class="container-xxl section-spacing-lg">
+
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <h1 class="mb-2">{{ .Title }}</h1>
+      <p class="lead mb-4">{{ if $isEN }}Five different things are all called &ldquo;sovereign cloud&rdquo;. Only one of them actually removes the jurisdiction of a foreign state. This page puts them in order — and shows that the solution already exists, has a name, and has already been built elsewhere.{{ else }}Cinque cose diverse vengono chiamate tutte &laquo;cloud sovrano&raquo;. Una sola toglie davvero di mezzo la giurisdizione di uno Stato straniero. Questa pagina le mette in fila — e mostra che la soluzione esiste già, ha un nome, ed è già stata realizzata altrove.{{ end }}</p>
+    </div>
+  </div>
+
+  <!-- LA SCALA -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <h2 class="mb-3">{{ if $isEN }}The ladder: five levels, only two protect you{{ else }}La scala: cinque livelli, solo due proteggono{{ end }}</h2>
+      <div class="table-responsive">
+        <table class="table table-bordered align-middle">
+          <thead class="table-primary">
+            <tr>
+              <th scope="col" style="width:5%">#</th>
+              <th scope="col" style="width:27%">{{ if $isEN }}Model{{ else }}Modello{{ end }}</th>
+              <th scope="col" style="width:30%">{{ if $isEN }}Examples{{ else }}Esempi{{ end }}</th>
+              <th scope="col">{{ if $isEN }}Exposure to the CLOUD Act{{ else }}Esposizione al CLOUD Act{{ end }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>0</strong></td>
+              <td>{{ if $isEN }}Global US cloud{{ else }}Cloud globale statunitense{{ end }}</td>
+              <td class="small">Azure, AWS, Google Cloud</td>
+              <td><span class="badge bg-danger">{{ if $isEN }}Full{{ else }}Piena{{ end }}</span></td>
+            </tr>
+            <tr>
+              <td><strong>1</strong></td>
+              <td>{{ if $isEN }}<strong>Data residency</strong> in the EU{{ else }}<strong>Residenza del dato</strong> in UE{{ end }}</td>
+              <td class="small">{{ if $isEN }}&ldquo;EU Data Boundary&rdquo;, European regions{{ else }}&laquo;EU Data Boundary&raquo;, region europee{{ end }}</td>
+              <td><span class="badge bg-danger">{{ if $isEN }}Full{{ else }}Piena{{ end }}</span> <span class="small text-muted">{{ if $isEN }}— it protects geography, not jurisdiction{{ else }}— protegge la geografia, non la giurisdizione{{ end }}</span></td>
+            </tr>
+            <tr>
+              <td><strong>2</strong></td>
+              <td>{{ if $isEN }}<strong>Contractual sovereignty</strong> offered by the hyperscalers{{ else }}<strong>Sovranità contrattuale</strong> degli hyperscaler{{ end }}</td>
+              <td class="small">AWS European Sovereign Cloud, Microsoft Cloud for Sovereignty, Google Assured Workloads</td>
+              <td><span class="badge bg-danger">{{ if $isEN }}Full{{ else }}Piena{{ end }}</span> <span class="small text-muted">{{ if $isEN }}— the parent company remains American{{ else }}— la capogruppo resta statunitense{{ end }}</span></td>
+            </tr>
+            <tr class="table-success">
+              <td><strong>3</strong></td>
+              <td>{{ if $isEN }}<strong>Trusted cloud</strong>: US technology <strong>under licence</strong>, operated by an <strong>independent European entity</strong>{{ else }}<strong>Cloud di fiducia</strong>: tecnologia statunitense <strong>in licenza</strong>, operata da un'<strong>entità europea indipendente</strong>{{ end }}</td>
+              <td class="small"><strong>Bleu</strong> (Orange + Capgemini {{ if $isEN }}on{{ else }}su{{ end }} Azure)<br><strong>S3NS</strong> (Thales + Google)</td>
+              <td><span class="badge bg-success">{{ if $isEN }}Excluded{{ else }}Esclusa{{ end }}</span> <span class="small text-muted">{{ if $isEN }}— if SecNumCloud-qualified{{ else }}— se qualificato SecNumCloud{{ end }}</span></td>
+            </tr>
+            <tr class="table-success">
+              <td><strong>4</strong></td>
+              <td>{{ if $isEN }}<strong>Native European infrastructure</strong>{{ else }}<strong>Infrastruttura europea nativa</strong>{{ end }}</td>
+              <td class="small">OVHcloud, IONOS, Scaleway, Deutsche Telekom, Aruba, Seeweb</td>
+              <td><span class="badge bg-success">{{ if $isEN }}None{{ else }}Nessuna{{ end }}</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="small text-muted">{{ if $isEN }}Levels 1 and 2 are the two most common misunderstandings: where the data sits and what the contract says do not change who is legally compelled to hand it over.{{ else }}I livelli 1 e 2 sono i due equivoci più diffusi: dove sta il dato e cosa dice il contratto non cambiano chi è giuridicamente obbligato a consegnarlo.{{ end }}</p>
+    </div>
+  </div>
+
+  <!-- IL LIVELLO 3 ESISTE GIÀ -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <div class="callout callout-highlight important">
+        <div class="callout-title">
+          <svg class="icon"><use href="{{ $spritesURL }}#it-check-circle"></use></svg>
+          <span>{{ if $isEN }}The solution is not theoretical: Microsoft already does it{{ else }}La soluzione non è teorica: Microsoft lo fa già{{ end }}</span>
+        </div>
+        <p>{{ if $isEN }}Microsoft operates &ldquo;national clouds&rdquo;: instances that are physically and logically isolated, confined within a country's borders and <strong>run by local personnel</strong>. In China, Microsoft does not operate the service at all — it licenses the technology to a local company.{{ else }}Microsoft gestisce i cosiddetti &laquo;national cloud&raquo;: istanze isolate fisicamente e logicamente, confinate entro i confini di un Paese e <strong>gestite da personale locale</strong>. In Cina, Microsoft non gestisce affatto il servizio: concede la tecnologia in licenza a un'azienda locale.{{ end }}</p>
+        <blockquote class="blockquote mb-2" style="font-size:1.05rem;font-style:italic;">
+          {{ if $isEN }}&ldquo;Microsoft is the technology provider, but <strong>Microsoft doesn't operate the service</strong>. 21Vianet independently operates, provides, and manages the delivery of Microsoft cloud services… and operate Azure and Office 365 datacenters that keep data within China.&rdquo;{{ else }}&laquo;Microsoft è il fornitore della tecnologia, ma <strong>Microsoft non gestisce il servizio</strong>. 21Vianet gestisce, fornisce e amministra in modo indipendente l'erogazione dei servizi cloud Microsoft… e gestisce data center Azure e Office 365 che mantengono i dati in Cina.&raquo;{{ end }}
+        </blockquote>
+        <p class="small text-muted mb-0">{{ if $isEN }}Microsoft Learn — <a href="https://learn.microsoft.com/en-us/partner-center/enroll/csp-national-clouds-overview" target="_blank" rel="noopener">Microsoft national clouds</a> (official vendor documentation).{{ else }}Microsoft Learn — <a href="https://learn.microsoft.com/en-us/partner-center/enroll/csp-national-clouds-overview" target="_blank" rel="noopener">Microsoft national clouds</a> (documentazione ufficiale del fornitore).{{ end }}</p>
+      </div>
+      <p class="mt-3">{{ if $isEN }}The United States demanded a cloud run under its own rules: Microsoft built it. China demanded a cloud run by a Chinese company: Microsoft licensed the technology and stepped out of operations. France demanded it: Bleu and S3NS were created. <strong>Italy has not demanded it — and does not have it.</strong> This is not a technical or commercial obstacle: it is a matter of political demand.{{ else }}Gli Stati Uniti hanno preteso un cloud gestito secondo le proprie regole: Microsoft l'ha costruito. La Cina ha preteso un cloud gestito da un'azienda cinese: Microsoft ha concesso la tecnologia in licenza e si è tirata fuori dalla gestione. La Francia l'ha preteso: sono nati Bleu e S3NS. <strong>L'Italia non l'ha preteso, e infatti non ce l'ha.</strong> Non è un ostacolo tecnico né commerciale: è una questione di domanda politica.{{ end }}</p>
+    </div>
+  </div>
+
+  <!-- CERTIFICAZIONI -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <h2 class="mb-3">{{ if $isEN }}Which certification actually contains the immunity clause{{ else }}Quale certificazione contiene davvero la clausola di immunità{{ end }}</h2>
+      <div class="table-responsive">
+        <table class="table table-bordered align-middle">
+          <thead class="table-primary">
+            <tr>
+              <th scope="col">{{ if $isEN }}Scheme{{ else }}Schema{{ end }}</th>
+              <th scope="col">{{ if $isEN }}Country{{ else }}Paese{{ end }}</th>
+              <th scope="col">{{ if $isEN }}Immunity from non-EU law{{ else }}Immunità da leggi extra-UE{{ end }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-success">
+              <td><strong>SecNumCloud 3.2</strong> (ANSSI)</td>
+              <td>🇫🇷 {{ if $isEN }}France{{ else }}Francia{{ end }}</td>
+              <td><strong>{{ if $isEN }}YES{{ else }}SÌ{{ end }}</strong> — {{ if $isEN }}immunity from extraterritorial legislation, <strong>European control of capital</strong>, European operational staff. The only national scheme that <em>structurally</em> excludes the CLOUD Act{{ else }}immunità dalle legislazioni extraterritoriali, <strong>controllo europeo del capitale</strong>, personale operativo europeo. L'unico schema nazionale che esclude <em>strutturalmente</em> il CLOUD Act{{ end }}</td>
+            </tr>
+            <tr>
+              <td><strong>HDS</strong></td>
+              <td>🇫🇷 {{ if $isEN }}France{{ else }}Francia{{ end }}</td>
+              <td>{{ if $isEN }}Mandatory for health data; separate from SecNumCloud{{ else }}Obbligatoria per i dati sanitari; distinta da SecNumCloud{{ end }}</td>
+            </tr>
+            <tr>
+              <td><strong>BSI C5</strong></td>
+              <td>🇩🇪 {{ if $isEN }}Germany{{ else }}Germania{{ end }}</td>
+              <td>{{ if $isEN }}<strong>NO</strong> — a catalogue of requirements with independent auditor attestations{{ else }}<strong>NO</strong> — catalogo di requisiti con attestazioni di auditor indipendenti{{ end }}</td>
+            </tr>
+            <tr>
+              <td><strong>EUCS</strong></td>
+              <td>🇪🇺 {{ if $isEN }}EU{{ else }}UE{{ end }}</td>
+              <td>{{ if $isEN }}<strong>Contested</strong> — the sovereignty requirements were removed from the March 2024 draft. Their reinstatement is what &ldquo;High+&rdquo; is about{{ else }}<strong>Contestata</strong> — i requisiti di sovranità furono rimossi dalla bozza del marzo 2024. La loro reintroduzione è precisamente ciò che si chiama &laquo;High+&raquo;{{ end }}</td>
+            </tr>
+            <tr class="table-warning">
+              <td><strong>{{ if $isEN }}ACN qualification{{ else }}Qualificazione ACN{{ end }}</strong></td>
+              <td>🇮🇹 {{ if $isEN }}Italy{{ else }}Italia{{ end }}</td>
+              <td>{{ if $isEN }}<strong>Not found</strong> in the public documentation examined. The Italian scheme is built on data classification, security measures and localisation — not on jurisdictional immunity{{ else }}<strong>Non risulta</strong> nella documentazione pubblica esaminata. Lo schema italiano è costruito su classificazione dei dati, misure di sicurezza e localizzazione — non sull'immunità giurisdizionale{{ end }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="small text-muted">{{ if $isEN }}SecNumCloud-qualified as of mid-2026: <strong>OVHcloud</strong>; <strong>S3NS</strong> (qualified in late 2025, 30 services with a roadmap to 150). <strong>Bleu</strong> applied in 2025–2026 and had not yet obtained qualification.{{ else }}Qualificati SecNumCloud a metà 2026: <strong>OVHcloud</strong>; <strong>S3NS</strong> (qualificazione ottenuta a fine 2025, 30 servizi con roadmap a 150). <strong>Bleu</strong> ha presentato domanda nel 2025-2026 e non aveva ancora ottenuto la qualificazione.{{ end }}</p>
+    </div>
+  </div>
+
+  <!-- EUCS HIGH+ -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <h2 class="mb-3">{{ if $isEN }}EUCS High+: what it actually is{{ else }}EUCS High+: che cosa è davvero{{ end }}</h2>
+      <p>{{ if $isEN }}&ldquo;High+&rdquo; is not a higher technical tier. It is the level that adds the <strong>legal</strong> protection: the <em>immunity criteria</em>. In substance, it is what France already has in SecNumCloud, raised to a European standard.{{ else }}&laquo;High+&raquo; non è un livello tecnico superiore. È il livello che aggiunge la protezione <strong>giuridica</strong>: i <em>criteri di immunità</em>. In sostanza è ciò che la Francia ha già in SecNumCloud, portato a norma europea.{{ end }}</p>
+
+      <div class="callout">
+        <div class="callout-title">
+          <svg class="icon"><use href="{{ $spritesURL }}#it-info-circle"></use></svg>
+          <span>{{ if $isEN }}Why the objection of &ldquo;protectionism&rdquo; does not hold{{ else }}Perché l'obiezione del &laquo;protezionismo&raquo; non regge{{ end }}</span>
+        </div>
+        <p class="mb-2">{{ if $isEN }}The open letter of 10 June 2024 makes two points that dismantle it. First, the scheme is <strong>voluntary</strong>:{{ else }}La lettera aperta del 10 giugno 2024 avanza due argomenti che la smontano. Primo, lo schema è <strong>volontario</strong>:{{ end }}</p>
+        <blockquote class="blockquote mb-2" style="font-size:1rem;font-style:italic;">
+          {{ if $isEN }}&ldquo;Cloud providers not meeting the High+ criteria will remain fully able to offer their solutions to us <strong>without any market distortion</strong>.&rdquo;{{ else }}&laquo;I fornitori cloud che non soddisfano i criteri High+ resteranno pienamente liberi di offrirci le loro soluzioni <strong>senza alcuna distorsione del mercato</strong>.&raquo;{{ end }}
+        </blockquote>
+        <p class="mb-0">{{ if $isEN }}Second, the request comes largely from <strong>cloud users</strong> — banks, insurers, defence contractors, public bodies — not from European vendors defending a market. And the letter itself notes that &ldquo;several non-EU providers are progressively setting up corporate partnerships within the EU&rdquo;: the door for Microsoft, Google and AWS is explicitly open, provided someone else operates the service.{{ else }}Secondo, la richiesta arriva in larga parte dagli <strong>utenti</strong> del cloud — banche, assicurazioni, industria della difesa, enti pubblici — non da fornitori europei che difendono un mercato. E la lettera stessa osserva che &laquo;diversi fornitori extra-UE stanno progressivamente costituendo partnership societarie all'interno dell'UE&raquo;: la porta per Microsoft, Google e AWS è esplicitamente aperta, a condizione che sia qualcun altro a gestire il servizio.{{ end }}</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SOSTENITORI -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <h2 class="mb-3">{{ if $isEN }}Who is asking for it: 62 organisations{{ else }}Chi lo chiede: 62 organizzazioni{{ end }}</h2>
+      <p>{{ if $isEN }}The initiative is coordinated by the Brussels office of <strong>Airbus</strong>. Among the supporters:{{ else }}L'iniziativa è coordinata dall'ufficio di Bruxelles di <strong>Airbus</strong>. Tra i sostenitori:{{ end }}</p>
+      <div class="row g-3">
+        <div class="col-md-6">
+          <div class="card card-bg rounded shadow-sm h-100"><div class="card-body">
+            <h3 class="h6 text-primary">{{ if $isEN }}Defence and aerospace{{ else }}Difesa e aerospazio{{ end }}</h3>
+            <p class="small mb-0">Airbus · Dassault Aviation · MBDA · Saab · Kongsberg · Navantia · <strong>Leonardo</strong> · <strong>Fincantieri</strong> · ASD</p>
+          </div></div>
+        </div>
+        <div class="col-md-6">
+          <div class="card card-bg rounded shadow-sm h-100"><div class="card-body">
+            <h3 class="h6 text-primary">{{ if $isEN }}Banking, insurance, public services{{ else }}Banche, assicurazioni, servizi pubblici{{ end }}</h3>
+            <p class="small mb-0">Banque de France · Crédit Agricole · Caisse des Dépôts · <strong>Generali</strong> · France Assureurs · Groupe La Poste · Post Luxembourg · EDF · Veolia · Air France-KLM</p>
+          </div></div>
+        </div>
+        <div class="col-md-6">
+          <div class="card card-bg rounded shadow-sm h-100"><div class="card-body">
+            <h3 class="h6 text-primary">{{ if $isEN }}European cloud and telecoms{{ else }}Cloud e telecomunicazioni europee{{ end }}</h3>
+            <p class="small mb-0">OVHcloud · IONOS · Deutsche Telekom · Orange · Proximus · A1 · Stackit · Cloud Temple · CloudFerro · Clarence · Oodrive · Docaposte · OpenNebula</p>
+          </div></div>
+        </div>
+        <div class="col-md-6">
+          <div class="card card-bg rounded shadow-sm h-100"><div class="card-body">
+            <h3 class="h6 text-primary">{{ if $isEN }}IT, industry and user associations{{ else }}IT, industria e associazioni di utenti{{ end }}</h3>
+            <p class="small mb-0">Capgemini · Thales · Sopra Steria · Eviden · Dassault Systèmes · <strong>Telecom Italia (TIM)</strong> · Secunet · SiPearl · Cigref · Beltug · CIO Platform Netherlands · European Digital SME Alliance</p>
+          </div></div>
+        </div>
+      </div>
+      <p class="small text-muted mt-3">{{ if $isEN }}Source: <a href="https://eucshighplus.eu/" target="_blank" rel="noopener">eucshighplus.eu</a> and the <a href="https://sovereignedge.eu/wp-content/uploads/2024/06/EUCS_OpenLetter_10June2024.pdf" target="_blank" rel="noopener">open letter of 10 June 2024</a>.{{ else }}Fonte: <a href="https://eucshighplus.eu/" target="_blank" rel="noopener">eucshighplus.eu</a> e <a href="https://sovereignedge.eu/wp-content/uploads/2024/06/EUCS_OpenLetter_10June2024.pdf" target="_blank" rel="noopener">lettera aperta del 10 giugno 2024</a>.{{ end }}</p>
+    </div>
+  </div>
+
+  <!-- ITALIA -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <div class="callout warning">
+        <div class="callout-title">
+          <svg class="icon"><use href="{{ $spritesURL }}#it-warning-circle"></use></svg>
+          <span>{{ if $isEN }}The Italian gap{{ else }}Il divario italiano{{ end }}</span>
+        </div>
+        <p>{{ if $isEN }}Four major Italian companies supported the call for European immunity criteria: <strong>Leonardo</strong>, <strong>Fincantieri</strong>, <strong>Generali</strong> and <strong>Telecom Italia</strong>. Leonardo and TIM are shareholders of the National Strategic Hub (PSN).{{ else }}Quattro grandi imprese italiane hanno sostenuto la richiesta di criteri europei di immunità: <strong>Leonardo</strong>, <strong>Fincantieri</strong>, <strong>Generali</strong> e <strong>Telecom Italia</strong>. Leonardo e TIM sono azioniste del Polo Strategico Nazionale.{{ end }}</p>
+        <p class="mb-0">{{ if $isEN }}Italian industry has asked Brussels for a European standard of immunity from non-EU law. The qualification scheme with which Italy certifies the cloud of its own Public Administration does not, as far as we have been able to verify, contain that clause. <strong>The demand exists, and it comes from Italian industry itself. What is missing is the Italian regulatory answer.</strong>{{ else }}L'industria italiana ha chiesto a Bruxelles uno standard europeo di immunità dalle leggi extra-UE. Lo schema di qualificazione con cui l'Italia certifica il cloud della propria Pubblica Amministrazione, per quanto abbiamo potuto verificare, quella clausola non la contiene. <strong>La domanda esiste, e viene dall'industria italiana stessa. Manca la risposta normativa italiana.</strong>{{ end }}</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- TESI -->
+  <div class="row justify-content-center mb-4">
+    <div class="col-lg-10">
+      <div class="info-box-custom">
+        <h2 class="h4 mb-3">{{ if $isEN }}In one line{{ else }}In una riga{{ end }}</h2>
+        <p class="fs-5 mb-3">{{ if $isEN }}The point is not to stop using Microsoft. It is to stop letting Microsoft <em>operate</em> the service.{{ else }}Non si tratta di smettere di usare Microsoft. Si tratta di smettere di <em>lasciarla operare</em>.{{ end }}</p>
+        <p class="mb-0">{{ if $isEN }}The model exists, it has a technical name (<em>trusted cloud</em>), a certification that measures it (<strong>SecNumCloud 3.2</strong>, and prospectively <strong>EUCS High+</strong>), and it has already been built — in the United States, in China and in France. In Italy what is missing is the political decision to require it.{{ else }}Il modello esiste, ha un nome tecnico (<em>cloud di fiducia</em>), una certificazione che lo misura (<strong>SecNumCloud 3.2</strong>, in prospettiva <strong>EUCS High+</strong>), ed è già stato realizzato — negli Stati Uniti, in Cina e in Francia. In Italia manca la decisione politica di pretenderlo.{{ end }}</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <p class="small text-muted">{{ if $isEN }}<strong>Verification note.</strong> The status of the sovereignty requirements in the EUCS scheme adopted in 2026 is disputed between sources and is being verified against the ENISA text. The absence of an immunity clause in the Italian ACN scheme results from the public documentation examined and is being verified against the operative text of Directorial Decree 21007/24. We will update this page as verification proceeds.{{ else }}<strong>Nota di verifica.</strong> Lo stato dei requisiti di sovranità nello schema EUCS adottato nel 2026 risulta discordante tra le fonti ed è in corso di verifica sul testo ENISA. L'assenza di una clausola di immunità nello schema italiano ACN risulta dalla documentazione pubblica esaminata ed è in corso di verifica sul testo operativo del Decreto Direttoriale 21007/24. Aggiorneremo questa pagina man mano che le verifiche procedono.{{ end }}</p>
+    </div>
+  </div>
+
+</div>
+{{ end }}

@@ -78,6 +78,10 @@ disableKinds = ['taxonomy', 'term']
       url = '/stakeholder/'
       weight = 6
     [[languages.it.menus.main]]
+      name = 'Certificazioni'
+      url = '/certificazioni/'
+      weight = 7
+    [[languages.it.menus.main]]
       name = 'Dati Aperti'
       url = '/dati-aperti/'
       weight = 8
@@ -137,6 +141,10 @@ disableKinds = ['taxonomy', 'term']
       name = 'Stakeholders'
       url = '/stakeholder/'
       weight = 6
+    [[languages.en.menus.main]]
+      name = 'Certifications'
+      url = '/certificazioni/'
+      weight = 7
     [[languages.en.menus.main]]
       name = 'Open Data'
       url = '/dati-aperti/'
