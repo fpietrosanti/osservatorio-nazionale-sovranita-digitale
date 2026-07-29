@@ -167,18 +167,15 @@ Serve un'indagine. È la strada del CLOUD Act.
 > La **Difesa** gestisce la propria posta. La **Guardia di Finanza** gestisce la propria posta.
 > Si poteva fare. Qualcuno l'ha fatto. **Non è un destino tecnologico: è una decisione.**
 
-**E c'è di più.** `[A8]`
-> Il **22 giugno 2022** la gara per il cloud di Stato italiano fu vinta da due aziende: **Aruba e Fastweb**.
-> **Quindici giorni dopo**, la cordata guidata da TIM con Leonardo, Cassa Depositi e Prestiti e Sogei
-> se la prese esercitando un **diritto di prelazione** riservato a chi aveva proposto il progetto.
+> 🗂️ **TAGLIATO — la vicenda della gara PSN** (vinta da Aruba e Fastweb il 22/06/2022, prelazione della
+> cordata TIM quindici giorni dopo, illegittimità accertata dal Consiglio di Stato, 579 milioni di
+> risarcimento richiesti) **resta documentata nel dossier `[A8]` ma non entra nel film.**
 >
-> Poi il **Consiglio di Stato** ha accertato che **quell'esercizio fu illegittimo**.
-> Ma per le opere finanziate dal PNRR la legge esclude il subentro: la cordata ha continuato a gestire.
-> Aruba e Fastweb hanno chiesto **579 milioni di euro** di risarcimento.
-
-> ⚠️ **DA DIRE, obbligatorio**: il diritto di prelazione **era previsto dal bando** ed era noto a tutti
-> prima delle offerte. Non fu un espediente sopravvenuto. Il fatto è che un giudice ha stabilito che
-> *quell'esercizio* fu illegittimo.
+> **Perché**: è una vicenda di **irregolarità negli appalti**, non di sovranità. Il nesso con la nostra
+> tesi reggerebbe solo se potessimo dimostrare che l'offerta Aruba-Fastweb sarebbe stata *più sovrana* —
+> e **quel dato non ce l'abbiamo**: il contenuto tecnico di quell'offerta non è pubblico. Senza quella
+> prova, «l'opzione sovrana aveva vinto» è una suggestione, non un fatto. In venti minuti apre un fronte
+> che non possiamo chiudere e diluisce la tesi. È materiale per un'altra inchiesta.
 
 ---
 
@@ -228,9 +225,23 @@ Serve un'indagine. È la strada del CLOUD Act.
 >
 > Il meccanismo è più sottile — e più efficace.
 
-> Per vendere al governo federale americano serve una certificazione di sicurezza.
-> Abbiamo cercato quanti fornitori cloud con casa madre **europea** l'abbiano ottenuta.
-> L'unico caso che emerge è la controllata **statunitense** di un'azienda tedesca.
+> Per vendere al governo federale americano serve una certificazione di sicurezza: si chiama FedRAMP.
+> Abbiamo aperto l'elenco pubblico dei fornitori autorizzati — **seicentottantaquattro** — e abbiamo
+> cercato i fornitori cloud europei. `[A16]`
+
+**A VIDEO** — i nomi appaiono uno alla volta, ciascuno seguito da «assente»:
+`OVHcloud` · `IONOS` · `Deutsche Telekom` · `Scaleway` · `Hetzner` · `Aruba` · `Orange` · `Bleu` · `S3NS`
+
+> **Nessuno. Non un solo fornitore cloud europeo.**
+>
+> I gruppi europei nell'elenco ci sono — SAP, Siemens, Software AG, Darktrace, Ericsson.
+> Ma guardate **con quale nome**.
+
+**A VIDEO**
+> SAP **National Security Services Inc.** · Siemens **Government Technologies** ·
+> Software AG **Government Solutions** · Darktrace **Federal Inc.** · Ericsson **NetCloud Federal**
+
+> Ognuno di loro ha dovuto costituire **una società americana**.
 >
 > **Per vendere al governo americano, un europeo deve prima diventare americano.
 > È esattamente ciò che l'Europa non chiede agli americani.**
@@ -282,16 +293,30 @@ Serve un'indagine. È la strada del CLOUD Act.
 ## ATTO 10 — I FIGLI · 17:00–18:00
 
 > Nelle oltre dodicimila amministrazioni migrate col PNRR ci sono anche **le scuole**. `[B1]`
->
-> Abbiamo cercato di sapere su quali infrastrutture siano finiti i dati degli studenti italiani.
-> **Non esiste alcun dato pubblico.** `[A13]`
->
-> Un obiettivo europeo certificato, centinaia di migliaia di studenti, e nessuno può dire
-> dove siano i loro dati.
+> E sulle scuole il dato ce l'abbiamo. `[A1]`
 
+**A VIDEO** — la classifica dei settori, ordinata. La prima riga resta sola sullo schermo.
+
+> Di tutte le categorie della Pubblica Amministrazione italiana, quella con la quota più alta di
+> dipendenza da fornitori extra-europei **non è la Difesa, non è la Sanità, non è la presidenza del
+> Consiglio.**
+>
+> **È l'Istruzione. Ottomilaquattrocentotré istituti. Il 77,7%.**
+> Più di tre scuole su quattro. Il fornitore dominante è **Google**.
+>
+> È il cluster più grande che misuriamo — **trentasette per cento di tutti gli enti** — ed è quello
+> messo peggio.
+
+> Non è un contratto. È **un'abitudine che si forma a quattordici anni** e dura vent'anni.
+> Quando quegli studenti saranno funzionari pubblici, sapranno usare bene una cosa sola.
+
+> ⚠️ **PRECISIONE OBBLIGATORIA** — Il dato misura il **dominio di posta istituzionale** degli istituti
+> scolastici registrati nell'IndicePA. È prova diretta di quale piattaforma la scuola ha adottato,
+> **non** una misura di quanti studenti usino quotidianamente un singolo applicativo. Dirlo così.
 > ⚠️ **NON dire** che esistono studi che provano il «lock-in di competenze»: non ne esistono di empirici.
-> **NON dire** che l'Assia ha vietato Microsoft nelle scuole: quel divieto fu ritirato dopo tre settimane.
-> Il caso solido è il **Baden-Württemberg**, che vi ha davvero rinunciato.
+> La frase sull'abitudine va detta come **osservazione**, non come risultato scientifico.
+> ⚠️ **NON dire** che l'Assia ha vietato Microsoft nelle scuole: quel divieto fu ritirato dopo tre
+> settimane. Il caso solido è il **Baden-Württemberg**, che vi ha davvero rinunciato.
 
 ---
 
@@ -352,7 +377,9 @@ Al PSN vanno poste tre domande precise: su quali servizi è attivo il *confident
 l'infrastruttura; perché il CLOUD Act non è mai citato nella documentazione.
 
 **Verifiche da chiudere prima di girare**
-- Audio del video ufficiale del Senato francese contro il resoconto scritto
-- Esito della causa risarcitoria Fastweb/Aruba
-- Conteggio FedRAMP dei fornitori europei autorizzati
-- Comunicato primario del DTD del 21 luglio 2026
+- ~~Audio del video ufficiale del Senato francese~~ — si procede sul resoconto ufficiale del Senato
+  (rischio residuo accettato: è un resoconto rivisto, non stenografico)
+- ~~Esito della causa Fastweb/Aruba~~ — vicenda esclusa dal film
+- ~~Conteggio FedRAMP~~ — **chiuso: zero fornitori cloud europei autorizzati** `[A16]`
+- ~~FOIA al Ministero sulle scuole~~ — non serve: il dato è nostro (Istruzione 77,7%)
+- **Resta**: comunicato primario del DTD del 21 luglio 2026 (oggi abbiamo solo il lancio d'agenzia)

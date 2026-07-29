@@ -327,6 +327,46 @@ solida, non un fatto accertato** — va detto così in onda.
 DE/ES/FR/IT; (2) la **relazione del Governo ex art. 6 l. 234/2012** su COM(2026) 502 — atto parlamentare
 pubblico che contiene la posizione negoziale italiana.
 
+### A16. 🎯 Zero fornitori cloud europei sono autorizzati FedRAMP ✅ *(era C9, risolto)*
+Verificato direttamente sull'elenco pubblico del FedRAMP Marketplace (`marketplace.fedramp.gov`,
+endpoint dati `/marketplace/products/__data.json`, **684 prodotti**, 511 certificati — letto il 29/07/2026).
+
+**Ricerca per nome — tutti ASSENTI:**
+`OVHcloud` · `IONOS` · `Deutsche Telekom` / `T-Systems` · `Scaleway` · `Hetzner` · `Exoscale` ·
+`Stackit` · `CloudFerro` · `Cloud Temple` · `Oodrive` · `Docaposte` · `Outscale` · `Aruba S.p.A.` ·
+`Orange Business` · `Telefónica` · `Capgemini` · `Sopra Steria` · `Bleu` · `S3NS` · `Infomaniak` ·
+`Nextcloud` · `Proton`
+
+**I gruppi europei presenti ci sono tutti tramite una società statunitense costituita apposta:**
+- **SAP** → *SAP National Security Services Inc. (SAP NS2)*
+- **Siemens** → *Siemens Government Technologies* (che veicola anche *Mendix Cloud for Government*)
+- **Software AG** → *Software AG Government Solutions*
+- **Darktrace** (UK) → *Darktrace Federal Inc.*
+- **Ericsson** (SE) → *Ericsson – NetCloud Federal*
+
+> **Per vendere al governo americano un europeo deve prima diventare americano.
+> È esattamente ciò che l'Europa non chiede agli americani.**
+
+⚠️ **Falsi positivi da non ripetere**: la ricerca testuale grezza segnala «Atos» dentro *Kratos* ed
+«Eviden» dentro *evidence*. **Nessuno dei due è presente.** E le occorrenze di «Aruba» sono
+**Aruba Networks (HPE, statunitense)**, non Aruba S.p.A. — conferma l'avvertenza di A6.
+
+### A17. Le scuole: il dato ce l'abbiamo già, ed è il peggiore del dataset ✅ *(era C10, non serve FOIA)*
+Dai dati dell'Osservatorio, il cluster **Istruzione** è quello con la **quota extra-UE più alta di tutta
+la Pubblica Amministrazione italiana**:
+
+| Cluster | Enti | Quota extra-UE | Provider dominante |
+|---|---|---|---|
+| **Istruzione** | **8.403** | **77,7%** | **Google Workspace** |
+| PA Centrale | 52 | 63,5% | Microsoft 365 |
+| Sanità | 234 | 59,4% | Microsoft 365 |
+
+**8.403 istituti = il 37% di tutti gli enti misurati.** È il cluster più grande, ed è quello messo peggio.
+
+⚠️ **Precisione obbligatoria**: il dato misura il **dominio di posta istituzionale** degli istituti
+registrati in IndicePA. È prova diretta della piattaforma adottata dalla scuola, **non** una misura di
+quanti studenti usino quotidianamente un applicativo. Il FOIA al Ministero **non serve più**.
+
 ---
 
 ## 🟡 B — SOLIDO, DA CONFERMARE PRIMA DELLA MESSA IN ONDA
@@ -406,11 +446,11 @@ Non possono essere entrambe vere.
 | ~~C2~~ | ~~Come si è espressa l'Italia in sede ECCG?~~ | ✅ **RISOLTO — vedi A15. Ha co-scritto i criteri di immunità e ha perso** | — |
 | ~~C3~~ | ~~Quanto denaro PNRR è finito a fornitori USA?~~ | ✅ **RISOLTO — vedi A9. Non è tracciabile, e l'assenza è documentata** | — |
 | ~~C4~~ | ~~Quanti servizi qualificati ACN poggiano su tecnologia USA?~~ | ✅ **RISOLTO — vedi A10.** Catalogo analizzato: 2.107 schede, 826 fornitori | — |
-| **C5** | Esito finale della domanda risarcitoria Fastweb/Aruba (€ 579 mln richiesti) | Se lo Stato è stato condannato, è spesa pubblica causata dalla prelazione illegittima | giustizia-amministrativa.it; testi integrali TAR Lazio 4338/2023 e Cons. Stato 9210/2023 |
+| ~~C5~~ | ~~Esito causa Fastweb/Aruba~~ | 🗂️ **Vicenda esclusa dal film** (irregolarità negli appalti, non sovranità; l'offerta Aruba-Fastweb non è dimostrabilmente più sovrana). Resta nel dossier | — |
 | ~~C6~~ | ~~Tenuta del Data Privacy Framework?~~ | ✅ **RISOLTO — vedi A12. Il DPF non copre il CLOUD Act e lo dice per iscritto** | — |
 | ~~C7~~ | ~~Asimmetria USA/Cina/UE e scuola~~ | ✅ **RISOLTO — vedi A13, con tre assunti di partenza CORRETTI** | — |
-| **C9** | Quanti CSP con casa madre europea sono autorizzati FedRAMP? | Se la risposta è «zero, salvo chi si è fatto americano», è il fatto più forte del blocco asimmetria | FedRAMP Marketplace (verifica manuale) |
-| **C10** | Su quali infrastrutture sono finiti i dati delle scuole italiane migrate col PNRR? | Non esiste dato pubblico: sarebbe lo scoop del blocco scuola | FOIA al MIM + incrocio catalogo ACN / avvisi PNRR |
+| ~~C9~~ | ~~Fornitori cloud europei autorizzati FedRAMP?~~ | ✅ **RISOLTO — vedi A16. Zero.** | — |
+| ~~C10~~ | ~~Dati delle scuole italiane?~~ | ✅ **RISOLTO — vedi A17. Istruzione 77,7%, il peggiore del dataset** | — |
 | **C8** | **Aruba S.p.A.** è tra i firmatari EUCS High+? | Il link nell'elenco punta a HPE Aruba Networks | Verifica diretta presso la campagna |
 
 *(Risolti: C1 → A7 · C2 → A15 · C3 → A9 · C4 → A10 · C6 → A12 · C7 → A13. Restano C5, C8, C9, C10 — tutte verifiche manuali su fonti non automatizzabili.)*
