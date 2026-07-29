@@ -278,6 +278,92 @@ def build():
     # ── PAGE 2 ──
     story.append(PageBreak())
 
+    # La via d'uscita: certificare l'immunità
+    story.append(Paragraph("La via d’uscita: certificare l’immunità", style_h2))
+    story.append(Paragraph(
+        "La distinzione decisiva è una sola. <b>La residenza del dato e gli impegni "
+        "contrattuali non tolgono la giurisdizione</b>: un data center in Italia e "
+        "clausole di riservatezza non sottraggono un fornitore statunitense al CLOUD "
+        "Act. A determinare la giurisdizione è il <b>controllo societario di chi opera "
+        "il servizio</b>. L’unica misura che la rimuove è che il servizio sia operato "
+        "da un’entità europea autonoma — e questo è un requisito che si può "
+        "<b>certificare</b>.",
+        style_body
+    ))
+    story.append(Paragraph(
+        "<b>SecNumCloud 3.2</b> (ANSSI, Francia) è oggi l’unico schema nazionale "
+        "europeo che richiede esplicitamente l’<b>immunità dalle legislazioni "
+        "extraterritoriali</b> e il <b>controllo europeo del capitale</b>: esclude "
+        "quindi in modo strutturale, e non solo contrattuale, l’applicazione del "
+        "CLOUD Act. Risultano qualificati <b>OVHcloud</b> e <b>S3NS</b> (Thales e "
+        "Google, qualificazione ottenuta a fine 2025); <b>Bleu</b> (Orange e Capgemini "
+        "su tecnologia Microsoft) è in corso di qualificazione.",
+        style_body
+    ))
+    story.append(Paragraph(
+        "La <b>qualificazione italiana</b> dei servizi cloud per la PA, <i>per quanto "
+        "verificabile sulla documentazione pubblica</i>, non prevede una clausola "
+        "equivalente: è costruita su classificazione dei dati, misure di sicurezza e "
+        "localizzazione, non sulla nazionalità dell’operatore. La verifica puntuale sul "
+        "testo del <b>Decreto Direttoriale ACN 21007/24</b> è in corso e l’Osservatorio "
+        "ne pubblicherà l’esito.",
+        style_body
+    ))
+    story.append(Paragraph(
+        "A livello europeo gli stessi criteri di immunità hanno un nome: <b>«High+»</b>, "
+        "il livello in discussione nello schema di certificazione <b>EUCS</b>. È uno "
+        "schema <b>volontario</b>: non esclude alcun fornitore dal mercato e non impone "
+        "nulla agli acquirenti, offre soltanto un’alternativa certificata a chi ne ha "
+        "bisogno. L’inclusione dei criteri High+ è stata chiesta da <b>62 "
+        "organizzazioni</b>, in un’iniziativa coordinata da Airbus e composta in larga "
+        "parte da <b>utenti</b> — banche, assicurazioni, industria della difesa — tra "
+        "cui gli italiani <b>Leonardo, Fincantieri, Generali e Telecom Italia</b>. Il "
+        "dato rilevante non è un giudizio su quelle imprese: è che <b>la domanda di "
+        "immunità esiste e viene dall’industria italiana, mentre manca la risposta "
+        "normativa italiana</b>.",
+        style_body
+    ))
+    story.append(Paragraph(
+        "Il modello, infine, <b>non richiede di abbandonare i fornitori statunitensi</b> "
+        "ed è già realtà. Microsoft opera <i>national cloud</i> separati dove un governo "
+        "lo ha preteso: negli Stati Uniti con <b>Microsoft Cloud for US Government</b> e "
+        "in Cina, dove la tecnologia è licenziata a <b>21Vianet</b>, che gestisce il "
+        "servizio in autonomia — «Microsoft is the technology provider, but Microsoft "
+        "doesn’t operate the service». In Francia la stessa impostazione ha prodotto "
+        "Bleu e S3NS. Ciò che cambia non è la tecnologia, ma <b>chi opera il servizio</b>.",
+        style_body
+    ))
+
+    story.append(Spacer(1, 2 * mm))
+    box_immunity = [
+        Paragraph("Raccomandazioni di policy", style_box_title),
+        Paragraph(
+            "<b>1.</b>  Introdurre un <b>requisito di immunità dalle legislazioni "
+            "extra-UE</b> nello schema di qualificazione italiano dei servizi cloud "
+            "per la PA, sul modello di SecNumCloud 3.2.",
+            style_bullet
+        ),
+        Paragraph(
+            "<b>2.</b>  Sostenere l’inclusione dei <b>criteri High+ nell’EUCS</b> nelle "
+            "sedi europee competenti (ECCG, Commissione europea), esplicitando la "
+            "posizione italiana.",
+            style_bullet
+        ),
+        Paragraph(
+            "<b>3.</b>  Usare la <b>domanda pubblica come leva</b>: prevedere il "
+            "requisito di immunità nelle convenzioni e negli appalti che riguardano "
+            "dati critici e strategici.",
+            style_bullet
+        ),
+        Paragraph(
+            "<b>4.</b>  <b>Non serve escludere i fornitori statunitensi</b>: serve "
+            "richiedere che il servizio sia <b>operato da un’entità europea autonoma</b>.",
+            style_bullet
+        ),
+    ]
+    story.append(gray_box(box_immunity))
+    story.append(Spacer(1, 3 * mm))
+
     # Raccomandazioni
     story.append(Paragraph("Raccomandazioni", style_h2))
 

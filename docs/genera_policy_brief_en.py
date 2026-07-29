@@ -277,6 +277,94 @@ def build():
     # ── PAGE 2 ──
     story.append(PageBreak())
 
+    # The way out: certifying immunity
+    story.append(Paragraph("The way out: certifying immunity", style_h2))
+    story.append(Paragraph(
+        "There is one decisive distinction. <b>Data residency and contractual "
+        "commitments do not remove jurisdiction</b>: a data centre in Italy and "
+        "confidentiality clauses do not place a US provider beyond the reach of the "
+        "CLOUD Act. Jurisdiction is determined by the <b>corporate control of whoever "
+        "operates the service</b>. The only measure that removes it is that the service "
+        "be operated by an autonomous European entity — and that is a requirement which "
+        "can be <b>certified</b>.",
+        style_body
+    ))
+    story.append(Paragraph(
+        "<b>SecNumCloud 3.2</b> (ANSSI, France) is today the only European national "
+        "scheme that explicitly requires <b>immunity from extraterritorial legislation</b> "
+        "and <b>European control of ownership</b>: it therefore rules out the application "
+        "of the CLOUD Act structurally, not merely contractually. <b>OVHcloud</b> and "
+        "<b>S3NS</b> (Thales and Google, qualified at the end of 2025) hold the "
+        "qualification; <b>Bleu</b> (Orange and Capgemini, on Microsoft technology) is "
+        "in the process of obtaining it.",
+        style_body
+    ))
+    story.append(Paragraph(
+        "The <b>Italian qualification</b> scheme for cloud services to the public "
+        "administration, <i>as far as can be verified from the public documentation</i>, "
+        "contains no equivalent clause: it is built on data classification, security "
+        "measures and localisation, not on the nationality of the operator. A detailed "
+        "check against the text of <b>ACN Directorial Decree 21007/24</b> is under way "
+        "and the Observatory will publish the outcome.",
+        style_body
+    ))
+    story.append(Paragraph(
+        "At European level the same immunity criteria have a name: <b>“High+”</b>, the "
+        "level under discussion within the <b>EUCS</b> certification scheme. It is a "
+        "<b>voluntary</b> scheme: it excludes no provider from the market and imposes "
+        "nothing on buyers, it simply offers a certified alternative to those who need "
+        "one. The inclusion of the High+ criteria has been requested by <b>62 "
+        "organisations</b>, in an initiative coordinated by Airbus and made up largely "
+        "of <b>users</b> — banks, insurers, the defence industry — including the Italian "
+        "companies <b>Leonardo, Fincantieri, Generali and Telecom Italia</b>. The "
+        "relevant point is not a judgement on those companies: it is that <b>the demand "
+        "for immunity exists and comes from Italian industry itself, while the Italian "
+        "regulatory answer is missing</b>.",
+        style_body
+    ))
+    story.append(Paragraph(
+        "Finally, the model <b>does not require abandoning US providers</b> and is "
+        "already a reality. Microsoft already runs separate <i>national clouds</i> where "
+        "a government has demanded them: in the United States with <b>Microsoft Cloud for "
+        "US Government</b>, and in China, where the technology is licensed to "
+        "<b>21Vianet</b>, which runs the service independently — “Microsoft is the "
+        "technology provider, but Microsoft doesn't operate the service”. In France the "
+        "same approach produced Bleu and S3NS. What changes is not the technology, but "
+        "<b>who operates the service</b>.",
+        style_body
+    ))
+
+    story.append(Spacer(1, 2 * mm))
+    box_immunity = [
+        Paragraph("Policy recommendations", style_box_title),
+        Paragraph(
+            "<b>1.</b>  Introduce a <b>requirement of immunity from non-EU legislation</b> "
+            "into the Italian qualification scheme for cloud services to the public "
+            "administration, modelled on SecNumCloud 3.2.",
+            style_bullet
+        ),
+        Paragraph(
+            "<b>2.</b>  Support the inclusion of the <b>High+ criteria in the EUCS</b> "
+            "in the competent European fora (ECCG, European Commission), making the "
+            "Italian position explicit.",
+            style_bullet
+        ),
+        Paragraph(
+            "<b>3.</b>  Use <b>public demand as leverage</b>: write the immunity "
+            "requirement into framework agreements and procurement covering critical "
+            "and strategic data.",
+            style_bullet
+        ),
+        Paragraph(
+            "<b>4.</b>  <b>There is no need to exclude US providers</b>: what is needed "
+            "is to require that the service be <b>operated by an autonomous European "
+            "entity</b>.",
+            style_bullet
+        ),
+    ]
+    story.append(gray_box(box_immunity))
+    story.append(Spacer(1, 3 * mm))
+
     # Recommendations
     story.append(Paragraph("Recommendations", style_h2))
 
