@@ -189,7 +189,7 @@ Elenco esplicito di ciò che **non è stato confermato** e che quindi **non può
 5. Cifre dei transparency report di Google e AWS, e del Microsoft U.S. National Security Orders Report (righe 9.10, 9.11).
 6. Dettaglio di cosa la EU Data Boundary include ed esclude (riga 9.8).
 7. Efficacia pratica della cifratura con chiavi esterne contro un ordine §2703: nessun caso documentato reperito (riga 9.7).
-8. Sviluppi post-Schrems II: Executive Order 14086 (7 ottobre 2022), Data Protection Review Court, EU-US Data Privacy Framework (decisione di adeguatezza 10 luglio 2023) e stato dei ricorsi. **Senza questa scheda il fact pack è datato e attaccabile.**
+8. ~~Sviluppi post-Schrems II: Executive Order 14086 (7 ottobre 2022), Data Protection Review Court, EU-US Data Privacy Framework (decisione di adeguatezza 10 luglio 2023) e stato dei ricorsi.~~ **COLMATA il 29 luglio 2026 → vedi `01b-post-schrems-dpf.md`.** (Restano aperte, in quella scheda, lacune proprie: testo integrale della decisione 2023/1795, sentenza Latombe T-553/23, documenti EDPB — tutti bloccati da 403/pagina vuota.)
 9. Stato del *NDO Fairness Act* (riga 3.6).
 10. Cifre della causa Microsoft v. DOJ del 2016 sui gag order a tempo indeterminato (riga 3.6).
 
