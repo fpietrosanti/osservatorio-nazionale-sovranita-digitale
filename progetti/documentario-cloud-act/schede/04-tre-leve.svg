@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t04 d04">
+  <title id="t04">Le tre leve: SecNumCloud dell'ANSSI a confronto con il Regolamento cloud dell'ACN</title>
+  <desc id="d04">Confronto fra lo schema francese e quello italiano su tre leve: societaria, tecnica e operativa. La Francia le aziona tutte e tre; l'Italia aziona solo quella tecnica in forma attenuata e sostituisce quella societaria con un obbligo procedurale di segnalazione.</desc>
+
+  <rect x="0" y="0" width="1600" height="900" fill="#FFFFFF"/>
+
+  <text x="80" y="68" font-family="sans-serif" font-size="42" font-weight="700" fill="#111111">TRE LEVE. LA FRANCIA LE AZIONA TUTTE.</text>
+  <text x="80" y="106" font-family="sans-serif" font-size="23" fill="#6C757D">SecNumCloud 3.2 (ANSSI, 8 marzo 2022) a confronto con il Regolamento cloud per la PA (ACN)</text>
+  <line x1="80" y1="126" x2="1520" y2="126" stroke="#111111" stroke-width="3"/>
+
+  <!-- Intestazioni di colonna -->
+  <rect x="400" y="150" width="540" height="70" fill="#1D9E75"/>
+  <text x="670" y="184" font-family="sans-serif" font-size="27" font-weight="700" fill="#FFFFFF" text-anchor="middle">FRANCIA - ANSSI</text>
+  <text x="670" y="209" font-family="sans-serif" font-size="17" fill="#FFFFFF" text-anchor="middle">SecNumCloud 3.2, par. 19.2 e 19.6</text>
+
+  <rect x="960" y="150" width="540" height="70" fill="#0066CC"/>
+  <text x="1230" y="184" font-family="sans-serif" font-size="27" font-weight="700" fill="#FFFFFF" text-anchor="middle">ITALIA - ACN</text>
+  <text x="1230" y="209" font-family="sans-serif" font-size="17" fill="#FFFFFF" text-anchor="middle">Regolamento cloud per la PA, Allegati 2, 3 e 4</text>
+
+  <!-- LEVA 1 - SOCIETARIA -->
+  <rect x="80" y="240" width="300" height="180" fill="#111111"/>
+  <text x="230" y="316" font-family="sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">LEVA 1</text>
+  <text x="230" y="352" font-family="sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">SOCIETARIA</text>
+  <text x="230" y="384" font-family="sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">chi controlla l'azienda</text>
+
+  <rect x="400" y="240" width="540" height="180" fill="#FFFFFF" stroke="#1D9E75" stroke-width="4"/>
+  <rect x="400" y="240" width="540" height="42" fill="#1D9E75"/>
+  <text x="670" y="270" font-family="sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">AZIONATA</text>
+  <text x="424" y="312" font-family="sans-serif" font-size="18" fill="#111111">Sede statutaria, amministrazione centrale e</text>
+  <text x="424" y="340" font-family="sans-serif" font-size="18" fill="#111111">stabilimento principale nell'Unione europea.</text>
+  <text x="424" y="368" font-family="sans-serif" font-size="18" fill="#111111">Capitale e diritti di voto extra-UE: max 24%</text>
+  <text x="424" y="396" font-family="sans-serif" font-size="18" fill="#111111">individuale, 39% collettivo. Nessun veto.</text>
+
+  <rect x="960" y="240" width="540" height="180" fill="#FFFFFF" stroke="#D9364F" stroke-width="4"/>
+  <rect x="960" y="240" width="540" height="42" fill="#D9364F"/>
+  <text x="1230" y="270" font-family="sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">ASSENTE - sostituita da una procedura</text>
+  <text x="984" y="312" font-family="sans-serif" font-size="18" fill="#111111">Nessun requisito su sede, capitale o controllo.</text>
+  <text x="984" y="340" font-family="sans-serif" font-size="18" fill="#111111">Al suo posto, solo per i dati strategici: il</text>
+  <text x="984" y="368" font-family="sans-serif" font-size="18" fill="#111111">fornitore segnala le richieste di accesso da</text>
+  <text x="984" y="396" font-family="sans-serif" font-size="18" fill="#111111">entita extra-UE. Presuppone e ammette l'accesso.</text>
+
+  <!-- LEVA 2 - TECNICA -->
+  <rect x="80" y="436" width="300" height="180" fill="#111111"/>
+  <text x="230" y="512" font-family="sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">LEVA 2</text>
+  <text x="230" y="548" font-family="sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">TECNICA</text>
+  <text x="230" y="580" font-family="sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">chi puo leggere il dato</text>
+
+  <rect x="400" y="436" width="540" height="180" fill="#FFFFFF" stroke="#1D9E75" stroke-width="4"/>
+  <rect x="400" y="436" width="540" height="42" fill="#1D9E75"/>
+  <text x="670" y="466" font-family="sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">AZIONATA</text>
+  <text x="424" y="508" font-family="sans-serif" font-size="18" fill="#111111">Impossibilita tecnica, per una societa terza</text>
+  <text x="424" y="536" font-family="sans-serif" font-size="18" fill="#111111">soggetta a diritto extra-europeo, di ottenere</text>
+  <text x="424" y="564" font-family="sans-serif" font-size="18" fill="#111111">i dati. Requisito cumulativo con gli altri:</text>
+  <text x="424" y="592" font-family="sans-serif" font-size="18" fill="#111111">se manca, non c'e qualificazione.</text>
+
+  <rect x="960" y="436" width="540" height="180" fill="#FFFFFF" stroke="#6C757D" stroke-width="4"/>
+  <rect x="960" y="436" width="540" height="42" fill="#6C757D"/>
+  <text x="1230" y="466" font-family="sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">AZIONATA IN FORMA ATTENUATA</text>
+  <text x="984" y="508" font-family="sans-serif" font-size="18" fill="#111111">Chiavi in mano al cliente e accesso esclusivo</text>
+  <text x="984" y="536" font-family="sans-serif" font-size="18" fill="#111111">sono richiesti solo al livello massimo QC4.</text>
+  <text x="984" y="564" font-family="sans-serif" font-size="18" fill="#111111">Per i dati strategici bastano QC3 o QC4: un</text>
+  <text x="984" y="592" font-family="sans-serif" font-size="18" fill="#111111">dato strategico puo stare su QC3 col solo BYOK.</text>
+
+  <!-- LEVA 3 - OPERATIVA -->
+  <rect x="80" y="632" width="300" height="180" fill="#111111"/>
+  <text x="230" y="708" font-family="sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">LEVA 3</text>
+  <text x="230" y="744" font-family="sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">OPERATIVA</text>
+  <text x="230" y="776" font-family="sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">da dove si amministra</text>
+
+  <rect x="400" y="632" width="540" height="180" fill="#FFFFFF" stroke="#1D9E75" stroke-width="4"/>
+  <rect x="400" y="632" width="540" height="42" fill="#1D9E75"/>
+  <text x="670" y="662" font-family="sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">AZIONATA</text>
+  <text x="424" y="704" font-family="sans-serif" font-size="18" fill="#111111">Le operazioni di amministrazione e di</text>
+  <text x="424" y="732" font-family="sans-serif" font-size="18" fill="#111111">supervisione del servizio devono essere</text>
+  <text x="424" y="760" font-family="sans-serif" font-size="18" fill="#111111">realizzate dall'Unione europea (par. 19.2.c).</text>
+  <text x="424" y="788" font-family="sans-serif" font-size="18" fill="#111111">Qualificazione a cascata dei subfornitori.</text>
+
+  <rect x="960" y="632" width="540" height="180" fill="#FFFFFF" stroke="#D9364F" stroke-width="4"/>
+  <rect x="960" y="632" width="540" height="42" fill="#D9364F"/>
+  <text x="1230" y="662" font-family="sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">ASSENTE</text>
+  <text x="984" y="704" font-family="sans-serif" font-size="18" fill="#111111">Nessun obbligo che l'amministrazione del</text>
+  <text x="984" y="732" font-family="sans-serif" font-size="18" fill="#111111">servizio avvenga dall'Unione. La localizzazione</text>
+  <text x="984" y="760" font-family="sans-serif" font-size="18" fill="#111111">UE prevista e territoriale, non giurisdizionale,</text>
+  <text x="984" y="788" font-family="sans-serif" font-size="18" fill="#111111">ed e derogabile per ragioni motivate.</text>
+
+  <line x1="80" y1="836" x2="1520" y2="836" stroke="#6C757D" stroke-width="1"/>
+  <text x="80" y="858" font-family="sans-serif" font-size="15" fill="#6C757D">Fonte: ANSSI, referenziale SecNumCloud 3.2, 8 marzo 2022, par. 19.2 e 19.6 (55 pp., testo integrale) - ACN, Regolamento cloud per la PA, 88 pp., Allegati 2, 3 e 4 (testo integrale). La leva</text>
+  <text x="80" y="878" font-family="sans-serif" font-size="15" fill="#6C757D">societaria, la sola che neutralizzi il CLOUD Act, e integralmente assente dallo schema italiano. Osservatorio Nazionale Sovranita Digitale, 2026.</text>
+</svg>

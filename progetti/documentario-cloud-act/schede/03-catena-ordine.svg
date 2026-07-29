@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t03 d03">
+  <title id="t03">La catena di un ordine: dall'autorita statunitense al data center italiano, e il silenzio verso l'Italia</title>
+  <desc id="d03">Percorso in sei passaggi di un ordine di accesso ai dati: autorita statunitense, fornitore statunitense, piano di controllo, data center in Italia, estrazione, consegna. Il gag order impedisce la comunicazione verso l'amministrazione italiana, che non viene mai informata.</desc>
+
+  <defs>
+    <marker id="ar03" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#D9364F"/>
+    </marker>
+    <marker id="ar03g" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#6C757D"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1600" height="900" fill="#FFFFFF"/>
+
+  <text x="80" y="70" font-family="sans-serif" font-size="42" font-weight="700" fill="#111111">IL PERCORSO DI UN ORDINE</text>
+  <text x="80" y="108" font-family="sans-serif" font-size="23" fill="#6C757D">L'ordine non arriva in Italia. Arriva alla sede americana. E l'Italia non lo sa.</text>
+  <line x1="80" y1="128" x2="1520" y2="128" stroke="#111111" stroke-width="3"/>
+
+  <!-- RIGA A -->
+  <g>
+    <rect x="90" y="170" width="420" height="140" fill="#D9364F" stroke="#111111" stroke-width="2"/>
+    <circle cx="130" cy="205" r="20" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <text x="130" y="214" font-family="sans-serif" font-size="24" font-weight="700" fill="#111111" text-anchor="middle">1</text>
+    <text x="300" y="252" font-family="sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">AUTORITA STATUNITENSE</text>
+    <text x="300" y="284" font-family="sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">mandato penale 2703 oppure direttiva FISA 702</text>
+  </g>
+
+  <line x1="510" y1="240" x2="576" y2="240" stroke="#D9364F" stroke-width="5" marker-end="url(#ar03)"/>
+
+  <g>
+    <rect x="590" y="170" width="420" height="140" fill="#D9364F" stroke="#111111" stroke-width="2"/>
+    <circle cx="630" cy="205" r="20" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <text x="630" y="214" font-family="sans-serif" font-size="24" font-weight="700" fill="#111111" text-anchor="middle">2</text>
+    <text x="800" y="252" font-family="sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">FORNITORE, SEDE USA</text>
+    <text x="800" y="284" font-family="sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">riceve l'ordine e lo esegue dagli Stati Uniti</text>
+  </g>
+
+  <line x1="1010" y1="240" x2="1076" y2="240" stroke="#D9364F" stroke-width="5" marker-end="url(#ar03)"/>
+
+  <g>
+    <rect x="1090" y="170" width="420" height="140" fill="#D9364F" stroke="#111111" stroke-width="2"/>
+    <circle cx="1130" cy="205" r="20" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <text x="1130" y="214" font-family="sans-serif" font-size="24" font-weight="700" fill="#111111" text-anchor="middle">3</text>
+    <text x="1300" y="252" font-family="sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">PIANO DI CONTROLLO</text>
+    <text x="1300" y="284" font-family="sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">l'infrastruttura che governa i server, ovunque</text>
+  </g>
+
+  <!-- discesa alla riga B -->
+  <path d="M 1300 310 L 1300 376" fill="none" stroke="#D9364F" stroke-width="5" marker-end="url(#ar03)"/>
+
+  <!-- RIGA B -->
+  <g>
+    <rect x="1090" y="390" width="420" height="140" fill="#FFFFFF" stroke="#0066CC" stroke-width="4"/>
+    <circle cx="1130" cy="425" r="20" fill="#0066CC" stroke="#111111" stroke-width="2"/>
+    <text x="1130" y="434" font-family="sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+    <text x="1300" y="472" font-family="sans-serif" font-size="26" font-weight="700" fill="#0066CC" text-anchor="middle">DATA CENTER IN ITALIA</text>
+    <text x="1300" y="504" font-family="sans-serif" font-size="18" fill="#111111" text-anchor="middle">il ferro e a Roma, il comando arriva da fuori</text>
+  </g>
+
+  <line x1="1076" y1="460" x2="1010" y2="460" stroke="#D9364F" stroke-width="5" marker-end="url(#ar03)"/>
+
+  <g>
+    <rect x="590" y="390" width="420" height="140" fill="#D9364F" stroke="#111111" stroke-width="2"/>
+    <circle cx="630" cy="425" r="20" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <text x="630" y="434" font-family="sans-serif" font-size="24" font-weight="700" fill="#111111" text-anchor="middle">5</text>
+    <text x="800" y="472" font-family="sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">IL DATO VIENE ESTRATTO</text>
+    <text x="800" y="504" font-family="sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">nessun accesso fisico, nessuna intrusione</text>
+  </g>
+
+  <line x1="576" y1="460" x2="510" y2="460" stroke="#D9364F" stroke-width="5" marker-end="url(#ar03)"/>
+
+  <g>
+    <rect x="90" y="390" width="420" height="140" fill="#D9364F" stroke="#111111" stroke-width="2"/>
+    <circle cx="130" cy="425" r="20" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <text x="130" y="434" font-family="sans-serif" font-size="24" font-weight="700" fill="#111111" text-anchor="middle">6</text>
+    <text x="300" y="472" font-family="sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">CONSEGNA ALL'AUTORITA</text>
+    <text x="300" y="504" font-family="sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">la catena si chiude negli Stati Uniti</text>
+  </g>
+
+  <!-- IL SILENZIO -->
+  <path d="M 800 530 L 800 618" fill="none" stroke="#6C757D" stroke-width="5" stroke-dasharray="14 10"/>
+  <text x="1030" y="592" font-family="sans-serif" font-size="19" fill="#6C757D" text-anchor="middle">la segnalazione che dovrebbe partire verso l'Italia</text>
+
+  <rect x="470" y="620" width="660" height="58" fill="#D9364F" stroke="#111111" stroke-width="2"/>
+  <text x="800" y="658" font-family="sans-serif" font-size="27" font-weight="700" fill="#FFFFFF" text-anchor="middle">GAG ORDER</text>
+  <line x1="500" y1="672" x2="1100" y2="626" stroke="#FFFFFF" stroke-width="3"/>
+  <text x="1150" y="643" font-family="sans-serif" font-size="18" fill="#D9364F">divieto giuridico di dire</text>
+  <text x="1150" y="667" font-family="sans-serif" font-size="18" fill="#D9364F">al cliente che e successo</text>
+
+  <rect x="330" y="712" width="940" height="106" fill="#FFFFFF" stroke="#6C757D" stroke-width="4" stroke-dasharray="12 8"/>
+  <text x="800" y="754" font-family="sans-serif" font-size="26" font-weight="700" fill="#6C757D" text-anchor="middle">L'ITALIA: l'amministrazione, l'ACN, il ministro, il Parlamento</text>
+  <text x="800" y="792" font-family="sans-serif" font-size="24" font-weight="700" fill="#111111" text-anchor="middle">NON VIENE MAI INFORMATA</text>
+
+  <line x1="80" y1="836" x2="1520" y2="836" stroke="#6C757D" stroke-width="1"/>
+  <text x="80" y="858" font-family="sans-serif" font-size="15" fill="#6C757D">Fonte: CLOUD Act 2018 (18 U.S.C. 2703 e 2713) - FISA sez. 702 - 18 U.S.C. 2705(b) sugli ordini di non divulgazione - ACN, Regolamento cloud per la PA, PR.DS-01 15_S. Osservatorio Nazionale</text>
+  <text x="80" y="878" font-family="sans-serif" font-size="15" fill="#6C757D">Sovranita Digitale, 2026.</text>
+</svg>

@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t07 d07">
+  <title id="t07">280 contro oltre 12.700: dove sono davvero finite le amministrazioni migrate</title>
+  <desc id="d07">Confronto proporzionale fra le oltre 280 amministrazioni centrali e ASL migrate sul Polo Strategico Nazionale e le oltre 12.700 amministrazioni locali e scuole migrate su cloud genericamente qualificati. Ogni punto vale cento amministrazioni.</desc>
+
+  <rect x="0" y="0" width="1600" height="900" fill="#FFFFFF"/>
+
+  <text x="80" y="70" font-family="sans-serif" font-size="42" font-weight="700" fill="#111111">280 CONTRO OLTRE 12.700</text>
+  <text x="80" y="108" font-family="sans-serif" font-size="23" fill="#6C757D">La migrazione annunciata il 21 luglio 2026, divisa per dove sono finiti gli enti</text>
+  <line x1="80" y1="128" x2="1520" y2="128" stroke="#111111" stroke-width="3"/>
+
+  <text x="80" y="172" font-family="sans-serif" font-size="18" font-weight="700" fill="#111111">Ogni punto vale 100 amministrazioni</text>
+
+  <rect x="80" y="196" width="560" height="76" fill="#0066CC"/>
+  <text x="360" y="228" font-family="sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">OLTRE 280 PA CENTRALI E ASL</text>
+  <text x="360" y="258" font-family="sans-serif" font-size="19" fill="#FFFFFF" text-anchor="middle">sul Polo Strategico Nazionale</text>
+  <circle cx="150" cy="330" r="11" fill="#0066CC" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="184" cy="330" r="11" fill="#0066CC" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="218" cy="330" r="11" fill="#0066CC" stroke="#111111" stroke-width="1.5"/>
+
+  <rect x="80" y="560" width="560" height="230" fill="#FFFFFF" stroke="#0066CC" stroke-width="3"/>
+  <text x="104" y="600" font-family="sans-serif" font-size="20" font-weight="700" fill="#0066CC">Qui la linea tiene.</text>
+  <text x="104" y="634" font-family="sans-serif" font-size="18" fill="#111111">I nove servizi di livello massimo QC4 sono</text>
+  <text x="104" y="660" font-family="sans-serif" font-size="18" fill="#111111">tutti e soli nativi del PSN. Sulla fascia dei</text>
+  <text x="104" y="686" font-family="sans-serif" font-size="18" fill="#111111">dati strategici il presidio esiste.</text>
+  <text x="104" y="726" font-family="sans-serif" font-size="17" fill="#6C757D">Il PSN dichiara pero di erogare servizi anche</text>
+  <text x="104" y="750" font-family="sans-serif" font-size="17" fill="#6C757D">in partnership con quattro hyperscaler</text>
+  <text x="104" y="774" font-family="sans-serif" font-size="17" fill="#6C757D">statunitensi.</text>
+
+  <rect x="640" y="196" width="880" height="76" fill="#D9364F"/>
+  <text x="1080" y="228" font-family="sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">OLTRE 12.700 PA LOCALI E SCUOLE</text>
+  <text x="1080" y="258" font-family="sans-serif" font-size="19" fill="#FFFFFF" text-anchor="middle">su cloud genericamente qualificati</text>
+  <circle cx="700" cy="330" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="734" cy="330" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="768" cy="330" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="802" cy="330" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="836" cy="330" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="870" cy="330" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="904" cy="330" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="938" cy="330" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="972" cy="330" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1006" cy="330" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1040" cy="330" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1074" cy="330" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1108" cy="330" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1142" cy="330" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1176" cy="330" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1210" cy="330" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1244" cy="330" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1278" cy="330" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1312" cy="330" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1346" cy="330" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="700" cy="364" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="734" cy="364" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="768" cy="364" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="802" cy="364" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="836" cy="364" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="870" cy="364" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="904" cy="364" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="938" cy="364" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="972" cy="364" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1006" cy="364" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1040" cy="364" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1074" cy="364" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1108" cy="364" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1142" cy="364" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1176" cy="364" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1210" cy="364" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1244" cy="364" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1278" cy="364" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1312" cy="364" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1346" cy="364" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="700" cy="398" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="734" cy="398" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="768" cy="398" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="802" cy="398" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="836" cy="398" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="870" cy="398" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="904" cy="398" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="938" cy="398" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="972" cy="398" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1006" cy="398" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1040" cy="398" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1074" cy="398" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1108" cy="398" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1142" cy="398" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1176" cy="398" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1210" cy="398" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1244" cy="398" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1278" cy="398" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1312" cy="398" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1346" cy="398" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="700" cy="432" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="734" cy="432" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="768" cy="432" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="802" cy="432" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="836" cy="432" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="870" cy="432" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="904" cy="432" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="938" cy="432" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="972" cy="432" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1006" cy="432" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1040" cy="432" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1074" cy="432" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1108" cy="432" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1142" cy="432" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1176" cy="432" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1210" cy="432" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1244" cy="432" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1278" cy="432" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1312" cy="432" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1346" cy="432" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="700" cy="466" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="734" cy="466" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="768" cy="466" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="802" cy="466" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="836" cy="466" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="870" cy="466" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="904" cy="466" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="938" cy="466" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="972" cy="466" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1006" cy="466" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1040" cy="466" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1074" cy="466" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1108" cy="466" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1142" cy="466" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1176" cy="466" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1210" cy="466" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1244" cy="466" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1278" cy="466" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1312" cy="466" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1346" cy="466" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="700" cy="500" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="734" cy="500" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="768" cy="500" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="802" cy="500" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="836" cy="500" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="870" cy="500" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="904" cy="500" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="938" cy="500" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="972" cy="500" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1006" cy="500" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1040" cy="500" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1074" cy="500" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1108" cy="500" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1142" cy="500" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1176" cy="500" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1210" cy="500" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1244" cy="500" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1278" cy="500" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1312" cy="500" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="1346" cy="500" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="700" cy="534" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="734" cy="534" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="768" cy="534" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="802" cy="534" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="836" cy="534" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="870" cy="534" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+  <circle cx="904" cy="534" r="11" fill="#D9364F" stroke="#111111" stroke-width="1.5"/>
+
+  <rect x="640" y="560" width="880" height="230" fill="#FFFFFF" stroke="#D9364F" stroke-width="3"/>
+  <text x="664" y="600" font-family="sans-serif" font-size="20" font-weight="700" fill="#D9364F">Qui non sappiamo.</text>
+  <text x="664" y="634" font-family="sans-serif" font-size="18" fill="#111111">Nel catalogo delle qualificazioni ACN il primo fornitore per numero di servizi</text>
+  <text x="664" y="660" font-family="sans-serif" font-size="18" fill="#111111">qualificati e statunitense. Il regolamento non pone alcun requisito di nazionalita,</text>
+  <text x="664" y="686" font-family="sans-serif" font-size="18" fill="#111111">sede legale o controllo del capitale: quelle parole nel testo non compaiono mai.</text>
+  <text x="664" y="726" font-family="sans-serif" font-size="17" fill="#6C757D">Nelle oltre 12.700 sono conteggiate anche le scuole. Non esiste alcun dato pubblico</text>
+  <text x="664" y="750" font-family="sans-serif" font-size="17" fill="#6C757D">su quali infrastrutture siano finiti i dati degli studenti italiani.</text>
+
+  <line x1="80" y1="836" x2="1520" y2="836" stroke="#6C757D" stroke-width="1"/>
+  <text x="80" y="858" font-family="sans-serif" font-size="15" fill="#6C757D">Fonte: dichiarazione del Sottosegretario all'innovazione, 21 luglio 2026 (oltre 13.000 PA migrate, 75 per cento, 1,9 miliardi PNRR) - catalogo ACN delle qualificazioni, 2.107 schede e 826</text>
+  <text x="80" y="878" font-family="sans-serif" font-size="15" fill="#6C757D">fornitori - ACN, Regolamento cloud per la PA, scansione lessicale del testo integrale. Osservatorio Nazionale Sovranita Digitale, 2026.</text>
+</svg>

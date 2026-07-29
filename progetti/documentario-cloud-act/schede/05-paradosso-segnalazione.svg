@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t05 d05">
+  <title id="t05">Il paradosso della segnalazione: la norma italiana chiede cio che la legge americana vieta</title>
+  <desc id="d05">Due obblighi che collidono. Il regolamento italiano impone al fornitore di segnalare all'ACN ogni richiesta di accesso proveniente da entita extra-europee. Il gag order statunitense vieta al fornitore proprio quella comunicazione.</desc>
+
+  <rect x="0" y="0" width="1600" height="900" fill="#FFFFFF"/>
+
+  <text x="80" y="70" font-family="sans-serif" font-size="42" font-weight="700" fill="#111111">IL PARADOSSO DELLA SEGNALAZIONE</text>
+  <text x="80" y="108" font-family="sans-serif" font-size="23" fill="#6C757D">Due obblighi giuridici che si annullano a vicenda, e ricadono sulla stessa persona</text>
+  <line x1="80" y1="128" x2="1520" y2="128" stroke="#111111" stroke-width="3"/>
+
+  <!-- Intestazioni -->
+  <rect x="80" y="170" width="620" height="150" fill="#FFFFFF" stroke="#0066CC" stroke-width="4"/>
+  <rect x="80" y="170" width="620" height="46" fill="#0066CC"/>
+  <text x="390" y="203" font-family="sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">LA NORMA ITALIANA IMPONE</text>
+  <text x="104" y="248" font-family="sans-serif" font-size="19" fill="#111111">Il fornitore segnala all'ACN e all'amministrazione</text>
+  <text x="104" y="276" font-family="sans-serif" font-size="19" fill="#111111">ogni richiesta di accesso a dati o metadati</text>
+  <text x="104" y="304" font-family="sans-serif" font-size="19" fill="#111111">da parte di entita extra-UE.</text>
+
+  <rect x="900" y="170" width="620" height="150" fill="#FFFFFF" stroke="#D9364F" stroke-width="4"/>
+  <rect x="900" y="170" width="620" height="46" fill="#D9364F"/>
+  <text x="1210" y="203" font-family="sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">LA LEGGE AMERICANA VIETA</text>
+  <text x="1496" y="248" font-family="sans-serif" font-size="19" fill="#111111" text-anchor="end">Il gag order impone al fornitore di non rivelare</text>
+  <text x="1496" y="276" font-family="sans-serif" font-size="19" fill="#111111" text-anchor="end">l'esistenza dell'ordine al cliente, ne a terzi:</text>
+  <text x="1496" y="304" font-family="sans-serif" font-size="19" fill="#111111" text-anchor="end">esattamente quella segnalazione.</text>
+
+  <!-- Freccia blu, da sinistra -->
+  <polygon points="80,400 620,400 720,470 620,540 80,540" fill="#0066CC" stroke="#111111" stroke-width="2"/>
+  <text x="330" y="462" font-family="sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">OBBLIGO DI COMUNICARE</text>
+  <text x="330" y="496" font-family="sans-serif" font-size="19" fill="#FFFFFF">Regolamento ACN, PR.DS-01 15_S - solo dati strategici</text>
+
+  <!-- Freccia rossa, da destra -->
+  <polygon points="1520,400 980,400 880,470 980,540 1520,540" fill="#D9364F" stroke="#111111" stroke-width="2"/>
+  <text x="1270" y="462" font-family="sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="end">DIVIETO DI COMUNICARE</text>
+  <text x="1270" y="496" font-family="sans-serif" font-size="19" fill="#FFFFFF" text-anchor="end">18 U.S.C. 2705(b) - ordine di non divulgazione</text>
+
+  <!-- Punto di collisione -->
+  <g>
+    <polygon points="800,398 828,438 874,428 852,470 874,512 828,502 800,542 772,502 726,512 748,470 726,428 772,438" fill="#111111"/>
+    <line x1="778" y1="448" x2="822" y2="492" stroke="#FFFFFF" stroke-width="7"/>
+    <line x1="822" y1="448" x2="778" y2="492" stroke="#FFFFFF" stroke-width="7"/>
+  </g>
+
+  <!-- Esito -->
+  <rect x="80" y="590" width="1440" height="96" fill="#111111"/>
+  <text x="800" y="634" font-family="sans-serif" font-size="30" font-weight="700" fill="#FFFFFF" text-anchor="middle">LA NORMA ITALIANA CHIEDE UNA COMUNICAZIONE CHE LA LEGGE AMERICANA PROIBISCE</text>
+  <text x="800" y="668" font-family="sans-serif" font-size="20" fill="#FFFFFF" text-anchor="middle">L'obbligo e ineseguibile per costruzione. E un obbligo procedurale che presuppone e ammette l'accesso extra-UE, non un divieto strutturale.</text>
+
+  <!-- Conseguenza -->
+  <rect x="80" y="706" width="700" height="110" fill="#FFFFFF" stroke="#6C757D" stroke-width="3"/>
+  <text x="430" y="746" font-family="sans-serif" font-size="21" font-weight="700" fill="#111111" text-anchor="middle">SE IL FORNITORE OBBEDISCE ALL'ITALIA</text>
+  <text x="430" y="782" font-family="sans-serif" font-size="19" fill="#D9364F" text-anchor="middle">viola un ordine di un tribunale statunitense</text>
+
+  <rect x="820" y="706" width="700" height="110" fill="#FFFFFF" stroke="#6C757D" stroke-width="3"/>
+  <text x="1170" y="746" font-family="sans-serif" font-size="21" font-weight="700" fill="#111111" text-anchor="middle">SE OBBEDISCE AGLI STATI UNITI</text>
+  <text x="1170" y="782" font-family="sans-serif" font-size="19" fill="#D9364F" text-anchor="middle">l'Italia non sa nulla, e la regola non produce effetti</text>
+
+  <line x1="80" y1="836" x2="1520" y2="836" stroke="#6C757D" stroke-width="1"/>
+  <text x="80" y="858" font-family="sans-serif" font-size="15" fill="#6C757D">Fonte: ACN, Regolamento cloud per la PA, requisito PR.DS-01 15_S (Allegato 3, p. 78) e 6_S (Allegato 2, p. 44), applicabile ai soli dati strategici - 18 U.S.C. 2705(b), ordini di non</text>
+  <text x="80" y="878" font-family="sans-serif" font-size="15" fill="#6C757D">divulgazione. Osservatorio Nazionale Sovranita Digitale, 2026.</text>
+</svg>
