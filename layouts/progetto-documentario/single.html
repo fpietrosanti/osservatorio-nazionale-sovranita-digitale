@@ -1,0 +1,198 @@
+{{ define "main" }}
+{{ $spritesURL := "https://cdn.jsdelivr.net/npm/bootstrap-italia@2.18.1/dist/svg/sprites.svg" }}
+{{ $repo := "https://github.com/mxmap-it/osservatorio-nazionale-sovranita-digitale/blob/main/progetti/documentario-cloud-act" }}
+<div class="container-xxl section-spacing-lg">
+
+  <div class="row justify-content-center mb-4">
+    <div class="col-lg-10">
+      <div class="callout danger mb-4">
+        <div class="callout-title">
+          <svg class="icon"><use href="{{ $spritesURL }}#it-lock"></use></svg>
+          <span>Documento di lavoro — non pubblicato</span>
+        </div>
+        <p class="mb-0">Questa pagina <strong>non è collegata dal sito</strong>, è esclusa dai motori di ricerca e dalla sitemap. Serve a far circolare il progetto fra un numero ristretto di interlocutori e a <strong>raccogliere riscontri</strong>. I contenuti sono in revisione e cambiano: non citarli come posizione dell'Osservatorio finché il progetto non è chiuso.</p>
+      </div>
+
+      <p class="text-uppercase text-primary fw-bold small mb-1" style="letter-spacing:2px;">Progetto televisivo e comunicativo</p>
+      <h1 class="mb-3">«Non posso garantirlo»</h1>
+      <p class="lead">Documentario d'inchiesta, 20 minuti. Come il CLOUD Act statunitense incide sulla sovranità nazionale italiana — e perché una via d'uscita esiste già, ha un nome, ed è stata percorsa altrove.</p>
+    </div>
+  </div>
+
+  <!-- STATO -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <div class="row g-3">
+        <div class="col-md-3"><div class="card card-bg rounded shadow-sm h-100 text-center"><div class="card-body py-3">
+          <div class="h4 text-primary mb-0">10</div><p class="small mb-0">dossier documentali</p></div></div></div>
+        <div class="col-md-3"><div class="card card-bg rounded shadow-sm h-100 text-center"><div class="card-body py-3">
+          <div class="h4 text-success mb-0">15</div><p class="small mb-0">fatti su fonte primaria</p></div></div></div>
+        <div class="col-md-3"><div class="card card-bg rounded shadow-sm h-100 text-center"><div class="card-body py-3">
+          <div class="h4 text-warning mb-0">18</div><p class="small mb-0">vincoli editoriali</p></div></div></div>
+        <div class="col-md-3"><div class="card card-bg rounded shadow-sm h-100 text-center"><div class="card-body py-3">
+          <div class="h4 text-danger mb-0">4</div><p class="small mb-0">verifiche aperte</p></div></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LA TESI -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <h2 class="mb-3">La tesi</h2>
+      <div class="info-box-custom">
+        <p class="fs-5 mb-3">Il film demolisce <strong>lo stesso errore a tre livelli crescenti</strong>: si guarda dove sta il dato, chi lo fattura, come lo chiama lo Stato — mai <strong>chi ne ha il controllo tecnico e a quale legge risponde</strong>.</p>
+        <div class="table-responsive">
+          <table class="table table-sm mb-0">
+            <tbody>
+              <tr><td style="width:22%"><strong>Geografico</strong></td><td>«I server sono in Italia»</td><td class="text-muted">lo vende il senso comune</td></tr>
+              <tr><td><strong>Contrattuale</strong></td><td>«Compro da un'azienda italiana»</td><td class="text-muted">lo vende il mercato</td></tr>
+              <tr><td><strong>Istituzionale</strong></td><td>«È il Polo Strategico <em>Nazionale</em>, è certificato»</td><td class="text-muted"><strong>lo vende lo Stato</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <p class="mt-3 mb-0">Si parte dall'errore ingenuo del cittadino e si arriva allo stesso errore commesso — o costruito — dall'istituzione che dovrebbe proteggerci. E si chiude con la via d'uscita: <strong>non smettere di usare Microsoft, ma smettere di lasciarla operare</strong>.</p>
+    </div>
+  </div>
+
+  <!-- SCALETTA -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <h2 class="mb-3">La scaletta, atto per atto</h2>
+      <div class="table-responsive">
+        <table class="table table-bordered align-middle">
+          <thead class="table-primary"><tr><th style="width:12%">Tempo</th><th style="width:28%">Atto</th><th>Contenuto e funzione</th></tr></thead>
+          <tbody>
+            <tr><td><code>0:00–1:30</code></td><td><strong>La prova</strong></td><td>Interrogazione DNS in diretta: Carabinieri→Google, Polizia→Microsoft, Governo→Microsoft, <strong>ACN→Microsoft</strong>. Cinque secondi, ripetibile da chiunque</td></tr>
+            <tr><td><code>1:30–3:00</code></td><td>Il movente</td><td><em>Simulazione documentata</em>: non serve un hacker, serve una firma</td></tr>
+            <tr class="table-warning"><td><code>3:00–5:00</code></td><td><strong>Il mito della geografia</strong></td><td>Conta la nazionalità dell'azienda. <strong>Senato francese, 10 giugno 2025, sotto giuramento</strong> — punto di non ritorno del film</td></tr>
+            <tr><td><code>5:00–7:00</code></td><td>La firma</td><td>CLOUD Act <em>e</em> FISA 702; il caso Microsoft-Irlanda; confutazione preventiva del Data Privacy Framework</td></tr>
+            <tr><td><code>7:00–8:30</code></td><td>L'esecuzione</td><td>Il piano di controllo; l'illusione del rivenditore</td></tr>
+            <tr><td><code>8:30–9:30</code></td><td><strong>Il silenzio</strong></td><td>Il <em>gag order</em>. E il paradosso: la norma italiana chiede una segnalazione che la legge americana vieta</td></tr>
+            <tr class="table-warning"><td><code>9:30–11:00</code></td><td><strong>Era una scelta</strong></td><td>Difesa e GdF gestiscono la propria posta. E la gara vinta da Aruba e Fastweb, poi persa con la prelazione</td></tr>
+            <tr><td><code>11:00–13:30</code></td><td>Lo Stato certifica, e non sa</td><td>Zero occorrenze nel regolamento; 1,9 miliardi non tracciabili</td></tr>
+            <tr><td><code>13:30–15:30</code></td><td>L'asimmetria</td><td>Per vendere al governo USA un europeo deve farsi americano</td></tr>
+            <tr class="table-warning"><td><code>15:30–17:00</code></td><td><strong>Bruxelles</strong></td><td>L'Italia ha co-scritto i criteri di immunità nel 2021 — e ha perso</td></tr>
+            <tr><td><code>17:00–18:00</code></td><td>I figli</td><td>Le scuole nella migrazione, e nessun dato pubblico su dove siano finiti</td></tr>
+            <tr class="table-success"><td><code>18:00–20:00</code></td><td><strong>La via d'uscita</strong></td><td>Microsoft opera già cloud nazionali dove un governo l'ha preteso. La decisione italiana non è ancora stata presa</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- METODO -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <h2 class="mb-3">Il metodo</h2>
+      <div class="callout callout-highlight">
+        <div class="callout-title">
+          <svg class="icon"><use href="{{ $spritesURL }}#it-file"></use></svg>
+          <span>La simulazione documentata</span>
+        </div>
+        <p class="mb-0">Il movente è <strong>ipotetico</strong>; <strong>ogni passaggio del meccanismo è reale e citato in sovrimpressione</strong>. Non raccontiamo un fatto avvenuto: mostriamo <strong>una porta che è aperta</strong> — e la prova che sia aperta la fornisce Microsoft stessa, sotto giuramento.</p>
+      </div>
+
+      <h3 class="h5 mt-4">Tre livelli di affidabilità, dichiarati</h3>
+      <p>Ogni affermazione del progetto è classificata: <span class="badge bg-success">verificata su fonte primaria</span> <span class="badge bg-warning text-dark">da confermare</span> <span class="badge bg-danger">non utilizzabile</span>. Nulla entra nello script senza il riferimento al documento che lo regge.</p>
+
+      <h3 class="h5 mt-4">Il registro delle trappole</h3>
+      <p>Diciotto formulazioni che ci farebbero smontare in diretta, con la versione corretta accanto. Non è un allegato: <strong>è scritto dentro lo script</strong>, accanto alla battuta che mette a rischio. Alcuni esempi:</p>
+      <ul>
+        <li>Il <strong>46%</strong> misura la posta elettronica, <strong>non è una quota del 75%</strong> della migrazione al cloud</li>
+        <li>Il <strong>Buy American Act non vieta</strong> il software europeo: la norma esenta l'informatica commerciale</li>
+        <li><strong>L'Italia ha chiesto la sovranità</strong>, e l'ha co-scritta nel 2021: dire il contrario è falso</li>
+        <li>I <strong>«2,7 miliardi»</strong> del PSN non sono denaro versato dallo Stato: è il tetto della concessione</li>
+        <li>La citazione del Senato francese va mandata in onda <strong>integralmente</strong>, inciso finale compreso</li>
+      </ul>
+      <p class="small text-muted">Includiamo anche i dati che ci contraddicono — l'avanzo europeo sui servizi informatici, i servizi di massimo livello tutti nativi PSN. Ometterli sarebbe manipolatorio, e la controparte lo sa.</p>
+    </div>
+  </div>
+
+  <!-- MATERIALI -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <h2 class="mb-3">I materiali</h2>
+      <div class="row g-3">
+        <div class="col-md-6"><div class="card card-bg rounded shadow-sm h-100"><div class="card-body">
+          <h3 class="h6 text-primary">Script — 20 minuti</h3>
+          <p class="small">Dodici atti con timecode, voce fuori campo, testi a video e ancoraggio di ogni affermazione al dossier.</p>
+          <a class="read-more" href="{{ $repo }}/SCRIPT-20-MINUTI.md" target="_blank" rel="noopener"><span class="text">Apri</span></a>
+        </div></div></div>
+        <div class="col-md-6"><div class="card card-bg rounded shadow-sm h-100"><div class="card-body">
+          <h3 class="h6 text-primary">Stato delle conoscenze</h3>
+          <p class="small">Cosa è verificato, cosa è da confermare, cosa è aperto — con i riferimenti per controllare.</p>
+          <a class="read-more" href="{{ $repo }}/STATO-DELLE-CONOSCENZE.md" target="_blank" rel="noopener"><span class="text">Apri</span></a>
+        </div></div></div>
+        <div class="col-md-6"><div class="card card-bg rounded shadow-sm h-100"><div class="card-body">
+          <h3 class="h6 text-primary">Storyboard e schede grafiche</h3>
+          <p class="small">Inquadratura per inquadratura, più le schede che spiegano i concetti giuridici e tecnici.</p>
+          <a class="read-more" href="{{ $repo }}/STORYBOARD.md" target="_blank" rel="noopener"><span class="text">Apri</span></a>
+        </div></div></div>
+        <div class="col-md-6"><div class="card card-bg rounded shadow-sm h-100"><div class="card-body">
+          <h3 class="h6 text-primary">Booklet a fumetti</h3>
+          <p class="small">Dodici tavole per un lettore adulto non tecnico. Stessa spina dorsale dello script.</p>
+          <a class="read-more" href="{{ $repo }}/BOOKLET-FUMETTO.md" target="_blank" rel="noopener"><span class="text">Apri</span></a>
+        </div></div></div>
+        <div class="col-md-12"><div class="card card-bg rounded shadow-sm"><div class="card-body">
+          <h3 class="h6 text-primary">Dossier documentali</h3>
+          <p class="small mb-0">Quadro giuridico USA · post-Schrems e Data Privacy Framework · Senato francese in verbatim filologico · PSN, PNRR e denaro pubblico · lobbying europeo ed EUCS · asimmetria e scuola · strato dei fornitori italiani · EUCS High+ · testo del regolamento ACN · posizione dell'Italia a Bruxelles</p>
+          <a class="read-more" href="{{ $repo }}/ricerca" target="_blank" rel="noopener"><span class="text">Apri la cartella</span></a>
+        </div></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CAST -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <h2 class="mb-3">Interviste e contraddittorio</h2>
+      <p>In venti minuti d'inchiesta stanno <strong>sei-otto dichiarazioni da 15-25 secondi</strong>. Il cast va scelto chirurgicamente.</p>
+      <ul>
+        <li>Un <strong>giurista</strong> di extraterritorialità (CLOUD Act / FISA 702)</li>
+        <li>Un <strong>tecnico</strong> che spieghi il piano di controllo in trenta secondi</li>
+        <li><strong>Due parlamentari di schieramenti opposti</strong> — toglie di mezzo l'accusa di faziosità</li>
+        <li>Un <strong>dirigente pubblico</strong> che ha scelto la via sovrana</li>
+        <li>🎯 <strong>Il senatore francese Dany Wattebled</strong>, che pose la domanda: trasforma la citazione da documento a testimonianza viva</li>
+      </ul>
+      <div class="callout warning">
+        <div class="callout-title">
+          <svg class="icon"><use href="{{ $spritesURL }}#it-warning-circle"></use></svg>
+          <span>Diritto di replica</span>
+        </div>
+        <p class="mb-0">Microsoft Italia, Google Italia, PSN, ACN e Dipartimento per la trasformazione digitale vanno <strong>invitati formalmente</strong> a rispondere. Non è solo correttezza: un rifiuto documentato è materiale narrativo, e ci protegge da ogni contestazione successiva.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- APERTE -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <h2 class="mb-3">Cosa manca ancora</h2>
+      <p>Quattro verifiche non automatizzabili, da chiudere prima di girare:</p>
+      <ol>
+        <li>L'<strong>audio del video ufficiale</strong> del Senato francese, da ricontrollare contro il resoconto scritto</li>
+        <li>L'<strong>esito della causa risarcitoria</strong> Fastweb/Aruba (579 milioni richiesti)</li>
+        <li>Il <strong>conteggio FedRAMP</strong> dei fornitori cloud con casa madre europea autorizzati</li>
+        <li>Un <strong>accesso agli atti</strong> per il non-paper del 2021 e per la posizione negoziale italiana</li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- FEEDBACK -->
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <div class="info-box-custom">
+        <h2 class="h4 mb-3">Riscontri</h2>
+        <p>Il progetto è in revisione e cambia. Sono utili soprattutto: <strong>errori fattuali</strong>, <strong>obiezioni che ci verranno mosse</strong> e non abbiamo previsto, e <strong>fonti primarie</strong> per le quattro verifiche aperte.</p>
+        <p class="mb-0">
+          <a class="btn btn-primary btn-sm me-2" href="https://github.com/mxmap-it/osservatorio-nazionale-sovranita-digitale/issues" target="_blank" rel="noopener">Segnala su GitHub</a>
+          <a class="btn btn-outline-primary btn-sm" href="https://t.me/+Ot-M_g0dkh1kMGI0" target="_blank" rel="noopener">Canale Telegram</a>
+        </p>
+      </div>
+      <p class="small text-muted mt-3 mb-0">Ultimo aggiornamento: {{ now.Format "2 January 2006" }} · Versione script 1.0</p>
+    </div>
+  </div>
+
+</div>
+{{ end }}
