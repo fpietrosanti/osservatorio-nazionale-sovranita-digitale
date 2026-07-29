@@ -88,7 +88,52 @@ americano»: i due dati non sono in rapporto di sottoinsieme. La formulazione co
 
 ---
 
-## DA FARE (anelli 2 e 3, non ancora svolti)
+## ANELLO 2 — LA CLAUSOLA DI IMMUNITÀ: FRANCIA SÌ, ITALIA (a quanto risulta) NO
+
+### 2.1 Francia — SecNumCloud 3.2 (ANSSI)
+
+**AFFERMAZIONE** — Il referenziale **SecNumCloud 3.2** dell'ANSSI francese contiene un **requisito esplicito
+di immunità dalle leggi extraterritoriali non europee**, garantito attraverso il **controllo europeo del
+capitale** del fornitore. È indicato come l'unico schema di qualificazione che **esclude strutturalmente
+il CLOUD Act**: non lo mitiga tecnicamente, lo rende giuridicamente inapplicabile al fornitore qualificato.
+
+**AFFIDABILITÀ — ALTA** sul contenuto sostanziale (riportato in modo concorde da fonti francesi ed europee
+specializzate). **DA VERIFICARE**: citazione puntuale dell'articolo/sezione del referenziale ANSSI —
+necessaria prima della messa in onda.
+
+### 2.2 Italia — Regolamento ACN (DD 21007/24 del 27 giugno 2024)
+
+**AFFERMAZIONE (PRELIMINARE)** — Nella documentazione pubblica consultata sul Regolamento ACN
+**non risulta un requisito equivalente di immunità dalle leggi extra-UE né di controllo europeo del capitale
+del fornitore**. Il Regolamento struttura la qualificazione su:
+- classificazione dei dati in **ordinari / critici / strategici**;
+- misure tecnico-organizzative e livelli minimi di sicurezza;
+- (riferimenti al mantenimento dei dati in Europa e alla tutela dei **dati strategici** da accessi di paesi
+  extra-UE compaiono nella comunicazione istituzionale, ma **in termini di localizzazione e sicurezza**,
+  non come clausola di immunità giurisdizionale).
+
+⚠️ **AFFIDABILITÀ — DA VERIFICARE. NON UTILIZZABILE IN TRASMISSIONE IN QUESTA FORMA.**
+Le pagine istituzionali consultate (acn.gov.it, cloud.italia.it) sono pagine-vetrina che rimandano al
+decreto; **il testo operativo del DD 21007/24 e dei suoi allegati non è ancora stato letto.**
+L'assenza di prova non è prova di assenza: prima di affermare in TV che «l'Italia non ha la clausola»
+occorre aver letto gli allegati ed essere in grado di citarli. È un'affermazione forte su un atto
+amministrativo: se sbagliata, ACN rettifica in un giorno.
+
+### 2.3 Perché questo incastro è importante (se confermato)
+
+Si salda con il dossier 04 (EUCS) in una sequenza coerente:
+1. la **Francia** scrive nazionalmente la clausola di immunità (SecNumCloud);
+2. la Francia spinge perché la stessa clausola entri nello schema **europeo** (EUCS);
+3. il 22 marzo 2024 la clausola viene **rimossa** dall'EUCS, sotto pressione convergente di industria USA,
+   governo USA e **dodici Stati membri** guidati dai Paesi Bassi;
+4. l'**Italia** qualifica i servizi cloud per la propria PA **senza** quella clausola;
+5. il 21 luglio 2026 il Governo dichiara raggiunta «la protezione dei dati della PA».
+
+**È il filo che collega Bruxelles a Roma.** Ma il punto 4 è quello che va documentato sul testo primario.
+
+---
+
+## DA FARE (completamento anelli 2 e 3)
 
 - [ ] Comunicato **primario** del Dipartimento per la trasformazione digitale del 21/07/2026.
 - [ ] Meccanismo di **qualificazione ACN** dei servizi cloud: normativa, livelli, requisiti.
