@@ -66,6 +66,53 @@ OVHcloud, IONOS, Deutsche Telekom, Orange, Capgemini, Thales, Sopra Steria, Cigr
 🔗 https://eucshighplus.eu/
 ⚠️ Nell'elenco «Aruba» rimanda a **arubanetworks.com** (HPE, statunitense), **non** ad Aruba S.p.A. italiana.
 
+### A7. Il regolamento ACN NON contiene alcuna clausola di immunità ✅ *(era C1, risolto)*
+Letto il **testo primario integrale**: `RegolamentoCloud.pdf`, **88 pagine**, articolato (27 artt.) +
+Allegati 1-4 — tutti nello stesso PDF, nessun allegato separato non letto. 326.143 caratteri analizzati.
+
+**Scansione lessicale sull'intero testo — occorrenze:**
+`extraterritoriale` **0** · `CLOUD Act` **0** · `nazionalità` **0** · `sede legale` **0** ·
+`capogruppo` **0** · `capitale` **0** · `assetto proprietario` **0** · `paese terzo` **0** ·
+`sovranità` **0** · `PSN`/`Polo Strategico Nazionale` **0**.
+
+È **«ho letto il testo e il requisito non c'è»**, non «non sono riuscito a leggere il testo».
+
+**Dove avrebbe dovuto trovarsi**: Allegato 4, §§2-5 (requisiti QC1-QC4). **Cosa c'è invece**: certificazioni
+ISO (9001, 27001+27017/27018, 22301, 20000) e CSA STAR L2. L'unico requisito geografico riguarda *l'ente
+certificatore*, non il fornitore — e ammette l'IAF MLA, che include **ANAB (USA)**.
+
+**L'unica clausola sul tema** — PR.DS-01 15_S (All. 3, p. 78) / 6_S (All. 2, p. 44), **solo dati strategici**:
+il fornitore «*segnala all'ACN e all'amministrazione ogni richiesta di accesso a dati o metadati da parte di
+entità extra-UE*», con accesso «*solo a valle di un'autorizzazione esplicita*».
+🎯 **È un obbligo procedurale che presuppone e ammette l'accesso extra-UE**, non un divieto strutturale.
+Ed è **ineseguibile per costruzione**: un ordine CLOUD Act con *gag order* vieta giuridicamente al fornitore
+proprio quella segnalazione. **La norma chiede una comunicazione che la legge americana proibisce.**
+
+**Tre reperti ulteriori:**
+1. Per i dati **strategici bastano QC3 o QC4** (art. 17 c. 4 lett. c). **Nessun obbligo di PSN** — mai nominato.
+2. **HYOK + accesso esclusivo alle chiavi è requisito del solo QC4** (All. 4 §5.1, 18_SS/19_SS): un dato
+   strategico può stare legittimamente su QC3 con il solo BYOK.
+3. **Localizzazione UE derogabile** — «*salvo motivate e documentate ragioni di natura normativa o tecnica*»
+   (PR.DS-01 1_O/2_O) — ed è **territoriale, non giurisdizionale**: un datacenter irlandese di controllata
+   USA la soddisfa restando nel perimetro *ratione personae* del CLOUD Act.
+
+**Confronto con SecNumCloud 3.2** (ANSSI, 8 marzo 2022, 55 pp., letto direttamente) — §19.6 «*Protection
+vis-à-vis du droit extra-européen*», requisiti **cumulativi**: (a) sede statutaria + amministrazione centrale
++ stabilimento principale in UE; (b) capitale e diritti di voto extra-UE **≤24% individuale / ≤39%
+collettivo**, diretti o indiretti, senza veto né nomina della maggioranza degli organi; (c) **impossibilità
+tecnica** per società terza extra-UE di ottenere i dati; (d) autonomia d'esercizio o qualificazione a cascata
+del subfornitore; (e) legami con governi stranieri come elemento di valutazione. Più §19.2.c: «*Les opérations
+d'administration et de supervision du service doivent être réalisées depuis l'Union Européenne*».
+
+> **ANSSI aziona tre leve: societaria, tecnica e operativa. ACN aziona solo quella tecnica in forma
+> attenuata e sostituisce quella societaria con una procedurale. La leva societaria — la sola che
+> neutralizzi il CLOUD Act — è integralmente assente.**
+
+🔗 https://www.acn.gov.it/portale/cloud/regolamento-cloud-per-la-pa · 🔗 https://cyber.gouv.fr/
+⚠️ **Limite dichiarato**: il catalogo `catalogocloud.acn.gov.it` restituisce una pagina di login del Portale
+Fornitori e va aperto a mano (non incide sulla risposta: i requisiti sono nell'Allegato 4, letto per intero).
+Nessuna determinazione successiva modificativa rinvenuta — affidabilità MEDIA su questo punto specifico.
+
 ---
 
 ## 🟡 B — SOLIDO, DA CONFERMARE PRIMA DELLA MESSA IN ONDA
@@ -141,7 +188,7 @@ Non possono essere entrambe vere.
 
 | # | Domanda aperta | Perché è importante | Dove cercare |
 |---|---|---|---|
-| **C1** | Il Regolamento ACN (**DD 21007/24**) contiene una clausola di immunità dalle leggi extra-UE? | È il perno dell'atto politico: «la Francia l'ha scritta, l'Italia no». Finora ho letto solo pagine-vetrina | 🔗 https://www.acn.gov.it/portale/cloud/regolamento-cloud-per-la-pa — serve il **testo del decreto e degli allegati** |
+| ~~C1~~ | ~~Il Regolamento ACN contiene una clausola di immunità?~~ | ✅ **RISOLTO — vedi A7. Risposta: NO**, verificato sul testo integrale | — |
 | **C2** | Come si è espressa **l'Italia** nel negoziato ECCG sui criteri High+? Era tra i dodici Stati che ne chiesero la rimozione? | È l'informazione politicamente più pesante dell'intero progetto | Atti ECCG, posizioni ufficiali del Governo, eventuale accesso agli atti |
 | **C3** | Quanto denaro PNRR è finito a fornitori statunitensi? | Se non è tracciabile, **l'impossibilità di tracciarlo è essa stessa la notizia** | Contratti Consip, accordi quadro, rendicontazione misure 1.1 e 1.2, Corte dei conti |
 | **C4** | Quanti dei servizi qualificati ACN poggiano su tecnologia USA? | Serve per dire «su N servizi qualificati, M sono su tecnologia statunitense». Senza il conteggio, niente numeri | Catalogo ACN dei servizi qualificati (*lead non confermato: ~2.285 voci*) |
@@ -150,7 +197,7 @@ Non possono essere entrambe vere.
 | **C7** | Asimmetria USA/Cina/UE e lock-in scolastico | Due atti interi del documentario | FedRAMP, Buy American Act, IPI Reg. 2022/1031, decisioni Garanti privacy UE su scuole |
 | **C8** | **Aruba S.p.A.** è tra i firmatari EUCS High+? | Il link nell'elenco punta a HPE Aruba Networks | Verifica diretta presso la campagna |
 
-*(C1, C2, C3, C6, C7 hanno approfondimenti in corso — dossier 09, 10, 03, 01b, 05)*
+*(C1 risolto → A7. C2, C3, C6, C7 hanno approfondimenti in corso — dossier 10, 03, 01b, 05)*
 
 ---
 
