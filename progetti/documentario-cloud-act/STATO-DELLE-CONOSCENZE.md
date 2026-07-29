@@ -378,8 +378,10 @@ Verbatim: «Con questo risultato **l'Italia si pone tra i Paesi europei più ava
 dati della pubblica amministrazione**.»
 **Non usa mai l'espressione «sovranità digitale»**: parla di sicurezza e protezione dei dati.
 🔗 https://www.key4biz.it/pnrr-butti-oltre-13mila-pa-in-cloud-75-centrati-obiettivi-ue/581879/
-**Da fare**: recuperare il comunicato **primario** del Dipartimento per la trasformazione digitale
-(innovazione.gov.it / governo.it). Il lancio è d'agenzia (Adnkronos), non l'atto originale.
+✅ **DECISO — si procede sul lancio d'agenzia.** Rischio residuo messo a verbale: la fonte è Adnkronos,
+non l'atto originale del Dipartimento. Il virgolettato è stato ripreso in pari data da più testate in modo
+concorde, quindi la citazione è solida; ma **in trasmissione va attribuita all'agenzia**, non presentata
+come comunicato ufficiale. Se il comunicato primario emergesse, si aggiorna l'attribuzione.
 
 ### B2. La citazione del Senato francese
 Scambio Wattebled/Carniaux del 10/06/2025, **sotto giuramento**, con richiamo alle pene per falsa

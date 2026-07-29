@@ -382,4 +382,7 @@ l'infrastruttura; perché il CLOUD Act non è mai citato nella documentazione.
 - ~~Esito della causa Fastweb/Aruba~~ — vicenda esclusa dal film
 - ~~Conteggio FedRAMP~~ — **chiuso: zero fornitori cloud europei autorizzati** `[A16]`
 - ~~FOIA al Ministero sulle scuole~~ — non serve: il dato è nostro (Istruzione 77,7%)
-- **Resta**: comunicato primario del DTD del 21 luglio 2026 (oggi abbiamo solo il lancio d'agenzia)
+- ~~Comunicato primario del DTD~~ — si procede sul lancio d'agenzia; **attribuire all'agenzia**, non
+  presentarlo come comunicato ufficiale
+
+> ✅ **Tutte le verifiche bloccanti sono chiuse o consapevolmente accettate. Lo script è girabile.**
