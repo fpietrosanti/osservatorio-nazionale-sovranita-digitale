@@ -148,7 +148,7 @@ other = "Join the Observatory's Telegram channel"
 
 # --- Fixed banner: Microsoft's admission at the French Senate (CLOUD Act) ---
 [cloudActQuote]
-other = "\"I cannot guarantee it\": Microsoft admits it cannot guarantee that European data won't be handed to the US government (CLOUD Act)."
+other = "\"I cannot guarantee it\": under oath, Microsoft admits it cannot rule out that data entrusted to its cloud is handed to the US government (CLOUD Act)."
 [cloudActSource]
 other = "Hearing, French Senate committee — Jun 2025"
 [cloudActAria]

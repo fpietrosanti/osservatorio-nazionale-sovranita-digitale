@@ -148,7 +148,7 @@ other = "Unisciti al canale Telegram dell'Osservatorio"
 
 # --- Banner fisso: ammissione Microsoft al Senato francese (CLOUD Act) ---
 [cloudActQuote]
-other = "«Non posso garantirlo»: Microsoft ammette di non poter garantire che i dati europei non finiscano al governo USA (CLOUD Act)."
+other = "«Non posso garantirlo»: sotto giuramento, Microsoft ammette di non poter escludere che i dati affidati al suo cloud finiscano al governo USA (CLOUD Act)."
 [cloudActSource]
 other = "Audizione, Commissione Senato francese — giu 2025"
 [cloudActAria]
