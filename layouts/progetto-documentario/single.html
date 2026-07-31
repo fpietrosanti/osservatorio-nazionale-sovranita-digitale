@@ -24,13 +24,13 @@
     <div class="col-lg-10">
       <div class="row g-3">
         <div class="col-md-3"><div class="card card-bg rounded shadow-sm h-100 text-center"><div class="card-body py-3">
-          <div class="h4 text-primary mb-0">10</div><p class="small mb-0">dossier documentali</p></div></div></div>
+          <div class="h4 text-primary mb-0">11</div><p class="small mb-0">dossier documentali</p></div></div></div>
         <div class="col-md-3"><div class="card card-bg rounded shadow-sm h-100 text-center"><div class="card-body py-3">
-          <div class="h4 text-success mb-0">15</div><p class="small mb-0">fatti su fonte primaria</p></div></div></div>
+          <div class="h4 text-success mb-0">17</div><p class="small mb-0">fatti su fonte primaria</p></div></div></div>
         <div class="col-md-3"><div class="card card-bg rounded shadow-sm h-100 text-center"><div class="card-body py-3">
           <div class="h4 text-warning mb-0">18</div><p class="small mb-0">vincoli editoriali</p></div></div></div>
         <div class="col-md-3"><div class="card card-bg rounded shadow-sm h-100 text-center"><div class="card-body py-3">
-          <div class="h4 text-danger mb-0">4</div><p class="small mb-0">verifiche aperte</p></div></div></div>
+          <div class="h4 text-success mb-0">0</div><p class="small mb-0">verifiche aperte</p></div></div></div>
       </div>
     </div>
   </div>
@@ -69,11 +69,11 @@
             <tr><td><code>5:00–7:00</code></td><td>La firma</td><td>CLOUD Act <em>e</em> FISA 702; il caso Microsoft-Irlanda; confutazione preventiva del Data Privacy Framework</td></tr>
             <tr><td><code>7:00–8:30</code></td><td>L'esecuzione</td><td>Il piano di controllo; l'illusione del rivenditore</td></tr>
             <tr><td><code>8:30–9:30</code></td><td><strong>Il silenzio</strong></td><td>Il <em>gag order</em>. E il paradosso: la norma italiana chiede una segnalazione che la legge americana vieta</td></tr>
-            <tr class="table-warning"><td><code>9:30–11:00</code></td><td><strong>Era una scelta</strong></td><td>Difesa e GdF gestiscono la propria posta. E la gara vinta da Aruba e Fastweb, poi persa con la prelazione</td></tr>
+            <tr class="table-warning"><td><code>9:30–11:00</code></td><td><strong>Era una scelta</strong></td><td>Difesa e Guardia di Finanza gestiscono la propria posta: non è un destino tecnologico, è una decisione</td></tr>
             <tr><td><code>11:00–13:30</code></td><td>Lo Stato certifica, e non sa</td><td>Zero occorrenze nel regolamento; 1,9 miliardi non tracciabili</td></tr>
             <tr><td><code>13:30–15:30</code></td><td>L'asimmetria</td><td>Per vendere al governo USA un europeo deve farsi americano</td></tr>
             <tr class="table-warning"><td><code>15:30–17:00</code></td><td><strong>Bruxelles</strong></td><td>L'Italia ha co-scritto i criteri di immunità nel 2021 — e ha perso</td></tr>
-            <tr><td><code>17:00–18:00</code></td><td>I figli</td><td>Le scuole nella migrazione, e nessun dato pubblico su dove siano finiti</td></tr>
+            <tr class="table-warning"><td><code>17:00–18:00</code></td><td><strong>I figli</strong></td><td>Non è la Difesa, non è la Sanità: il settore messo peggio è <strong>l'Istruzione — 8.403 istituti, 77,7%</strong>, dominante Google</td></tr>
             <tr class="table-success"><td><code>18:00–20:00</code></td><td><strong>La via d'uscita</strong></td><td>Microsoft opera già cloud nazionali dove un governo l'ha preteso. La decisione italiana non è ancora stata presa</td></tr>
           </tbody>
         </table>
@@ -168,13 +168,35 @@
   <!-- APERTE -->
   <div class="row justify-content-center mb-5">
     <div class="col-lg-10">
-      <h2 class="mb-3">Cosa manca ancora</h2>
-      <p>Quattro verifiche non automatizzabili, da chiudere prima di girare:</p>
+      <h2 class="mb-3">Verifiche: chiuse</h2>
+      <div class="callout success">
+        <div class="callout-title">
+          <svg class="icon"><use href="{{ $spritesURL }}#it-check-circle"></use></svg>
+          <span>Tutte le verifiche bloccanti sono chiuse o consapevolmente accettate</span>
+        </div>
+        <p class="mb-0">Lo script è girabile. Restano tre <strong>rischi residui messi a verbale</strong>, non verifiche aperte.</p>
+      </div>
+
+      <div class="table-responsive mt-3">
+        <table class="table table-bordered align-middle">
+          <thead class="table-primary"><tr><th style="width:32%">Punto</th><th>Esito</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Conteggio FedRAMP</strong></td><td><span class="badge bg-success">chiuso</span> Nessun fornitore cloud europeo è autorizzato. I gruppi europei presenti — SAP, Siemens, Software AG, Darktrace, Ericsson — ci sono tutti tramite una società statunitense costituita apposta</td></tr>
+            <tr><td><strong>Dati delle scuole</strong></td><td><span class="badge bg-success">chiuso</span> Nessun accesso agli atti necessario: il dato è nostro. <strong>Istruzione 77,7%</strong> su fornitori extra-UE, dominante Google — il cluster peggiore della PA italiana</td></tr>
+            <tr><td><strong>Gara PSN e causa Fastweb/Aruba</strong></td><td><span class="badge bg-secondary">esclusa</span> È irregolarità negli appalti, non sovranità. Il nesso reggerebbe solo dimostrando che l'offerta Aruba-Fastweb fosse <em>più sovrana</em>, e quel dato non è pubblico. Resta nei dossier</td></tr>
+            <tr><td><strong>Audio del Senato francese</strong></td><td><span class="badge bg-warning text-dark">rischio accettato</span> Si procede sul resoconto ufficiale. In onda si dice «resoconto ufficiale del Senato», non «trascrizione»</td></tr>
+            <tr><td><strong>Dichiarazione del 21 luglio</strong></td><td><span class="badge bg-warning text-dark">rischio accettato</span> Fonte: lancio d'agenzia ripreso in modo concorde da più testate. Va <strong>attribuita all'agenzia</strong>, non presentata come comunicato ufficiale</td></tr>
+            <tr><td><strong>Coalizione dei dodici Stati</strong></td><td><span class="badge bg-warning text-dark">rischio accettato</span> L'elenco non è pubblico. Che l'Italia non ne facesse parte va detto come <strong>deduzione</strong>, non come fatto accertato</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 class="h5 mt-4">Cosa resta da fare — è produzione, non ricerca</h3>
       <ol>
-        <li>L'<strong>audio del video ufficiale</strong> del Senato francese, da ricontrollare contro il resoconto scritto</li>
-        <li>L'<strong>esito della causa risarcitoria</strong> Fastweb/Aruba (579 milioni richiesti)</li>
-        <li>Il <strong>conteggio FedRAMP</strong> dei fornitori cloud con casa madre europea autorizzati</li>
-        <li>Un <strong>accesso agli atti</strong> per il non-paper del 2021 e per la posizione negoziale italiana</li>
+        <li>Contattare i <strong>parer</strong> — in cima, il senatore <strong>Dany Wattebled</strong></li>
+        <li>Inviare le <strong>richieste di replica</strong> a Microsoft Italia, Google Italia, PSN, ACN e Dipartimento per la trasformazione digitale</li>
+        <li>Reperire i <strong>materiali d'archivio</strong> indicati nello storyboard</li>
+        <li>Portare il progetto in <strong>redazione</strong></li>
       </ol>
     </div>
   </div>
