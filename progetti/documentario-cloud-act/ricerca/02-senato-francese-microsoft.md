@@ -332,9 +332,39 @@ Questo è uno degli scambi più delicati: **Microsoft nega sotto giuramento di a
 
 **AFFIDABILITÀ — ALTA.**
 
-### 4.2 Chi altro fu audito — e il fatto rilevante: nessun altro hyperscaler
+### 4.2 Chi altro fu audito — e il fatto rilevante: nessun altro hyperscaler *in questa commissione*
 
-> **FATTO VERIFICATO E IMPORTANTE PER IL DOCUMENTARIO: Microsoft è stata l'UNICA multinazionale statunitense del cloud audita da questa commissione. AWS/Amazon e Google Cloud NON sono stati auditi.** (Verificato sulla tavola completa dei resoconti, rapport n° 830 tomo II.)
+> **FATTO VERIFICATO: nella commission d'enquête del 2025 sulla *commande publique*, Microsoft è stata l'UNICA multinazionale statunitense del cloud audita. AWS/Amazon e Google Cloud NON sono stati auditi, né hanno inviato contributi scritti.**
+>
+> **Verifica rifatta il 31 luglio 2026 su fonte primaria integrale** (rapporto n° 830, tomo I, versione *mono* HTML, 2,17 MB, scaricata e convertita in testo). Le tre liste ufficiali sono state estratte per intero:
+> - **«LISTE DES CONTRIBUTIONS ÉCRITES»**, testo completo: «*Mme Anne Le Hénanff, députée du Morbihan ; Chambre de commerce et d'industrie de Paris Ile-de-France ; Plateforme des données de santé ; **Microsoft France** ; M. Alain Issarni ; M. Fabien Voisin ; Fédération française des indications géographiques industrielles et artisanales et association Indication géographique granit de Bretagne ; GIE Publication des marchés ; M. Éric Bouchet ; Wifirst ; SemBreizh ; April.*» — **AWS e Google non ci sono.**
+> - **«LISTE DES PERSONNES ENTENDUES PAR LA COMMISSION»**: unica voce hyperscaler, «*Mardi 10 juin 2025 — MM. Anton Carniaux […] et Pierre Lagarde […], de Microsoft France*».
+> - **«LISTE DES PERSONNES ENTENDUES PAR LE PRÉSIDENT ET LE RAPPORTEUR»**: nessun fornitore cloud statunitense.
+>
+> Nell'intero tomo I «Amazon» ricorre **2 volte** e «AWS» **3 volte**, sempre in contesti terzi (elenco «Gafam», quote di mercato citate da France Digitale, vendite UGAP 2024 pari a **2,2 M€** per AWS su 44 M€ totali). **Mai come soggetto audito.**
+
+---
+
+> ### 🔴 RETTIFICA — 31 luglio 2026 (errore di formulazione, non di fatto)
+>
+> **La versione precedente di questo paragrafo era formulata in modo da lasciar intendere che AWS e Google non fossero MAI stati auditi dal Senato francese sul tema. È falso, e va corretto.**
+>
+> **AWS e Google sono stati auditi, sotto giuramento, dal Senato francese nel 2019**, da una **diversa** commissione d'inchiesta — la *commission d'enquête sur la souveraineté numérique* (presidente Franck Montaugé, relatore Gérard Longuet, rapporto n° 7 del 2019-2020, *Le devoir de souveraineté numérique*) — e alla **stessa domanda** poi posta a Microsoft nel 2025:
+>
+> | Data | Audito | Fonte primaria |
+> |---|---|---|
+> | **17 luglio 2019** | **Benoît Tabaka**, segretario generale aggiunto di **Google France** | `https://www.senat.fr/compte-rendu-commissions/20190715/ce_souverainete.html` |
+> | **18 luglio 2019** | **Marc Mossé** (dir. giuridico e affari pubblici Microsoft Europe) e **Mathieu Coulaud** (dir. giuridico Microsoft France) | ibidem |
+> | **3 settembre 2019** | **Julien Groues** (direttore generale) e **Stéphan Hadinger** (direttore tecnico), **Amazon Web Services France** | `https://www.senat.fr/compte-rendu-commissions/20190902/ce_souverainete.html` |
+>
+> Ad AWS la domanda fu posta **in forma più ampia** di quella rivolta a Microsoft nel 2025, perché nominava espressamente le controllate: «*Pouvez-vous nous assurer qu'Amazon, **ou ses filiales**, ne permet pas et ne permettra pas aux autorités américaines de prendre connaissance des données de nos concitoyens et de nos entreprises ?*»
+>
+> **Nessuno dei tre, nel 2019, rispose «sì» o «no».** Il «*Non, je ne peux pas le garantir*» di Carniaux del **10 giugno 2025** è quindi **il primo «no» esplicito in sei anni di audizioni francesi**, e va raccontato così.
+>
+> 📄 **Il verbatim integrale delle tre audizioni del 2019, con traduzione e analisi, è nel dossier
+> `12-amazon-sovranita-contrattuale.md`, §3.** Contiene il reperto più forte dell'intero blocco: il direttore
+> tecnico di AWS France che, sotto giuramento, enuncia la dottrina secondo cui «*una società non americana sarà
+> anch'essa soggetta al CLOUD Act se ha […] una controllata o dei dipendenti sul territorio americano*».
 
 Audizioni rilevanti per il tema digitale (elenco selettivo, tutte sotto giuramento):
 
@@ -629,7 +659,8 @@ Microsoft France **ha effettivamente inviato un contributo scritto alla commissi
 | Il nome e la funzione di chi pone la domanda (Dany Wattebled, rapporteur) | **ALTA** |
 | Il fatto che parlasse **sotto giuramento**, con avvertimento penale preventivo | **ALTA** — verbalizzato («prêtent serment»), formula e articoli del codice penale citati per esteso, e «sous serment» ripetuto dentro la domanda |
 | Il presidente della commissione (Simon Uzenat) | **ALTA** |
-| Che nessun altro hyperscaler USA (AWS, Google) sia stato audito | **ALTA** |
+| Che nessun altro hyperscaler USA (AWS, Google) sia stato audito **da questa commissione, quella del 2025** | **ALTA** — riverificato il 31/07/2026 sulle tre liste ufficiali integrali del rapporto n° 830 |
+| ⚠️ Che AWS e Google non siano **mai** stati auditi dal Senato francese | **FALSO — vedi rettifica al §4.2.** Lo furono, sotto giuramento, nel 2019 (AWS il 3 settembre, Google il 17 luglio), dalla commissione d'inchiesta sulla sovranità digitale. Verbatim nel dossier 12, §3 |
 | Che la citazione sia stata ripresa e avallata dal Senato nel rapporto finale n° 830 dell'8 luglio 2025 | **ALTA** |
 | Che Microsoft non abbia mai rettificato questa specifica risposta | **MEDIA-ALTA** — Microsoft ha inviato una *contribution écrite* alla commissione dopo l'audizione, ma non ritratta l'ammissione; nessuna rettifica pubblica trovata |
 | Che l'audio del video corrisponda parola per parola al resoconto | **DA VERIFICARE** — il *compte rendu* del Senato è un resoconto ufficiale rivisto; consigliata verifica sull'audio del video ufficiale prima della messa in onda |
