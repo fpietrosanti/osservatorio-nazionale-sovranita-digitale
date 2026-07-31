@@ -471,6 +471,72 @@ structure** […] Whether a company exercises sufficient control over data held 
 ⚠️ **Lacune**: catena di controllo azionaria **non letta su visura** (handelsregister.de a pagamento);
 **nessuna giurisprudenza letta**. 14 URL primari da aprire a mano nel dossier 12.
 
+### A23. ⚡ UN VETTORE NUOVO: non l'accesso ai dati, ma la REVOCA del servizio e dell'identità
+Distinto dal CLOUD Act e da tenere separato in tutto il racconto. Qui non si tratta di **leggere** i dati,
+ma di **spegnere** l'accesso di una persona ai propri strumenti digitali.
+
+**Il fondamento è nel testo presidenziale.** EO 14203 §3, letto verbatim: vieta «*the provision of funds,
+goods, or **services***» a un soggetto designato. La parola «servizi» è nell'ordine esecutivo: non serve
+interpretazione.
+
+**E le aziende lo hanno messo per iscritto.** Facebook, 28 dicembre 2017 (caso Kadyrov): «*Facebook has a
+**legal obligation** to disable these accounts.*» Ammissione scritta dell'obbligo, con otto anni d'anticipo.
+**Microsoft è già stata multata** (~3,3 M$, aprile 2023, OFAC+BIS) per aver fornito servizi a *blocked
+persons*: non un'azienda che sceglie, ma **una recidiva sotto vigilanza**.
+
+### A24. 🎯 I DUE CASI SOLIDI SONO CITTADINI EUROPEI — e non sono quelli che si citano di solito
+🚨 **Il caso Karim Khan è il PIÙ FRAGILE del dossier, non il più forte.** La fonte è AP (Molly Quell,
+15 maggio 2025): «*Microsoft, for example, cancelled Khan's email address… **ICC staffers said***» —
+funzionari **anonimi**, nessun documento. Brad Smith ha smentito il 4 giugno 2025. **Ma la smentita nega
+la cessazione dei servizi alla Corte come organizzazione, non la disconnessione dell'account individuale:
+le due affermazioni possono essere entrambe vere.** Da maneggiare con estrema cautela.
+
+**I due casi incontestabili:**
+
+1. **Beti Hohler**, giudice slovena — marzo 2026, verbatim:
+   > «*My Apple ID, iCloud, Amazon, Airbnb, PayPal, and other accounts have all been blocked or cancelled.
+   > **These cancellations happened overnight without advance warning.***»
+   **Nessuna azienda l'ha mai contestato.**
+2. **Nicolas Guillou**, giudice francese — documentato in un **atto parlamentare francese** (interrogazione
+   11576 Lachaud, 9 dicembre 2025) **con risposta ufficiale del Governo** del 10 febbraio 2026, in cui la
+   Francia si dichiara «*favorable à l'activation du règlement de blocage*».
+   **È la migliore fonte documentale dell'intero dossier.**
+
+### A25. L'asimmetria fra denaro e dati — è il fatto analitico più forte
+Per i **fondi** bloccati la legge americana prescrive conto fruttifero, interessi, *audit trail* e
+restituzione in caso di delisting. Per i **dati**: **nulla**. Nessuna regola su conservazione,
+esportabilità o restituzione. **L'assenza di disciplina è essa stessa il risultato.**
+
+E il **Regolamento di blocco UE non è stato attivato** a 17 mesi dall'EO, nonostante due risoluzioni del
+Parlamento europeo (9 luglio e 11 settembre 2025) e la richiesta di Spagna, Slovenia e Francia.
+
+**Italia**: esistono designati reali (23 agosto 2024, EO 14024 — Fagima Fresatrici S.p.A., Idronaut S.r.l.
+e quattro persone fisiche), ma **nessun effetto digitale documentato**. ⚠️ **Il rischio per un ente
+pubblico italiano è dichiarato TEORICO**: va detto così.
+
+### A26. ⚠️ SEI CORREZIONI — casi che circolano e che NON reggono
+1. **Bensouda (2020) non perse servizi digitali**, solo bancari. **Il precedente digitale del 2020 non esiste.**
+2. **A Moraes non è stato tolto Gmail**: la stampa brasiliana descriveva ipotesi. Ed è stato **delistato il
+   12 dicembre 2025**.
+3. **L'interruzione Microsoft in Russia (2024) ha base giuridica EUROPEA, non americana.** Usarla come prova
+   del potere USA è **smentibile in dieci secondi**.
+4. **Huawei è Entity List/BIS**, non OFAC/IEEPA: strumenti diversi, non cumulabili nel racconto.
+5. **X/Starlink 2024 è il fenomeno OPPOSTO** — uno Stato che interdice un'azienda. Citarlo come conferma
+   **dimostra la tesi della controparte**.
+6. **L'impegno Microsoft del 30 aprile 2025** copre gli ordini di sospendere le «*cloud operations in
+   Europe*» e **non menziona mai le sanzioni individuali**: copre lo scenario mai accaduto, non quello
+   già accaduto tre volte.
+
+🔴 **DA VERIFICARE A MANO, priorità 1**: nel **febbraio 2026 Microsoft si sarebbe scusata con la *Business
+and Trade Committee* dei Comuni**, chiedendo la correzione del verbale dopo che un dirigente aveva
+attribuito alla CPI — «*not Microsoft*» — la disattivazione della posta di Khan. Riportato in modo
+concorde ma **la fonte non è stata aperta** (The Register blocca i bot): **serve il verbale parlamentare
+originale**. La voce sulla presunta minaccia di Microsoft alla Corte è marcata DA VERIFICARE: **se la
+fonte primaria olandese non si trova, quel punto va eliminato dal film.**
+Bloccati anche `federalregister.gov` ed `ecfr.gov`: 31 CFR Part 528 e la **General License D-2** non letti
+in originale — la clausola di esclusione dei *blocked persons* nella D-2 dirime il contro-argomento
+«esistono licenze per i servizi essenziali». 25 URL da aprire a mano nel dossier 13.
+
 ---
 
 ## 🟡 B — SOLIDO, DA CONFERMARE PRIMA DELLA MESSA IN ONDA
