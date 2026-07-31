@@ -301,17 +301,30 @@ def build():
         style_body
     ))
     story.append(Paragraph(
-        "La <b>qualificazione italiana</b> dei servizi cloud per la PA, <i>per quanto "
-        "verificabile sulla documentazione pubblica</i>, non prevede una clausola "
-        "equivalente: è costruita su classificazione dei dati, misure di sicurezza e "
-        "localizzazione, non sulla nazionalità dell’operatore. La verifica puntuale sul "
-        "testo del <b>Decreto Direttoriale ACN 21007/24</b> è in corso e l’Osservatorio "
-        "ne pubblicherà l’esito.",
+        "La <b>qualificazione italiana</b> dei servizi cloud per la PA <b>non prevede una "
+        "clausola equivalente</b>. L’Osservatorio ha esaminato il testo integrale del "
+        "<b>Decreto Direttoriale ACN 21007/24</b> — 88 pagine, tutti e quattro gli "
+        "allegati: le espressioni «extraterritoriale», «CLOUD Act», «nazionalità», «sede "
+        "legale», «capogruppo», «capitale» e «paese terzo» <b>non vi compaiono mai</b>. "
+        "Lo schema è costruito su classificazione dei dati, misure di sicurezza e "
+        "localizzazione, non sul controllo societario dell’operatore. L’unica "
+        "disposizione sul tema, limitata ai dati strategici, impone al fornitore di "
+        "<i>segnalare</i> le richieste di accesso provenienti da entità extra-UE: è un "
+        "obbligo procedurale che presuppone l’accesso invece di escluderlo, ed è "
+        "ineseguibile proprio nel caso per cui è previsto, perché un ordine accompagnato "
+        "da <i>gag order</i> vieta al fornitore quella stessa segnalazione.",
         style_body
     ))
     story.append(Paragraph(
-        "A livello europeo gli stessi criteri di immunità hanno un nome: <b>«High+»</b>, "
-        "il livello in discussione nello schema di certificazione <b>EUCS</b>. È uno "
+        "A livello europeo gli stessi criteri di immunità hanno un nome: <b>«High+»</b>. "
+        "Non sono mai stati un livello formale — il Cybersecurity Act ne prevede tre — ma "
+        "l’etichetta negoziale dei criteri di immunità, <b>rimossi dallo schema EUCS nel "
+        "marzo 2024 e mai reintrodotti</b>. Nel giugno 2026 la Commissione europea "
+        "afferma che l’EUCS «non è ancora stato adottato»: nessun atto giuridico, nessun "
+        "certificato emesso. La sovranità è riemersa altrove, nei livelli di affidabilità "
+        "dell’Unione previsti dalla proposta di <i>Cloud and AI Development Act</i>, il "
+        "cui livello più alto riprende in sostanza i requisiti mancati — ma vincola gli "
+        "appalti pubblici, non il mercato, ed è ancora una proposta. È uno "
         "schema <b>volontario</b>: non esclude alcun fornitore dal mercato e non impone "
         "nulla agli acquirenti, offre soltanto un’alternativa certificata a chi ne ha "
         "bisogno. L’inclusione dei criteri High+ è stata chiesta da <b>62 "

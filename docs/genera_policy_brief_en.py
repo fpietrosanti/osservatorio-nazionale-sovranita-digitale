@@ -301,16 +301,29 @@ def build():
     ))
     story.append(Paragraph(
         "The <b>Italian qualification</b> scheme for cloud services to the public "
-        "administration, <i>as far as can be verified from the public documentation</i>, "
-        "contains no equivalent clause: it is built on data classification, security "
-        "measures and localisation, not on the nationality of the operator. A detailed "
-        "check against the text of <b>ACN Directorial Decree 21007/24</b> is under way "
-        "and the Observatory will publish the outcome.",
+        "administration <b>contains no equivalent clause</b>. The Observatory examined "
+        "the full text of <b>ACN Directorial Decree 21007/24</b> — 88 pages, all four "
+        "annexes: the terms “extraterritorial”, “CLOUD Act”, “nationality”, “registered "
+        "office”, “parent company”, “capital” and “third country” <b>never appear</b>. "
+        "The scheme is built on data classification, security measures and localisation, "
+        "not on corporate control of the operator. The single provision on the subject, "
+        "limited to strategic data, requires the supplier to <i>report</i> access "
+        "requests from non-EU entities: a procedural obligation that presupposes such "
+        "access rather than excluding it, and one that is unenforceable in precisely the "
+        "case it is meant for, since an order accompanied by a <i>gag order</i> forbids "
+        "the supplier from making that very report.",
         style_body
     ))
     story.append(Paragraph(
-        "At European level the same immunity criteria have a name: <b>“High+”</b>, the "
-        "level under discussion within the <b>EUCS</b> certification scheme. It is a "
+        "At European level the same immunity criteria have a name: <b>“High+”</b>. They "
+        "were never a formal tier — the Cybersecurity Act provides for three — but the "
+        "negotiating label for the immunity criteria, <b>removed from the EUCS scheme in "
+        "March 2024 and never reinstated</b>. In June 2026 the European Commission states "
+        "that EUCS “has not yet been adopted”: no legal act, no certificates issued. "
+        "Sovereignty has resurfaced elsewhere, in the Union assurance levels set out in "
+        "the proposed <i>Cloud and AI Development Act</i>, whose highest level "
+        "substantially restores the missing requirements — but it binds public "
+        "procurement, not the market, and it is still a proposal. It is a "
         "<b>voluntary</b> scheme: it excludes no provider from the market and imposes "
         "nothing on buyers, it simply offers a certified alternative to those who need "
         "one. The inclusion of the High+ criteria has been requested by <b>62 "
