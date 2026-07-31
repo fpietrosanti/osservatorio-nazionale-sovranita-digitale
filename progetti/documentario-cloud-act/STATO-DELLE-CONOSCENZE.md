@@ -367,6 +367,47 @@ la Pubblica Amministrazione italiana**:
 registrati in IndicePA. È prova diretta della piattaforma adottata dalla scuola, **non** una misura di
 quanti studenti usino quotidianamente un applicativo. Il FOIA al Ministero **non serve più**.
 
+### A18. Come funziona davvero il protezionismo americano — non per divieto, ma per stratificazione
+Censiti **25 strumenti**: **7 mordono direttamente sul cloud, 5 indirettamente, 13 no.** Il conteggio onesto
+rende la mappa incontestabile.
+
+**Ciò che NON regge (e va detto noi per primi):**
+- **FAR 25.103(e)** — esenzione espressa per l'IT commerciale (base: §535(a) Consolidated Appropriations
+  Act 2004). Il Buy American Act **non** blocca il software europeo.
+- **15 CFR §7.4** — la lista dei *foreign adversaries* è **tassativa**: Cina, Cuba, Iran, Corea del Nord,
+  Russia, regime Maduro. Le regole ICTS **non si applicano agli europei**.
+- 🚨 **41 U.S.C. §1323 contiene un divieto espresso**: «*Nothing in this section shall be construed… to
+  authorize the issuance of an exclusion or removal order **based solely on the fact of foreign
+  ownership**.*» **È il contro-argomento più forte contro la nostra tesi: va citato per primo.**
+  Non la distrugge — la costringe a essere precisa.
+
+**Ciò che regge, ed è il meccanismo vero:**
+- **32 CFR §117.11(d)** (FOCI) — *Voting Trust* e *Proxy Agreement* impongono alla capogruppo estera di
+  **cedere l'esercizio del controllo societario a cittadini statunitensi con nulla osta**. È il cuore.
+  *(SAP NS2 come applicazione concreta: la qualificazione «Proxy Agreement» viene da fonti secondarie,
+  perché gli accordi FOCI non sono pubblici — MEDIA.)*
+- **DFARS 252.239-7010(b)(3)** (gen. 2023) — dati governativi da mantenere negli Stati Uniti.
+- **DoD Cloud SRG** — *US persons* per IL4/IL5, cittadinanza + clearance SECRET per IL6.
+  ⚠️ **La riga più importante è anche la meno documentata**: confermata da cinque fonti indipendenti ma
+  **il PDF originale non è mai stato letto**. È il primo documento da aprire a mano.
+- **CMMC** (DFARS 252.204-7021, efficace 10/11/2025) — estende i requisiti cloud all'intera filiera privata
+  della difesa: sposta la barriera dal cliente pubblico ai fornitori.
+
+**⚠️ DUE CORREZIONI CHE CAMBIANO LA SCENEGGIATURA:**
+1. **La barriera FedRAMP NON è il costo: è la *sponsorship* di agenzia.** FedRAMP 20x sta abbassando costi
+   e tempi **di proposito** (Fase 3 nel Q3-Q4 2026). **Se il documentario poggia sul costo, è smentito entro
+   un anno.** Sponsorship, cittadinanza e controllo societario invece non si abbassano.
+   *(Nota: la base legale FedRAMP, 44 U.S.C. §§3607-3616, ha una sunset al 23 dicembre 2027.)*
+2. **Nel 2025-2026 gli USA NON hanno introdotto alcuna restrizione verso i fornitori europei.** Anzi: EO
+   14275 e il *Revolutionary FAR Overhaul* vanno in direzione **deregolatoria**, e l'*America First
+   Investment Policy* (21/02/2025) **favorisce** gli investitori alleati. Le novità restrittive riguardano
+   la Cina. **Va detto in voce**: gli Stati Uniti non hanno chiuso agli europei perché non ne hanno
+   bisogno — l'effetto è già prodotto dallo strato costruito fra il 2011 e il 2019.
+
+⚠️ **Limiti**: `ecfr.gov` e `federalregister.gov` reindirizzano (302) e non sono stati leggibili;
+`uscode.house.gov` irraggiungibile. Ripiego su Cornell LII e govinfo XML, con le righe interessate
+degradate a MEDIA. 20 URL da aprire a mano elencati nel dossier 11.
+
 ---
 
 ## 🟡 B — SOLIDO, DA CONFERMARE PRIMA DELLA MESSA IN ONDA
@@ -453,7 +494,9 @@ Non possono essere entrambe vere.
 | ~~C7~~ | ~~Asimmetria USA/Cina/UE e scuola~~ | ✅ **RISOLTO — vedi A13, con tre assunti di partenza CORRETTI** | — |
 | ~~C9~~ | ~~Fornitori cloud europei autorizzati FedRAMP?~~ | ✅ **RISOLTO — vedi A16. Zero.** | — |
 | ~~C10~~ | ~~Dati delle scuole italiane?~~ | ✅ **RISOLTO — vedi A17. Istruzione 77,7%, il peggiore del dataset** | — |
-| **C8** | **Aruba S.p.A.** è tra i firmatari EUCS High+? | Il link nell'elenco punta a HPE Aruba Networks | Verifica diretta presso la campagna |
+| **C8** | **Aruba S.p.A.** è tra i firmatari EUCS High+? | Il link nell'elenco punta a HPE Aruba Networks | ✅ **parzialmente risolto in A15**: è firmataria certa della lettera del 10/04/2024; per quella del 10/06/2024 l'ambiguità resta |
+| **C11** | Testo originale del **DoD Cloud SRG** | È la riga più importante del blocco asimmetria e non è mai stata letta in originale | PDF su `dl.dod.cyber.mil` — apertura manuale |
+| **C12** | **Comune italiano** con videosorveglianza (o AI di riconoscimento) su AWS/Google/Microsoft | Servirebbe per il filone «Trump vede anche chi passa per strada». ⚠️ **Attenzione**: in Italia vige una moratoria sul riconoscimento facciale in luoghi pubblici — da verificare stato e portata prima di impostare la narrativa | Delibere comunali, bandi, provvedimenti del Garante |
 
 *(Risolti: C1 → A7 · C2 → A15 · C3 → A9 · C4 → A10 · C6 → A12 · C7 → A13. Restano C5, C8, C9, C10 — tutte verifiche manuali su fonti non automatizzabili.)*
 
