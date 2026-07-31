@@ -408,6 +408,69 @@ rende la mappa incontestabile.
 `uscode.house.gov` irraggiungibile. Ripiego su Cornell LII e govinfo XML, con le righe interessate
 degradate a MEDIA. 20 URL da aprire a mano elencati nel dossier 11.
 
+### A19. 🎬 LE QUATTRO VOCI AL SENATO FRANCESE — sei anni, tre aziende, un solo «no»
+La segnalazione «anche AWS e Google risposero» era **vera**, ma riferita a **un'altra commissione**.
+Entrambe le cose stanno in piedi:
+
+- **Commissione 2025** (rapporto n° 830): il dossier 02 aveva ragione. Tomo I integrale scaricato ed
+  estratte le tre liste ufficiali: la `LISTE DES CONTRIBUTIONS ÉCRITES` contiene **solo Microsoft France**
+  fra gli hyperscaler. AWS e Google non compaiono né lì né fra le persone audite.
+- **Commissione 2019** — *commission d'enquête sur la souveraineté numérique*, rapporto n° 7 (2019-2020):
+  **tutti e tre furono auditi sotto giuramento.**
+  - **Google France** (Benoît Tabaka) — 17 luglio 2019
+  - **Microsoft** (Marc Mossé, Mathieu Coulaud) — 18 luglio 2019
+  - **AWS France** (Julien Groues, DG; Stéphan Hadinger, CTO) — **3 settembre 2019**, 16h15-16h50
+
+La domanda del presidente Montaugé ad AWS era **più ampia** di quella del 2025, perché nominava le
+controllate: «*Pouvez-vous nous assurer qu'Amazon, **ou ses filiales**, ne permet pas et ne permettra pas
+aux autorités américaines de prendre connaissance des données de nos concitoyens…?*»
+
+**Nessuno dei tre rispose sì o no.** AWS smontò «i miti» sul CLOUD Act e concluse «*nous appliquons la
+loi*». Google affermò — **giuridicamente scorretto** se riferito al §2713 — che «*ces dispositions ne sont
+pas entrées en vigueur, en l'absence de conclusion des accords bilatéraux*».
+
+> 🎯 **Il «No, je ne peux pas le garantir» di Carniaux (10 giugno 2025) è il primo «no» esplicito in sei
+> anni.** Il dossier 12 contiene il verbatim integrale delle quattro voci con traduzione e un **blocco di
+> montaggio a quattro voci**: è materiale da mandare in onda affiancato.
+
+### A20. 🔥 Il CTO di AWS ha enunciato lui stesso, sotto giuramento, la dottrina che oggi lo smentisce
+**3 settembre 2019**, Stéphan Hadinger, CTO di AWS France, davanti al Senato francese:
+«*une société non américaine sera aussi soumise au Cloud Act si elle a […] **une filiale ou des employés
+sur le territoire américain***» — citando il DOJ (Richard Downing) per cui «*la plupart des grands
+fournisseurs de cloud américains ou non américains étaient soumis à la juridiction des États-Unis*».
+
+È **il principio che rende non immune l'AWS European Sovereign Cloud**, enunciato da AWS stessa.
+
+### A21. Nitro: cosa dice davvero l'audit — e cosa esclude
+Rapporto **NCC Group** letto per intero. Quattro limiti dichiarati dall'auditor stesso:
+1. È **pagato da AWS**;
+2. è una ***design review* senza test**: l'auditor dichiara di non poter attestare che l'implementazione
+   corrisponda al progetto;
+3. mette **fuori perimetro** il piano di controllo EC2, l'hypervisor, il firmware e le Nitro Card;
+4. 🎯 riga decisiva: fornisce «*no assurance with regards to any future chosen or **compelled** technical
+   changes*» — l'auditor **esclude espressamente** la garanzia contro modifiche tecniche **imposte**.
+   Che è esattamente lo scenario CLOUD Act.
+
+Contrappeso indipendente, non pagato da AWS — **Trail of Bits**: «*you must completely trust AWS*».
+
+### A22. Il test giuridico, risolto su fonte primaria DOJ
+Scaricato il **white paper DOJ 2019** (dava 403 nel dossier 01, oggi risponde 200). La **FAQ n° 25** pone
+letteralmente la nostra domanda e risponde: «*The analysis remains the same **regardless of corporate
+structure** […] Whether a company exercises sufficient control over data held by a subsidiary is a
+**fact-dependent inquiry***.»
+
+**Verdetto sulla tesi Amazon: regge nella sostanza, ma va corretta in due punti.**
+- ❌ Dire «è una controllata, **quindi** soggetta al CLOUD Act» è **troppo netto**: il DOJ dice
+  *fact-dependent*, e **non è stata trovata né letta alcuna sentenza** che applichi il §2713 a una
+  controllata estera con personalità giuridica distinta.
+- ✅ La **difesa crittografica di AWS** (chiavi in *external key store*) è **tecnicamente valida per il
+  dato a riposo** e va riconosciuta.
+- ⚖️ **AWS non ha mai preteso di essere immune** dal CLOUD Act. L'equivoco è **commerciale**, e sta tutto
+  nella parola «sovereign».
+
+⚠️ **Lacune**: catena di controllo azionaria **non letta su visura** (handelsregister.de a pagamento);
+**nessuna giurisprudenza letta**. 14 URL primari da aprire a mano nel dossier 12.
+
 ---
 
 ## 🟡 B — SOLIDO, DA CONFERMARE PRIMA DELLA MESSA IN ONDA
@@ -545,5 +608,11 @@ Non possono essere entrambe vere.
     e la formulazione sbagliata ci farebbe passare per disinformati.
 17. **Non affermare che l'Italia era tra i dodici Stati che chiesero la rimozione**: quell'elenco **non
     esiste in fonte pubblica**. È una deduzione, e va detta come tale.
-18. **Non dire che l'EUCS «sta per essere adottato»**: al giugno 2026 la Commissione stessa scrive che
+18. **Non dire «è una controllata europea, quindi è soggetta al CLOUD Act»**: il DOJ qualifica la
+    questione come *fact-dependent* e non esiste giurisprudenza nota che lo affermi. La formulazione
+    corretta è che **la struttura societaria non muta di per sé l'analisi** — lo dice il DOJ — e che
+    **AWS non ha mai sostenuto di essere immune**. L'equivoco sta nella parola «sovereign».
+19. **Riconoscere che la cifratura con chiavi esterne di AWS è una difesa tecnicamente valida** per il
+    dato a riposo. Negarlo ci fa perdere il contraddittorio su un punto in cui hanno ragione.
+20. **Non dire che l'EUCS «sta per essere adottato»**: al giugno 2026 la Commissione stessa scrive che
     «*non è ancora stato adottato*». Zero certificati emessi.
