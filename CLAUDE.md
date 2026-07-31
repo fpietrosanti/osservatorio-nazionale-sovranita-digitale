@@ -161,6 +161,39 @@ data/kpi.json → site.Data.kpi → layout (homepage, decisori, press) → deplo
    destra (vedi `layouts/partials/header.html`).
 8. **Tono:** civico, non ideologico, basato su dati verificabili. "Non siamo
    contro un fornitore: documentiamo una dipendenza giurisdizionale."
+9. **⚠️ Quando cambia un FATTO, propagalo a TUTTI gli artefatti.** È l'errore più
+   facile da commettere e il più costoso: il sito si corregge subito, i PDF no —
+   **i PDF non si aggiornano da soli**. Ogni volta che una verifica ribalta o
+   precisa un fatto già pubblicato, fai il giro completo **nello stesso commit**:
+   (a) pagine del sito, IT **ed** EN; (b) **generatori PDF** IT ed EN, con
+   rigenerazione e copia in `static/pdf/`; (c) dossier di ricerca in
+   `progetti/*/ricerca/`; (d) documenti di sintesi (es. `STATO-DELLE-CONOSCENZE.md`,
+   script, pagine di progetto). Poi **verifica per esclusione**: estrai il testo dei
+   PDF con `pypdf` e cerca le formulazioni ormai superate ("in corso di verifica",
+   "in discussione", "non risulta"), che sono la spia di un artefatto rimasto
+   indietro. Un documento scaricabile che promette una verifica già conclusa è
+   peggio di un documento che tace.
+10. **Gerarchia delle fonti e affidabilità dichiarata.** Per le affermazioni forti
+   — soprattutto se riguardano soggetti nominati (aziende, istituzioni, persone in
+   carica) — vale: **fonte primaria letta direttamente** > fonte secondaria
+   specializzata > stampa. Distingui sempre **"ho letto il testo e non c'è"** da
+   **"non sono riuscito a leggere il testo"**: l'assenza documentata è utilizzabile,
+   l'assenza presunta no. Marca esplicitamente ciò che è **deduzione** e non fatto
+   accertato. Cita **anche i dati che contraddicono la tesi**: ometterli è
+   manipolatorio e la controparte li conosce. Diffida delle fonti in **conflitto
+   d'interesse** (un fornitore che si autoinserisce fra i qualificabili) e, se le
+   citi, dichiara la loro natura.
+11. **Pagine di lavoro non pubbliche: "non linkata" NON basta.** Una pagina non
+   collegata finisce comunque in sitemap e su Google. Servono tre livelli, tutti e
+   tre: (a) `noindex: true` nel frontmatter → `head.html` emette
+   `robots noindex,nofollow,noarchive,nosnippet`; (b) esclusione dalla sitemap via
+   `layouts/_default/sitemap.xml`, che salta le pagine con `noindex`; (c)
+   `build: { list: never }` per tenerla fuori da liste di sezione e feed RSS
+   (**`_build` è stato rimosso in Hugo 0.145+**, usa `build`). Verifica sempre con:
+   presenza del meta robots, `0` occorrenze in `public/*/sitemap.xml`, `0` link da
+   altre pagine, `0` nel feed. Queste pagine possono restare **solo in italiano**
+   quando sono documenti di lavoro per interlocutori italiani: la regola 6 vieta
+   una pagina EN mezza tradotta, non impone che ogni pagina esista in EN.
 
 ---
 
