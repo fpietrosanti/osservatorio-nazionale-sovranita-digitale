@@ -1,16 +1,24 @@
 # «NON POSSO GARANTIRLO»
-## Booklet a fumetti — 12 tavole + copertina e quarta di copertina
+## Booklet a fumetti — 13 tavole + copertina e quarta di copertina
 ### Sceneggiatura completa per il disegnatore
 
 Versione 2.1 — 2 agosto 2026
 Adattamento divulgativo di `SCRIPT-30-MINUTI.md` **versione 3.0, 13 atti**. Una tavola per atto.
 
-> 🔄 **DA AGGIORNARE ALLA v3.0 — il booklet è fermo a 12 tavole.** Il passaggio a 30 minuti ha creato
-> l'**Atto 12 (L'Italia concreta)**, che non ha ancora la sua tavola, e ha aggiunto materiale a cinque atti
-> esistenti: **Airbus** (atti 9 e 11), la **demolizione del «non è mai successo»** (atto 5), gli **esiti
-> europei sulla scuola** (atto 10) e l'**AWS European Sovereign Cloud** (atto 4).
-> ⚠️ La **tavola 13** è quella che chiude il booklet: deve finire come il film, su **«la regola è scritta,
-> la data è bianca»** e sulla data del **12 gennaio 2027**.
+> 🔄 **AGGIORNATO ALLA v3.0 (2 agosto 2026).** Il passaggio del film a 30 minuti ha prodotto qui
+> **tre modifiche strutturali**:
+> 1. 🆕 **Nasce la TAVOLA 13 — *La data è bianca*** (dal nuovo Atto 12), ed è **lì che il booklet
+>    finisce**. La vignetta muta del Cursore, che chiudeva la tavola 12, **si sposta in fondo alla 13**:
+>    stessa immagine, stessa funzione, ma dopo l'azione anziché prima. L'ordine è **prova → azione**.
+> 2. 🆕 **Airbus entra in due tempi separati e distanti**, come nel film: **chiede** la regola nella
+>    tavola 10 (vignetta 6) e **la applica a sé stessa** nella tavola 12 (vignetta 6). Il lettore deve
+>    **riconoscere il logo** la seconda volta: è il cerchio che si chiude.
+> 3. La quarta di copertina guadagna **una data vera**: il **12 gennaio 2027**.
+>
+> ⏳ **Restano da scrivere** — aggiunte agli atti già esistenti, che il film ha e il booklet non ancora:
+> la **demolizione del «non è mai successo»** (tavola 6), gli **esiti europei sulla scuola** (tavola 11)
+> e l'**AWS European Sovereign Cloud** (tavola 5). Non bloccano il disegnatore: sono inserimenti
+> **dentro tavole già impaginate**, e vanno affrontati quando le 13 tavole sono approvate nell'impianto.
 Ogni affermazione fattuale è ancorata a `STATO-DELLE-CONOSCENZE.md`; i riferimenti `[A#]` / `[B#]` sono
 gli stessi del dossier.
 
@@ -1072,6 +1080,35 @@ Marta la guarda. Non la tocca.
 
 ---
 
+**VIGNETTA 6** 🆕 *(aggiunta in v3.0 — primo tempo di Airbus)*
+**DISEGNO** — Sandro gira lo schermo verso Marta. Sul monitor, una pagina web molto semplice: un titolo e
+un lungo elenco di loghi aziendali. In fondo alla pagina, il dettaglio che conta: una riga di contatto con
+**l'indirizzo di un ufficio di Bruxelles**. Marta si sporge per leggerla.
+⚠️ **Il logo Airbus va disegnato riconoscibile**: il lettore deve poterlo ritrovare nella tavola 12.
+
+**BALLOON — SANDRO**: «Guardi qua. È una lettera aperta. Chiedono all'Europa esattamente quella regola:
+proteggere i dati più sensibili **dalle leggi extraterritoriali**. L'hanno firmata in **sessantadue**.»
+**BALLOON — MARTA**: «E chi l'ha messa in piedi?»
+**BALLOON — SANDRO** *(indica la riga in fondo)*: «C'è scritto. La gestisce l'ufficio di Bruxelles di
+**Airbus**.»
+
+**DIDASCALIA — i nomi italiani** *(da disegnare come cinque righe che si accendono una alla volta)*:
+> **Leonardo · Fincantieri · Generali · Telecom Italia · Aruba** `[A47]`
+>
+> Sono aziende italiane che chiedono **a Bruxelles** una regola che **a Roma** non è stata scritta.
+> L'ultimo nome merita un secondo in più: **Aruba è il principale fornitore cloud italiano**, ed è un
+> partner del Polo Strategico Nazionale — quello della tavola 8.
+
+**RIQUADRO DI ONESTÀ** *(sfondo grigio, obbligatorio)*:
+> ⚠️ **Non stiamo accusando nessuna di queste aziende di incoerenza.** Il bersaglio è **il quadro
+> normativo**, non chi ci lavora dentro. Anzi: la lettura giusta è **il contrario**. Se perfino chi
+> costruisce l'infrastruttura pubblica italiana chiede all'Europa quel criterio, vuol dire che **il quadro
+> in cui la costruisce non gli basta**.
+> E la lettera stessa lo dice: un criterio del genere **«non escluderebbe in alcun modo i fornitori non
+> europei»**. È volontario. Offre un'alternativa, non un divieto.
+
+---
+
 # TAVOLA 11 — E I RAGAZZI?
 ### (dall'ATTO 10 — I FIGLI)
 
@@ -1254,20 +1291,156 @@ Gliel'ho fatto vedere: sono le sette parole con lo zero accanto.»
 
 ---
 
-**VIGNETTA 6** *(finale, a tutta larghezza — quasi muta)*
-**DISEGNO** — Il **Cursore**, che per undici tavole è stato piccolo in basso a destra, adesso è al centro
+**VIGNETTA 6** 🆕 *(sostituisce la vecchia vignetta finale, che si sposta in fondo alla tavola 13 —
+secondo tempo di Airbus)*
+**DISEGNO** — Marta ha in mano il telefono e lo mostra a Sandro. Sullo schermo, **lo stesso logo Airbus
+della tavola 10**, ma stavolta in cima a un documento diverso: un capitolato di gara. Sandro lo riconosce
+e alza le sopracciglia.
+⚠️ **La riconoscibilità del logo è il senso della vignetta**: se il lettore non lo ricollega alla
+tavola 10, la vignetta non funziona. Se serve, il disegnatore può aiutare con un piccolo richiamo
+grafico — la stessa pagina web in trasparenza, sullo sfondo.
+
+**BALLOON — MARTA**: «Quelli della lettera. Quelli che chiedevano la regola.»
+**BALLOON — SANDRO**: «Sì.»
+**BALLOON — MARTA**: «L'hanno applicata **a sé stessi**. Hanno fatto una gara per le loro applicazioni più
+importanti e hanno messo **a punteggio** la protezione dalle leggi extraterritoriali. Ha vinto un
+fornitore europeo.»
+
+**DIDASCALIA — il criterio, testuale** *(da comporre come un ritaglio di documento)*:
+> «*giurisdizione europea, protezione dei dati e **protezione dalle legislazioni extraterritoriali non
+> europee***» — Airbus, criterio di gara, luglio 2026 `[A47]`
+>
+> **Chi ha chiesto la regola l'ha poi usata come committente.** Non è un'opinione sulla sovranità:
+> è un'azienda che mette a bando il proprio criterio e ci firma sopra un contratto.
+
+**RIQUADRO DI ONESTÀ** *(sfondo grigio, obbligatorio — non eliminabile in impaginazione)*:
+> ⚠️ Airbus è **un'azienda privata, non uno Stato**: nessun obbligo di legge, nessuna gara pubblica,
+> nessun precedente giuridico — e ha un evidente interesse industriale verso i fornitori europei.
+> **Non ha «abbandonato» il fornitore precedente**: sposta le applicazioni più critiche, **scegliendo
+> in base a quanto è delicato il dato**. Sono **una settantina**, entro il 2028.
+> Ed è proprio per questo che l'esempio pesa: **un'impresa che risponde ai propri azionisti** ha ritenuto
+> quel rischio abbastanza concreto da spenderci sopra dei soldi.
+
+---
+
+# TAVOLA 13 — LA DATA È BIANCA
+### (dal nuovo ATTO 12 — L'ITALIA CONCRETA) · 🆕 **è qui che il booklet finisce**
+
+**Impaginazione**: 6 vignette. Prima striscia: due vignette (la domanda, il documento).
+Seconda striscia: **una vignetta sola, grande** — la parentesi vuota. È il fermo-immagine del booklet
+e **non va rimpicciolita per far spazio ad altro**.
+Terza striscia: due vignette (il comune, il calendario) + la vignetta finale muta a tutta larghezza.
+
+---
+
+**VIGNETTA 1**
+**DISEGNO** — Marta e Sandro ancora sui gradini. Marta ha finito il caffè e schiaccia il bicchiere.
+Ha l'aria di chi sta per dire la cosa scomoda.
+
+**BALLOON — MARTA**: «Va bene. Ma allora serve una legge. E le leggi le fa Roma.»
+**BALLOON — SANDRO**: «È quello che dicevo anch'io. **Non è più vero.**»
+
+---
+
+**VIGNETTA 2**
+**DISEGNO** — Il portatile di Sandro, aperto su un documento europeo. Non un ritaglio: si vede che è un
+testo lungo, con numeri di articolo nel margine. Il dito di Sandro indica un paragrafo.
+
+**DIDASCALIA**:
+> Nel giugno 2026 la Commissione europea ha depositato una proposta di regolamento. Dentro c'è un capitolo
+> di cui non ha parlato quasi nessuno: **la Commissione può fare da centrale d'acquisto per le
+> amministrazioni degli Stati membri.** `[A44]`
+>
+> E c'è una scala. Il **livello 3** ammette software americano, purché se ne verifichi il codice e si
+> scriva un piano di uscita — **è il modello francese della tavola 12, diventato criterio di legge**.
+> Il **livello 4** toglie la deroga. `[A45]`
+
+**BALLOON — MARTA**: «Quindi il primo passo e il secondo sono già scritti?»
+**BALLOON — SANDRO**: «Con i numeri di paragrafo.»
+
+---
+
+**VIGNETTA 3** *(grande, una striscia intera — è l'immagine chiave del booklet)*
+**DISEGNO** — **Dettaglio fortissimo della pagina**, come se il lettore ci avesse messo sopra una lente.
+Righe e righe di testo giuridico, tutte fitte, tutte piene. E in mezzo, dove dovrebbe esserci una data,
+**una parentesi quadra con dentro una frase segnaposto mai compilata**.
+La parentesi è l'unica cosa perfettamente a fuoco. Tutto il resto sfuma.
+💡 **Idea per il disegnatore**: la **Busta**, per la prima volta in tutto il booklet, è **dentro la
+parentesi**, seduta. Piccolissima. Aspetta che qualcuno scriva la data.
+
+**TESTO NELLA PARENTESI (da disegnare esattamente così)**:
+> `[data di entrata in vigore più un anno]`
+
+**DIDASCALIA (grande, sotto)**:
+> In quel documento **non c'è una sola data.** Dove dovrebbero esserci le scadenze ci sono segnaposto mai
+> compilati. `[A45]`
+
+**FRASE ISOLATA (la più grande della tavola, in fondo alla vignetta)**:
+> ## LA REGOLA È SCRITTA. LA DATA È BIANCA.
+
+**DIDASCALIA (piccola, sotto)**:
+> Non manca il diritto. **Manca la decisione politica di riempire una parentesi.**
+
+---
+
+**VIGNETTA 4**
+**DISEGNO** — Il palazzo del Comune della tavola 1, visto da fuori. Dalla porta esce **una sola persona**:
+Sandro, con una cartellina sotto il braccio, che scende i gradini. Nessun corteo, nessuna folla.
+Sullo sfondo, molto lontano, la sagoma di Roma, e Sandro **non la sta guardando**.
+
+**DIDASCALIA**:
+> E c'è l'articolo che toglie l'ultimo alibi. **Un ente locale può aderire alla centrale d'acquisto
+> europea anche se il proprio Stato non aderisce.** E aderendo è **per ciò stesso in regola** con il
+> diritto europeo degli appalti. `[A46]`
+
+**DUE CARTELLI BARRATI** *(da disegnare come due insegne che cadono)*:
+> ~~«Non possiamo, c'è il codice appalti.»~~
+> ~~«Decide Roma.»~~
+
+**FRASE ISOLATA**:
+> **Un comune italiano può farlo da solo.**
+
+**RIQUADRO DI ONESTÀ** *(sfondo grigio — 🚨 il più importante del booklet, non eliminabile)*:
+> ⚠️ **Il regolamento non è ancora in vigore.** Serve l'approvazione. Serve un accordo fra la Commissione
+> e **almeno due Stati membri**, e **nessuno l'ha ancora firmato**. **La piattaforma comune non esiste.**
+> La Commissione stessa indica il **2029**. `[A44]`
+> **Non stiamo dicendo che la porta è aperta. Stiamo dicendo dov'è la porta.**
+
+---
+
+**VIGNETTA 5**
+**DISEGNO** — Un calendario da parete, di quelli dei comuni. Tutte le pagine sfogliate e sfocate tranne
+una, nitida e in primo piano.
+
+**LA DATA (grande, disegnata sul calendario)**:
+> ## 12 gennaio 2027
+
+**DIDASCALIA**:
+> Una data vera, però, c'è. Da quel giorno, **per legge europea già in vigore**, far pagare a un cliente
+> il costo di andarsene da un cloud **è vietato**. `[A46]`
+> È l'unica scadenza certa di tutta questa storia. E vale **per ogni amministrazione italiana**.
+
+**BALLOON — MARTA**: «Quindi da quel giorno…»
+**BALLOON — SANDRO**: «Da quel giorno **«costa troppo cambiare» non è più una risposta.**»
+
+---
+
+**VIGNETTA 6** *(finale, a tutta larghezza — quasi muta. È la vignetta che chiudeva la tavola 12: stessa
+immagine, stessa funzione, ma ora arriva **dopo** l'azione e non prima.)*
+**DISEGNO** — Il **Cursore**, che per dodici tavole è stato piccolo in basso a destra, adesso è al centro
 della vignetta ed è **alto quanto la vignetta**. Lampeggia su fondo nero.
-In basso a sinistra, minuscola, la Busta: è arrivata in fondo alla mappina del margine, dentro
-lo schedario americano. Ha ancora i suoi due occhietti, e guarda il lettore.
+In basso a sinistra, minuscola, la **Busta**: è arrivata in fondo alla mappina del margine, dentro lo
+schedario americano. Ha ancora i suoi due occhietti, e guarda il lettore.
+🆕 **Cambia una cosa sola rispetto al disegno originario**: la Busta **non è più rassegnata**.
+Ha la stessa posa della vignetta 3 — quella in cui aspettava dentro la parentesi.
 
-**DIDASCALIA 1**:
-> C'è una cosa nuova. La proposta europea del giugno 2026 restituisce agli Stati membri la facoltà di
-> decidere, attraverso una **valutazione del rischio**. `[A14]`
-> **Quella valutazione, in Italia, non è ancora stata fatta.**
-
-**DIDASCALIA 2 (in basso, isolata, grande)**:
+**DIDASCALIA 1 (in basso, isolata, grande)**:
 > Nel frattempo, la posta del Comandante Generale dei Carabinieri continua a passare da Google.
 > E se un giorno qualcuno la chiedesse — **non lo sapremmo.**
+
+**DIDASCALIA 2** 🆕 *(due righe sole, staccate, ed è la vera chiusura del booklet)*:
+> Non perché non si possa fare altrimenti.
+> ## Perché non è stato deciso.
 
 **ULTIMA RIGA (piccolissima, sotto tutto)**:
 > Ci vogliono cinque secondi per controllare il vostro Comune. La riga da scrivere è a pagina 1.
@@ -1332,11 +1505,15 @@ ma stavolta **appoggiata su un davanzale, di profilo**, che guarda fuori. Non è
    una risposta che ha cambiato il dibattito di un Paese. Prima di lui, per sei anni, altri l'avevano
    fatta e non avevano ottenuto né un sì né un no.
    **In Italia quella domanda non l'ha ancora fatta nessuno.**
+4. 🆕 **Segnare una data.** **12 gennaio 2027.** Da quel giorno, per una legge europea già in vigore,
+   far pagare a un'amministrazione il costo di andarsene da un cloud è vietato. È l'unica scadenza certa
+   di tutta questa storia, e vale per ogni ente italiano. Da quel giorno **«costa troppo cambiare» non è
+   più una risposta** — e chi la usa va messo davanti al calendario.
 
 ---
 
 *Fonti e riferimenti completi: dossier «Non posso garantirlo» — Osservatorio Nazionale sulla Sovranità
-Digitale. Ogni fatto citato in queste dodici tavole è tracciato nel documento `STATO-DELLE-CONOSCENZE.md`,
+Digitale. Ogni fatto citato in queste tredici tavole è tracciato nel documento `STATO-DELLE-CONOSCENZE.md`,
 con il livello di affidabilità dichiarato per ciascuno.*
 
 ---
