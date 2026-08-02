@@ -157,6 +157,19 @@ data/kpi.json → site.Data.kpi → layout (homepage, decisori, press) → deplo
    (description con statistiche, robots index it+en, hreflang, JSON-LD). Le altre
    22 lingue UE restano `noindex` finché non tradotte. Non lasciare mai una pagina
    EN con testo italiano residuo.
+
+   **⚠️ ECCEZIONE — materiali del progetto documentario (`progetti/documentario-cloud-act/`
+   e la pagina `/progetto-documentario/`).** Qui la regola **non** si applica commit per
+   commit: sono **bozze in revisione continua**, e tradurre un bersaglio in movimento
+   produce spreco e disallineamento. Decisione del committente (29/07/2026): **si lavora
+   solo in italiano**; l'inglese si fa **in un unico passaggio alla fine**, su suo
+   esplicito «visto si stampi». Fino ad allora **non tradurre** script, storyboard,
+   booklet, dossier, pagina di progetto né schede grafiche.
+   **Ma va predisposto fin da subito**: stringhe dell'interfaccia in file dati con
+   entrambe le chiavi (`it`/`en`), template che pesca in base alla lingua, e per gli SVG
+   il template cerca il suffisso `-en` con ricaduta sull'italiano se assente. Così alla
+   fine basta popolare, senza toccare codice.
+   **Il resto del sito pubblico resta sotto la regola 6 piena.**
 7. **Header:** nessun brand MxMap a sinistra; link MxMap + un solo link GitHub a
    destra (vedi `layouts/partials/header.html`).
 8. **Tono:** civico, non ideologico, basato su dati verificabili. "Non siamo
