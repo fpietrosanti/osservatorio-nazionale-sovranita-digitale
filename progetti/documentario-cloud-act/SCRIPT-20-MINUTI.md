@@ -1,7 +1,7 @@
 # «NON POSSO GARANTIRLO»
-## Documentario d'inchiesta — 20 minuti — prima stesura
+## Documentario d'inchiesta — 20 minuti
 
-Versione 1.0 — 28 luglio 2026
+Versione 2.0 — 29 luglio 2026 · 13 atti
 Ogni affermazione è ancorata al dossier corrispondente. I riferimenti in `[A#]` rimandano a
 `STATO-DELLE-CONOSCENZE.md`. **Nessuna battuta va modificata senza ricontrollare il riferimento.**
 
@@ -44,7 +44,7 @@ tutta la durata dei segmenti di scenario.
 
 ---
 
-## ATTO 1 — IL MOVENTE · 1:30–3:00
+## ATTO 1 — IL MOVENTE · 1:30–2:45
 `SIMULAZIONE DOCUMENTATA`
 
 **IMMAGINE** — Washington. Grafica: una scrivania, una cartellina, una penna.
@@ -64,7 +64,7 @@ tutta la durata dei segmenti di scenario.
 
 ---
 
-## ATTO 2 — IL MITO DELLA GEOGRAFIA · 3:00–5:00
+## ATTO 2 — IL MITO DELLA GEOGRAFIA, E LE QUATTRO VOCI · 2:45–5:00
 **È il punto di non ritorno del film.**
 
 > A determinare quale legge si applica **non è dove si trova il dato. È di chi è l'azienda.**
@@ -91,6 +91,29 @@ Cartello: *Commissione d'inchiesta — audizione sotto giuramento*.
 > la giurisdizione segue **la nazionalità del fornitore**, non quella del cliente.
 > La differenza è che in Italia **questa domanda non l'ha mai fatta nessuno.**
 
+**E non è la prima volta che gliel'hanno chiesto.** `[A19]`
+
+**IMMAGINE** — Stessa aula, sei anni prima. Cartello: **2019 — Commissione d'inchiesta sulla sovranità
+digitale**. Tre nomi appaiono in sequenza con le rispettive date.
+
+> Nel 2019 il Senato francese convocò **tutti e tre**, sotto giuramento, e fece a ciascuno la stessa
+> domanda. Ad Amazon la pose perfino più larga: *«potete assicurarci che Amazon, **o le sue controllate**,
+> non permetta alle autorità americane di prendere conoscenza dei dati dei nostri concittadini?»*
+
+**A VIDEO — le risposte, una sotto l'altra**
+> **Google**, 17 luglio 2019 — quelle disposizioni non sono in vigore, mancano gli accordi bilaterali.
+> **Microsoft**, 18 luglio 2019 — nessuna garanzia.
+> **Amazon**, 3 settembre 2019 — *«noi applichiamo la legge»*.
+
+> **Nessuno dei tre disse sì. Nessuno dei tre disse no.**
+> Il «no» di Microsoft del 2025 è **il primo in sei anni**.
+
+> ⚠️ **VINCOLO `[A27]`** — **Vietato dire che Google ha mentito.** Il verbatim consente due letture e il
+> dubbio resta. La formulazione corretta è che **Google usa una definizione di CLOUD Act che esclude
+> proprio il meccanismo che conta** — e la smentita si fa citando il **Senato francese**, che nel proprio
+> rapporto scrive che il CLOUD Act riafferma il diritto di ottenere i dati anche all'estero e prevede
+> *«anche, **e indipendentemente**, la conclusione di accordi bilaterali»*. Non accusa nessuno, e chiude.
+
 **E non è un'ammissione strappata: è scritta.** `[A28]`
 
 **IMMAGINE** — Un documento PDF sullo schermo. Intestazione Google Cloud. Si evidenzia una riga.
@@ -109,7 +132,7 @@ Cartello: *Commissione d'inchiesta — audizione sotto giuramento*.
 
 ---
 
-## ATTO 3 — LA FIRMA · 5:00–7:00
+## ATTO 3 — LA FIRMA · 5:00–6:50
 `SIMULAZIONE DOCUMENTATA`
 
 > Ci sono due strade. Una ufficiale, una silenziosa.
@@ -139,7 +162,7 @@ Serve un'indagine. È la strada del CLOUD Act.
 
 ---
 
-## ATTO 4 — L'ESECUZIONE, E L'ILLUSIONE DEL RIVENDITORE · 7:00–8:30
+## ATTO 4 — L'ESECUZIONE, IL RIVENDITORE E LA SOVRANITÀ DI FACCIATA · 6:50–8:20
 `SIMULAZIONE DOCUMENTATA`
 
 > L'ordine non arriva in Italia. Arriva alla sede americana.
@@ -154,9 +177,38 @@ Serve un'indagine. È la strada del CLOUD Act.
 > Ma se rivende, integra o ospita la tecnologia di un fornitore americano, allora cambia
 > **chi ti fattura**, non **chi ha il controllo**.
 
+**E la scappatoia più costosa: la «sovranità» venduta come prodotto.** `[A20]` `[A21]`
+
+> Negli ultimi anni i grandi fornitori hanno creato offerte dedicate all'Europa: entità europee, personale
+> europeo, isolamento tecnico spinto. **Funziona?**
+>
+> La risposta più netta l'ha data, sotto giuramento, il direttore tecnico di **Amazon Web Services**
+> in Francia. Nel 2019.
+
+**A VIDEO, verbatim**
+> «*Una società **non americana** sarà anch'essa soggetta al CLOUD Act se ha una **controllata o dipendenti
+> sul territorio statunitense**.*»
+> — Stéphan Hadinger, direttore tecnico di AWS France, Senato francese, 3 settembre 2019
+
+> È il principio che rende non immune la loro stessa offerta europea di oggi.
+> **L'ha enunciato Amazon.**
+
+> E le garanzie tecniche? Il sistema di isolamento di AWS è stato esaminato da un auditor esterno.
+> Che però era **pagato da AWS**, ha svolto una revisione **del progetto e non dei sistemi reali**, ha
+> lasciato **fuori dal perimetro** l'infrastruttura di controllo, e ha scritto una riga che vale l'intero
+> capitolo: non fornisce alcuna garanzia rispetto a modifiche tecniche future **«scelte o imposte»**.
+>
+> *Imposte.* La parola è dell'auditor.
+
+> ⚠️ **VINCOLI `[A22]`** — **Non dire «è una controllata, quindi è soggetta al CLOUD Act»**: il Dipartimento
+> di Giustizia lo qualifica come accertamento *caso per caso*, e non esiste giurisprudenza nota che lo
+> affermi. E **riconoscere che la cifratura con chiavi esterne è una difesa tecnicamente valida** per il
+> dato a riposo: negarlo ci fa perdere il contraddittorio su un punto in cui hanno ragione.
+> **AWS non ha mai preteso di essere immune**: l'equivoco è commerciale, e sta nella parola «sovereign».
+
 ---
 
-## ATTO 5 — IL SILENZIO · 8:30–9:30
+## ATTO 5 — IL SILENZIO · 8:20–9:15
 
 > E qui arriva la parte peggiore.
 > Insieme all'ordine può arrivare un ***gag order***: il divieto giuridico, per il fornitore,
@@ -173,7 +225,50 @@ Serve un'indagine. È la strada del CLOUD Act.
 
 ---
 
-## ATTO 6 — LA SVOLTA: ERA UNA SCELTA · 9:30–11:00
+## ATTO 5-BIS — NON È UN'IPOTESI: È GIÀ SUCCESSO · 9:15–10:30
+**Qui il film smette di essere una simulazione.** `[A23]` `[A24]` `[A25]`
+
+**IMMAGINE** — La dicitura `SIMULAZIONE DOCUMENTATA` **sparisce dallo schermo**. Bianco. Poi una data.
+
+> Tutto quello che avete visto finora è una ricostruzione: una porta che è aperta.
+> Adesso basta con le ricostruzioni.
+
+> Marzo 2026. Una giudice slovena — **cittadina dell'Unione europea** — scrive questo.
+
+**A VIDEO, verbatim, a schermo pieno**
+> «*Il mio Apple ID, iCloud, Amazon, Airbnb, PayPal e altri account sono stati tutti bloccati o cancellati.
+> Queste cancellazioni sono avvenute **da un giorno all'altro, senza preavviso**.*»
+> — Beti Hohler, giudice
+
+> **Nessuna azienda l'ha mai smentita.**
+> E non è sola: un giudice **francese** ha subito lo stesso trattamento — un caso arrivato in
+> **Parlamento**, con risposta ufficiale del Governo francese.
+
+> **Perché accade?** Non è una scelta delle aziende. Un ordine esecutivo statunitense vieta di fornire
+> «*fondi, beni o **servizi***» a una persona designata. La parola «servizi» è nel testo presidenziale.
+> Un'azienda americana che continuasse a servirla **commetterebbe un illecito**.
+> Microsoft lo sa bene: **nel 2023 è stata multata** proprio per questo.
+
+**IL DETTAGLIO CHE DICE TUTTO** `[A25]`
+> Quando vengono bloccati i **soldi** di una persona, la legge americana prescrive tutto: conto fruttifero,
+> interessi, tracciabilità, restituzione se il provvedimento cade.
+> Quando vengono bloccati i **dati**: **niente.**
+> Nessuna regola su che fine facciano, se si possano esportare, se tornino indietro.
+>
+> **Per il denaro esiste una procedura. Per la vita digitale, no.**
+
+> ⚠️ **VINCOLI `[A26]`** — Questo blocco riguarda un potere **diverso** dal CLOUD Act: non leggere i dati,
+> ma **spegnere l'accesso**. Non confonderli mai.
+> **NON usare il caso del Procuratore della Corte penale internazionale**: la fonte sono funzionari
+> anonimi e Microsoft ha smentito. I casi solidi sono i due giudici europei.
+> **NON usare** la Russia 2024 (base giuridica europea, non americana), **né** Huawei (strumento diverso),
+> **né** X/Starlink (fenomeno opposto: uno Stato che interdice un'azienda).
+> Per l'Italia esistono soggetti designati, ma **nessun effetto digitale documentato**: il rischio per un
+> ente pubblico va detto **teorico**.
+
+---
+
+## ATTO 6 — LA SVOLTA: ERA UNA SCELTA · 10:30–11:45
 
 > A questo punto uno pensa: sarà così per tutti. Non è così.
 
@@ -195,7 +290,7 @@ Serve un'indagine. È la strada del CLOUD Act.
 
 ---
 
-## ATTO 7 — LO STATO CERTIFICA, E NON SA · 11:00–13:30
+## ATTO 7 — LO STATO CERTIFICA, E NON SA · 11:45–14:00
 
 **IMMAGINE** — 21 luglio 2026. Comunicato.
 
@@ -232,7 +327,7 @@ Serve un'indagine. È la strada del CLOUD Act.
 
 ---
 
-## ATTO 8 — L'ASIMMETRIA · 13:30–15:30
+## ATTO 8 — L'ASIMMETRIA · 14:00–15:45
 `[A13]` — **blocco interamente riscritto: tre tesi diffuse sono false**
 
 > Si dice spesso che gli Stati Uniti vietino per legge di comprare tecnologia europea. **Non è vero**,
@@ -275,9 +370,20 @@ Serve un'indagine. È la strada del CLOUD Act.
 > intellettuale, va citato anche l'**avanzo di 60 miliardi** sui servizi informatici. Ometterlo è
 > manipolatorio, e la controparte lo sa.
 
+> ⚠️ **TRE VINCOLI SU QUESTO ATTO** `[A18]`
+> 1. **Non dire che la barriera è il costo della certificazione**: il programma sta abbassando costi e
+>    tempi *di proposito*, e nel giro di un anno saremmo smentiti. La barriera vera è **la sponsorizzazione
+>    da parte di un'agenzia federale**, insieme a cittadinanza e controllo societario: quelle non si abbassano.
+> 2. **Dire noi per primi che una norma americana vieta espressamente** di escludere un fornitore
+>    *«sulla sola base della proprietà straniera»*. È il loro contro-argomento più forte: anticiparlo ci
+>    rende credibili, subirlo ci smonta.
+> 3. **Non dire che gli Stati Uniti hanno chiuso agli europei nel 2025-2026**: è falso, semmai hanno
+>    deregolato. L'effetto era già prodotto dallo strato costruito fra il 2011 e il 2019. Le restrizioni
+>    recenti riguardano la Cina.
+
 ---
 
-## ATTO 9 — BRUXELLES: L'ITALIA HA CHIESTO, E HA PERSO · 15:30–17:00
+## ATTO 9 — BRUXELLES: L'ITALIA HA CHIESTO, E HA PERSO · 15:45–17:00
 `[A15]` — **la svolta narrativa**
 
 > A questo punto la conclusione sembra ovvia: l'Italia non ha mai chiesto protezione.
