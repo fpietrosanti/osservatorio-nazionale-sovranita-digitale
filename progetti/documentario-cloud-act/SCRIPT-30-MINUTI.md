@@ -1,7 +1,26 @@
 # «NON POSSO GARANTIRLO»
-## Documentario d'inchiesta — 20 minuti
+## Documentario d'inchiesta — 30 minuti
 
-Versione 2.1 — 29 luglio 2026 · 12 atti
+Versione 3.0 — 2 agosto 2026 · 13 atti · **1800 secondi verificati**
+
+> ⚠️ **Correzione emersa dal controllo inquadratura per inquadratura.** Nella prima stesura del piano
+> l'Atto 11 era dato a 270" e l'Atto 12 a 180". Ma spostando il finale (le tre inquadrature del terminale,
+> **42 secondi**) dall'Atto 11 all'Atto 12 quei secondi erano stati contati due volte.
+> Durate corrette: **Atto 11 = 230"** (138" di inquadrature esistenti + 92" di blocco Airbus) e
+> **Atto 12 = 220"** (178" di materiale nuovo + i 42" del finale). Il totale resta **1800"**.
+
+> 🔄 **PASSAGGIO DA 20 A 30 MINUTI (v3.0).** I 600 secondi aggiunti non sono spalmati: ogni espansione
+> ospita **materiale nuovo e verificato**, e due atti restano invariati perché non avevano nulla da
+> ospitare (Atto 2 e Atto 8).
+> **Le due mosse strutturali:**
+> 1. **La demolizione di «non è mai successo» entra nell'Atto 5**, accanto al *gag order*. Era il buco
+>    più grosso dell'impianto: Carniaux lo dice nell'Atto 2 e non gli rispondevamo mai.
+> 2. **Nasce l'Atto 12, e il film chiude lì.** L'ordine è **prova → azione**: l'Atto 11 dimostra che il
+>    modello esiste, l'Atto 12 dice chi può farlo qui. L'immagine finale del terminale si sposta in fondo.
+>
+> 🚫 **Nessun riferimento a migrazioni fallite o a conteggi di migrazioni concluse, in nessun atto**
+> (decisione del committente, 02/08/2026). La protezione contro il trionfalismo resta affidata
+> **interamente al registro delle trappole**, che agisce sulle formulazioni e non su secondi di film.
 
 > 🗂️ **TAGLIATO in v2.1 — l'atto «Non è un'ipotesi: è già successo»** (blocco account e identità
 > digitali: giudici europei sanzionati, ordine esecutivo sui «servizi», asimmetria denaro/dati).
@@ -74,7 +93,7 @@ tutta la durata dei segmenti di scenario.
 
 ---
 
-## ATTO 2 — IL MITO DELLA GEOGRAFIA, E LE QUATTRO VOCI · 2:45–5:00
+## ATTO 2 — IL MITO DELLA GEOGRAFIA, E LE QUATTRO VOCI · 2:45–5:10
 **È il punto di non ritorno del film.**
 
 > A determinare quale legge si applica **non è dove si trova il dato. È di chi è l'azienda.**
@@ -142,7 +161,7 @@ digitale**. Tre nomi appaiono in sequenza con le rispettive date.
 
 ---
 
-## ATTO 3 — LA FIRMA · 5:00–6:50
+## ATTO 3 — LA FIRMA · 5:10–7:10
 `SIMULAZIONE DOCUMENTATA`
 
 > Ci sono due strade. Una ufficiale, una silenziosa.
@@ -172,7 +191,7 @@ Serve un'indagine. È la strada del CLOUD Act.
 
 ---
 
-## ATTO 4 — L'ESECUZIONE, IL RIVENDITORE E LA SOVRANITÀ DI FACCIATA · 6:50–8:20
+## ATTO 4 — L'ESECUZIONE, IL RIVENDITORE E LA SOVRANITÀ DI FACCIATA · 7:10–9:10
 `SIMULAZIONE DOCUMENTATA`
 
 > L'ordine non arriva in Italia. Arriva alla sede americana.
@@ -210,6 +229,19 @@ Serve un'indagine. È la strada del CLOUD Act.
 >
 > *Imposte.* La parola è dell'auditor.
 
+**E oggi?** `[A20]` `[A21]`
+
+> Da allora Amazon ha costruito l'**AWS European Sovereign Cloud**: una società europea, personale europeo,
+> infrastruttura separata. Sulla carta risponde a ogni obiezione.
+>
+> Ma la dottrina che la riguarda l'ha enunciata **Amazon stessa, sette anni prima, sotto giuramento**:
+> basta **una controllata o dei dipendenti** sul territorio americano. Hadinger citava il Dipartimento di
+> Giustizia: *la maggior parte dei grandi fornitori cloud, americani o non americani, era soggetta alla
+> giurisdizione degli Stati Uniti*.
+>
+> **Una controllata europea di un gruppo americano non è un gruppo europeo.** È la differenza fra
+> **isolare** e **separare**. E le offerte «sovrane» dei tre grandi fornitori isolano. Non separano.
+
 > ⚠️ **VINCOLI `[A22]`** — **Non dire «è una controllata, quindi è soggetta al CLOUD Act»**: il Dipartimento
 > di Giustizia lo qualifica come accertamento *caso per caso*, e non esiste giurisprudenza nota che lo
 > affermi. E **riconoscere che la cifratura con chiavi esterne è una difesa tecnicamente valida** per il
@@ -218,7 +250,18 @@ Serve un'indagine. È la strada del CLOUD Act.
 
 ---
 
-## ATTO 5 — IL SILENZIO · 8:20–9:15
+## ATTO 5 — IL SILENZIO · 9:10–10:55
+
+**PRIMA DI TUTTO, UNA RISPOSTA CHE DOBBIAMO** `[B2]`
+
+> Torniamo alla frase di Microsoft. Non alla prima metà — alla seconda.
+> *«No, non posso garantirlo, **ma, ancora una volta, ciò non si è ancora mai verificato**.»*
+>
+> È l'argomento su cui si regge tutta la difesa del settore. E ha un problema.
+
+**IMMAGINE** — Nero. Una sola riga di testo, bianca.
+
+> Come farebbe, un cliente, a sapere che si è verificato?
 
 > E qui arriva la parte peggiore.
 > Insieme all'ordine può arrivare un ***gag order***: il divieto giuridico, per il fornitore,
@@ -233,9 +276,23 @@ Serve un'indagine. È la strada del CLOUD Act.
 >
 > **La norma italiana chiede una comunicazione che la legge americana proibisce.**
 
+**E ALLORA QUELLA FRASE VA RILETTA**
+
+> *«Ciò non si è ancora mai verificato.»*
+>
+> È vero che nessuno l'ha mai dichiarato. Ma il sistema è costruito **esattamente perché non si sappia**:
+> l'ordine è segreto, il divieto di parlarne è legge, e la segnalazione che l'Italia pretende
+> è proibita da quella stessa legge.
+>
+> **Non è una rassicurazione. È la descrizione di un silenzio garantito per legge.**
+
+> ⚠️ **VINCOLO — non trasformarlo in un'accusa.** Non stiamo dicendo che sia successo. Stiamo dicendo che
+> **la frase non può essere verificata, né da noi né da chi la pronuncia**. È più forte, ed è inattaccabile.
+> La formulazione in voce è quella scritta sopra: **non sostituirla con «quindi è già successo».**
+
 ---
 
-## ATTO 6 — LA SVOLTA: ERA UNA SCELTA · 9:15–10:30
+## ATTO 6 — LA SVOLTA: ERA UNA SCELTA · 10:55–12:10
 
 > A questo punto uno pensa: sarà così per tutti. Non è così.
 
@@ -252,12 +309,12 @@ Serve un'indagine. È la strada del CLOUD Act.
 > **Perché**: è una vicenda di **irregolarità negli appalti**, non di sovranità. Il nesso con la nostra
 > tesi reggerebbe solo se potessimo dimostrare che l'offerta Aruba-Fastweb sarebbe stata *più sovrana* —
 > e **quel dato non ce l'abbiamo**: il contenuto tecnico di quell'offerta non è pubblico. Senza quella
-> prova, «l'opzione sovrana aveva vinto» è una suggestione, non un fatto. In venti minuti apre un fronte
+> prova, «l'opzione sovrana aveva vinto» è una suggestione, non un fatto. Anche in trenta minuti aprirebbe un fronte
 > che non possiamo chiudere e diluisce la tesi. È materiale per un'altra inchiesta.
 
 ---
 
-## ATTO 7 — LO STATO CERTIFICA, E NON SA · 10:30–12:45
+## ATTO 7 — LO STATO CERTIFICA, E NON SA · 12:10–15:20
 
 **IMMAGINE** — 21 luglio 2026. Comunicato.
 
@@ -284,6 +341,17 @@ Serve un'indagine. È la strada del CLOUD Act.
 
 > Non ci sono. Non è un'omissione nostra: **non ci sono.**
 
+**E COL METRO EUROPEO?** — *segmento da 45", da scrivere quando l'analisi sarà pronta*
+
+> 🔧 **SPAZIO RISERVATO.** Qui entra il confronto fra i requisiti del **PSN** e quelli di
+> **SecNumCloud** e **EUCS High+**, nella parte in cui il PSN agisce da **rivenditore** di servizi
+> Microsoft, Google e Amazon: controllo del capitale, nazionalità del personale di esercizio, titolarità
+> delle chiavi, regime del software di terzi, reversibilità.
+> **L'analisi è specificata nel TODO aperto di `STATO-DELLE-CONOSCENZE.md` e non è ancora prodotta.**
+> La struttura non dipende dal suo esito: la durata è già allocata.
+> ⚠️ Impostazione obbligata: **«il PSN misura ciò che l'Europa misura?»**, non «il PSN ha sbagliato tutto».
+> Il PSN nasce per obiettivi diversi — continuità, qualificazione, consolidamento — e questo va detto.
+
 **E I SOLDI?** `[A9]`
 > Abbiamo scaricato i dati ufficiali: **22.162 domande finanziate**, oltre **1,3 miliardi** erogati.
 > Venti colonne. **Nessuna che dica a quale fornitore siano andati.**
@@ -294,7 +362,7 @@ Serve un'indagine. È la strada del CLOUD Act.
 
 ---
 
-## ATTO 8 — L'ASIMMETRIA · 12:45–14:30
+## ATTO 8 — L'ASIMMETRIA · 15:20–17:05
 `[A13]` — **blocco interamente riscritto: tre tesi diffuse sono false**
 
 > Si dice spesso che gli Stati Uniti vietino per legge di comprare tecnologia europea. **Non è vero**,
@@ -350,7 +418,7 @@ Serve un'indagine. È la strada del CLOUD Act.
 
 ---
 
-## ATTO 9 — BRUXELLES: L'ITALIA HA CHIESTO, E HA PERSO · 14:30–16:00
+## ATTO 9 — BRUXELLES: L'ITALIA HA CHIESTO, E HA PERSO · 17:05–19:45
 `[A15]` — **la svolta narrativa**
 
 > A questo punto la conclusione sembra ovvia: l'Italia non ha mai chiesto protezione.
@@ -371,6 +439,35 @@ Serve un'indagine. È la strada del CLOUD Act.
 > ⚠️ **DA DIRE COSÌ**: l'elenco dei dodici **non è pubblico**. Che l'Italia non ne facesse parte è una
 > **deduzione**, non un fatto accertato.
 
+**E NON È SOLO L'ITALIA A CHIEDERLO. È L'INDUSTRIA EUROPEA.** `[A47]`
+
+**IMMAGINE** — Una pagina web. L'indirizzo: `eucshighplus.eu`.
+
+> Esiste una lettera aperta che chiede all'Europa esattamente quel criterio: una norma che protegga i dati
+> più sensibili **«dall'accesso o dall'interruzione operativa derivanti da leggi extraterritoriali non
+> europee»**. L'hanno firmata **sessantadue** fra imprese e associazioni.
+>
+> Il sito che raccoglie le adesioni è gestito — c'è scritto — dall'**ufficio di Bruxelles di Airbus**.
+
+**A VIDEO** — i nomi italiani appaiono uno alla volta
+
+> **Leonardo · Fincantieri · Generali · Telecom Italia · Aruba**
+
+> Sono aziende italiane che chiedono **a Bruxelles** una regola che **a Roma** non è stata scritta.
+>
+> L'ultimo nome merita un secondo in più. **Aruba è il principale fornitore cloud italiano, ed è un
+> partner del Polo Strategico Nazionale.** Chiede all'Europa il criterio di immunità dalle leggi
+> extraterritoriali **mentre costruisce l'infrastruttura pubblica italiana che quel criterio non lo applica.**
+
+> ✅ **E la lettera disinnesca da sola l'accusa di protezionismo**, con parole che non sono nostre:
+> un livello High+ volontario **«non escluderebbe in alcun modo i fornitori non europei»** —
+> offrirebbe **un'alternativa**.
+
+> ⚠️ **VINCOLI** — **Nessuna accusa ad Aruba o agli altri firmatari**: il bersaglio è il quadro
+> normativo, non le aziende che ci lavorano dentro. La lettura corretta è il **contrario** dell'ipocrisia:
+> è la prova che **perfino chi costruisce il PSN** considera insufficiente il quadro in cui lo costruisce.
+> Prima delle riprese va riletto `[A2]` per attribuire ad Aruba **il ruolo esatto** nel PSN.
+
 > Quindi il divario non è tra l'Italia e le sue parole.
 > **È tra ciò che l'Italia ha chiesto a Bruxelles e ciò che ha scritto in casa propria.**
 > Per cinque anni ha premuto perché quella clausola esistesse in Europa, e ha perso.
@@ -379,7 +476,7 @@ Serve un'indagine. È la strada del CLOUD Act.
 
 ---
 
-## ATTO 10 — I FIGLI · 16:00–17:00
+## ATTO 10 — I FIGLI · 19:45–22:30
 
 > Nelle oltre dodicimila amministrazioni migrate col PNRR ci sono anche **le scuole**. `[B1]`
 > E sulle scuole il dato ce l'abbiamo. `[A1]`
@@ -408,6 +505,35 @@ Serve un'indagine. È la strada del CLOUD Act.
 
 > Esaminiamo con attenzione. **Non: rifiutiamo.**
 
+**E CHI HA PROVATO A FARE QUALCOSA?** `[A29]`
+
+> Su questo, in Europa, qualcuno si è mosso. E gli esiti sono **tutti diversi**.
+
+**A VIDEO** — quattro righe, una alla volta
+
+> 🇩🇰 **Danimarca** — ordine ai 53 comuni interessati.
+> 🇳🇱 **Paesi Bassi** — l'azienda si è adeguata alle richieste.
+> 🇩🇪 **Germania** — procedimento cautelare chiuso da una transazione.
+> 🇮🇹 **Italia** — **nessun provvedimento.**
+
+> Ottomilaquattrocentotré istituti. **Nessun provvedimento.**
+
+> ⚖️ **E il caso olandese va detto per intero, perché è il contro-argomento più forte di Google**:
+> quando un'autorità europea ha posto condizioni precise, **l'azienda le ha accettate e ha cambiato il
+> prodotto**. La regolazione ha funzionato. È un punto a loro favore, e ometterlo ci renderebbe sleali.
+> È anche il punto a favore della nostra tesi: **funziona quando qualcuno la scrive.**
+
+**L'ULTIMO DATO È IL PIÙ SCOMODO**
+
+> Quante scuole italiane usano quale piattaforma, non lo dice il Ministero. E non lo dice nemmeno Google.
+> **Nessuno dei due pubblica quel dato.**
+>
+> La misurazione che avete visto — ottomilaquattrocentotré istituti, settantasette virgola sette per cento —
+> **è l'unica che esista.** L'ha fatta un osservatorio indipendente interrogando i registri pubblici.
+>
+> Un Paese che ha speso **un miliardo e nove** per portare la sua amministrazione nel cloud
+> **non sa dire quale piattaforma usano le proprie scuole.** E deve chiederlo a chi se l'è misurato da solo.
+
 > ⚠️ **PRECISIONE OBBLIGATORIA** — Il dato misura il **dominio di posta istituzionale** degli istituti
 > scolastici registrati nell'IndicePA. È prova diretta di quale piattaforma la scuola ha adottato,
 > **non** una misura di quanti studenti usino quotidianamente un singolo applicativo. Dirlo così.
@@ -418,27 +544,7 @@ Serve un'indagine. È la strada del CLOUD Act.
 
 ---
 
-> ### 🚩 DIRETTIVA VINCOLANTE PER IL PASSAGGIO A 30 MINUTI — il caso Airbus va in evidenza
-> Richiesta esplicita del committente (02/08/2026). Airbus **non può restare una citazione di passaggio**:
-> è l'unico caso in cui **chi ha chiesto la regola l'ha poi applicata a sé stesso**, ed è il cerchio
-> narrativo del film. Reperti **A47** (🟢 ALTA) e **A49** (🟢 ALTA, fonte primaria Airbus).
->
-> **Come va costruito, in due tempi separati e distanti:**
-> - **Atto 9 (Bruxelles)** — primo tempo: Airbus **chiede** il criterio. È l'ufficio di Bruxelles di Airbus
->   a gestire eucshighplus.eu. Fra i 62 firmatari ci sono **Leonardo, Fincantieri, Generali, TIM**: italiani
->   che chiedono a Bruxelles una regola che a Roma non viene scritta.
-> - **Atto 11 (via d'uscita)** — secondo tempo, la chiusura: Airbus **applica** il criterio a sé stessa.
->   Gara di sei mesi, ~50 fornitori, vinta da Scaleway, 16 luglio 2026. Il criterio a punteggio, verbatim:
->   «protection against non-European extraterritorial legislation». Poi il virgolettato Jestin.
-> - **A49 va usato prima**, come cerniera: Airbus che sul proprio sito definisce le leggi extraterritoriali
->   un rischio da cui proteggersi. Come A40 (il documento del Governo danese), vale più di ogni spiegazione.
->
-> ⚠️ **Obbligatorio nello stesso respiro**: il contro-argomento (azienda privata, non uno Stato, con
-> interesse industriale) e la **trappola 34** (non dire «ha abbandonato AWS»; non dire «900 applicazioni»).
-> ✅ Va citata anche la riga che ci tiene onesti: Airbus usa «le migliori soluzioni sul mercato, anche se
-> vengono da fuori dall'Unione». È ciò che rende non ideologica la nostra posizione.
-
-## ATTO 11 — LA VIA D'USCITA · 17:00–20:00
+## ATTO 11 — LA VIA D'USCITA · 22:30–26:20
 
 > Non si tratta di smettere di usare Microsoft.
 > **Si tratta di smettere di lasciarla operare.**
@@ -464,6 +570,38 @@ Serve un'indagine. È la strada del CLOUD Act.
 > capitale a controllo europeo, e l'amministrazione del servizio deve avvenire dall'Unione.
 > Non ha vietato nessuno. **Ha alzato l'asticella.**
 
+**E UN'AZIENDA EUROPEA L'HA GIÀ FATTO — CON SE STESSA** `[A47]` `[A49]`
+
+> Vi ricordate la lettera dei sessantadue? Quella gestita dall'ufficio di Bruxelles di **Airbus**?
+>
+> Nel luglio 2026 Airbus ha bandito una gara per le proprie applicazioni più critiche: progettazione
+> aeronautica, ingegneria, produzione. Sei mesi, una cinquantina di fornitori consultati.
+> E ha valutato i concorrenti su tre dimensioni. Una di queste, testualmente:
+
+**A VIDEO, verbatim**
+> «*giurisdizione europea, protezione dei dati e **protezione dalle legislazioni extraterritoriali non
+> europee***»
+
+> Ha vinto un fornitore francese, **Scaleway**. Circa **settanta applicazioni critiche entro il 2028**.
+
+**A VIDEO, verbatim**
+> «*Integrando un ambiente cloud affidabile che **tiene i nostri dati critici al riparo dalle leggi
+> extraterritoriali straniere**, ci assicuriamo che la nostra infrastruttura digitale stia al passo con la
+> nostra innovazione aerospaziale, mantenendo il controllo e la resilienza delle nostre operazioni.*»
+> — Catherine Jestin, Executive Vice President Digital, Airbus, 16 luglio 2026
+
+> **Chi ha chiesto la regola l'ha poi usata come committente.**
+> Non è un'opinione sulla sovranità: è un'azienda che mette a bando il proprio criterio,
+> lo mette a punteggio, e ci firma sopra un contratto.
+
+> ⚖️ **DA DIRE NOI PER PRIMI** — Airbus è **un'azienda privata, non uno Stato**: nessun obbligo di legge,
+> nessuna gara pubblica, nessun precedente giuridico, e un evidente interesse industriale verso i fornitori
+> europei. Ed è proprio per questo che pesa: **un'impresa che risponde ai propri azionisti** ha ritenuto
+> quel rischio abbastanza concreto da spenderci sopra.
+> 🚨 **Non dire «ha abbandonato Amazon»**: il comunicato non nomina il fornitore precedente, e Jestin
+> dichiara di **non** voler lasciare tutte le soluzioni non europee, ma di scegliere **per criticità del
+> dato**. E sono **settanta** applicazioni, non novecento.
+
 **LA DOMANDA FINALE** `[A14]`
 > Lo standard europeo che doveva contenere quella regola **non è mai stato adottato**.
 > Ma la nuova proposta europea del giugno 2026 restituisce agli Stati membri la facoltà di decidere,
@@ -471,10 +609,72 @@ Serve un'indagine. È la strada del CLOUD Act.
 >
 > **Quella valutazione, in Italia, non è ancora stata fatta.**
 
+---
+
+## ATTO 12 — L'ITALIA CONCRETA · 26:20–30:00
+
+> A questo punto la domanda è una sola: **e adesso?**
+> La risposta che si sente sempre è che serve una legge, e che le leggi le fa Roma.
+> **Non è più vero.**
+
+**LA REGOLA È GIÀ SCRITTA** `[A44]` `[A45]`
+
+> Nel giugno 2026 la Commissione europea ha depositato una proposta di regolamento.
+> Dentro c'è un capitolo di cui non ha parlato quasi nessuno: la Commissione **può fare da centrale di
+> acquisto per le amministrazioni degli Stati membri**.
+>
+> E c'è una scala. Il **livello 3** ammette software americano, purché se ne verifichi il codice e si
+> scriva un piano di uscita: è il modello francese, trasformato in criterio di legge.
+> Il **livello 4** toglie la deroga: **nessun controllo effettivo di un paese terzo.**
+>
+> Il primo passo e il secondo esistono già, **con i numeri di paragrafo.**
+
+**E QUI C'È IL DETTAGLIO CHE VALE TUTTO L'ATTO** `[A45]`
+
+**IMMAGINE** — Il testo del regolamento a schermo. Si scorre. Si ferma su una parentesi quadra.
+
+> In quel documento **non c'è una sola data.**
+> Dove dovrebbero esserci le scadenze ci sono segnaposto mai compilati:
+> *«data di entrata in vigore più un anno».*
+
+**A VIDEO, grande**
+> **LA REGOLA È SCRITTA. LA DATA È BIANCA.**
+
+> Non manca il diritto. **Manca la decisione politica di riempire una parentesi.**
+
+**CHI PUÒ MUOVERSI, E QUANDO** `[A46]`
+
+> E c'è l'articolo che toglie l'ultimo alibi.
+> Un ente locale può aderire alla centrale di acquisto europea **anche se il proprio Stato non aderisce**.
+> E aderendo è **per ciò stesso in regola** con il diritto europeo degli appalti.
+>
+> Cade insieme l'alibi giuridico — *«non possiamo, c'è il codice appalti»* —
+> e quello politico — *«decide Roma»*.
+> **Un comune italiano può farlo da solo.**
+
+> ⚠️ **ONESTÀ OBBLIGATORIA — il regolamento non è ancora in vigore.** Va detto che serve
+> l'approvazione, che serve un accordo fra la Commissione e **almeno due Stati membri** — e che
+> **nessuno l'ha ancora firmato** — e che la piattaforma comune **non esiste**. La Commissione stessa
+> indica il **2029**. Non stiamo dicendo che la porta è aperta: stiamo dicendo **dov'è la porta.**
+
+**UNA DATA VERA, PERÒ, C'È** `[A46]`
+
+**IMMAGINE** — Un calendario. Una sola data in evidenza.
+
+> **12 gennaio 2027.**
+> Da quel giorno, per legge europea già in vigore, **far pagare a un cliente il costo di andarsene
+> da un cloud è vietato.**
+>
+> È l'unica scadenza certa di tutta questa storia. E vale per ogni amministrazione italiana.
+> Da quel giorno, **«costa troppo cambiare» non è più una risposta.**
+
 **IMMAGINE** — Ritorno al terminale. Il cursore lampeggia.
 
 > Nel frattempo, la posta del Comandante Generale dei Carabinieri continua a passare da Google.
 > E se un giorno qualcuno la chiedesse, **non lo sapremmo.**
+>
+> Non perché non si possa fare altrimenti.
+> **Perché non è stato deciso.**
 
 **NERO.**
 
@@ -482,7 +682,9 @@ Serve un'indagine. È la strada del CLOUD Act.
 
 ## NOTE DI PRODUZIONE
 
-**Interviste — massimo 6-8 dichiarazioni da 15-25 secondi.** Non di più: in venti minuti non c'è spazio.
+**Interviste — massimo 8-10 dichiarazioni da 15-25 secondi.** Il passaggio a 30 minuti ha liberato
+**55 secondi di respiro**, distribuiti negli atti 2, 3, 7, 9 e 11: servono a **far finire le frasi agli
+intervistati**, non ad aggiungere interventi. Il rischio dei 30 minuti è esattamente questo.
 1. Un giurista di extraterritorialità (CLOUD Act / FISA 702)
 2. Un tecnico che spieghi il piano di controllo in trenta secondi
 3. **Due parlamentari di schieramenti opposti** — toglie di mezzo l'accusa di faziosità

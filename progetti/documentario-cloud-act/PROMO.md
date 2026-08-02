@@ -2,7 +2,7 @@
 ## Lancio del documentario · versione 90" e versione 30"
 
 Versione 1.0 — 29 luglio 2026
-Tratto da `SCRIPT-20-MINUTI.md` (Atto 0 e Atto 2). **Ogni elemento è già verificato**: il promo non
+Tratto da `SCRIPT-30-MINUTI.md` (Atto 0 e Atto 2). **Ogni elemento è già verificato**: il promo non
 introduce alcun fatto nuovo rispetto allo script, e non richiede riprese.
 
 ---

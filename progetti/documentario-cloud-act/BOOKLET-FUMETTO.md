@@ -3,7 +3,14 @@
 ### Sceneggiatura completa per il disegnatore
 
 Versione 2.1 — 2 agosto 2026
-Adattamento divulgativo di `SCRIPT-20-MINUTI.md` **versione 2.1, 12 atti**. Una tavola per atto.
+Adattamento divulgativo di `SCRIPT-30-MINUTI.md` **versione 3.0, 13 atti**. Una tavola per atto.
+
+> 🔄 **DA AGGIORNARE ALLA v3.0 — il booklet è fermo a 12 tavole.** Il passaggio a 30 minuti ha creato
+> l'**Atto 12 (L'Italia concreta)**, che non ha ancora la sua tavola, e ha aggiunto materiale a cinque atti
+> esistenti: **Airbus** (atti 9 e 11), la **demolizione del «non è mai successo»** (atto 5), gli **esiti
+> europei sulla scuola** (atto 10) e l'**AWS European Sovereign Cloud** (atto 4).
+> ⚠️ La **tavola 13** è quella che chiude il booklet: deve finire come il film, su **«la regola è scritta,
+> la data è bianca»** e sulla data del **12 gennaio 2027**.
 Ogni affermazione fattuale è ancorata a `STATO-DELLE-CONOSCENZE.md`; i riferimenti `[A#]` / `[B#]` sono
 gli stessi del dossier.
 
