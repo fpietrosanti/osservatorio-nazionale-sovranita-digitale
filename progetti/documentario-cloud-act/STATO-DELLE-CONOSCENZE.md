@@ -792,6 +792,48 @@ del 10/06/2024 resta (v. A6), mentre **Aruba S.p.A. è firmataria certa** di que
 
 ---
 
+## 🟠 TERZA CORREZIONE APERTA — il caso cinese c'è, ma è anonimo
+
+**Verifica di copertura (29/07/2026)** — il caso **è già in tutti gli artefatti**, con il verbatim e la
+struttura a tre precedenti (USA · Cina · Francia). Ma:
+
+| Artefatto | Caso Cina | Verbatim «non gestisce il servizio» | **Nome del partner** |
+|---|---|---|---|
+| Script | ✅ | ✅ | ❌ **assente** |
+| Booklet | ✅ | ✅ | ❌ **assente** |
+| Storyboard | ✅ | ✅ | ❌ **assente** |
+| Sito `/certificazioni/` | ✅ | ✅ | ✅ presente |
+
+👉 Il film dice «**un'azienda cinese**». Il sito dice **21Vianet**. La differenza non è cosmetica:
+un nome è **verificabile**, un'astrazione no. E qui il nome è la prova che il modello è **realizzato**,
+non teorico.
+
+### Come rafforzarlo
+Nominare l'azienda e dire cosa fa, con il dettaglio che rende il modello concreto:
+**Shanghai Blue Cloud Technology Co. (21Vianet)** — che secondo la documentazione Microsoft
+«*gestisce, fornisce e amministra **in modo indipendente**»* l'erogazione dei servizi cloud Microsoft in
+Cina, **su licenza della tecnologia**, con data center che mantengono i dati nel Paese.
+
+**Il punto di forza da esplicitare**: non è un accordo commerciale qualsiasi. È **Microsoft che rinuncia a
+gestire il proprio prodotto** in un mercato, perché quel mercato l'ha imposto come condizione.
+
+### ⚠️ Il vincolo che diventa più stringente nominando l'azienda
+La **trappola 7** resta e va rafforzata: **il modello cinese non tutela i diritti**, risponde a esigenze di
+controllo statale. Nominare 21Vianet rende il caso più concreto e quindi **più facile da fraintendere**.
+La formulazione deve restare **strettamente strutturale**:
+
+> *Non stiamo dicendo che il modello cinese sia un buon modello. Stiamo dicendo una cosa sola:
+> **quando un governo lo impone come condizione di mercato, il modello si realizza.**
+> La Cina l'ha imposto. La Francia l'ha imposto. L'Italia no.*
+
+### Da modificare
+- [ ] **SCRIPT Atto 11**: sostituire «un'azienda cinese» con il nome e la citazione dell'indipendenza operativa.
+- [ ] **BOOKLET tavola 13**: idem — il nome può stare su un'insegna disegnata, più efficace di una didascalia.
+- [ ] **STORYBOARD** inquadrature 104-116: prevedere la sovrimpressione del nome.
+- [ ] Valutare l'inserimento nella scheda **`01-scala-sovranita`** o in una nuova scheda dei tre precedenti.
+
+---
+
 ## ERRORI DA NON COMMETTERE (registro delle trappole già individuate)
 
 1. **Il 46% non è una quota del 75%.** Sono universi diversi: il 46% misura la posta elettronica, il 75%
