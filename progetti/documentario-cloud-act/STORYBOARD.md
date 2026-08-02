@@ -338,7 +338,7 @@ dissolvenza non produrrebbe alcun effetto.
   sovrimpressione **deve attribuire la fonte all'agenzia**, non presentarla come atto ufficiale. Se il
   primario emerge prima del montaggio, si aggiorna la sola sovrimpressione.
 - 059 ⚠️ **DA REPERIRE, opzionale ma forte** — esiste video della dichiarazione? Se sì, meglio del testo.
-- 062–072, 066 ✅ **DISPONIBILE** — documenti e dataset già in nostro possesso, ricerche riproducibili
+- 062–063, 066 ✅ **DISPONIBILE** — documenti e dataset già in nostro possesso, ricerche riproducibili
   in ripresa dal vivo.
 - ⛔ **Non esistono immagini del catalogo cloud ACN dall'interno**: `catalogocloud.acn.gov.it` restituisce
   una pagina di login del Portale Fornitori. Se si mostra quella pagina, va detto in sovrimpressione che
@@ -362,7 +362,7 @@ dissolvenza non produrrebbe alcun effetto.
 | **079** | 0:08 | `SCH-CAP` | **Anticipazione del contro-argomento più forte.** Il testo del **41 U.S.C. §1323** a schermo, con evidenziata la clausola. | «*Nothing in this section shall be construed… to authorize the issuance of an exclusion or removal order **based solely on the fact of foreign ownership**.*» `[A18]` | **VFC** (tono piano): «Una norma americana vieta espressamente di escludere un fornitore sulla sola base della proprietà straniera. Lo diciamo noi per primi.» |
 | **080** | 0:16 | `GRAF` | **Onestà obbligatoria.** Due barre affiancate: disavanzo UE **126,3 mld €** su canoni di proprietà intellettuale; avanzo **60,4 mld €** su servizi di telecomunicazione e informatica. Stessa scala, nessuna manipolazione dell'asse. | `Eurostat · l'avanzo è in larga parte effetto Irlanda` | **VFC**: entrambe le cifre. |
 
-> ⚠️ **TRAPPOLE 11, 12, 14** — 079, 080, 079 e 080 sono inquadrature di **autocorrezione**: sono la ragione
+> ⚠️ **TRAPPOLE 11, 12, 14** — 070, 071, 079 e 080 sono inquadrature di **autocorrezione**: sono la ragione
 > per cui il resto del film regge. **Non tagliarle per guadagnare secondi.**
 > ⚠️ **VINCOLO `[A18]`** — in nessuna inquadratura si dice che la barriera FedRAMP sia **il costo** della
 > certificazione: il programma sta abbassando costi e tempi *di proposito* e nel giro di un anno saremmo
@@ -380,7 +380,7 @@ dissolvenza non produrrebbe alcun effetto.
   (`marketplace.fedramp.gov`, endpoint `/marketplace/products/__data.json`). **Rifare la ricerca dal vivo
   in ripresa il giorno stesso delle riprese** e riportare in sovrimpressione la data effettiva della
   verifica, non quella del 29 luglio 2026. → 074–075: **scheda nuova `12`, da produrre**.
-- 079, 087, 079 ✅ **DISPONIBILE** — testi pubblici, cattura schermo.
+- 070, 078, 079 ✅ **DISPONIBILE** — testi pubblici, cattura schermo.
 - 080 ✅ **DISPONIBILE** — dati Eurostat, grafica interna.
 - ⛔ Non esistono immagini di «esclusione» di un fornitore europeo: l'asimmetria è procedurale, non
   visibile. Va risolta in grafica (076).
@@ -514,19 +514,41 @@ dissolvenza non produrrebbe alcun effetto.
 > materiale tagliato dal film.
 
 **Materiali**
-- 105, 103 ✅ **DISPONIBILE** — pagine pubbliche, cattura dal vivo. Registrare anche l'URL in quadro:
+- 096, 103 ✅ **DISPONIBILE** — pagine pubbliche, cattura dal vivo. Registrare anche l'URL in quadro:
   è ciò che rende la prova riproducibile dallo spettatore.
 - 098 ✅ produzione interna. **Verificare lo stato di Bleu al momento del montaggio**: a metà 2026
   risultava «in corso», non qualificato, mentre **S3NS è qualificato dal 17 dicembre 2025** `[A29]`.
   La grafica deve distinguere «qualificato» da «in corso», e S3NS va indicato per quello che è: la prova
   che **la regola funziona**, non un'eccezione.
-- 109, 102 ✅ schede prodotte.
+- 100, 102 ✅ schede prodotte.
 - ⛔ **Non esistono riprese di Bleu o S3NS in esercizio** che siano nostre. Se si usa materiale
   aziendale, va etichettato come tale in sovrimpressione: è materiale di parte.
 
 ---
 
 # RIEPILOGO
+
+## ⏱️ Verifica dei tempi — v2.1
+
+| Atto | Timecode | Inquadrature | Durata dichiarata | Somma delle inquadrature |
+|---|---|---|---|---|
+| 0 — La prova | 0:00–1:30 | 001–009 (9) | 90" | **90"** ✅ |
+| 1 — Il movente | 1:30–2:45 | 010–014 (5) | 75" | **75"** ✅ |
+| 2 — Il mito della geografia | 2:45–5:00 | 015–031 (17) | 135" | **135"** ✅ |
+| 3 — La firma | 5:00–6:50 | 032–039 (8) | 110" | **110"** ✅ |
+| 4 — L'esecuzione | 6:50–8:20 | 040–048 (9) | 90" | **90"** ✅ |
+| 5 — Il silenzio | 8:20–9:15 | 049–052 (4) | 55" | **55"** ✅ |
+| 6 — Era una scelta | 9:15–10:30 | 053–057 (5) | 75" | **75"** ✅ |
+| 7 — Lo Stato certifica | 10:30–12:45 | 058–069 (12) | 135" | **135"** ✅ |
+| 8 — L'asimmetria | 12:45–14:30 | 070–080 (11) | 105" | **105"** ✅ |
+| 9 — Bruxelles | 14:30–16:00 | 081–087 (7) | 90" *(+15)* | **90"** ✅ |
+| 10 — I figli | 16:00–17:00 | 088–094 (7) | 60" | **60"** ✅ |
+| 11 — La via d'uscita | 17:00–20:00 | 095–107 (13) | 180" *(+60)* | **180"** ✅ |
+| **TOTALE** | **0:00–20:00** | **001–107 (107)** | **1200"** | **1200"** ✅ |
+
+**107 inquadrature, numerazione continua senza buchi**, più la condizionale `019-BIS` che **non entra
+nel conteggio**: se l'intervista si ottiene, si finanzia dentro l'Atto 2 come descritto in quell'atto,
+a somma invariata.
 
 ## ⛔ Cose che NON si possono filmare
 *(vanno risolte in grafica o in tipografia — per necessità, e per onestà)*

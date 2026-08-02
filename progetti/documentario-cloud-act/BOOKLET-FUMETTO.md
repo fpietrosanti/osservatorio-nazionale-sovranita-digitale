@@ -1,9 +1,9 @@
 # «NON POSSO GARANTIRLO»
-## Booklet a fumetti — 13 tavole + copertina e quarta di copertina
+## Booklet a fumetti — 12 tavole + copertina e quarta di copertina
 ### Sceneggiatura completa per il disegnatore
 
-Versione 2.0 — 2 agosto 2026
-Adattamento divulgativo di `SCRIPT-20-MINUTI.md` **versione 2.0, 13 atti**. Una tavola per atto.
+Versione 2.1 — 2 agosto 2026
+Adattamento divulgativo di `SCRIPT-20-MINUTI.md` **versione 2.1, 12 atti**. Una tavola per atto.
 Ogni affermazione fattuale è ancorata a `STATO-DELLE-CONOSCENZE.md`; i riferimenti `[A#]` / `[B#]` sono
 gli stessi del dossier.
 
@@ -16,22 +16,40 @@ Dove il dossier dice «è una deduzione», il fumetto lo fa dire a un personaggi
 
 ---
 
-### CHE COSA CAMBIA RISPETTO ALLA VERSIONE 1.0
-*(sezione di servizio per il disegnatore che avesse già letto la v1.0 — non va stampata)*
+### CHE COSA CAMBIA RISPETTO ALLA VERSIONE 2.0
+*(sezione di servizio per il disegnatore che avesse già ricevuto la v2.0 — non va stampata)*
 
-1. **Nuova TAVOLA 7 — «Non è un'ipotesi: è già successo»**, inserita dopo la vecchia tavola 6.
-   È il punto in cui il booklet cambia registro e **il timbro `SIMULAZIONE DOCUMENTATA` sparisce**.
-   Tutte le tavole successive slittano di uno.
-2. **Tavola 3 diventa una tavola doppia**: entrano le **quattro voci al Senato francese** (2019 + 2025)
-   e l'**ammissione scritta di Google** del febbraio 2022.
-3. **Tavola 5** guadagna la **sovranità di facciata**: la frase del CTO di AWS del 2019 e i quattro limiti
-   dell'audit sul sistema di isolamento.
-4. **Tavola 8** (era la 7) perde le tre vignette sulla gara del cloud di Stato: **quella vicenda esce dal
-   racconto**. Vedi NOTE PER IL DISEGNATORE, §6.
-5. **Tavola 10** (era la 9): correzioni obbligatorie sull'asimmetria — la barriera non è il costo.
-6. **Tavola 12** (era la 11): le scuole **adesso hanno un numero**. Sparisce la vignetta «non esiste
-   alcun dato pubblico», che era vera nella v1.0 e oggi non lo è più.
-7. Il **Cursore** diventa grande alla tavola **13**, non alla 12.
+1. 🗂️ **La tavola 7 — «Non è un'ipotesi: è già successo» — è stata rimossa.** Riguardava il blocco
+   degli account e delle identità digitali di due magistrati europei.
+   **Perché**: le prove reggevano, ma il **vettore è un altro** — provvedimenti punitivi verso singole
+   persone fisiche, non giurisdizione sui dati della pubblica amministrazione. Per l'Italia il rischio
+   resta dichiarato **teorico**, e il lettore avrebbe legittimamente chiesto *«cosa c'entra con la posta
+   del mio Comune?»*. Il materiale resta nel dossier: è una buona storia, ma è **un'altra storia**.
+   Vedi NOTE PER IL DISEGNATORE, §6: **non va reintrodotta in fase di disegno, in nessuna forma.**
+2. **Il booklet torna a 12 tavole** + copertina e quarta. Le tavole dalla 8 in poi **slittano indietro di
+   uno**: la vecchia 8 è la nuova **7**, la vecchia 13 è la nuova **12**.
+3. ⚠️ **La sparizione del timbro `SIMULAZIONE DOCUMENTATA` si sposta.** Era il perno drammatico della
+   tavola rimossa; adesso avviene nella **nuova tavola 7 — «Si poteva fare. Qualcuno l'ha fatto.»**
+   **L'annuncio nella tavola 2 è stato aggiornato di conseguenza**: adesso dice non solo *che* il timbro
+   sparirà, ma *come* — «si vede che è stato tolto» — perché nella tavola 6 il timbro già manca e
+   l'assenza da sola non basterebbe più a segnalare l'evento.
+   **La soluzione dell'impronta fantasma è conservata**, spostata di pagina e rinforzata in modo diverso.
+   Vedi §4, DIFFICILE 1.
+4. Il **Cursore** diventa grande alla tavola **12**, non alla 13.
+5. La **mappina del viaggio** nel margine non ha più la tappa ferma: il puntino avanza a ogni tavola.
+6. **Non esiste più una tavola acromatica.** La palette torna a quattro famiglie. Il conteggio del rosso
+   **non cambia**: sette occorrenze, con le tavole rinumerate. Vedi §1.
+
+**Che cosa era già cambiato rispetto alla versione 1.0**
+- **Tavola 3 diventa una tavola doppia**: entrano le **quattro voci al Senato francese** (2019 + 2025)
+  e l'**ammissione scritta di Google** del febbraio 2022.
+- **Tavola 5** guadagna la **sovranità di facciata**: la frase del CTO di AWS del 2019 e i quattro limiti
+  dell'audit sul sistema di isolamento.
+- **Tavola 7** (era la 7 anche nella v1.0) perde le tre vignette sulla gara del cloud di Stato:
+  **quella vicenda esce dal racconto**. Vedi NOTE PER IL DISEGNATORE, §6.
+- **Tavola 9**: correzioni obbligatorie sull'asimmetria — la barriera non è il costo.
+- **Tavola 11**: le scuole **adesso hanno un numero**. Sparisce la vignetta «non esiste alcun dato
+  pubblico», che era vera nella v1.0 e oggi non lo è più.
 
 ---
 
@@ -58,48 +76,51 @@ sta andando. Il suo viaggio è il filo conduttore visivo: parte da una scrivania
 un archivio americano.
 **Segno grafico**: sul fronte della Busta c'è un timbro rosso `SERVIZIO` — resta identico per tutto il
 booklet, così il lettore la riconosce anche in mezzo a migliaia di buste uguali.
-⚠️ **La Busta non compare nella tavola 7.** Quella tavola non è il suo viaggio. Vedi §4 delle note.
+**La Busta compare in tutte e dodici le tavole**: il suo viaggio non ha interruzioni.
 
 **IL CURSORE**, comparsa fissa.
 Il trattino lampeggiante del terminale della prima tavola. Torna in un angolo di **ogni** tavola, piccolo,
-sempre nella stessa posizione (basso a destra). Non dice niente. Alla **tredicesima** tavola diventa grande.
-⚠️ Nella tavola 7 il Cursore c'è, ma è disegnato **senza alone di lampeggio**: è fermo. È l'unico segnale
-grafico che avverte il lettore che qualcosa, in quella pagina, si è fermato davvero.
+sempre nella stessa posizione (basso a destra). Non dice niente. Alla **dodicesima** tavola diventa grande.
+⚠️ **Nella tavola 7** il Cursore è disegnato **senza alone di lampeggio**, per una sola vignetta: è fermo.
+È il segnale grafico che accompagna la sparizione del timbro. Vedi §4, DIFFICILE 1.
 
 > **Personaggi che NON esistono in questo booklet**: nessun politico è caricaturato, nessun dirigente
 > d'azienda è disegnato con fattezze riconoscibili.
 > Le uniche persone reali **disegnate** sono il senatore francese **Dany Wattebled** e il dirigente
 > **Anton Carniaux**, perché la loro è un'audizione pubblica verbalizzata `[B2]`: vanno disegnati
 > **neutri e dignitosi**, non sono i cattivi della storia.
-> Tutte le altre persone reali nominate nel booklet — il direttore tecnico di AWS **Stéphan Hadinger**
-> `[A20]`, la giudice **Beti Hohler** e il giudice **Nicolas Guillou** `[A24]` — **non si disegnano**.
-> Di loro si disegnano parole, documenti, oggetti e mani. Vedi §4, DIFFICILE 2.
+> L'altra persona reale nominata nel booklet — il direttore tecnico di AWS **Stéphan Hadinger** `[A20]` —
+> **non si disegna**. Di lui si disegnano parole, documenti, oggetti e mani. Vedi §4, DIFFICILE 2.
+> La stessa regola vale per i convocati alle audizioni del 2019, che non si disegnano affatto.
 
 ---
 
 ## ELEMENTI GRAFICI RICORRENTI (validi per tutto il booklet)
 
 1. **IL CURSORE** — un trattino nero lampeggiante, sempre in basso a destra di ogni tavola, sopra il
-   numero di pagina. Fermo nella tavola 7. Nella tavola 13 esce dalla sua posizione e invade la pagina.
+   numero di pagina. Fermo per una sola vignetta nella tavola 7 (vedi §4, DIFFICILE 1).
+   Nella tavola 12 esce dalla sua posizione e invade la pagina.
 2. **LA MAPPINA DEL VIAGGIO** — nel margine inferiore di ogni tavola, alta un centimetro: una linea
    tratteggiata da una scrivania (Italia) a uno schedario (Stati Uniti), con un puntino che avanza di
    tavola in tavola. Il lettore vede a colpo d'occhio a che punto è la Busta.
-   ⚠️ **Nella tavola 7 il puntino non avanza**: resta esattamente dove l'aveva lasciato la tavola 6.
-   Quella pagina non fa parte del viaggio, e la mappina lo dice senza una parola.
+   **Le tappe sono dodici, una per tavola, e il puntino avanza sempre**: non ci sono soste, non ci sono
+   pagine fuori dal viaggio. Chi imposta il margine ridistribuisca le tappe in dodicesimi, non in
+   tredicesimi: era il numero della v2.0 e non è più valido.
 3. **IL TIMBRO `SIMULAZIONE DOCUMENTATA`** — un timbro rosso a rullo, obliquo, angolo in alto a destra.
    Compare **solo** nelle tavole **2, 4 e 5**. È il patto con il lettore: *qui il movente è un'ipotesi,
-   il meccanismo no*. Nelle altre dieci tavole non deve esserci: se c'è ovunque, non significa niente.
+   il meccanismo no*. Nelle altre nove tavole non deve esserci: se c'è ovunque, non significa niente.
    **Nella tavola 7 il timbro non è semplicemente assente: è tolto, e si vede che è stato tolto.**
-   Vedi §4, DIFFICILE 1.
+   È lì che l'annuncio della tavola 2 trova il suo esito. Vedi §4, DIFFICILE 1.
 4. **IL RIQUADRO GIALLO «CINQUE SECONDI»** — un riquadro giallo senape con bordo nero, sempre stessa
    forma, che contiene **solo cose che il lettore può verificare da sé**. Quando compare, il lettore sa
-   che quella non è un'opinione di nessuno. Compare nelle tavole 1, 8 e 9.
+   che quella non è un'opinione di nessuno. Compare nelle tavole 1, 7 e 8.
 5. **LE MANI** — regola di disegno: ogni volta che nella storia qualcosa cambia di proprietario o di
    controllo, si disegnano **le mani**, mai i volti. Sono le mani il soggetto di questa storia.
-   Nella tavola 7 la regola diventa **assoluta**: lì le mani non sono una scelta di stile, sono l'unico
-   modo lecito di rappresentare due persone reali che non hanno acconsentito a essere disegnate.
+   Nelle vignette d'archivio — le audizioni del 2019 nella tavola 3 e nella tavola 5 — la regola diventa
+   **assoluta**: lì le mani non sono una scelta di stile, sono l'unico modo lecito di rappresentare
+   persone reali che non hanno acconsentito a essere disegnate.
 6. **I RIQUADRI DI ONESTÀ** — sfondo grigio chiaro, uno dei due personaggi ammette un limite del
-   racconto. Sono **cinque**: tavole 5, 9, 10, 11 e 13. Non sono riempitivo. Vedi §5.
+   racconto. Sono **cinque**: tavole 5, 8, 9, 10 e 12. Non sono riempitivo. Vedi §5.
 
 ---
 
@@ -226,6 +247,8 @@ il taglio di una finestra alta.
 > Il *motivo* che state per leggere è inventato. Tutto il resto — ogni singolo passaggio del meccanismo —
 > è documentato, e alla fine del booklet trovate dove.
 > E arriverà una pagina in cui questo timbro **non ci sarà più**. Quando succede, non è una dimenticanza.
+> Non sarà una pagina in cui il timbro semplicemente manca: sarà una pagina in cui **si vede che è stato
+> tolto**. Ve ne accorgerete da soli.
 
 ---
 
@@ -606,7 +629,7 @@ per leggere meglio la riga in basso.
 
 **RIQUADRO DI ONESTÀ** *(fuori griglia, in basso, sfondo grigio chiaro)*
 **DISEGNO** — Sandro, mezzo busto, che alza una mano come per fermare qualcuno. Stessa posa del riquadro
-di onestà della tavola 11: è un segnale che il lettore imparerà a riconoscere.
+di onestà della tavola 10: è un segnale che il lettore imparerà a riconoscere.
 **BALLOON — SANDRO**:
 > «Tre cose, se no facciamo i disonesti.
 > **Uno**: non sto dicendo *è una controllata, quindi è soggetta alla legge americana*. Il Dipartimento di
@@ -696,120 +719,18 @@ freccia spezzata.
 
 ---
 
-# TAVOLA 7 — NON È UN'IPOTESI: È GIÀ SUCCESSO
-### (dall'ATTO 5-BIS) · **la tavola nuova. Qui il booklet smette di simulare.**
+# TAVOLA 7 — SI POTEVA FARE. QUALCUNO L'HA FATTO.
+### (dall'ATTO 6 — LA SVOLTA: ERA UNA SCELTA) · **è qui che il timbro sparisce**
 
-> 🔴 **TAVOLA SPECIALE — leggere le tre regole prima di disegnare.**
+> 🔴 **TAVOLA SPECIALE — leggere le due regole prima di disegnare.**
 > **1.** Il timbro `SIMULAZIONE DOCUMENTATA` **non c'è, e si vede che è stato tolto.** Nell'angolo in
-> alto a destra, dove nelle tavole 2, 4 e 5 c'era il timbro rosso, resta soltanto la sua **impronta
-> fantasma**: il rettangolo di carta più chiara, non ingiallita, che un timbro lascia quando viene
-> spostato dopo essere stato a lungo nello stesso punto. Nessun testo, nessuna spiegazione.
-> **2.** Non ci sono **né la Busta né il rosso**. È l'unica tavola del booklet senza una sola area
-> rossa: monocromia fredda, bianco-grigio-nero. La Busta non c'è perché questa non è la sua storia.
-> Il Cursore c'è, ma **non lampeggia**.
-> **3.** Le due persone di cui si parla sono **persone reali che non hanno acconsentito a essere
-> disegnate**. Non si disegnano i loro volti, non si inventa una sola parola che non abbiano detto,
-> non si mette loro in bocca un balloon con la coda. Si disegnano **mani, oggetti, schermi e carte**.
-> Chi disegna una faccia riconoscibile qui, fa a questo booklet più danno di qualunque avversario.
-
-**Impaginazione**: 6 vignette. Prima striscia: due vignette (lo stacco, e la data). Seconda striscia:
-una vignetta grande a tutta larghezza (lo schermo del telefono). Terza striscia: tre vignette
-(il secondo caso / il perché / l'asimmetria).
-
----
-
-**VIGNETTA 1**
-**DISEGNO** — Bianco. Quasi niente dentro. In alto a destra, l'impronta fantasma del timbro. Al centro,
-piccole, **le mani di Sandro che chiudono la cartellina azzurra** e la mettono da parte. Non è un gesto
-drammatico: è il gesto di uno che smette di leggere appunti perché quello che sta per dire lo sa a memoria.
-
-**DIDASCALIA**:
-> Tutto quello che avete letto finora è una ricostruzione. Una porta che è aperta, e che nessuno ha
-> ancora attraversato — almeno, non che si sappia.
-> **Adesso basta con le ricostruzioni.**
-
-**BALLOON — MARTA**: «È sparito il timbro.»
-**BALLOON — SANDRO**: «Sì. Da qui in poi non serve più immaginare niente.»
-
----
-
-**VIGNETTA 2**
-**DISEGNO** — Un calendario da parete, di quelli da ufficio con la spirale. Una sola pagina:
-**MARZO 2026**. Nessuna persona.
-
-**DIDASCALIA**:
-> Marzo 2026. Una giudice slovena — **cittadina dell'Unione europea** — scrive questo. `[A24]`
-
----
-
-**VIGNETTA 3** *(a tutta larghezza — la vignetta centrale della tavola)*
-**DISEGNO** — Uno **schermo di telefono** ripreso frontalmente, che occupa quasi tutta la vignetta.
-È tenuto in mano: si vedono soltanto **due dita ai bordi**, niente altro della persona. Sullo schermo,
-una pila di notifiche identiche fra loro, impilate come si impilano davvero: sono cinque, e ciascuna ha
-la stessa forma. Non si leggono i nomi dei servizi come loghi: sono scritti **a parole**, in carattere
-di sistema. Sotto, l'ora: tutte nella stessa notte, a pochi minuti l'una dall'altra.
-
-**TESTO NELLA VIGNETTA (balloon squadrato, senza coda — è una citazione scritta, non parlata)**:
-> «*Il mio Apple ID, iCloud, Amazon, Airbnb, PayPal e altri account sono stati tutti bloccati o
-> cancellati. Queste cancellazioni sono avvenute **da un giorno all'altro, senza preavviso**.*»
-> — Beti Hohler, giudice `[A24]`
-
-**DIDASCALIA (piccola, sotto)**:
-> **Nessuna azienda l'ha mai smentita.**
-
-**Nota per il disegnatore**: la tentazione sarà di disegnare la persona che tiene il telefono, magari
-di spalle, magari in ombra. **No.** Due dita e uno schermo. La forza di questa vignetta è che potrebbe
-essere il telefono di chiunque, e che noi non ci siamo permessi di immaginare una faccia.
-
----
-
-**VIGNETTE 4, 5, 6**
-
-**DISEGNO 4** — Un documento parlamentare francese posato su un tavolo, con la sua intestazione ufficiale,
-una data e un timbro di protocollo. Accanto, piegata su una sedia, **una toga**. Nessuno la indossa.
-**DIDASCALIA 4**:
-> E non è sola. Un giudice **francese** ha subito lo stesso trattamento: un caso finito in **Parlamento**,
-> con interrogazione e **risposta ufficiale del Governo francese**.
-> Non è una testimonianza raccolta da noi: è un atto pubblico. `[A24]`
-
-**DISEGNO 5** — Una pagina di ordine esecutivo americano, ingrandita. Tre parole sono evidenziate in
-giallo dentro un elenco: **fondi, beni, servizi**. La terza è cerchiata a mano.
-**DIDASCALIA 5**:
-> **Perché accade?** Non è una scelta commerciale delle aziende. Un ordine esecutivo statunitense vieta
-> di fornire «*fondi, beni o **servizi***» a una persona designata. La parola «servizi» è nel testo
-> presidenziale: non c'è niente da interpretare.
-> Un'azienda americana che continuasse a servirla **commetterebbe un illecito**. Microsoft lo sa:
-> **nel 2023 è stata multata** proprio per questo. `[A23]`
-
-**DISEGNO 6 — METAFORA VISIVA: i due sportelli.**
-Due sportelli affiancati, identici, come in un ufficio pubblico. Sopra il primo: **SOLDI BLOCCATI**.
-Sopra il secondo: **DATI BLOCCATI**.
-Allo sportello dei soldi, un raccoglitore pieno di moduli numerati, un registro aperto, una ricevuta che
-esce: la procedura c'è, ed è minuziosa.
-Lo sportello dei dati è identico in tutto — stessa cornice, stesso vetro, stesso ripiano — ma
-**sul ripiano non c'è niente**, e dietro il vetro non c'è nemmeno la sedia.
-**DIDASCALIA 6**:
-> Quando vengono bloccati i **soldi** di una persona, la legge americana prescrive tutto: conto fruttifero,
-> interessi, tracciabilità, restituzione se il provvedimento cade.
-> Quando vengono bloccati i **dati**: **niente.** Nessuna regola su che fine facciano, se si possano
-> esportare, se tornino indietro.
-> **Per il denaro esiste una procedura. Per la vita digitale, no.** `[A25]`
-
----
-
-**RIQUADRO NERO (testo bianco, in fondo alla tavola — stesso trattamento della tavola 1)**:
-> ⚠️ Anche qui, attenzione a cosa abbiamo detto e a cosa **no**.
-> **Questo è un potere diverso** da quello di tutte le pagine precedenti. Là si trattava di **leggere**
-> i dati; qui si tratta di **spegnere** l'accesso di una persona ai propri strumenti. **Non vanno
-> confusi mai**, nemmeno per comodità di racconto. `[A26]`
-> E per l'Italia: soggetti colpiti da provvedimenti americani esistono, ma **non risulta documentato
-> alcun effetto digitale**. Il rischio per un ente pubblico italiano, allo stato, va detto per quello
-> che è: **teorico**. `[A25]`
-
----
-
-# TAVOLA 8 — SI POTEVA FARE. QUALCUNO L'HA FATTO.
-### (dall'ATTO 6 — LA SVOLTA: ERA UNA SCELTA)
+> alto a destra della **prima vignetta**, dove nelle tavole 2, 4 e 5 c'era il timbro rosso obliquo,
+> resta soltanto la sua **impronta fantasma**: il rettangolo di carta più chiara, non ingiallita, che un
+> timbro lascia quando viene spostato dopo essere stato a lungo nello stesso punto. Nessun testo,
+> nessuna spiegazione. È l'esito dell'annuncio fatto nella tavola 2. Vedi §4, DIFFICILE 1.
+> **2.** Nella **prima vignetta soltanto**, il Cursore in basso a destra è disegnato **senza alone di
+> lampeggio**: è fermo. Riprende a lampeggiare dalla vignetta 2, quando torna il terminale.
+> È l'unico posto del booklet in cui il Cursore si ferma, e dura una vignetta sola.
 
 **Impaginazione**: 4 vignette. È volutamente la tavola **più corta** del booklet, e arriva subito dopo
 la più pesante: serve al lettore per rialzare la testa. Prima striscia: due vignette. Seconda: una
@@ -819,8 +740,19 @@ larga con il riquadro giallo. Terza: una larga di chiusura.
 
 **VIGNETTA 1**
 **DISEGNO** — Marta, esausta, si passa una mano sugli occhi. La stanza è più buia di prima.
+**In alto a destra, l'impronta fantasma del timbro.** Sulla scrivania, le mani di Sandro che chiudono
+la cartellina azzurra e la mettono da parte: non è un gesto drammatico, è il gesto di uno che smette
+di leggere appunti perché quello che sta per dire lo sa a memoria.
+
 **BALLOON — MARTA**: «Va bene. Ho capito. È così e basta, per tutti. È la tecnologia, è il mondo,
 è come funziona.»
+**BALLOON — MARTA** *(piccolo, seconda battuta, mentre guarda l'angolo della pagina)*:
+«…È sparito il timbro.»
+**BALLOON — SANDRO**: «Sì. Da qui in poi non serve più immaginare niente.»
+
+**Nota per il disegnatore**: le tre battute vanno lette in quest'ordine e non vanno accorpate.
+Marta nota il timbro **dopo** essersi arresa: è il momento in cui la pagina cambia registro sotto
+di lei. Se la battuta sul timbro arriva per prima, l'effetto si spegne.
 
 ---
 
@@ -828,6 +760,7 @@ larga con il riquadro giallo. Terza: una larga di chiusura.
 **DISEGNO** — Sandro gira lo schermo verso di lei. Sul monitor, di nuovo il terminale nero, di nuovo
 la stessa grafica della tavola 1. Sul volto di Marta la luce blu dello schermo. È la prima volta,
 da tre tavole, che qualcuno in questo booklet ha un'espressione diversa dalla preoccupazione.
+**Da qui il Cursore torna a lampeggiare.**
 
 **BALLOON — SANDRO**: «Prima di dire *è il mondo*, faccia altri cinque secondi con me.»
 
@@ -861,7 +794,7 @@ Sul selciato, la sagoma consumata delle ruote: **entrambe le direzioni sono stat
 
 ---
 
-# TAVOLA 9 — LO STATO CERTIFICA, E NON SA
+# TAVOLA 8 — LO STATO CERTIFICA, E NON SA
 ### (dall'ATTO 7)
 
 **Impaginazione**: 6 vignette. Prima striscia: due vignette (il comunicato / la misurazione).
@@ -953,7 +886,7 @@ questo il punto.»
 
 ---
 
-# TAVOLA 10 — LA PORTA STRETTA
+# TAVOLA 9 — LA PORTA STRETTA
 ### (dall'ATTO 8 — L'ASIMMETRIA)
 
 **Impaginazione**: 6 vignette. Prima striscia: una larga (la leggenda che si sgonfia).
@@ -1055,7 +988,7 @@ il secondo mattone.
 
 ---
 
-# TAVOLA 11 — L'ABBIAMO CHIESTA. E ABBIAMO PERSO.
+# TAVOLA 10 — L'ABBIAMO CHIESTA. E ABBIAMO PERSO.
 ### (dall'ATTO 9 — BRUXELLES) · *la svolta narrativa*
 
 **Impaginazione**: 6 vignette. Prima striscia: una vignetta (l'accusa facile, e la sua smentita).
@@ -1132,7 +1065,7 @@ Marta la guarda. Non la tocca.
 
 ---
 
-# TAVOLA 12 — E I RAGAZZI?
+# TAVOLA 11 — E I RAGAZZI?
 ### (dall'ATTO 10 — I FIGLI)
 
 **Impaginazione**: 6 vignette. Va tenuta **breve, asciutta e non ricattatoria**. Nessun bambino
@@ -1236,7 +1169,7 @@ in cui la storia riguarda persone che non hanno scelto niente.
 
 ---
 
-# TAVOLA 13 — LA VIA D'USCITA
+# TAVOLA 12 — LA VIA D'USCITA
 ### (dall'ATTO 11) · **il finale non è catastrofista: è la porta**
 
 **Impaginazione**: 6 vignette. Prima striscia: una larga (il capovolgimento). Seconda: tre vignette
@@ -1315,7 +1248,7 @@ Gliel'ho fatto vedere: sono le sette parole con lo zero accanto.»
 ---
 
 **VIGNETTA 6** *(finale, a tutta larghezza — quasi muta)*
-**DISEGNO** — Il **Cursore**, che per dodici tavole è stato piccolo in basso a destra, adesso è al centro
+**DISEGNO** — Il **Cursore**, che per undici tavole è stato piccolo in basso a destra, adesso è al centro
 della vignetta ed è **alto quanto la vignetta**. Lampeggia su fondo nero.
 In basso a sinistra, minuscola, la Busta: è arrivata in fondo alla mappina del margine, dentro
 lo schedario americano. Ha ancora i suoi due occhietti, e guarda il lettore.
@@ -1362,10 +1295,9 @@ ma stavolta **appoggiata su un davanzale, di profilo**, che guarda fuori. Non è
 - **Non dice** che una controllata europea sia **perciò** soggetta alla legge americana: si accerta caso
   per caso, e non risulta nessuna sentenza che lo abbia deciso. E la cifratura con chiavi tenute fuori è
   una difesa che funziona davvero, per i dati fermi.
-- **Non dice** che leggere i dati e spegnere un account siano la stessa cosa. Sono **due poteri diversi**,
-  e la tavola 7 è l'unica che parla del secondo.
-- **Non dice** che a un ente pubblico italiano sia già successo qualcosa del genere: allo stato, il
-  rischio va detto **teorico**.
+- **Non dice** niente sul potere di **spegnere l'accesso** di una persona ai propri strumenti digitali.
+  È un potere **diverso** da quello raccontato qui, che riguarda il **leggere** i dati: non vanno confusi,
+  e questo booklet parla soltanto del secondo.
 - **Non dice** che il modello cinese sia un modello di libertà. Non lo è. Lo citiamo solo perché dimostra
   che, quando un governo lo impone, il modello si costruisce.
 - **Non dice** che esistano studi che provano la perdita di competenze nelle scuole. Non ne abbiamo
@@ -1397,7 +1329,7 @@ ma stavolta **appoggiata su un davanzale, di profilo**, che guarda fuori. Non è
 ---
 
 *Fonti e riferimenti completi: dossier «Non posso garantirlo» — Osservatorio Nazionale sulla Sovranità
-Digitale. Ogni fatto citato in queste tredici tavole è tracciato nel documento `STATO-DELLE-CONOSCENZE.md`,
+Digitale. Ogni fatto citato in queste dodici tavole è tracciato nel documento `STATO-DELLE-CONOSCENZE.md`,
 con il livello di affidabilità dichiarato per ciascuno.*
 
 ---
@@ -1407,25 +1339,30 @@ con il livello di affidabilità dichiarato per ciascuno.*
 
 ## 1. PALETTE
 
-**Cinque famiglie di colore, una per registro narrativo.** Il lettore deve capire *dove si trova*
+**Quattro famiglie di colore, una per registro narrativo.** Il lettore deve capire *dove si trova*
 senza leggere niente.
+🆕 **In v2.1 le famiglie tornano quattro**: la quinta serviva la tavola rimossa, ed **è caduta insieme
+a lei**. **Nel booklet non esiste più una tavola acromatica**: se ne arriva una in bozza, è un residuo
+della v2.0 e va ricolorata secondo la riga che le compete qui sotto.
 
 | Registro | Palette | Dove |
 |---|---|---|
-| **Italia, presente, reale** | Grigio-azzurro freddo da ufficio pubblico: `#3E4A55`, `#7D8A94`, `#C9D1D6`. Luci al neon leggermente verdi. | Tavole 1, 3 (pag. sin.), 5 (vign. 2-3), 6 (vign. 4-6), 8, 9, 11, 12, 13 |
+| **Italia, presente, reale** | Grigio-azzurro freddo da ufficio pubblico: `#3E4A55`, `#7D8A94`, `#C9D1D6`. Luci al neon leggermente verdi. | Tavole 1, 3 (pag. sin.), 5 (vign. 2-3), 6 (vign. 4-6), 7, 8, 10, 11, 12 |
 | **La simulazione documentata** | Beige caldo e polveroso, quasi seppia: `#C9A96E`, `#8A6E45`, `#EFE3CC`. Nessun blu. | Tavole 2, 4, 5 (parte alta) |
-| **Il documento / la prova** | Bianco carta `#FAF8F3`, nero inchiostro, **giallo senape** `#E8B93C` per gli evidenziatori, **rosso timbro** `#C0392B` **usato con avarizia** | riquadri «cinque secondi», tavole 3 (pag. destra), 9, 12 |
-| **Il terminale** | Nero puro `#000000`, verde-bianco fosforo `#E8F0E8`. Nessun altro colore ammesso. | Tavole 1, 8, 13 |
-| **🆕 Il reale, tavola 7** | **Nessun colore.** Bianco `#FFFFFF`, grigi neutri, nero. Niente beige, niente giallo, **niente rosso**. È l'unica tavola acromatica del booklet. | Tavola 7 |
+| **Il documento / la prova** | Bianco carta `#FAF8F3`, nero inchiostro, **giallo senape** `#E8B93C` per gli evidenziatori, **rosso timbro** `#C0392B` **usato con avarizia** | riquadri «cinque secondi», tavole 3 (pag. destra), 8, 11 |
+| **Il terminale** | Nero puro `#000000`, verde-bianco fosforo `#E8F0E8`. Nessun altro colore ammesso. | Tavole 1, 7, 12 |
 
 **Regola sul rosso**: il rosso compare **sette volte in tutto il booklet**, non una di più.
-La sciarpa di Marta · il timbro `SERVIZIO` sulla Busta · il timbro `SIMULAZIONE DOCUMENTATA` (tavole 2,
+🆕 In v2.1 **il conteggio non cambia** — la tavola rimossa non conteneva rosso — ma **due voci cambiano
+numero di tavola**. L'elenco aggiornato è questo:
+la sciarpa di Marta · il timbro `SERVIZIO` sulla Busta · il timbro `SIMULAZIONE DOCUMENTATA` (tavole 2,
 4, 5) · il sigillo di ceralacca della tavola 6 · la freccia spezzata della tavola 6 · gli zeri della
-tavola 9 · il campanello consumato della tavola 11.
+tavola 8 · il campanello consumato della tavola 10.
 Se il rosso è ovunque, la freccia spezzata non fa più effetto.
-🆕 **La tavola 7 non contiene una sola area rossa.** È voluto: è la tavola in cui non c'è niente da
-timbrare, niente da dichiarare e niente da simulare. Il lettore non saprà dire perché quella pagina
-gli è sembrata diversa, ma se ne accorgerà.
+🆕 **L'ottava area rossa che il lettore si aspetta, e che non trova, è l'impronta fantasma della tavola 7**:
+lì il rosso c'era per tre tavole di fila e adesso non c'è più. **Quella non è un'occorrenza in meno da
+contare: è la sola assenza di rosso che il booklet mette in scena**, e va resa come descritto in §4,
+DIFFICILE 1. Nel resto della tavola 7 il colore c'è ed è quello ordinario dell'ufficio italiano.
 
 **Colori vietati**: verde-bandiera e tricolore decorativo; azzurro «tecnologico» con circuiti stampati;
 qualunque gradiente blu-viola da presentazione aziendale. Sono i colori con cui questo argomento viene
@@ -1441,8 +1378,9 @@ di solito raccontato male.
 - **Nessuna caricatura di persone reali.** I due protagonisti dell'audizione francese sono disegnati con
   rispetto professionale. La regola vale anche per chi non è simpatico agli autori: la credibilità del
   booklet vale più di una vignetta cattiva.
-  🆕 **E per tre persone reali la regola diventa un divieto**: il direttore tecnico di AWS (tavola 5),
-  la giudice slovena e il giudice francese (tavola 7) **non si disegnano affatto**. Vedi §4, DIFFICILE 2.
+  🆕 **E per il direttore tecnico di AWS (tavola 5) la regola diventa un divieto**: **non si disegna
+  affatto**, come non si disegnano i convocati alle audizioni del 2019 nella tavola 3.
+  Vedi §4, DIFFICILE 2.
 - **Balloon**: due tipi soltanto. Tondi per i dialoghi. **Squadrati con angoli vivi** per le citazioni
   testuali da documenti e verbali. Il lettore deve poter distinguere a colpo d'occhio *cosa è una parola
   detta davvero da qualcuno* e *cosa è conversazione*.
@@ -1450,7 +1388,7 @@ di solito raccontato male.
   disegnate** vanno **senza coda**. La coda punta a una bocca; se non disegniamo la bocca, non inventiamo
   la coda. Il balloon si appoggia al documento o allo schermo da cui la frase proviene davvero.
 - **Didascalie**: riquadro bianco con filetto nero per la voce narrante; **riquadro nero con testo bianco**
-  per gli avvertimenti («ecco cosa NON abbiamo dimostrato» — tavole 1 e 7); **riquadro grigio chiaro**
+  per gli avvertimenti («ecco cosa NON abbiamo dimostrato» — tavola 1); **riquadro grigio chiaro**
   per i riquadri di onestà, dove uno dei due personaggi ammette un limite.
 - **Lettering**: un carattere a mano leggibile per i dialoghi; **un carattere monospaziato da terminale**
   per tutto ciò che è dato tecnico verificabile. La differenza di carattere fa metà del lavoro didattico.
@@ -1468,14 +1406,14 @@ di solito raccontato male.
   2010-2020. Faldoni, neon, piante di plastica, cartelli scritti in Comic Sans e plastificati.
   **La verosimiglianza degli interni è ciò che rende credibile il resto**: se l'ufficio è finto, il
   lettore sospetta che siano finti anche i dati.
-- **Per le metafore (magazzino, palazzo, guardiola, porta stretta, due sportelli)**: il disegno tecnico e
+- **Per le metafore (magazzino, palazzo, guardiola, porta stretta, due porte)**: il disegno tecnico e
   l'assonometria esplosa da manuale di istruzioni. Devono sembrare **schemi**, non illustrazioni: lo
   schema si legge, l'illustrazione si guarda e basta.
 - **Per l'aula del Senato francese**: fotografia istituzionale, frontale, illuminazione piatta.
   Volutamente noiosa. La noia dell'inquadratura è ciò che dà peso alla frase.
-- 🆕 **Per la tavola 7**: il riferimento **non** è il fumetto e **non** è la fotografia di cronaca.
-  È la **documentazione giudiziaria**: reperti fotografati su fondo neutro, con la scala di riferimento
-  accanto. Oggetti isolati, luce piatta, niente atmosfera. Meno la tavola sembra «raccontata», più pesa.
+- 🆕 **Per l'impronta fantasma della tavola 7**: il riferimento non è il fumetto, è la **fotografia di
+  un muro dopo che è stato staccato un quadro**. Rettangolo più chiaro, bordi netti, nessun effetto.
+  Va disegnata come un fatto materiale, non come un effetto speciale.
 - **Per la Busta**: la lezione da tenere presente è quella degli oggetti-personaggio muti — funzionano
   finché **non fanno le facce**. Due occhi, nessuna bocca, nessun braccio, nessuna gamba.
   Se la Busta comincia a gesticolare, il booklet diventa una pubblicità e perde autorevolezza.
@@ -1485,12 +1423,19 @@ di solito raccontato male.
 
 ## 4. LE QUATTRO VIGNETTE PIÙ DIFFICILI, E COME RISOLVERLE
 
-### 🆕 DIFFICILE 1 — Tavola 7: **come si disegna la sparizione di un timbro**
+### 🆕 DIFFICILE 1 — Tavola 7, vignetta 1: **come si disegna la sparizione di un timbro**
+*(in v2.1 questa soluzione **si sposta di pagina**: era nella tavola rimossa, adesso vive qui.
+La soluzione è la stessa — l'impronta fantasma — ma il **terzo rinforzo cambia**, perché la nuova
+tavola 7 non è acromatica e non deve diventarlo.)*
+
 **Perché è difficile**: un'assenza non si disegna. Se nell'angolo in alto a destra semplicemente non c'è
 niente, il lettore non nota nulla — al massimo pensa a una dimenticanza dello stampatore. Eppure quella
 sparizione è **il perno drammatico dell'intero booklet**: è il momento in cui il racconto smette di
 premettere «immaginiamo». Scriverlo in didascalia («qui il timbro sparisce») sarebbe la soluzione peggiore:
 spiegare un effetto grafico è ammettere che non funziona.
+**E c'è una difficoltà in più, nuova**: il timbro manca già nella tavola 6, dove semplicemente non c'era
+niente da simulare. Se la tavola 7 si limitasse a non averlo, il lettore avrebbe già visto quella stessa
+assenza una pagina prima e non registrerebbe nulla. **Per questo qui non basta l'assenza: serve la traccia.**
 
 **Soluzione proposta**: **l'impronta fantasma.**
 Il timbro non è assente: è **stato tolto**. Nell'angolo dove per tre tavole c'era il rullo rosso obliquo,
@@ -1498,34 +1443,46 @@ resta il **rettangolo di carta più chiara** che un oggetto lascia quando è sta
 stesso punto e viene spostato — bordi netti, tonalità appena più fredda del resto della pagina, e
 l'accenno di una piccola ombra portata che adesso non ha più niente da proiettare. Nessun testo.
 Tre rinforzi la rendono impossibile da non notare:
-1. **la tavola 2 lo ha già annunciato** («arriverà una pagina in cui questo timbro non ci sarà più»);
+1. **la tavola 2 lo ha già annunciato**, e nella v2.1 l'annuncio è esplicito sul *come*: non una pagina
+   in cui il timbro manca, ma una pagina in cui **si vede che è stato tolto**;
 2. **Marta lo dice ad alta voce** nella prima vignetta — quattro parole, «È sparito il timbro» — ed è
-   l'unico personaggio che può permetterselo, perché è lei che nota le cose;
-3. **tutto il resto della pagina perde il colore**: acromatica, senza rosso, senza beige.
-Il lettore non deve capire *come* funziona l'effetto. Deve solo voltare pagina e sentire che la
-temperatura è cambiata.
+   l'unico personaggio che può permetterselo, perché è lei che nota le cose. La battuta arriva **dopo**
+   la sua resa («è così e basta, per tutti»): è la crepa in cui entra il resto della tavola;
+3. 🆕 **il Cursore si ferma**, per quella vignetta sola: nell'angolo opposto, in basso a destra, il
+   trattino che ha lampeggiato per sei tavole è disegnato **senza alone**. Due angoli della stessa
+   vignetta dicono la stessa cosa, e nessuno dei due la spiega. Dalla vignetta 2, quando torna il
+   terminale, il Cursore riprende a lampeggiare: **il fermo-immagine dura una vignetta e non di più.**
 
-### 🆕 DIFFICILE 2 — Tavola 7, vignette 3 e 4: **rendere una persona reale senza ritrarla**
-**Perché è difficile**: sono due magistrati europei viventi, identificabili, che non hanno acconsentito a
+⚠️ **Il terzo rinforzo della v2.0 — «tutta la pagina perde il colore» — non si usa più.** La tavola 7 è
+la pagina in cui il lettore rialza la testa: toglierle il colore la renderebbe cupa esattamente dove deve
+alleggerirsi, e ucciderebbe il riquadro giallo «cinque secondi», che qui è l'argomento. **La tavola 7
+resta a colori.** Il lettore non deve capire *come* funziona l'effetto: deve solo voltare pagina e sentire
+che la temperatura è cambiata.
+
+📐 **Perché proprio qui, e non alla fine.** La sparizione è stata valutata anche per la tavola 12, la via
+d'uscita. È stata scartata: dall'ultimo timbro (tavola 5) alla tavola 12 passerebbero sette pagine, e un
+annuncio che si paga sette pagine dopo non si paga più. La tavola 7 è invece il punto in cui **il booklet
+smette davvero di simulare**: da lì in poi non c'è più un solo scenario ipotetico e ogni pagina è
+misurazione, documento o atto. Il timbro se ne va nel momento esatto in cui non serve più.
+
+### 🆕 DIFFICILE 2 — Tavola 5, vignetta 5 e tavola 3, vignette 5-7: **rendere una persona reale senza ritrarla**
+**Perché è difficile**: sono professionisti viventi e identificabili, che non hanno acconsentito a
 diventare personaggi di un fumetto. Disegnarne il volto sarebbe scorretto verso di loro e stupido verso
 di noi: basterebbe una somiglianza sbagliata per spostare la discussione dal fatto al disegno. Ma una
 vignetta senza nessuno rischia di essere fredda proprio dove il booklet ha bisogno di essere umano.
-E c'è un secondo rischio, opposto: la tentazione di «umanizzare» inventando — una figura di spalle che
-si prende la testa fra le mani, una sedia rovesciata, una lacrima. Sarebbe **fiction dentro l'unica
-tavola che ha promesso di non esserlo.**
+E c'è un secondo rischio, opposto: la tentazione di «umanizzare» inventando — una postura, un'espressione,
+un dettaglio d'atmosfera. Sarebbe **fiction dentro le vignette che hanno promesso di non esserlo**, e per
+di più dentro citazioni verbalizzate sotto giuramento.
 
 **Soluzione proposta**: **il ritratto per sottrazione — l'oggetto che la persona ha usato, e le sue parole
-scritte.**
-Per la giudice slovena: **uno schermo di telefono e due dita**. Nient'altro. Le notifiche impilate fanno
-il lavoro emotivo — sono cinque, sono identiche, sono tutte della stessa notte — e la citazione arriva in
-un balloon squadrato **senza coda**, appoggiato allo schermo: sono parole che lei ha **scritto**, non che
-noi le facciamo dire.
-Per il giudice francese: **un atto parlamentare sul tavolo e una toga piegata su una sedia**. La toga è la
-persona: dice il mestiere, la dignità e l'assenza tutte insieme, senza un centimetro di volto.
-La stessa tecnica risolve il direttore tecnico di AWS nella tavola 5 e le tre audizioni del 2019 nella
-tavola 3: **il tavolo ripreso da dietro, due mani, un microfono, una data.** È la regola delle mani portata
-alle sue conseguenze — e diventa anche un vantaggio di ritmo, perché rende quelle vignette immediatamente
-riconoscibili come «materiale d'archivio» ogni volta che tornano.
+messe a verbale.**
+**Il tavolo dell'audizione ripreso dall'alto e da dietro, due mani, un microfono a stelo, un bicchiere,
+una cartellina, una data.** Nient'altro. La citazione arriva in un **balloon squadrato senza coda**,
+appoggiato al tavolo o al documento: sono parole che stanno in un verbale, non parole che noi mettiamo in
+bocca a qualcuno. La coda punta a una bocca; se non disegniamo la bocca, non inventiamo la coda.
+È la regola delle mani portata alle sue conseguenze — e diventa anche un vantaggio di ritmo, perché rende
+quelle vignette immediatamente riconoscibili come «materiale d'archivio» ogni volta che tornano:
+tre volte nella tavola 3, una nella tavola 5, sempre con lo stesso identico taglio.
 
 ### DIFFICILE 3 — Tavola 5, vignetta 1: **il piano di controllo**
 **Perché è difficile**: è un concetto puramente astratto (l'infrastruttura che amministra i server) e non
@@ -1538,8 +1495,8 @@ Le porte numerate (i server) sono dentro, in Italia, materialmente e visibilment
 in una guardiola disegnata **oltre il bordo della vignetta**, collegata da un filo sottile che attraversa
 la cornice. Il fatto che la guardiola *sfori la cornice* è il punto: dice visivamente «questa cosa non è
 dentro il perimetro che stai guardando». E la stessa identica composizione ritorna nelle vignette 2-3
-della stessa tavola e in tutta la tavola 13, con la guardiola dentro invece che fuori: il lettore, alla
-tredicesima tavola, capisce la soluzione **prima di leggere la didascalia**. Questo è il vero obiettivo.
+della stessa tavola e in tutta la tavola 12, con la guardiola dentro invece che fuori: il lettore, alla
+dodicesima tavola, capisce la soluzione **prima di leggere la didascalia**. Questo è il vero obiettivo.
 
 ### DIFFICILE 4 — Tavola 6, vignetta 6: **la norma ineseguibile**
 **Perché è difficile**: è il momento concettualmente più alto del booklet — un obbligo di legge italiano
@@ -1554,7 +1511,7 @@ dice *atto giuridico formale*, non *bavaglio*. Il rosso della freccia spezzata �
 della vignetta. Nessun balloon, una sola riga di testo sotto. Se la vignetta funziona, il lettore la
 capisce in due secondi e la ricorda per due anni.
 
-### Menzione d'onore — Tavola 10, vignetta 2: **l'asimmetria senza divieti**
+### Menzione d'onore — Tavola 9, vignetta 2: **l'asimmetria senza divieti**
 Bisogna comunicare «non c'è nessun divieto, eppure di fatto non si passa», e la vignetta 1 ha appena
 smontato pubblicamente l'idea del divieto. Se qui si disegna un lucchetto, una catena o un cartello di
 stop, **si contraddice la vignetta precedente nella stessa pagina.**
@@ -1569,8 +1526,8 @@ disegnare un tariffario: sarebbe la versione sbagliata, e verrebbe smentita entr
 ## 5. TRE AVVERTENZE FINALI
 
 1. **I riquadri di onestà non sono materiale di riempimento.** Sono **cinque** (tavola 5 sulle tre
-   precisazioni giuridiche, tavola 9 sul righello, tavola 10 sulla sponsorizzazione, tavola 11 sui dodici
-   Stati, tavola 13 sul modello cinese) e vanno disegnati e impaginati con la stessa cura delle vignette
+   precisazioni giuridiche, tavola 8 sul righello, tavola 9 sulla sponsorizzazione, tavola 10 sui dodici
+   Stati, tavola 12 sul modello cinese) e vanno disegnati e impaginati con la stessa cura delle vignette
    principali. Sono ciò che distingue questo booklet da un pamphlet. Sandro assume in tutti la stessa
    posa — mezzo busto, mano alzata — perché diventi un segnale riconoscibile a colpo d'occhio.
 2. **La Busta non va salvata.** C'è la tentazione, in fondo, di farla tornare indietro o di farla
@@ -1579,28 +1536,72 @@ disegnare un tariffario: sarebbe la versione sbagliata, e verrebbe smentita entr
 3. **Se una tavola non si capisce senza le didascalie, la tavola è sbagliata.** Il lettore-tipo di questo
    booklet legge prima i disegni e poi, forse, il testo. Il test finale è: sfogliarlo a voce spenta,
    coprendo tutti i testi, e vedere se la storia arriva lo stesso.
-   🆕 **La tavola 7 è quella su cui il test va fatto per prima**, perché è quella che regge o cade tutta
-   sul disegno: se a voce spenta non si capisce che lì il registro è cambiato, l'impronta fantasma non
-   sta funzionando e va rifatta più marcata.
+   🆕 **La tavola 7 è quella su cui il test va fatto per prima**, perché è quella su cui poggia adesso
+   la sparizione del timbro: se a voce spenta non si capisce che lì il registro è cambiato, l'impronta
+   fantasma non sta funzionando e va rifatta più marcata.
 
 ## 6. 🆕 MATERIALE ESCLUSO — non disegnare
 
-Nella versione 1.0 la tavola 7 (oggi 8) conteneva tre vignette sulla gara per il cloud di Stato del 2022:
-podio, prelazione, martelletto. **Quelle tre vignette sono state rimosse e non vanno disegnate.**
+### 6.1 🆕 Il blocco degli account e delle identità digitali — **l'esclusione più importante della v2.1**
+
+Nella versione 2.0 esisteva una **tavola 7** intitolata «Non è un'ipotesi: è già successo». Raccontava il
+caso di due magistrati europei che si erano visti **bloccare o cancellare i propri account personali** —
+posta, archivio nelle nuvole, acquisti, pagamenti, alloggi — da un giorno all'altro e senza preavviso, in
+conseguenza di provvedimenti punitivi americani nei loro confronti. Conteneva sei vignette: lo stacco con
+la sparizione del timbro, il calendario, lo schermo di telefono con le notifiche impilate, l'atto
+parlamentare con la toga, la pagina di legge con la parola «servizi» cerchiata, i due sportelli.
+**Quella tavola è stata rimossa per intero. Nessuna di quelle sei vignette va disegnata, in nessuna
+tavola, in nessuna forma, nemmeno come vignetta di raccordo o come dettaglio sullo sfondo.**
+
+**Il motivo non è che i fatti fossero sbagliati.** Le prove reggevano: la testimonianza non è mai stata
+smentita da nessuna delle aziende coinvolte e il secondo caso è un atto parlamentare con risposta
+ufficiale di Governo. Il motivo è che **il vettore è un altro**, e questo booklet racconta un vettore solo:
+- il booklet parla di **giurisdizione sui dati** di una pubblica amministrazione — chi può **leggere** la
+  posta di un Comune, di una scuola, di un comando;
+- quella tavola parlava di **provvedimenti punitivi verso singole persone fisiche** — chi può **spegnere**
+  l'accesso di un individuo ai propri strumenti. **Sono due poteri diversi**, con basi giuridiche diverse
+  e destinatari diversi;
+- per un ente pubblico italiano il secondo rischio, allo stato, va dichiarato **teorico**: non risulta
+  documentato alcun effetto del genere. Il lettore avrebbe legittimamente chiesto *«e cosa c'entra con la
+  posta del mio Comune?»* — e avrebbe avuto ragione.
+
+**Sommare i due poteri per «rafforzare» il racconto lo indebolisce**: regala alla controparte l'unico
+argomento che smonta tutto il resto, cioè che stiamo mettendo insieme cose diverse perché fanno paura
+insieme. In dodici tavole non c'è lo spazio per distinguerli davvero, e distinguerli male è peggio che
+tacerne. **È materiale per un'altra inchiesta**, e resta tracciato nel dossier.
+
+⚠️ **Da qui discendono quattro divieti operativi**, perché sono le immagini che un disegnatore produrrebbe
+volentieri:
+1. **nessuno schermo di telefono o di computer con una notifica di blocco, di errore o di account
+   disattivato**, in nessuna tavola;
+2. **nessuna icona di servizio barrata, spenta, con il lucchetto o con la croce**;
+3. **nessun accenno, nemmeno in una didascalia, al fatto che «a qualcuno l'accesso è già stato tolto»**;
+4. **nessun ritorno della metafora dei due sportelli** (soldi bloccati / dati bloccati): apparteneva
+   soltanto a quella tavola.
+
+Se qualcuno propone di «rafforzare» il booklet reintroducendo questo blocco, la risposta è **no**, ed è
+una decisione editoriale già presa: non va riaperta in fase di disegno.
+
+### 6.2 La gara per il cloud di Stato del 2022
+
+Nella versione 1.0 la tavola 7 — che nella numerazione di oggi è la **tavola 7** «Si poteva fare» —
+conteneva tre vignette sulla gara per il cloud di Stato del 2022: podio, prelazione, martelletto.
+**Quelle tre vignette sono state rimosse e non vanno disegnate.**
 Il motivo non è che i fatti fossero sbagliati — sono documentati e restano nel dossier — ma che
 raccontano una vicenda di **irregolarità negli appalti**, non di sovranità: per collegarla alla tesi
 bisognerebbe dimostrare che l'offerta esclusa fosse *più sovrana*, e quel dato non esiste in fonte
-pubblica. In un booklet di tredici tavole apre un fronte che non si può chiudere. È materiale per
+pubblica. In un booklet di dodici tavole apre un fronte che non si può chiudere. È materiale per
 un'altra inchiesta.
+
+### 6.3 Gli altri casi che restano fuori
 
 Restano fuori dal booklet, per ragioni analoghe e più stringenti, anche:
 - il caso del Procuratore della Corte penale internazionale — **fonte fragile** (funzionari anonimi) e
-  **smentita aziendale**: non si disegna, non si nomina, non si allude; `[A24]` `[A26]`
+  **smentita aziendale**: non si disegna, non si nomina, non si allude; `[A26]`
 - l'interruzione dei servizi Microsoft in Russia del 2024 — ha base giuridica **europea**, non americana:
   usarla come prova del potere statunitense è smontabile in dieci secondi; `[A26]`
 - il caso Huawei — strumento giuridico diverso, non cumulabile nel racconto; `[A26]`
 - le vicende X/Starlink — sono il **fenomeno opposto**: uno Stato che interdice un'azienda. Citarle
   dimostrerebbe la tesi della controparte. `[A26]`
 
-Se qualcuno propone di «rafforzare» la tavola 7 con uno di questi quattro casi, la risposta è no.
-La tavola 7 è forte **perché** contiene solo le due storie che nessuno ha mai smentito.
+Il booklet è forte **perché** racconta una cosa sola, e la racconta con documenti che nessuno ha smentito.
