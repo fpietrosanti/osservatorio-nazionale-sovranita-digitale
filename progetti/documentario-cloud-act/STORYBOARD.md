@@ -630,12 +630,18 @@ Tutte in `schede/`, formato SVG autonomo, `viewBox="0 0 1600 900"`, leggibili in
 | `05-paradosso-segnalazione.svg` | 5 / **051** | Le due frecce che collidono |
 | `06-linea-bruxelles.svg` | 9 / **091** | 2021→2026: l'Italia ha chiesto, e ha perso |
 | `07-280-contro-12700.svg` | — **non assegnata nella v2.0** | Serviva l'Atto 10 della v1.0, che è stato riscritto. **Riusabile come alternativa grafica all'inquadratura 069** (Atto 7), dove i numeri della migrazione compaiono comunque. Non va prodotta di nuovo, non va buttata |
+| `08-istruzione-777.svg` | 10 / **098** | Il dato di punta: doppia dimensione, area = numero di enti e barra = quota extra-UE. Dice «il cluster più grande è anche quello messo peggio» |
+| `09-quattro-voci.svg` | 2 / **026–027** · 4 / **046** | Le quattro audizioni al Senato francese. Colonna «ha garantito?» **vuota** per le tre del 2019, «NO» solo nel 2025 |
+| `10-denaro-contro-dati.svg` | 5-BIS / **060** | Due colonne simmetriche: quattro voci piene per il denaro, quattro caselle vuote per i dati |
+| `11-limiti-audit-nitro.svg` | 4 / **047** | I quattro limiti che l'auditor dichiara da sé; la parola «imposte» al centro |
+| `12-fedramp-zero.svg` | 8 / **083–084** | 684 prodotti, zero cloud europei; i gruppi europei presenti e con quale nome americano |
 
 **Palette** — blu `#0066CC` istituzionale/italiano · rosso `#D9364F` esposizione/USA ·
 verde `#1D9E75` protetto · grigio `#6C757D` neutro · sfondo bianco.
 
-### Da produrre — specifiche
-*(queste schede **non esistono ancora**: qui c'è solo la specifica, come richiesto)*
+### Specifiche di progetto delle schede `08`–`12` ✅ **prodotte**
+*(le cinque schede esistono ora in `schede/`; le specifiche restano qui come vincolo di progetto e come
+riferimento per ogni futura revisione — se una scheda viene rifatta, va rifatta secondo questa specifica)*
 
 ---
 
@@ -747,6 +753,26 @@ verde `#1D9E75` protetto · grigio `#6C757D` neutro · sfondo bianco.
 
 ---
 
-**Riepilogo schede**: 7 prodotte (una delle quali, la `07`, non più assegnata) + **5 da produrre**
-(`08`, `09`, `10`, `11`, `12`), di cui **tre di priorità 1** — `08-istruzione-777`, `09-quattro-voci`,
-`10-denaro-contro-dati` — perché sostengono da sole i tre blocchi nuovi della v2.0.
+**Riepilogo schede**: **12 prodotte** — `01`–`07` (di cui la `07` non più assegnata) e le cinque nuove
+`08`–`12`, fra cui le **tre di priorità 1** `08-istruzione-777`, `09-quattro-voci` e `10-denaro-contro-dati`,
+che sostengono da sole i tre blocchi nuovi della v2.0. **Nessuna scheda resta da produrre.**
+
+### Indice completo delle schede
+
+| File | Atto / inquadrature | Stato |
+|---|---|---|
+| `01-scala-sovranita.svg` | 11 / 111 | ✅ prodotta |
+| `02-mito-geografia.svg` | 2 / 015–016 | ✅ prodotta |
+| `03-catena-ordine.svg` | 4 / 040 | ✅ prodotta |
+| `04-tre-leve.svg` | 7 / 074 · 11 / 109 | ✅ prodotta |
+| `05-paradosso-segnalazione.svg` | 5 / 051 | ✅ prodotta |
+| `06-linea-bruxelles.svg` | 9 / 091 | ✅ prodotta |
+| `07-280-contro-12700.svg` | — (riusabile su 069) | ✅ prodotta, non assegnata |
+| `08-istruzione-777.svg` | 10 / 098 | ✅ prodotta — priorità 1 |
+| `09-quattro-voci.svg` | 2 / 026–027 · 4 / 046 | ✅ prodotta — priorità 1 |
+| `10-denaro-contro-dati.svg` | 5-BIS / 060 | ✅ prodotta — priorità 1 |
+| `11-limiti-audit-nitro.svg` | 4 / 047 | ✅ prodotta |
+| `12-fedramp-zero.svg` | 8 / 083–084 | ✅ prodotta — **data di verifica da aggiornare il giorno delle riprese** |
+
+Tutte con `viewBox="0 0 1600 900"`, nessuna risorsa esterna, solo `font-family="sans-serif"`, leggibili
+in bianco e nero. XML validato.

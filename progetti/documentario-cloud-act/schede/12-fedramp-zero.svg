@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t12 d12">
+  <title id="t12">FedRAMP: 684 prodotti autorizzati, zero fornitori cloud europei</title>
+  <desc id="d12">Nell'elenco pubblico del FedRAMP Marketplace risultano 684 prodotti autorizzati e 511 certificati, e nessun fornitore cloud europeo. Cercati e non trovati OVHcloud, IONOS, Deutsche Telekom, Scaleway, Hetzner, Aruba, Orange, Bleu e S3NS. I gruppi europei presenti ci sono tramite una societa statunitense costituita apposta: SAP National Security Services, Siemens Government Technologies, Software AG Government Solutions, Darktrace Federal e Ericsson NetCloud Federal.</desc>
+
+  <rect x="0" y="0" width="1600" height="900" fill="#FFFFFF"/>
+
+  <text x="80" y="70" font-family="sans-serif" font-size="42" font-weight="700" fill="#111111">684 AUTORIZZATI. ZERO CLOUD EUROPEI.</text>
+  <text x="80" y="108" font-family="sans-serif" font-size="23" fill="#6C757D">FedRAMP Marketplace: chi non c'e, e con quale nome ci sono i gruppi europei che ci sono</text>
+  <line x1="80" y1="128" x2="1520" y2="128" stroke="#111111" stroke-width="3"/>
+
+  <!-- Barra dei numeri -->
+  <rect x="80" y="146" width="1440" height="48" fill="#FFFFFF" stroke="#6C757D" stroke-width="2"/>
+  <text x="100" y="177" font-family="sans-serif" font-size="20" font-weight="700" fill="#111111">684 prodotti autorizzati</text>
+  <text x="420" y="177" font-family="sans-serif" font-size="20" font-weight="700" fill="#111111">511 certificati</text>
+  <text x="700" y="177" font-family="sans-serif" font-size="20" font-weight="700" fill="#D9364F">0 fornitori cloud europei</text>
+  <text x="1500" y="176" font-family="sans-serif" font-size="17" fill="#6C757D" text-anchor="end">verifica del 29 luglio 2026</text>
+
+  <!-- META A - gli assenti -->
+  <rect x="80" y="214" width="680" height="44" fill="#D9364F"/>
+  <text x="420" y="244" font-family="sans-serif" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle">CERCATI E NON TROVATI</text>
+
+  <text x="100" y="292" font-family="sans-serif" font-size="19" fill="#111111">OVHcloud</text>
+  <text x="740" y="292" font-family="sans-serif" font-size="17" font-weight="700" fill="#D9364F" text-anchor="end">assente</text>
+  <text x="100" y="332" font-family="sans-serif" font-size="19" fill="#111111">IONOS</text>
+  <text x="740" y="332" font-family="sans-serif" font-size="17" font-weight="700" fill="#D9364F" text-anchor="end">assente</text>
+  <text x="100" y="372" font-family="sans-serif" font-size="19" fill="#111111">Deutsche Telekom</text>
+  <text x="740" y="372" font-family="sans-serif" font-size="17" font-weight="700" fill="#D9364F" text-anchor="end">assente</text>
+  <text x="100" y="412" font-family="sans-serif" font-size="19" fill="#111111">Scaleway</text>
+  <text x="740" y="412" font-family="sans-serif" font-size="17" font-weight="700" fill="#D9364F" text-anchor="end">assente</text>
+  <text x="100" y="452" font-family="sans-serif" font-size="19" fill="#111111">Hetzner</text>
+  <text x="740" y="452" font-family="sans-serif" font-size="17" font-weight="700" fill="#D9364F" text-anchor="end">assente</text>
+  <text x="100" y="492" font-family="sans-serif" font-size="19" fill="#111111">Aruba S.p.A.</text>
+  <text x="740" y="492" font-family="sans-serif" font-size="17" font-weight="700" fill="#D9364F" text-anchor="end">assente</text>
+  <text x="100" y="532" font-family="sans-serif" font-size="19" fill="#111111">Orange Business</text>
+  <text x="740" y="532" font-family="sans-serif" font-size="17" font-weight="700" fill="#D9364F" text-anchor="end">assente</text>
+  <text x="100" y="572" font-family="sans-serif" font-size="19" fill="#111111">Bleu</text>
+  <text x="740" y="572" font-family="sans-serif" font-size="17" font-weight="700" fill="#D9364F" text-anchor="end">assente</text>
+  <text x="100" y="612" font-family="sans-serif" font-size="19" fill="#111111">S3NS</text>
+  <text x="740" y="612" font-family="sans-serif" font-size="17" font-weight="700" fill="#D9364F" text-anchor="end">assente</text>
+
+  <!-- META B - i presenti, e con che nome -->
+  <rect x="800" y="214" width="720" height="44" fill="#6C757D"/>
+  <text x="1160" y="244" font-family="sans-serif" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle">PRESENTI, E CON CHE NOME</text>
+
+  <text x="820" y="296" font-family="sans-serif" font-size="22" font-weight="700" fill="#6C757D">SAP</text>
+  <text x="820" y="318" font-family="sans-serif" font-size="14" fill="#6C757D">Germania</text>
+  <text x="1000" y="296" font-family="sans-serif" font-size="20" font-weight="700" fill="#D9364F">National Security Services Inc.</text>
+
+  <text x="820" y="362" font-family="sans-serif" font-size="22" font-weight="700" fill="#6C757D">Siemens</text>
+  <text x="820" y="384" font-family="sans-serif" font-size="14" fill="#6C757D">Germania</text>
+  <text x="1000" y="362" font-family="sans-serif" font-size="20" font-weight="700" fill="#D9364F">Government Technologies</text>
+
+  <text x="820" y="428" font-family="sans-serif" font-size="22" font-weight="700" fill="#6C757D">Software AG</text>
+  <text x="820" y="450" font-family="sans-serif" font-size="14" fill="#6C757D">Germania</text>
+  <text x="1000" y="428" font-family="sans-serif" font-size="20" font-weight="700" fill="#D9364F">Government Solutions</text>
+
+  <text x="820" y="494" font-family="sans-serif" font-size="22" font-weight="700" fill="#6C757D">Darktrace</text>
+  <text x="820" y="516" font-family="sans-serif" font-size="14" fill="#6C757D">Regno Unito</text>
+  <text x="1000" y="494" font-family="sans-serif" font-size="20" font-weight="700" fill="#D9364F">Federal Inc.</text>
+
+  <text x="820" y="560" font-family="sans-serif" font-size="22" font-weight="700" fill="#6C757D">Ericsson</text>
+  <text x="820" y="582" font-family="sans-serif" font-size="14" fill="#6C757D">Svezia</text>
+  <text x="1000" y="560" font-family="sans-serif" font-size="20" font-weight="700" fill="#D9364F">NetCloud Federal</text>
+
+  <text x="820" y="614" font-family="sans-serif" font-size="16" fill="#6C757D">In grigio il gruppo europeo, in rosso la parte americana della ragione sociale.</text>
+
+  <!-- Chiusura -->
+  <rect x="80" y="638" width="1440" height="70" fill="#111111"/>
+  <text x="800" y="672" font-family="sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">Per vendere al governo americano, un europeo deve prima diventare americano.</text>
+  <text x="800" y="698" font-family="sans-serif" font-size="17" fill="#FFFFFF" text-anchor="middle">Ed e esattamente cio che l'Europa non chiede agli americani.</text>
+
+  <!-- Cautele obbligatorie -->
+  <rect x="80" y="724" width="1440" height="88" fill="#FFFFFF" stroke="#6C757D" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="100" y="750" font-family="sans-serif" font-size="16" fill="#6C757D">Nessuna legge americana vieta di comprare europeo: 41 U.S.C. 1323 vieta anzi espressamente l'esclusione fondata sulla sola proprieta straniera.</text>
+  <text x="100" y="772" font-family="sans-serif" font-size="16" fill="#6C757D">L'effetto e prodotto dall'autorizzazione FedRAMP, dalla sponsorship di agenzia e dalle regole sul controllo societario (FOCI), non da un divieto.</text>
+  <text x="100" y="796" font-family="sans-serif" font-size="16" fill="#6C757D">"Aruba" nell'elenco FedRAMP e Aruba Networks (HPE, statunitense), non Aruba S.p.A. La data della verifica va aggiornata il giorno delle riprese.</text>
+
+  <line x1="80" y1="836" x2="1520" y2="836" stroke="#6C757D" stroke-width="1"/>
+  <text x="80" y="858" font-family="sans-serif" font-size="15" fill="#6C757D">Fonte: elenco pubblico del FedRAMP Marketplace (marketplace.fedramp.gov, endpoint dati /marketplace/products/__data.json), 684 prodotti e 511 certificati, letto il 29 luglio 2026 -</text>
+  <text x="80" y="878" font-family="sans-serif" font-size="15" fill="#6C757D">41 U.S.C. 1323 - 32 CFR 117.11(d) sul controllo societario estero. Osservatorio Nazionale Sovranita Digitale, 2026.</text>
+</svg>
