@@ -1,8 +1,27 @@
 # STORYBOARD — «NON POSSO GARANTIRLO»
-## Documentario d'inchiesta — 20 minuti — storyboard sequenziale v1.0
+## Documentario d'inchiesta — 20 minuti — storyboard sequenziale v2.0
 
-Riferito a `SCRIPT-20-MINUTI.md` v1.0 (28 luglio 2026) e vincolato al registro delle 18 trappole di
-`STATO-DELLE-CONOSCENZE.md`. I riferimenti `[A#]` / `[B#]` rimandano a quel documento.
+Riferito a `SCRIPT-20-MINUTI.md` **v2.0 (29 luglio 2026), 13 atti**, e vincolato al registro delle
+**24 trappole** di `STATO-DELLE-CONOSCENZE.md`. I riferimenti `[A#]` / `[B#]` rimandano a quel documento.
+
+**116 inquadrature** (`001`–`116`) più una condizionale (`019-BIS`), su 20:00 esatti.
+
+**Che cosa è cambiato rispetto alla v1.0**
+- **Atto 2** raddoppia: al montaggio del 2025 si aggiungono le **audizioni del 2019** (Google, Microsoft,
+  Amazon) e l'**ammissione scritta di Google** del febbraio 2022. `[A19]` `[A27]` `[A28]`
+- **Atto 4** raddoppia: **autoconfutazione del CTO di AWS** sotto giuramento e **limiti dell'audit Nitro**.
+  `[A20]` `[A21]` `[A22]`
+- **Nuovo ATTO 5-BIS** (`053`–`061`): il film smette di essere simulazione. `[A23]` `[A24]` `[A25]` `[A26]`
+- **Atto 6 dimagrisce**: la vicenda della gara PSN è **tagliata dal film** (resta nel dossier `[A8]`).
+  Cadono cinque inquadrature della v1.0 (le vecchie 045–049) e con esse la verifica bloccante `C5`.
+- **Atto 8**: il conteggio FedRAMP è **chiuso** (`C9` → `[A16]`, zero fornitori cloud europei). Le
+  inquadrature non sono più bloccate: si girano nomi e cifre definitivi.
+- **Atto 10 riscritto**: non più «il vuoto è la notizia», ma **il dato peggiore del dataset**
+  (Istruzione, 8.403 istituti, 77,7%) più l'ammissione **FISA 702** nel documento Google per le scuole.
+  `[A17]` `[A29]`. Cade la verifica `C10`.
+- **Tutti i timecode sono cambiati.**
+
+---
 
 **Convenzioni di lettura**
 
@@ -10,9 +29,11 @@ Riferito a `SCRIPT-20-MINUTI.md` v1.0 (28 luglio 2026) e vincolato al registro d
 |---|---|
 | `GRAF` | grafica animata da produrre |
 | `SCH` | scheda SVG già prodotta in `schede/`, animata in post |
+| `SCH-NEW` | scheda ancora da produrre — specifica in coda al documento |
 | `REP` | materiale di repertorio da reperire |
 | `INT` | intervista |
 | `SCH-CAP` | schermo catturato dal vivo (terminale, sito, PDF) |
+| `TXT` | **testo a schermo e nient'altro** — nessuna immagine, nessuna ricostruzione |
 | `AST` | immagine astratta / di raccordo |
 
 **Codici di reperibilità del materiale**
@@ -22,9 +43,13 @@ Riferito a `SCRIPT-20-MINUTI.md` v1.0 (28 luglio 2026) e vincolato al registro d
   **Mai ricostruire in finzione realistica ciò che non è mai stato ripreso.**
 
 **Regole di sovrimpressione permanenti**
-- Nei segmenti di scenario resta a video, in basso a sinistra, la dicitura `SIMULAZIONE DOCUMENTATA`.
+- Nei segmenti di scenario resta a video, **in basso a sinistra**, la dicitura `SIMULAZIONE DOCUMENTATA`.
+  Compare in `010` (Atto 1) e **sparisce in `053`** (Atto 5-BIS): la sua sparizione è un evento narrativo,
+  non un dettaglio grafico. Vedi la scheda tecnica dell'Atto 5-BIS.
 - Ogni affermazione fattuale porta la propria fonte in basso a destra, corpo piccolo, sempre leggibile.
-- Nessun *reenactment* con attori che impersonino persone reali identificabili.
+- **Nessun *reenactment* con attori che impersonino persone reali identificabili.** Vale per il Presidente
+  dell'Atto 1 (persona ipotetica) e, con forza maggiore, per i due magistrati dell'Atto 5-BIS
+  (persone reali, viventi, identificate per nome).
 
 ---
 
@@ -42,7 +67,7 @@ Riferito a `SCRIPT-20-MINUTI.md` v1.0 (28 luglio 2026) e vincolato al registro d
 | **008** | 0:06 | `AST` | Nero pieno. Poi il titolo, in bianco, senza effetti: ***«NON POSSO GARANTIRLO»*** | Titolo | Silenzio, poi prima nota del tema. |
 | **009** | 0:04 | `GRAF` | Cartello di delimitazione, obbligatorio, su fondo scuro. | `Questi dati riguardano la posta istituzionale ordinaria. Le reti operative e classificate sono separate.` | **VFC** (piana, non enfatica): la stessa frase letta. |
 
-> ⚠️ **VINCOLO EDITORIALE `[A1]` — inquadratura 009 non è tagliabile in montaggio.** Senza di essa il film
+> ⚠️ **VINCOLO EDITORIALE `[A1]` — l'inquadratura 009 non è tagliabile in montaggio.** Senza di essa il film
 > afferma implicitamente ciò che il registro delle trappole vieta. Non si dice, in nessun punto, che
 > «Trump legge le indagini dei Carabinieri».
 
@@ -53,15 +78,15 @@ Riferito a `SCRIPT-20-MINUTI.md` v1.0 (28 luglio 2026) e vincolato al registro d
 
 ---
 
-## ATTO 1 — IL MOVENTE · 1:30–3:00 · `SIMULAZIONE DOCUMENTATA`
+## ATTO 1 — IL MOVENTE · 1:30–2:45 · `SIMULAZIONE DOCUMENTATA`
 
 | # | Durata | Tipo | Descrizione visiva | Sovrimpressione | Audio / voce |
 |---|---|---|---|---|---|
-| **010** | 0:08 | `REP` | Washington, esterno giorno. Piano largo su edifici federali. Nessun volto riconoscibile, nessun leader identificabile in quadro. | `SIMULAZIONE DOCUMENTATA` (compare qui e resta) | Tema sospeso. |
-| **011** | 0:20 | `GRAF` | Grafica in stile illustrazione tecnica, non fotorealistica: una scrivania vista dall'alto, una cartellina chiusa, una penna appoggiata di traverso. Palette ridotta a grigio e rosso. Nessun volto, nessuna mano. | — | **VFC**: «Immaginiamo. Un Presidente degli Stati Uniti vuole sapere qual è la posizione italiana su un dossier: una fornitura militare, un'acquisizione strategica, un negoziato commerciale.» |
-| **012** | 0:14 | `GRAF` | La telecamera virtuale scende sulla penna finché riempie il quadro. | — | **VFC**: «Non gli serve un hacker. Non gli serve entrare in nessun sistema. Gli serve una firma.» |
-| **013** | 0:16 | `AST` | Stacco. Fondo bianco. Compare, come testo scritto a mano su un foglio, l'obiezione. | `«Ma i server di quei servizi sono in Italia.»` | **VFC**: «E qui la maggior parte delle persone fa la stessa obiezione.» |
-| **014** | 0:08 | `AST` | La frase resta. Sotto, in rosso, due parole. | `È vero. Ed è irrilevante.` | **VFC**: «È vero. Ed è irrilevante.» Stacco netto sul nero. |
+| **010** | 0:10 | `REP` | Washington, esterno giorno. Piano largo su edifici federali. Nessun volto riconoscibile, nessun leader identificabile in quadro. | `SIMULAZIONE DOCUMENTATA` — **compare qui, in basso a sinistra, e resta fino a 052** | Tema sospeso. |
+| **011** | 0:22 | `GRAF` | Grafica in stile illustrazione tecnica, non fotorealistica: una scrivania vista dall'alto, una cartellina chiusa, una penna appoggiata di traverso. Palette ridotta a grigio e rosso. Nessun volto, nessuna mano. | — | **VFC**: «Immaginiamo. Un Presidente degli Stati Uniti vuole sapere qual è la posizione italiana su un dossier: una fornitura militare, un'acquisizione strategica, un negoziato commerciale.» |
+| **012** | 0:15 | `GRAF` | La telecamera virtuale scende sulla penna finché riempie il quadro. | — | **VFC**: «Non gli serve un hacker. Non gli serve entrare in nessun sistema. Gli serve una firma.» |
+| **013** | 0:18 | `AST` | Stacco. Fondo bianco. Compare, come testo scritto a mano su un foglio, l'obiezione. | `«Ma i server di quei servizi sono in Italia.»` | **VFC**: «E qui la maggior parte delle persone fa la stessa obiezione.» |
+| **014** | 0:10 | `AST` | La frase resta. Sotto, in rosso, due parole. | `È vero. Ed è irrilevante.` | **VFC**: «È vero. Ed è irrilevante.» Stacco netto sul nero. |
 
 **Materiali**
 - 010 ⚠️ **DA REPERIRE** — repertorio Washington, uso libero o licenza stock. Evitare inquadrature
@@ -72,157 +97,285 @@ Riferito a `SCRIPT-20-MINUTI.md` v1.0 (28 luglio 2026) e vincolato al registro d
 
 ---
 
-## ATTO 2 — IL MITO DELLA GEOGRAFIA · 3:00–5:00
-**Punto di non ritorno del film.**
+## ATTO 2 — IL MITO DELLA GEOGRAFIA, E LE QUATTRO VOCI · 2:45–5:00
+**Punto di non ritorno del film. È l'atto più denso: 17 inquadrature in 2:15.**
 
 | # | Durata | Tipo | Descrizione visiva | Sovrimpressione | Audio / voce |
 |---|---|---|---|---|---|
-| **015** | 0:22 | `SCH` | **SCHEDA `02-mito-geografia.svg`**, animata: entra prima la colonna «DOVE STA IL DATO», poi la si barra; entra la colonna «DI CHI È L'AZIENDA» e si illumina. | Titolo della scheda + riga fonte | **VFC**: «A determinare quale legge si applica non è dove si trova il dato. È di chi è l'azienda.» |
-| **016** | 0:18 | `SCH` | Prosecuzione della scheda: compare il perimetro *ratione personae* che ingloba il data center italiano. | `CLOUD Act, 2018 — possesso, custodia o controllo, ovunque si trovino` | **VFC**: «Il CLOUD Act americano del 2018 obbliga un'azienda statunitense a consegnare i dati che ha in possesso, custodia o controllo — ovunque si trovino. Anche in un data center italiano.» |
-| **017** | 0:04 | `AST` | Nero. Tre parole in bianco. | `Non lo diciamo noi.` | **VFC**: «Non lo diciamo noi.» |
-| **018** | 0:10 | `REP` | Aula della commissione d'inchiesta del Senato francese. Piano largo. | `Senato della Repubblica francese — 10 giugno 2025` / `Commissione d'inchiesta — audizione sotto giuramento` | Audio d'ambiente reale dell'aula. |
-| **019** | 0:24 | `REP` | Primo piano del senatore relatore Dany Wattebled mentre pone la domanda. Sottotitoli italiani, testo integrale a video. | Testo integrale della domanda `[B2]` | Audio originale francese, sottotitolato. |
-| **020** | 0:20 | `REP` | Primo piano di Anton Carniaux. La risposta esce **integrale**, inciso finale compreso. Le parole chiave si evidenziano progressivamente a video. | ***«No, non posso garantirlo, ma, ancora una volta, ciò non si è ancora mai verificato.»*** | Audio originale. **Nessun taglio interno.** |
-| **021** | 0:08 | `GRAF` | Cartello: il presidente della commissione aveva richiamato le pene penali per falsa testimonianza. | `Audizione sotto giuramento — richiamo alle pene per falsa testimonianza` | Musica sospesa. |
-| **022** | 0:24 | `INT` | **Intervista 5** — il senatore Dany Wattebled, in ambiente istituzionale francese. 20-25 secondi. Trasforma la citazione da documento a testimonianza viva. | Nome, ruolo, data | Voce originale sottotitolata. |
-| **023** | 0:16 | `GRAF` | Mappa d'Europa schematica: la freccia della giurisdizione parte dalla bandiera del **fornitore**, non da quella del **cliente**. Francia e Italia si illuminano insieme. | `La giurisdizione segue la nazionalità del fornitore, non quella del cliente` | **VFC**: «La domanda riguardava i cittadini francesi. Ma il meccanismo è identico per l'Italia… La differenza è che in Italia questa domanda non l'ha mai fatta nessuno.» |
+| **015** | 0:12 | `SCH` | **SCHEDA `02-mito-geografia.svg`**, animata: entra prima la colonna «DOVE STA IL DATO», poi la si barra; entra la colonna «DI CHI È L'AZIENDA» e si illumina. | Titolo della scheda + riga fonte | **VFC**: «A determinare quale legge si applica non è dove si trova il dato. È di chi è l'azienda.» |
+| **016** | 0:10 | `SCH` | Prosecuzione della scheda: compare il perimetro *ratione personae* che ingloba il data center italiano. | `CLOUD Act, 2018 — possesso, custodia o controllo, ovunque si trovino` | **VFC**: «Il CLOUD Act americano del 2018 obbliga un'azienda statunitense a consegnare i dati che ha in possesso, custodia o controllo — ovunque si trovino. Anche in un data center italiano.» |
+| **017** | 0:03 | `AST` | Nero. Tre parole in bianco. | `Non lo diciamo noi.` | **VFC**: «Non lo diciamo noi.» |
+| **018** | 0:05 | `REP` | Aula della commissione d'inchiesta del Senato francese. Piano largo. | `Senato della Repubblica francese — 10 giugno 2025` / `Commissione d'inchiesta — audizione sotto giuramento` | Audio d'ambiente reale dell'aula. |
+| **019** | 0:14 | `REP` | Primo piano del senatore relatore Dany Wattebled mentre pone la domanda. Sottotitoli italiani, testo integrale a video. | Testo integrale della domanda `[B2]` | Audio originale francese, sottotitolato. |
+| **020** | 0:14 | `REP` | Primo piano di Anton Carniaux. La risposta esce **integrale**, inciso finale compreso. Le parole chiave si evidenziano progressivamente a video. | ***«No, non posso garantirlo, ma, ancora una volta, ciò non si è ancora mai verificato.»*** | Audio originale. **Nessun taglio interno.** |
+| **021** | 0:04 | `GRAF` | Cartello: il presidente della commissione aveva richiamato le pene penali per falsa testimonianza. | `Audizione sotto giuramento — richiamo alle pene per falsa testimonianza` | Musica sospesa. |
+| **022** | 0:09 | `GRAF` | Mappa d'Europa schematica: la freccia della giurisdizione parte dalla bandiera del **fornitore**, non da quella del **cliente**. Francia e Italia si illuminano insieme. | `La giurisdizione segue la nazionalità del fornitore, non quella del cliente` | **VFC**: «La domanda riguardava i cittadini francesi. Ma il meccanismo è identico per l'Italia… La differenza è che in Italia questa domanda non l'ha mai fatta nessuno.» |
+| **023** | 0:04 | `AST` | Stacco secco. Una riga sola, poi il cartello dell'anno che entra da sotto. | `E non è la prima volta che gliel'hanno chiesto.` → `2019` | **VFC**: la frase. Una nota grave. |
+| **024** | 0:08 | `GRAF` | Stessa aula, **sei anni prima**. Cartello di contesto, poi i tre nomi che entrano in sequenza con le rispettive date, uno sotto l'altro, e restano tutti e tre in quadro. | `2019 — Commissione d'inchiesta sulla sovranità digitale` · `Google, 17 luglio` · `Microsoft, 18 luglio` · `Amazon, 3 settembre` `[A19]` | **VFC**: «Nel 2019 il Senato francese convocò tutti e tre, sotto giuramento, e fece a ciascuno la stessa domanda.» |
+| **025** | 0:08 | `TXT` | La domanda del presidente Montaugé ad Amazon, verbatim a schermo. Le due parole «o le sue controllate» si accendono in rosso. | *«potete assicurarci che Amazon, **o le sue controllate**, non permetta alle autorità americane di prendere conoscenza dei dati dei nostri concittadini?»* | **VFC**: «Ad Amazon la pose perfino più larga.» |
+| **026** | 0:11 | `SCH-NEW` | **SCHEDA `09-quattro-voci.svg`** — le tre risposte del 2019 entrano una sotto l'altra, ciascuna con data e nome, in colonna. Colonna neutra: nessuna è verde, nessuna è rossa. | `Google, 17/07/2019 — «quelle disposizioni non sono in vigore»` · `Microsoft, 18/07/2019 — nessuna garanzia` · `Amazon, 03/09/2019 — «noi applichiamo la legge»` | **VFC**: lettura delle tre risposte. |
+| **027** | 0:07 | `SCH-NEW` | La stessa scheda si chiude: sotto le tre risposte compare la riga del 2025, **l'unica in rosso**. | `Nessuno dei tre disse sì. Nessuno dei tre disse no.` → `Microsoft, 10/06/2025 — «No, non posso garantirlo»` | **VFC**: «Il "no" di Microsoft del 2025 è il primo in sei anni.» |
+| **028** | 0:07 | `TXT` | **Cartello di delimitazione obbligatorio.** Fondo differente per marcare il cambio di voce. Il testo del riquadro didascalico del rapporto del Senato, con una sola parola evidenziata. | `Il CLOUD Act riafferma il diritto di ottenere i dati anche all'estero e prevede «anche, **e indipendentemente**, la conclusione di accordi bilaterali» — Senato francese, rapporto n° 7 (2019-2020)` `[A27]` | **VFC** (tono piano): «Google usa una definizione di CLOUD Act che esclude proprio il meccanismo che conta.» |
+| **029** | 0:05 | `AST` | Stacco. Una riga sola. | `E non è un'ammissione strappata: è scritta.` | **VFC**: la frase. |
+| **030** | 0:07 | `SCH-CAP` | Cattura schermo dal vivo: il PDF **Google Cloud, *Government Requests for Cloud Customer Data*, febbraio 2022**. Si scorre fino a **pag. 5** e si evidenzia la riga in giallo. L'URL e il numero di pagina restano in quadro. | `Google Cloud — whitepaper, febbraio 2022, pag. 5` `[A28]` | **VFC**: «Lo stesso concetto Google lo mette per iscritto, in un documento destinato ai propri clienti.» |
+| **031** | 0:07 | `TXT` | La citazione, sola, pieno schermo; poi in coda, in corpo minore, la «soluzione» offerta. | «*I requisiti di localizzazione dei dati **non incidono** sul fatto che un fornitore cloud possa dover divulgare i dati in risposta a una richiesta governativa.*» → `cifrare i dati perché restino illeggibili «anche se Google fosse costretta a consegnarli»` → **`La difesa che propongono è tecnica. Non giuridica.`** | **VFC**: lettura integrale, poi la chiusa. |
+
+| **019-BIS** *(condizionale)* | 0:18 | `INT` | **Intervista 5 — il senatore Dany Wattebled**, in ambiente istituzionale francese. Trasforma la citazione da documento a testimonianza viva. | Nome, ruolo, data | Voce originale sottotitolata. |
+
+> 📐 **Come si inserisce la 019-BIS.** L'atto è già saturo a 2:15. Se l'intervista si ottiene, entra **dopo
+> la 021** e si finanzia così: `021` scende a 0:00 (il cartello sul giuramento lo dice il senatore stesso),
+> `022` a 0:05, `018` a 0:03, `015` a 0:10, `016` a 0:08. **Non si finanzia mai tagliando 020, 026, 027,
+> 028 o 031.**
 
 > ⚠️ **NON TAGLIARE** l'inciso finale dell'inquadratura 020. Mandarla in onda per intero è ciò che rende
 > la citazione inattaccabile (trappola 6).
+> ⚠️ **TRAPPOLA 20** — in nessuna inquadratura di questo atto compare, in voce o a video, l'affermazione
+> che **Google abbia mentito**. L'inquadratura 028 è la forma corretta e non è tagliabile: la smentita la
+> fa il Senato francese, non noi, e non accusa nessuno.
 
 **Materiali**
-- 018–020 ⚠️ **DA REPERIRE, priorità massima** — video ufficiale del Senato francese
-  (`videos.senat.fr/commission.COPU`). **Verifica obbligatoria prima del montaggio**: ricontrollare
-  l'audio contro il *compte rendu* scritto, che è un resoconto rivisto e non una trascrizione
-  stenografica `[B2]`. Chiarire con il Senato i termini di riuso.
-- 022 ⚠️ **DA REPERIRE** — richiesta d'intervista da inoltrare con largo anticipo.
-- 015–016, 023 ✅ produzione interna.
+- 018–020 ⚠️ **DA REPERIRE, priorità 1** — video ufficiale del Senato francese del 10 giugno 2025
+  (`videos.senat.fr/commission.COPU`). Chiarire con il Senato i termini di riuso. **Il ricontrollo audio
+  contro il resoconto scritto non è più bloccante**: si procede sul resoconto ufficiale, con rischio
+  residuo messo a verbale (è un resoconto rivisto, non stenografico) `[B2]`.
+- 024 ⚠️ **DA REPERIRE / parzialmente ⛔** — delle tre audizioni del 2019 **risulta esistere il video
+  ufficiale della sola seduta del 17 luglio 2019** (Google), citato in `[A27]` come materiale da
+  ascoltare. **Per il 18 luglio e il 3 settembre 2019 l'esistenza di riprese riutilizzabili non è
+  verificata.** Finché non lo è, l'intero blocco 2019 (024–027) **si tratta in tipografia**: aula vuota o
+  scheda, nomi e date a schermo, nessuna immagine attribuita a una seduta che non abbiamo. Se i video
+  emergono, 024 e 026 si rigirano con i volti reali.
+- 025, 028 ✅ **DISPONIBILE** — resoconti ufficiali e rapporto n° 7 (2019-2020) già letti integralmente.
+- 030–031 ✅ **DISPONIBILE** — il whitepaper Google è pubblico e in nostro possesso. La cattura va rifatta
+  dal vivo, con URL in quadro, perché la prova sia visibilmente riproducibile.
+- 015–016, 022 ✅ produzione interna. 026–027 → **scheda nuova `09`, da produrre**.
+- 019-BIS ⚠️ **DA REPERIRE** — richiesta d'intervista da inoltrare con largo anticipo.
 
 ---
 
-## ATTO 3 — LA FIRMA · 5:00–7:00 · `SIMULAZIONE DOCUMENTATA`
+## ATTO 3 — LA FIRMA · 5:00–6:50 · `SIMULAZIONE DOCUMENTATA`
 
 | # | Durata | Tipo | Descrizione visiva | Sovrimpressione | Audio / voce |
 |---|---|---|---|---|---|
-| **024** | 0:06 | `GRAF` | Un percorso che si biforca in due rami, uno illuminato e uno in ombra. | `Due strade` | **VFC**: «Ci sono due strade. Una ufficiale, una silenziosa.» |
-| **025** | 0:20 | `GRAF` | Ramo illuminato. Catena di icone: Dipartimento di Giustizia → giudice → mandato. Sul mandato compare il riferimento normativo. | `LA PRIMA — penale · mandato §2703 · richiede un'indagine · è la strada del CLOUD Act` | **VFC**: testo dello script. |
-| **026** | 0:24 | `GRAF` | Ramo in ombra. Nessuna icona di tribunale: un'antenna, un cavo, un'autorizzazione annuale. Il bersaglio è una sagoma neutra con etichetta «funzionario pubblico straniero». | `LA SECONDA — intelligence · FISA Sezione 702 · bersagli non americani fuori dagli USA` | **VFC**: «Per un funzionario pubblico straniero, lo strumento naturale non è il CLOUD Act: è la Sezione 702 del FISA… Un generale italiano è, tecnicamente, il bersaglio-tipo.» |
-| **027** | 0:22 | `INT` | **Intervista 1** — giurista di extraterritorialità. Deve dire in venti secondi la differenza fra CLOUD Act e FISA 702. | Nome, ruolo | Presa diretta. |
-| **028** | 0:22 | `GRAF` | Linea del tempo breve: Microsoft rifiuta → dati custoditi in **Irlanda** → risalita fino alla **Corte Suprema** → il Congresso scrive il CLOUD Act → la strada si chiude con una sbarra. | `2013–2018 · Microsoft Ireland · il Congresso risponde scrivendo il CLOUD Act` | **VFC**: «E se il fornitore dicesse di no? Ci ha provato…» |
-| **029** | 0:20 | `SCH-CAP` | **Obiezione colta.** Cattura schermo del PDF dei *DPF Principles* del Dipartimento del Commercio USA. Si scorre fino al Principio I.5(a) e si evidenzia la frase in giallo. | `DPF Principles, Principio I.5(a) — testo primario` | **VFC**: «Ma c'è il Data Privacy Framework… i principi dicono, testualmente, che l'adesione può essere limitata…» |
-| **030** | 0:12 | `GRAF` | La frase evidenziata e il testo del §2703 si sovrappongono: l'insieme delle due si colora di rosso. | `Un mandato §2703 è letteralmente una di quelle cose` | **VFC**: la battuta corrispondente. |
-| **031** | 0:14 | `SCH-CAP` | Cattura schermo: ricerca full-text su COM(2024) 451 final. Nella barra di ricerca si digita `CLOUD Act`. Risultato: **0**. Lo zero resta in quadro. | `COM(2024) 451 final — occorrenze di «CLOUD Act»: 0` | **VFC**: «E il documento con cui la Commissione europea ha certificato quell'accordo contiene zero occorrenze delle parole CLOUD Act.» |
+| **032** | 0:05 | `GRAF` | Un percorso che si biforca in due rami, uno illuminato e uno in ombra. | `Due strade` | **VFC**: «Ci sono due strade. Una ufficiale, una silenziosa.» |
+| **033** | 0:16 | `GRAF` | Ramo illuminato. Catena di icone: Dipartimento di Giustizia → giudice → mandato. Sul mandato compare il riferimento normativo. | `LA PRIMA — penale · mandato §2703 · richiede un'indagine · è la strada del CLOUD Act` | **VFC**: testo dello script. |
+| **034** | 0:18 | `GRAF` | Ramo in ombra. Nessuna icona di tribunale: un'antenna, un cavo, un'autorizzazione annuale. Il bersaglio è una sagoma neutra con etichetta «funzionario pubblico straniero». | `LA SECONDA — intelligence · FISA Sezione 702 · bersagli non americani fuori dagli USA` | **VFC**: «Per un funzionario pubblico straniero, lo strumento naturale non è il CLOUD Act: è la Sezione 702 del FISA… Un generale italiano è, tecnicamente, il bersaglio-tipo.» |
+| **035** | 0:16 | `INT` | **Intervista 1** — giurista di extraterritorialità. Deve dire in quindici secondi la differenza fra CLOUD Act e FISA 702. | Nome, ruolo | Presa diretta. |
+| **036** | 0:18 | `GRAF` | Linea del tempo breve: Microsoft rifiuta → dati custoditi in **Irlanda** → risalita fino alla **Corte Suprema** → il Congresso scrive il CLOUD Act → la strada si chiude con una sbarra. | `2013–2018 · Microsoft Ireland · il Congresso risponde scrivendo il CLOUD Act` | **VFC**: «E se il fornitore dicesse di no? Ci ha provato…» |
+| **037** | 0:16 | `SCH-CAP` | **Obiezione colta.** Cattura schermo del PDF dei *DPF Principles* del Dipartimento del Commercio USA. Si scorre fino al Principio I.5(a) e si evidenzia la frase in giallo. | `DPF Principles, Principio I.5(a) — testo primario` `[A12]` | **VFC**: «Ma c'è il Data Privacy Framework… i principi dicono, testualmente, che l'adesione può essere limitata…» |
+| **038** | 0:10 | `GRAF` | La frase evidenziata e il testo del §2703 si sovrappongono: l'insieme delle due si colora di rosso. | `Un mandato §2703 è letteralmente una di quelle cose` | **VFC**: la battuta corrispondente. |
+| **039** | 0:11 | `SCH-CAP` | Cattura schermo: ricerca full-text su COM(2024) 451 final. Nella barra di ricerca si digita `CLOUD Act`. Risultato: **0**. Lo zero resta in quadro. | `COM(2024) 451 final — occorrenze di «CLOUD Act»: 0` | **VFC**: «E il documento con cui la Commissione europea ha certificato quell'accordo contiene zero occorrenze delle parole CLOUD Act.» |
+
+> ⚠️ **TRAPPOLA 2** — 033 e 034 vanno **entrambe** in onda. Nominare solo il CLOUD Act espone a smentita
+> da parte di qualunque giurista.
 
 **Materiali**
-- 025–026, 028 ⛔ **NON ESISTONO IMMAGINI** — non esistono riprese di un mandato §2703 né di una
+- 033–034, 036 ⛔ **NON ESISTONO IMMAGINI** — non esistono riprese di un mandato §2703 né di una
   direttiva 702: sono atti coperti. **Va risolto interamente in grafica schematica.**
   Non usare immagini di aule di tribunale generiche: sono fuorvianti, soprattutto per la 702, che
   non passa da un giudice caso per caso.
-- 029, 031 ✅ **DISPONIBILE** — i PDF sono pubblici e già in nostro possesso; la ricerca full-text va
+- 037, 039 ✅ **DISPONIBILE** — i PDF sono pubblici e già in nostro possesso; la ricerca full-text va
   rifatta in ripresa, dal vivo, perché la prova sia visibilmente riproducibile.
-- 027 ⚠️ **DA REPERIRE** — intervista da fissare.
+- 035 ⚠️ **DA REPERIRE** — intervista da fissare.
 
 ---
 
-## ATTO 4 — L'ESECUZIONE, E L'ILLUSIONE DEL RIVENDITORE · 7:00–8:30 · `SIMULAZIONE DOCUMENTATA`
+## ATTO 4 — L'ESECUZIONE, IL RIVENDITORE E LA SOVRANITÀ DI FACCIATA · 6:50–8:20 · `SIMULAZIONE DOCUMENTATA`
 
 | # | Durata | Tipo | Descrizione visiva | Sovrimpressione | Audio / voce |
 |---|---|---|---|---|---|
-| **032** | 0:26 | `SCH` | **SCHEDA `03-catena-ordine.svg`**, animata per stadi: l'ordine entra alla sede americana; scende al **piano di controllo**; il piano di controllo raggiunge il data center in Italia; il dato risale. L'Italia resta grigia per tutta l'animazione. | Titolo scheda + fonte | **VFC**: «L'ordine non arriva in Italia. Arriva alla sede americana. Da lì il personale del fornitore… opera sul piano di controllo: l'infrastruttura che governa i server, ovunque essi siano. Anche a Roma.» |
-| **033** | 0:22 | `INT` | **Intervista 2** — un tecnico che spieghi il piano di controllo in trenta secondi. Ambiente reale (sala macchine, rack), non ricostruito. | Nome, ruolo | Presa diretta. |
-| **034** | 0:10 | `REP` | Interno di un data center italiano. Corridoio fra i rack, luci fredde. | `Un data center in Italia` | Ronzio reale delle ventole, senza musica. |
-| **035** | 0:18 | `GRAF` | **L'ultima scappatoia.** Grafica a due colonne: a sinistra un'azienda italiana con data center e tecnologia **propri** (verde, giurisdizione italiana); a destra un rivenditore/integratore che poggia su tecnologia americana (la fattura è italiana, il controllo resta rosso). | `Cambia chi ti fattura, non chi ha il controllo` | **VFC**: il testo dello script, con l'obiezione «Ma io ho comprato da un'azienda italiana». |
-| **036** | 0:06 | `GRAF` | Cartello di onestà: esistono operatori italiani con infrastruttura propria. | `Non tutti i partner italiani sono rivenditori. Alcuni hanno infrastruttura propria.` | **VFC**: la precisazione. |
+| **040** | 0:18 | `SCH` | **SCHEDA `03-catena-ordine.svg`**, animata per stadi: l'ordine entra alla sede americana; scende al **piano di controllo**; il piano di controllo raggiunge il data center in Italia; il dato risale. L'Italia resta grigia per tutta l'animazione. | Titolo scheda + fonte | **VFC**: «L'ordine non arriva in Italia. Arriva alla sede americana. Da lì il personale del fornitore… opera sul piano di controllo: l'infrastruttura che governa i server, ovunque essi siano. Anche a Roma.» |
+| **041** | 0:12 | `INT` | **Intervista 2** — un tecnico che spieghi il piano di controllo in dieci secondi netti. Ambiente reale (sala macchine, rack), non ricostruito. | Nome, ruolo | Presa diretta. |
+| **042** | 0:06 | `REP` | Interno di un data center italiano. Corridoio fra i rack, luci fredde. | `Un data center in Italia` | Ronzio reale delle ventole, senza musica. |
+| **043** | 0:12 | `GRAF` | **L'ultima scappatoia.** Due colonne: a sinistra un'azienda italiana con data center e tecnologia **propri** (verde, giurisdizione italiana); a destra un rivenditore/integratore che poggia su tecnologia americana (la fattura è italiana, il controllo resta rosso). | `Cambia chi ti fattura, non chi ha il controllo` `[dossier 07]` | **VFC**: il testo dello script, con l'obiezione «Ma io ho comprato da un'azienda italiana». |
+| **044** | 0:05 | `GRAF` | Cartello di onestà: esistono operatori italiani con infrastruttura propria. | `Non tutti i partner italiani sono rivenditori. Alcuni hanno infrastruttura propria.` | **VFC**: la precisazione. |
+| **045** | 0:08 | `GRAF` | **La sovranità venduta come prodotto.** Una confezione: entità europea, personale europeo, isolamento tecnico. La confezione si apre e dentro non c'è niente di nuovo. La parola `sovereign` resta a video, in inglese, fra virgolette. | `Le offerte «sovrane» europee dei grandi fornitori — funziona?` | **VFC**: «Negli ultimi anni i grandi fornitori hanno creato offerte dedicate all'Europa… Funziona?» |
+| **046** | 0:12 | `TXT` | **Il verbatim, a schermo pieno.** Le parole «non americana» e «controllata o dipendenti sul territorio statunitense» si accendono. Sotto, attribuzione completa. | «*Una società **non americana** sarà anch'essa soggetta al CLOUD Act se ha una **controllata o dipendenti sul territorio statunitense**.*» — Stéphan Hadinger, direttore tecnico di AWS France, Senato francese, 3 settembre 2019 `[A20]` | **VFC**: «La risposta più netta l'ha data, sotto giuramento, il direttore tecnico di Amazon Web Services in Francia. Nel 2019.» → poi: «È il principio che rende non immune la loro stessa offerta europea di oggi. **L'ha enunciato Amazon.**» |
+| **047** | 0:12 | `SCH-NEW` | **SCHEDA `11-limiti-audit-nitro.svg`** — i quattro limiti dichiarati dall'auditor entrano uno per volta come tacche che si spengono attorno a un perimetro: *pagato da AWS* · *revisione del progetto, non dei sistemi* · *piano di controllo, hypervisor e firmware fuori perimetro* · *nessuna garanzia su modifiche «scelte o imposte»*. L'ultima riga resta sola e la parola **«imposte»** si ingrandisce. | `NCC Group — audit del sistema Nitro, quattro limiti dichiarati dall'auditor stesso` `[A21]` | **VFC**: il testo dello script. Poi, staccata: «*Imposte.* La parola è dell'auditor.» |
+| **048** | 0:05 | `GRAF` | **Cartello di delimitazione obbligatorio**, fondo differente. Tre righe. | `Il DOJ qualifica la questione come accertamento caso per caso: nessuna giurisprudenza nota.` · `La cifratura con chiavi esterne è una difesa tecnicamente valida per il dato a riposo.` · `AWS non ha mai preteso di essere immune: l'equivoco sta nella parola «sovereign».` `[A22]` | **VFC** (tono piano): le tre precisazioni. |
 
-> ⚠️ **Trappola 3** — l'inquadratura 036 è obbligatoria. Dire «sono tutti meri rivenditori» è falso e
+> ⚠️ **TRAPPOLA 3** — l'inquadratura 044 è obbligatoria. Dire «sono tutti meri rivenditori» è falso e
 > smontabile in cinque minuti.
+> ⚠️ **TRAPPOLE 18 e 19** — l'inquadratura **048 non è tagliabile**. Senza di essa il montaggio afferma
+> «è una controllata, quindi è soggetta al CLOUD Act», che il registro vieta, e nega una difesa tecnica
+> che funziona davvero. È la stessa logica dell'inquadratura 009: il cartello è ciò che tiene in piedi
+> il resto.
+> ⚠️ Nell'inquadratura 045 **non compare alcun marchio commerciale di un'offerta «sovrana» specifica**:
+> il ragionamento è sul meccanismo, non su un prodotto.
 
 **Materiali**
-- 034 ⚠️ **DA REPERIRE** — accesso a un data center in Italia. Ottenerlo da un operatore *non* coinvolto
+- 042 ⚠️ **DA REPERIRE** — accesso a un data center in Italia. Ottenerlo da un operatore *non* coinvolto
   nella polemica, per non attribuire implicitamente le affermazioni a chi ci ospita. In alternativa,
   repertorio con licenza.
-- 032, 035–036 ✅ produzione interna.
+- 046 ⚠️ **DA REPERIRE / probabile ⛔** — vale la stessa avvertenza dell'Atto 2: **le riprese
+  dell'audizione AWS del 3 settembre 2019 non risultano verificate.** Il resoconto è letto e citabile;
+  finché il video non c'è, **l'inquadratura è tipografica** (`TXT`), non un primo piano.
+- 047 ✅ **DISPONIBILE** — rapporto NCC Group letto per intero → **scheda nuova `11`, da produrre**.
+- 040, 043–045, 048 ✅ produzione interna.
 - ⛔ Il **piano di controllo** non è fotografabile: è software. Nessuna ripresa può mostrarlo.
-  Va risolto in grafica (scheda 03) più la spiegazione del tecnico in 033.
+  Va risolto in grafica (scheda 03) più la spiegazione del tecnico in 041.
 
 ---
 
-## ATTO 5 — IL SILENZIO · 8:30–9:30
+## ATTO 5 — IL SILENZIO · 8:20–9:15
 
 | # | Durata | Tipo | Descrizione visiva | Sovrimpressione | Audio / voce |
 |---|---|---|---|---|---|
-| **037** | 0:18 | `GRAF` | Un documento che si chiude e viene sigillato. Sopra, una fascia che copre la parola «comunicazione». Bianco e nero, nessun colore salvo il rosso del sigillo. | `gag order — divieto giuridico di informare il cliente` | **VFC**: «Insieme all'ordine può arrivare un *gag order*: il divieto giuridico, per il fornitore, di dire al cliente che è successo.» |
-| **038** | 0:12 | `GRAF` | Tre sagome che si spengono una dopo l'altra: il comandante, il ministro, il Parlamento. Nessun volto reale. | `Non lo saprebbe il comandante · Non lo saprebbe il ministro · Non lo saprebbe il Parlamento` | **VFC**: la terna. Una nota grave per ogni sagoma che si spegne. |
-| **039** | 0:30 | `SCH` | **SCHEDA `05-paradosso-segnalazione.svg`**, animata: la freccia blu della norma italiana parte e avanza; la freccia rossa del *gag order* parte in senso opposto; le due collidono al centro e si bloccano. | Titolo scheda + fonte `[A7]` | **VFC**: «Il regolamento italiano una regola ce l'ha… Ma un *gag order* americano vieta esattamente quella segnalazione.» |
-| **040** | 0:10 | `AST` | Nero. Una sola frase, centrata, che resta. | `La norma italiana chiede una comunicazione che la legge americana proibisce.` | **VFC**: la frase, poi silenzio pieno di due secondi. |
+| **049** | 0:14 | `GRAF` | Un documento che si chiude e viene sigillato. Sopra, una fascia che copre la parola «comunicazione». Bianco e nero, nessun colore salvo il rosso del sigillo. | `gag order — divieto giuridico di informare il cliente` | **VFC**: «Insieme all'ordine può arrivare un *gag order*: il divieto giuridico, per il fornitore, di dire al cliente che è successo.» |
+| **050** | 0:10 | `GRAF` | Tre sagome che si spengono una dopo l'altra: il comandante, il ministro, il Parlamento. Nessun volto reale. | `Non lo saprebbe il comandante · Non lo saprebbe il ministro · Non lo saprebbe il Parlamento` | **VFC**: la terna. Una nota grave per ogni sagoma che si spegne. |
+| **051** | 0:22 | `SCH` | **SCHEDA `05-paradosso-segnalazione.svg`**, animata: la freccia blu della norma italiana parte e avanza; la freccia rossa del *gag order* parte in senso opposto; le due collidono al centro e si bloccano. | Titolo scheda + fonte `[A7]` | **VFC**: «Il regolamento italiano una regola ce l'ha… Ma un *gag order* americano vieta esattamente quella segnalazione.» |
+| **052** | 0:09 | `AST` | Nero. Una sola frase, centrata, che resta. **Ultima inquadratura con la dicitura `SIMULAZIONE DOCUMENTATA` a video.** | `La norma italiana chiede una comunicazione che la legge americana proibisce.` | **VFC**: la frase, poi silenzio pieno di due secondi. |
 
 **Materiali**
 - ⛔ **NON ESISTONO RIPRESE DI UN GAG ORDER.** È il caso limite del film: l'oggetto è per definizione
   invisibile e la sua esistenza non è comunicabile. Qualunque immagine «di repertorio» sarebbe falsa.
-  **Va risolto interamente in grafica astratta (037–040) più la scheda 05.** Non usare immagini di
+  **Va risolto interamente in grafica astratta (049–052) più la scheda 05.** Non usare immagini di
   buste, timbri «CLASSIFIED» americani o simili: sono iconografia da fiction e indeboliscono il film.
 - La scheda 05 è il documento visivo portante dell'atto: qui la grafica non illustra, **dimostra**.
 
 ---
 
-## ATTO 6 — LA SVOLTA: ERA UNA SCELTA · 9:30–11:00
+## ATTO 5-BIS — NON È UN'IPOTESI: È GIÀ SUCCESSO · 9:15–10:30
+**Qui il film smette di essere una simulazione.** `[A23]` `[A24]` `[A25]`
+
+### La soluzione visiva: come si rende la sparizione della dicitura
+
+La dicitura `SIMULAZIONE DOCUMENTATA` è stata in basso a sinistra, immobile, per **otto minuti e
+quarantacinque secondi** (da `010` a `052`). Lo spettatore ha smesso di vederla. Farla sparire con un
+dissolvenza non produrrebbe alcun effetto.
+
+**Si fa così, ed è l'unica inquadratura del film in cui la grafica di servizio diventa soggetto:**
+
+1. Sul nero di `052` la dicitura è **l'unico elemento rimasto in quadro**. Restano tre secondi in cui non
+   c'è nient'altro: il testo della frase esce, la dicitura no. Lo spettatore è costretto a guardarla.
+2. La dicitura **si ingrandisce fino al centro del quadro**, in un solo movimento, e per un istante
+   diventa un titolo di testa.
+3. **Si cancella da destra a sinistra**, carattere per carattere, con la stessa cadenza e lo stesso
+   carattere da terminale dell'inquadratura `003` — la stessa mano che ha digitato la prima prova del
+   film adesso cancella l'avvertenza. È un *backspace*, non una dissolvenza.
+4. Sul carattere finale il quadro **va a bianco pieno** — non a nero. Il film ha usato il bianco solo due
+   volte (013 e, più avanti, 104): qui il bianco significa che è caduto il velo.
+5. Da quel momento e fino alla fine del film **la fascia in basso a sinistra resta vuota**. Non viene
+   sostituita da nessun'altra etichetta. L'assenza è la dichiarazione.
+
+**Il rumore**: sotto tutta l'operazione corre il ronzio a bassa frequenza dell'inquadratura `001`, che si
+interrompe di netto sul bianco. Da lì in poi, per dieci secondi, **nessuna musica**.
+
+### Come si trattano i due casi reali — decisione presa, non opzione
+
+**Beti Hohler e Nicolas Guillou sono due magistrati in carica, viventi, identificati per nome.**
+Non sono personaggi. La regola è secca:
+
+- ⛔ **Nessuna ricostruzione. Nessun attore. Nessuna sagoma che li rappresenti.** Nessuna mano che digita
+  una password, nessuno schermo di telefono con una notifica di blocco, nessun *device* in scena. Sono
+  tutte immagini che il montaggio produrrebbe volentieri e che qui **sono vietate**: trasformerebbero due
+  fatti documentati in una fiction, e regalerebbero alla controparte il modo di liquidarli.
+- ✅ **Si usa solo testo a schermo** (`TXT`) — dichiarato, con fonte e data in quadro. Il verbatim di
+  Hohler è **una citazione scritta**: la sua forma naturale è la pagina, non il volto.
+- ⚠️ **Ritratti fotografici**: solo se se ne ottiene licenza esplicita e solo come fotografia ferma
+  dichiarata tale, con credito. **In assenza di licenza, non si sostituisce con niente**: si resta sul
+  testo. Un ritratto non è necessario e la sua mancanza non indebolisce l'inquadratura.
+- Per **Guillou** l'immagine forte non è la persona: è **l'atto parlamentare**. Interrogazione 11576
+  Lachaud del 9 dicembre 2025 e risposta ufficiale del Governo francese del 10 febbraio 2026, catturate
+  dal vivo dal sito dell'Assemblée nationale. È la migliore fonte documentale dell'intero dossier: si
+  mostra il documento, non l'uomo.
 
 | # | Durata | Tipo | Descrizione visiva | Sovrimpressione | Audio / voce |
 |---|---|---|---|---|---|
-| **041** | 0:06 | `AST` | Nero. | `A questo punto uno pensa: sarà così per tutti.` | **VFC**: «…Non è così.» |
-| **042** | 0:18 | `SCH-CAP` | Ritorno esatto alla grafica di terminale dell'inquadratura 003. Si digita: `difesa.it` → `mx.difesa.it`. Poi `gdf.gov.it` → `mercurio.gdf.it`. Le risposte compaiono in **verde**, non in rosso. | `infrastruttura propria` accanto a ciascuna riga | Stessa battitura dell'inizio. Il tema cambia di segno. |
-| **043** | 0:14 | `GRAF` | Le due righe verdi restano; sopra, le quattro righe rosse dell'Atto 0 rientrano in quadro. Il contrasto è l'intera argomentazione. | `Non è un destino tecnologico: è una decisione.` | **VFC**: «La Difesa gestisce la propria posta. La Guardia di Finanza gestisce la propria posta. Si poteva fare. Qualcuno l'ha fatto.» |
-| **044** | 0:22 | `INT` | **Intervista 4** — un dirigente PA che ha scelto la via sovrana. Perché l'ha fatto, quanto è costato. | Nome, ente, ruolo | Presa diretta. |
-| **045** | 0:26 | `GRAF` | Linea del tempo animata: **22 giugno 2022** aggiudicazione a **Aruba e Fastweb** → **7 luglio 2022**, quindici giorni dopo, esercizio del **diritto di prelazione** da parte del RTI promotore (Sogei, Leonardo, CDP Equity, TIM). Il blocco cambia colore. | Date e nomi. Fonte: `Corte dei conti, Delib. 30/2024/G, 7 febbraio 2024, p. 16` | **VFC**: il testo dello script. |
-| **046** | 0:14 | `SCH-CAP` | Cattura della pagina 16 della delibera della Corte dei conti, con il passaggio evidenziato. | Citazione testuale | **VFC**: lettura del passaggio chiave. |
-| **047** | 0:16 | `GRAF` | Il **Consiglio di Stato, Sez. V, 24 ottobre 2023, n. 9210**: un timbro che accerta l'illegittimità dell'esercizio della prelazione. Ma la gestione **prosegue**: per le opere PNRR la legge esclude il subentro. | `Consiglio di Stato Sez. V n. 9210/2023 · art. 125 c.p.a. — nessun subentro per le opere PNRR` | **VFC**: il testo. |
-| **048** | 0:12 | `GRAF` | Due cifre che si compongono: **Fastweb € 551.938.000** · **Aruba € 27.126.000** · totale **€ 579.064.000**. | `Risarcimenti richiesti — esito non ancora noto` | **VFC**: «Aruba e Fastweb hanno chiesto 579 milioni di euro di risarcimento.» |
-| **049** | 0:14 | `GRAF` | Contro-argomento obbligatorio, su fondo differente per segnalare il cambio di voce. | `Il diritto di prelazione era previsto dal bando (art. 183 c. 15 d.lgs. 50/2016) ed era noto a tutti prima delle offerte.` | **VFC** (tono piano): «Da dire: non fu un espediente sopravvenuto. Il fatto è che un giudice ha stabilito che *quell'esercizio* fu illegittimo.» |
+| **053** | 0:06 | `GRAF` | **LA SPARIZIONE.** Le cinque fasi descritte sopra: la dicitura resta sola, si ingrandisce, si cancella in *backspace*, il quadro va a **bianco pieno**. La fascia in basso a sinistra resta vuota per il resto del film. | ~~`SIMULAZIONE DOCUMENTATA`~~ → *(nulla)* | Ronzio di 001 che si interrompe di netto sul bianco. Poi silenzio. |
+| **054** | 0:05 | `AST` | Bianco pieno. Al centro, in nero, due parole soltanto. | `Marzo 2026` | **VFC**: «Tutto quello che avete visto finora è una ricostruzione: una porta che è aperta. Adesso basta con le ricostruzioni.» |
+| **055** | 0:14 | `TXT` | **Il verbatim a schermo pieno, e nient'altro in quadro.** Il testo entra riga per riga, alla velocità di lettura. La frase «da un giorno all'altro, senza preavviso» si accende per ultima. Attribuzione fissa in basso: nome, ruolo, data. Nessun volto, nessun oggetto, nessuna animazione decorativa. | «*Il mio Apple ID, iCloud, Amazon, Airbnb, PayPal e altri account sono stati tutti bloccati o cancellati. Queste cancellazioni sono avvenute **da un giorno all'altro, senza preavviso**.*» — **Beti Hohler, giudice**, marzo 2026 `[A24]` | **VFC**: «Una giudice slovena — cittadina dell'Unione europea — scrive questo.» Poi lettura integrale. |
+| **056** | 0:06 | `AST` | La citazione si ritira. Resta una riga sola su bianco. | `Nessuna azienda l'ha mai smentita.` | **VFC**: la frase. Silenzio dopo. |
+| **057** | 0:10 | `SCH-CAP` | **Il secondo caso, trattato come documento.** Cattura dal vivo del sito dell'Assemblée nationale: l'interrogazione 11576 e la risposta del Governo, affiancate. Si evidenzia la formula sul regolamento di blocco. L'URL resta in quadro. | `Nicolas Guillou, giudice francese` · `Interrogazione 11576 (Lachaud), 9 dicembre 2025 — risposta del Governo, 10 febbraio 2026` `[A24]` | **VFC**: «E non è sola: un giudice francese ha subito lo stesso trattamento — un caso arrivato in Parlamento, con risposta ufficiale del Governo francese.» |
+| **058** | 0:12 | `SCH-CAP` + `TXT` | **Perché accade.** Il testo dell'**EO 14203 §3** catturato a schermo; si evidenzia in rosso la sequenza «*funds, goods, or services*». La sola parola **«services»** resta poi in quadro, ingrandita, con l'indicazione che è testo presidenziale, non interpretazione. | `Ordine esecutivo — «the provision of funds, goods, or **services**»` `[A23]` | **VFC**: «Non è una scelta delle aziende. Un ordine esecutivo statunitense vieta di fornire "fondi, beni o servizi" a una persona designata. La parola "servizi" è nel testo presidenziale. Un'azienda americana che continuasse a servirla commetterebbe un illecito.» |
+| **059** | 0:07 | `GRAF` | Una cifra sola, che si compone: **~3,3 milioni di dollari**, aprile 2023, OFAC + BIS. Sotto, in corpo minore, la ragione. | `Microsoft, aprile 2023 — sanzione per aver fornito servizi a soggetti designati` `[A23]` | **VFC**: «Microsoft lo sa bene: nel 2023 è stata multata proprio per questo.» |
+| **060** | 0:10 | `SCH-NEW` | **SCHEDA `10-denaro-contro-dati.svg`** — due colonne. A sinistra, **DENARO**: conto fruttifero, interessi, tracciabilità, restituzione in caso di delisting: quattro voci che si accendono una per una. A destra, **DATI**: quattro righe che restano **vuote**. Poi la riga di chiusura sotto entrambe. | `Per il denaro esiste una procedura. Per la vita digitale, no.` `[A25]` | **VFC**: il testo dello script. Le quattro voci di sinistra hanno un suono; le quattro caselle vuote di destra no. |
+| **061** | 0:05 | `GRAF` | **Cartello di delimitazione obbligatorio**, fondo differente. Tre righe. | `Questo è un potere diverso dal CLOUD Act: non leggere i dati, ma spegnere l'accesso.` · `In Italia esistono soggetti designati, ma nessun effetto digitale documentato.` · `Per un ente pubblico italiano il rischio è, ad oggi, **teorico**.` `[A26]` | **VFC** (tono piano): le tre precisazioni. |
 
-> ⚠️ **Trappola 9** — 049 non è tagliabile. ⚠️ **Trappola 8** — in nessuna inquadratura di questo atto
-> compaiono i «2,7 miliardi» del PSN come denaro versato dallo Stato: è il tetto di valore della
-> concessione, ed è l'errore giornalistico più frequente sul dossier.
+> ⚠️ **TRAPPOLA `[A26]` — il caso del Procuratore della Corte penale internazionale NON COMPARE in nessuna
+> inquadratura di questo atto**, in nessuna forma, nemmeno come accenno di raccordo. La fonte sono
+> funzionari anonimi e Microsoft ha smentito. È il caso più fragile del dossier, non il più forte.
+> ⚠️ **Non compaiono** la vicenda Microsoft/Russia 2024 (base giuridica **europea**, non americana),
+> Huawei (strumento diverso: Entity List, non OFAC), né X/Starlink (fenomeno **opposto**: uno Stato che
+> interdice un'azienda). Citarli dimostrerebbe la tesi della controparte.
+> ⚠️ **L'inquadratura 061 non è tagliabile.** Senza di essa l'atto dice che l'Italia ha già subito un
+> blocco digitale, che è falso.
+> ⚠️ **Non confondere mai i due poteri.** Il montaggio non deve creare raccordi visivi fra la catena
+> dell'ordine (scheda 03, Atto 4) e questo atto: stesso avversario, meccanismi diversi.
 
 **Materiali**
-- 042–043 ✅ produzione interna, stesso *set* dell'Atto 0.
-- 044 ⚠️ **DA REPERIRE** — individuare l'ente e ottenere l'autorizzazione a riprendere.
-- 046 ✅ **DISPONIBILE** — delibera pubblica.
-- 048 🔴 **VERIFICA APERTA `C5`** — l'esito finale della domanda risarcitoria non è noto. La
-  sovrimpressione deve dire «richiesti», mai «ottenuti». Se l'esito arriva prima della messa in onda,
-  l'inquadratura va rifatta.
-- ⚠️ **DA REPERIRE, utile** — testi integrali di TAR Lazio 4338/2023 e Cons. Stato 9210/2023 per
-  poterli mostrare a schermo invece di parafrasarli.
+- 053, 054, 056, 059, 060, 061 ✅ produzione interna. 060 → **scheda nuova `10`, da produrre**.
+- 055 ✅ **DISPONIBILE** come testo — il verbatim è acquisito. ⛔ **Nessuna immagine della persona**, salvo
+  ritratto licenziato (vedi regola sopra). **Nessuna ricostruzione, in nessun caso.**
+- 057 ⚠️ **DA REPERIRE, priorità 2** — la pagina dell'Assemblée nationale con interrogazione e risposta.
+  È pubblica: serve solo catturarla in ripresa, con URL in quadro.
+- 058 ⚠️ **DA REPERIRE** — il testo dell'EO va catturato su una fonte apribile: `federalregister.gov` ed
+  `ecfr.gov` risultano bloccati, l'EO è stato letto su *The American Presidency Project*. **Nella
+  sovrimpressione va indicata la fonte effettivamente inquadrata**, non quella che avremmo voluto.
+- ⛔ **Non esistono immagini di un account che viene disattivato.** L'oggetto è un record in un database.
+  Ogni «schermata di errore» ricostruita sarebbe una messa in scena: **vietata**. Il blocco si racconta
+  con il testo di chi l'ha subito e con il testo di legge che lo impone. Sono entrambi documenti, ed è
+  esattamente il registro che l'atto richiede.
 
 ---
 
-## ATTO 7 — LO STATO CERTIFICA, E NON SA · 11:00–13:30
+## ATTO 6 — LA SVOLTA: ERA UNA SCELTA · 10:30–11:45
 
 | # | Durata | Tipo | Descrizione visiva | Sovrimpressione | Audio / voce |
 |---|---|---|---|---|---|
-| **050** | 0:16 | `SCH-CAP` | Il comunicato del 21 luglio 2026 a schermo. Si evidenziano i numeri: oltre 13.000 PA, 75%, 1,9 miliardi. | `21 luglio 2026` `[B1]` | **VFC**: «Otto giorni fa il Governo ha annunciato il traguardo…» |
-| **051** | 0:14 | `GRAF` | La dichiarazione del Sottosegretario, testuale, a video su fondo bianco. | *«l'Italia si pone tra i Paesi europei più avanzati nella protezione dei dati della pubblica amministrazione»* | **VFC**: lettura integrale. |
-| **052** | 0:20 | `GRAF` | Due riquadri affiancati, deliberatamente **non** sovrapposti, separati da una linea verticale netta: a sinistra «IL GOVERNO DICHIARA — migrazione al cloud, 75%»; a destra «NOI ABBIAMO MISURATO — posta elettronica, 46% su fornitori soggetti a legge straniera». Sotto, a caratteri cubitali: `DUE MISURAZIONI DIVERSE`. | `23.000 enti · misurazione MX · riproducibile ente per ente` | **VFC**: «Il Governo dichiara. Noi abbiamo misurato. Su ventitremila enti pubblici italiani, il 46% ha la posta elettronica su fornitori soggetti a una legge straniera.» |
-| **053** | 0:12 | `SCH-CAP` | Dimostrazione dal vivo: si sceglie un ente a caso dall'elenco e si rifà l'interrogazione MX in cinque secondi. | `Verificabile da chiunque` | Battitura reale. |
-| **054** | 0:14 | `SCH-CAP` | Il PDF `RegolamentoCloud.pdf` aperto. Si scorre visibilmente: 88 pagine, 27 articoli, quattro allegati. | `Regolamento cloud per la PA — 88 pagine, 4 allegati — testo integrale` | **VFC**: «Abbiamo letto per intero il regolamento… Abbiamo cercato le parole che contano.» |
-| **055** | 0:34 | `SCH-CAP` + `GRAF` | **Momento centrale dell'atto.** Ricerca full-text dal vivo, una parola per volta. Ogni parola compare a sinistra, il risultato **0** appare a destra e resta in colonna: `extraterritoriale` **0** · `CLOUD Act` **0** · `nazionalità` **0** · `sede legale` **0** · `capogruppo` **0** · `capitale` **0** · `paese terzo` **0**. La colonna di zeri riempie il quadro. | Ogni riga | Una nota secca per ogni zero. |
-| **056** | 0:10 | `AST` | La colonna di zeri resta. | `Non è un'omissione nostra: non ci sono.` | **VFC**: «Non ci sono. Non è un'omissione nostra: non ci sono.» |
-| **057** | 0:18 | `SCH` | **SCHEDA `04-tre-leve.svg`** — anticipazione breve del confronto ANSSI/ACN (versione estesa nell'Atto 11). Qui si mostra solo che la leva societaria è assente. | Titolo scheda + fonte | **VFC**: raccordo. |
-| **058** | 0:22 | `SCH-CAP` | I dataset del DTD aperti in un foglio di calcolo. Si scorre in orizzontale: si contano le venti colonne, una per una. Nessuna si chiama «fornitore». | `22.162 domande finanziate · € 1.343.231.660 · 20 colonne · 0 campi fornitore` `[A9]` | **VFC**: «Abbiamo scaricato i dati ufficiali… Venti colonne. Nessuna che dica a quale fornitore siano andati.» |
-| **059** | 0:20 | `GRAF` | Frase costruita in due tempi, la seconda metà in rosso. | `Non possiamo dire che quei soldi siano finiti in America.` → `Non possiamo dire nemmeno il contrario.` | **VFC**: le due frasi, separate da una pausa lunga. |
-| **060** | 0:16 | `GRAF` | Chiusura d'atto, testo pieno schermo. | `L'Italia ha speso 1,9 miliardi per la sovranità digitale costruendo un sistema in cui è impossibile sapere quanta parte di quel denaro abbia comprato tecnologia sovrana.` | **VFC**: la frase. |
-| **061** | 0:12 | `GRAF` | Contro-fatto onesto, obbligatorio: i nove servizi di livello massimo QC4 sono tutti e soli nativi PSN. | `Sulla fascia dei dati strategici la linea tiene.` `[A10]` | **VFC** (tono piano): la precisazione. |
+| **062** | 0:05 | `AST` | Nero. | `A questo punto uno pensa: sarà così per tutti.` | **VFC**: «…Non è così.» |
+| **063** | 0:18 | `SCH-CAP` | Ritorno esatto alla grafica di terminale dell'inquadratura 003. Si digita: `difesa.it` → `mx.difesa.it`. Poi `gdf.gov.it` → `mercurio.gdf.it`. Le risposte compaiono in **verde**, non in rosso. | `infrastruttura propria` accanto a ciascuna riga | Stessa battitura dell'inizio. Il tema cambia di segno. |
+| **064** | 0:16 | `GRAF` | Le due righe verdi restano; sopra, le quattro righe rosse dell'Atto 0 rientrano in quadro. Il contrasto è l'intera argomentazione. | `Non è un destino tecnologico: è una decisione.` | **VFC**: «La Difesa gestisce la propria posta. La Guardia di Finanza gestisce la propria posta. Si poteva fare. Qualcuno l'ha fatto.» |
+| **065** | 0:24 | `INT` | **Intervista 4** — un dirigente PA che ha scelto la via sovrana. Perché l'ha fatto, quanto è costato, che cosa ha dovuto rinunciare. | Nome, ente, ruolo | Presa diretta. |
+| **066** | 0:12 | `GRAF` | Chiusura d'atto. La frase resta sola, poi il quadro si svuota. | `Non è un destino tecnologico: è una decisione.` | **VFC**: la frase. |
 
-> ⚠️ **Trappola 1** — l'inquadratura 052 è progettata proprio per **impedire** la sovrapposizione fra
-> 75% e 46%: la linea verticale che separa i due riquadri è un requisito grafico, non un'estetica.
-> ⚠️ **Trappola 4** — mai far dire alla voce che «Butti ha rivendicato la sovranità digitale».
-> ⚠️ **Trappola 10** — l'inquadratura 061 non è tagliabile.
+> 🗂️ **TAGLIO RISPETTO ALLA v1.0 — la vicenda della gara PSN esce dal film.** Cadono le cinque
+> inquadrature della v1.0 numerate 045–049 (aggiudicazione Aruba-Fastweb, prelazione, delibera della Corte
+> dei conti, Consiglio di Stato, 579 milioni, contro-argomento sulla prelazione).
+> **Perché**: è una vicenda di **irregolarità negli appalti**, non di sovranità; il nesso reggerebbe solo
+> se potessimo dimostrare che l'offerta Aruba-Fastweb sarebbe stata *più sovrana*, e il contenuto tecnico
+> di quell'offerta **non è pubblico**. Il materiale resta nel dossier `[A8]`.
+> **Conseguenze operative**: decade la verifica bloccante `C5`; decade la ricerca dei testi integrali di
+> TAR Lazio 4338/2023 e Cons. Stato 9210/2023; **decadono con essa le trappole 8 e 9**, che riguardavano
+> solo quelle inquadrature. Nessun'altra inquadratura del film nomina il PSN come vicenda giudiziaria.
 
 **Materiali**
-- 050 ⚠️ **DA REPERIRE, priorità alta** — il comunicato **primario** del Dipartimento per la
-  trasformazione digitale. Quello in nostro possesso è un lancio d'agenzia, non l'atto originale `[B1]`.
-  Se il primario non si trova entro il montaggio, la sovrimpressione deve attribuire la fonte al lancio.
-- 051 ⚠️ **DA REPERIRE, opzionale ma forte** — esiste video della dichiarazione? Se sì, meglio del testo.
-- 054–055, 058 ✅ **DISPONIBILE** — documenti e dataset già in nostro possesso, ricerche riproducibili
+- 063–064 ✅ produzione interna, stesso *set* dell'Atto 0. **Rigirare nella stessa sessione dell'Atto 0**:
+  la corrispondenza visiva è l'argomento.
+- 065 ⚠️ **DA REPERIRE** — individuare l'ente e ottenere l'autorizzazione a riprendere. Difesa, Guardia
+  di Finanza o un ente locale che gestisca la propria posta.
+
+---
+
+## ATTO 7 — LO STATO CERTIFICA, E NON SA · 11:45–14:00
+
+| # | Durata | Tipo | Descrizione visiva | Sovrimpressione | Audio / voce |
+|---|---|---|---|---|---|
+| **067** | 0:12 | `SCH-CAP` | Il lancio del 21 luglio 2026 a schermo. Si evidenziano i numeri: oltre 13.000 PA, 75%, 1,9 miliardi. | `21 luglio 2026 — lancio d'agenzia` `[B1]` | **VFC**: «Otto giorni fa il Governo ha annunciato il traguardo…» |
+| **068** | 0:09 | `GRAF` | La dichiarazione del Sottosegretario, testuale, a video su fondo bianco. | *«l'Italia si pone tra i Paesi europei più avanzati nella protezione dei dati della pubblica amministrazione»* | **VFC**: lettura integrale. |
+| **069** | 0:16 | `GRAF` | Due riquadri affiancati, deliberatamente **non** sovrapposti, separati da una linea verticale netta: a sinistra «IL GOVERNO DICHIARA — migrazione al cloud, 75%»; a destra «NOI ABBIAMO MISURATO — posta elettronica, 46% su fornitori soggetti a legge straniera». Sotto, a caratteri cubitali: `DUE MISURAZIONI DIVERSE`. | `23.000 enti · misurazione MX · riproducibile ente per ente` | **VFC**: «Il Governo dichiara. Noi abbiamo misurato. Su ventitremila enti pubblici italiani, il 46% ha la posta elettronica su fornitori soggetti a una legge straniera.» |
+| **070** | 0:08 | `SCH-CAP` | Dimostrazione dal vivo: si sceglie un ente a caso dall'elenco e si rifà l'interrogazione MX in cinque secondi. | `Verificabile da chiunque` | Battitura reale. |
+| **071** | 0:10 | `SCH-CAP` | Il PDF `RegolamentoCloud.pdf` aperto. Si scorre visibilmente: 88 pagine, 27 articoli, quattro allegati. | `Regolamento cloud per la PA — 88 pagine, 4 allegati — testo integrale` | **VFC**: «Abbiamo letto per intero il regolamento… Abbiamo cercato le parole che contano.» |
+| **072** | 0:24 | `SCH-CAP` + `GRAF` | **Momento centrale dell'atto.** Ricerca full-text dal vivo, una parola per volta. Ogni parola compare a sinistra, il risultato **0** appare a destra e resta in colonna: `extraterritoriale` **0** · `CLOUD Act` **0** · `nazionalità` **0** · `sede legale` **0** · `capogruppo` **0** · `capitale` **0** · `paese terzo` **0**. La colonna di zeri riempie il quadro. | Ogni riga | Una nota secca per ogni zero. |
+| **073** | 0:07 | `AST` | La colonna di zeri resta. | `Non è un'omissione nostra: non ci sono.` | **VFC**: «Non ci sono. Non è un'omissione nostra: non ci sono.» |
+| **074** | 0:10 | `SCH` | **SCHEDA `04-tre-leve.svg`** — anticipazione breve del confronto ANSSI/ACN (versione estesa in 109). Qui si mostra solo che la leva societaria è assente. | Titolo scheda + fonte `[A7]` | **VFC**: raccordo. |
+| **075** | 0:14 | `SCH-CAP` | I dataset del DTD aperti in un foglio di calcolo. Si scorre in orizzontale: si contano le venti colonne, una per una. Nessuna si chiama «fornitore». | `22.162 domande finanziate · € 1.343.231.660 · 20 colonne · 0 campi fornitore` `[A9]` | **VFC**: «Abbiamo scaricato i dati ufficiali… Venti colonne. Nessuna che dica a quale fornitore siano andati.» |
+| **076** | 0:12 | `GRAF` | Frase costruita in due tempi, la seconda metà in rosso. | `Non possiamo dire che quei soldi siano finiti in America.` → `Non possiamo dire nemmeno il contrario.` | **VFC**: le due frasi, separate da una pausa lunga. |
+| **077** | 0:08 | `GRAF` | Chiusura d'atto, testo pieno schermo. | `L'Italia ha speso 1,9 miliardi per la sovranità digitale costruendo un sistema in cui è impossibile sapere quanta parte di quel denaro abbia comprato tecnologia sovrana.` | **VFC**: la frase. |
+| **078** | 0:05 | `GRAF` | Contro-fatto onesto, obbligatorio: i nove servizi di livello massimo QC4 sono tutti e soli nativi PSN. | `Sulla fascia dei dati strategici la linea tiene.` `[A10]` | **VFC** (tono piano): la precisazione. |
+
+> ⚠️ **TRAPPOLA 1** — l'inquadratura 069 è progettata proprio per **impedire** la sovrapposizione fra
+> 75% e 46%: la linea verticale che separa i due riquadri è un requisito grafico, non un'estetica.
+> ⚠️ **TRAPPOLA 4** — mai far dire alla voce che «il Sottosegretario ha rivendicato la sovranità
+> digitale»: ha detto «protezione dei dati». L'inquadratura 068 riporta il virgolettato esatto.
+> ⚠️ **TRAPPOLA 10** — l'inquadratura 078 non è tagliabile.
+
+**Materiali**
+- 067 ⚠️ **DA REPERIRE, utile ma non bloccante** — il comunicato **primario** del Dipartimento per la
+  trasformazione digitale. **Decisione presa: si procede sul lancio d'agenzia** `[B1]`, e la
+  sovrimpressione **deve attribuire la fonte all'agenzia**, non presentarla come atto ufficiale. Se il
+  primario emerge prima del montaggio, si aggiorna la sola sovrimpressione.
+- 068 ⚠️ **DA REPERIRE, opzionale ma forte** — esiste video della dichiarazione? Se sì, meglio del testo.
+- 071–072, 075 ✅ **DISPONIBILE** — documenti e dataset già in nostro possesso, ricerche riproducibili
   in ripresa dal vivo.
 - ⛔ **Non esistono immagini del catalogo cloud ACN dall'interno**: `catalogocloud.acn.gov.it` restituisce
   una pagina di login del Portale Fornitori. Se si mostra quella pagina, va detto in sovrimpressione che
@@ -230,92 +383,121 @@ Riferito a `SCRIPT-20-MINUTI.md` v1.0 (28 luglio 2026) e vincolato al registro d
 
 ---
 
-## ATTO 8 — L'ASIMMETRIA · 13:30–15:30
+## ATTO 8 — L'ASIMMETRIA · 14:00–15:45
 
 | # | Durata | Tipo | Descrizione visiva | Sovrimpressione | Audio / voce |
 |---|---|---|---|---|---|
-| **062** | 0:20 | `SCH-CAP` | **Apertura in autocorrezione.** A schermo la tesi diffusa; poi la si barra con un tratto rosso. Sotto, il testo della **FAR 25.103(e)** catturato dal vivo, con l'esenzione evidenziata. | ~~`Gli USA vietano per legge di comprare tecnologia europea`~~ → `FAR 25.103(e) — esenzione esplicita per l'IT commerciale` | **VFC**: «Si dice spesso che gli Stati Uniti vietino per legge di comprare tecnologia europea. Non è vero, e conviene dirlo noi per primi.» |
-| **063** | 0:10 | `GRAF` | Precisazione: il *Buy American* copre *supplies* e materiali da costruzione, **non i servizi**. | `Il BAA non copre i servizi` | **VFC**: la precisazione. |
-| **064** | 0:08 | `AST` | Stacco. | `Il meccanismo è più sottile — e più efficace.` | **VFC**: la frase. |
-| **065** | 0:24 | `SCH-CAP` | Ricerca dal vivo sul **FedRAMP Marketplace**: si filtra per fornitori con casa madre europea. Il risultato resta a video. L'unico caso che emerge è la **controllata statunitense** di un'azienda tedesca. | `FedRAMP Marketplace — verifica manuale, luglio 2026` | **VFC**: «Per vendere al governo federale americano serve una certificazione di sicurezza. Abbiamo cercato quanti fornitori cloud con casa madre europea l'abbiano ottenuta.» |
-| **066** | 0:14 | `GRAF` | Grafica: una società europea che, per entrare, deve prima passare attraverso un'incorporazione statunitense. Specularmente, il percorso inverso non ha barriere. | `Per vendere al governo americano, un europeo deve prima diventare americano. È esattamente ciò che l'Europa non chiede agli americani.` | **VFC**: la coppia di frasi. |
-| **067** | 0:20 | `GRAF` | **IPI.** Un contatore che sale a **1** e si ferma. Sotto: contro la Cina, dispositivi medici, giugno 2025. Due caselle restano vuote: «digitale» e «Stati Uniti». | `Reg. esec. (UE) 2025/1197 — 19 giugno 2025 · mai sul digitale, mai verso gli USA` | **VFC**: il testo. |
-| **068** | 0:18 | `SCH-CAP` | Il testo dell'**art. 69 d.lgs. 36/2023** a schermo, con evidenziata la formula «non meno favorevolmente». | `Codice dei contratti pubblici, art. 69 — Accordo OMC sugli appalti pubblici` `[A11]` | **VFC**: «l'Italia, per il codice degli appalti, è obbligata a trattare i fornitori americani non meno favorevolmente degli altri.» |
-| **069** | 0:12 | `GRAF` | Chiave di volta dell'atto, testo pieno schermo. | `Non si può escludere Microsoft per legge. La Francia infatti non l'ha fatto.` | **VFC**: le due frasi. |
-| **070** | 0:18 | `GRAF` | **Onestà obbligatoria.** Due barre affiancate: disavanzo UE **126,3 mld €** su canoni di proprietà intellettuale; avanzo **60,4 mld €** su servizi di telecomunicazione e informatica. Stessa scala, nessuna manipolazione dell'asse. | `Eurostat · l'avanzo è in larga parte effetto Irlanda` | **VFC**: entrambe le cifre. |
+| **079** | 0:12 | `SCH-CAP` | **Apertura in autocorrezione.** A schermo la tesi diffusa; poi la si barra con un tratto rosso. Sotto, il testo della **FAR 25.103(e)** catturato dal vivo, con l'esenzione evidenziata. | ~~`Gli USA vietano per legge di comprare tecnologia europea`~~ → `FAR 25.103(e) — esenzione esplicita per l'IT commerciale` | **VFC**: «Si dice spesso che gli Stati Uniti vietino per legge di comprare tecnologia europea. Non è vero, e conviene dirlo noi per primi.» |
+| **080** | 0:06 | `GRAF` | Precisazione: il *Buy American* copre *supplies* e materiali da costruzione, **non i servizi**. | `Il BAA non copre i servizi` | **VFC**: la precisazione. |
+| **081** | 0:04 | `AST` | Stacco. | `Il meccanismo è più sottile — e più efficace.` | **VFC**: la frase. |
+| **082** | 0:12 | `SCH-CAP` | **FedRAMP Marketplace, ripresa dal vivo.** Si apre `marketplace.fedramp.gov`; il contatore dei prodotti autorizzati si ferma su **684**. Poi si passa al campo di ricerca. | `FedRAMP Marketplace — 684 prodotti, 511 certificati — verifica del 29 luglio 2026` `[A16]` | **VFC**: «Per vendere al governo federale americano serve una certificazione di sicurezza: si chiama FedRAMP. Abbiamo aperto l'elenco pubblico dei fornitori autorizzati — seicentottantaquattro — e abbiamo cercato i fornitori cloud europei.» |
+| **083** | 0:10 | `SCH-NEW` | **SCHEDA `12-fedramp-zero.svg`**, prima metà. I nomi entrano uno alla volta, ciascuno seguito dalla parola **«assente»**: `OVHcloud` · `IONOS` · `Deutsche Telekom` · `Scaleway` · `Hetzner` · `Aruba` · `Orange` · `Bleu` · `S3NS`. La colonna resta piena di «assente». | `Ricerca per nome sull'elenco pubblico — nessuna corrispondenza` | Una nota secca per ogni «assente». **VFC**: «Nessuno. Non un solo fornitore cloud europeo.» |
+| **084** | 0:10 | `SCH-NEW` | Seconda metà della scheda. Cinque gruppi europei entrano **con il nome con cui sono iscritti**, e la parte americana della ragione sociale si accende: SAP **National Security Services Inc.** · Siemens **Government Technologies** · Software AG **Government Solutions** · Darktrace **Federal Inc.** · Ericsson **NetCloud Federal**. | `I gruppi europei nell'elenco ci sono. Ma guardate con quale nome.` | **VFC**: «Ognuno di loro ha dovuto costituire una società americana.» |
+| **085** | 0:10 | `GRAF` | Una società europea che, per entrare, deve prima passare attraverso un'incorporazione statunitense. Specularmente, il percorso inverso non ha barriere. | `Per vendere al governo americano, un europeo deve prima diventare americano. È esattamente ciò che l'Europa non chiede agli americani.` | **VFC**: la coppia di frasi. |
+| **086** | 0:08 | `GRAF` | **IPI.** Un contatore che sale a **1** e si ferma. Sotto: contro la Cina, dispositivi medici, giugno 2025. Due caselle restano vuote: «digitale» e «Stati Uniti». | `Reg. esec. (UE) 2025/1197 — 19 giugno 2025 · mai sul digitale, mai verso gli USA` | **VFC**: il testo. |
+| **087** | 0:09 | `SCH-CAP` | Il testo dell'**art. 69 d.lgs. 36/2023** a schermo, con evidenziata la formula «non meno favorevolmente». In coda, la chiave di volta dell'atto a testo pieno. | `Codice dei contratti pubblici, art. 69 — Accordo OMC sugli appalti pubblici` `[A11]` → `Non si può escludere Microsoft per legge. La Francia infatti non l'ha fatto.` | **VFC**: «l'Italia, per il codice degli appalti, è obbligata a trattare i fornitori americani non meno favorevolmente degli altri… Ed è proprio qui che sta la risposta.» |
+| **088** | 0:08 | `SCH-CAP` | **Anticipazione del contro-argomento più forte.** Il testo del **41 U.S.C. §1323** a schermo, con evidenziata la clausola. | «*Nothing in this section shall be construed… to authorize the issuance of an exclusion or removal order **based solely on the fact of foreign ownership**.*» `[A18]` | **VFC** (tono piano): «Una norma americana vieta espressamente di escludere un fornitore sulla sola base della proprietà straniera. Lo diciamo noi per primi.» |
+| **089** | 0:16 | `GRAF` | **Onestà obbligatoria.** Due barre affiancate: disavanzo UE **126,3 mld €** su canoni di proprietà intellettuale; avanzo **60,4 mld €** su servizi di telecomunicazione e informatica. Stessa scala, nessuna manipolazione dell'asse. | `Eurostat · l'avanzo è in larga parte effetto Irlanda` | **VFC**: entrambe le cifre. |
 
-> ⚠️ **Trappole 11, 12, 14** — 062, 063 e 070 sono inquadrature di autocorrezione: sono la ragione per
-> cui il resto del film regge. Non tagliarle per guadagnare secondi.
-> ⚠️ Il **Documento 79 cinese non compare in nessuna inquadratura**: la versione pubblica tradotta da
-> CSET non dice ciò che gli viene attribuito (trappola 13).
+> ⚠️ **TRAPPOLE 11, 12, 14** — 079, 080, 088 e 089 sono inquadrature di **autocorrezione**: sono la ragione
+> per cui il resto del film regge. **Non tagliarle per guadagnare secondi.**
+> ⚠️ **VINCOLO `[A18]`** — in nessuna inquadratura si dice che la barriera FedRAMP sia **il costo** della
+> certificazione: il programma sta abbassando costi e tempi *di proposito* e nel giro di un anno saremmo
+> smentiti. La barriera che si racconta è la **sponsorizzazione di un'agenzia federale**, insieme a
+> cittadinanza e controllo societario.
+> ⚠️ **VINCOLO `[A18]`** — non si dice che gli Stati Uniti abbiano chiuso agli europei nel 2025-2026: è
+> falso, semmai hanno deregolato. L'effetto è prodotto dallo strato costruito fra il 2011 e il 2019.
+> ⚠️ Il **Documento 79 cinese non compare in nessuna inquadratura** (trappola 13).
+> ⚠️ **Falsi positivi da non ripetere in ripresa**: «Atos» dentro *Kratos*, «Eviden» dentro *evidence*, e
+> le occorrenze di «Aruba» che sono **Aruba Networks (HPE, statunitense)**. Se la ricerca dal vivo li fa
+> comparire, vanno mostrati **e spiegati**, non nascosti.
 
 **Materiali**
-- 065 🔴 **VERIFICA APERTA `C9`, priorità 1** — il conteggio FedRAMP dei fornitori europei autorizzati
-  va chiuso **prima di girare**. Se il conteggio non è «zero salvo chi si è fatto americano», la
-  formulazione dell'inquadratura 066 va riscritta. **Non girare 065–066 finché C9 è aperta.**
-- 062, 068 ✅ **DISPONIBILE** — testi pubblici, cattura schermo.
-- 070 ✅ **DISPONIBILE** — dati Eurostat, grafica interna.
+- 082–084 ✅ **DISPONIBILE — la verifica `C9` è chiusa** `[A16]`. L'elenco è pubblico
+  (`marketplace.fedramp.gov`, endpoint `/marketplace/products/__data.json`). **Rifare la ricerca dal vivo
+  in ripresa il giorno stesso delle riprese** e riportare in sovrimpressione la data effettiva della
+  verifica, non quella del 29 luglio 2026. → 083–084: **scheda nuova `12`, da produrre**.
+- 079, 087, 088 ✅ **DISPONIBILE** — testi pubblici, cattura schermo.
+- 089 ✅ **DISPONIBILE** — dati Eurostat, grafica interna.
 - ⛔ Non esistono immagini di «esclusione» di un fornitore europeo: l'asimmetria è procedurale, non
-  visibile. Va risolta in grafica (066).
+  visibile. Va risolta in grafica (085).
 
 ---
 
-## ATTO 9 — BRUXELLES: L'ITALIA HA CHIESTO, E HA PERSO · 15:30–17:00
+## ATTO 9 — BRUXELLES: L'ITALIA HA CHIESTO, E HA PERSO · 15:45–17:00
 
 | # | Durata | Tipo | Descrizione visiva | Sovrimpressione | Audio / voce |
 |---|---|---|---|---|---|
-| **071** | 0:12 | `AST` | Fondo scuro. La conclusione attesa compare e viene barrata. | ~~`L'Italia non ha mai chiesto protezione`~~ → `È falso. L'ha chiesta. E l'ha scritta.` | **VFC**: le tre frasi. |
-| **072** | 0:34 | `SCH` | **SCHEDA `06-linea-bruxelles.svg`**, animata per tappe, una per battuta: **2021** coautoria del non-paper con Francia, Germania e Spagna → **dicembre 2022** undici Paesi firmano contro, l'Italia non c'è → **22 marzo 2024** i requisiti di sovranità vengono rimossi → **17 aprile 2024** la dichiarazione pubblica del Sottosegretario. | Date e fonte per ciascuna tappa | **VFC**: il testo dello script, tappa per tappa. |
-| **073** | 0:18 | `SCH-CAP` | Il **titolo** del documento olandese a schermo, con i quattro codici Paese evidenziati: *«Opinion of the Netherlands on the non-paper by DE, ES, FR and IT…»*. È la prova indiretta della paternità italiana. | `Prova indiretta: il non-paper 2021 non è pubblico. Il titolo del documento olandese lo nomina.` | **VFC**: precisazione sul tipo di prova. |
-| **074** | 0:16 | `SCH-CAP` | La dichiarazione del 17 aprile 2024, testuale a schermo. | *«permetterebbe ai fornitori, anche quelli che operano sotto la giurisdizione di governi esterni all'UE, di essere certificati come sicuri»* | **VFC**: lettura integrale. |
-| **075** | 0:14 | `GRAF` | **Dodici** sagome di Stati membri che spingono nella stessa direzione degli americani. Le sagome sono **anonime, senza bandiere**. | `L'elenco dei dodici non è pubblico. Che l'Italia non ne facesse parte è una deduzione, non un fatto accertato.` `[B5]` | **VFC**: «A chiedere la rimozione non furono solo gli americani: dodici Stati membri europei spinsero nella stessa direzione.» |
-| **076** | 0:22 | `INT` | **Interviste 3** — due parlamentari di schieramenti opposti, montati in successione sulla stessa domanda. Toglie di mezzo l'accusa di faziosità. | Nomi, gruppi | Presa diretta. |
-| **077** | 0:20 | `GRAF` | Due colonne: «CIÒ CHE L'ITALIA HA CHIESTO A BRUXELLES» / «CIÒ CHE HA SCRITTO IN CASA PROPRIA». La prima è piena, la seconda vuota. | `Cinque anni · l'unico strumento che non dipendeva dal voto di nessun altro` | **VFC**: la conclusione dell'atto. |
+| **090** | 0:08 | `AST` | Fondo scuro. La conclusione attesa compare e viene barrata. | ~~`L'Italia non ha mai chiesto protezione`~~ → `È falso. L'ha chiesta. E l'ha scritta.` | **VFC**: le tre frasi. |
+| **091** | 0:22 | `SCH` | **SCHEDA `06-linea-bruxelles.svg`**, animata per tappe, una per battuta: **2021** coautoria del non-paper con Francia, Germania e Spagna → **2022** undici Paesi firmano contro, l'Italia non c'è → **22 marzo 2024** i requisiti di sovranità vengono rimossi → **17 aprile 2024** la dichiarazione pubblica del Sottosegretario. | Date e fonte per ciascuna tappa | **VFC**: il testo dello script, tappa per tappa. |
+| **092** | 0:09 | `SCH-CAP` | Il **titolo** del documento olandese a schermo, con i quattro codici Paese evidenziati: *«Opinion of the Netherlands on the non-paper by DE, ES, FR and IT…»*. È la prova indiretta della paternità italiana. | `Prova indiretta: il non-paper 2021 non è pubblico. Il titolo del documento olandese lo nomina.` | **VFC**: precisazione sul tipo di prova. |
+| **093** | 0:09 | `SCH-CAP` | La dichiarazione del 17 aprile 2024, testuale a schermo. | *«permetterebbe ai fornitori, anche quelli che operano sotto la giurisdizione di governi esterni all'UE, di essere certificati come sicuri»* | **VFC**: lettura integrale. |
+| **094** | 0:09 | `GRAF` | **Dodici** sagome di Stati membri che spingono nella stessa direzione degli americani. Le sagome sono **anonime, senza bandiere**. | `L'elenco dei dodici non è pubblico. Che l'Italia non ne facesse parte è una deduzione, non un fatto accertato.` `[B5]` | **VFC**: «A chiedere la rimozione non furono solo gli americani: dodici Stati membri europei spinsero nella stessa direzione.» |
+| **095** | 0:10 | `INT` | **Interviste 3** — due parlamentari di schieramenti opposti, montati in successione sulla stessa domanda. Toglie di mezzo l'accusa di faziosità. | Nomi, gruppi | Presa diretta. |
+| **096** | 0:08 | `GRAF` | Due colonne: «CIÒ CHE L'ITALIA HA CHIESTO A BRUXELLES» / «CIÒ CHE HA SCRITTO IN CASA PROPRIA». La prima è piena, la seconda vuota. | `Cinque anni · l'unico strumento che non dipendeva dal voto di nessun altro` | **VFC**: la conclusione dell'atto. |
 
-> ⚠️ **Trappola 16, la più importante** — l'inquadratura 071 apre l'atto rovesciando la narrativa
-> sbagliata. Se il montaggio la sposta o la accorcia, il film torna a dire ciò che il registro vieta.
-> ⚠️ **Trappola 17** — le dodici sagome di 075 **non devono avere bandiere**: attribuirle sarebbe
+> ⚠️ **TRAPPOLA 16, la più importante del registro** — l'inquadratura 090 apre l'atto rovesciando la
+> narrativa sbagliata. Se il montaggio la sposta o la accorcia, il film torna a dire ciò che il registro
+> vieta.
+> ⚠️ **TRAPPOLA 17** — le dodici sagome di 094 **non devono avere bandiere**: attribuirle sarebbe
 > inventare un elenco che non esiste in fonte pubblica.
+> ⚠️ **TRAPPOLA 5** — in nessuna inquadratura si accusa di ipocrisia Leonardo, TIM, Fincantieri o
+> Generali per aver firmato la lettera High+.
 
 **Materiali**
-- 072 ✅ scheda prodotta.
-- 073 ⚠️ **DA REPERIRE** — copia del documento olandese o, in subordine, cattura della citazione nel
+- 091 ✅ scheda prodotta.
+- 092 ⚠️ **DA REPERIRE** — copia del documento olandese o, in subordine, cattura della citazione nel
   cepInput 8/2025 dove il titolo compare. **Il non-paper 2021 in sé non è pubblico.**
-- 074 ⚠️ **DA REPERIRE** — la dichiarazione fu pubblicata su un quotidiano: serve l'autorizzazione a
+- 093 ⚠️ **DA REPERIRE** — la dichiarazione fu pubblicata su un quotidiano: serve l'autorizzazione a
   mostrare la pagina, oppure si rende in grafica citando testata e data.
 - ⛔ **NON ESISTONO IMMAGINI DEI VERBALI ECCG NÉ DELLE RIUNIONI**: i verbali non sono pubblici e le
   sedute non sono riprese. Non usare repertorio generico di riunioni a Bruxelles come se fosse quella
-  riunione: sarebbe un falso visivo. Va risolto in grafica (075) e con la scheda 06.
-- 076 ⚠️ **DA REPERIRE** — due parlamentari, schieramenti opposti. Vincolo editoriale, non opzionale.
+  riunione: sarebbe un falso visivo. Va risolto in grafica (094) e con la scheda 06.
+- 095 ⚠️ **DA REPERIRE** — due parlamentari, schieramenti opposti. Vincolo editoriale, non opzionale.
 - 🟢 **Strada aperta, se i tempi lo consentono**: accesso agli atti al Consiglio (Reg. 1049/2001) per il
   non-paper DE/ES/FR/IT, e la relazione del Governo ex art. 6 l. 234/2012 su COM(2026) 502. Se uno dei
-  due arriva, diventa l'inquadratura più forte dell'atto.
+  due arriva, diventa l'inquadratura più forte dell'atto e si finanzia allungando l'atto di 10 secondi
+  sull'Atto 11.
 
 ---
 
 ## ATTO 10 — I FIGLI · 17:00–18:00
+**Riscritto rispetto alla v1.0: non è più l'atto dell'assenza, è l'atto del dato peggiore.**
 
 | # | Durata | Tipo | Descrizione visiva | Sovrimpressione | Audio / voce |
 |---|---|---|---|---|---|
-| **078** | 0:12 | `REP` | Un'aula scolastica italiana. Nessun volto di minore riconoscibile: dettagli di banchi, schermi, tastiere, mani. | `Nelle oltre 12.700 amministrazioni locali e scuole migrate col PNRR` `[B1]` | Suono d'ambiente reale. |
-| **079** | 0:20 | `SCH` | **SCHEDA `07-280-contro-12700.svg`**: 280 PA centrali e ASL sul PSN, contro oltre 12.700 PA locali e scuole su «cloud qualificati» generici. Il rapporto visivo è schiacciante. | Titolo scheda + fonte `[B1]` | **VFC**: raccordo sui numeri. |
-| **080** | 0:18 | `GRAF` | Ricerca che non trova nulla: una barra di ricerca, una query, e un risultato vuoto che resta a lungo in quadro. | `Su quali infrastrutture sono finiti i dati degli studenti italiani: nessun dato pubblico` `[A13]` | **VFC**: «Abbiamo cercato di sapere su quali infrastrutture siano finiti i dati degli studenti italiani. Non esiste alcun dato pubblico.» |
-| **081** | 0:16 | `GRAF` | Testo pieno schermo. | `Un obiettivo europeo certificato, centinaia di migliaia di studenti, e nessuno può dire dove siano i loro dati.` | **VFC**: la frase, poi silenzio. |
-| **082** | 0:12 | `GRAF` | Il caso solido: **Baden-Württemberg**, che ha davvero rinunciato a M365 nelle scuole. Mappa schematica del Land. | `Baden-Württemberg — rinuncia effettiva` | **VFC**: il caso. |
+| **097** | 0:07 | `REP` | Un'aula scolastica italiana. **Nessun volto di minore riconoscibile**: dettagli di banchi, schermi, tastiere, mani. | `Nelle oltre 13.000 amministrazioni migrate col PNRR ci sono anche le scuole` `[B1]` | Suono d'ambiente reale. |
+| **098** | 0:14 | `SCH-NEW` | **SCHEDA `08-istruzione-777.svg`.** La classifica dei cluster della PA entra ordinata, dal basso verso l'alto; le righe attese (Difesa, Sanità, PA Centrale) passano e non si fermano. Poi **la prima riga resta sola sullo schermo**: `Istruzione · 8.403 istituti · 77,7%`. | `Osservatorio — misurazione dei domini di posta istituzionale, IndicePA` `[A17]` | **VFC**: «Di tutte le categorie della Pubblica Amministrazione italiana, quella con la quota più alta di dipendenza da fornitori extra-europei non è la Difesa, non è la Sanità, non è la presidenza del Consiglio. **È l'Istruzione. Ottomilaquattrocentotré istituti. Il 77,7%.**» |
+| **099** | 0:08 | `GRAF` | La riga si sdoppia in due dati: **più di tre scuole su quattro** · **37% di tutti gli enti misurati**. Sotto, il nome del fornitore dominante. | `Il fornitore dominante è Google Workspace` `[A17]` | **VFC**: «È il cluster più grande che misuriamo — trentasette per cento di tutti gli enti — ed è quello messo peggio.» |
+| **100** | 0:07 | `AST` | Testo su fondo neutro. Nessuna immagine di studenti. | `Non è un contratto. È un'abitudine che si forma a quattordici anni e dura vent'anni.` | **VFC**: la frase, e la successiva: «Quando quegli studenti saranno funzionari pubblici, sapranno usare bene una cosa sola.» |
+| **101** | 0:10 | `SCH-CAP` | Cattura dal vivo del white paper **Google, *Workspace for Education*, agosto 2021**. Si scorre e si evidenzia la riga sulla **Downstream 702**. URL in quadro. | `Google — Workspace for Education, agosto 2021` `[A29]` | **VFC**: «E nel documento che Google dedica proprio alle scuole, c'è una riga che vale la pena leggere.» |
+| **102** | 0:08 | `TXT` | Il verbatim a schermo pieno. Le parole «con attenzione» restano; sotto, in rosso, la chiosa. | «*Nella misura in cui Google LLC possa ricevere richieste mirate […] ai sensi della **Downstream 702**, esaminiamo **con attenzione** ciascuna richiesta.*» → `Esaminiamo con attenzione. Non: rifiutiamo.` | **VFC**: lettura integrale, poi la chiosa. Silenzio dopo. |
+| **103** | 0:06 | `GRAF` | **Cartello di precisione obbligatorio**, fondo differente. Due righe. | `Il dato misura il dominio di posta istituzionale degli istituti registrati nell'IndicePA: è prova diretta della piattaforma adottata dalla scuola.` · `**Non** è una misura di quanti studenti usino quotidianamente un singolo applicativo.` `[A17]` | **VFC** (tono piano): la precisazione. |
 
-> ⚠️ **Trappola 15** — l'Assia **non compare in nessuna inquadratura**: quel divieto fu ritirato dopo tre
-> settimane. Non citarla nemmeno di passaggio.
-> ⚠️ Non affermare l'esistenza di studi empirici sul «lock-in di competenze»: non ne esistono.
+> ⚠️ **TRAPPOLA 15** — l'**Assia non compare in nessuna inquadratura**: quel divieto fu ritirato dopo tre
+> settimane. Se serve un caso europeo a confronto, l'unico solido è il **Baden-Württemberg**, che vi ha
+> davvero rinunciato — ma **in questo atto non c'è spazio e non è necessario**: entra solo se l'atto viene
+> allungato in montaggio.
+> ⚠️ **TRAPPOLE 21, 22, 23** — non si dice che la **Danimarca** abbia vietato Google (ha ordinato ai 53
+> comuni di adeguarsi), né che la **Germania** l'abbia vietato (procedimento cautelare chiuso da
+> transazione). Se si apre il fronte europeo, va citato **anche** l'esito **olandese**, che è un
+> adeguamento e **contraddice la nostra tesi**: è il contro-argomento più forte di Google.
+> ⚠️ **L'inquadratura 100 è un'osservazione, non un risultato scientifico.** Non esistono studi empirici
+> longitudinali sul «lock-in di competenze». La voce non deve dire «gli studi dimostrano».
+> ⚠️ **L'inquadratura 103 non è tagliabile.**
 > ⚠️ **Nessun minore riconoscibile in quadro**, in nessuna inquadratura di questo atto.
 
 **Materiali**
-- 078 ⚠️ **DA REPERIRE** — autorizzazione a riprendere in un istituto, più liberatorie. Girare solo
-  dettagli. In subordine, repertorio con licenza e stesse regole.
-- 🔴 **VERIFICA APERTA `C10`** — se il FOIA al MIM rientra prima del montaggio, l'Atto 10 va rigirato:
-  sarebbe lo scoop del blocco e cambierebbe il registro dell'atto da «assenza» a «rivelazione».
-  Tenere l'atto **modulare** in montaggio proprio per questo.
-- ⛔ Non esistono immagini di «dove stanno i dati degli studenti»: è precisamente ciò che non si sa.
-  L'inquadratura 080 mostra l'assenza, ed è la scelta corretta.
+- 097 ⚠️ **DA REPERIRE** — autorizzazione a riprendere in un istituto, più liberatorie. **Girare solo
+  dettagli.** In subordine, repertorio con licenza e stesse regole.
+- 098–100 ✅ **DISPONIBILE — la verifica `C10` è chiusa e il FOIA al Ministero non serve più** `[A17]`:
+  il dato è nostro. → 098: **scheda nuova `08`, da produrre**.
+- 101–102 ✅ **DISPONIBILE** — il white paper è pubblico e già letto. Cattura dal vivo con URL in quadro.
+- ⛔ **Non esistono immagini di «dove finiscono i dati degli studenti»**: la prova è una misurazione, non
+  una scena. Va mostrata come misurazione — tabella, cifre, metodo — e non illustrata con studenti al
+  computer, che sarebbero decorazione e insinuerebbero ciò che il cartello 103 vieta di dire.
+- ⚠️ **Nota**: nella v1.0 questo atto usava la scheda `07-280-contro-12700.svg`. Nella v2.0 **non è più
+  assegnata**: vedi l'indice delle schede in coda.
 
 ---
 
@@ -323,92 +505,248 @@ Riferito a `SCRIPT-20-MINUTI.md` v1.0 (28 luglio 2026) e vincolato al registro d
 
 | # | Durata | Tipo | Descrizione visiva | Sovrimpressione | Audio / voce |
 |---|---|---|---|---|---|
-| **083** | 0:12 | `AST` | Fondo bianco, per la prima volta nel film. Due frasi. | `Non si tratta di smettere di usare Microsoft.` → `Si tratta di smettere di lasciarla operare.` | **VFC**: le due frasi. Il tema cambia registro. |
-| **084** | 0:24 | `SCH-CAP` | La pagina di documentazione ufficiale Microsoft sui *national clouds*, catturata dal vivo. Si scorre fino alla frase e la si evidenzia. | `Microsoft — documentazione ufficiale sui national clouds` `[A4]` | **VFC**: «Microsoft gestisce già cloud nazionali: istanze isolate, dentro i confini di un Paese, gestite da personale locale.» |
-| **085** | 0:14 | `GRAF` | La citazione, sola, pieno schermo. | ***«Microsoft è il fornitore della tecnologia, ma Microsoft non gestisce il servizio.»*** | **VFC**: lettura integrale. |
-| **086** | 0:24 | `GRAF` | Tre colonne che si costruiscono: **USA** (cloud sotto le proprie regole: costruito) · **Cina** (gestito da azienda locale su licenza) · **Francia** (Bleu, S3NS). Poi la quarta colonna, **Italia**, resta **vuota**. | `L'Italia non l'ha preteso. E infatti non ce l'ha.` | **VFC**: il testo dello script. |
-| **087** | 0:08 | `GRAF` | Cartello obbligatorio di delimitazione, su fondo differente. | `Il modello cinese risponde a esigenze di controllo statale. L'argomento qui è solo strutturale: quando un governo lo impone, il modello si realizza.` | **VFC** (tono piano): la precisazione. |
-| **088** | 0:30 | `SCH` | **SCHEDA `04-tre-leve.svg`** in versione estesa. Le tre leve francesi si abbassano una dopo l'altra (societaria, tecnica, operativa); sul lato italiano solo la tecnica si abbassa a metà, e al posto della societaria compare una freccia procedurale che non chiude nulla. | Titolo scheda + fonte `[A7]` | **VFC**: «La Francia ha scritto una regola: per certificare un cloud, il fornitore deve avere sede in Europa, capitale a controllo europeo, e l'amministrazione del servizio deve avvenire dall'Unione.» |
-| **089** | 0:10 | `AST` | Testo pieno schermo. | `Non ha vietato nessuno. Ha alzato l'asticella.` | **VFC**: le due frasi. |
-| **090** | 0:26 | `SCH` | **SCHEDA `01-scala-sovranita.svg`**, animata: i cinque gradini salgono uno per volta, e accanto a ciascuno compare l'etichetta di esposizione al CLOUD Act — piena, mitigata, esclusa. È la sintesi visiva dell'intero film. | Titolo scheda + fonte | **VFC**: raccordo sui cinque livelli e su dove si colloca oggi l'Italia. |
-| **091** | 0:20 | `SCH-CAP` | Il testo di **COM(2026) 502 final** a schermo, con evidenziata la frase sull'EUCS «*not yet been adopted*». | `Cloud and AI Development Act — Bruxelles, 3 giugno 2026` `[A14]` | **VFC**: «Lo standard europeo che doveva contenere quella regola non è mai stato adottato.» |
-| **092** | 0:16 | `GRAF` | La nuova facoltà restituita agli Stati membri via valutazione del rischio (art. 29). Una casella con la dicitura «valutazione del rischio» resta **vuota** e lampeggia una volta. | `Quella valutazione, in Italia, non è ancora stata fatta.` | **VFC**: la frase. |
-| **093** | 0:14 | `SCH-CAP` | Ritorno esatto all'inquadratura 001. Terminale nero. Il cursore lampeggia. Nessun testo. | — | **VFC**: «Nel frattempo, la posta del Comandante Generale dei Carabinieri continua a passare da Google.» |
-| **094** | 0:10 | `SCH-CAP` | Il cursore continua a lampeggiare. Nessuno digita. | — | **VFC**: «E se un giorno qualcuno la chiedesse, **non lo sapremmo.**» |
-| **095** | 0:06 | `AST` | **NERO.** | — | Silenzio pieno. |
+| **104** | 0:07 | `AST` | Fondo bianco — il secondo del film dopo il bianco della sparizione in 053. Due frasi. | `Non si tratta di smettere di usare Microsoft.` → `Si tratta di smettere di lasciarla operare.` | **VFC**: le due frasi. Il tema cambia registro. |
+| **105** | 0:12 | `SCH-CAP` | La pagina di documentazione ufficiale Microsoft sui *national clouds*, catturata dal vivo. Si scorre fino alla frase e la si evidenzia. URL in quadro. | `Microsoft — documentazione ufficiale sui national clouds` `[A4]` | **VFC**: «Microsoft gestisce già cloud nazionali: istanze isolate, dentro i confini di un Paese, gestite da personale locale.» |
+| **106** | 0:09 | `TXT` | La citazione, sola, pieno schermo. | ***«Microsoft è il fornitore della tecnologia, ma Microsoft non gestisce il servizio.»*** | **VFC**: lettura integrale. |
+| **107** | 0:14 | `GRAF` | Tre colonne che si costruiscono: **USA** (cloud sotto le proprie regole: costruito) · **Cina** (gestito da azienda locale su licenza) · **Francia** (Bleu, S3NS). Poi la quarta colonna, **Italia**, resta **vuota**. | `L'Italia non l'ha preteso. E infatti non ce l'ha.` | **VFC**: il testo dello script. |
+| **108** | 0:05 | `GRAF` | Cartello obbligatorio di delimitazione, su fondo differente. | `Il modello cinese risponde a esigenze di controllo statale. L'argomento qui è solo strutturale: quando un governo lo impone, il modello si realizza.` | **VFC** (tono piano): la precisazione. |
+| **109** | 0:16 | `SCH` | **SCHEDA `04-tre-leve.svg`** in versione estesa. Le tre leve francesi si abbassano una dopo l'altra (societaria, tecnica, operativa); sul lato italiano solo la tecnica si abbassa a metà, e al posto della societaria compare una freccia procedurale che non chiude nulla. | Titolo scheda + fonte `[A7]` | **VFC**: «La Francia ha scritto una regola: per certificare un cloud, il fornitore deve avere sede in Europa, capitale a controllo europeo, e l'amministrazione del servizio deve avvenire dall'Unione.» |
+| **110** | 0:06 | `AST` | Testo pieno schermo. | `Non ha vietato nessuno. Ha alzato l'asticella.` | **VFC**: le due frasi. |
+| **111** | 0:16 | `SCH` | **SCHEDA `01-scala-sovranita.svg`**, animata: i cinque gradini salgono uno per volta, e accanto a ciascuno compare l'etichetta di esposizione al CLOUD Act — piena, mitigata, esclusa. È la sintesi visiva dell'intero film. | Titolo scheda + fonte | **VFC**: raccordo sui cinque livelli e su dove si colloca oggi l'Italia. |
+| **112** | 0:10 | `SCH-CAP` | Il testo di **COM(2026) 502 final** a schermo, con evidenziata la frase sull'EUCS «*not yet been adopted*». | `Cloud and AI Development Act — Bruxelles, 3 giugno 2026` `[A14]` | **VFC**: «Lo standard europeo che doveva contenere quella regola non è mai stato adottato.» |
+| **113** | 0:09 | `GRAF` | La nuova facoltà restituita agli Stati membri via valutazione del rischio (art. 29). Una casella con la dicitura «valutazione del rischio» resta **vuota** e lampeggia una volta. | `Quella valutazione, in Italia, non è ancora stata fatta.` | **VFC**: la frase. |
+| **114** | 0:08 | `SCH-CAP` | Ritorno esatto all'inquadratura 001. Terminale nero. Il cursore lampeggia. Nessun testo. | — | **VFC**: «Nel frattempo, la posta del Comandante Generale dei Carabinieri continua a passare da Google.» |
+| **115** | 0:06 | `SCH-CAP` | Il cursore continua a lampeggiare. Nessuno digita. | — | **VFC**: «E se un giorno qualcuno la chiedesse, **non lo sapremmo.**» |
+| **116** | 0:02 | `AST` | **NERO.** | — | Silenzio pieno. |
+
+> ⚠️ **TRAPPOLA 7** — l'inquadratura 108 non è tagliabile: senza di essa il modello cinese viene
+> presentato come tutela dei diritti, che è falso.
+> ⚠️ **TRAPPOLA 24** — in nessuna inquadratura si dice che l'EUCS «sta per essere adottato». La formula
+> è quella della Commissione: **non è ancora stato adottato**, zero certificati emessi.
 
 **Materiali**
-- 084, 091 ✅ **DISPONIBILE** — pagine pubbliche, cattura dal vivo. Registrare anche l'URL in quadro:
+- 105, 112 ✅ **DISPONIBILE** — pagine pubbliche, cattura dal vivo. Registrare anche l'URL in quadro:
   è ciò che rende la prova riproducibile dallo spettatore.
-- 086 ✅ produzione interna. Verificare lo stato di **Bleu** al momento del montaggio: a metà 2026
-  risultava «in corso», non qualificato. La grafica deve distinguere «qualificato» da «in corso».
-- 088, 090 ✅ schede prodotte.
+- 107 ✅ produzione interna. **Verificare lo stato di Bleu al momento del montaggio**: a metà 2026
+  risultava «in corso», non qualificato, mentre **S3NS è qualificato dal 17 dicembre 2025** `[A29]`.
+  La grafica deve distinguere «qualificato» da «in corso», e S3NS va indicato per quello che è: la prova
+  che **la regola funziona**, non un'eccezione.
+- 109, 111 ✅ schede prodotte.
 - ⛔ **Non esistono riprese di Bleu o S3NS in esercizio** che siano nostre. Se si usa materiale
   aziendale, va etichettato come tale in sovrimpressione: è materiale di parte.
 
 ---
 
-## RIEPILOGO — MATERIALI CHE NON ABBIAMO
+# RIEPILOGO
 
-### ⛔ Cose di cui non esistono immagini (vanno risolte in grafica, per necessità e per onestà)
-1. **Il gag order** (Atto 5, 037–040). È l'esempio-tipo: l'oggetto è per definizione invisibile e la sua
-   esistenza è giuridicamente non comunicabile. Nessun repertorio, nessuna busta con timbro «CLASSIFIED».
-   **Solo grafica astratta + scheda `05-paradosso-segnalazione.svg`.**
-2. **Il mandato §2703 e la direttiva FISA 702** (Atto 3, 025–026). Atti coperti, mai ripresi. Vietato
-   usare immagini generiche di aule di tribunale: per la 702 sarebbero anche concettualmente sbagliate.
-3. **Il piano di controllo** (Atto 4). È software: non è fotografabile. Grafica + spiegazione del tecnico.
-4. **La firma del Presidente** (Atto 1, 011–012). Non si gira un *reenactment*: il movente è ipotetico
-   e la ricostruzione realistica lo trasformerebbe in accusa. Illustrazione dichiaratamente non fotorealistica.
-5. **I verbali e le riunioni ECCG** (Atto 9, 075). Non pubblici, non ripresi. Le dodici sagome restano
-   **senza bandiere**.
-6. **L'interno del catalogo cloud ACN** (Atto 7). Il portale restituisce una pagina di login: la pagina
-   di login è essa stessa il reperto, va mostrata come tale.
-7. **Dove stanno i dati degli studenti** (Atto 10, 080). L'assenza è il contenuto dell'inquadratura.
+## ⛔ Cose che NON si possono filmare
+*(vanno risolte in grafica o in tipografia — per necessità, e per onestà)*
 
-### ⚠️ Materiali d'archivio da reperire (in ordine di priorità)
+| # | Oggetto | Atto / inquadrature | Perché, e come si risolve |
+|---|---|---|---|
+| 1 | **Il gag order** | 5 / 049–052 | L'oggetto è per definizione invisibile e la sua esistenza è giuridicamente non comunicabile. Nessun repertorio, nessuna busta con timbro «CLASSIFIED». Solo grafica astratta + scheda `05`. |
+| 2 | **Il mandato §2703 e la direttiva FISA 702** | 3 / 033–034, 036 | Atti coperti, mai ripresi. Vietato usare aule di tribunale generiche: per la 702 sarebbero anche concettualmente sbagliate. |
+| 3 | **Il piano di controllo** | 4 / 040–041 | È software. Non è fotografabile. Grafica (scheda `03`) + spiegazione del tecnico. |
+| 4 | **La firma del Presidente** | 1 / 011–012 | Il movente è ipotetico: una ricostruzione realistica lo trasformerebbe in accusa. Illustrazione dichiaratamente non fotorealistica. |
+| 5 | **🆕 Le audizioni del Senato francese del 2019** | 2 / 024–027 · 4 / 046 | **Risulta esistere il solo video della seduta del 17 luglio 2019** (Google), citato in `[A27]`. Per **18 luglio** (Microsoft) e **3 settembre** (Amazon/Hadinger) l'esistenza di riprese riutilizzabili **non è verificata**. Finché non lo è: **trattamento tipografico** — resoconto ufficiale, nomi, date, verbatim a schermo. **Mai attribuire a una seduta un'immagine che non è di quella seduta.** |
+| 6 | **🆕 Le persone reali dell'Atto 5-BIS** | 5-BIS / 055, 057 | **Beti Hohler e Nicolas Guillou sono magistrati viventi.** Nessuna ricostruzione, nessun attore, nessuna sagoma, nessuno schermo di telefono con notifica di blocco. **Solo testo a schermo** e, per Guillou, l'atto parlamentare. Ritratti fotografici solo con licenza esplicita e credito; in assenza, si resta sul testo. |
+| 7 | **🆕 Un account che viene disattivato** | 5-BIS / 055–059 | È un record in un database. Ogni «schermata di errore» ricostruita sarebbe una messa in scena. Si racconta con il testo di chi l'ha subito e con il testo di legge che lo impone. |
+| 8 | **🆕 Un'offerta cloud «sovrana» che non funziona** | 4 / 045 | Non c'è niente da riprendere: il difetto è giuridico. Grafica, e **senza marchi commerciali in quadro**. |
+| 9 | **I verbali e le riunioni ECCG** | 9 / 094 | Non pubblici, non ripresi. Le dodici sagome restano **senza bandiere**. |
+| 10 | **L'interno del catalogo cloud ACN** | 7 | Il portale restituisce una pagina di login: **la pagina di login è essa stessa il reperto**, va mostrata come tale. |
+| 11 | **L'esclusione di un fornitore europeo** | 8 / 085 | L'asimmetria è procedurale, non visibile. Grafica. |
+| 12 | **Dove finiscono i dati degli studenti** | 10 / 098 | La prova è una **misurazione**, non una scena. Si mostra come misurazione. Niente studenti al computer come decorazione. |
+| 13 | **Bleu e S3NS in esercizio** | 11 / 107 | Non abbiamo riprese nostre. Materiale aziendale solo se etichettato come materiale di parte. |
+
+> 🗑️ **Uscite dall'elenco rispetto alla v1.0**: gli atti giudiziari della gara PSN (vicenda tagliata) e
+> «l'assenza di dati sulle scuole» (il dato ora ce l'abbiamo, `[A17]`).
+
+## ⚠️ Materiali d'archivio da reperire (in ordine di priorità)
+
 | Priorità | Materiale | Inquadrature | Note |
 |---|---|---|---|
-| 1 | Video ufficiale del Senato francese, 10 giugno 2025 | 018–020 | Termini di riuso + **ricontrollo audio contro il resoconto scritto** `[B2]` |
-| 2 | Comunicato **primario** del DTD, 21 luglio 2026 | 050 | Oggi abbiamo solo il lancio d'agenzia `[B1]` |
-| 3 | Intervista al senatore Dany Wattebled | 022 | Trasforma il documento in testimonianza |
-| 4 | Due parlamentari di schieramenti opposti | 076 | Vincolo editoriale, non opzionale |
-| 5 | Accesso a un data center in Italia | 034 | Da operatore non coinvolto nella polemica |
-| 6 | Dirigente PA che ha scelto la via sovrana | 044 | Difesa, GdF o ente locale |
-| 7 | Giurista di extraterritorialità · tecnico del piano di controllo | 027, 033 | |
-| 8 | Riprese in un istituto scolastico | 078 | Solo dettagli, nessun minore riconoscibile |
-| 9 | Testi integrali TAR Lazio 4338/2023 e Cons. Stato 9210/2023 | 046–047 | Per mostrarli invece di parafrasarli |
-| 10 | Documento olandese che nomina il non-paper DE/ES/FR/IT | 073 | O la citazione nel cepInput 8/2025 |
-| 11 | Repertorio Washington, esterni federali | 010 | Nessun leader identificabile |
+| 1 | Video ufficiale del Senato francese, **10 giugno 2025** | 018–020 | Termini di riuso da chiarire. **Il ricontrollo audio non è più bloccante**: si procede sul resoconto ufficiale, rischio residuo a verbale `[B2]` |
+| 2 | 🆕 Pagina dell'**Assemblée nationale**: interrogazione 11576 e risposta del Governo | 057 | Pubblica. È la migliore fonte documentale del dossier `[A24]` |
+| 3 | 🆕 Testo dell'**EO 14203 §3** su una fonte apribile e inquadrabile | 058 | `federalregister.gov` ed `ecfr.gov` bloccati; letto su *The American Presidency Project*. **In sovrimpressione va la fonte inquadrata** |
+| 4 | 🆕 Video delle audizioni **2019** (17/07 · 18/07 · 03/09) | 024–027, 046 | Solo il 17/07 risulta esistere. Se emergono gli altri due, quelle inquadrature si rigirano coi volti reali |
+| 5 | Intervista al senatore **Dany Wattebled** | 019-BIS | Condizionale: se arriva, ritempificare l'Atto 2 come indicato |
+| 6 | Due parlamentari di schieramenti opposti | 095 | Vincolo editoriale, non opzionale |
+| 7 | Dirigente PA che ha scelto la via sovrana | 065 | Difesa, GdF o ente locale |
+| 8 | Accesso a un data center in Italia | 042 | Da operatore non coinvolto nella polemica |
+| 9 | Giurista di extraterritorialità · tecnico del piano di controllo | 035, 041 | |
+| 10 | Riprese in un istituto scolastico | 097 | Solo dettagli, **nessun minore riconoscibile** |
+| 11 | Documento olandese che nomina il non-paper DE/ES/FR/IT | 092 | O la citazione nel cepInput 8/2025 |
+| 12 | Dichiarazione del 17 aprile 2024 (pagina di quotidiano) | 093 | O resa in grafica citando testata e data |
+| 13 | Comunicato **primario** del DTD, 21 luglio 2026 | 067 | **Non più bloccante**: si procede sul lancio d'agenzia, attribuendolo all'agenzia `[B1]` |
+| 14 | Video della dichiarazione del Sottosegretario | 068 | Opzionale ma forte |
+| 15 | Repertorio Washington, esterni federali | 010 | Nessun leader identificabile |
 
-### 🔴 Verifiche aperte che bloccano o condizionano inquadrature
-| Verifica | Inquadrature bloccate | Conseguenza se resta aperta |
-|---|---|---|
-| **C9** — conteggio FedRAMP dei CSP con casa madre europea | **065–066** | **Non girare.** Se il conteggio smentisce l'ipotesi, va riscritta la tesi dell'Atto 8 |
-| **C5** — esito della domanda risarcitoria Fastweb/Aruba | 048 | La sovrimpressione resta «richiesti», mai «ottenuti» |
-| **C10** — infrastrutture delle scuole migrate | 078–081 | Se il FOIA rientra, l'Atto 10 va rigirato come rivelazione. Tenerlo modulare |
-| **C8** — Aruba S.p.A. fra i firmatari EUCS High+ | — | Il tema non entra nel montaggio finale finché è aperto |
-| Audio Senato francese vs resoconto scritto | 019–020 | **Blocca la messa in onda** dell'Atto 2 |
+> 🗑️ **Uscite dall'elenco**: i testi integrali di TAR Lazio 4338/2023 e Cons. Stato 9210/2023 (vicenda
+> PSN tagliata dal film).
 
-### Diritto di replica — da avviare prima delle riprese
+## 🔴 Verifiche aperte che bloccano o condizionano inquadrature
+
+| Verifica | Inquadrature | Stato | Conseguenza |
+|---|---|---|---|
+| 🆕 **Esistenza di riprese delle audizioni 2019** del 18/07 e 03/09 | 024, 026, 046 | 🔴 **APERTA** | **Non blocca**: se resta aperta, il blocco 2019 e il verbatim Hadinger restano **tipografici**. Non è un ripiego, è la soluzione corretta in assenza di materiale |
+| 🆕 **C11 — testo originale del DoD Cloud SRG** | — | 🔴 **APERTA** | Il documento non è mai stato letto in originale. **Nessuna inquadratura vi poggia**: se serve citarlo, va aperto prima |
+| **C8 — Aruba S.p.A. fra i firmatari EUCS High+** | — | 🟡 parziale | Firmataria certa della lettera del 10/04/2024; per quella del 10/06/2024 l'ambiguità con Aruba Networks resta. **Il tema non entra nel montaggio finale finché è aperto** |
+| 🆕 **Verbale della Business and Trade Committee, febbraio 2026** | — | 🔴 **APERTA** | Riguarda il caso del Procuratore CPI, che **è già escluso dal film** `[A26]`. Non blocca nulla. Se la fonte primaria non si trova, quel punto resta fuori — come è oggi |
+| 🆕 **General License D-2 (31 CFR Part 528)** | 058, 061 | 🔴 **APERTA** | Non letta in originale. Dirime il contro-argomento «esistono licenze per i servizi essenziali». **Se non si chiude, l'inquadratura 061 va tenuta com'è**: il rischio italiano dichiarato **teorico** copre l'obiezione |
+| 🆕 **Percentuale di Google in S3NS** (forchetta 0%–24%) | 107 | 🟡 aperta, non bloccante | SecNumCloud §19.6 fissa il tetto al 24%: la tesi regge in ogni caso. La grafica non deve indicare una percentuale |
+| ~~C5 — esito risarcitorio Fastweb/Aruba~~ | — | ✅ **DECADUTA** | Vicenda **tagliata dal film** |
+| ~~C9 — conteggio FedRAMP~~ | 082–084 | ✅ **CHIUSA** `[A16]` | **Zero fornitori cloud europei.** Le inquadrature si girano. Rifare comunque la ricerca dal vivo il giorno delle riprese e datare la sovrimpressione |
+| ~~C10 — infrastrutture delle scuole~~ | 098–100 | ✅ **CHIUSA** `[A17]` | **Il dato è nostro**: Istruzione 8.403 istituti, 77,7%. Il FOIA al Ministero non serve più |
+| ~~Audio Senato francese vs resoconto~~ | 019–020 | ✅ **ACCETTATA** | Si procede sul resoconto ufficiale. **Non blocca più la messa in onda dell'Atto 2** |
+
+> ✅ **Nessuna verifica aperta blocca oggi una ripresa.** Lo storyboard è girabile per intero.
+
+## Diritto di replica — da avviare prima delle riprese
 Microsoft Italia, Google Italia, PSN, ACN, Dipartimento per la trasformazione digitale: invito formale.
-**Un rifiuto documentato è materiale narrativo**, e va previsto in storyboard come cartello di chiusura.
+**Un rifiuto documentato è materiale narrativo**, e va previsto in storyboard come cartello di chiusura
+(dopo `116`, prima dei titoli di coda).
 Al PSN le tre domande precise: su quali servizi è attivo il *confidential computing*; chi opera
 l'infrastruttura; perché il CLOUD Act non è mai citato nella documentazione.
+🆕 **A Google due domande in più**, generate dai nuovi blocchi: perché il whitepaper di febbraio 2022
+definisce «CLOUD Act request» in senso stretto escludendo i poteri preesistenti `[A28]`; e che cosa
+significhi, operativamente, «esaminiamo con attenzione» nel documento per le scuole `[A29]`.
+🆕 **A AWS una domanda**: come si concilia l'offerta «sovereign» europea di oggi con la dottrina
+enunciata dal proprio CTO davanti al Senato francese il 3 settembre 2019 `[A20]`.
 
 ---
 
 ## SCHEDE GRAFICHE — indice
+
 Tutte in `schede/`, formato SVG autonomo, `viewBox="0 0 1600 900"`, leggibili in bianco e nero.
+
+### Prodotte
 
 | File | Atto / inquadrature | Funzione narrativa |
 |---|---|---|
-| `01-scala-sovranita.svg` | 11 / 090 | Sintesi finale: i cinque livelli e l'esposizione al CLOUD Act |
-| `02-mito-geografia.svg` | 2 / 015–016 | Il punto di non ritorno: dove sta il dato è irrilevante |
-| `03-catena-ordine.svg` | 4 / 032 | Il percorso dell'ordine, e l'Italia che non viene mai informata |
-| `04-tre-leve.svg` | 7 / 057 · 11 / 088 | ANSSI contro ACN: societaria, tecnica, operativa |
-| `05-paradosso-segnalazione.svg` | 5 / 039 | Le due frecce che collidono |
-| `06-linea-bruxelles.svg` | 9 / 072 | 2021→2026: l'Italia ha chiesto, e ha perso |
-| `07-280-contro-12700.svg` | 10 / 079 | 280 sul PSN contro oltre 12.700 su cloud qualificati |
+| `01-scala-sovranita.svg` | 11 / **111** | Sintesi finale: i cinque livelli e l'esposizione al CLOUD Act |
+| `02-mito-geografia.svg` | 2 / **015–016** | Il punto di non ritorno: dove sta il dato è irrilevante |
+| `03-catena-ordine.svg` | 4 / **040** | Il percorso dell'ordine, e l'Italia che non viene mai informata |
+| `04-tre-leve.svg` | 7 / **074** · 11 / **109** | ANSSI contro ACN: societaria, tecnica, operativa |
+| `05-paradosso-segnalazione.svg` | 5 / **051** | Le due frecce che collidono |
+| `06-linea-bruxelles.svg` | 9 / **091** | 2021→2026: l'Italia ha chiesto, e ha perso |
+| `07-280-contro-12700.svg` | — **non assegnata nella v2.0** | Serviva l'Atto 10 della v1.0, che è stato riscritto. **Riusabile come alternativa grafica all'inquadratura 069** (Atto 7), dove i numeri della migrazione compaiono comunque. Non va prodotta di nuovo, non va buttata |
 
 **Palette** — blu `#0066CC` istituzionale/italiano · rosso `#D9364F` esposizione/USA ·
 verde `#1D9E75` protetto · grigio `#6C757D` neutro · sfondo bianco.
+
+### Da produrre — specifiche
+*(queste schede **non esistono ancora**: qui c'è solo la specifica, come richiesto)*
+
+---
+
+#### `08-istruzione-777.svg` — «Il cluster più grande è quello messo peggio»
+**Atto 10, inquadratura 098** · fonte `[A17]` · **priorità 1: è il dato di punta del film**
+
+- **Struttura**: classifica orizzontale a barre, quattro righe, ordinata per quota extra-UE decrescente.
+- **Dati esatti, da non arrotondare**:
+  | Cluster | Enti | Quota extra-UE | Provider dominante |
+  |---|---|---|---|
+  | **Istruzione** | **8.403** | **77,7%** | Google Workspace |
+  | PA Centrale | 52 | 63,5% | Microsoft 365 |
+  | Sanità | 234 | 59,4% | Microsoft 365 |
+- **Seconda dimensione, obbligatoria**: accanto alla quota va rappresentata **anche la dimensione del
+  cluster** (larghezza della riga proporzionale al numero di enti). Senza questa seconda dimensione la
+  scheda dice «le scuole stanno peggio»; con essa dice **«il cluster più grande è anche quello messo
+  peggio»**, che è l'argomento. `8.403 = 37% di tutti gli enti misurati.`
+- **Animazione**: le righe entrano dal basso; Sanità, PA Centrale e le altre passano e **non si fermano**;
+  Istruzione resta sola in quadro con i due numeri ingranditi.
+- **Colori**: Istruzione in rosso `#D9364F` pieno; le altre in grigio `#6C757D`. Nessun verde in questa
+  scheda: non c'è nulla di protetto da rappresentare.
+- **Riga di metodo, in corpo minore, non tagliabile**: *«misurazione dei domini di posta istituzionale
+  degli istituti registrati nell'IndicePA»*. È il cartello 103 in forma grafica: deve stare **dentro** la
+  scheda, così che sopravviva a qualunque taglio di montaggio.
+
+---
+
+#### `09-quattro-voci.svg` — «Sei anni, tre aziende, un solo no»
+**Atto 2, inquadrature 026–027** · fonte `[A19]` `[A27]` · **priorità 1**
+
+- **Struttura**: quattro righe in colonna, ciascuna con **data · azienda · persona · risposta in
+  verbatim breve**. Le prime tre sono del 2019, la quarta del 2025 ed è separata da una linea orizzontale
+  che segna i **sei anni**.
+  | Data | Azienda | Voce | Risposta |
+  |---|---|---|---|
+  | 17 luglio 2019 | Google France | Benoît Tabaka | «quelle disposizioni non sono in vigore» |
+  | 18 luglio 2019 | Microsoft | Marc Mossé · Mathieu Coulaud | nessuna garanzia |
+  | 3 settembre 2019 | AWS France | Julien Groues · Stéphan Hadinger | «noi applichiamo la legge» |
+  | **10 giugno 2025** | **Microsoft France** | **Anton Carniaux** | ***«No, non posso garantirlo»*** |
+- **Colonna di destra — la colonna che conta**: tre caselle `sì / no` che restano **entrambe vuote** per
+  le prime tre righe. Solo nella quarta la casella `no` si riempie. È l'intera argomentazione in un
+  elemento grafico.
+- **Colori**: le tre righe del 2019 in grigio `#6C757D` — **nessun rosso**, perché nessuno dei tre ha
+  mentito e il registro delle trappole (n. 20) lo vieta. La riga del 2025 in rosso `#D9364F`.
+- **Riga in calce, non tagliabile**: *«Tutti auditi sotto giuramento — Senato francese, commissioni
+  d'inchiesta 2019 e 2025»*.
+- ⚠️ **Vincolo di progetto**: la scheda **non deve suggerire una gerarchia di colpevolezza** fra le tre
+  aziende del 2019. Sono tre non-risposte equivalenti. Ogni scelta grafica che ne evidenzi una è un errore
+  editoriale, non estetico.
+
+---
+
+#### `10-denaro-contro-dati.svg` — «Per il denaro esiste una procedura»
+**Atto 5-BIS, inquadratura 060** · fonte `[A25]` · **priorità 1: è il fatto analitico più forte dell'atto**
+
+- **Struttura**: due colonne perfettamente simmetriche, stessa larghezza, stessa altezza, stessa
+  tipografia. La simmetria è il contenuto: qualunque asimmetria grafica indebolisce l'argomento.
+  - **Sinistra — DENARO BLOCCATO**: quattro voci piene → *conto fruttifero* · *interessi maturati* ·
+    *tracciabilità e audit trail* · *restituzione in caso di delisting*.
+  - **Destra — DATI BLOCCATI**: quattro caselle **vuote**, con il solo contorno tratteggiato. Nessun
+    testo, nessuna X, nessun punto interrogativo: **il vuoto è il dato**.
+- **Animazione**: le quattro voci di sinistra si accendono una per una, ciascuna con un suono. Le quattro
+  caselle di destra si disegnano nello stesso tempo, in silenzio.
+- **Chiusura**: sotto entrambe le colonne, a piena larghezza,
+  `Per il denaro esiste una procedura. Per la vita digitale, no.`
+- **Colori**: sinistra in blu `#0066CC`; destra in grigio `#6C757D` tratteggiato. **Niente rosso**: qui
+  non si sta accusando nessuno, si sta constatando un'assenza di disciplina.
+
+---
+
+#### `11-limiti-audit-nitro.svg` — «Nessuna garanzia su modifiche imposte»
+**Atto 4, inquadratura 047** · fonte `[A21]` · **priorità 2**
+
+- **Struttura**: un perimetro chiuso (il sistema Nitro) con **quattro tacche** sul bordo che si spengono
+  una per volta, ciascuna con l'etichetta del limite **dichiarato dall'auditor stesso**:
+  1. *auditor pagato da AWS*
+  2. *design review senza test sui sistemi reali*
+  3. *piano di controllo EC2, hypervisor, firmware e Nitro Card **fuori perimetro***
+  4. *nessuna garanzia rispetto a modifiche tecniche future «scelte o **imposte**»*
+- **Chiusura**: alla quarta tacca il perimetro resta aperto e la sola parola **«imposte»** («*compelled*»)
+  si ingrandisce al centro, con sotto la riga: `La parola è dell'auditor.`
+- **Contrappeso obbligatorio**, in corpo minore in calce: *Trail of Bits, valutazione indipendente non
+  pagata da AWS: «you must completely trust AWS».*
+- ⚠️ **Vincolo di progetto**: la scheda **non dice che Nitro non funziona**. Dice che l'auditor ha
+  dichiarato lui stesso che cosa il proprio lavoro non copre. La differenza è tutta la credibilità
+  dell'atto. Nessun elemento grafico deve suggerire un difetto tecnico del prodotto.
+- **Colori**: perimetro grigio `#6C757D`; le tacche si spengono in rosso `#D9364F`; la parola «imposte»
+  in rosso pieno.
+
+---
+
+#### `12-fedramp-zero.svg` — «Per vendere al governo americano un europeo deve diventare americano»
+**Atto 8, inquadrature 083–084** · fonte `[A16]` · **priorità 2**
+
+- **Struttura in due metà, che si susseguono nella stessa scheda**:
+  - **Metà A — gli assenti**: i nove nomi entrano in colonna, ciascuno seguito da **«assente»** in rosso:
+    `OVHcloud` · `IONOS` · `Deutsche Telekom` · `Scaleway` · `Hetzner` · `Aruba` · `Orange` · `Bleu` ·
+    `S3NS`. In alto, il totale: `684 prodotti autorizzati · 511 certificati`.
+  - **Metà B — i presenti, e con che nome**: cinque righe in cui il gruppo europeo è in grigio e la
+    **parte americana della ragione sociale si accende in rosso**:
+    SAP · **National Security Services Inc.** — Siemens · **Government Technologies** —
+    Software AG · **Government Solutions** — Darktrace · **Federal Inc.** — Ericsson · **NetCloud Federal**
+- **Chiusura**: `Per vendere al governo americano, un europeo deve prima diventare americano.`
+- **Riga di cautela obbligatoria, in corpo minore**: *«Aruba» nell'elenco FedRAMP è **Aruba Networks
+  (HPE, statunitense)**, non Aruba S.p.A.* — è la stessa avvertenza di `[A6]`/`[A16]` e va nella scheda,
+  non solo nel commento, perché è l'errore che un fact-checker cercherà per primo.
+- **Data**: la scheda deve riportare **la data della verifica** in un campo isolato e facilmente
+  aggiornabile: va rifatta il giorno delle riprese.
+
+---
+
+**Riepilogo schede**: 7 prodotte (una delle quali, la `07`, non più assegnata) + **5 da produrre**
+(`08`, `09`, `10`, `11`, `12`), di cui **tre di priorità 1** — `08-istruzione-777`, `09-quattro-voci`,
+`10-denaro-contro-dati` — perché sostengono da sole i tre blocchi nuovi della v2.0.
