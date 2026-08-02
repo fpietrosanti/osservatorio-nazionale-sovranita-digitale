@@ -1,17 +1,39 @@
 # STORYBOARD — «NON POSSO GARANTIRLO»
-## Documentario d'inchiesta — 20 minuti — storyboard sequenziale v2.0
+## Documentario d'inchiesta — 20 minuti — storyboard sequenziale v2.1
 
-Riferito a `SCRIPT-20-MINUTI.md` **v2.0 (29 luglio 2026), 13 atti**, e vincolato al registro delle
+Riferito a `SCRIPT-20-MINUTI.md` **v2.1 (29 luglio 2026), 12 atti**, e vincolato al registro delle
 **24 trappole** di `STATO-DELLE-CONOSCENZE.md`. I riferimenti `[A#]` / `[B#]` rimandano a quel documento.
+Il registro delle trappole **resta valido per intero**, anche nelle voci che riguardano materiale
+non più in film: serve a impedire che rientri.
 
-**116 inquadrature** (`001`–`116`) più una condizionale (`019-BIS`), su 20:00 esatti.
+**107 inquadrature** (`001`–`107`) più una condizionale (`019-BIS`), su 20:00 esatti.
 
-**Che cosa è cambiato rispetto alla v1.0**
+**Che cosa cambia in v2.1**
+- 🗂️ **L'atto «Non è un'ipotesi: è già successo» — blocco degli account e delle identità digitali —
+  è tagliato dal film.** Cadono le nove
+  inquadrature `053`–`061` della v2.0 e **tutte le successive si rinumerano meno nove**
+  (la vecchia `062` è la nuova `053`, la vecchia `116` è la nuova `107`).
+  **Perché**: le prove reggevano — il verbatim non è mai stato contestato e il secondo caso è un atto
+  parlamentare con risposta di Governo — ma **il vettore è un altro**: sanzioni su persone fisiche, non
+  giurisdizione sui dati della PA. Per l'Italia il rischio resta **dichiarato teorico**, e in onda la
+  replica ovvia sarebbe *«cosa c'entra con la posta di un comune?»*. Il materiale **resta nei dossier**:
+  è una buona storia, ma è un'altra storia.
+- **I 75 secondi recuperati sono riassegnati**: **+15"** all'**Atto 9** e **+60"** all'**Atto 11**.
+  Sono **margine riservato** alle correzioni in coda dello script (lettera EUCS High+ nell'Atto 9;
+  conclusione a due strade e caso cinese con il nome nell'Atto 11): finché quelle correzioni non
+  arrivano, i secondi stanno distribuiti sulle inquadrature esistenti come indicato negli atti.
+- **La sparizione della dicitura `SIMULAZIONE DOCUMENTATA`** — che era l'evento d'apertura dell'atto
+  tagliato — **si sposta alla chiusura dell'Atto 5**, nell'inquadratura `052`. Vedi la scheda tecnica
+  in coda a quell'atto.
+- **La scheda `10-denaro-contro-dati.svg` resta senza collocazione**: è prodotta, non va cancellata,
+  non è assegnata ad alcuna inquadratura. Vedi l'indice delle schede.
+- **Tutti i timecode dall'Atto 6 in poi sono cambiati.**
+
+**Che cosa era già cambiato rispetto alla v1.0**
 - **Atto 2** raddoppia: al montaggio del 2025 si aggiungono le **audizioni del 2019** (Google, Microsoft,
   Amazon) e l'**ammissione scritta di Google** del febbraio 2022. `[A19]` `[A27]` `[A28]`
 - **Atto 4** raddoppia: **autoconfutazione del CTO di AWS** sotto giuramento e **limiti dell'audit Nitro**.
   `[A20]` `[A21]` `[A22]`
-- **Nuovo ATTO 5-BIS** (`053`–`061`): il film smette di essere simulazione. `[A23]` `[A24]` `[A25]` `[A26]`
 - **Atto 6 dimagrisce**: la vicenda della gara PSN è **tagliata dal film** (resta nel dossier `[A8]`).
   Cadono cinque inquadrature della v1.0 (le vecchie 045–049) e con esse la verifica bloccante `C5`.
 - **Atto 8**: il conteggio FedRAMP è **chiuso** (`C9` → `[A16]`, zero fornitori cloud europei). Le
@@ -19,7 +41,6 @@ Riferito a `SCRIPT-20-MINUTI.md` **v2.0 (29 luglio 2026), 13 atti**, e vincolato
 - **Atto 10 riscritto**: non più «il vuoto è la notizia», ma **il dato peggiore del dataset**
   (Istruzione, 8.403 istituti, 77,7%) più l'ammissione **FISA 702** nel documento Google per le scuole.
   `[A17]` `[A29]`. Cade la verifica `C10`.
-- **Tutti i timecode sono cambiati.**
 
 ---
 
@@ -44,12 +65,12 @@ Riferito a `SCRIPT-20-MINUTI.md` **v2.0 (29 luglio 2026), 13 atti**, e vincolato
 
 **Regole di sovrimpressione permanenti**
 - Nei segmenti di scenario resta a video, **in basso a sinistra**, la dicitura `SIMULAZIONE DOCUMENTATA`.
-  Compare in `010` (Atto 1) e **sparisce in `053`** (Atto 5-BIS): la sua sparizione è un evento narrativo,
-  non un dettaglio grafico. Vedi la scheda tecnica dell'Atto 5-BIS.
+  Compare in `010` (Atto 1) e **sparisce dentro `052`**, l'ultima inquadratura dell'Atto 5: la sua
+  sparizione è un evento narrativo, non un dettaglio grafico. Vedi la scheda tecnica in coda all'Atto 5.
 - Ogni affermazione fattuale porta la propria fonte in basso a destra, corpo piccolo, sempre leggibile.
 - **Nessun *reenactment* con attori che impersonino persone reali identificabili.** Vale per il Presidente
-  dell'Atto 1 (persona ipotetica) e, con forza maggiore, per i due magistrati dell'Atto 5-BIS
-  (persone reali, viventi, identificate per nome).
+  dell'Atto 1 (persona ipotetica) e per chiunque altro: le persone reali del film compaiono solo
+  attraverso materiale d'archivio autentico o attraverso i propri documenti.
 
 ---
 
@@ -223,7 +244,30 @@ Riferito a `SCRIPT-20-MINUTI.md` **v2.0 (29 luglio 2026), 13 atti**, e vincolato
 | **049** | 0:14 | `GRAF` | Un documento che si chiude e viene sigillato. Sopra, una fascia che copre la parola «comunicazione». Bianco e nero, nessun colore salvo il rosso del sigillo. | `gag order — divieto giuridico di informare il cliente` | **VFC**: «Insieme all'ordine può arrivare un *gag order*: il divieto giuridico, per il fornitore, di dire al cliente che è successo.» |
 | **050** | 0:10 | `GRAF` | Tre sagome che si spengono una dopo l'altra: il comandante, il ministro, il Parlamento. Nessun volto reale. | `Non lo saprebbe il comandante · Non lo saprebbe il ministro · Non lo saprebbe il Parlamento` | **VFC**: la terna. Una nota grave per ogni sagoma che si spegne. |
 | **051** | 0:22 | `SCH` | **SCHEDA `05-paradosso-segnalazione.svg`**, animata: la freccia blu della norma italiana parte e avanza; la freccia rossa del *gag order* parte in senso opposto; le due collidono al centro e si bloccano. | Titolo scheda + fonte `[A7]` | **VFC**: «Il regolamento italiano una regola ce l'ha… Ma un *gag order* americano vieta esattamente quella segnalazione.» |
-| **052** | 0:09 | `AST` | Nero. Una sola frase, centrata, che resta. **Ultima inquadratura con la dicitura `SIMULAZIONE DOCUMENTATA` a video.** | `La norma italiana chiede una comunicazione che la legge americana proibisce.` | **VFC**: la frase, poi silenzio pieno di due secondi. |
+| **052** | 0:09 | `AST` + `GRAF` | Nero. Una sola frase, centrata, che resta. Poi la frase esce e **la dicitura resta sola in quadro**: è l'unica inquadratura del film in cui la grafica di servizio diventa soggetto. **Ultima inquadratura con la dicitura `SIMULAZIONE DOCUMENTATA` a video.** Vedi la scheda tecnica qui sotto. | `La norma italiana chiede una comunicazione che la legge americana proibisce.` → poi ~~`SIMULAZIONE DOCUMENTATA`~~ → *(nulla)* | **VFC**: la frase, poi silenzio pieno. Sotto la cancellazione, il ronzio a bassa frequenza di `001`, che si interrompe di netto. |
+
+### Scheda tecnica: come si rende la sparizione della dicitura (dentro `052`)
+
+La dicitura `SIMULAZIONE DOCUMENTATA` è stata in basso a sinistra, immobile, per **sette minuti e
+quarantacinque secondi** (da `010` a `052`). Lo spettatore ha smesso di vederla. Farla sparire con una
+dissolvenza non produrrebbe alcun effetto.
+
+**Si fa così, dentro i nove secondi dell'inquadratura:**
+
+1. **0:00–0:04** — la frase sul nero, letta dalla voce. Poi il testo della frase esce: la dicitura no.
+   Restano due secondi in cui **è l'unico elemento in quadro**. Lo spettatore è costretto a guardarla.
+2. **0:06** — la dicitura **si ingrandisce fino al centro del quadro**, in un solo movimento, e per un
+   istante diventa un titolo di testa.
+3. **0:07–0:08** — **si cancella da destra a sinistra**, carattere per carattere, con la stessa cadenza e
+   lo stesso carattere da terminale dell'inquadratura `003` — la stessa mano che ha digitato la prima
+   prova del film adesso cancella l'avvertenza. È un *backspace*, non una dissolvenza.
+4. **0:09** — sul carattere finale il quadro **va a bianco pieno**, non a nero. Il bianco dura un battito
+   e l'Atto 6 attacca sul nero: lo stacco bianco→nero è il senso dell'operazione.
+5. Da quel momento e fino alla fine del film **la fascia in basso a sinistra resta vuota**. Non viene
+   sostituita da nessun'altra etichetta. **L'assenza è la dichiarazione.**
+
+> ⚠️ **Il bianco è un colore contato.** Il film lo usa **tre volte in tutto**: `013`, la chiusa di `052`
+> e l'apertura dell'Atto 11. Non aggiungerne altri in montaggio.
 
 **Materiali**
 - ⛔ **NON ESISTONO RIPRESE DI UN GAG ORDER.** È il caso limite del film: l'oggetto è per definizione
@@ -231,94 +275,12 @@ Riferito a `SCRIPT-20-MINUTI.md` **v2.0 (29 luglio 2026), 13 atti**, e vincolato
   **Va risolto interamente in grafica astratta (049–052) più la scheda 05.** Non usare immagini di
   buste, timbri «CLASSIFIED» americani o simili: sono iconografia da fiction e indeboliscono il film.
 - La scheda 05 è il documento visivo portante dell'atto: qui la grafica non illustra, **dimostra**.
+- `052` ✅ produzione interna, ma **va animata insieme a `003`**: la cadenza di battitura deve essere la
+  stessa, altrimenti la citazione visiva non si legge.
 
 ---
 
-## ATTO 5-BIS — NON È UN'IPOTESI: È GIÀ SUCCESSO · 9:15–10:30
-**Qui il film smette di essere una simulazione.** `[A23]` `[A24]` `[A25]`
-
-### La soluzione visiva: come si rende la sparizione della dicitura
-
-La dicitura `SIMULAZIONE DOCUMENTATA` è stata in basso a sinistra, immobile, per **otto minuti e
-quarantacinque secondi** (da `010` a `052`). Lo spettatore ha smesso di vederla. Farla sparire con un
-dissolvenza non produrrebbe alcun effetto.
-
-**Si fa così, ed è l'unica inquadratura del film in cui la grafica di servizio diventa soggetto:**
-
-1. Sul nero di `052` la dicitura è **l'unico elemento rimasto in quadro**. Restano tre secondi in cui non
-   c'è nient'altro: il testo della frase esce, la dicitura no. Lo spettatore è costretto a guardarla.
-2. La dicitura **si ingrandisce fino al centro del quadro**, in un solo movimento, e per un istante
-   diventa un titolo di testa.
-3. **Si cancella da destra a sinistra**, carattere per carattere, con la stessa cadenza e lo stesso
-   carattere da terminale dell'inquadratura `003` — la stessa mano che ha digitato la prima prova del
-   film adesso cancella l'avvertenza. È un *backspace*, non una dissolvenza.
-4. Sul carattere finale il quadro **va a bianco pieno** — non a nero. Il film ha usato il bianco solo due
-   volte (013 e, più avanti, 104): qui il bianco significa che è caduto il velo.
-5. Da quel momento e fino alla fine del film **la fascia in basso a sinistra resta vuota**. Non viene
-   sostituita da nessun'altra etichetta. L'assenza è la dichiarazione.
-
-**Il rumore**: sotto tutta l'operazione corre il ronzio a bassa frequenza dell'inquadratura `001`, che si
-interrompe di netto sul bianco. Da lì in poi, per dieci secondi, **nessuna musica**.
-
-### Come si trattano i due casi reali — decisione presa, non opzione
-
-**Beti Hohler e Nicolas Guillou sono due magistrati in carica, viventi, identificati per nome.**
-Non sono personaggi. La regola è secca:
-
-- ⛔ **Nessuna ricostruzione. Nessun attore. Nessuna sagoma che li rappresenti.** Nessuna mano che digita
-  una password, nessuno schermo di telefono con una notifica di blocco, nessun *device* in scena. Sono
-  tutte immagini che il montaggio produrrebbe volentieri e che qui **sono vietate**: trasformerebbero due
-  fatti documentati in una fiction, e regalerebbero alla controparte il modo di liquidarli.
-- ✅ **Si usa solo testo a schermo** (`TXT`) — dichiarato, con fonte e data in quadro. Il verbatim di
-  Hohler è **una citazione scritta**: la sua forma naturale è la pagina, non il volto.
-- ⚠️ **Ritratti fotografici**: solo se se ne ottiene licenza esplicita e solo come fotografia ferma
-  dichiarata tale, con credito. **In assenza di licenza, non si sostituisce con niente**: si resta sul
-  testo. Un ritratto non è necessario e la sua mancanza non indebolisce l'inquadratura.
-- Per **Guillou** l'immagine forte non è la persona: è **l'atto parlamentare**. Interrogazione 11576
-  Lachaud del 9 dicembre 2025 e risposta ufficiale del Governo francese del 10 febbraio 2026, catturate
-  dal vivo dal sito dell'Assemblée nationale. È la migliore fonte documentale dell'intero dossier: si
-  mostra il documento, non l'uomo.
-
-| # | Durata | Tipo | Descrizione visiva | Sovrimpressione | Audio / voce |
-|---|---|---|---|---|---|
-| **053** | 0:06 | `GRAF` | **LA SPARIZIONE.** Le cinque fasi descritte sopra: la dicitura resta sola, si ingrandisce, si cancella in *backspace*, il quadro va a **bianco pieno**. La fascia in basso a sinistra resta vuota per il resto del film. | ~~`SIMULAZIONE DOCUMENTATA`~~ → *(nulla)* | Ronzio di 001 che si interrompe di netto sul bianco. Poi silenzio. |
-| **054** | 0:05 | `AST` | Bianco pieno. Al centro, in nero, due parole soltanto. | `Marzo 2026` | **VFC**: «Tutto quello che avete visto finora è una ricostruzione: una porta che è aperta. Adesso basta con le ricostruzioni.» |
-| **055** | 0:14 | `TXT` | **Il verbatim a schermo pieno, e nient'altro in quadro.** Il testo entra riga per riga, alla velocità di lettura. La frase «da un giorno all'altro, senza preavviso» si accende per ultima. Attribuzione fissa in basso: nome, ruolo, data. Nessun volto, nessun oggetto, nessuna animazione decorativa. | «*Il mio Apple ID, iCloud, Amazon, Airbnb, PayPal e altri account sono stati tutti bloccati o cancellati. Queste cancellazioni sono avvenute **da un giorno all'altro, senza preavviso**.*» — **Beti Hohler, giudice**, marzo 2026 `[A24]` | **VFC**: «Una giudice slovena — cittadina dell'Unione europea — scrive questo.» Poi lettura integrale. |
-| **056** | 0:06 | `AST` | La citazione si ritira. Resta una riga sola su bianco. | `Nessuna azienda l'ha mai smentita.` | **VFC**: la frase. Silenzio dopo. |
-| **057** | 0:10 | `SCH-CAP` | **Il secondo caso, trattato come documento.** Cattura dal vivo del sito dell'Assemblée nationale: l'interrogazione 11576 e la risposta del Governo, affiancate. Si evidenzia la formula sul regolamento di blocco. L'URL resta in quadro. | `Nicolas Guillou, giudice francese` · `Interrogazione 11576 (Lachaud), 9 dicembre 2025 — risposta del Governo, 10 febbraio 2026` `[A24]` | **VFC**: «E non è sola: un giudice francese ha subito lo stesso trattamento — un caso arrivato in Parlamento, con risposta ufficiale del Governo francese.» |
-| **058** | 0:12 | `SCH-CAP` + `TXT` | **Perché accade.** Il testo dell'**EO 14203 §3** catturato a schermo; si evidenzia in rosso la sequenza «*funds, goods, or services*». La sola parola **«services»** resta poi in quadro, ingrandita, con l'indicazione che è testo presidenziale, non interpretazione. | `Ordine esecutivo — «the provision of funds, goods, or **services**»` `[A23]` | **VFC**: «Non è una scelta delle aziende. Un ordine esecutivo statunitense vieta di fornire "fondi, beni o servizi" a una persona designata. La parola "servizi" è nel testo presidenziale. Un'azienda americana che continuasse a servirla commetterebbe un illecito.» |
-| **059** | 0:07 | `GRAF` | Una cifra sola, che si compone: **~3,3 milioni di dollari**, aprile 2023, OFAC + BIS. Sotto, in corpo minore, la ragione. | `Microsoft, aprile 2023 — sanzione per aver fornito servizi a soggetti designati` `[A23]` | **VFC**: «Microsoft lo sa bene: nel 2023 è stata multata proprio per questo.» |
-| **060** | 0:10 | `SCH-NEW` | **SCHEDA `10-denaro-contro-dati.svg`** — due colonne. A sinistra, **DENARO**: conto fruttifero, interessi, tracciabilità, restituzione in caso di delisting: quattro voci che si accendono una per una. A destra, **DATI**: quattro righe che restano **vuote**. Poi la riga di chiusura sotto entrambe. | `Per il denaro esiste una procedura. Per la vita digitale, no.` `[A25]` | **VFC**: il testo dello script. Le quattro voci di sinistra hanno un suono; le quattro caselle vuote di destra no. |
-| **061** | 0:05 | `GRAF` | **Cartello di delimitazione obbligatorio**, fondo differente. Tre righe. | `Questo è un potere diverso dal CLOUD Act: non leggere i dati, ma spegnere l'accesso.` · `In Italia esistono soggetti designati, ma nessun effetto digitale documentato.` · `Per un ente pubblico italiano il rischio è, ad oggi, **teorico**.` `[A26]` | **VFC** (tono piano): le tre precisazioni. |
-
-> ⚠️ **TRAPPOLA `[A26]` — il caso del Procuratore della Corte penale internazionale NON COMPARE in nessuna
-> inquadratura di questo atto**, in nessuna forma, nemmeno come accenno di raccordo. La fonte sono
-> funzionari anonimi e Microsoft ha smentito. È il caso più fragile del dossier, non il più forte.
-> ⚠️ **Non compaiono** la vicenda Microsoft/Russia 2024 (base giuridica **europea**, non americana),
-> Huawei (strumento diverso: Entity List, non OFAC), né X/Starlink (fenomeno **opposto**: uno Stato che
-> interdice un'azienda). Citarli dimostrerebbe la tesi della controparte.
-> ⚠️ **L'inquadratura 061 non è tagliabile.** Senza di essa l'atto dice che l'Italia ha già subito un
-> blocco digitale, che è falso.
-> ⚠️ **Non confondere mai i due poteri.** Il montaggio non deve creare raccordi visivi fra la catena
-> dell'ordine (scheda 03, Atto 4) e questo atto: stesso avversario, meccanismi diversi.
-
-**Materiali**
-- 053, 054, 056, 059, 060, 061 ✅ produzione interna. 060 → **scheda nuova `10`, da produrre**.
-- 055 ✅ **DISPONIBILE** come testo — il verbatim è acquisito. ⛔ **Nessuna immagine della persona**, salvo
-  ritratto licenziato (vedi regola sopra). **Nessuna ricostruzione, in nessun caso.**
-- 057 ⚠️ **DA REPERIRE, priorità 2** — la pagina dell'Assemblée nationale con interrogazione e risposta.
-  È pubblica: serve solo catturarla in ripresa, con URL in quadro.
-- 058 ⚠️ **DA REPERIRE** — il testo dell'EO va catturato su una fonte apribile: `federalregister.gov` ed
-  `ecfr.gov` risultano bloccati, l'EO è stato letto su *The American Presidency Project*. **Nella
-  sovrimpressione va indicata la fonte effettivamente inquadrata**, non quella che avremmo voluto.
-- ⛔ **Non esistono immagini di un account che viene disattivato.** L'oggetto è un record in un database.
-  Ogni «schermata di errore» ricostruita sarebbe una messa in scena: **vietata**. Il blocco si racconta
-  con il testo di chi l'ha subito e con il testo di legge che lo impone. Sono entrambi documenti, ed è
-  esattamente il registro che l'atto richiede.
-
----
-
-## ATTO 6 — LA SVOLTA: ERA UNA SCELTA · 10:30–11:45
+## ATTO 6 — LA SVOLTA: ERA UNA SCELTA · 9:15–10:30
 
 | # | Durata | Tipo | Descrizione visiva | Sovrimpressione | Audio / voce |
 |---|---|---|---|---|---|
@@ -346,7 +308,7 @@ Non sono personaggi. La regola è secca:
 
 ---
 
-## ATTO 7 — LO STATO CERTIFICA, E NON SA · 11:45–14:00
+## ATTO 7 — LO STATO CERTIFICA, E NON SA · 10:30–12:45
 
 | # | Durata | Tipo | Descrizione visiva | Sovrimpressione | Audio / voce |
 |---|---|---|---|---|---|
@@ -383,7 +345,7 @@ Non sono personaggi. La regola è secca:
 
 ---
 
-## ATTO 8 — L'ASIMMETRIA · 14:00–15:45
+## ATTO 8 — L'ASIMMETRIA · 12:45–14:30
 
 | # | Durata | Tipo | Descrizione visiva | Sovrimpressione | Audio / voce |
 |---|---|---|---|---|---|
@@ -424,7 +386,8 @@ Non sono personaggi. La regola è secca:
 
 ---
 
-## ATTO 9 — BRUXELLES: L'ITALIA HA CHIESTO, E HA PERSO · 15:45–17:00
+## ATTO 9 — BRUXELLES: L'ITALIA HA CHIESTO, E HA PERSO · 14:30–16:00
+**+15 secondi in v2.1.** Vedi la nota sul margine riservato in coda all'atto.
 
 | # | Durata | Tipo | Descrizione visiva | Sovrimpressione | Audio / voce |
 |---|---|---|---|---|---|

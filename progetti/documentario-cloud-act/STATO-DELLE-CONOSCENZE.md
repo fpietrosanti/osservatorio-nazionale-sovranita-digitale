@@ -659,6 +659,59 @@ Confronto: Microsoft e Google pubblicano di più.
 🔴 **NUOVO PUNTO APERTO — priorità alta**: AWS invoca fra le proprie difese l'**immunità sovrana** (FSIA),
 argomento **pertinente proprio alla PA italiana** e **non ancora verificato**. Da chiudere.
 
+### A34. 🇩🇪🇦🇹🇨🇭 Le migrazioni davvero concluse sono **militari** — e il resto è più fragile
+23 casi censiti nell'area germanofona e Benelux. Il pattern che emerge non era atteso:
+
+**Concluse (non annunciate):**
+- **BwMessenger** (Bundeswehr, Matrix/Element) — **oltre 100.000 utenti dal 2020**, certificato BSI per
+  materiale classificato *VS-NfD*. **È l'unica migrazione open source su larga scala conclusa dell'area.**
+- **Bundesheer austriaco** — **16.000 postazioni LibreOffice**, con decisione motivata **esplicitamente
+  dalla sovranità**, non dal risparmio.
+
+🎯 **Reperto singolo più forte**: il **Comando Cyber dell'esercito svizzero** lascia Microsoft 365 per
+**openDesk** (autunno 2026). Il comandante dichiara pubblicamente che M365 «**non è adatto**» alle esigenze
+di riservatezza, e la stampa svizzera lo collega al CLOUD Act.
+⚠️ **È annunciato, non fatto.**
+
+### A35. I due fallimenti — documentati, e più istruttivi dei successi
+- **Dataport Phoenix**: chiuso a ottobre 2024. **~140 mln € spesi, ~90 persi, 36,5 svalutati.** Fallimento
+  **accertato dalla Corte dei conti di Amburgo**: «non pianificato in modo economico fin dall'inizio».
+  Il codice però **è diventato openDesk**. La FSFE lo denunciava come *open-washing* già nel 2023.
+- **LiMux Monaco**: 14.800 desktop, delibera 23/11/2017, **86-89 mln €** per tornare a Windows.
+  🎯 **Il dato che ribalta la vulgata**: il **68,6% dei dipendenti era soddisfatto del *software***, solo il
+  **32% dell'*organizzazione***. E la perizia Accenture chiedeva di **aggiungere** Windows, non di togliere
+  Linux. **Nel maggio 2026 la nuova coalizione ha rimesso l'open source come regola.**
+  > L'arco completo dimostra una cosa che serve al film: **la sovranità è reversibile in entrambe le direzioni.**
+
+### A36. ⚖️ I due contro-fatti che il documentario NON può omettere
+- La **Germania federale ha speso 481,4 mln € in licenze Microsoft nel 2025**, **+75,6% in due anni**
+  (risposta a interrogazione parlamentare) — e **non ha cifre attendibili** per Länder e comuni.
+- La **Confederazione svizzera ha COMPLETATO** il rollout di Microsoft 365 su **~54.000 postazioni** a
+  dicembre 2025 — **mentre l'EMBAG è in vigore**.
+
+👉 Chi migra e chi acquista sono **lo stesso Stato**. Ometterlo renderebbe il film propagandistico.
+
+### A37. 🚨 SEI NUOVE TRAPPOLE dall'area germanofona
+25. **Schleswig-Holstein NON è passata a Linux.** L'80% riguarda **LibreOffice**; il sistema operativo è
+    ancora in fase pilota. **La stampa lo confonde sistematicamente** — e noi con lei, se non stiamo attenti.
+26. **I numeri di Schleswig-Holstein non sono sinonimi**: 25.000 / 30.000 / 60.000 circolano come se lo
+    fossero, ma **i 60.000 sono *dipendenti***, non postazioni migrate.
+27. **L'art. 9 EMBAG svizzero obbliga a *pubblicare* il codice che l'amministrazione sviluppa, NON a usare
+    open source.** Verbatim tedesco agli atti. Dire il contrario è l'errore più diffuso sul caso svizzero.
+28. **Clarence e S3NS girano su Google Distributed Cloud Hosted**; Proximus vende anche Azure Local.
+    Il comunicato del Governo lussemburghese **non nomina mai Google**.
+29. **openDesk: 100.000 vs 80.000 postazioni** dalla stessa fonte nello stesso periodo — e il ministero che
+    lo commissiona **lo testa su 80 postazioni**. Non citare cifre senza qualificarle.
+30. **Il rischio simmetrico**: raccontare solo i successi. Vale quanto raccontare solo i fallimenti.
+
+### A38. La gara UE da 180 milioni — e il livello che nessuno raggiunge
+17 aprile 2026: **prima volta che la sovranità è un criterio misurato** in una gara della Commissione.
+Esito: **tre aggiudicatari SEAL-3, uno SEAL-2, nessuno SEAL-4** — il livello con catena europea completa,
+dai chip al software.
+
+⚠️ **ATTENZIONE ALLA COLLISIONE DI SCALE**: la scala **SEAL 1-4** della gara UE **non è** la nostra scala
+0-4. Vanno tenute distinte e mai sovrapposte nel racconto: una misura i fornitori, l'altra i modelli.
+
 ---
 
 ## 🟡 B — SOLIDO, DA CONFERMARE PRIMA DELLA MESSA IN ONDA
