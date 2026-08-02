@@ -709,8 +709,8 @@ di riservatezza, e la stampa svizzera lo collega al CLOUD Act.
 Esito: **tre aggiudicatari SEAL-3, uno SEAL-2, nessuno SEAL-4** — il livello con catena europea completa,
 dai chip al software.
 
-⚠️ **ATTENZIONE ALLA COLLISIONE DI SCALE**: la scala **SEAL 1-4** della gara UE **non è** la nostra scala
-0-4. Vanno tenute distinte e mai sovrapposte nel racconto: una misura i fornitori, l'altra i modelli.
+⚠️ **ATTENZIONE ALLA COLLISIONE DI SCALE**: la scala **SEAL 0-4** della gara UE (⚠️ **cinque** livelli, non quattro — SEAL-2 era la
+soglia minima di ammissibilità) **non è** la nostra scala 0-4. Vanno tenute distinte e mai sovrapposte nel racconto: una misura i fornitori, l'altra i modelli.
 
 ### A39. 🚨 IL CASO DANIMARCA NON ESISTE NELLA FORMA IN CUI CIRCOLA
 Verificato **in danese**. È il caso più citato d'Europa, e la stampa internazionale lo ha travisato.
@@ -774,6 +774,75 @@ concluse e verificate su fonte primaria.** Va detto in voce: è l'antidoto al tr
   👉 **È il modello procedurale che l'Italia non ha usato**: un parlamento che misura e pubblica.
 - 🇷🇴 **Romania**: cloud di Stato PNRR operato dal servizio telecomunicazioni — con la critica di ApTI sul
   ruolo dell'intelligence, riportata per onestà.
+
+### A44. 🎯 L'APPALTO CENTRALIZZATO EUROPEO ESISTE — ed è più avanti di un annuncio
+Non è un annuncio politico: è il **Capo IV (artt. 37-40) della proposta CADA** (2026/0138 COD), testo
+letto in originale (ST 10104/26, 130 pp.). Stato: **proposta legislativa formale**, con governance,
+finanziamento e deroghe già scritti.
+
+**Art. 37(3), verbatim**: la Commissione «*may act as a **central purchasing body** for contracting
+authorities of Member States*» — contratti quadro, sistemi dinamici di acquisto, perfino rivendita
+all'ingrosso.
+
+🔻 **COSA MANCA PERCHÉ DIVENTI OPERATIVO** — è questo il finale del film:
+1. approvazione del regolamento;
+2. **un accordo fra Commissione e almeno DUE Stati membri (art. 38(1)) — che nessuno ha firmato**;
+3. insediamento dello Steering Committee;
+4. atti di esecuzione sui rimborsi;
+5. **la piattaforma comune, che non esiste**;
+6. il denaro.
+
+📅 **Data dalla penna della Commissione**: «*The starting date of collection of the fee would be **2029**,
+to allow for an initial setup process*». Apparato stimato ~**6 mln €/anno**.
+
+⚠️ **Tre cose da non confondere**: la **gara da 180 mln** (conclusa, ma **solo per le istituzioni UE**);
+il **Cloud Sovereignty Framework** (la metodologia — **l'unica cosa usabile domani mattina**); e il
+**Capo IV** (lo strumento per gli Stati membri, non ancora esistente).
+
+### A45. 🔥 La sequenza in due passi non va proposta: **è già scritta nell'Allegato II del CADA**
+- **Livello 3**, criterio (i) ii, verbatim: «*where software components or products are **provided, owned,
+  and licensed by a legal entity established in a third country***» — ammesso, con **audit del codice
+  sorgente** e **piano di migrazione documentato**.
+  👉 **È il modello Bleu/S3NS trasformato in criterio normativo**: software americano, operatore europeo.
+- **Livello 4** toglie la deroga: «*a third country … **does not hold or exercise effective control** over
+  the design, development, maintenance, and evolution*».
+
+> **Il passo 1 e il passo 2 esistono, con i numeri di paragrafo.** Non dobbiamo proporre una strada:
+> dobbiamo dire che **è stata scritta e non è ancora stata percorsa**.
+
+🎯 **E il reperto che chiude l'atto**: **nel testo non c'è una sola data di calendario.** Sono segnaposto
+tipografici mai compilati — `[date of entry into force plus 1 year]`.
+**La regola è scritta. La data è bianca.** È esattamente lì che serve la spinta politica.
+
+### A46. L'alibi italiano cade: un comune può aderire anche se l'Italia non aderisce
+**Artt. 38(7) e 39(1)**: un ente locale può aderire alla centrale di committenza europea **anche se il
+proprio Stato non vi partecipa** — ed è **per ciò stesso adempiente** al diritto UE degli appalti.
+
+> Toglie insieme **l'alibi giuridico** («non possiamo, il codice appalti») **e quello politico**
+> («decide Roma»). È la chiamata all'azione più concreta che il film possa fare.
+
+**Unica scadenza vincolante con data certa in tutto il quadro**: **Data Act art. 29 — 12 gennaio 2027**,
+divieto dei costi di uscita. È l'unica data che il finale può pronunciare.
+
+### A47. Airbus chiude il cerchio — ha chiesto la regola, poi l'ha applicata a sé stessa
+Airbus **coordina la lettera dei 62** per i criteri di immunità (A6) **e** ha lasciato AWS per **Scaleway**,
+mettendo **l'immunità extraterritoriale a punteggio** nella propria gara.
+👉 Chi ha chiesto il criterio l'ha poi **usato come committente**. È il precedente industriale europeo
+evocato per il cloud — e il cerchio narrativo del film.
+🔴 Il virgolettato attribuito a Catherine Jestin è **DA VERIFICARE**.
+
+⚠️ **DUE BUCHI DA ANTICIPARE NOI** (sono i punti dove il lobbying lavorerà):
+- la deroga per **«costo sproporzionato»** (art. 30(4)(c)) **senza soglia definita**;
+- la porta del livello 3 per i **«paesi terzi associati»** (art. 18), che si apre **con un atto di
+  esecuzione** — cioè nella sede meno visibile e più permeabile.
+
+### A48. Il confronto economico difendibile — spesa annua contro spesa annua
+✅ **Da usare**: **151 mln €/anno** di lobbying tech a Bruxelles contro **~30 mln €/anno** della gara per il
+cloud sovrano (180 mln «*over a period of 6 years*» — l'annualizzazione è **della fonte**, non nostra).
+Rincalzo: bilancio **ENISA 25,2 mln €** (2023, fonte primaria).
+❌ **Scartati**: capitalizzazione contro PIL (**stock contro flusso**) e fatturato contro PIL (**lordo contro
+valore aggiunto**). Sconsigliate anche cifre puntuali sul capex degli hyperscaler: **le stime consultate
+sono incoerenti fra loro**.
 
 ---
 
@@ -1154,6 +1223,13 @@ reperti A37 e A39, dove chi consulta il registro non le avrebbe trovate)*
     ⚠️ Vale anche il simmetrico: **non raccontare solo i fallimenti**. Monaco è tornata all'open source
     nel maggio 2026, e il 68,6% dei dipendenti era soddisfatto del *software* (solo il 32%
     dell'*organizzazione*).
+
+32. **I 300 miliardi di EuroStack sono una *richiesta*, non uno stanziamento.** Citarli come fondi
+    disponibili è falso.
+33. 🚨 **DIVIETO ASSOLUTO del confronto capitalizzazione di borsa contro PIL.** È un errore di categoria
+    (stock contro flusso) e qualunque economista lo smonta in diretta, portandosi via la credibilità del
+    resto. Vale anche per fatturato contro PIL (lordo contro valore aggiunto).
+    ✅ L'unico confronto difendibile è **spesa annua contro spesa annua** (v. A48).
 
 ### ⚠️ Nota d'uso — collisione di scale
 La scala **SEAL 1-4** della gara UE **non è** la nostra scala **0-4**: una misura i *fornitori*, l'altra i
