@@ -426,8 +426,9 @@ controllate: «*Pouvez-vous nous assurer qu'Amazon, **ou ses filiales**, ne perm
 aux autorités américaines de prendre connaissance des données de nos concitoyens…?*»
 
 **Nessuno dei tre rispose sì o no.** AWS smontò «i miti» sul CLOUD Act e concluse «*nous appliquons la
-loi*». Google affermò — **giuridicamente scorretto** se riferito al §2713 — che «*ces dispositions ne sont
-pas entrées en vigueur, en l'absence de conclusion des accords bilatéraux*».
+loi*». Google affermò che «*ces dispositions ne sont pas entrées en vigueur, en l'absence de conclusion des
+accords bilatéraux*». ⚠️ **CORREZIONE (v. A27)**: qui era stato scritto «giuridicamente scorretto» in modo
+troppo netto. La verifica sul verbatim ampio mostra che **il dubbio resta**: non è falsa testimonianza.
 
 > 🎯 **Il «No, je ne peux pas le garantir» di Carniaux (10 giugno 2025) è il primo «no» esplicito in sei
 > anni.** Il dossier 12 contiene il verbatim integrale delle quattro voci con traduzione e un **blocco di
@@ -536,6 +537,66 @@ fonte primaria olandese non si trova, quel punto va eliminato dal film.**
 Bloccati anche `federalregister.gov` ed `ecfr.gov`: 31 CFR Part 528 e la **General License D-2** non letti
 in originale — la clausola di esclusione dei *blocked persons* nella D-2 dirime il contro-argomento
 «esistono licenze per i servizi essenziali». 25 URL da aprire a mano nel dossier 13.
+
+### A27. Il caso Tabaka risolto: imprecisione con effetto fuorviante, **non** falsa testimonianza
+Letti integralmente il resoconto ufficiale della commissione 2019 (189.384 caratteri) e il **rapporto n° 7
+tomo I** (570.803 caratteri). Tre reperti:
+
+1. **La domanda riguardava inequivocabilmente il §2713.** Il presidente Montaugé lo definisce lui stesso:
+   «*le Cloud Act permet aux autorités américaines de disposer des données que vous stockez, **quel que soit
+   le lieu de stockage***». Non nomina mai gli accordi bilaterali. Nomina invece **Airbus Defence and Space
+   e Atos** come clienti a rischio.
+2. **Il verbatim ampio consente due letture.** L'antecedente grammaticale di «*ces dispositions*» è la frase
+   precedente sulla relazione bilaterale — quindi **l'ipotesi della definizione ristretta regge**, ed è la
+   stessa che Google metterà per iscritto nel white paper 2022 (v. A28). **Ma una frase resta irriducibile**:
+   «*quand bien même le Cloud Act entrerait en vigueur et obligerait Google à communiquer les données de ses
+   clients*». **Il dubbio resta, e va dichiarato.**
+3. **La smentita migliore è del Senato stesso, e non accusa nessuno.** «Tabaka» ricorre **0 volte** nel
+   rapporto finale. Ma il riquadro didascalico sul CLOUD Act scrive: «*Il vise principalement à réaffirmer
+   le droit […] la communication de toutes données stockées, même à l'étranger. **Il prévoit aussi, et
+   indépendamment**, la conclusion d'accords bilatéraux*». **La parola «indépendamment» è del Senato francese.**
+
+**PRIORITÀ 1**: ascoltare il **video ufficiale del 17/07/2019** — il *compte rendu* è rivisto, non stenografico.
+**Bonus (nota 180 del rapporto)**: sei giorni prima, **OVH** rispose alla stessa domanda — ed è l'unica
+risposta **strutturale** anziché procedurale. Il contrasto è materiale da montaggio.
+
+### A28. Google smonta il mito della geografia — per iscritto, in un proprio documento
+**Google Cloud Whitepaper, «Government Requests for Cloud Customer Data», febbraio 2022**, pag. 5, verbatim:
+> «*the CLOUD Act clarifies that the U.S. government can compel production of data where the data is under
+> the "possession, custody, or control" of a provider subject to US jurisdiction, **regardless of where that
+> data is physically stored**. In other words, **data localization requirements do not impact whether a
+> cloud provider may have to disclose data** in response to a government request.*»
+
+E ammette la coercibilità: offre cifratura che tiene i dati illeggibili «*even if Google is compelled to
+turn over the data*». **La difesa è tecnica, non giuridica.**
+Pag. 6: definisce «CLOUD Act request» **in senso stretto** (solo accordi bilaterali con governi stranieri
+qualificati), escludendo espressamente le «*U.S. request*» sui poteri preesistenti — cioè proprio il
+meccanismo che conta. È la chiave di lettura di A27.
+La procedura in quattro passi è tutta condizionata da «*unless prohibited by law*»: **stesso schema e stesso
+limite della clausola italiana PR.DS-01** (A7).
+
+### A29. Google, la FISA 702 e la scuola italiana
+**Google ammette la FISA 702 in un documento destinato alle scuole** — white paper *Workspace for
+Education*, agosto 2021: «*To the extent Google LLC may receive targeted requests […] under Downstream 702,
+we **carefully review** each request*». **Non dice che rifiuterebbe.**
+
+**Nessuna audizione di Google in un parlamento europeo dopo il 2019** (verificato sulle liste ufficiali 2025).
+
+**S3NS**: qualificazione ANSSI del **17 dicembre 2025** — prima volta IaaS+PaaS+CaaS insieme (non «30
+servizi»: correggere il dossier 08). S3NS oggi si dichiara «*fully owned by Thales*» mentre nel 2022 si
+parlava di Google in minoranza: **forchetta 0%-24% da chiudere**. Non intacca la tesi, perché SecNumCloud
+§19.6 fissa il tetto proprio al 24%.
+
+> **LA TENSIONE, ed è l'argomento più forte del film a favore della regolazione.**
+> Google ha **la posizione dichiarativa più debole** e **il rimedio strutturale più avanzato**.
+> La spiegazione non è ipocrisia: **S3NS esiste perché la Francia ha scritto il §19.6.**
+> Un fatto scomodo per noi diventa la prova che **la regola funziona**.
+
+**Scuola** — esiti effettivi, tutti diversi: **Danimarca** ordine ai 53 comuni (non sanzione a Google) ·
+**Paesi Bassi** adeguamento (**è il contro-argomento più forte di Google**) · **Germania** cautelare chiuso
+da transazione (OVG NRW 19 B 417/22) · **Italia: nessun provvedimento, a fronte di 8.403 istituti.**
+E **nemmeno Google pubblica dati di diffusione in Italia**: la misurazione dell'Osservatorio resta
+**l'unica fonte esistente**.
 
 ---
 
@@ -680,5 +741,15 @@ Non possono essere entrambe vere.
     **AWS non ha mai sostenuto di essere immune**. L'equivoco sta nella parola «sovereign».
 19. **Riconoscere che la cifratura con chiavi esterne di AWS è una difesa tecnicamente valida** per il
     dato a riposo. Negarlo ci fa perdere il contraddittorio su un punto in cui hanno ragione.
-20. **Non dire che l'EUCS «sta per essere adottato»**: al giugno 2026 la Commissione stessa scrive che
+20. **VIETATO dire «Google ha mentito»** sull'audizione del 2019: il verbatim consente due letture e il
+    dubbio resta. Formulazione corretta: **«Google usa una definizione di CLOUD Act che esclude proprio il
+    meccanismo che conta»** — e la smentita si fa citando **il Senato francese**, che scrive «*et
+    indépendamment*» senza accusare nessuno.
+21. **Non dire che la Danimarca «ha vietato Google nelle scuole»**: l'autorità ha ordinato ai **53 comuni**
+    di adeguarsi, non ha sanzionato Google.
+22. **Non dire che la Germania ha vietato Google/Microsoft nelle scuole**: il procedimento OVG NRW era
+    **cautelare** e si è chiuso con una **transazione**.
+23. **Citare l'esito olandese anche se ci contraddice**: nei Paesi Bassi si è arrivati a un **adeguamento**,
+    non a un divieto. È il contro-argomento più forte di Google e va anticipato.
+24. **Non dire che l'EUCS «sta per essere adottato»**: al giugno 2026 la Commissione stessa scrive che
     «*non è ancora stato adottato*». Zero certificati emessi.
