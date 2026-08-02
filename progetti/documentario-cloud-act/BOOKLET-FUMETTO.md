@@ -1,10 +1,11 @@
 # «NON POSSO GARANTIRLO»
-## Booklet a fumetti — 12 tavole + copertina e quarta di copertina
+## Booklet a fumetti — 13 tavole + copertina e quarta di copertina
 ### Sceneggiatura completa per il disegnatore
 
-Versione 1.0 — 29 luglio 2026
-Adattamento divulgativo di `SCRIPT-20-MINUTI.md`. Ogni affermazione fattuale è ancorata a
-`STATO-DELLE-CONOSCENZE.md`; i riferimenti `[A#]` / `[B#]` sono gli stessi del dossier.
+Versione 2.0 — 2 agosto 2026
+Adattamento divulgativo di `SCRIPT-20-MINUTI.md` **versione 2.0, 13 atti**. Una tavola per atto.
+Ogni affermazione fattuale è ancorata a `STATO-DELLE-CONOSCENZE.md`; i riferimenti `[A#]` / `[B#]` sono
+gli stessi del dossier.
 
 **Destinatario**: un adulto italiano non tecnico. Usa lo smartphone, ha un indirizzo di posta elettronica,
 non sa cosa sia un record MX, un piano di controllo o una giurisdizione extraterritoriale.
@@ -12,6 +13,25 @@ non sa cosa sia un record MX, un piano di controllo o una giurisdizione extrater
 
 **Regola aurea della sceneggiatura**: nessuna vignetta introduce un fatto che non stia nel dossier.
 Dove il dossier dice «è una deduzione», il fumetto lo fa dire a un personaggio con quelle parole.
+
+---
+
+### CHE COSA CAMBIA RISPETTO ALLA VERSIONE 1.0
+*(sezione di servizio per il disegnatore che avesse già letto la v1.0 — non va stampata)*
+
+1. **Nuova TAVOLA 7 — «Non è un'ipotesi: è già successo»**, inserita dopo la vecchia tavola 6.
+   È il punto in cui il booklet cambia registro e **il timbro `SIMULAZIONE DOCUMENTATA` sparisce**.
+   Tutte le tavole successive slittano di uno.
+2. **Tavola 3 diventa una tavola doppia**: entrano le **quattro voci al Senato francese** (2019 + 2025)
+   e l'**ammissione scritta di Google** del febbraio 2022.
+3. **Tavola 5** guadagna la **sovranità di facciata**: la frase del CTO di AWS del 2019 e i quattro limiti
+   dell'audit sul sistema di isolamento.
+4. **Tavola 8** (era la 7) perde le tre vignette sulla gara del cloud di Stato: **quella vicenda esce dal
+   racconto**. Vedi NOTE PER IL DISEGNATORE, §6.
+5. **Tavola 10** (era la 9): correzioni obbligatorie sull'asimmetria — la barriera non è il costo.
+6. **Tavola 12** (era la 11): le scuole **adesso hanno un numero**. Sparisce la vignetta «non esiste
+   alcun dato pubblico», che era vera nella v1.0 e oggi non lo è più.
+7. Il **Cursore** diventa grande alla tavola **13**, non alla 12.
 
 ---
 
@@ -38,33 +58,48 @@ sta andando. Il suo viaggio è il filo conduttore visivo: parte da una scrivania
 un archivio americano.
 **Segno grafico**: sul fronte della Busta c'è un timbro rosso `SERVIZIO` — resta identico per tutto il
 booklet, così il lettore la riconosce anche in mezzo a migliaia di buste uguali.
+⚠️ **La Busta non compare nella tavola 7.** Quella tavola non è il suo viaggio. Vedi §4 delle note.
 
 **IL CURSORE**, comparsa fissa.
 Il trattino lampeggiante del terminale della prima tavola. Torna in un angolo di **ogni** tavola, piccolo,
-sempre nella stessa posizione (basso a destra). Non dice niente. Alla dodicesima tavola diventa grande.
+sempre nella stessa posizione (basso a destra). Non dice niente. Alla **tredicesima** tavola diventa grande.
+⚠️ Nella tavola 7 il Cursore c'è, ma è disegnato **senza alone di lampeggio**: è fermo. È l'unico segnale
+grafico che avverte il lettore che qualcosa, in quella pagina, si è fermato davvero.
 
 > **Personaggi che NON esistono in questo booklet**: nessun politico è caricaturato, nessun dirigente
-> d'azienda è disegnato con fattezze riconoscibili. Le uniche due persone reali nominate sono il senatore
-> francese **Dany Wattebled** e il dirigente **Anton Carniaux**, perché la loro è un'audizione pubblica
-> verbalizzata `[B2]`, e vanno disegnate **neutre e dignitose**: non sono i cattivi della storia.
+> d'azienda è disegnato con fattezze riconoscibili.
+> Le uniche persone reali **disegnate** sono il senatore francese **Dany Wattebled** e il dirigente
+> **Anton Carniaux**, perché la loro è un'audizione pubblica verbalizzata `[B2]`: vanno disegnati
+> **neutri e dignitosi**, non sono i cattivi della storia.
+> Tutte le altre persone reali nominate nel booklet — il direttore tecnico di AWS **Stéphan Hadinger**
+> `[A20]`, la giudice **Beti Hohler** e il giudice **Nicolas Guillou** `[A24]` — **non si disegnano**.
+> Di loro si disegnano parole, documenti, oggetti e mani. Vedi §4, DIFFICILE 2.
 
 ---
 
 ## ELEMENTI GRAFICI RICORRENTI (validi per tutto il booklet)
 
 1. **IL CURSORE** — un trattino nero lampeggiante, sempre in basso a destra di ogni tavola, sopra il
-   numero di pagina. Nella tavola 12 esce dalla sua posizione e invade la pagina.
+   numero di pagina. Fermo nella tavola 7. Nella tavola 13 esce dalla sua posizione e invade la pagina.
 2. **LA MAPPINA DEL VIAGGIO** — nel margine inferiore di ogni tavola, alta un centimetro: una linea
    tratteggiata da una scrivania (Italia) a uno schedario (Stati Uniti), con un puntino che avanza di
    tavola in tavola. Il lettore vede a colpo d'occhio a che punto è la Busta.
+   ⚠️ **Nella tavola 7 il puntino non avanza**: resta esattamente dove l'aveva lasciato la tavola 6.
+   Quella pagina non fa parte del viaggio, e la mappina lo dice senza una parola.
 3. **IL TIMBRO `SIMULAZIONE DOCUMENTATA`** — un timbro rosso a rullo, obliquo, angolo in alto a destra.
-   Compare **solo** nelle tavole 2, 4 e 5. È il patto con il lettore: *qui il movente è un'ipotesi,
-   il meccanismo no*. Nelle altre nove tavole non deve esserci: se c'è ovunque, non significa niente.
+   Compare **solo** nelle tavole **2, 4 e 5**. È il patto con il lettore: *qui il movente è un'ipotesi,
+   il meccanismo no*. Nelle altre dieci tavole non deve esserci: se c'è ovunque, non significa niente.
+   **Nella tavola 7 il timbro non è semplicemente assente: è tolto, e si vede che è stato tolto.**
+   Vedi §4, DIFFICILE 1.
 4. **IL RIQUADRO GIALLO «CINQUE SECONDI»** — un riquadro giallo senape con bordo nero, sempre stessa
    forma, che contiene **solo cose che il lettore può verificare da sé**. Quando compare, il lettore sa
-   che quella non è un'opinione di nessuno.
+   che quella non è un'opinione di nessuno. Compare nelle tavole 1, 8 e 9.
 5. **LE MANI** — regola di disegno: ogni volta che nella storia qualcosa cambia di proprietario o di
    controllo, si disegnano **le mani**, mai i volti. Sono le mani il soggetto di questa storia.
+   Nella tavola 7 la regola diventa **assoluta**: lì le mani non sono una scelta di stile, sono l'unico
+   modo lecito di rappresentare due persone reali che non hanno acconsentito a essere disegnate.
+6. **I RIQUADRI DI ONESTÀ** — sfondo grigio chiaro, uno dei due personaggi ammette un limite del
+   racconto. Sono **cinque**: tavole 5, 9, 10, 11 e 13. Non sono riempitivo. Vedi §5.
 
 ---
 
@@ -137,7 +172,7 @@ non cambia nulla fra le tre se non il testo: l'effetto è quello di una lista ch
 Nella terza, la faccia di Sandro riflessa nel vetro **non è più distratta**.
 
 **RIQUADRO GIALLO «CINQUE SECONDI»** (a cavallo delle tre vignette, in basso):
-> **Provateci voi.** Questi sono i risultati, oggi:
+> **Provateci voi.** Questi sono i risultati, oggi: `[A1]`
 > `carabinieri.it` → **Google**
 > `poliziadistato.it` → **Microsoft**
 > `governo.it` → **Microsoft**
@@ -190,6 +225,7 @@ il taglio di una finestra alta.
 > Adesso immaginiamo una cosa. **Immaginiamo**: questa parola resta stampata sulla pagina finché serve.
 > Il *motivo* che state per leggere è inventato. Tutto il resto — ogni singolo passaggio del meccanismo —
 > è documentato, e alla fine del booklet trovate dove.
+> E arriverà una pagina in cui questo timbro **non ci sarà più**. Quando succede, non è una dimenticanza.
 
 ---
 
@@ -223,12 +259,20 @@ L'ho letto. C'è il data center vicino a Milano.»
 ---
 
 # TAVOLA 3 — DOVE STA LA COSA NON CONTA. CONTA DI CHI È.
-### (dall'ATTO 2 — IL MITO DELLA GEOGRAFIA) · **è il punto di non ritorno del booklet**
+### (dall'ATTO 2 — IL MITO DELLA GEOGRAFIA, E LE QUATTRO VOCI) · **è il punto di non ritorno del booklet**
 
-**Impaginazione**: 5 vignette. Prima striscia: due vignette (la metafora). Seconda striscia: una vignetta
-grande centrale (il Senato francese). Terza striscia: due vignette.
+> ⚠️ **È l'unica TAVOLA DOPPIA del booklet**: due pagine affiancate, da leggere come un'unica superficie.
+> La pagina di sinistra è il meccanismo. La pagina di destra sono **le voci**.
+> Il lettore, aprendo il booklet a metà, si trova davanti sei anni di audizioni in un colpo solo.
+> Se si spezza in due tavole separate, l'effetto «nessuno dei tre ha mai risposto» si perde.
+
+**Impaginazione**: 10 vignette in tutto. **Sinistra**: 4 vignette (la metafora, il CLOUD Act, il 2025,
+il silenzio italiano). **Destra**: 6 vignette (le tre audizioni del 2019, il conteggio, la nota del Senato,
+il documento di Google).
 
 ---
+
+## PAGINA SINISTRA
 
 **VIGNETTA 1** *(mezza pagina in larghezza)*
 **DISEGNO — METAFORA VISIVA, la più importante del booklet.**
@@ -256,7 +300,7 @@ Dice che un'azienda americana deve consegnare i dati che ha in possesso, custodi
 
 ---
 
-**VIGNETTA 3** *(grande, centrale — cambio di registro: qui il disegno diventa realistico)*
+**VIGNETTA 3** *(grande — cambio di registro: qui il disegno diventa realistico)*
 **DISEGNO** — Aula di commissione parlamentare francese. Inquadratura frontale, sobria, quasi fotografica:
 tavolo lungo, microfoni a stelo, faldoni, il legno chiaro delle aule francesi. Due figure: a sinistra,
 seduto in posizione rialzata, **il senatore Dany Wattebled**; davanti a lui, di tre quarti di spalle,
@@ -283,21 +327,110 @@ In sovrimpressione, in alto, come un cartellino da telegiornale: **10 giugno 202
 
 ---
 
-**VIGNETTA 4**
-**DISEGNO** — Marta, primo piano, seria. Ha tolto gli occhiali. Sullo sfondo sfocato, la Busta sulla scrivania.
+**VIGNETTA 4** *(stretta, chiusura della pagina sinistra)*
+**DISEGNO** — Marta, primo piano, seria. Ha tolto gli occhiali.
 
 **BALLOON — MARTA**: «Ma quella domanda parlava dei francesi.»
 **BALLOON — SANDRO** *(fuori campo)*: «Il meccanismo è lo stesso. La legge segue la nazionalità di chi
-fornisce il servizio, non quella del cliente.»
+fornisce il servizio, non quella del cliente. La differenza è un'altra.»
+**BALLOON — MARTA**: «Quale?»
+**BALLOON — SANDRO**: «Che in Italia quella domanda non l'ha mai fatta nessuno.»
 
 ---
 
-**VIGNETTA 5** *(stretta, chiusura)*
-**DISEGNO** — Un'aula parlamentare italiana, vuota. Banchi vuoti, luce spenta, un microfono senza nessuno
-davanti. Silenzio grafico: nessun tratto in movimento.
+## PAGINA DESTRA — LE QUATTRO VOCI
 
-**DIDASCALIA (unica, centrata)**:
-> In Italia questa domanda **non l'ha mai fatta nessuno.**
+**DIDASCALIA D'APERTURA (in cima alla pagina destra, a tutta larghezza, riquadro bianco)**:
+> E non è la prima volta che gliel'hanno chiesto. **Sei anni prima, nella stessa aula, ne convocarono
+> tre.** Tutti e tre sotto giuramento. `[A19]`
+
+---
+
+**VIGNETTE 5, 6, 7** *(tre vignette identiche per taglio e dimensione, in fila — è essenziale che siano
+identiche: tre aziende diverse, la stessa domanda, lo stesso risultato)*
+**DISEGNO** — Tre volte lo **stesso** angolo dell'aula: il tavolo dei convocati visto dall'alto e da
+dietro, in modo che **non si vedano i volti**. Si vedono: un microfono a stelo, un bicchiere d'acqua, una
+cartellina, e **due mani** appoggiate al tavolo. Cambiano solo la cartellina, la posizione delle mani e
+la data. La regola delle mani, qui, è al suo massimo rendimento.
+
+**VIGNETTA 5 — 17 luglio 2019**
+**BALLOON SQUADRATO (senza coda: la citazione appartiene al verbale, non a un volto)**:
+> Google: quelle disposizioni **non sono in vigore**, mancano gli accordi bilaterali.
+
+**VIGNETTA 6 — 18 luglio 2019**
+**BALLOON SQUADRATO**:
+> Microsoft: **nessuna garanzia.**
+
+**VIGNETTA 7 — 3 settembre 2019**
+**DIDASCALIA IN VIGNETTA (piccola, in alto)**: Ad Amazon la domanda fu posta perfino **più larga**:
+*«potete assicurarci che Amazon, **o le sue controllate**, non permetta alle autorità americane di prendere
+conoscenza dei dati dei nostri concittadini?»*
+**BALLOON SQUADRATO**:
+> Amazon: **«noi applichiamo la legge».**
+
+---
+
+**VIGNETTA 8** *(a tutta larghezza, sotto le tre — la vignetta-conteggio)*
+**DISEGNO** — Le tre cartelline delle vignette precedenti, allineate su un tavolo vuoto, viste dall'alto.
+Accanto a ciascuna, una casella. Le caselle sono **tre**, e sono tutte **vuote**: nessun segno di spunta,
+nessuna croce. A destra, staccata, una quarta casella — quella del 2025 — con dentro una sola parola
+scritta a mano: **no**.
+
+**DIDASCALIA (grande)**:
+> **Nessuno dei tre disse sì. Nessuno dei tre disse no.**
+> Il «no» di Microsoft del 2025 è **il primo in sei anni.** `[A19]`
+
+**BALLOON — MARTA** *(piccolo, in basso)*: «Quindi allora ci avevano mentito.»
+**BALLOON — SANDRO** *(secco)*: «**No. Questo non lo diciamo.** E non perché siamo prudenti: perché non
+lo sappiamo. Quel verbale si può leggere in due modi, e il dubbio resta. Quello che possiamo dire è
+un'altra cosa, ed è più forte.»
+
+> ⚠️ **VINCOLO ASSOLUTO DI SCENEGGIATURA** `[A27]` · trappola 20 del dossier — **nessun personaggio di
+> questo booklet può dire, pensare, sospettare a voce o insinuare graficamente che Google abbia mentito.**
+> Niente sudore sulla fronte, niente sguardi obliqui, niente ombre sul volto: il dubbio resta, e resta
+> dichiarato. La smentita la fa il Senato francese, nella vignetta 9, e non accusa nessuno.
+
+---
+
+**VIGNETTA 9**
+**DISEGNO** — Una pagina di rapporto istituzionale francese, ingrandita come sotto una lente. È un
+**riquadro didascalico** — quei box grigi che i rapporti parlamentari mettono a fondo pagina per spiegare
+una sigla. Nessuna persona nell'inquadratura. Una sola riga è evidenziata in giallo. Sul margine, una mano
+tiene ferma la pagina.
+
+**TESTO EVIDENZIATO (balloon squadrato / citazione)**:
+> Il CLOUD Act «*mira principalmente a riaffermare il diritto […] alla comunicazione di tutti i dati
+> conservati, **anche all'estero**. Prevede **anche, e indipendentemente**, la conclusione di accordi
+> bilaterali.*»
+> — Rapporto della commissione d'inchiesta del Senato francese
+
+**DIDASCALIA**:
+> Le due cose stanno **una accanto all'altra**, non una al posto dell'altra. Gli accordi bilaterali non
+> sostituiscono il potere di chiedere i dati: **si aggiungono**.
+> La parola «indipendentemente» è del Senato francese. Non accusa nessuno, e chiude la questione. `[A27]`
+
+---
+
+**VIGNETTA 10** *(chiusura della doppia — la più importante della pagina destra)*
+**DISEGNO** — Ritorno all'ufficio italiano. Sulla scrivania, un documento stampato con l'intestazione
+**Google Cloud** ben visibile e la data **febbraio 2022**. **La Busta è salita sopra il foglio** e sta
+esattamente sulla riga evidenziata: è l'unica volta in tutto il booklet in cui la Busta *sta leggendo*.
+Non ha braccia, non indica, non fa facce: è appoggiata lì, e i suoi due occhietti sono rivolti in basso,
+verso il testo. Marta si è chinata a guardare da sopra.
+
+**TESTO EVIDENZIATO SUL DOCUMENTO (balloon squadrato)**:
+> «*I requisiti di localizzazione dei dati **non incidono** sul fatto che un fornitore cloud possa dover
+> divulgare i dati in risposta a una richiesta governativa.*»
+> — Google Cloud, *Government Requests for Cloud Customer Data*, febbraio 2022, pag. 5 `[A28]`
+
+**BALLOON — MARTA**: «E questo chi l'ha scritto?»
+**BALLOON — SANDRO**: «Loro. Ai loro clienti. Non è una frase strappata in un'audizione: è un documento
+commerciale, sta online, e dice che il data center in Italia non c'entra niente.»
+
+**DIDASCALIA (in basso, isolata)**:
+> Nello stesso documento offrono una soluzione: cifrare i dati in modo che restino illeggibili
+> «*anche se Google fosse costretta a consegnarli*».
+> **La difesa che propongono è tecnica. Non giuridica.** `[A28]`
 
 ---
 
@@ -378,11 +511,12 @@ degli europei.»
 
 ---
 
-# TAVOLA 5 — CHI TI FATTURA E CHI HA LE CHIAVI
-### (dall'ATTO 4 — L'ESECUZIONE E L'ILLUSIONE DEL RIVENDITORE) · `SIMULAZIONE DOCUMENTATA`
+# TAVOLA 5 — CHI TI FATTURA, CHI HA LE CHIAVI, E LA SOVRANITÀ IN VETRINA
+### (dall'ATTO 4 — L'ESECUZIONE, IL RIVENDITORE E LA SOVRANITÀ DI FACCIATA) · `SIMULAZIONE DOCUMENTATA`
 
-**Impaginazione**: 5 vignette. Prima striscia: una vignetta a tutta larghezza (il piano di controllo).
-Seconda: due vignette. Terza: due vignette (le quattro categorie di fornitore, rese come due coppie).
+**Impaginazione**: 6 vignette. Prima striscia: una vignetta a tutta larghezza (il piano di controllo).
+Seconda: due vignette gemelle (le due possibilità del fornitore italiano). Terza: tre vignette
+(la vetrina europea / la frase del 2019 / l'audit). Fuori griglia, in basso, il **riquadro di onestà**.
 
 ---
 
@@ -406,47 +540,89 @@ Timbro `SIMULAZIONE DOCUMENTATA` in alto a destra.
 
 ---
 
-**VIGNETTA 2**
-**DISEGNO** — Sandro tira fuori dalla cartellina azzurra una fattura e la posa sul tavolo. La fattura ha
-un'intestazione italiana ben visibile ma illeggibile (nessun nome di azienda reale). Marta la guarda.
+**VIGNETTE 2 e 3** *(affiancate — le due possibilità, disegnate con lo stesso schema del palazzo)*
 
-**BALLOON — SANDRO**: «Le dico l'obiezione che faccio io per primo, tutte le volte: *ma io non ho comprato
-da un'azienda americana. Ho comprato da un'azienda italiana.*»
+**DIDASCALIA D'APERTURA (a cavallo delle due, in alto)**:
+> «*Ma io non ho comprato da un'azienda americana. Ho comprato da un'azienda italiana.*»
+> È l'obiezione che Sandro fa per primo, tutte le volte. E la risposta onesta è: **dipende**.
+> Non è una scappatoia: è una domanda a cui si può rispondere.
 
----
-
-**VIGNETTA 3**
-**DISEGNO** — Primo piano di Marta che aspetta. Sopra la sua testa, un punto interrogativo disegnato come
-se fosse fatto con la linguetta di una busta.
-
-**BALLOON — SANDRO**: «E la risposta onesta è: **dipende**. Non è una scappatoia e non è un alibi.
-È una domanda a cui si può rispondere.»
-
----
-
-**VIGNETTE 4 e 5** *(affiancate — le due possibilità, disegnate con lo stesso schema del palazzo)*
-
-**DISEGNO 4** — Stesso spaccato di palazzo della vignetta 1. Ma qui **la guardiola con le chiavi è dentro
+**DISEGNO 2** — Stesso spaccato di palazzo della vignetta 1. Ma qui **la guardiola con le chiavi è dentro
 il palazzo**, al pianterreno. Sopra: **DATA CENTER E TECNOLOGIA PROPRI**.
-**DIDASCALIA 4**:
+**DIDASCALIA 2**:
 > Se l'azienda italiana ha **data center e tecnologia propri** — e in Italia ce ne sono — allora la
 > giurisdizione è davvero italiana. Non è un dettaglio: è la differenza.
 
-**DISEGNO 5** — Stesso spaccato. La guardiola è di nuovo fuori, oltre il bordo. Sulla facciata del palazzo,
+**DISEGNO 3** — Stesso spaccato. La guardiola è di nuovo fuori, oltre il bordo. Sulla facciata del palazzo,
 però, c'è una bella insegna italiana nuova. Sopra: **RIVENDE, INTEGRA O OSPITA**.
-**DIDASCALIA 5**:
+**DIDASCALIA 3**:
 > Se invece rivende, integra o ospita la tecnologia di un fornitore americano, allora cambia
 > **chi ti fattura**, non **chi ha il controllo**. `[dossier 07]`
 
-**Nota per il disegnatore**: la differenza fra 4 e 5 deve essere **una sola cosa**: la posizione della
+**Nota per il disegnatore**: la differenza fra 2 e 3 deve essere **una sola cosa**: la posizione della
 guardiola. Tutto il resto identico. È così che il lettore capisce senza sforzo cosa è cambiato.
+
+---
+
+**VIGNETTE 4, 5, 6** *(tre in fila — la sovranità venduta come prodotto)*
+
+**DISEGNO 4 — METAFORA VISIVA: la vetrina.**
+Una vetrina di negozio, illuminata bene, con dentro un modellino del solito palazzo. Sul cartellino
+del prezzo, in bella calligrafia: **SOVEREIGN**. Un cordone di velluto davanti. Marta guarda dentro
+la vetrina dalla strada, con le mani in tasca. **Nel riflesso del vetro** si vede, piccolissima, la
+guardiola: è ancora fuori.
+**DIDASCALIA 4**:
+> Negli ultimi anni i grandi fornitori hanno creato offerte dedicate all'Europa: entità europee, personale
+> europeo, isolamento tecnico spinto. **Funziona?**
+
+**DISEGNO 5** — Ritorno al taglio delle vignette 5-7 della tavola 3: il tavolo dell'audizione visto
+dall'alto e da dietro, **niente volti**, due mani, un microfono, una data. Cartellino in alto:
+**3 settembre 2019 — Senato francese, sotto giuramento**.
+**BALLOON SQUADRATO (senza coda)**:
+> «*Una società **non americana** sarà anch'essa soggetta al CLOUD Act se ha una **controllata o dipendenti
+> sul territorio statunitense**.*»
+> — Stéphan Hadinger, direttore tecnico di AWS France `[A20]`
+
+**DIDASCALIA 5**:
+> Questa frase l'ha detta **Amazon**, sotto giuramento, sette anni fa. È il principio che rende non immune
+> la loro stessa offerta europea di oggi. **Non l'abbiamo scritta noi.**
+
+**DISEGNO 6 — METAFORA VISIVA: il certificato con quattro asterischi.**
+Un attestato incorniciato, di quelli con il bordo decorato, appeso a un muro. Sul foglio, in grande, la
+parola **AUDIT**. Ma sotto, in fondo, **quattro asterischi** allineati e la riga di note che di solito
+nessuno legge, qui disegnata **grande e leggibile**. Le mani di Sandro stanno raddrizzando la cornice
+per leggere meglio la riga in basso.
+**LE QUATTRO NOTE (da scrivere sul certificato)**:
+> \* pagato dall'azienda esaminata
+> \* revisione **del progetto**, non dei sistemi realmente in funzione
+> \* l'infrastruttura di controllo è **fuori dal perimetro** esaminato
+> \* nessuna garanzia su modifiche tecniche future **«scelte o imposte»**
+
+**DIDASCALIA 6**:
+> *Imposte.* La parola è dell'auditor, non nostra. Ed è esattamente lo scenario di cui parla questo
+> booklet. `[A21]`
+
+---
+
+**RIQUADRO DI ONESTÀ** *(fuori griglia, in basso, sfondo grigio chiaro)*
+**DISEGNO** — Sandro, mezzo busto, che alza una mano come per fermare qualcuno. Stessa posa del riquadro
+di onestà della tavola 11: è un segnale che il lettore imparerà a riconoscere.
+**BALLOON — SANDRO**:
+> «Tre cose, se no facciamo i disonesti.
+> **Uno**: non sto dicendo *è una controllata, quindi è soggetta alla legge americana*. Il Dipartimento di
+> Giustizia americano dice che si accerta **caso per caso**, e non conosco nessuna sentenza che lo abbia
+> deciso. `[A22]`
+> **Due**: la cifratura con le chiavi tenute fuori — quella che le propongono loro — **funziona davvero**
+> per i dati fermi. Su quello hanno ragione, e negarlo mi farebbe perdere la discussione.
+> **Tre**: Amazon non ha **mai** sostenuto di essere immune. L'equivoco non è giuridico, è commerciale:
+> sta tutto in quella parola in vetrina.»
 
 ---
 
 # TAVOLA 6 — LA REGOLA CHE NON SI PUÒ RISPETTARE
 ### (dall'ATTO 5 — IL SILENZIO) · *il momento chiave del booklet*
 
-**Impaginazione**: 6 vignette. Prima striscia: tre vignette in sequenza (il nastro sulla bocca).
+**Impaginazione**: 6 vignette. Prima striscia: tre vignette in sequenza (l'ordine di silenzio).
 Seconda striscia: due vignette (il modulo italiano). Terza striscia: **una vignetta unica, muta, grande**.
 
 ---
@@ -494,7 +670,7 @@ italiano una regola ce l'ha.»
 **DISEGNO** — Dettaglio della pagina, ingrandita come sotto una lente. Il testo attorno è finto-sfocato,
 leggibile solo la parte che conta, evidenziata in giallo.
 
-**A VIDEO / TESTO EVIDENZIATO**:
+**TESTO EVIDENZIATO**:
 > Per i dati strategici, il fornitore **segnala** all'Agenzia e all'amministrazione ogni richiesta di
 > accesso proveniente da entità **extra-europee**. `[A7]`
 
@@ -520,11 +696,124 @@ freccia spezzata.
 
 ---
 
-# TAVOLA 7 — SI POTEVA FARE. QUALCUNO L'HA FATTO.
+# TAVOLA 7 — NON È UN'IPOTESI: È GIÀ SUCCESSO
+### (dall'ATTO 5-BIS) · **la tavola nuova. Qui il booklet smette di simulare.**
+
+> 🔴 **TAVOLA SPECIALE — leggere le tre regole prima di disegnare.**
+> **1.** Il timbro `SIMULAZIONE DOCUMENTATA` **non c'è, e si vede che è stato tolto.** Nell'angolo in
+> alto a destra, dove nelle tavole 2, 4 e 5 c'era il timbro rosso, resta soltanto la sua **impronta
+> fantasma**: il rettangolo di carta più chiara, non ingiallita, che un timbro lascia quando viene
+> spostato dopo essere stato a lungo nello stesso punto. Nessun testo, nessuna spiegazione.
+> **2.** Non ci sono **né la Busta né il rosso**. È l'unica tavola del booklet senza una sola area
+> rossa: monocromia fredda, bianco-grigio-nero. La Busta non c'è perché questa non è la sua storia.
+> Il Cursore c'è, ma **non lampeggia**.
+> **3.** Le due persone di cui si parla sono **persone reali che non hanno acconsentito a essere
+> disegnate**. Non si disegnano i loro volti, non si inventa una sola parola che non abbiano detto,
+> non si mette loro in bocca un balloon con la coda. Si disegnano **mani, oggetti, schermi e carte**.
+> Chi disegna una faccia riconoscibile qui, fa a questo booklet più danno di qualunque avversario.
+
+**Impaginazione**: 6 vignette. Prima striscia: due vignette (lo stacco, e la data). Seconda striscia:
+una vignetta grande a tutta larghezza (lo schermo del telefono). Terza striscia: tre vignette
+(il secondo caso / il perché / l'asimmetria).
+
+---
+
+**VIGNETTA 1**
+**DISEGNO** — Bianco. Quasi niente dentro. In alto a destra, l'impronta fantasma del timbro. Al centro,
+piccole, **le mani di Sandro che chiudono la cartellina azzurra** e la mettono da parte. Non è un gesto
+drammatico: è il gesto di uno che smette di leggere appunti perché quello che sta per dire lo sa a memoria.
+
+**DIDASCALIA**:
+> Tutto quello che avete letto finora è una ricostruzione. Una porta che è aperta, e che nessuno ha
+> ancora attraversato — almeno, non che si sappia.
+> **Adesso basta con le ricostruzioni.**
+
+**BALLOON — MARTA**: «È sparito il timbro.»
+**BALLOON — SANDRO**: «Sì. Da qui in poi non serve più immaginare niente.»
+
+---
+
+**VIGNETTA 2**
+**DISEGNO** — Un calendario da parete, di quelli da ufficio con la spirale. Una sola pagina:
+**MARZO 2026**. Nessuna persona.
+
+**DIDASCALIA**:
+> Marzo 2026. Una giudice slovena — **cittadina dell'Unione europea** — scrive questo. `[A24]`
+
+---
+
+**VIGNETTA 3** *(a tutta larghezza — la vignetta centrale della tavola)*
+**DISEGNO** — Uno **schermo di telefono** ripreso frontalmente, che occupa quasi tutta la vignetta.
+È tenuto in mano: si vedono soltanto **due dita ai bordi**, niente altro della persona. Sullo schermo,
+una pila di notifiche identiche fra loro, impilate come si impilano davvero: sono cinque, e ciascuna ha
+la stessa forma. Non si leggono i nomi dei servizi come loghi: sono scritti **a parole**, in carattere
+di sistema. Sotto, l'ora: tutte nella stessa notte, a pochi minuti l'una dall'altra.
+
+**TESTO NELLA VIGNETTA (balloon squadrato, senza coda — è una citazione scritta, non parlata)**:
+> «*Il mio Apple ID, iCloud, Amazon, Airbnb, PayPal e altri account sono stati tutti bloccati o
+> cancellati. Queste cancellazioni sono avvenute **da un giorno all'altro, senza preavviso**.*»
+> — Beti Hohler, giudice `[A24]`
+
+**DIDASCALIA (piccola, sotto)**:
+> **Nessuna azienda l'ha mai smentita.**
+
+**Nota per il disegnatore**: la tentazione sarà di disegnare la persona che tiene il telefono, magari
+di spalle, magari in ombra. **No.** Due dita e uno schermo. La forza di questa vignetta è che potrebbe
+essere il telefono di chiunque, e che noi non ci siamo permessi di immaginare una faccia.
+
+---
+
+**VIGNETTE 4, 5, 6**
+
+**DISEGNO 4** — Un documento parlamentare francese posato su un tavolo, con la sua intestazione ufficiale,
+una data e un timbro di protocollo. Accanto, piegata su una sedia, **una toga**. Nessuno la indossa.
+**DIDASCALIA 4**:
+> E non è sola. Un giudice **francese** ha subito lo stesso trattamento: un caso finito in **Parlamento**,
+> con interrogazione e **risposta ufficiale del Governo francese**.
+> Non è una testimonianza raccolta da noi: è un atto pubblico. `[A24]`
+
+**DISEGNO 5** — Una pagina di ordine esecutivo americano, ingrandita. Tre parole sono evidenziate in
+giallo dentro un elenco: **fondi, beni, servizi**. La terza è cerchiata a mano.
+**DIDASCALIA 5**:
+> **Perché accade?** Non è una scelta commerciale delle aziende. Un ordine esecutivo statunitense vieta
+> di fornire «*fondi, beni o **servizi***» a una persona designata. La parola «servizi» è nel testo
+> presidenziale: non c'è niente da interpretare.
+> Un'azienda americana che continuasse a servirla **commetterebbe un illecito**. Microsoft lo sa:
+> **nel 2023 è stata multata** proprio per questo. `[A23]`
+
+**DISEGNO 6 — METAFORA VISIVA: i due sportelli.**
+Due sportelli affiancati, identici, come in un ufficio pubblico. Sopra il primo: **SOLDI BLOCCATI**.
+Sopra il secondo: **DATI BLOCCATI**.
+Allo sportello dei soldi, un raccoglitore pieno di moduli numerati, un registro aperto, una ricevuta che
+esce: la procedura c'è, ed è minuziosa.
+Lo sportello dei dati è identico in tutto — stessa cornice, stesso vetro, stesso ripiano — ma
+**sul ripiano non c'è niente**, e dietro il vetro non c'è nemmeno la sedia.
+**DIDASCALIA 6**:
+> Quando vengono bloccati i **soldi** di una persona, la legge americana prescrive tutto: conto fruttifero,
+> interessi, tracciabilità, restituzione se il provvedimento cade.
+> Quando vengono bloccati i **dati**: **niente.** Nessuna regola su che fine facciano, se si possano
+> esportare, se tornino indietro.
+> **Per il denaro esiste una procedura. Per la vita digitale, no.** `[A25]`
+
+---
+
+**RIQUADRO NERO (testo bianco, in fondo alla tavola — stesso trattamento della tavola 1)**:
+> ⚠️ Anche qui, attenzione a cosa abbiamo detto e a cosa **no**.
+> **Questo è un potere diverso** da quello di tutte le pagine precedenti. Là si trattava di **leggere**
+> i dati; qui si tratta di **spegnere** l'accesso di una persona ai propri strumenti. **Non vanno
+> confusi mai**, nemmeno per comodità di racconto. `[A26]`
+> E per l'Italia: soggetti colpiti da provvedimenti americani esistono, ma **non risulta documentato
+> alcun effetto digitale**. Il rischio per un ente pubblico italiano, allo stato, va detto per quello
+> che è: **teorico**. `[A25]`
+
+---
+
+# TAVOLA 8 — SI POTEVA FARE. QUALCUNO L'HA FATTO.
 ### (dall'ATTO 6 — LA SVOLTA: ERA UNA SCELTA)
 
-**Impaginazione**: 6 vignette. Prima striscia: due vignette (il ritorno al terminale). Seconda striscia:
-una larga (la scelta). Terza striscia: tre vignette in sequenza cronologica (la gara).
+**Impaginazione**: 4 vignette. È volutamente la tavola **più corta** del booklet, e arriva subito dopo
+la più pesante: serve al lettore per rialzare la testa. Prima striscia: due vignette. Seconda: una
+larga con il riquadro giallo. Terza: una larga di chiusura.
 
 ---
 
@@ -537,58 +826,42 @@ una larga (la scelta). Terza striscia: tre vignette in sequenza cronologica (la 
 
 **VIGNETTA 2**
 **DISEGNO** — Sandro gira lo schermo verso di lei. Sul monitor, di nuovo il terminale nero, di nuovo
-la stessa grafica della tavola 1. Sul volto di Marta la luce blu dello schermo.
+la stessa grafica della tavola 1. Sul volto di Marta la luce blu dello schermo. È la prima volta,
+da tre tavole, che qualcuno in questo booklet ha un'espressione diversa dalla preoccupazione.
 
-**RIQUADRO GIALLO «CINQUE SECONDI»**:
-> `difesa.it` → **mx.difesa.it**
-> `gdf.gov.it` → **mercurio.gdf.it**
-> `guardiacostiera.gov.it` → **mail.guardiacostiera.gov.it**
-> Tradotto: **la loro posta se la gestiscono da soli.** `[A1]`
+**BALLOON — SANDRO**: «Prima di dire *è il mondo*, faccia altri cinque secondi con me.»
 
 ---
 
-**VIGNETTA 3** *(larga, la vignetta-tesi della tavola)*
+**VIGNETTA 3** *(larga)*
+**DISEGNO** — Lo schermo a tutta vignetta, stessa identica grafica della tavola 1: nero, carattere
+macchina, le righe che compaiono una sotto l'altra.
+
+**RIQUADRO GIALLO «CINQUE SECONDI»**:
+> Stessa riga da scrivere. Stesso pomeriggio. Altri tre domini: `[A1]`
+> `difesa.it` → **mx.difesa.it**
+> `gdf.gov.it` → **mercurio.gdf.it**
+> `guardiacostiera.gov.it` → **mail.guardiacostiera.gov.it**
+> Tradotto: **la loro posta se la gestiscono da soli.**
+
+**BALLOON — MARTA**: «Quindi si poteva fare.»
+**BALLOON — SANDRO**: «Stesse regole. Stessi anni. Stessi soldi.»
+
+---
+
+**VIGNETTA 4** *(larga, la vignetta-tesi della tavola)*
 **DISEGNO** — Un bivio, ma stavolta senza teli e senza mistero: un semplice incrocio stradale di
 periferia, di quelli veri, con il palo storto e il cartello arrugginito. Due frecce. Nessun personaggio.
 Sul selciato, la sagoma consumata delle ruote: **entrambe le direzioni sono state percorse**.
 
 **DIDASCALIA (grande)**:
 > Non è un destino tecnologico. **È una decisione.**
-> Alcune amministrazioni italiane hanno scelto diversamente. Le stesse regole, gli stessi anni,
-> gli stessi soldi. Scelta diversa.
+> Qualcuno, dentro la stessa Pubblica Amministrazione, con le stesse regole davanti, ha deciso
+> diversamente. E non è successo niente di terribile: funziona.
 
 ---
 
-**VIGNETTE 4, 5, 6** *(tre in fila, come tre date su una linea del tempo — la linea del tempo attraversa
-materialmente le tre vignette in basso, disegnata come un binario)*
-
-**DISEGNO 4** — Un podio da premiazione visto frontalmente, spoglio. Sul gradino più alto: due sagome.
-**DIDASCALIA 4**: **22 giugno 2022.** La gara per il cloud di Stato italiano viene vinta da due aziende:
-**Aruba e Fastweb**. `[A8]`
-
-**DISEGNO 5** — Stesso podio, stessa inquadratura. Sul gradino più alto adesso c'è un **gruppo diverso**,
-quattro sagome. Le due di prima sono a lato, in piedi, ferme. Nessuna espressione caricaturale: nessuno
-sta ridendo, nessuno sta piangendo.
-**DIDASCALIA 5**: **Quindici giorni dopo**, la cordata guidata da TIM con Leonardo, Cassa Depositi e
-Prestiti e Sogei se la prende esercitando un **diritto di prelazione** riservato a chi aveva proposto
-il progetto.
-
-**BALLOON — MARTA** *(fuori campo, sopra la vignetta)*: «Ma si può fare?»
-**BALLOON — SANDRO** *(fuori campo)*: «Sì. **Era scritto nel bando**, e lo sapevano tutti prima di fare
-le offerte. Questo va detto, altrimenti raccontiamo una storia falsa.»
-
-**DISEGNO 6** — Un martelletto da giudice appoggiato su un fascicolo. Non alzato: **appoggiato**.
-Accanto, un foglio con una cifra.
-**DIDASCALIA 6**: Poi il **Consiglio di Stato** ha accertato che **quell'esercizio** della prelazione
-**fu illegittimo**. Ma per le opere finanziate dal PNRR la legge esclude il subentro: la cordata ha
-continuato a gestire. Aruba e Fastweb hanno chiesto **579 milioni di euro** di risarcimento. `[A8]`
-
-**BALLOON — MARTA** *(piccolo, ultima riga della tavola)*: «E chi li paga, quelli?»
-**BALLOON — SANDRO**: «Se li dovranno pagare, noi. La causa è ancora aperta.»
-
----
-
-# TAVOLA 8 — LO STATO CERTIFICA, E NON SA
+# TAVOLA 9 — LO STATO CERTIFICA, E NON SA
 ### (dall'ATTO 7)
 
 **Impaginazione**: 6 vignette. Prima striscia: due vignette (il comunicato / la misurazione).
@@ -625,9 +898,10 @@ In mezzo, un grosso segno di **diverso** (≠).
 > Su ventitremila enti pubblici italiani, **il 46% ha la posta elettronica su fornitori soggetti a una
 > legge straniera.** Verificabile ente per ente, da chiunque, in cinque secondi.
 
+**RIQUADRO DI ONESTÀ** *(subito sotto la vignetta, sfondo grigio chiaro)*
 **BALLOON — MARTA**: «Quindi di quel 75%, il 46% è americano?»
-**BALLOON — SANDRO**: «**No.** E questa è la trappola in cui cascano tutti. Sono due misure di due cose
-diverse, con due righelli diversi. Sommarle è comodo ed è sbagliato.»
+**BALLOON — SANDRO**: «**No.** E questa è la trappola in cui cascano tutti, noi compresi la prima volta.
+Sono due misure di due cose diverse, con due righelli diversi. Sommarle è comodo ed è sbagliato.»
 
 **Nota per il disegnatore**: questa correzione **deve** restare in pagina. È il momento in cui il booklet
 corregge sé stesso davanti al lettore, e da lì in poi il lettore si fida.
@@ -679,11 +953,12 @@ questo il punto.»
 
 ---
 
-# TAVOLA 9 — LA PORTA STRETTA
+# TAVOLA 10 — LA PORTA STRETTA
 ### (dall'ATTO 8 — L'ASIMMETRIA)
 
-**Impaginazione**: 5 vignette. Prima striscia: una larga (l'autodemolizione della leggenda).
-Seconda: una grande centrale (la porta). Terza: tre vignette (IPI / il vincolo italiano / l'onestà).
+**Impaginazione**: 6 vignette. Prima striscia: una larga (la leggenda che si sgonfia).
+Seconda: una grande centrale (la porta) + l'elenco dei nomi. Terza: tre vignette
+(i cinque nomi americani / IPI e il vincolo italiano / l'onestà). Fuori griglia: **riquadro di onestà**.
 
 ---
 
@@ -697,7 +972,7 @@ portano via. Dietro il cartello, il muro è nudo: non c'era niente.
 > Si sente dire spesso che gli Stati Uniti **vietino per legge** di comprare tecnologia europea.
 > **Non è vero.** E conviene dirlo noi per primi, prima che ce lo dicano gli altri: la norma americana
 > sul *«compra americano»* **esenta esplicitamente** l'informatica commerciale, e comunque non riguarda
-> i servizi. `[A13]`
+> i servizi. `[A13]` `[A18]`
 
 **BALLOON — MARTA**: «Aspetti, ma allora una delle cose che credevo era falsa?»
 **BALLOON — SANDRO**: «Sì. Se la raccontiamo, ci smontano in cinque minuti. E hanno ragione loro.»
@@ -706,48 +981,81 @@ portano via. Dietro il cartello, il muro è nudo: non c'era niente.
 
 **VIGNETTA 2** *(grande, centrale)*
 **DISEGNO — METAFORA VISIVA: la porta stretta.**
-Un grande portone istituzionale americano, chiuso. Non ha lucchetti, non ha catene, non ha divieti:
-è **aperto**. Ma è **strettissimo** — una fessura verticale alta e larga trenta centimetri, e sopra
-la scritta **CERTIFICAZIONE DI SICUREZZA**. Davanti alla fessura, in fila, alcune sagome di aziende
-europee che non ci passano. Una sola sagoma sta passando: **ma si è tolta il cappotto europeo e ne ha
-indossato uno americano**, e il cappotto vecchio è per terra dietro di lei.
+Un grande portone istituzionale americano. Non ha lucchetti, non ha catene, non ha divieti:
+è **spalancato**. Ma il passaggio è **strettissimo** — una fessura verticale alta e larga trenta
+centimetri, e sopra la scritta **CERTIFICAZIONE DI SICUREZZA**. Davanti alla fessura, in fila, alcune
+sagome di aziende europee che non ci passano. Nessun guardiano, nessun cartello di divieto.
+Accanto alla fessura, l'unico elemento che somiglia a un ostacolo: **una campanella con un cordoncino**,
+di quelle che devono essere suonate *da dentro*. Nessuno, dall'esterno, può suonarla per sé.
+
+**A FIANCO DELLA VIGNETTA — elenco verticale, carattere macchina, ogni nome seguito da «assente»**:
+> `OVHcloud` · `IONOS` · `Deutsche Telekom` · `Scaleway` · `Hetzner` · `Aruba` · `Orange` ·
+> `Bleu` · `S3NS` — **assenti tutti**
 
 **DIDASCALIA**:
-> Il meccanismo è più sottile. Per vendere al governo federale americano serve una certificazione di
-> sicurezza. Abbiamo cercato quanti fornitori cloud con **casa madre europea** l'abbiano ottenuta.
-> L'unico caso che emerge è la **controllata statunitense** di un'azienda tedesca. `[A13]`
-
-**DIDASCALIA (in risalto)**:
-> **Per vendere al governo americano, un europeo deve prima diventare americano.
-> È esattamente ciò che l'Europa non chiede agli americani.**
+> Per vendere al governo federale americano serve una certificazione di sicurezza. Abbiamo aperto
+> l'elenco pubblico dei fornitori autorizzati — **seicentottantaquattro** — e ci abbiamo cercato i
+> fornitori cloud europei.
+> **Nessuno. Non un solo fornitore cloud europeo.** `[A16]`
 
 ---
 
 **VIGNETTE 3, 4, 5**
 
-**DISEGNO 3** — Una cassetta degli attrezzi europea, aperta. Dentro, un solo attrezzo, e ha la polvere
-sopra. Sull'etichetta: **IPI**.
-**DIDASCALIA 3**: Uno strumento per difendersi esiste. In tre anni è stato usato **una volta sola** —
-contro la Cina, sui dispositivi medici. **Mai sul digitale. Mai verso gli Stati Uniti.** `[A13]`
+**DISEGNO 3** — Cinque cappotti appesi a un attaccapanni. Sono cappotti europei, si vede dal taglio.
+Accanto, cinque cappotti **identici fra loro e diversi dai primi**, nuovi, ancora con il cartellino.
+Su ogni cartellino, un nome. Per terra, sotto l'attaccapanni, i cappotti vecchi di chi si è già cambiato.
+**I CINQUE CARTELLINI (da scrivere leggibili)**:
+> SAP **National Security Services Inc.** · Siemens **Government Technologies** ·
+> Software AG **Government Solutions** · Darktrace **Federal Inc.** · Ericsson **NetCloud Federal**
 
-**DISEGNO 4** — Un articolo di legge italiano, incorniciato come un quadro appeso in un ufficio pubblico.
+**DIDASCALIA 3**:
+> I gruppi europei nell'elenco ci sono. Ma guardate **con quale nome**. Ognuno di loro ha dovuto
+> costituire **una società americana**. `[A16]`
+> **Per vendere al governo americano, un europeo deve prima diventare americano.
+> È esattamente ciò che l'Europa non chiede agli americani.**
+
+**DISEGNO 4** — Una cassetta degli attrezzi europea, aperta. Dentro, un solo attrezzo, e ha la polvere
+sopra. Sull'etichetta: **IPI**.
+**DIDASCALIA 4**: Uno strumento europeo per difendersi esiste. In tre anni è stato usato **una volta
+sola** — contro la Cina, sui dispositivi medici. **Mai sul digitale. Mai verso gli Stati Uniti.** `[A13]`
+
+**DISEGNO 5** — Un articolo di legge italiano, incorniciato come un quadro appeso in un ufficio pubblico.
 Sotto, una targhetta.
-**DIDASCALIA 4**: E c'è una ragione giuridica precisa: per il codice degli appalti l'Italia
+**DIDASCALIA 5**: E c'è una ragione giuridica precisa: per il codice degli appalti l'Italia
 **è obbligata a trattare i fornitori americani non meno favorevolmente** degli altri. `[A11]`
 **BALLOON — SANDRO**: «Cioè: **non si può escludere nessuno per legge.** La Francia infatti non l'ha fatto.
 Tenga a mente questa frase: serve alla fine.»
 
-**DISEGNO 5** — Una bilancia da tavolo a due piatti, in equilibrio storto. Su un piatto, un mattone con
+---
+
+**VIGNETTA 6** *(larga, chiusura)*
+**DISEGNO** — Una bilancia da tavolo a due piatti, in equilibrio storto. Su un piatto, un mattone con
 scritto **−126**; sull'altro, un mattone più piccolo con scritto **+60**. Sandro sta mettendo lui stesso
 il secondo mattone.
-**DIDASCALIA 5**:
+**DIDASCALIA**:
 > Onestà obbligatoria. Se si cita il **disavanzo europeo di 126 miliardi** sui diritti di proprietà
 > intellettuale, va citato anche l'**avanzo di 60 miliardi** sui servizi informatici e di
 > telecomunicazione. Ometterlo sarebbe manipolatorio — e chi ci contesta lo sa benissimo. `[A13]`
 
 ---
 
-# TAVOLA 10 — L'ABBIAMO CHIESTA. E ABBIAMO PERSO.
+**RIQUADRO DI ONESTÀ** *(fuori griglia, in fondo alla tavola, sfondo grigio chiaro)*
+**DISEGNO** — Sandro, mezzo busto, mano alzata. Stessa posa del riquadro della tavola 5.
+**BALLOON — SANDRO**:
+> «Tre precisazioni, se no ci fanno neri. `[A18]`
+> **Uno**: la barriera **non è il costo** della certificazione. Anzi, quel programma sta abbassando costi
+> e tempi **di proposito**. La barriera vera è che ti serve **un'agenzia federale che ti sponsorizzi** —
+> insieme a cittadinanza e controllo societario. È quella la campanella che si suona da dentro.
+> **Due**: e lo dico io per primo, prima di loro — **una norma americana vieta espressamente** di
+> escludere un fornitore *«sulla sola base della proprietà straniera»*. È il loro argomento più forte.
+> Non demolisce il nostro: lo obbliga a essere preciso.
+> **Tre**: **non è vero che gli Stati Uniti hanno chiuso agli europei negli ultimi due anni.** Semmai
+> hanno deregolato. L'effetto era già prodotto da uno strato costruito fra il 2011 e il 2019.»
+
+---
+
+# TAVOLA 11 — L'ABBIAMO CHIESTA. E ABBIAMO PERSO.
 ### (dall'ATTO 9 — BRUXELLES) · *la svolta narrativa*
 
 **Impaginazione**: 6 vignette. Prima striscia: una vignetta (l'accusa facile, e la sua smentita).
@@ -824,10 +1132,10 @@ Marta la guarda. Non la tocca.
 
 ---
 
-# TAVOLA 11 — E I RAGAZZI?
+# TAVOLA 12 — E I RAGAZZI?
 ### (dall'ATTO 10 — I FIGLI)
 
-**Impaginazione**: 5 vignette. Va tenuta **breve, asciutta e non ricattatoria**. Nessun bambino
+**Impaginazione**: 6 vignette. Va tenuta **breve, asciutta e non ricattatoria**. Nessun bambino
 disegnato in primo piano con l'aria triste: sarebbe esattamente il tipo di manipolazione che questo
 booklet rifiuta.
 
@@ -837,58 +1145,98 @@ booklet rifiuta.
 **DISEGNO** — Un corridoio di scuola media italiana, vuoto, fine pomeriggio. Armadietti, un cartellone
 appeso, una finestra. Realistico, non nostalgico.
 **DIDASCALIA**: Nelle oltre dodicimila amministrazioni migrate con i fondi europei ci sono anche
-**le scuole**. `[B1]`
+**le scuole**. `[B1]` E sulle scuole, adesso, **il dato ce l'abbiamo.** `[A17]`
 
 ---
 
 **VIGNETTA 2**
 **DISEGNO** — Marta, che è stata insegnante, guarda una lavagna interattiva spenta. Non commossa:
 attenta.
-**BALLOON — MARTA**: «Allora glielo chiedo da ex insegnante. I dati dei nostri studenti — nomi, voti,
-segnalazioni, certificati medici — dove sono finiti?»
+**BALLOON — MARTA**: «Allora glielo chiedo da ex insegnante. Le scuole dove stanno?»
+**BALLOON — SANDRO**: «Se lo dico prima che lo veda, non ci crede.»
 
 ---
 
-**VIGNETTA 3**
-**DISEGNO** — Sandro davanti a un motore di ricerca. Schermo con zero risultati. Sul volto, non
-imbarazzo: **incredulità professionale**.
-**BALLOON — SANDRO**: «Ho cercato. Ho cercato davvero.»
-**BALLOON — MARTA**: «E?»
-**BALLOON — SANDRO**: «**Non esiste alcun dato pubblico.**» `[A13]`
+**VIGNETTA 3** *(a tutta larghezza — la vignetta-dato della tavola)*
+**DISEGNO — METAFORA VISIVA: la classifica che finisce dove non ti aspetti.**
+Una classifica disegnata come un tabellone, con le righe che scendono. Ma **la prima riga è staccata
+dalle altre e sta più in alto**, isolata, e ha una dimensione doppia. Le altre righe sono grigie e più
+piccole. Nessun colore, nessun grafico a barre da presentazione: sembra un tabellone di stazione.
+
+**IL TABELLONE (da scrivere così)**:
+> **ISTRUZIONE — 8.403 istituti — 77,7%**
+> PA Centrale — 52 — 63,5%
+> Sanità — 234 — 59,4%
+
+**DIDASCALIA**:
+> Di tutte le categorie della Pubblica Amministrazione italiana, quella con la quota più alta di
+> dipendenza da fornitori extra-europei **non è la Difesa, non è la Sanità, non è la presidenza del
+> Consiglio.**
+> **È l'Istruzione. Ottomilaquattrocentotré istituti. Il 77,7%.** Più di tre scuole su quattro.
+> Il fornitore dominante è **Google**.
+> È anche il gruppo più grande che misuriamo — **trentasette per cento di tutti gli enti** — ed è quello
+> messo peggio. `[A17]`
+
+**DIDASCALIA PICCOLA (sotto, corsivo — precisione obbligatoria)**:
+> Che cosa misura esattamente questo numero: il **dominio della posta istituzionale** degli istituti
+> registrati nell'anagrafe pubblica. È prova diretta di quale piattaforma la scuola ha adottato.
+> **Non** è una misura di quanti studenti usino ogni giorno un singolo programma. Diciamolo così, sempre.
 
 ---
 
 **VIGNETTA 4**
-**DISEGNO — METAFORA VISIVA: il modulo con la riga mancante.** Un modulo scolastico ingrandito. Tutte
-le righe sono compilate con grafia ordinata: *plesso, numero studenti, servizi attivati, importo*.
-L'ultima riga, `su quale infrastruttura`, è **stampata ma senza casella**: non c'è proprio lo spazio
-dove scriverlo.
+**DISEGNO** — Un'aula di informatica, vuota, con dodici postazioni identiche accese sulla stessa
+schermata di accesso. Nessuna persona. La luce viene dagli schermi.
 
 **DIDASCALIA**:
-> Un obiettivo europeo raggiunto e certificato, centinaia di migliaia di studenti, e nessuno in Italia
-> può dire su quali infrastrutture siano finiti i loro dati.
-> **Non è un segreto. È un dato che non è mai stato raccolto.**
+> Non è un contratto. È **un'abitudine che si forma a quattordici anni** e dura vent'anni.
+> Quando quegli studenti saranno funzionari pubblici, sapranno usare bene una cosa sola.
+
+**DIDASCALIA PICCOLA (corsivo, sotto)**:
+> ⚠️ Questa è un'**osservazione**, non un risultato scientifico. Studi empirici che dimostrino la perdita
+> di competenze **non ne abbiamo trovati**, e non li inventiamo. `[A13]`
 
 ---
 
 **VIGNETTA 5**
+**DISEGNO** — Un documento stampato, posato su una cattedra, con l'intestazione **Google** e il titolo
+del programma per le scuole ben visibile. Una riga è evidenziata in giallo. Accanto, la mano di Marta
+con la penna, ferma sopra la riga: non sottolinea, si è fermata.
+
+**TESTO EVIDENZIATO (balloon squadrato)**:
+> «*Nella misura in cui Google LLC possa ricevere richieste mirate […] ai sensi della **Downstream 702**,
+> esaminiamo **con attenzione** ciascuna richiesta.*»
+> — Google, documento per *Workspace for Education*, agosto 2021 `[A29]`
+
+**BALLOON — MARTA**: «*Esaminiamo con attenzione.*»
+**BALLOON — SANDRO**: «Sì. Non: **rifiutiamo**.»
+
+---
+
+**VIGNETTA 6**
 **DISEGNO** — Una carta geografica europea appesa storta al muro di un'aula, con una puntina infilata
-su una sola regione: il **Baden-Württemberg**, in Germania.
+su una sola regione: il **Baden-Württemberg**, in Germania. Accanto alla carta, un post-it giallo
+attaccato al muro con tre righe scritte a mano: sono le tre avvertenze qui sotto.
 
 **DIDASCALIA**:
 > Qualcuno in Europa ha deciso diversamente: il **Baden-Württemberg** ha rinunciato a Microsoft 365
 > nelle proprie scuole. È il caso solido.
-> ⚠️ E diciamo subito quello che **non** diremo: circola la storia che una regione tedesca abbia
-> «vietato Microsoft nelle scuole» nel 2019. **Quel divieto fu ritirato dopo tre settimane.**
-> Circola anche l'idea che esistano studi che dimostrano la perdita di competenze:
-> **studi empirici di quel tipo non ne abbiamo trovati.** `[A13]`
+> **In Italia, a fronte di 8.403 istituti, non è stato adottato nessun provvedimento.** `[A29]`
+
+**IL POST-IT (da scrivere a mano, leggibile)**:
+> ⚠️ E diciamo subito quello che **non** diremo:
+> — non è vero che una regione tedesca «vietò Microsoft nelle scuole» nel 2019: quel divieto fu
+>   **ritirato dopo tre settimane**;
+> — la Danimarca non ha «vietato Google»: ha ordinato a **53 comuni** di mettersi in regola;
+> — nei **Paesi Bassi** la vicenda si è chiusa con un **adeguamento**, non con un divieto. È il
+>   contro-argomento più forte di Google, e lo scriviamo noi. `[A29]`
 
 **Nota per il disegnatore**: la palette di questa tavola è la più calda del booklet. È l'unico momento
 in cui la storia riguarda persone che non hanno scelto niente.
 
 ---
 
-# TAVOLA 12 — LA VIA D'USCITA
+# TAVOLA 13 — LA VIA D'USCITA
 ### (dall'ATTO 11) · **il finale non è catastrofista: è la porta**
 
 **Impaginazione**: 6 vignette. Prima striscia: una larga (il capovolgimento). Seconda: tre vignette
@@ -937,6 +1285,8 @@ ufficiale di Microsoft c'è scritto, testualmente:
 **VIGNETTA 4 — FRANCIA**
 **DISEGNO** — Stesso palazzo, guardiola dentro, bandierina francese. Due insegne nuove sul portone.
 **DIDASCALIA**: La Francia l'ha preteso: sono nate due iniziative dedicate, **Bleu** e **S3NS**. `[A4]` `[B3]`
+E qui c'è il fatto che vale più di tutti: **una di quelle due esiste perché la Francia ha scritto la
+regola.** Non perché qualcuno sia diventato buono. `[A29]`
 
 ---
 
@@ -965,7 +1315,7 @@ Gliel'ho fatto vedere: sono le sette parole con lo zero accanto.»
 ---
 
 **VIGNETTA 6** *(finale, a tutta larghezza — quasi muta)*
-**DISEGNO** — Il **Cursore**, che per undici tavole è stato piccolo in basso a destra, adesso è al centro
+**DISEGNO** — Il **Cursore**, che per dodici tavole è stato piccolo in basso a destra, adesso è al centro
 della vignetta ed è **alto quanto la vignetta**. Lampeggia su fondo nero.
 In basso a sinistra, minuscola, la Busta: è arrivata in fondo alla mappina del margine, dentro
 lo schedario americano. Ha ancora i suoi due occhietti, e guarda il lettore.
@@ -997,21 +1347,30 @@ ma stavolta **appoggiata su un davanzale, di profilo**, che guarda fuori. Non è
 
 - **Non dice** che un presidente americano legge le indagini dei Carabinieri. Abbiamo mostrato dove passa
   la posta istituzionale ordinaria. Le reti operative e riservate sono un'altra cosa, e sono separate.
+- **Non dice** che Google abbia mentito al Senato francese nel 2019. Quel verbale si legge in due modi e
+  **il dubbio resta**. Quello che si può dire è che Google usa una definizione di CLOUD Act che lascia
+  fuori proprio il meccanismo che conta — e a scriverlo, senza accusare nessuno, è il Senato francese.
 - **Non dice** che una legge americana vieti di comprare software europeo. **Non esiste.** Il meccanismo
-  è un altro, ed è la porta stretta della certificazione: pagina della tavola 9.
+  è un altro: la porta stretta della certificazione, e la sponsorizzazione che serve per attraversarla.
+- **Non dice** che gli Stati Uniti abbiano chiuso agli europei negli ultimi due anni. Non l'hanno fatto:
+  l'effetto era già prodotto prima.
 - **Non dice** che l'Italia non abbia mai chiesto protezione. **L'ha chiesta, l'ha co-scritta nel 2021,
   e ha perso.** Il problema è ciò che non ha scritto in casa propria.
+- **Non dice** che l'Italia fosse fra i dodici Stati che chiesero la rimozione: quell'elenco non è
+  pubblico. È una deduzione, e l'abbiamo scritto dov'era il caso.
 - **Non dice** che il 46% sia una fetta del 75%. Sono due misure diverse, con due righelli diversi.
+- **Non dice** che una controllata europea sia **perciò** soggetta alla legge americana: si accerta caso
+  per caso, e non risulta nessuna sentenza che lo abbia deciso. E la cifratura con chiavi tenute fuori è
+  una difesa che funziona davvero, per i dati fermi.
+- **Non dice** che leggere i dati e spegnere un account siano la stessa cosa. Sono **due poteri diversi**,
+  e la tavola 7 è l'unica che parla del secondo.
+- **Non dice** che a un ente pubblico italiano sia già successo qualcosa del genere: allo stato, il
+  rischio va detto **teorico**.
 - **Non dice** che il modello cinese sia un modello di libertà. Non lo è. Lo citiamo solo perché dimostra
   che, quando un governo lo impone, il modello si costruisce.
-- **Non dice** che i miliardi di valore di una concessione pubblica siano soldi versati dallo Stato:
-  il tetto di valore di una concessione è il fatturato **potenziale** ricavabile vendendo servizi negli
-  anni, non un assegno firmato dai contribuenti. È l'errore più frequente su questa materia, e non lo
-  faremo noi.
-- **Non dice** che la prelazione nella gara del 2022 sia stata un trucco: era prevista dal bando e nota
-  a tutti. Il fatto vero è più forte: un giudice ha accertato che **quell'esercizio** fu illegittimo.
 - **Non dice** che esistano studi che provano la perdita di competenze nelle scuole. Non ne abbiamo
-  trovati, e non li inventiamo.
+  trovati, e non li inventiamo. E non dice che Danimarca, Germania o Paesi Bassi abbiano «vietato»
+  qualcuno: nei Paesi Bassi si è chiusa con un adeguamento, e lo scriviamo noi per primi.
 
 ---
 
@@ -1031,13 +1390,14 @@ ma stavolta **appoggiata su un davanzale, di profilo**, che guarda fuori. Non è
 2. **Chiedere.** Un consigliere comunale può fare un'interrogazione. Un genitore può chiederlo al
    consiglio d'istituto. Un cittadino può fare accesso agli atti.
 3. **Chiedere la domanda.** In Francia un senatore ha fatto una domanda, sotto giuramento, e ha ottenuto
-   una risposta che ha cambiato il dibattito di un Paese.
+   una risposta che ha cambiato il dibattito di un Paese. Prima di lui, per sei anni, altri l'avevano
+   fatta e non avevano ottenuto né un sì né un no.
    **In Italia quella domanda non l'ha ancora fatta nessuno.**
 
 ---
 
 *Fonti e riferimenti completi: dossier «Non posso garantirlo» — Osservatorio Nazionale sulla Sovranità
-Digitale. Ogni fatto citato in queste dodici tavole è tracciato nel documento `STATO-DELLE-CONOSCENZE.md`,
+Digitale. Ogni fatto citato in queste tredici tavole è tracciato nel documento `STATO-DELLE-CONOSCENZE.md`,
 con il livello di affidabilità dichiarato per ciascuno.*
 
 ---
@@ -1047,20 +1407,25 @@ con il livello di affidabilità dichiarato per ciascuno.*
 
 ## 1. PALETTE
 
-**Quattro famiglie di colore, una per registro narrativo.** Il lettore deve capire *dove si trova*
+**Cinque famiglie di colore, una per registro narrativo.** Il lettore deve capire *dove si trova*
 senza leggere niente.
 
 | Registro | Palette | Dove |
 |---|---|---|
-| **Italia, presente, reale** | Grigio-azzurro freddo da ufficio pubblico: `#3E4A55`, `#7D8A94`, `#C9D1D6`. Luci al neon leggermente verdi. | Tavole 1, 5(vign. 2-3), 6(vign. 4-6), 7, 8, 11, 12 |
+| **Italia, presente, reale** | Grigio-azzurro freddo da ufficio pubblico: `#3E4A55`, `#7D8A94`, `#C9D1D6`. Luci al neon leggermente verdi. | Tavole 1, 3 (pag. sin.), 5 (vign. 2-3), 6 (vign. 4-6), 8, 9, 11, 12, 13 |
 | **La simulazione documentata** | Beige caldo e polveroso, quasi seppia: `#C9A96E`, `#8A6E45`, `#EFE3CC`. Nessun blu. | Tavole 2, 4, 5 (parte alta) |
-| **Il documento / la prova** | Bianco carta `#FAF8F3`, nero inchiostro, **giallo senape** `#E8B93C` per gli evidenziatori, **rosso timbro** `#C0392B` **usato con avarizia** | riquadri «cinque secondi», tavole 3(vign.3), 8 |
-| **Il terminale** | Nero puro `#000000`, verde-bianco fosforo `#E8F0E8`. Nessun altro colore ammesso. | Tavole 1, 7, 12 |
+| **Il documento / la prova** | Bianco carta `#FAF8F3`, nero inchiostro, **giallo senape** `#E8B93C` per gli evidenziatori, **rosso timbro** `#C0392B` **usato con avarizia** | riquadri «cinque secondi», tavole 3 (pag. destra), 9, 12 |
+| **Il terminale** | Nero puro `#000000`, verde-bianco fosforo `#E8F0E8`. Nessun altro colore ammesso. | Tavole 1, 8, 13 |
+| **🆕 Il reale, tavola 7** | **Nessun colore.** Bianco `#FFFFFF`, grigi neutri, nero. Niente beige, niente giallo, **niente rosso**. È l'unica tavola acromatica del booklet. | Tavola 7 |
 
 **Regola sul rosso**: il rosso compare **sette volte in tutto il booklet**, non una di più.
-La sciarpa di Marta, il timbro `SERVIZIO` sulla Busta, il timbro `SIMULAZIONE DOCUMENTATA`, gli zeri
-della tavola 8, il sigillo di ceralacca della tavola 6, la freccia spezzata della tavola 6,
-il campanello consumato della tavola 10. Se il rosso è ovunque, la freccia spezzata non fa più effetto.
+La sciarpa di Marta · il timbro `SERVIZIO` sulla Busta · il timbro `SIMULAZIONE DOCUMENTATA` (tavole 2,
+4, 5) · il sigillo di ceralacca della tavola 6 · la freccia spezzata della tavola 6 · gli zeri della
+tavola 9 · il campanello consumato della tavola 11.
+Se il rosso è ovunque, la freccia spezzata non fa più effetto.
+🆕 **La tavola 7 non contiene una sola area rossa.** È voluto: è la tavola in cui non c'è niente da
+timbrare, niente da dichiarare e niente da simulare. Il lettore non saprà dire perché quella pagina
+gli è sembrata diversa, ma se ne accorgerà.
 
 **Colori vietati**: verde-bandiera e tricolore decorativo; azzurro «tecnologico» con circuiti stampati;
 qualunque gradiente blu-viola da presentazione aziendale. Sono i colori con cui questo argomento viene
@@ -1076,17 +1441,24 @@ di solito raccontato male.
 - **Nessuna caricatura di persone reali.** I due protagonisti dell'audizione francese sono disegnati con
   rispetto professionale. La regola vale anche per chi non è simpatico agli autori: la credibilità del
   booklet vale più di una vignetta cattiva.
+  🆕 **E per tre persone reali la regola diventa un divieto**: il direttore tecnico di AWS (tavola 5),
+  la giudice slovena e il giudice francese (tavola 7) **non si disegnano affatto**. Vedi §4, DIFFICILE 2.
 - **Balloon**: due tipi soltanto. Tondi per i dialoghi. **Squadrati con angoli vivi** per le citazioni
   testuali da documenti e verbali. Il lettore deve poter distinguere a colpo d'occhio *cosa è una parola
   detta davvero da qualcuno* e *cosa è conversazione*.
+  🆕 **Terza regola nuova, importante**: i balloon squadrati che riportano parole di persone reali **non
+  disegnate** vanno **senza coda**. La coda punta a una bocca; se non disegniamo la bocca, non inventiamo
+  la coda. Il balloon si appoggia al documento o allo schermo da cui la frase proviene davvero.
 - **Didascalie**: riquadro bianco con filetto nero per la voce narrante; **riquadro nero con testo bianco**
-  per gli avvertimenti («ecco cosa NON abbiamo dimostrato»); **riquadro grigio chiaro** per i riquadri
-  di onestà, dove uno dei due personaggi ammette un limite.
+  per gli avvertimenti («ecco cosa NON abbiamo dimostrato» — tavole 1 e 7); **riquadro grigio chiaro**
+  per i riquadri di onestà, dove uno dei due personaggi ammette un limite.
 - **Lettering**: un carattere a mano leggibile per i dialoghi; **un carattere monospaziato da terminale**
   per tutto ciò che è dato tecnico verificabile. La differenza di carattere fa metà del lavoro didattico.
 - **Densità**: massimo 6 vignette per tavola, **mai più di 25 parole per balloon**. Se un concetto non ci
   sta, non va compresso: va spostato in una metafora visiva. È la ragione per cui esistono le metafore
   in questa sceneggiatura.
+  🆕 **Unica eccezione**: la tavola 3, che è **doppia** (due pagine affiancate, 4 + 6 vignette). È l'unica,
+  e il fatto che sia l'unica è essa stessa un segnale al lettore: qui c'è il cuore del booklet.
 
 ## 3. RIFERIMENTI VISIVI
 
@@ -1096,18 +1468,66 @@ di solito raccontato male.
   2010-2020. Faldoni, neon, piante di plastica, cartelli scritti in Comic Sans e plastificati.
   **La verosimiglianza degli interni è ciò che rende credibile il resto**: se l'ufficio è finto, il
   lettore sospetta che siano finti anche i dati.
-- **Per le metafore (magazzino, palazzo, guardiola, porta stretta)**: il disegno tecnico e l'assonometria
-  esplosa da manuale di istruzioni. Devono sembrare **schemi**, non illustrazioni: lo schema si legge,
-  l'illustrazione si guarda e basta.
+- **Per le metafore (magazzino, palazzo, guardiola, porta stretta, due sportelli)**: il disegno tecnico e
+  l'assonometria esplosa da manuale di istruzioni. Devono sembrare **schemi**, non illustrazioni: lo
+  schema si legge, l'illustrazione si guarda e basta.
 - **Per l'aula del Senato francese**: fotografia istituzionale, frontale, illuminazione piatta.
   Volutamente noiosa. La noia dell'inquadratura è ciò che dà peso alla frase.
+- 🆕 **Per la tavola 7**: il riferimento **non** è il fumetto e **non** è la fotografia di cronaca.
+  È la **documentazione giudiziaria**: reperti fotografati su fondo neutro, con la scala di riferimento
+  accanto. Oggetti isolati, luce piatta, niente atmosfera. Meno la tavola sembra «raccontata», più pesa.
 - **Per la Busta**: la lezione da tenere presente è quella degli oggetti-personaggio muti — funzionano
   finché **non fanno le facce**. Due occhi, nessuna bocca, nessun braccio, nessuna gamba.
   Se la Busta comincia a gesticolare, il booklet diventa una pubblicità e perde autorevolezza.
+  🆕 Nella tavola 3, vignetta 10, la Busta **sta sopra un documento e guarda in basso**. È l'unica volta
+  in cui fa qualcosa che assomiglia a un'azione, ed è il massimo consentito: non indica, non si stupisce,
+  **sta ferma su una riga**. Se le si disegnano le braccia per tenere il foglio, la vignetta è da rifare.
 
-## 4. LE TRE VIGNETTE PIÙ DIFFICILI, E COME RISOLVERLE
+## 4. LE QUATTRO VIGNETTE PIÙ DIFFICILI, E COME RISOLVERLE
 
-### DIFFICILE 1 — Tavola 5, vignetta 1: **il piano di controllo**
+### 🆕 DIFFICILE 1 — Tavola 7: **come si disegna la sparizione di un timbro**
+**Perché è difficile**: un'assenza non si disegna. Se nell'angolo in alto a destra semplicemente non c'è
+niente, il lettore non nota nulla — al massimo pensa a una dimenticanza dello stampatore. Eppure quella
+sparizione è **il perno drammatico dell'intero booklet**: è il momento in cui il racconto smette di
+premettere «immaginiamo». Scriverlo in didascalia («qui il timbro sparisce») sarebbe la soluzione peggiore:
+spiegare un effetto grafico è ammettere che non funziona.
+
+**Soluzione proposta**: **l'impronta fantasma.**
+Il timbro non è assente: è **stato tolto**. Nell'angolo dove per tre tavole c'era il rullo rosso obliquo,
+resta il **rettangolo di carta più chiara** che un oggetto lascia quando è stato appoggiato a lungo nello
+stesso punto e viene spostato — bordi netti, tonalità appena più fredda del resto della pagina, e
+l'accenno di una piccola ombra portata che adesso non ha più niente da proiettare. Nessun testo.
+Tre rinforzi la rendono impossibile da non notare:
+1. **la tavola 2 lo ha già annunciato** («arriverà una pagina in cui questo timbro non ci sarà più»);
+2. **Marta lo dice ad alta voce** nella prima vignetta — quattro parole, «È sparito il timbro» — ed è
+   l'unico personaggio che può permetterselo, perché è lei che nota le cose;
+3. **tutto il resto della pagina perde il colore**: acromatica, senza rosso, senza beige.
+Il lettore non deve capire *come* funziona l'effetto. Deve solo voltare pagina e sentire che la
+temperatura è cambiata.
+
+### 🆕 DIFFICILE 2 — Tavola 7, vignette 3 e 4: **rendere una persona reale senza ritrarla**
+**Perché è difficile**: sono due magistrati europei viventi, identificabili, che non hanno acconsentito a
+diventare personaggi di un fumetto. Disegnarne il volto sarebbe scorretto verso di loro e stupido verso
+di noi: basterebbe una somiglianza sbagliata per spostare la discussione dal fatto al disegno. Ma una
+vignetta senza nessuno rischia di essere fredda proprio dove il booklet ha bisogno di essere umano.
+E c'è un secondo rischio, opposto: la tentazione di «umanizzare» inventando — una figura di spalle che
+si prende la testa fra le mani, una sedia rovesciata, una lacrima. Sarebbe **fiction dentro l'unica
+tavola che ha promesso di non esserlo.**
+
+**Soluzione proposta**: **il ritratto per sottrazione — l'oggetto che la persona ha usato, e le sue parole
+scritte.**
+Per la giudice slovena: **uno schermo di telefono e due dita**. Nient'altro. Le notifiche impilate fanno
+il lavoro emotivo — sono cinque, sono identiche, sono tutte della stessa notte — e la citazione arriva in
+un balloon squadrato **senza coda**, appoggiato allo schermo: sono parole che lei ha **scritto**, non che
+noi le facciamo dire.
+Per il giudice francese: **un atto parlamentare sul tavolo e una toga piegata su una sedia**. La toga è la
+persona: dice il mestiere, la dignità e l'assenza tutte insieme, senza un centimetro di volto.
+La stessa tecnica risolve il direttore tecnico di AWS nella tavola 5 e le tre audizioni del 2019 nella
+tavola 3: **il tavolo ripreso da dietro, due mani, un microfono, una data.** È la regola delle mani portata
+alle sue conseguenze — e diventa anche un vantaggio di ritmo, perché rende quelle vignette immediatamente
+riconoscibili come «materiale d'archivio» ogni volta che tornano.
+
+### DIFFICILE 3 — Tavola 5, vignetta 1: **il piano di controllo**
 **Perché è difficile**: è un concetto puramente astratto (l'infrastruttura che amministra i server) e non
 ha nessun corrispettivo fisico. Disegnare «server» non serve a niente: il lettore vede armadi con le lucine
 e conclude, sbagliando, che il problema sia dove stanno gli armadi. Cioè esattamente l'errore che la
@@ -1117,11 +1537,11 @@ tavola 3 ha appena smontato.
 Le porte numerate (i server) sono dentro, in Italia, materialmente e visibilmente. Il mazzo di chiavi è
 in una guardiola disegnata **oltre il bordo della vignetta**, collegata da un filo sottile che attraversa
 la cornice. Il fatto che la guardiola *sfori la cornice* è il punto: dice visivamente «questa cosa non è
-dentro il perimetro che stai guardando». E la stessa identica composizione ritorna nelle tavole 5 e 12,
-con la guardiola dentro invece che fuori: il lettore, alla dodicesima tavola, capisce la soluzione
-**prima di leggere la didascalia**. Questo è il vero obiettivo.
+dentro il perimetro che stai guardando». E la stessa identica composizione ritorna nelle vignette 2-3
+della stessa tavola e in tutta la tavola 13, con la guardiola dentro invece che fuori: il lettore, alla
+tredicesima tavola, capisce la soluzione **prima di leggere la didascalia**. Questo è il vero obiettivo.
 
-### DIFFICILE 2 — Tavola 6, vignetta 6: **la norma ineseguibile**
+### DIFFICILE 4 — Tavola 6, vignetta 6: **la norma ineseguibile**
 **Perché è difficile**: è il momento concettualmente più alto del booklet — un obbligo di legge italiano
 che una legge straniera rende impossibile da eseguire — e va reso **senza una parola di spiegazione**,
 altrimenti si perde. È anche il punto in cui è più forte la tentazione di fare della satira, che qui
@@ -1134,27 +1554,53 @@ dice *atto giuridico formale*, non *bavaglio*. Il rosso della freccia spezzata �
 della vignetta. Nessun balloon, una sola riga di testo sotto. Se la vignetta funziona, il lettore la
 capisce in due secondi e la ricorda per due anni.
 
-### DIFFICILE 3 — Tavola 9, vignetta 2: **l'asimmetria senza divieti**
-**Perché è difficile**: bisogna comunicare «non c'è nessun divieto, eppure di fatto non si passa» —
-e la vignetta 1 ha appena smontato pubblicamente l'idea del divieto. Se qui si disegna un lucchetto,
-una catena o un cartello di stop, **si contraddice la vignetta precedente nella stessa pagina** e il
-booklet perde la credibilità che si è appena guadagnato ammettendo un errore diffuso.
-
-**Soluzione proposta**: **la porta aperta ma strettissima.**
-Un portone monumentale, **spalancato**, con la fessura di passaggio larga trenta centimetri. Nessun
-divieto, nessuna serratura, nessun guardiano. Le sagome europee in fila non ci passano per **forma**,
-non per proibizione. E l'unica che passa lo fa **cambiandosi il cappotto**: quello vecchio resta per
-terra, riconoscibile, dietro di lei. È la sintesi visiva esatta di «per vendere al governo americano un
-europeo deve prima diventare americano», senza affermare un solo fatto che non sia nel dossier.
+### Menzione d'onore — Tavola 10, vignetta 2: **l'asimmetria senza divieti**
+Bisogna comunicare «non c'è nessun divieto, eppure di fatto non si passa», e la vignetta 1 ha appena
+smontato pubblicamente l'idea del divieto. Se qui si disegna un lucchetto, una catena o un cartello di
+stop, **si contraddice la vignetta precedente nella stessa pagina.**
+**Soluzione**: il portone **spalancato** con la fessura di trenta centimetri; le sagome europee non ci
+passano per **forma**, non per proibizione; e l'unica che passa lo fa **cambiandosi il cappotto**.
+🆕 **Aggiunta obbligatoria in questa versione**: accanto alla fessura va disegnata **una campanella con
+il cordoncino che pende dalla parte interna**. È l'unico modo per rendere in disegno la correzione più
+importante di questo blocco: la barriera non è il prezzo del biglietto, è che **qualcuno di dentro deve
+sponsorizzarti**. Chi resta fuori non può nemmeno suonare per farsi aprire. Non disegnare monete, non
+disegnare un tariffario: sarebbe la versione sbagliata, e verrebbe smentita entro un anno. `[A18]`
 
 ## 5. TRE AVVERTENZE FINALI
 
-1. **I riquadri di onestà non sono materiale di riempimento.** Sono tre in tutto (tavola 8 sul righello,
-   tavola 10 sui dodici Stati, tavola 12 sul modello cinese) e vanno disegnati e impaginati con la stessa
-   cura delle vignette principali. Sono ciò che distingue questo booklet da un pamphlet.
+1. **I riquadri di onestà non sono materiale di riempimento.** Sono **cinque** (tavola 5 sulle tre
+   precisazioni giuridiche, tavola 9 sul righello, tavola 10 sulla sponsorizzazione, tavola 11 sui dodici
+   Stati, tavola 13 sul modello cinese) e vanno disegnati e impaginati con la stessa cura delle vignette
+   principali. Sono ciò che distingue questo booklet da un pamphlet. Sandro assume in tutti la stessa
+   posa — mezzo busto, mano alzata — perché diventi un segnale riconoscibile a colpo d'occhio.
 2. **La Busta non va salvata.** C'è la tentazione, in fondo, di farla tornare indietro o di farla
    sorridere. Non succede: la Busta finisce nello schedario e resta lì. La via d'uscita del booklet non
    riguarda quella busta, riguarda **le prossime**.
 3. **Se una tavola non si capisce senza le didascalie, la tavola è sbagliata.** Il lettore-tipo di questo
    booklet legge prima i disegni e poi, forse, il testo. Il test finale è: sfogliarlo a voce spenta,
    coprendo tutti i testi, e vedere se la storia arriva lo stesso.
+   🆕 **La tavola 7 è quella su cui il test va fatto per prima**, perché è quella che regge o cade tutta
+   sul disegno: se a voce spenta non si capisce che lì il registro è cambiato, l'impronta fantasma non
+   sta funzionando e va rifatta più marcata.
+
+## 6. 🆕 MATERIALE ESCLUSO — non disegnare
+
+Nella versione 1.0 la tavola 7 (oggi 8) conteneva tre vignette sulla gara per il cloud di Stato del 2022:
+podio, prelazione, martelletto. **Quelle tre vignette sono state rimosse e non vanno disegnate.**
+Il motivo non è che i fatti fossero sbagliati — sono documentati e restano nel dossier — ma che
+raccontano una vicenda di **irregolarità negli appalti**, non di sovranità: per collegarla alla tesi
+bisognerebbe dimostrare che l'offerta esclusa fosse *più sovrana*, e quel dato non esiste in fonte
+pubblica. In un booklet di tredici tavole apre un fronte che non si può chiudere. È materiale per
+un'altra inchiesta.
+
+Restano fuori dal booklet, per ragioni analoghe e più stringenti, anche:
+- il caso del Procuratore della Corte penale internazionale — **fonte fragile** (funzionari anonimi) e
+  **smentita aziendale**: non si disegna, non si nomina, non si allude; `[A24]` `[A26]`
+- l'interruzione dei servizi Microsoft in Russia del 2024 — ha base giuridica **europea**, non americana:
+  usarla come prova del potere statunitense è smontabile in dieci secondi; `[A26]`
+- il caso Huawei — strumento giuridico diverso, non cumulabile nel racconto; `[A26]`
+- le vicende X/Starlink — sono il **fenomeno opposto**: uno Stato che interdice un'azienda. Citarle
+  dimostrerebbe la tesi della controparte. `[A26]`
+
+Se qualcuno propone di «rafforzare» la tavola 7 con uno di questi quattro casi, la risposta è no.
+La tavola 7 è forte **perché** contiene solo le due storie che nessuno ha mai smentito.
