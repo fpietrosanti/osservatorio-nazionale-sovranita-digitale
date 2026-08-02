@@ -1011,6 +1011,59 @@ La formulazione deve restare **strettamente strutturale**:
 
 ---
 
+## 📋 TODO DIFFERITO — analisi di fattibilità sulla produzione con AI generativa
+
+**Richiesta del committente (29/07/2026)**: **a lavori conclusi e confermati**, produrre un'analisi di
+fattibilità su **quali AI usare** (Claude stesso o altri) per realizzare:
+1. il **booklet a fumetti**;
+2. il **documentario video interamente virtuale**, con AI generativa e cattura di video/schermate di siti,
+   immagini, schede e altro materiale esterno.
+
+⚠️ **Da NON fare adesso**: l'analisi va scritta quando script, storyboard e booklet sono definitivi,
+altrimenti si valuta una produzione su un bersaglio che si muove.
+
+### Punti già identificati, da sviluppare nell'analisi
+
+**Sul fumetto — il problema difficile è la coerenza, non la qualità del disegno**
+- Marta, Sandro, la **Busta** e il **Cursore** devono restare riconoscibili su ~70 vignette in 12 tavole.
+  È il vincolo che decide la scelta del modello, non la resa estetica della singola immagine.
+- ⚠️ **La regola «si disegnano le mani, non i volti» taglia due volte**: risolve l'identificabilità delle
+  persone reali, **ma le mani sono il punto debole storico dei generatori di immagini**. Va verificato per
+  primo, perché se non regge cambia la direzione artistica.
+- **Il testo nei balloon va prodotto separatamente** (lettering in post): i modelli lo rendono male ed è
+  comunque la prassi professionale del fumetto.
+- Da valutare: i due «riquadri di onestà», la **mappina del viaggio** e l'**impronta fantasma** sono
+  elementi grafici ricorrenti a precisione millimetrica — probabilmente **vettoriali fatti a mano**, non
+  generati.
+
+**Sul video — l'intuizione controintuitiva: forse serve poca AI generativa**
+- Lo storyboard, **per scelta deliberata**, ha evitato tutto ciò che non si può filmare. Il risultato è che
+  **una quota molto alta delle 107 inquadrature è tipografica o grafica**: il terminale, le tabelle, le 12
+  schede SVG, i documenti, i verbatim. Quelle **non richiedono video generativo**: richiedono motion
+  graphics, che è un problema risolto.
+- 👉 **Da quantificare come prima cosa**: quante delle 107 inquadrature sono `GRAF`/`TXT`/`schermo` e quante
+  richiedono davvero immagini generate. Il rapporto decide l'intero impianto produttivo.
+- Ipotesi da valutare: rendering **programmatico** del blocco tipografico partendo dai dati già strutturati
+  (storyboard + schede + file dati). Vantaggio non estetico ma **di manutenzione**: quando lo script cambia,
+  il video si rigenera invece di essere rimontato.
+- Servono comunque: **voce narrante** (qualità dell'italiano è il criterio), b-roll d'atmosfera per la
+  *simulazione documentata*, e le **6-8 interviste**, che sono **persone reali e non sono sostituibili**.
+
+**Vincoli non tecnici, che pesano quanto quelli tecnici**
+- 🚨 **Dichiarazione dell'uso di AI**: un documentario sulla verificabilità e sulla fiducia che usasse
+  materiale generato **senza dichiararlo** si smonterebbe da solo. La trasparenza qui non è conformità:
+  è coerenza con la tesi.
+- 🚨 **Nessuna immagine generata di persone reali identificabili.** Vale per Carniaux, Wattebled, Hadinger,
+  Butti e per chiunque altro. La regola già adottata negli artefatti va estesa alla produzione.
+- ⚖️ **Diritti sul materiale esterno**: video del Senato francese, immagini di stampa, schermate. Il tema
+  esiste **a prescindere** dall'AI e va trattato separatamente.
+- 🤔 **Questione di coerenza politica, da porre esplicitamente al committente**: un progetto sulla sovranità
+  digitale che si produce interamente su modelli statunitensi. Non è una contraddizione insanabile — noi
+  documentiamo la dipendenza, non la neghiamo — ma **va deciso consapevolmente e, se del caso, dichiarato**.
+  Vanno considerate anche le alternative europee, con una valutazione onesta di dove reggono e dove no.
+
+---
+
 ## ERRORI DA NON COMMETTERE (registro delle trappole già individuate)
 
 1. **Il 46% non è una quota del 75%.** Sono universi diversi: il 46% misura la posta elettronica, il 75%
