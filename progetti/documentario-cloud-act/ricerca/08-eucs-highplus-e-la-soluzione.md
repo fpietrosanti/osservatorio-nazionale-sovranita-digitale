@@ -72,7 +72,10 @@ il modello cinese risponde a esigenze di controllo statale, non di tutela dei di
 | **Qualificazione ACN** | 🇮🇹 Italia | **non risulta** (v. dossier 06 — **DA VERIFICARE sul DD 21007/24**) | |
 
 **Qualificati SecNumCloud (metà 2026)**: **OVHcloud** (SAP HANA su VMware, SNC Cloud Platform);
-**S3NS/PREMI3NS** (qualificazione ottenuta **fine 2025**, 30 servizi con roadmap a 150).
+**S3NS** — ⚠️ **RETTIFICATO (v. A29)**: qualificazione ANSSI del **17 dicembre 2025**, prima volta che
+copre insieme IaaS, PaaS e CaaS. Il dato «30 servizi con roadmap a 150» riportato qui in precedenza **non
+è confermato**. S3NS oggi si dichiara «*fully owned by Thales*»: la quota Google è da chiudere in una
+forchetta 0%-24% (SecNumCloud §19.6 fissa il tetto al 24%).
 **Bleu** (Orange/Capgemini su Azure) ha richiesto la qualificazione nel 2025-2026, **non ancora ottenuta**
 alla data della fonte.
 
@@ -193,7 +196,8 @@ giornalistico, non un «gotcha».
 - [ ] **Bloccante**: stato reale dei requisiti di sovranità nell'EUCS adottato 2026 (testo ENISA) — §5.
 - [ ] Citazione puntuale del requisito di immunità nel referenziale **SecNumCloud 3.2** (ANSSI).
 - [ ] Verifica del DD 21007/24 italiano (dossier 06 §2.2).
-- [ ] Stato aggiornato della qualificazione **Bleu**; perimetro dei 30 servizi **S3NS**.
+- [ ] Stato aggiornato della qualificazione **Bleu**.
+- [ ] Quota societaria residua di Google in **S3NS** (forchetta 0%-24% da chiudere).
 - [ ] Verifica diretta se **Aruba S.p.A.** sia tra i firmatari (§6).
 - [ ] Posizione ufficiale del **Governo italiano** nel voto/negoziato ECCG sull'EUCS: l'Italia come si è
       espressa sui criteri High+? È l'informazione politicamente più rilevante ancora mancante.

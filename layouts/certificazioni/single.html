@@ -46,7 +46,7 @@
             <tr class="table-success">
               <td><strong>3</strong></td>
               <td>{{ if $isEN }}<strong>Trusted cloud</strong>: US technology <strong>under licence</strong>, operated by an <strong>independent European entity</strong>{{ else }}<strong>Cloud di fiducia</strong>: tecnologia statunitense <strong>in licenza</strong>, operata da un'<strong>entità europea indipendente</strong>{{ end }}</td>
-              <td class="small"><strong>Bleu</strong> (Orange + Capgemini {{ if $isEN }}on{{ else }}su{{ end }} Azure)<br><strong>S3NS</strong> (Thales + Google)</td>
+              <td class="small"><strong>Bleu</strong> (Orange + Capgemini {{ if $isEN }}on{{ else }}su{{ end }} Azure)<br><strong>S3NS</strong> (Thales, {{ if $isEN }}on Google technology{{ else }}su tecnologia Google{{ end }})</td>
               <td><span class="badge bg-success">{{ if $isEN }}Excluded{{ else }}Esclusa{{ end }}</span> <span class="small text-muted">{{ if $isEN }}— if SecNumCloud-qualified{{ else }}— se qualificato SecNumCloud{{ end }}</span></td>
             </tr>
             <tr class="table-success">
@@ -59,6 +59,19 @@
         </table>
       </div>
       <p class="small text-muted">{{ if $isEN }}Levels 1 and 2 are the two most common misunderstandings: where the data sits and what the contract says do not change who is legally compelled to hand it over.{{ else }}I livelli 1 e 2 sono i due equivoci più diffusi: dove sta il dato e cosa dice il contratto non cambiano chi è giuridicamente obbligato a consegnarlo.{{ end }}</p>
+
+      <div class="callout callout-highlight important mt-4">
+        <div class="callout-title">
+          <svg class="icon"><use href="{{ $spritesURL }}#it-file"></use></svg>
+          <span>{{ if $isEN }}And it is the providers themselves who say so{{ else }}E a dirlo sono i fornitori stessi{{ end }}</span>
+        </div>
+        <p>{{ if $isEN }}The clearest statement that data localisation does not protect against foreign jurisdiction does not come from us. It comes from a <strong>Google Cloud whitepaper</strong> addressed to its own customers:{{ else }}L'affermazione più netta sul fatto che la localizzazione dei dati non protegga dalla giurisdizione straniera non viene da noi. Viene da un <strong>whitepaper di Google Cloud</strong> rivolto ai propri clienti:{{ end }}</p>
+        <blockquote class="blockquote mb-2" style="font-size:1.05rem;font-style:italic;">
+          {{ if $isEN }}&ldquo;the CLOUD Act clarifies that the U.S. government can compel production of data where the data is under the &lsquo;possession, custody, or control&rsquo; of a provider subject to US jurisdiction, <strong>regardless of where that data is physically stored</strong>. In other words, <strong>data localization requirements do not impact whether a cloud provider may have to disclose data</strong> in response to a government request.&rdquo;{{ else }}«Il CLOUD Act chiarisce che il governo statunitense può imporre la produzione dei dati quando questi sono in &lsquo;possesso, custodia o controllo&rsquo; di un fornitore soggetto alla giurisdizione USA, <strong>indipendentemente da dove i dati siano fisicamente archiviati</strong>. In altre parole, <strong>i requisiti di localizzazione dei dati non incidono sul fatto che un fornitore cloud possa dover divulgare i dati</strong> in risposta a una richiesta governativa.»{{ end }}
+        </blockquote>
+        <p class="mb-2">{{ if $isEN }}The same document offers encryption so that data stays unreadable <em>&ldquo;even if Google is compelled to turn over the data&rdquo;</em>. The defence on offer is <strong>technical, not legal</strong> — which is precisely the distinction this page is about.{{ else }}Lo stesso documento offre cifratura perché i dati restino illeggibili <em>«anche se Google fosse costretta a consegnarli»</em>. La difesa proposta è <strong>tecnica, non giuridica</strong> — che è esattamente la distinzione di cui parla questa pagina.{{ end }}</p>
+        <p class="small mb-0 text-muted">{{ if $isEN }}Google Cloud, <em>Government Requests for Cloud Customer Data</em>, February 2022, p. 5 — <a href="https://services.google.com/fh/files/misc/google_cloud_governmentrequestsfor_cloud_customer_data_v2_1018.pdf" target="_blank" rel="noopener">official whitepaper</a>.{{ else }}Google Cloud, <em>Government Requests for Cloud Customer Data</em>, febbraio 2022, pag. 5 — <a href="https://services.google.com/fh/files/misc/google_cloud_governmentrequestsfor_cloud_customer_data_v2_1018.pdf" target="_blank" rel="noopener">whitepaper ufficiale</a>.{{ end }}</p>
+      </div>
     </div>
   </div>
 
@@ -122,7 +135,7 @@
           </tbody>
         </table>
       </div>
-      <p class="small text-muted">{{ if $isEN }}SecNumCloud-qualified as of mid-2026: <strong>OVHcloud</strong>; <strong>S3NS</strong> (qualified in late 2025, 30 services with a roadmap to 150). <strong>Bleu</strong> applied in 2025–2026 and had not yet obtained qualification.{{ else }}Qualificati SecNumCloud a metà 2026: <strong>OVHcloud</strong>; <strong>S3NS</strong> (qualificazione ottenuta a fine 2025, 30 servizi con roadmap a 150). <strong>Bleu</strong> ha presentato domanda nel 2025-2026 e non aveva ancora ottenuto la qualificazione.{{ end }}</p>
+      <p class="small text-muted">{{ if $isEN }}SecNumCloud-qualified as of mid-2026: <strong>OVHcloud</strong>; <strong>S3NS</strong> (Thales, qualified on 17 December 2025 — the first qualification covering IaaS, PaaS and CaaS together). <strong>Bleu</strong> applied in 2025–2026 and had not yet obtained qualification.{{ else }}Qualificati SecNumCloud a metà 2026: <strong>OVHcloud</strong>; <strong>S3NS</strong> (Thales, qualificata il 17 dicembre 2025 — prima qualificazione che copre insieme IaaS, PaaS e CaaS). <strong>Bleu</strong> ha presentato domanda nel 2025-2026 e non aveva ancora ottenuto la qualificazione.{{ end }}</p>
     </div>
   </div>
 

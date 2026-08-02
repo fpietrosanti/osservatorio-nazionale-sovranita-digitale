@@ -294,7 +294,7 @@ def build():
         "scheme that explicitly requires <b>immunity from extraterritorial legislation</b> "
         "and <b>European control of ownership</b>: it therefore rules out the application "
         "of the CLOUD Act structurally, not merely contractually. <b>OVHcloud</b> and "
-        "<b>S3NS</b> (Thales and Google, qualified at the end of 2025) hold the "
+        "<b>S3NS</b> (Thales, on Google technology, qualified on 17 December 2025) hold the "
         "qualification; <b>Bleu</b> (Orange and Capgemini, on Microsoft technology) is "
         "in the process of obtaining it.",
         style_body

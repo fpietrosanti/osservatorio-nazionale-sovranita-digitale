@@ -295,8 +295,8 @@ def build():
         "europeo che richiede esplicitamente l’<b>immunità dalle legislazioni "
         "extraterritoriali</b> e il <b>controllo europeo del capitale</b>: esclude "
         "quindi in modo strutturale, e non solo contrattuale, l’applicazione del "
-        "CLOUD Act. Risultano qualificati <b>OVHcloud</b> e <b>S3NS</b> (Thales e "
-        "Google, qualificazione ottenuta a fine 2025); <b>Bleu</b> (Orange e Capgemini "
+        "CLOUD Act. Risultano qualificati <b>OVHcloud</b> e <b>S3NS</b> (Thales, su tecnologia "
+        "Google, qualificata il 17 dicembre 2025); <b>Bleu</b> (Orange e Capgemini "
         "su tecnologia Microsoft) è in corso di qualificazione.",
         style_body
     ))

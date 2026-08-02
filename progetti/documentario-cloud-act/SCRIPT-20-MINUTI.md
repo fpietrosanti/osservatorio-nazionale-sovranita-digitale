@@ -91,6 +91,22 @@ Cartello: *Commissione d'inchiesta — audizione sotto giuramento*.
 > la giurisdizione segue **la nazionalità del fornitore**, non quella del cliente.
 > La differenza è che in Italia **questa domanda non l'ha mai fatta nessuno.**
 
+**E non è un'ammissione strappata: è scritta.** `[A28]`
+
+**IMMAGINE** — Un documento PDF sullo schermo. Intestazione Google Cloud. Si evidenzia una riga.
+
+> Lo stesso concetto Google lo mette **per iscritto**, in un documento destinato ai propri clienti:
+
+> **A VIDEO, verbatim**
+> «*I requisiti di localizzazione dei dati **non incidono** sul fatto che un fornitore cloud possa dover
+> divulgare i dati in risposta a una richiesta governativa.*»
+> — Google Cloud, *Government Requests for Cloud Customer Data*, febbraio 2022, pag. 5
+
+> Non lo diciamo noi. Lo dicono loro, ai loro clienti.
+> E offrono una soluzione: cifrare i dati perché restino illeggibili «*anche se Google fosse costretta a
+> consegnarli*».
+> **La difesa che propongono è tecnica. Non giuridica.**
+
 ---
 
 ## ATTO 3 — LA FIRMA · 5:00–7:00
@@ -309,6 +325,15 @@ Serve un'indagine. È la strada del CLOUD Act.
 
 > Non è un contratto. È **un'abitudine che si forma a quattordici anni** e dura vent'anni.
 > Quando quegli studenti saranno funzionari pubblici, sapranno usare bene una cosa sola.
+
+**E nel documento che Google dedica proprio alle scuole**, c'è una riga che vale la pena leggere: `[A29]`
+
+> **A VIDEO, verbatim**
+> «*Nella misura in cui Google LLC possa ricevere richieste mirate […] ai sensi della **Downstream 702**,
+> esaminiamo **con attenzione** ciascuna richiesta.*»
+> — Google, *Workspace for Education*, agosto 2021
+
+> Esaminiamo con attenzione. **Non: rifiutiamo.**
 
 > ⚠️ **PRECISIONE OBBLIGATORIA** — Il dato misura il **dominio di posta istituzionale** degli istituti
 > scolastici registrati nell'IndicePA. È prova diretta di quale piattaforma la scuola ha adottato,
