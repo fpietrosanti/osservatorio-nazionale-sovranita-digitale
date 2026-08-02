@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t13 d13">
+  <title id="t13">La regola e scritta, la data e bianca</title>
+  <desc id="d13">La proposta di regolamento europeo depositata nel giugno 2026 contiene gia la scala dei requisiti: il livello 3 ammette software licenziato da un soggetto di paese terzo, a condizione che se ne verifichi il codice sorgente e si documenti un piano di migrazione; il livello 4 esclude che un paese terzo detenga o eserciti un controllo effettivo su progettazione, sviluppo e manutenzione. Nel testo non compare pero alcuna data di calendario: al posto delle scadenze restano segnaposto tipografici mai compilati, del tipo data di entrata in vigore piu un anno. Una sola scadenza e certa in tutto il quadro, e viene da un altro atto gia in vigore: il 12 gennaio 2027, divieto dei costi di uscita da un servizio cloud.</desc>
+
+  <rect x="0" y="0" width="1600" height="900" fill="#FFFFFF"/>
+
+  <text x="80" y="70" font-family="sans-serif" font-size="42" font-weight="700" fill="#111111">LA REGOLA E' SCRITTA. LA DATA E' BIANCA.</text>
+  <text x="80" y="108" font-family="sans-serif" font-size="23" fill="#6C757D">Proposta di regolamento europeo, giugno 2026 - Allegato II e disposizioni finali</text>
+  <line x1="80" y1="128" x2="1520" y2="128" stroke="#111111" stroke-width="3"/>
+
+  <!-- ===== COLONNA SINISTRA: la scala ===== -->
+  <text x="80" y="180" font-family="sans-serif" font-size="24" font-weight="700" fill="#111111">CIO' CHE E' GIA' SCRITTO</text>
+
+  <!-- livello 3 -->
+  <rect x="80" y="204" width="700" height="176" fill="#FFFFFF" stroke="#0066CC" stroke-width="3"/>
+  <rect x="80" y="204" width="10" height="176" fill="#0066CC"/>
+  <text x="112" y="244" font-family="sans-serif" font-size="27" font-weight="700" fill="#0066CC">LIVELLO 3 - il primo passo</text>
+  <text x="112" y="280" font-family="sans-serif" font-size="20" fill="#111111">Ammette software fornito, posseduto e licenziato</text>
+  <text x="112" y="306" font-family="sans-serif" font-size="20" fill="#111111">da un soggetto stabilito in un paese terzo.</text>
+  <text x="112" y="338" font-family="sans-serif" font-size="20" font-weight="700" fill="#111111">A due condizioni:</text>
+  <text x="112" y="364" font-family="sans-serif" font-size="20" fill="#111111">audit del codice sorgente + piano di migrazione.</text>
+
+  <!-- livello 4 -->
+  <rect x="80" y="400" width="700" height="150" fill="#FFFFFF" stroke="#1D9E75" stroke-width="3"/>
+  <rect x="80" y="400" width="10" height="150" fill="#1D9E75"/>
+  <text x="112" y="440" font-family="sans-serif" font-size="27" font-weight="700" fill="#1D9E75">LIVELLO 4 - il secondo passo</text>
+  <text x="112" y="476" font-family="sans-serif" font-size="20" fill="#111111">Nessun controllo effettivo di un paese terzo</text>
+  <text x="112" y="502" font-family="sans-serif" font-size="20" fill="#111111">su progettazione, sviluppo e manutenzione.</text>
+  <text x="112" y="532" font-family="sans-serif" font-size="19" font-style="italic" fill="#6C757D">La deroga del livello 3 viene tolta.</text>
+
+  <text x="80" y="592" font-family="sans-serif" font-size="21" font-weight="700" fill="#111111">Il primo passo e il secondo esistono gia,</text>
+  <text x="80" y="620" font-family="sans-serif" font-size="21" font-weight="700" fill="#111111">con i numeri di paragrafo.</text>
+
+  <!-- ===== COLONNA DESTRA: la data mancante ===== -->
+  <text x="840" y="180" font-family="sans-serif" font-size="24" font-weight="700" fill="#111111">CIO' CHE NON E' SCRITTO</text>
+
+  <rect x="840" y="204" width="680" height="346" fill="#FFFFFF" stroke="#D9364F" stroke-width="3"/>
+
+  <!-- righe di testo "piene" -->
+  <rect x="872" y="238" width="616" height="9" fill="#DDDDDD"/>
+  <rect x="872" y="262" width="560" height="9" fill="#DDDDDD"/>
+  <rect x="872" y="286" width="600" height="9" fill="#DDDDDD"/>
+
+  <!-- la parentesi vuota -->
+  <rect x="872" y="318" width="616" height="94" fill="#FFFFFF" stroke="#D9364F" stroke-width="3" stroke-dasharray="12 8"/>
+  <text x="1180" y="362" font-family="sans-serif" font-size="26" font-weight="700" fill="#D9364F" text-anchor="middle">[data di entrata in vigore</text>
+  <text x="1180" y="394" font-family="sans-serif" font-size="26" font-weight="700" fill="#D9364F" text-anchor="middle">piu' un anno]</text>
+
+  <rect x="872" y="440" width="590" height="9" fill="#DDDDDD"/>
+  <rect x="872" y="464" width="616" height="9" fill="#DDDDDD"/>
+  <rect x="872" y="488" width="520" height="9" fill="#DDDDDD"/>
+
+  <text x="872" y="528" font-family="sans-serif" font-size="20" fill="#111111">Nel testo non compare alcuna data di calendario.</text>
+
+  <text x="840" y="592" font-family="sans-serif" font-size="21" font-weight="700" fill="#D9364F">Non manca il diritto.</text>
+  <text x="840" y="620" font-family="sans-serif" font-size="21" font-weight="700" fill="#D9364F">Manca la decisione di riempire una parentesi.</text>
+
+  <!-- ===== FASCIA BASSA: l'unica data certa ===== -->
+  <rect x="80" y="664" width="1440" height="104" fill="#FFFFFF" stroke="#1D9E75" stroke-width="4"/>
+  <rect x="80" y="664" width="14" height="104" fill="#1D9E75"/>
+  <text x="120" y="706" font-family="sans-serif" font-size="34" font-weight="700" fill="#1D9E75">12 GENNAIO 2027</text>
+  <text x="120" y="742" font-family="sans-serif" font-size="21" fill="#111111">L'unica scadenza certa dell'intero quadro, e viene da un atto gia in vigore: da quel giorno far pagare a un cliente il costo di uscire da un cloud e vietato.</text>
+
+  <!-- avvertenza -->
+  <text x="80" y="812" font-family="sans-serif" font-size="19" font-weight="700" fill="#111111">Il limite, detto da noi:</text>
+  <text x="80" y="838" font-family="sans-serif" font-size="19" fill="#6C757D">il regolamento non e ancora in vigore. Serve l'approvazione, serve un accordo fra la Commissione e almeno due Stati membri - che nessuno ha firmato -</text>
+  <text x="80" y="862" font-family="sans-serif" font-size="19" fill="#6C757D">e la piattaforma comune non esiste. La Commissione stessa indica il 2029. Non diciamo che la porta e aperta: diciamo dov'e la porta.</text>
+
+  <line x1="80" y1="878" x2="1520" y2="878" stroke="#6C757D" stroke-width="1"/>
+</svg>

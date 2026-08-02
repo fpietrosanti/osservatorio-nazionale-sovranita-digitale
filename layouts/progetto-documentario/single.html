@@ -19,6 +19,173 @@
     </div>
   </div>
 
+  <!-- SINTESI NARRATIVA -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <h2 class="mb-3">In sintesi: l'inchiesta in dieci minuti di lettura</h2>
+      <p class="text-muted">Questa sintesi è scritta per essere letta da chiunque, senza conoscenze tecniche
+      preliminari, e allo stesso tempo per reggere la lettura di un giurista o di un regolatore. Ogni
+      affermazione è tracciata nel registro dei reperti; dove un dato è incerto, lo diciamo qui e non altrove.</p>
+
+      <div class="callout callout-highlight">
+        <div class="callout-title"><svg class="icon"><use href="{{ $spritesURL }}#it-help-circle"></use></svg>
+          <span>Il punto di partenza, in una domanda</span></div>
+        <p class="mb-0 fs-5">Chi può leggere la posta elettronica di un'amministrazione pubblica italiana?
+        Non è una domanda paranoica: è una domanda a cui si risponde <strong>in cinque secondi</strong>,
+        interrogando un registro pubblico. E la risposta, per quasi metà degli enti italiani, è il nome di
+        un'azienda che non risponde alla legge italiana.</p>
+      </div>
+
+      <h3 class="h5 mt-4">1. Il fatto misurabile</h3>
+      <p>Ogni dominio di posta dichiara pubblicamente chi la gestisce. Interrogando i registri di
+      <strong>ventitremila enti pubblici italiani</strong>, il <strong>46%</strong> risulta avere la posta
+      istituzionale su fornitori soggetti a una legge straniera. Fra questi ci sono la Polizia di Stato, la
+      Presidenza del Consiglio, il Ministero dell'Istruzione &mdash; e l'<strong>Agenzia per la Cybersicurezza
+      Nazionale</strong>, cioè l'organismo che decide quali servizi cloud la Pubblica Amministrazione può
+      usare. Chiunque può rifare la verifica: è il motivo per cui il film comincia da lì.</p>
+      <p class="small text-muted"><strong>Che cosa questo dato non dice.</strong> Misura la posta istituzionale
+      ordinaria. Non dice nulla sulle reti operative e classificate, che sono separate, e non autorizza a
+      sostenere che qualcuno legga indagini o atti riservati. Il film non lo afferma in nessun punto.</p>
+
+      <h3 class="h5 mt-4">2. Perché &laquo;i server sono in Italia&raquo; non c'entra</h3>
+      <p>È l'obiezione che fanno tutti, ed è vera ma irrilevante. A determinare quale legge si applica non è
+      <em>dove si trova il dato</em>: è <strong>di chi è l'azienda</strong>. Il <strong>CLOUD Act</strong>
+      statunitense del 2018 obbliga un'impresa americana a consegnare i dati che ha in possesso, custodia o
+      controllo, <em>ovunque si trovino</em> &mdash; anche in un data center italiano. Per un funzionario
+      pubblico straniero esiste inoltre uno strumento più diretto, la <strong>Sezione 702 del FISA</strong>,
+      pensata proprio per bersagli non americani situati fuori dagli Stati Uniti.</p>
+      <p>Questo non lo diciamo noi. Il <strong>10 giugno 2025</strong>, davanti a una commissione d'inchiesta
+      del <strong>Senato francese</strong> e <strong>sotto giuramento</strong>, al direttore affari legali di
+      Microsoft France è stato chiesto se potesse garantire che i dati dei cittadini francesi non sarebbero
+      mai stati trasmessi al governo americano. Ha risposto: <strong>&laquo;No, non posso garantirlo&raquo;</strong>,
+      aggiungendo che ciò non si era mai verificato. In Italia quella domanda non l'ha mai fatta nessuno.</p>
+
+      <figure class="my-4">
+        <img src="{{ "img/documentario/02-mito-geografia.svg" | relURL }}" alt="Schema: a determinare la legge applicabile non e dove si trova il dato, ma la nazionalita del fornitore" class="img-fluid rounded border" loading="lazy">
+        <figcaption class="small text-muted mt-2"><strong>Scheda 02</strong> &mdash; il punto di non ritorno dell'inchiesta: la giurisdizione segue la nazionalità del fornitore, non la posizione del server.</figcaption>
+      </figure>
+
+      <h3 class="h5 mt-4">3. Il silenzio, e il paradosso italiano</h3>
+      <p>Insieme a un ordine di accesso può arrivare un <em>gag order</em>: il divieto giuridico, per il
+      fornitore, di dire al cliente che è successo. Il regolamento italiano prevede che, per i dati strategici,
+      il fornitore <strong>segnali</strong> ogni richiesta proveniente da entità extra-europee. Ma una legge
+      americana può vietare esattamente quella segnalazione: <strong>la norma italiana chiede una comunicazione
+      che la legge straniera proibisce</strong>.</p>
+      <p>Da qui discende una conseguenza che va detta con precisione, perché è il punto più delicato
+      dell'inchiesta: la frase &laquo;non è mai successo&raquo; <strong>non è verificabile da nessuno</strong>
+      &mdash; né da noi né da chi la pronuncia. Non stiamo affermando che sia successo. Stiamo dicendo che il
+      sistema è costruito in modo che non si possa saperlo.</p>
+
+      <h3 class="h5 mt-4">4. Non è un destino tecnologico: è una decisione</h3>
+      <p>La Difesa e la Guardia di Finanza gestiscono la propria posta con infrastruttura propria. Si poteva
+      fare. E altrove è stato preteso: <strong>gli Stati Uniti</strong> hanno voluto un cloud sotto le proprie
+      regole e Microsoft l'ha costruito; <strong>la Cina</strong> ha preteso che il servizio fosse operato da
+      un'azienda cinese, e la documentazione ufficiale di Microsoft dice testualmente che l'azienda
+      &laquo;fornisce la tecnologia ma non gestisce il servizio&raquo;; <strong>la Francia</strong> ha scritto
+      una regola di certificazione &mdash; sede europea, capitale a controllo europeo, amministrazione del
+      servizio dall'Unione &mdash; e sono nate offerte dedicate. <strong>Non ha vietato nessuno: ha alzato
+      l'asticella.</strong> È l'unica strada compatibile con il diritto europeo degli appalti, che vieta di
+      discriminare per nazionalità.</p>
+
+      <h3 class="h5 mt-4">5. Lo Stato certifica, e non sa</h3>
+      <p>Nel luglio 2026 il Governo ha annunciato oltre <strong>13.000 amministrazioni migrate nel cloud</strong>,
+      il 75%, con <strong>1,9 miliardi</strong> di fondi europei. Abbiamo letto per intero il regolamento con cui
+      l'Italia certifica quali cloud la PA può usare: ottantotto pagine. Le parole
+      <em>extraterritoriale</em>, <em>CLOUD Act</em>, <em>nazionalità</em>, <em>sede legale</em>,
+      <em>capogruppo</em>, <em>capitale</em>, <em>paese terzo</em> compaiono <strong>zero volte</strong>.
+      E nei dati pubblici sui finanziamenti &mdash; ventidue migliaia di domande, oltre 1,3 miliardi erogati &mdash;
+      <strong>nessuna colonna dice a quale fornitore siano andati</strong>. Non possiamo affermare che quel
+      denaro sia finito all'estero; non possiamo affermare il contrario. <strong>È questo il problema.</strong></p>
+
+      <h3 class="h5 mt-4">6. L'asimmetria con gli Stati Uniti</h3>
+      <p>Si dice spesso che gli Stati Uniti vietino per legge di comprare tecnologia europea. <strong>Non è
+      vero</strong>, e conviene dirlo per primi. Il meccanismo è più sottile: per vendere al governo federale
+      serve una certificazione di sicurezza, e nell'elenco dei fornitori autorizzati &mdash; seicentottantaquattro
+      &mdash; <strong>non c'è un solo fornitore cloud europeo</strong>. I gruppi europei presenti hanno tutti
+      dovuto costituire una società americana dedicata. <strong>Per vendere al governo americano, un europeo
+      deve prima diventare americano. È esattamente ciò che l'Europa non chiede agli americani.</strong></p>
+
+      <h3 class="h5 mt-4">7. L'Italia ha chiesto quella regola. E l'ha persa.</h3>
+      <p>È la svolta dell'inchiesta, e ribalta l'accusa facile. Nel <strong>2021</strong> l'Italia è coautrice,
+      con Francia, Germania e Spagna, della proposta europea che introduceva l'<strong>immunità dalle leggi
+      straniere</strong> nella certificazione cloud dell'Unione. Nel <strong>marzo 2024</strong> quei requisiti
+      vengono rimossi. Un mese dopo il Sottosegretario italiano dichiara pubblicamente che la proposta approvata
+      permetterebbe di certificare come sicuri anche fornitori soggetti a giurisdizioni esterne all'Unione.</p>
+      <p>Il divario, quindi, non è fra l'Italia e le sue parole. È <strong>fra ciò che l'Italia ha chiesto a
+      Bruxelles e ciò che ha scritto in casa propria</strong>: per cinque anni ha premuto perché quella clausola
+      esistesse in Europa, e negli stessi cinque anni non l'ha mai introdotta nel proprio regolamento nazionale
+      &mdash; l'unico strumento che non dipendeva dal voto di nessun altro.</p>
+
+      <h3 class="h5 mt-4">8. L'industria europea chiede la stessa cosa &mdash; e se l'è applicata</h3>
+      <p>Una lettera aperta chiede all'Unione un criterio che protegga i dati più sensibili dalle leggi
+      extraterritoriali non europee. L'hanno firmata <strong>62 organizzazioni</strong>, e l'iniziativa è
+      gestita dall'ufficio di Bruxelles di <strong>Airbus</strong>. Fra i firmatari ci sono cinque italiani:
+      <strong>Leonardo, Fincantieri, Generali, Telecom Italia e Aruba</strong> &mdash; e Aruba è il principale
+      fornitore cloud italiano nonché partner del Polo Strategico Nazionale. Sono imprese italiane che chiedono
+      a Bruxelles una regola che a Roma non è stata scritta.</p>
+      <p>Nel <strong>luglio 2026</strong> Airbus ha poi bandito una gara per le proprie applicazioni critiche,
+      valutando i concorrenti anche sulla <em>&laquo;protezione dalle legislazioni extraterritoriali non
+      europee&raquo;</em>, e l'ha affidata a un fornitore europeo. <strong>Chi ha chiesto la regola l'ha poi usata
+      come committente.</strong></p>
+      <p class="small text-muted"><strong>Onestà obbligatoria.</strong> Airbus è un'azienda privata, non uno
+      Stato: nessun obbligo di legge, nessuna gara pubblica, nessun precedente giuridico, e un evidente interesse
+      industriale verso i fornitori europei. Non ha &laquo;abbandonato&raquo; il fornitore precedente: sposta
+      circa settanta applicazioni critiche entro il 2028, scegliendo in base a quanto è delicato il dato.</p>
+
+      <figure class="my-4">
+        <img src="{{ "img/documentario/14-airbus-cerchio.svg" | relURL }}" alt="Schema in due tempi: Airbus chiede all'Unione il criterio di immunita, e poi lo applica alla propria gara" class="img-fluid rounded border" loading="lazy">
+        <figcaption class="small text-muted mt-2"><strong>Scheda 14</strong> &mdash; i due tempi del caso Airbus, con il riquadro che dice che cosa questo caso <em>non</em> dimostra.</figcaption>
+      </figure>
+
+      <h3 class="h5 mt-4">9. La via d'uscita esiste, ed è già scritta</h3>
+      <p>Nel giugno 2026 la Commissione europea ha depositato una proposta di regolamento che prevede due cose.
+      La prima: la Commissione può fare da <strong>centrale d'acquisto</strong> per le amministrazioni degli Stati
+      membri. La seconda: una scala di requisiti in cui il <strong>livello 3</strong> ammette software di paesi
+      terzi con verifica del codice e piano di migrazione &mdash; il modello francese diventato criterio di legge
+      &mdash; e il <strong>livello 4</strong> esclude il controllo effettivo di un paese terzo. <strong>Il primo
+      passo e il secondo esistono già, con i numeri di paragrafo.</strong></p>
+      <div class="callout danger">
+        <div class="callout-title"><svg class="icon"><use href="{{ $spritesURL }}#it-clock"></use></svg>
+          <span>La regola è scritta. La data è bianca.</span></div>
+        <p class="mb-0">In quel testo <strong>non c'è una sola data di calendario</strong>: dove dovrebbero
+        esserci le scadenze ci sono segnaposto tipografici mai compilati, del tipo
+        <code>[data di entrata in vigore più un anno]</code>. Non manca il diritto.
+        <strong>Manca la decisione politica di riempire una parentesi.</strong></p>
+      </div>
+
+      <figure class="my-4">
+        <img src="{{ "img/documentario/13-la-data-e-bianca.svg" | relURL }}" alt="Schema: i due livelli di requisiti gia scritti nel regolamento europeo, la parentesi lasciata vuota al posto della data, e l'unica scadenza certa del 12 gennaio 2027" class="img-fluid rounded border" loading="lazy">
+        <figcaption class="small text-muted mt-2"><strong>Scheda 13</strong> &mdash; a sinistra ciò che è già scritto, a destra ciò che non lo è, in fondo l'unica data certa.</figcaption>
+      </figure>
+
+      <h3 class="h5 mt-4">10. Che cosa si può fare, e da quando</h3>
+      <p>Due cose sono già possibili oggi, e riguardano direttamente chi amministra.</p>
+      <ul>
+        <li><strong>Un ente locale non deve aspettare Roma.</strong> La proposta prevede che un'amministrazione
+        possa aderire alla centrale d'acquisto europea <em>anche se il proprio Stato non aderisce</em>, ed è per
+        ciò stesso in regola con il diritto europeo degli appalti. Cade insieme l'alibi giuridico
+        (&laquo;non possiamo, c'è il codice appalti&raquo;) e quello politico (&laquo;decide Roma&raquo;).</li>
+        <li><strong>12 gennaio 2027.</strong> Da quel giorno, per una legge europea già in vigore, far pagare a un
+        cliente il costo di uscire da un cloud è vietato. È l'unica scadenza certa dell'intero quadro, e vale per
+        ogni amministrazione italiana. Da quel giorno <strong>&laquo;costa troppo cambiare&raquo; non è più una
+        risposta</strong>.</li>
+      </ul>
+      <div class="alert alert-warning" role="alert">
+        <p class="small mb-0"><strong>Il limite di questa via d'uscita, detto da noi.</strong> Il regolamento
+        <strong>non è ancora in vigore</strong>: serve l'approvazione, serve un accordo fra la Commissione e
+        <strong>almeno due Stati membri &mdash; che nessuno ha firmato</strong> &mdash; e la piattaforma comune
+        <strong>non esiste</strong>. La Commissione stessa indica il <strong>2029</strong>. Non stiamo dicendo che
+        la porta è aperta: stiamo dicendo <strong>dov'è la porta</strong>.</p>
+      </div>
+
+      <div class="info-box-custom mt-4">
+        <p class="fs-5 mb-0">Nel frattempo, la posta di molte amministrazioni italiane continua a passare da
+        fornitori soggetti a una legge straniera. E se un giorno qualcuno la chiedesse, non lo sapremmo.
+        <strong>Non perché non si possa fare altrimenti. Perché non è stato deciso.</strong></p>
+      </div>
+    </div>
+  </div>
+
   <!-- STATO -->
   <div class="row justify-content-center mb-5">
     <div class="col-lg-10">
@@ -55,26 +222,58 @@
     </div>
   </div>
 
+  <!-- ATTORI -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <h2 class="mb-3">Chi è chi</h2>
+      <p class="text-muted">Questa storia ha molti soggetti, e alcuni hanno nomi che si somigliano. Questa
+      tabella serve a non confonderli: è pensata per chi entra nell'argomento oggi, e vale anche come
+      promemoria per chi lo conosce.</p>
+      <div class="table-responsive">
+        <table class="table table-bordered align-middle">
+          <thead class="table-primary"><tr><th style="width:22%">Soggetto</th><th style="width:26%">Che cos'è</th><th>Perché compare</th></tr></thead>
+          <tbody>
+            <tr><td><strong>CLOUD Act</strong></td><td>Legge federale statunitense, 2018</td><td>Obbliga un'azienda americana a consegnare i dati che ha in possesso, custodia o controllo, <strong>ovunque si trovino</strong>. È il perno giuridico del film.</td></tr>
+            <tr><td><strong>FISA 702</strong></td><td>Norma statunitense di intelligence</td><td>Strumento più diretto quando il bersaglio è un <strong>funzionario pubblico straniero</strong>. Va citata insieme al CLOUD Act: nominarne solo uno espone a smentita.</td></tr>
+            <tr><td><strong>Microsoft · Google · Amazon</strong></td><td>I tre fornitori cloud dominanti</td><td>Sono le aziende sui cui servizi poggia gran parte della PA italiana. Nessuna delle tre è accusata di illeciti: sono soggette a una legge, e lo hanno detto loro stesse.</td></tr>
+            <tr><td><strong>Senato francese</strong></td><td>Commissione d'inchiesta parlamentare</td><td>È l'unico parlamento europeo che ha posto la domanda <strong>sotto giuramento</strong>, nel 2019 e nel 2025. Da lì viene il titolo del film.</td></tr>
+            <tr><td><strong>ACN</strong></td><td>Agenzia per la Cybersicurezza Nazionale</td><td>Decide quali servizi cloud la PA italiana può usare. Il suo regolamento <strong>non nomina mai</strong> il CLOUD Act né la nazionalità del fornitore.</td></tr>
+            <tr><td><strong>ANSSI · SecNumCloud</strong></td><td>L'omologo francese e il suo standard</td><td>È il termine di paragone: la Francia ha scritto i criteri (sede, capitale, amministrazione del servizio) che l'Italia non ha scritto.</td></tr>
+            <tr><td><strong>PSN</strong></td><td>Polo Strategico Nazionale, il cloud di Stato</td><td>È il livello più alto dell'errore che il film demolisce: si chiama <em>nazionale</em> ed è costruito anche su tecnologie di fornitori extra-europei.</td></tr>
+            <tr><td><strong>Aruba</strong></td><td>Principale fornitore cloud italiano, partner del PSN</td><td>È fra i firmatari della lettera che chiede all'Europa il criterio di immunità. <strong>Non è un'accusa</strong>: è il segno che il quadro normativo non basta nemmeno a chi ci lavora dentro.</td></tr>
+            <tr><td><strong>EUCS · &laquo;High+&raquo;</strong></td><td>Lo schema europeo di certificazione cloud e il livello mai adottato</td><td>Doveva contenere i criteri di immunità dalle leggi straniere. Sono stati <strong>rimossi nel marzo 2024</strong>. L'Italia li aveva co-proposti nel 2021.</td></tr>
+            <tr><td><strong>Airbus</strong></td><td>Gruppo industriale europeo</td><td>Gestisce l'iniziativa che raccoglie le adesioni alla richiesta di reintrodurre quei criteri &mdash; <strong>e nel 2026 ha applicato lo stesso criterio alla propria gara</strong>. È il cerchio narrativo del film.</td></tr>
+            <tr><td><strong>CADA</strong></td><td>Proposta di regolamento europeo, giugno 2026</td><td>Contiene la centrale d'acquisto europea e la scala di requisiti. È la via d'uscita &mdash; <strong>scritta ma non ancora in vigore</strong>, e senza date.</td></tr>
+            <tr><td><strong>Data Act, art. 29</strong></td><td>Regolamento europeo già in vigore</td><td><strong>12 gennaio 2027</strong>: divieto dei costi di uscita da un cloud. È l'unica scadenza certa dell'intera vicenda.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
   <!-- SCALETTA -->
   <div class="row justify-content-center mb-5">
     <div class="col-lg-10">
       <h2 class="mb-3">La scaletta, atto per atto</h2>
+      <p class="text-muted">Tredici atti, <strong>1800 secondi verificati</strong> uno per uno. In evidenza
+      i quattro momenti in cui l'inchiesta cambia direzione; in verde l'atto che chiude.</p>
       <div class="table-responsive">
         <table class="table table-bordered align-middle">
-          <thead class="table-primary"><tr><th style="width:12%">Tempo</th><th style="width:28%">Atto</th><th>Contenuto e funzione</th></tr></thead>
+          <thead class="table-primary"><tr><th style="width:12%">Tempo</th><th style="width:26%">Atto</th><th>Contenuto e funzione</th></tr></thead>
           <tbody>
-            <tr><td><code>0:00–1:30</code></td><td><strong>La prova</strong></td><td>Interrogazione DNS in diretta: Carabinieri→Google, Polizia→Microsoft, Governo→Microsoft, <strong>ACN→Microsoft</strong>. Cinque secondi, ripetibile da chiunque</td></tr>
-            <tr><td><code>1:30–3:00</code></td><td>Il movente</td><td><em>Simulazione documentata</em>: non serve un hacker, serve una firma</td></tr>
-            <tr class="table-warning"><td><code>3:00–5:00</code></td><td><strong>Il mito della geografia</strong></td><td>Conta la nazionalità dell'azienda. <strong>Senato francese, 10 giugno 2025, sotto giuramento</strong> — punto di non ritorno del film</td></tr>
-            <tr><td><code>5:00–7:00</code></td><td>La firma</td><td>CLOUD Act <em>e</em> FISA 702; il caso Microsoft-Irlanda; confutazione preventiva del Data Privacy Framework</td></tr>
-            <tr><td><code>7:00–8:30</code></td><td>L'esecuzione</td><td>Il piano di controllo; l'illusione del rivenditore</td></tr>
-            <tr><td><code>8:30–9:30</code></td><td><strong>Il silenzio</strong></td><td>Il <em>gag order</em>. E il paradosso: la norma italiana chiede una segnalazione che la legge americana vieta</td></tr>
-            <tr class="table-warning"><td><code>9:30–11:00</code></td><td><strong>Era una scelta</strong></td><td>Difesa e Guardia di Finanza gestiscono la propria posta: non è un destino tecnologico, è una decisione</td></tr>
-            <tr><td><code>11:00–13:30</code></td><td>Lo Stato certifica, e non sa</td><td>Zero occorrenze nel regolamento; 1,9 miliardi non tracciabili</td></tr>
-            <tr><td><code>13:30–15:30</code></td><td>L'asimmetria</td><td>Per vendere al governo USA un europeo deve farsi americano</td></tr>
-            <tr class="table-warning"><td><code>15:30–17:00</code></td><td><strong>Bruxelles</strong></td><td>L'Italia ha co-scritto i criteri di immunità nel 2021 — e ha perso</td></tr>
-            <tr class="table-warning"><td><code>17:00–18:00</code></td><td><strong>I figli</strong></td><td>Non è la Difesa, non è la Sanità: il settore messo peggio è <strong>l'Istruzione — 8.403 istituti, 77,7%</strong>, dominante Google</td></tr>
-            <tr class="table-success"><td><code>18:00–20:00</code></td><td><strong>La via d'uscita</strong></td><td>Microsoft opera già cloud nazionali dove un governo l'ha preteso. La decisione italiana non è ancora stata presa</td></tr>
+            <tr><td><code>0:00–1:30</code></td><td><strong>0 · La prova</strong></td><td>Interrogazione dei registri pubblici in diretta: Carabinieri&rarr;Google, Polizia&rarr;Microsoft, Governo&rarr;Microsoft, <strong>ACN&rarr;Microsoft</strong>. Cinque secondi, verificabile da chiunque.</td></tr>
+            <tr><td><code>1:30–2:45</code></td><td>1 · Il movente</td><td><em>Simulazione documentata</em>: non serve un hacker, serve una firma.</td></tr>
+            <tr class="table-warning"><td><code>2:45–5:10</code></td><td><strong>2 · Il mito della geografia</strong></td><td>Conta la nazionalità dell'azienda, non dove sta il dato. <strong>Senato francese, 10 giugno 2025, sotto giuramento</strong> &mdash; e le tre audizioni del 2019.</td></tr>
+            <tr><td><code>5:10–7:10</code></td><td>3 · La firma</td><td>CLOUD Act <em>e</em> FISA 702; il caso Microsoft-Irlanda; confutazione preventiva del Data Privacy Framework.</td></tr>
+            <tr><td><code>7:10–9:10</code></td><td>4 · Il rivenditore</td><td>Il piano di controllo; l'illusione del rivenditore; e le offerte &laquo;sovrane&raquo;: <strong>isolare non è separare</strong>.</td></tr>
+            <tr class="table-warning"><td><code>9:10–10:55</code></td><td><strong>5 · Il silenzio</strong></td><td>Il <em>gag order</em>; il paradosso della norma italiana che chiede ciò che la legge straniera vieta; e la demolizione del <strong>&laquo;non è mai successo&raquo;</strong>.</td></tr>
+            <tr><td><code>10:55–12:10</code></td><td>6 · Era una scelta</td><td>Difesa e Guardia di Finanza gestiscono la propria posta: non è un destino tecnologico.</td></tr>
+            <tr><td><code>12:10–15:20</code></td><td>7 · Lo Stato certifica, e non sa</td><td>Zero occorrenze nel regolamento; 1,9 miliardi non tracciabili; <strong>e il PSN misurato con il metro europeo</strong>.</td></tr>
+            <tr><td><code>15:20–17:05</code></td><td>8 · L'asimmetria</td><td>Per vendere al governo statunitense un europeo deve prima costituire una società americana.</td></tr>
+            <tr class="table-warning"><td><code>17:05–19:45</code></td><td><strong>9 · Bruxelles</strong></td><td>L'Italia ha co-scritto i criteri di immunità nel 2021 e ha perso. <strong>E l'industria europea li chiede ancora</strong>: 62 firmatari, cinque italiani.</td></tr>
+            <tr class="table-warning"><td><code>19:45–22:30</code></td><td><strong>10 · I figli</strong></td><td>Il settore messo peggio non è la Difesa né la Sanità: è <strong>l'Istruzione, 77,7%</strong>. E il dato che né il Ministero né l'azienda pubblicano.</td></tr>
+            <tr><td><code>22:30–26:20</code></td><td>11 · La via d'uscita</td><td>Dove un governo l'ha preteso, il modello esiste. <strong>E Airbus l'ha applicato a sé stessa.</strong></td></tr>
+            <tr class="table-success"><td><code>26:20–30:00</code></td><td><strong>12 · L'Italia concreta</strong></td><td>La regola europea è scritta ma <strong>senza date</strong>. Un ente locale può muoversi da solo. E una scadenza certa c'è: <strong>12 gennaio 2027</strong>.</td></tr>
           </tbody>
         </table>
       </div>
@@ -126,7 +325,7 @@
         </div></div></div>
         <div class="col-md-6"><div class="card card-bg rounded shadow-sm h-100"><div class="card-body">
           <h3 class="h6 text-primary">Storyboard e schede grafiche</h3>
-          <p class="small">Inquadratura per inquadratura, più le schede che spiegano i concetti giuridici e tecnici.</p>
+          <p class="small">139 inquadrature con durata verificata, più le <strong>14 schede</strong> che spiegano i concetti giuridici e tecnici. Tre di esse sono riprodotte qui sopra, nella sintesi.</p>
           <a class="read-more" href="{{ $repo }}/STORYBOARD.md" target="_blank" rel="noopener"><span class="text">Apri</span></a>
         </div></div></div>
         <div class="col-md-6"><div class="card card-bg rounded shadow-sm h-100"><div class="card-body">
@@ -174,7 +373,8 @@
           <svg class="icon"><use href="{{ $spritesURL }}#it-check-circle"></use></svg>
           <span>Tutte le verifiche bloccanti sono chiuse o consapevolmente accettate</span>
         </div>
-        <p class="mb-0">Lo script è girabile. Restano tre <strong>rischi residui messi a verbale</strong>, non verifiche aperte.</p>
+        <p class="mb-0">Lo script è girabile. Restano tre <strong>rischi residui messi a verbale</strong>, non verifiche aperte
+        &mdash; e <strong>una sola analisi ancora da produrre</strong>, indicata in fondo alla tabella.</p>
       </div>
 
       <div class="table-responsive mt-3">
@@ -186,6 +386,7 @@
             <tr><td><strong>Gara PSN e causa Fastweb/Aruba</strong></td><td><span class="badge bg-secondary">esclusa</span> È irregolarità negli appalti, non sovranità. Il nesso reggerebbe solo dimostrando che l'offerta Aruba-Fastweb fosse <em>più sovrana</em>, e quel dato non è pubblico. Resta nei dossier</td></tr>
             <tr><td><strong>Audio del Senato francese</strong></td><td><span class="badge bg-warning text-dark">rischio accettato</span> Si procede sul resoconto ufficiale. In onda si dice «resoconto ufficiale del Senato», non «trascrizione»</td></tr>
             <tr><td><strong>Dichiarazione del 21 luglio</strong></td><td><span class="badge bg-warning text-dark">rischio accettato</span> Fonte: lancio d'agenzia ripreso in modo concorde da più testate. Va <strong>attribuita all'agenzia</strong>, non presentata come comunicato ufficiale</td></tr>
+            <tr class="table-warning"><td><strong>Il PSN misurato con SecNumCloud ed EUCS High+</strong></td><td><span class="badge bg-warning text-dark">da produrre</span> È l'unico contenuto del film ancora da scrivere: il confronto articolo per articolo fra i requisiti del PSN e i due metri europei, nella parte in cui il PSN <strong>agisce da rivenditore</strong> di servizi Microsoft, Google e Amazon. <strong>I 55 secondi sono già allocati</strong> nell'Atto 7 e la grafica è progettabile: non blocca la produzione. Impostazione obbligata: <em>&laquo;il PSN misura ciò che l'Europa misura?&raquo;</em>, non &laquo;il PSN ha sbagliato tutto&raquo; &mdash; il PSN nasce per obiettivi diversi, e questo va detto.</td></tr>
             <tr><td><strong>Coalizione dei dodici Stati</strong></td><td><span class="badge bg-warning text-dark">rischio accettato</span> L'elenco non è pubblico. Che l'Italia non ne facesse parte va detto come <strong>deduzione</strong>, non come fatto accertato</td></tr>
           </tbody>
         </table>
@@ -212,7 +413,7 @@
           <a class="btn btn-outline-primary btn-sm" href="https://t.me/+Ot-M_g0dkh1kMGI0" target="_blank" rel="noopener">Canale Telegram</a>
         </p>
       </div>
-      <p class="small text-muted mt-3 mb-0">Ultimo aggiornamento: {{ now.Format "2 January 2006" }} · Versione script 1.0</p>
+      <p class="small text-muted mt-3 mb-0">Ultimo aggiornamento: {{ now.Format "2 January 2006" }} · <strong>Script v3.0</strong> — 13 atti, 1800" · Storyboard v3.0 — 139 inquadrature, 14 schede · Booklet v3.0 — 13 tavole</p>
     </div>
   </div>
 

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t14 d14">
+  <title id="t14">Chi ha chiesto la regola l'ha poi usata come committente</title>
+  <desc id="d14">Il sito che raccoglie le adesioni alla richiesta di reintrodurre i criteri di immunita dalle leggi extraterritoriali nella certificazione cloud europea dichiara di essere gestito dall'ufficio di Bruxelles di Airbus. I firmatari sono sessantadue, e fra loro cinque italiani: Leonardo, Fincantieri, Generali, Telecom Italia e Aruba. Nel luglio 2026 Airbus ha bandito una gara per le proprie applicazioni critiche, valutando i concorrenti su tre dimensioni fra cui la protezione dalle legislazioni extraterritoriali non europee, e l'ha affidata a un fornitore europeo per circa settanta applicazioni entro il 2028. Airbus resta pero un'azienda privata e non uno Stato: nessun obbligo di legge, nessuna gara pubblica, nessun precedente giuridico.</desc>
+
+  <rect x="0" y="0" width="1600" height="900" fill="#FFFFFF"/>
+
+  <text x="80" y="70" font-family="sans-serif" font-size="42" font-weight="700" fill="#111111">HA CHIESTO LA REGOLA. POI L'HA USATA.</text>
+  <text x="80" y="108" font-family="sans-serif" font-size="23" fill="#6C757D">Airbus: dalla richiesta all'Unione (2024) al proprio capitolato di gara (2026)</text>
+  <line x1="80" y1="128" x2="1520" y2="128" stroke="#111111" stroke-width="3"/>
+
+  <!-- ===== PRIMO TEMPO ===== -->
+  <rect x="80" y="164" width="660" height="384" fill="#FFFFFF" stroke="#0066CC" stroke-width="3"/>
+  <rect x="80" y="164" width="660" height="52" fill="#0066CC"/>
+  <text x="112" y="200" font-family="sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">PRIMO TEMPO - CHIEDE</text>
+
+  <text x="112" y="256" font-family="sans-serif" font-size="21" fill="#111111">Lettera aperta all'Unione: un criterio che protegga i dati</text>
+  <text x="112" y="282" font-family="sans-serif" font-size="21" fill="#111111">piu sensibili "dall'accesso o dall'interruzione operativa</text>
+  <text x="112" y="308" font-family="sans-serif" font-size="21" fill="#111111">derivanti da leggi extraterritoriali non europee".</text>
+
+  <text x="112" y="352" font-family="sans-serif" font-size="52" font-weight="700" fill="#0066CC">62</text>
+  <text x="190" y="352" font-family="sans-serif" font-size="21" fill="#111111">organizzazioni firmatarie.</text>
+  <text x="190" y="378" font-family="sans-serif" font-size="20" fill="#6C757D">Il sito dichiara di essere gestito</text>
+  <text x="190" y="402" font-family="sans-serif" font-size="20" fill="#6C757D">dall'ufficio di Bruxelles di Airbus.</text>
+
+  <text x="112" y="446" font-family="sans-serif" font-size="21" font-weight="700" fill="#111111">Cinque firmatari italiani:</text>
+  <text x="112" y="476" font-family="sans-serif" font-size="21" font-weight="700" fill="#0066CC">Leonardo · Fincantieri · Generali</text>
+  <text x="112" y="504" font-family="sans-serif" font-size="21" font-weight="700" fill="#0066CC">Telecom Italia · Aruba</text>
+  <text x="112" y="530" font-family="sans-serif" font-size="19" font-style="italic" fill="#6C757D">Aruba e il principale cloud italiano, ed e partner del PSN.</text>
+
+  <!-- ===== FRECCIA ===== -->
+  <line x1="756" y1="356" x2="836" y2="356" stroke="#111111" stroke-width="5"/>
+  <polygon points="836,356 812,342 812,370" fill="#111111"/>
+
+  <!-- ===== SECONDO TEMPO ===== -->
+  <rect x="860" y="164" width="660" height="384" fill="#FFFFFF" stroke="#1D9E75" stroke-width="3"/>
+  <rect x="860" y="164" width="660" height="52" fill="#1D9E75"/>
+  <text x="892" y="200" font-family="sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">SECONDO TEMPO - APPLICA</text>
+
+  <text x="892" y="256" font-family="sans-serif" font-size="21" fill="#111111">Luglio 2026: gara per le proprie applicazioni critiche.</text>
+  <text x="892" y="282" font-family="sans-serif" font-size="21" fill="#111111">Sei mesi, una cinquantina di fornitori consultati.</text>
+
+  <text x="892" y="326" font-family="sans-serif" font-size="21" font-weight="700" fill="#111111">Valutati su tre dimensioni. Una, testualmente:</text>
+  <rect x="892" y="342" width="600" height="86" fill="#FFFFFF" stroke="#1D9E75" stroke-width="2"/>
+  <text x="912" y="376" font-family="sans-serif" font-size="20" font-style="italic" fill="#111111">"giurisdizione europea, protezione dei dati e</text>
+  <text x="912" y="402" font-family="sans-serif" font-size="20" font-weight="700" font-style="italic" fill="#1D9E75">protezione dalle legislazioni extraterritoriali</text>
+  <text x="912" y="424" font-family="sans-serif" font-size="20" font-weight="700" font-style="italic" fill="#1D9E75">non europee"</text>
+
+  <text x="892" y="476" font-family="sans-serif" font-size="21" fill="#111111">Aggiudicata a un fornitore europeo.</text>
+  <text x="892" y="506" font-family="sans-serif" font-size="21" font-weight="700" fill="#111111">Circa 70 applicazioni critiche entro il 2028.</text>
+  <text x="892" y="532" font-family="sans-serif" font-size="19" font-style="italic" fill="#6C757D">Potenziale fino a circa 900 in cinque-sei anni.</text>
+
+  <!-- ===== FASCIA CENTRALE ===== -->
+  <rect x="80" y="576" width="1440" height="72" fill="#FFFFFF" stroke="#111111" stroke-width="4"/>
+  <text x="800" y="622" font-family="sans-serif" font-size="30" font-weight="700" fill="#111111" text-anchor="middle">Chi ha chiesto la regola l'ha poi usata come committente.</text>
+
+  <!-- ===== ONESTA' ===== -->
+  <rect x="80" y="672" width="1440" height="164" fill="#F5F5F5" stroke="#6C757D" stroke-width="2"/>
+  <text x="112" y="708" font-family="sans-serif" font-size="22" font-weight="700" fill="#111111">Che cosa questo caso NON dice</text>
+  <text x="112" y="742" font-family="sans-serif" font-size="20" fill="#111111">Airbus e un'azienda privata, non uno Stato: nessun obbligo di legge, nessuna gara pubblica, nessun precedente giuridico - e ha un evidente</text>
+  <text x="112" y="768" font-family="sans-serif" font-size="20" fill="#111111">interesse industriale verso i fornitori europei. Non ha "abbandonato" il fornitore precedente: il comunicato ufficiale non lo nomina, e la direzione</text>
+  <text x="112" y="794" font-family="sans-serif" font-size="20" fill="#111111">dichiara di non voler lasciare tutte le soluzioni non europee, ma di scegliere in base a quanto e critico il dato.</text>
+  <text x="112" y="822" font-family="sans-serif" font-size="20" font-weight="700" fill="#111111">Ed e proprio per questo che pesa: un'impresa che risponde ai propri azionisti ha ritenuto quel rischio abbastanza concreto da spenderci sopra.</text>
+
+  <line x1="80" y1="864" x2="1520" y2="864" stroke="#6C757D" stroke-width="1"/>
+</svg>

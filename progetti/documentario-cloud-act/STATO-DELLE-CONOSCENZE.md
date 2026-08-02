@@ -830,7 +830,7 @@ istituzionale Airbus. Il virgolettato Jestin, prima «da verificare», è ora **
 
 **Primo tempo — Airbus chiede il criterio.** Il sito **eucshighplus.eu**, che raccoglie le adesioni alla
 richiesta di reintrodurre i criteri **High+** nell'EUCS, è **gestito dall'ufficio di Bruxelles di Airbus**.
-La lettera aperta dell'industria (**10 giugno 2024**, PDF originale già letto e citato sul sito) chiede una norma UE che protegga i dati più sensibili
+La lettera aperta dell'industria (**10 giugno 2024**, PDF originale già letto e citato sul sito) chiede una norma UE che protegga i dati più sensibili
 «*against access or operational disruption resulting from non-EU extraterritorial laws*».
 ✅ **VERIFICATO DIRETTAMENTE IL 02/08/2026** leggendo il DOM del sito dal browser. *(Il precedente HTTP 503
 non era un guasto: era un **blocco verso il fetcher automatico**. Da browser il sito risponde. ⚠️ Lezione
@@ -1228,7 +1228,7 @@ altrimenti si valuta una produzione su un bersaglio che si muove.
 ### Punti già identificati, da sviluppare nell'analisi
 
 **Sul fumetto — il problema difficile è la coerenza, non la qualità del disegno**
-- Marta, Sandro, la **Busta** e il **Cursore** devono restare riconoscibili su ~70 vignette in 12 tavole.
+- Marta, Sandro, la **Busta** e il **Cursore** devono restare riconoscibili su ~90 vignette in 13 tavole, due delle quali a doppia pagina.
   È il vincolo che decide la scelta del modello, non la resa estetica della singola immagine.
 - ⚠️ **La regola «si disegnano le mani, non i volti» taglia due volte**: risolve l'identificabilità delle
   persone reali, **ma le mani sono il punto debole storico dei generatori di immagini**. Va verificato per
@@ -1241,10 +1241,10 @@ altrimenti si valuta una produzione su un bersaglio che si muove.
 
 **Sul video — l'intuizione controintuitiva: forse serve poca AI generativa**
 - Lo storyboard, **per scelta deliberata**, ha evitato tutto ciò che non si può filmare. Il risultato è che
-  **una quota molto alta delle 107 inquadrature è tipografica o grafica**: il terminale, le tabelle, le 12
+  **una quota molto alta delle 139 inquadrature è tipografica o grafica**: il terminale, le tabelle, le 14
   schede SVG, i documenti, i verbatim. Quelle **non richiedono video generativo**: richiedono motion
   graphics, che è un problema risolto.
-- 👉 **Da quantificare come prima cosa**: quante delle 107 inquadrature sono `GRAF`/`TXT`/`schermo` e quante
+- 👉 **Da quantificare come prima cosa**: quante delle 139 inquadrature sono `GRAF`/`TXT`/`schermo` e quante
   richiedono davvero immagini generate. Il rapporto decide l'intero impianto produttivo.
 - Ipotesi da valutare: rendering **programmatico** del blocco tipografico partendo dai dati già strutturati
   (storyboard + schede + file dati). Vantaggio non estetico ma **di manutenzione**: quando lo script cambia,

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t02 d02">
+  <title id="t02">Il mito della geografia: dove sta il dato non conta, conta di chi e l'azienda</title>
+  <desc id="d02">Confronto fra il criterio territoriale, irrilevante, e il criterio personale della nazionalita del fornitore, decisivo per l'applicazione del CLOUD Act statunitense.</desc>
+
+  <rect x="0" y="0" width="1600" height="900" fill="#FFFFFF"/>
+
+  <!-- Titolo -->
+  <text x="80" y="78" font-family="sans-serif" font-size="44" font-weight="700" fill="#111111">IL MITO DELLA GEOGRAFIA</text>
+  <text x="80" y="118" font-family="sans-serif" font-size="24" fill="#6C757D">Perche un server in Italia di un'azienda americana resta sotto legge americana</text>
+  <line x1="80" y1="140" x2="1520" y2="140" stroke="#111111" stroke-width="3"/>
+
+  <!-- COLONNA SINISTRA: dove sta il dato -->
+  <rect x="80" y="180" width="640" height="520" fill="#FFFFFF" stroke="#6C757D" stroke-width="3" stroke-dasharray="12 8"/>
+  <rect x="80" y="180" width="640" height="72" fill="#6C757D"/>
+  <text x="400" y="228" font-family="sans-serif" font-size="30" font-weight="700" fill="#FFFFFF" text-anchor="middle">DOVE STA IL DATO</text>
+
+  <text x="400" y="292" font-family="sans-serif" font-size="21" fill="#111111" text-anchor="middle">criterio territoriale</text>
+
+  <!-- Data center in Italia -->
+  <rect x="180" y="320" width="440" height="200" fill="#FFFFFF" stroke="#111111" stroke-width="3"/>
+  <rect x="180" y="320" width="440" height="46" fill="#0066CC"/>
+  <text x="400" y="352" font-family="sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">DATA CENTER IN ITALIA</text>
+  <g stroke="#111111" stroke-width="2" fill="#FFFFFF">
+    <rect x="216" y="392" width="80" height="104"/>
+    <rect x="316" y="392" width="80" height="104"/>
+    <rect x="416" y="392" width="80" height="104"/>
+    <rect x="516" y="392" width="80" height="104"/>
+  </g>
+  <g fill="#6C757D">
+    <rect x="226" y="404" width="60" height="8"/><rect x="226" y="420" width="60" height="8"/><rect x="226" y="436" width="60" height="8"/>
+    <rect x="326" y="404" width="60" height="8"/><rect x="326" y="420" width="60" height="8"/><rect x="326" y="436" width="60" height="8"/>
+    <rect x="426" y="404" width="60" height="8"/><rect x="426" y="420" width="60" height="8"/><rect x="426" y="436" width="60" height="8"/>
+    <rect x="526" y="404" width="60" height="8"/><rect x="526" y="420" width="60" height="8"/><rect x="526" y="436" width="60" height="8"/>
+  </g>
+
+  <!-- Verdetto: irrilevante -->
+  <rect x="140" y="560" width="520" height="96" fill="#FFFFFF" stroke="#6C757D" stroke-width="4"/>
+  <text x="400" y="606" font-family="sans-serif" font-size="38" font-weight="700" fill="#6C757D" text-anchor="middle">IRRILEVANTE</text>
+  <text x="400" y="638" font-family="sans-serif" font-size="18" fill="#111111" text-anchor="middle">non sposta di un centimetro la legge applicabile</text>
+  <line x1="150" y1="655" x2="650" y2="565" stroke="#6C757D" stroke-width="4"/>
+
+  <!-- COLONNA DESTRA: di chi e l'azienda -->
+  <rect x="880" y="180" width="640" height="520" fill="#FFFFFF" stroke="#D9364F" stroke-width="4"/>
+  <rect x="880" y="180" width="640" height="72" fill="#D9364F"/>
+  <text x="1200" y="228" font-family="sans-serif" font-size="30" font-weight="700" fill="#FFFFFF" text-anchor="middle">DI CHI E L'AZIENDA</text>
+
+  <text x="1200" y="292" font-family="sans-serif" font-size="21" fill="#111111" text-anchor="middle">criterio personale: la nazionalita del fornitore</text>
+
+  <rect x="980" y="320" width="440" height="200" fill="#FFFFFF" stroke="#D9364F" stroke-width="3"/>
+  <rect x="980" y="320" width="440" height="46" fill="#D9364F"/>
+  <text x="1200" y="352" font-family="sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">CASA MADRE STATUNITENSE</text>
+  <text x="1200" y="404" font-family="sans-serif" font-size="20" fill="#111111" text-anchor="middle">possesso</text>
+  <text x="1200" y="440" font-family="sans-serif" font-size="20" fill="#111111" text-anchor="middle">custodia</text>
+  <text x="1200" y="476" font-family="sans-serif" font-size="20" fill="#111111" text-anchor="middle">controllo</text>
+  <text x="1200" y="506" font-family="sans-serif" font-size="17" font-weight="700" fill="#D9364F" text-anchor="middle">ovunque il dato si trovi</text>
+
+  <rect x="940" y="560" width="520" height="96" fill="#D9364F"/>
+  <text x="1200" y="606" font-family="sans-serif" font-size="38" font-weight="700" fill="#FFFFFF" text-anchor="middle">DECISIVO</text>
+  <text x="1200" y="638" font-family="sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">e cio che determina quale legge si applica</text>
+
+  <!-- Perimetro giurisdizionale che ingloba il data center italiano -->
+  <path d="M 1200 700 L 1200 740 L 400 740 L 400 700" fill="none" stroke="#D9364F" stroke-width="4"/>
+  <path d="M 400 690 L 390 716 L 410 716 Z" fill="#D9364F"/>
+  <text x="800" y="768" font-family="sans-serif" font-size="21" font-weight="700" fill="#D9364F" text-anchor="middle">La giurisdizione segue il fornitore fin dentro il data center italiano</text>
+
+  <text x="800" y="806" font-family="sans-serif" font-size="19" fill="#111111" text-anchor="middle">La giurisdizione segue la nazionalita del fornitore, non quella del cliente e non quella del server.</text>
+
+  <!-- Fonte -->
+  <line x1="80" y1="836" x2="1520" y2="836" stroke="#6C757D" stroke-width="1"/>
+  <text x="80" y="858" font-family="sans-serif" font-size="14.5" fill="#6C757D">Fonte: CLOUD Act 2018, 18 U.S.C. 2713 - obbligo di consegna dei dati in possesso, custodia o controllo del fornitore, ovunque si trovino. Osservatorio Nazionale Sovranita Digitale, 2026.</text>
+</svg>
