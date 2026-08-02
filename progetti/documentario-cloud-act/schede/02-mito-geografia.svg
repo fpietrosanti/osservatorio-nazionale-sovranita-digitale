@@ -67,5 +67,5 @@
 
   <!-- Fonte -->
   <line x1="80" y1="836" x2="1520" y2="836" stroke="#6C757D" stroke-width="1"/>
-  <text x="80" y="858" font-family="sans-serif" font-size="15" fill="#6C757D">Fonte: CLOUD Act 2018, 18 U.S.C. 2713 - obbligo di consegna dei dati in possesso, custodia o controllo del fornitore, ovunque si trovino. Osservatorio Nazionale Sovranita Digitale, 2026.</text>
+  <text x="80" y="858" font-family="sans-serif" font-size="14.5" fill="#6C757D">Fonte: CLOUD Act 2018, 18 U.S.C. 2713 - obbligo di consegna dei dati in possesso, custodia o controllo del fornitore, ovunque si trovino. Osservatorio Nazionale Sovranita Digitale, 2026.</text>
 </svg>
