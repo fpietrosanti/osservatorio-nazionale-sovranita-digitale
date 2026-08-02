@@ -692,6 +692,106 @@ Non possono essere entrambe vere.
 
 ---
 
+## 🔴 CORREZIONE APERTA — LA CONCLUSIONE È INCOMPLETA (riscontro esterno, da recepire)
+
+**Il rilievo**: la conclusione attuale del film («non smettere di usare Microsoft, smettere di lasciarla
+operare») presenta **una sola** via d'uscita — il *cloud di fiducia*, cioè tecnologia statunitense in licenza
+operata da un'entità europea (livello 3 della scala). **Ne manca un'altra, ed è la più diretta**: usare
+**direttamente fornitori nazionali ed europei**, che non sono affatto pochi, senza che debbano essere
+piattaforme Microsoft, Amazon o Google (livello 4).
+
+**Perché il rilievo è fondato e va recepito:**
+- Il livello 3 continua comunque a far uscire **canoni di licenza** verso aziende statunitensi: risolve la
+  giurisdizione, non la dipendenza economica né quella industriale.
+- Presentare il livello 3 come *la* soluzione suggerisce implicitamente che **non esistano alternative
+  native**. È falso, ed è la premessa che vogliamo smontare.
+
+### 🎯 IL DATO CHE ROVESCIA LA CHIUSURA — ed è nostro
+
+| | Enti | Quota |
+|---|---|---|
+| Provider italiano | 7.722 | 33,6% |
+| Infrastruttura autonoma | 3.096 | 13,5% |
+| Cloud italiano | 954 | 4,2% |
+| **TOTALE ITALIANO** | **11.772** | **51,2%** |
+| Extra-UE | 10.586 | 46,1% |
+
+> **Gli enti italiani su fornitori italiani sono già PIÙ di quelli su fornitori extra-UE: 51,2% contro 46,1%.**
+> L'alternativa non va inventata né importata: **è già la pratica maggioritaria della Pubblica
+> Amministrazione italiana.** Undicimilasettecento enti la usano oggi.
+
+**Conseguenza narrativa**: il film non deve chiudere con «*ecco cosa si potrebbe fare*», ma con
+**«ecco cosa metà di voi già fa — perché non gli altri?»**. Si passa da un finale prescrittivo a un finale
+**fattuale**, che è più forte e non chiede al pubblico di fidarsi di una proposta.
+
+### Da modificare quando si recepisce
+- [ ] **SCRIPT Atto 11** (`La via d'uscita`): due strade, non una. La seconda è la nativa, con il 51,2%.
+- [ ] **BOOKLET tavola 13**: idem — i tre precedenti (USA, Cina, Francia) illustrano il livello 3, ma la
+      chiusura deve mostrare anche la via diretta.
+- [ ] **STORYBOARD Atto 11** (inquadrature 104-116) e relativa scheda grafica.
+- [ ] **Sito `/certificazioni/`**: la pagina ha già il livello 4 nella scala, ma la tesi finale in una riga
+      («non smettere di usare Microsoft, smettere di lasciarla operare») va integrata.
+- [ ] **Policy Brief IT+EN**: la raccomandazione n. 4 dice «non serve escludere i fornitori statunitensi:
+      serve che il servizio sia operato da un'entità europea autonoma» — va aggiunta la via diretta.
+- [ ] Valutare una **nuova scheda grafica** `13-alternativa-esiste-gia.svg` con il 51,2% contro il 46,1%.
+
+⚠️ **Cautela**: «Provider italiano» e «Cloud italiano» sono categorie della classificazione MxMap, non un
+elenco di aziende verificate una per una. Prima di nominare fornitori specifici in TV vanno verificati
+singolarmente (sede, controllo societario, infrastruttura propria). Il **dato aggregato** è invece solido.
+
+---
+
+## 🔴 SECONDA CORREZIONE APERTA — la lettera EUCS High+ manca dal film
+
+**Il rilievo**: la lettera per l'inclusione dei criteri High+ (`eucshighplus.eu`) — **del tutto analoga nella
+sostanza a SecNumCloud**, perché chiede gli stessi criteri di immunità — è firmata anche da **aziende
+italiane**, mentre il Governo non ha mai introdotto una regolamentazione nazionale equivalente.
+
+**Verifica di copertura (fatta il 29/07/2026):**
+
+| Artefatto | Aziende italiane firmatarie | EUCS High+ |
+|---|---|---|
+| Sito `/certificazioni/` | ✅ presenti | ✅ presente |
+| Policy Brief IT+EN | ✅ presente | ✅ presente |
+| **SCRIPT** | ❌ **assente** | ❌ **assente** |
+| **BOOKLET** | ❌ **assente** | ❌ **assente** |
+| Storyboard | 1 sola menzione | 2 menzioni |
+
+👉 **Il nesso è documentato sul sito e nei PDF, ma NON arriva in televisione né al lettore del fumetto.**
+
+### Come va formulato — attenzione, la versione ovvia è sbagliata
+
+❌ **NON**: «l'industria italiana lo chiede, il Governo no» — implica che il Governo non l'abbia chiesto.
+**È falso**, e lo abbiamo documentato in A15: l'Italia **co-scrisse** i criteri di immunità nel non-paper
+del 2021 con Francia, Germania e Spagna, non firmò il non-paper contrario del 2022, e nell'aprile 2024 il
+Sottosegretario contestò pubblicamente la loro rimozione.
+
+✅ **La versione corretta è più netta e più scomoda:**
+
+> **Le hanno chieste tutti. A Bruxelles.**
+> Il Governo italiano le ha co-scritte nel 2021. L'industria italiana — **Leonardo, Fincantieri, Generali,
+> Telecom Italia** — le ha sottoscritte nel 2024, insieme ad Airbus, Banque de France, Thales e altre
+> cinquantotto organizzazioni.
+> **E in Italia quella regola non l'ha scritta nessuno.**
+
+Il paradosso non è fra industria e Governo: è fra **ciò che l'Italia chiede in Europa** e **ciò che non
+scrive in casa propria** — l'unico strumento che non dipendeva dal voto di nessun altro.
+
+### Da modificare
+- [ ] **SCRIPT Atto 9** (`Bruxelles: l'Italia ha chiesto, e ha perso`, 15:45-17:00): aggiungere la lettera
+      del 2024 e i quattro nomi italiani. L'atto già racconta la co-autoria del 2021: la lettera **completa
+      l'arco** mostrando che la richiesta è continuata fino al 2024, e da parte dell'industria.
+- [ ] **BOOKLET tavola 11** (atto 9): idem.
+- [ ] **STORYBOARD** inquadrature 090-096: prevedere la scheda con i firmatari.
+- [ ] Valutare una scheda grafica con i **62 firmatari** raggruppati per settore, evidenziando i quattro
+      italiani. *(La lista completa è in A6.)*
+
+⚠️ **Cautele già agli atti**: non presentarlo come ipocrisia delle aziende (trappola 5 — chiedere che uno
+standard esista è compatibile con l'operare secondo le regole vigenti); e l'ambiguità «Aruba» nella lettera
+del 10/06/2024 resta (v. A6), mentre **Aruba S.p.A. è firmataria certa** di quella del 10/04/2024 (A15).
+
+---
+
 ## ERRORI DA NON COMMETTERE (registro delle trappole già individuate)
 
 1. **Il 46% non è una quota del 75%.** Sono universi diversi: il 46% misura la posta elettronica, il 75%
