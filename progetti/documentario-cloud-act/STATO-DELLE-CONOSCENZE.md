@@ -824,17 +824,75 @@ proprio Stato non vi partecipa** — ed è **per ciò stesso adempiente** al dir
 **Unica scadenza vincolante con data certa in tutto il quadro**: **Data Act art. 29 — 12 gennaio 2027**,
 divieto dei costi di uscita. È l'unica data che il finale può pronunciare.
 
-### A47. Airbus chiude il cerchio — ha chiesto la regola, poi l'ha applicata a sé stessa
-Airbus **coordina la lettera dei 62** per i criteri di immunità (A6) **e** ha lasciato AWS per **Scaleway**,
-mettendo **l'immunità extraterritoriale a punteggio** nella propria gara.
-👉 Chi ha chiesto il criterio l'ha poi **usato come committente**. È il precedente industriale europeo
-evocato per il cloud — e il cerchio narrativo del film.
-🔴 Il virgolettato attribuito a Catherine Jestin è **DA VERIFICARE**.
+### A47. 🎯 AIRBUS CHIUDE IL CERCHIO — ha chiesto la regola, poi l'ha applicata a sé stessa
+**AFFIDABILITÀ: 🟢 ALTA** *(promosso da 🟡 il 02/08/2026: letto il comunicato ufficiale e la pagina
+istituzionale Airbus. Il virgolettato Jestin, prima «da verificare», è ora **confermato alla lettera**.)*
 
-⚠️ **DUE BUCHI DA ANTICIPARE NOI** (sono i punti dove il lobbying lavorerà):
-- la deroga per **«costo sproporzionato»** (art. 30(4)(c)) **senza soglia definita**;
-- la porta del livello 3 per i **«paesi terzi associati»** (art. 18), che si apre **con un atto di
-  esecuzione** — cioè nella sede meno visibile e più permeabile.
+**Primo tempo — Airbus chiede il criterio.** Il sito **eucshighplus.eu**, che raccoglie le adesioni alla
+richiesta di reintrodurre i criteri **High+** nell'EUCS, è **gestito dall'ufficio di Bruxelles di Airbus**.
+La lettera aperta dell'industria (**10 giugno 2024**, PDF originale già letto e citato sul sito) chiede una norma UE che protegga i dati più sensibili
+«*against access or operational disruption resulting from non-EU extraterritorial laws*».
+🔴 **Da riverificare**: il sito era **irraggiungibile (HTTP 503) il 02/08/2026**. Servono ancora, da fonte
+diretta: il disclaimer testuale sulla gestione Airbus, il **conteggio esatto** dei firmatari e **l'elenco
+dei firmatari italiani** (che il committente ha chiesto esplicitamente di nominare).
+
+**Secondo tempo — Airbus applica il criterio a sé stessa.** Gara di **sei mesi**, **~50 fornitori
+consultati**, vinta da **Scaleway** (gruppo Iliad). Annuncio **16 luglio 2026**.
+📌 **Il criterio, verbatim dal comunicato**: Airbus ha valutato i fornitori su tre dimensioni, fra cui
+«*European jurisdiction, data protection and **protection against non-European extraterritorial
+legislation***».
+📌 **Catherine Jestin, Executive Vice President Digital, Airbus** — verbatim:
+> «*This collaboration marks a significant milestone in our broader commitment to European digital
+> sovereignty. By integrating a trusted, high-performance cloud environment that **keeps our critical data
+> assets shielded from foreign extraterritorial laws**, we are ensuring that our digital infrastructure
+> keeps pace with our aerospace innovation, while maintaining control and resilience of our industrial
+> operations.*»
+
+**Perimetro**: **~70 applicazioni critiche entro il 2028** (progettazione aeronautica, ingegneria,
+produzione, operazioni interne), con un potenziale fino a **~900 in cinque-sei anni**.
+
+🔗 Scaleway, comunicato ufficiale 16.07.2026 — https://www.scaleway.com/en/news/scaleway-secures-european-trusted-cloud-services-contract-with-airbus/
+🔗 The Next Web, 17.07.2026 — https://thenextweb.com/news/airbus-scaleway-aws-sovereign-cloud
+🔗 L'Usine Digitale / developpez.com, 16-17.07.2026 (conferma incrociata su gara, 2028 e cifre)
+
+> **👉 Chi ha chiesto la regola l'ha poi usata come committente.** Non è un'opinione sulla sovranità:
+> è un'azienda che mette a bando il proprio criterio e ci scrive sopra un contratto. È **il cerchio
+> narrativo del film** — e l'unico caso in cui la tesi è provata da chi l'ha applicata a sé.
+
+⚠️ **CONTRO-ARGOMENTO, da dire noi per primi**: Airbus è **un'azienda privata**, non uno Stato. Nessun
+obbligo di legge, nessuna gara pubblica, nessun precedente giuridico. E ha **un interesse industriale
+evidente** a promuovere fornitori europei. Va detto — e poi va detto che *proprio per questo* il caso pesa:
+un'impresa che risponde ai propri azionisti ha ritenuto il rischio abbastanza concreto da spenderci sopra.
+
+🚨 **TRAPPOLA 34 — non dire «Airbus ha abbandonato AWS».**
+- Il **comunicato ufficiale non nomina mai AWS**: la sostituzione è ricostruzione di stampa.
+- **Jestin dice l'opposto della versione forte**: «*We do not intend to move away from all non-European
+  solutions; balance choices based on data criticality*». È una **scelta per criticità del dato**, non un'uscita.
+- **Non dire «900 applicazioni»**: sono ~**70 entro il 2028**; 900 è il potenziale a cinque-sei anni.
+✅ Formulazione sicura: «*Airbus ha messo a gara le proprie applicazioni critiche e le ha affidate a un
+fornitore europeo, mettendo a punteggio la protezione dalle leggi extraterritoriali.*»
+
+### A49. 🔥 AIRBUS SCRIVE LA NOSTRA TESI SUL PROPRIO SITO ISTITUZIONALE
+**AFFIDABILITÀ: 🟢 ALTA** — fonte primaria, pagina corporate Airbus, **17 giugno 2026**.
+🔗 https://www.airbus.com/en/newsroom/stories/2026-06-building-resilience-how-airbus-supports-european-digital-sovereignty-and-innovation
+
+Airbus elenca in proprio i due rischi che il film racconta, **con queste parole**:
+> - «*Ensuring operational continuity: making sure business can continue **without any external
+>   interruptions***»
+> - «*Controlling data access: **Protecting data from extraterritorial laws**, which are passed by a country
+>   and apply to people, businesses, or actions happening outside of its own borders*»
+
+👉 **Non è un attivista, un accademico o un giornalista: è il maggiore gruppo industriale europeo** che
+definisce le leggi extraterritoriali come un rischio da cui proteggersi — e lo scrive sul proprio sito.
+**Vale più di qualunque nostra spiegazione**, esattamente come A40 (il documento del Governo danese).
+
+📌 Contesto utile: Airbus è **socio fondatore** della *European Sovereign Tech Industry Alliance*
+(18.11.2025) e cofondatore di *European Tech Creators* (maggio 2026, con ASML, Ericsson, Mistral, Nokia,
+SAP, Siemens); in Gaia-X dal 2021.
+
+⚠️ **La riga che ci tiene onesti, dalla stessa pagina**: Airbus «*remains committed to using the best
+solutions available on the market, **even if they come from outside the bloc***». **Va citata.** È la prova
+che la posizione non è ideologica — ed è ciò che rende non ideologica anche la nostra.
 
 ### A48. Il confronto economico difendibile — spesa annua contro spesa annua
 ✅ **Da usare**: **151 mln €/anno** di lobbying tech a Bruxelles contro **~30 mln €/anno** della gara per il
@@ -1230,6 +1288,10 @@ reperti A37 e A39, dove chi consulta il registro non le avrebbe trovate)*
     (stock contro flusso) e qualunque economista lo smonta in diretta, portandosi via la credibilità del
     resto. Vale anche per fatturato contro PIL (lordo contro valore aggiunto).
     ✅ L'unico confronto difendibile è **spesa annua contro spesa annua** (v. A48).
+
+34. **Non dire «Airbus ha abbandonato AWS».** Il comunicato ufficiale non nomina AWS; Jestin dichiara
+    esplicitamente di **non** voler lasciare tutte le soluzioni non europee, ma di scegliere **per criticità
+    del dato**. E le applicazioni sono **~70 entro il 2028**, non 900. Dettagli in A47.
 
 ### ⚠️ Nota d'uso — collisione di scale
 La scala **SEAL 1-4** della gara UE **non è** la nostra scala **0-4**: una misura i *fornitori*, l'altra i

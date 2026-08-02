@@ -418,6 +418,26 @@ Serve un'indagine. È la strada del CLOUD Act.
 
 ---
 
+> ### 🚩 DIRETTIVA VINCOLANTE PER IL PASSAGGIO A 30 MINUTI — il caso Airbus va in evidenza
+> Richiesta esplicita del committente (02/08/2026). Airbus **non può restare una citazione di passaggio**:
+> è l'unico caso in cui **chi ha chiesto la regola l'ha poi applicata a sé stesso**, ed è il cerchio
+> narrativo del film. Reperti **A47** (🟢 ALTA) e **A49** (🟢 ALTA, fonte primaria Airbus).
+>
+> **Come va costruito, in due tempi separati e distanti:**
+> - **Atto 9 (Bruxelles)** — primo tempo: Airbus **chiede** il criterio. È l'ufficio di Bruxelles di Airbus
+>   a gestire eucshighplus.eu. Fra i 62 firmatari ci sono **Leonardo, Fincantieri, Generali, TIM**: italiani
+>   che chiedono a Bruxelles una regola che a Roma non viene scritta.
+> - **Atto 11 (via d'uscita)** — secondo tempo, la chiusura: Airbus **applica** il criterio a sé stessa.
+>   Gara di sei mesi, ~50 fornitori, vinta da Scaleway, 16 luglio 2026. Il criterio a punteggio, verbatim:
+>   «protection against non-European extraterritorial legislation». Poi il virgolettato Jestin.
+> - **A49 va usato prima**, come cerniera: Airbus che sul proprio sito definisce le leggi extraterritoriali
+>   un rischio da cui proteggersi. Come A40 (il documento del Governo danese), vale più di ogni spiegazione.
+>
+> ⚠️ **Obbligatorio nello stesso respiro**: il contro-argomento (azienda privata, non uno Stato, con
+> interesse industriale) e la **trappola 34** (non dire «ha abbandonato AWS»; non dire «900 applicazioni»).
+> ✅ Va citata anche la riga che ci tiene onesti: Airbus usa «le migliori soluzioni sul mercato, anche se
+> vengono da fuori dall'Unione». È ciò che rende non ideologica la nostra posizione.
+
 ## ATTO 11 — LA VIA D'USCITA · 17:00–20:00
 
 > Non si tratta di smettere di usare Microsoft.
