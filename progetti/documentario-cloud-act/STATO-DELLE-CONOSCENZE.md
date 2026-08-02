@@ -832,9 +832,39 @@ istituzionale Airbus. Il virgolettato Jestin, prima «da verificare», è ora **
 richiesta di reintrodurre i criteri **High+** nell'EUCS, è **gestito dall'ufficio di Bruxelles di Airbus**.
 La lettera aperta dell'industria (**10 giugno 2024**, PDF originale già letto e citato sul sito) chiede una norma UE che protegga i dati più sensibili
 «*against access or operational disruption resulting from non-EU extraterritorial laws*».
-🔴 **Da riverificare**: il sito era **irraggiungibile (HTTP 503) il 02/08/2026**. Servono ancora, da fonte
-diretta: il disclaimer testuale sulla gestione Airbus, il **conteggio esatto** dei firmatari e **l'elenco
-dei firmatari italiani** (che il committente ha chiesto esplicitamente di nominare).
+✅ **VERIFICATO DIRETTAMENTE IL 02/08/2026** leggendo il DOM del sito dal browser. *(Il precedente HTTP 503
+non era un guasto: era un **blocco verso il fetcher automatico**. Da browser il sito risponde. ⚠️ Lezione
+di metodo: un 503 su una fonte che ci serve va **riprovato da browser** prima di dichiararla irraggiungibile.)*
+
+📌 **Il disclaimer, verbatim** — la gestione Airbus non è una ricostruzione, è scritta sul sito:
+> «*European cloud users who agree with this position and want to support the open letter are asked to
+> contact the **Airbus Brussels office, Avenue Marnix 28 1000 Brussels**, at Airbus-Brussels-Office@airbus.com,
+> **which is responsible for this website***.»
+
+📌 **Conteggio: 62 firmatari esatti**, contati uno per uno sull'elenco pubblicato. **Il nostro «chi lo
+chiede: 62 organizzazioni» è confermato.**
+
+🇮🇹 **I FIRMATARI ITALIANI** (richiesta esplicita del committente):
+**Leonardo · Fincantieri · Generali · Telecom Italia (TIM) · Aruba** — e, da verificare la nazionalità,
+**SPAC**.
+🚨 **ARUBA È IL NOME CHE MANCAVA, ed è il più pesante di tutti**: è il principale fornitore cloud
+italiano **e partner del PSN** (A2). Chiede a Bruxelles il criterio di immunità dalle leggi extraterritoriali
+**mentre il PSN che contribuisce a costruire poggia su Oracle, Google, Azure e AWS**.
+⚠️ Da rileggere A2 prima di usarlo, per attribuire ad Aruba **il ruolo esatto** nel PSN e non uno più grande
+del vero. Ma la tensione è reale e va raccontata **senza accusare Aruba di incoerenza**: è semmai la prova
+che *anche chi costruisce il PSN* considera insufficiente il quadro normativo in cui lo costruisce.
+
+📌 **Che cosa chiede la lettera, verbatim**: un criterio UE che dia agli utenti «*transparency, choice,
+and the necessary protection for their most sensitive data **against access or operational disruption
+resulting from non-EU extraterritorial laws***».
+✅ **E chiede il contrario dell'esclusione**: «*A voluntary High+ EUCS would **in no way exclude
+non-European providers**, but simply offer an alternative*». È **volontario e centrato sull'utente**.
+👉 Disinnesca in anticipo l'accusa di protezionismo — **la nostra risposta al contro-argomento di A11,
+scritta da chi chiede la norma**, non da noi.
+
+📌 **Due appigli in più dalla lettera**: si fonda sul **rapporto Draghi** (che raccomanda una politica
+unica UE per l'acquisto di cloud da parte delle PA, con requisiti di residenza dei dati e controllo sovrano
+su sicurezza e cifratura) e dichiara il sostegno di **45.000 PMI europee del digitale**.
 
 **Secondo tempo — Airbus applica il criterio a sé stessa.** Gara di **sei mesi**, **~50 fornitori
 consultati**, vinta da **Scaleway** (gruppo Iliad). Annuncio **16 luglio 2026**.
