@@ -598,6 +598,63 @@ da transazione (OVG NRW 19 B 417/22) · **Italia: nessun provvedimento, a fronte
 E **nemmeno Google pubblica dati di diffusione in Italia**: la misurazione dell'Osservatorio resta
 **l'unica fonte esistente**.
 
+### A30. AWS European Sovereign Cloud — la catena societaria, letta sul registro
+Quattro società tedesche identificate con numero di registro, tribunale, sede, capitale e amministratori:
+holding **AWS European Sovereign Cloud GmbH** (Potsdam HRB 40853) · **Amazon Data Services ESC GmbH**
+(Potsdam HRB 40822) · **Amazon ESC Trust Services GmbH** (Potsdam HRB 40804) · **AWS ESC Development
+Center GmbH** (München HRB 268806).
+
+🔻 **DUE RETTIFICHE AL DOSSIER 12 — la seconda riguarda noi:**
+1. «Amazon Germany Holdco 1 GmbH» **non è una controllante intermedia**: è il nome che la holding stessa
+   portava fra il 21/10/2021 e il 23/07/2025 (e prima ancora *SCUR-Alpha 1391 GmbH*).
+2. 🚨 **`handelsregister.de` NON è a pagamento.** È gratuito e senza registrazione dal 1° agosto 2022
+   (riforma DiRUG). La *Gesellschafterliste* del 21/10/2025 è **pubblica e scaricabile**.
+   **L'opacità era nostra, non di AWS.** Va aperta a mano (il portale respinge le richieste automatiche).
+
+**Reperto nuovo**: nessuna delle entità è stata «costituita per questo scopo» come afferma il white paper —
+sono **società di comodo (*Vorratsgesellschaften*) del 2020-21 rinominate**. È prassi legittima in Germania,
+ma **la frase del white paper è imprecisa**.
+
+🎯 **E una scelta lessicale che fa lavoro**: sul proprio sito AWS scrive che la ESC opera «*under a parent
+company that is **locally controlled** in the European Union*» — **«controlled», mai «owned»**.
+Controllo operativo, non proprietà. È la stessa distinzione su cui si regge tutto il capitolo.
+
+### A31. 🎯 La giurisprudenza non esiste, ma la dottrina è netta — e viene da una fonte non allineata
+Confermato: **nessuna sentenza** applica il §2713 a una controllata estera con personalità giuridica
+distinta. Ma il saggio di **Hemmings, Srinivasan e Peter Swire**, *Journal of National Security Law &
+Policy* 10:631 (2020), letto integralmente, conclude:
+
+> «*a court would **almost certainly** find that a parent has control over a wholly-owned subsidiary for
+> purposes of the CLOUD Act*»
+
+E gli autori **dissentono dal Dipartimento di Giustizia nel verso più severo**. Con la giurisprudenza sul
+*control test* nella discovery federale: Bank of Nova Scotia, Marc Rich, Uranium Antitrust, Gerling,
+Zenith, Pitney Bowes.
+
+⚖️ **Perché conta**: Swire è lo stesso autore della **contro-analisi che ci contraddice** sul Data Privacy
+Framework (v. A12). Una fonte non allineata alla nostra tesi che conclude a nostro favore vale il doppio.
+
+### A32. 🇮🇹 AWS in Italia — discrepanza chiusa, e un virgolettato pesante
+Le tre cifre in conflitto erano **tre cose diverse**: **2 mld** = Region di Milano (annuncio 2022) ·
+**1,2 mld** = piano 2024-2029 (29/11/2024) · **3,2 mld** = cumulato dal 2012.
+Delibera del Consiglio dei ministri **ex art. 13 D.L. 104/2023**: commissario straordinario con poteri di
+ordinanza e autorizzazione unica.
+
+> **Il ministro Urso, in quell'occasione: «Oggi facciamo un ulteriore passo verso la sovranità digitale.»**
+
+Nel catalogo ACN: schede **IA-5789 / PA-5790** (fornitore **PSN**, livello 2, 06/06/2025-06/06/2028);
+**AWS qualificata QC2 su 228 prodotti**.
+
+### A33. AWS pubblica meno degli altri
+Report di trasparenza H2 2025 (pubblicato 30/01/2026, URL migrato di CDN ma non rimosso): **nessuna
+menzione dell'European Sovereign Cloud**. Due pagine, **numeri in forma di immagine** — non leggibili
+automaticamente — nessuna serie storica, e **nessuna cifra sulle opposizioni** benché AWS rivendichi
+«*a long track record*» di contestazione degli ordini.
+Confronto: Microsoft e Google pubblicano di più.
+
+🔴 **NUOVO PUNTO APERTO — priorità alta**: AWS invoca fra le proprie difese l'**immunità sovrana** (FSIA),
+argomento **pertinente proprio alla PA italiana** e **non ancora verificato**. Da chiudere.
+
 ---
 
 ## 🟡 B — SOLIDO, DA CONFERMARE PRIMA DELLA MESSA IN ONDA
