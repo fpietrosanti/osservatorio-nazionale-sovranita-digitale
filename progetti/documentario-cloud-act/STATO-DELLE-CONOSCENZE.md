@@ -473,6 +473,10 @@ structure** […] Whether a company exercises sufficient control over data held 
 **nessuna giurisprudenza letta**. 14 URL primari da aprire a mano nel dossier 12.
 
 ### A23. ⚡ UN VETTORE NUOVO: non l'accesso ai dati, ma la REVOCA del servizio e dell'identità
+> 🗂️ **DECISIONE EDITORIALE (29/07/2026): A23-A26 NON entrano nel documentario.** Le prove reggono, ma il
+> vettore è diverso dalla tesi del film (sanzioni su persone fisiche ≠ giurisdizione sui dati della PA) e
+> per l'Italia il rischio è dichiarato **teorico**. Materiale conservato: vale per **un pezzo a sé** sul
+> rapporto fra sanzioni e identità digitale. **Non citarlo nello script, nello storyboard o nel fumetto.**
 Distinto dal CLOUD Act e da tenere separato in tutto il racconto. Qui non si tratta di **leggere** i dati,
 ma di **spegnere** l'accesso di una persona ai propri strumenti digitali.
 

@@ -1,7 +1,17 @@
 # «NON POSSO GARANTIRLO»
 ## Documentario d'inchiesta — 20 minuti
 
-Versione 2.0 — 29 luglio 2026 · 13 atti
+Versione 2.1 — 29 luglio 2026 · 12 atti
+
+> 🗂️ **TAGLIATO in v2.1 — l'atto «Non è un'ipotesi: è già successo»** (blocco account e identità
+> digitali: giudici europei sanzionati, ordine esecutivo sui «servizi», asimmetria denaro/dati).
+> **Le prove reggono** — il verbatim della giudice slovena non è mai stato contestato e il caso francese
+> è in un atto parlamentare con risposta di Governo — ma **il vettore è un altro**: sanzioni su persone
+> fisiche, non giurisdizione sui dati della PA. Per l'Italia il rischio resta **teorico**, e in onda la
+> replica ovvia sarebbe *«cosa c'entra con la posta di un comune?»*.
+> Il materiale **resta nei dossier 13 e A23-A26**: è una buona storia, ma è **un'altra storia**.
+> I **75 secondi recuperati** sono riassegnati all'**Atto 9** (+15", lettera EUCS High+) e all'**Atto 11**
+> (+60", conclusione a due strade e caso cinese con il nome).
 Ogni affermazione è ancorata al dossier corrispondente. I riferimenti in `[A#]` rimandano a
 `STATO-DELLE-CONOSCENZE.md`. **Nessuna battuta va modificata senza ricontrollare il riferimento.**
 
@@ -225,50 +235,7 @@ Serve un'indagine. È la strada del CLOUD Act.
 
 ---
 
-## ATTO 5-BIS — NON È UN'IPOTESI: È GIÀ SUCCESSO · 9:15–10:30
-**Qui il film smette di essere una simulazione.** `[A23]` `[A24]` `[A25]`
-
-**IMMAGINE** — La dicitura `SIMULAZIONE DOCUMENTATA` **sparisce dallo schermo**. Bianco. Poi una data.
-
-> Tutto quello che avete visto finora è una ricostruzione: una porta che è aperta.
-> Adesso basta con le ricostruzioni.
-
-> Marzo 2026. Una giudice slovena — **cittadina dell'Unione europea** — scrive questo.
-
-**A VIDEO, verbatim, a schermo pieno**
-> «*Il mio Apple ID, iCloud, Amazon, Airbnb, PayPal e altri account sono stati tutti bloccati o cancellati.
-> Queste cancellazioni sono avvenute **da un giorno all'altro, senza preavviso**.*»
-> — Beti Hohler, giudice
-
-> **Nessuna azienda l'ha mai smentita.**
-> E non è sola: un giudice **francese** ha subito lo stesso trattamento — un caso arrivato in
-> **Parlamento**, con risposta ufficiale del Governo francese.
-
-> **Perché accade?** Non è una scelta delle aziende. Un ordine esecutivo statunitense vieta di fornire
-> «*fondi, beni o **servizi***» a una persona designata. La parola «servizi» è nel testo presidenziale.
-> Un'azienda americana che continuasse a servirla **commetterebbe un illecito**.
-> Microsoft lo sa bene: **nel 2023 è stata multata** proprio per questo.
-
-**IL DETTAGLIO CHE DICE TUTTO** `[A25]`
-> Quando vengono bloccati i **soldi** di una persona, la legge americana prescrive tutto: conto fruttifero,
-> interessi, tracciabilità, restituzione se il provvedimento cade.
-> Quando vengono bloccati i **dati**: **niente.**
-> Nessuna regola su che fine facciano, se si possano esportare, se tornino indietro.
->
-> **Per il denaro esiste una procedura. Per la vita digitale, no.**
-
-> ⚠️ **VINCOLI `[A26]`** — Questo blocco riguarda un potere **diverso** dal CLOUD Act: non leggere i dati,
-> ma **spegnere l'accesso**. Non confonderli mai.
-> **NON usare il caso del Procuratore della Corte penale internazionale**: la fonte sono funzionari
-> anonimi e Microsoft ha smentito. I casi solidi sono i due giudici europei.
-> **NON usare** la Russia 2024 (base giuridica europea, non americana), **né** Huawei (strumento diverso),
-> **né** X/Starlink (fenomeno opposto: uno Stato che interdice un'azienda).
-> Per l'Italia esistono soggetti designati, ma **nessun effetto digitale documentato**: il rischio per un
-> ente pubblico va detto **teorico**.
-
----
-
-## ATTO 6 — LA SVOLTA: ERA UNA SCELTA · 10:30–11:45
+## ATTO 6 — LA SVOLTA: ERA UNA SCELTA · 9:15–10:30
 
 > A questo punto uno pensa: sarà così per tutti. Non è così.
 
@@ -290,7 +257,7 @@ Serve un'indagine. È la strada del CLOUD Act.
 
 ---
 
-## ATTO 7 — LO STATO CERTIFICA, E NON SA · 11:45–14:00
+## ATTO 7 — LO STATO CERTIFICA, E NON SA · 10:30–12:45
 
 **IMMAGINE** — 21 luglio 2026. Comunicato.
 
@@ -327,7 +294,7 @@ Serve un'indagine. È la strada del CLOUD Act.
 
 ---
 
-## ATTO 8 — L'ASIMMETRIA · 14:00–15:45
+## ATTO 8 — L'ASIMMETRIA · 12:45–14:30
 `[A13]` — **blocco interamente riscritto: tre tesi diffuse sono false**
 
 > Si dice spesso che gli Stati Uniti vietino per legge di comprare tecnologia europea. **Non è vero**,
@@ -383,7 +350,7 @@ Serve un'indagine. È la strada del CLOUD Act.
 
 ---
 
-## ATTO 9 — BRUXELLES: L'ITALIA HA CHIESTO, E HA PERSO · 15:45–17:00
+## ATTO 9 — BRUXELLES: L'ITALIA HA CHIESTO, E HA PERSO · 14:30–16:00
 `[A15]` — **la svolta narrativa**
 
 > A questo punto la conclusione sembra ovvia: l'Italia non ha mai chiesto protezione.
@@ -412,7 +379,7 @@ Serve un'indagine. È la strada del CLOUD Act.
 
 ---
 
-## ATTO 10 — I FIGLI · 17:00–18:00
+## ATTO 10 — I FIGLI · 16:00–17:00
 
 > Nelle oltre dodicimila amministrazioni migrate col PNRR ci sono anche **le scuole**. `[B1]`
 > E sulle scuole il dato ce l'abbiamo. `[A1]`
@@ -451,7 +418,7 @@ Serve un'indagine. È la strada del CLOUD Act.
 
 ---
 
-## ATTO 11 — LA VIA D'USCITA · 18:00–20:00
+## ATTO 11 — LA VIA D'USCITA · 17:00–20:00
 
 > Non si tratta di smettere di usare Microsoft.
 > **Si tratta di smettere di lasciarla operare.**
