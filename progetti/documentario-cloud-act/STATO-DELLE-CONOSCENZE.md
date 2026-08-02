@@ -1125,3 +1125,36 @@ altrimenti si valuta una produzione su un bersaglio che si muove.
     non a un divieto. È il contro-argomento più forte di Google e va anticipato.
 24. **Non dire che l'EUCS «sta per essere adottato»**: al giugno 2026 la Commissione stessa scrive che
     «*non è ancora stato adottato*». Zero certificati emessi.
+
+
+### Trappole 25-31 — dai dossier europei *(consolidate qui il 29/07/2026: erano finite dentro le voci dei
+reperti A37 e A39, dove chi consulta il registro non le avrebbe trovate)*
+
+25. 🚨 **LA PIÙ PERICOLOSA — non dire «la Danimarca ha abbandonato Microsoft».** È falso e verificabile in
+    cinque minuti. Il ministero smentì i titoli internazionali **cinque giorni dopo**; il pilota è di
+    **38 dipendenti**; e nelle stesse settimane lo Stato danese ha firmato **il più grande rinnovo
+    Microsoft della sua storia** (4,2 mld DKK contro 80 mln per la sovranità: **rapporto 100 a 1**).
+    **Copenaghen** non ha deciso di abbandonare Microsoft: ha deliberato **un'analisi**.
+    ⚖️ Ma il pilota **prosegue**: non è una marcia indietro, è una migrazione faticosa. Dirlo così.
+    Il caso danese **solido** è **Aarhus** (60 sistemi da Azure a Hetzner, concluso, ripagato in 4 mesi).
+26. **Schleswig-Holstein NON è passata a Linux.** L'80% riguarda **LibreOffice**; il sistema operativo è
+    ancora in fase pilota. La stampa lo confonde sistematicamente.
+27. **I numeri di Schleswig-Holstein non sono sinonimi**: 25.000 / 30.000 / 60.000 circolano come se lo
+    fossero, ma **i 60.000 sono *dipendenti***, non postazioni migrate.
+28. **L'art. 9 EMBAG svizzero obbliga a *pubblicare* il codice sviluppato dall'amministrazione, NON a
+    *usare* open source.** È l'errore più diffuso sul caso svizzero.
+29. **Clarence e S3NS girano su Google Distributed Cloud Hosted**; Proximus vende anche Azure Local.
+    Il comunicato del Governo lussemburghese **non nomina mai Google**.
+30. **openDesk: 100.000 vs 80.000 postazioni** dalla stessa fonte nello stesso periodo — e il ministero che
+    lo commissiona **lo testa su 80 postazioni**. Non citare cifre senza qualificarle.
+31. **Non raccontare solo i successi.** Su 24 casi censiti nell'area nordica **solo cinque sono migrazioni
+    concluse e verificate su fonte primaria**; la Germania federale ha speso **481,4 mln €** in licenze
+    Microsoft nel 2025 (**+75,6% in due anni**) e la Svizzera ha **completato** il rollout di M365 su
+    54.000 postazioni **mentre l'EMBAG era in vigore**. Chi migra e chi acquista sono **lo stesso Stato**.
+    ⚠️ Vale anche il simmetrico: **non raccontare solo i fallimenti**. Monaco è tornata all'open source
+    nel maggio 2026, e il 68,6% dei dipendenti era soddisfatto del *software* (solo il 32%
+    dell'*organizzazione*).
+
+### ⚠️ Nota d'uso — collisione di scale
+La scala **SEAL 1-4** della gara UE **non è** la nostra scala **0-4**: una misura i *fornitori*, l'altra i
+*modelli*. Non sovrapporle mai nel racconto.
