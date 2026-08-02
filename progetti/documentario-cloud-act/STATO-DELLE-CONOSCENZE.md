@@ -1168,6 +1168,52 @@ La formulazione deve restare **strettamente strutturale**:
 
 ---
 
+## 📋 TODO APERTO — il PSN misurato con il metro europeo (SecNumCloud / EUCS High+)
+
+**Richiesta del committente (02/08/2026)**: produrre l'analisi che spiega **la differenza fra i requisiti del
+PSN e quelli di SecNumCloud ed EUCS High+**, nella parte in cui il PSN **agisce da rivenditore di servizi
+cloud Microsoft, Google e Amazon**.
+
+🎯 **Perché serve, e perché è il pezzo che ancora manca.** Il film dice già che il PSN poggia su Oracle,
+Google, Azure e AWS (**A2**) e che il regolamento ACN non nomina mai il CLOUD Act (**A7**). Ma non ha ancora
+il **confronto articolo per articolo** fra ciò che il PSN chiede e ciò che chiedono i due metri europei.
+Senza quel confronto la nostra resta un'affermazione; con quel confronto diventa **una misurazione**.
+È anche ciò che rende dicibile la tensione su **Aruba** (A47): un partner del PSN che chiede a Bruxelles il
+criterio di immunità che il PSN stesso non applica.
+
+### Come va costruita — tre colonne, stessa riga
+Per ciascun requisito, mettere a confronto **PSN** / **SecNumCloud 3.2** / **EUCS High+**:
+1. **Controllo del capitale e della governance** — SecNumCloud §19.6 (immunità da leggi extraterritoriali,
+   soglie di partecipazione extra-UE); High+ come richiesto dalla lettera dei 62; PSN: **che cosa chiede?**
+2. **Nazionalità e localizzazione del personale di esercizio e del supporto** — chi può mettere le mani sui
+   sistemi, e da quale paese. È il punto su cui il documento del Governo danese (**A40**) cita testualmente
+   il supporto «dagli Stati Uniti».
+3. **Titolarità delle chiavi di cifratura** e possibilità tecnica del fornitore di accedere al dato in chiaro.
+4. **Regime del software di terzi** — da confrontare con **CADA Allegato II livello 3** (software licenziato
+   da un soggetto di paese terzo ammesso **con audit del codice sorgente e piano di migrazione**) e
+   **livello 4** (nessun controllo effettivo di un paese terzo). Vedi **A45**.
+5. **Reversibilità e uscita** — e la sola scadenza vincolante del quadro: **Data Act art. 29, 12 gennaio
+   2027** (A46).
+6. **Che cosa comporta esattamente il ruolo di rivenditore**: contratto, responsabilità, e soprattutto
+   **se la catena di comando tecnica resti o meno presso il fornitore statunitense**.
+
+### Vincoli di metodo — non negoziabili
+✅ **Fonti primarie**: regolamento e determine ACN, capitolati e documentazione contrattuale PSN,
+referenziale **SecNumCloud 3.2** in francese, testo della lettera EUCS High+ e proposta **CADA**.
+🚨 **Se un requisito nel PSN non c'è, va detto che non c'è — e va distinto da «non l'abbiamo trovato»**
+(regola 10 di CLAUDE.md). La scansione a zero occorrenze di A7 è il modello: si dichiara che cosa è stato
+cercato, dove, e con quale esito.
+⚠️ **Contro-argomento da anticipare**: il PSN persegue **obiettivi diversi** da SecNumCloud (continuità,
+qualificazione, consolidamento dei data center) e non è nato come schema di immunità giurisdizionale.
+Il confronto va posto come **«misura ciò che l'Europa misura?»**, non come «il PSN ha sbagliato tutto».
+⚠️ **Nessuna accusa ad Aruba o agli altri partner**: il punto è il **quadro normativo**, non le aziende che
+ci lavorano dentro.
+
+📍 **Dove finirà nel film**: **Atto 7 — Lo Stato certifica, e non sa** (che nel passaggio a 30 minuti
+cresce da 135" a 180" proprio per ospitarlo), con rimando al sito per la tabella completa.
+
+---
+
 ## 📋 TODO DIFFERITO — analisi di fattibilità sulla produzione con AI generativa
 
 **Richiesta del committente (29/07/2026)**: **a lavori conclusi e confermati**, produrre un'analisi di
