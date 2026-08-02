@@ -15,10 +15,17 @@ Adattamento divulgativo di `SCRIPT-30-MINUTI.md` **versione 3.0, 13 atti**. Una 
 >    **riconoscere il logo** la seconda volta: è il cerchio che si chiude.
 > 3. La quarta di copertina guadagna **una data vera**: il **12 gennaio 2027**.
 >
-> ⏳ **Restano da scrivere** — aggiunte agli atti già esistenti, che il film ha e il booklet non ancora:
-> la **demolizione del «non è mai successo»** (tavola 6), gli **esiti europei sulla scuola** (tavola 11)
-> e l'**AWS European Sovereign Cloud** (tavola 5). Non bloccano il disegnatore: sono inserimenti
-> **dentro tavole già impaginate**, e vanno affrontati quando le 13 tavole sono approvate nell'impianto.
+> 📐 **E le tre tavole toccate sono state RIMPAGINATE, non compresse.** Infilare il materiale nuovo
+> dentro vignette già esistenti avrebbe prodotto pagine dense di testo — che è esattamente il difetto che
+> uccide un fumetto divulgativo. Quindi: la **tavola 6 diventa una doppia pagina** (come la 3, che già lo
+> era), e le **tavole 5 e 11 passano da sei a otto vignette**.
+> 🔧 **Convenzione**: le vignette esistenti **non sono rinumerate**. Quelle nuove portano una
+> **lettera** (`VIGNETTA A`, `VIGNETTA B`…) e la riga di impaginazione dice in che ordine vanno montate.
+> È la stessa scelta fatta nello storyboard con i suffissi `-BIS`.
+>
+> ✅ **Scritti in v3.0**: la **demolizione del «non è mai successo»** (tavola 6), gli **esiti europei sulla
+> scuola** (tavola 11) e l'**AWS European Sovereign Cloud** (tavola 5).
+> **Il booklet è ora completo e allineato al film.**
 Ogni affermazione fattuale è ancorata a `STATO-DELLE-CONOSCENZE.md`; i riferimenti `[A#]` / `[B#]` sono
 gli stessi del dossier.
 
@@ -552,9 +559,14 @@ degli europei.»
 # TAVOLA 5 — CHI TI FATTURA, CHI HA LE CHIAVI, E LA SOVRANITÀ IN VETRINA
 ### (dall'ATTO 4 — L'ESECUZIONE, IL RIVENDITORE E LA SOVRANITÀ DI FACCIATA) · `SIMULAZIONE DOCUMENTATA`
 
-**Impaginazione**: 6 vignette. Prima striscia: una vignetta a tutta larghezza (il piano di controllo).
-Seconda: due vignette gemelle (le due possibilità del fornitore italiano). Terza: tre vignette
-(la vetrina europea / la frase del 2019 / l'audit). Fuori griglia, in basso, il **riquadro di onestà**.
+**Impaginazione** 🔄 *(rimpaginata in v3.0: da 6 a **8 vignette**)*. Prima striscia: una vignetta a
+tutta larghezza (il piano di controllo). Seconda: due vignette gemelle (le due possibilità del fornitore
+italiano). Terza: tre vignette (la vetrina europea / la frase del 2019 / l'audit).
+🆕 **Quarta striscia: due vignette — `A` e `B`** (la scatola dentro la scatola / le due parole).
+Fuori griglia, in basso, il **riquadro di onestà**.
+⚠️ Le vignette `A` e `B` vanno **dopo la 6 e prima del riquadro**. La striscia nuova è più bassa delle
+altre: sono due vignette larghe e poco alte, quasi due bande. Serve a far sentire che lì **si conclude
+un ragionamento**, non che se ne apre un altro.
 
 ---
 
@@ -642,6 +654,44 @@ per leggere meglio la riga in basso.
 
 ---
 
+**VIGNETTA A** 🆕 *(larga e bassa — la scatola dentro la scatola)*
+**DISEGNO — METAFORA VISIVA.** La vetrina della vignetta 4, ma vista adesso da dentro il negozio.
+Il modellino del palazzo è stato tirato fuori e appoggiato sul bancone, e Sandro **ne sta sollevando il
+coperchio**: dentro c'è una seconda scatola, più piccola, con la bandierina europea. Ma il coperchio che
+Sandro tiene in mano — quello **esterno** — ha la bandierina americana.
+Marta guarda dentro. La Busta, sul bancone, guarda anche lei.
+
+**DIDASCALIA A**:
+> Oggi quell'offerta ha un nome e una confezione molto migliore: **società europea, personale europeo,
+> infrastruttura separata**. Sulla carta risponde a ogni obiezione. `[A20]`
+> Ma una controllata europea di un gruppo americano **non è un gruppo europeo**.
+> È una scatola dentro un'altra scatola — e **la scatola di fuori decide**.
+
+---
+
+**VIGNETTA B** 🆕 *(larga e bassa — le due parole)*
+**DISEGNO** — Due case, sulla stessa striscia di terreno. A sinistra, **una sola casa** con un muro
+interno che la divide in due: le due metà hanno colori diversi, ma **il tetto è uno solo**.
+A destra, **due case separate**, ciascuna col proprio tetto, col proprio ingresso, e un po' di spazio
+in mezzo. Sotto ciascuna, una parola sola.
+💡 Nessun personaggio in questa vignetta: è uno schema, e deve leggersi in un secondo.
+
+**LE DUE PAROLE (da scrivere sotto le case)**:
+> **ISOLARE** — una parete dentro casa.
+> **SEPARARE** — una casa propria.
+
+**DIDASCALIA B**:
+> Le offerte «sovrane» dei tre grandi fornitori **isolano. Non separano.**
+> È tutta qui la differenza — e non è una sfumatura: è **chi decide quando il muro si sposta**.
+
+**RIQUADRO DI ONESTÀ** *(piccolo, sotto la vignetta B, sfondo grigio — obbligatorio)*:
+> ⚠️ **Amazon non ha mai preteso di essere immune**, e l'equivoco non è tecnico: sta nella parola
+> «sovereign» usata come nome commerciale. E va riconosciuto che **la cifratura con le chiavi tenute
+> fuori è una difesa tecnicamente valida** per il dato fermo. Negarlo sarebbe disonesto — e ci farebbe
+> perdere la discussione su un punto in cui hanno ragione. `[A22]`
+
+---
+
 **RIQUADRO DI ONESTÀ** *(fuori griglia, in basso, sfondo grigio chiaro)*
 **DISEGNO** — Sandro, mezzo busto, che alza una mano come per fermare qualcuno. Stessa posa del riquadro
 di onestà della tavola 10: è un segnale che il lettore imparerà a riconoscere.
@@ -660,8 +710,34 @@ di onestà della tavola 10: è un segnale che il lettore imparerà a riconoscere
 # TAVOLA 6 — LA REGOLA CHE NON SI PUÒ RISPETTARE
 ### (dall'ATTO 5 — IL SILENZIO) · *il momento chiave del booklet*
 
-**Impaginazione**: 6 vignette. Prima striscia: tre vignette in sequenza (l'ordine di silenzio).
-Seconda striscia: due vignette (il modulo italiano). Terza striscia: **una vignetta unica, muta, grande**.
+**Impaginazione** 🔄 *(rimpaginata in v3.0: **da tavola singola a DOPPIA PAGINA**, come la tavola 3)*.
+**10 vignette in tutto.**
+**Sinistra** — 5 vignette: la domanda di Marta (`A`), le tre dell'ordine di silenzio (`1`–`3`), e la
+domanda su fondo nero che chiude la pagina (`B`).
+**Destra** — 5 vignette: il modulo italiano (`4`–`5`), la rilettura in due tempi (`C`–`D`), e infine
+**la vignetta unica, muta, grande** (`6`).
+
+📐 **Perché la doppia pagina.** Il materiale nuovo è una **demolizione in due tempi**: una domanda
+che resta sospesa, e la risposta che arriva dopo aver visto il meccanismo. Comprimerla dentro le sei
+vignette originali avrebbe riempito la tavola di testo e tolto respiro alla vignetta muta, che è il
+fermo-immagine del booklet. La doppia pagina risolve entrambe le cose: **la domanda chiude la pagina
+sinistra, e il lettore gira il foglio senza avere la risposta.**
+⚠️ **La vignetta `B` deve cadere sull'ultima riga della pagina sinistra.** Se in impaginazione finisce
+altrove, l'effetto si perde e tanto vale non farla.
+
+---
+
+## PAGINA SINISTRA
+
+**VIGNETTA A** 🆕 *(la domanda che apre la tavola)*
+**DISEGNO** — Marta e Sandro allo stesso tavolo della tavola precedente. Marta ha in mano il foglio con
+la frase di Microsoft — **quella della tavola 3** — e ci tiene sopra il dito, ma su una riga diversa:
+non la prima metà, la **seconda**. Sandro la guarda e non risponde subito.
+💡 Il disegnatore può riprodurre il foglio della tavola 3 in modo riconoscibile: è lo stesso.
+
+**BALLOON — MARTA**: «Una cosa non mi torna. Quello di Microsoft aveva detto anche un'altra frase:
+*non è ancora mai successo*. Non è una rassicurazione, quella?»
+**BALLOON — SANDRO** *(si alza, prende un foglio)*: «Adesso le faccio vedere una cosa. Poi me lo ridica.»
 
 ---
 
@@ -693,6 +769,22 @@ vuota, una poltrona ministeriale vuota, un banco parlamentare vuoto. Tutti vuoti
 
 ---
 
+**VIGNETTA B** 🆕 *(chiude la pagina sinistra — ⚠️ deve stare sull'ultima riga)*
+**DISEGNO** — **Nero pieno.** Nessun personaggio, nessun oggetto. Una sola riga di testo bianco,
+centrata, piccola in mezzo a tutto quel nero.
+💡 In basso a destra, minuscolo, il **Cursore** che lampeggia. È l'unica presenza.
+
+**UNICA DIDASCALIA**:
+> ## Come farebbe, un cliente, a saperlo?
+
+**Nota per il disegnatore**: è una vignetta che **costa una pagina e non dice niente** — ed è voluto.
+Il lettore deve girare il foglio con la domanda in testa e **senza la risposta**. Se l'impaginazione la
+comprime o le mette qualcosa accanto, l'effetto svanisce.
+
+---
+
+## PAGINA DESTRA — LA NORMA CHE NON SI PUÒ RISPETTARE
+
 **VIGNETTA 4**
 **DISEGNO** — Ritorno all'ufficio italiano, luce normale. Sandro ha aperto sulla scrivania un tomo
 spesso — 88 pagine, si vede lo spessore — con dei post-it colorati. Marta legge sopra la sua spalla.
@@ -714,6 +806,43 @@ leggibile solo la parte che conta, evidenziata in giallo.
 
 **BALLOON — MARTA**: «Quindi ci devono avvisare.»
 **BALLOON — SANDRO**: «Ci devono avvisare.»
+
+---
+
+**VIGNETTA C** 🆕 *(la frase torna, e non regge)*
+**DISEGNO** — La frase di Microsoft ricompare in alto, scritta come sul foglio della vignetta `A`.
+Sotto, **tre chiodi** piantati nel foglio, uno per riga, che lo inchiodano al tavolo. Ogni chiodo ha
+accanto una scritta breve. Le mani di Sandro appoggiano il terzo chiodo.
+💡 Nessuna violenza nel disegno: il gesto è pacato, quasi burocratico. Non stiamo accusando, stiamo
+verificando.
+
+**IN ALTO (sul foglio)**:
+> *«Non è ancora mai successo.»*
+
+**LE TRE RIGHE (accanto ai tre chiodi)**:
+> 1. l'ordine è **segreto**
+> 2. il divieto di parlarne è **legge**
+> 3. la segnalazione che l'Italia pretende è **proibita da quella stessa legge**
+
+**DIDASCALIA C**:
+> È vero che nessuno l'ha mai dichiarato. Ma il sistema è fatto **esattamente perché non si sappia.** `[B2]`
+
+---
+
+**VIGNETTA D** 🆕 *(la risposta alla domanda della pagina sinistra)*
+**DISEGNO** — Marta e Sandro, di nuovo seduti. Marta ha ancora il foglio in mano, ma adesso **lo appoggia
+sul tavolo**, con la faccia in giù. Non lo sta più leggendo.
+La Busta, sul tavolo, guarda il foglio appoggiato.
+
+**FRASE ISOLATA** *(due righe, la seconda più grande)*:
+> Non è una rassicurazione.
+> ## È la descrizione di un silenzio garantito per legge.
+
+**RIQUADRO DI ONESTÀ** *(sfondo grigio — 🚨 obbligatorio, e la frase sopra non va riscritta)*:
+> ⚠️ **Non stiamo dicendo che sia successo.** Non lo sappiamo — e non lo sa nemmeno chi ha pronunciato
+> quella frase. Stiamo dicendo una cosa diversa, e più solida: **quella frase non è verificabile da
+> nessuno.** Se questo booklet scrivesse «quindi è già successo», direbbe una cosa che non può provare,
+> e si porterebbe via tutto il resto insieme a quella.
 
 ---
 
@@ -1006,9 +1135,14 @@ il secondo mattone.
 # TAVOLA 10 — L'ABBIAMO CHIESTA. E ABBIAMO PERSO.
 ### (dall'ATTO 9 — BRUXELLES) · *la svolta narrativa*
 
-**Impaginazione**: 6 vignette. Prima striscia: una vignetta (l'accusa facile, e la sua smentita).
-Seconda e terza striscia: **quattro vignette disposte su una linea del tempo verticale** che scende
-lungo il centro della pagina. Ultima: una vignetta larga di chiusura.
+**Impaginazione** 🔄 *(rimpaginata in v3.0: da 6 a **7 vignette**)*. Prima striscia: una vignetta
+(l'accusa facile, e la sua smentita). Seconda e terza striscia: **quattro vignette disposte su una linea
+del tempo verticale** che scende lungo il centro della pagina.
+🆕 **Quarta striscia: la vignetta ** — la lettera dei sessantadue e i firmatari italiani.
+Ultima: la vignetta 6, larga, di chiusura (le due porte).
+⚠️ **L'ordine conta**: la vignetta  va **prima** della 6, non dopo. La chiusura di questa tavola resta
+la porta con la chiave mai girata — e adesso arriva subito dopo aver saputo che **anche cinque aziende
+italiane** hanno bussato all'altra porta.
 
 ---
 
@@ -1063,24 +1197,7 @@ governi esterni all'UE, di essere certificati come sicuri»*. `[A15]`
 
 ---
 
-**VIGNETTA 6** *(larga, chiusura)*
-**DISEGNO — METAFORA VISIVA: due porte.** Un corridoio con due porte affiancate.
-Sulla porta di sinistra: **BRUXELLES**. È chiusa, e sull'anta ci sono i segni di chi ha bussato a lungo:
-graffi, nocche, un campanello consumato.
-Sulla porta di destra: **CASA NOSTRA**. Ha la chiave **infilata nella toppa dall'interno**.
-Non è mai stata girata: la chiave è pulita, nuova, senza un graffio.
-Marta la guarda. Non la tocca.
-
-**DIDASCALIA**:
-> Quindi il divario non è tra l'Italia e le sue parole.
-> È tra **ciò che l'Italia ha chiesto a Bruxelles** e **ciò che ha scritto in casa propria**.
-> Per cinque anni ha premuto perché quella regola esistesse in Europa. E ha perso.
-> Negli stessi cinque anni **non l'ha mai introdotta nel proprio regolamento nazionale** —
-> l'unico strumento che non dipendeva dal voto di nessun altro. `[A15]`
-
----
-
-**VIGNETTA 6** 🆕 *(aggiunta in v3.0 — primo tempo di Airbus)*
+**VIGNETTA A** 🆕 *(aggiunta in v3.0 — primo tempo di Airbus)*
 **DISEGNO** — Sandro gira lo schermo verso Marta. Sul monitor, una pagina web molto semplice: un titolo e
 un lungo elenco di loghi aziendali. In fondo alla pagina, il dettaglio che conta: una riga di contatto con
 **l'indirizzo di un ufficio di Bruxelles**. Marta si sporge per leggerla.
@@ -1109,12 +1226,34 @@ proteggere i dati più sensibili **dalle leggi extraterritoriali**. L'hanno firm
 
 ---
 
+---
+
+**VIGNETTA 6** *(larga, chiusura)*
+**DISEGNO — METAFORA VISIVA: due porte.** Un corridoio con due porte affiancate.
+Sulla porta di sinistra: **BRUXELLES**. È chiusa, e sull'anta ci sono i segni di chi ha bussato a lungo:
+graffi, nocche, un campanello consumato.
+Sulla porta di destra: **CASA NOSTRA**. Ha la chiave **infilata nella toppa dall'interno**.
+Non è mai stata girata: la chiave è pulita, nuova, senza un graffio.
+Marta la guarda. Non la tocca.
+
+**DIDASCALIA**:
+> Quindi il divario non è tra l'Italia e le sue parole.
+> È tra **ciò che l'Italia ha chiesto a Bruxelles** e **ciò che ha scritto in casa propria**.
+> Per cinque anni ha premuto perché quella regola esistesse in Europa. E ha perso.
+> Negli stessi cinque anni **non l'ha mai introdotta nel proprio regolamento nazionale** —
+> l'unico strumento che non dipendeva dal voto di nessun altro. `[A15]`
+
 # TAVOLA 11 — E I RAGAZZI?
 ### (dall'ATTO 10 — I FIGLI)
 
-**Impaginazione**: 6 vignette. Va tenuta **breve, asciutta e non ricattatoria**. Nessun bambino
-disegnato in primo piano con l'aria triste: sarebbe esattamente il tipo di manipolazione che questo
-booklet rifiuta.
+**Impaginazione** 🔄 *(rimpaginata in v3.0: da 6 a **8 vignette**)*. Va tenuta **breve, asciutta e non
+ricattatoria**. Nessun bambino disegnato in primo piano con l'aria triste: sarebbe esattamente il tipo di
+manipolazione che questo booklet rifiuta.
+🆕 **Striscia finale: due vignette — `A` e `B`** (gli sportelli europei / le due caselle vuote),
+dopo la vignetta 6.
+⚠️ **Restano tavola singola, non doppia pagina.** Il materiale nuovo qui è un **confronto**, non una
+demolizione in due tempi: si legge in un colpo d'occhio e non ha bisogno di far girare la pagina.
+Due vignette bastano, e la regola dell'asciuttezza resta la legge di questa tavola.
 
 ---
 
@@ -1212,6 +1351,51 @@ attaccato al muro con tre righe scritte a mano: sono le tre avvertenze qui sotto
 in cui la storia riguarda persone che non hanno scelto niente.
 
 ---
+
+---
+
+**VIGNETTA A** 🆕 *(gli sportelli — il confronto)*
+**DISEGNO** — Quattro sportelli affiancati, come quelli di un ufficio pubblico, ciascuno con una
+bandierina sopra. Ai primi tre la saracinesca è alzata e c'è qualcuno dietro il vetro. **Il quarto —
+quello italiano — ha la saracinesca abbassata.**
+💡 Nessun dramma e nessun cartello di protesta: è semplicemente chiuso, come un ufficio di pomeriggio.
+La Busta è ferma davanti al quarto sportello, di spalle. Non fa niente. Aspetta.
+
+**LE QUATTRO RIGHE (sotto ciascuno sportello)**:
+> 🇩🇰 **Danimarca** — ordine ai 53 comuni interessati.
+> 🇳🇱 **Paesi Bassi** — l'azienda si è adeguata alle richieste.
+> 🇩🇪 **Germania** — procedimento chiuso da una transazione.
+> 🇮🇹 **Italia** — **nessun provvedimento.** `[A29]`
+
+**DIDASCALIA A**:
+> Su questo, in Europa, qualcuno si è mosso — e gli esiti sono **tutti diversi**.
+> Ottomilaquattrocentotré istituti. **Nessun provvedimento.**
+
+**RIQUADRO DI ONESTÀ** *(sfondo grigio — 🚨 obbligatorio: è il contro-argomento più forte dell'azienda,
+e va dato per intero)*:
+> ⚖️ Nei **Paesi Bassi**, quando un'autorità ha posto condizioni precise, **l'azienda le ha accettate e ha
+> cambiato il prodotto.** La regolazione ha funzionato.
+> È un punto **a loro favore**, e ometterlo ci renderebbe sleali. Ed è anche il punto a favore di tutto
+> questo booklet: **funziona quando qualcuno la scrive.**
+
+---
+
+**VIGNETTA B** 🆕 *(le due caselle vuote — chiude la tavola)*
+**DISEGNO** — Due schedari affiancati, con il cassetto aperto. **Sono tutti e due vuoti.**
+Sopra il primo, una targhetta: **MINISTERO**. Sopra il secondo: **L'AZIENDA**.
+Più in basso, staccato e più piccolo, **un terzo schedario — e quello ha dentro un solo foglio.**
+La targhetta dice: **UN OSSERVATORIO INDIPENDENTE**.
+Marta guarda i primi due cassetti. Sandro indica il terzo.
+
+**DIDASCALIA B**:
+> E un'ultima cosa, che è la più scomoda. Quante scuole italiane usino quale piattaforma **non lo dice
+> il Ministero, e non lo dice nemmeno l'azienda**: nessuno dei due pubblica quel dato.
+> Il numero che avete letto in questa tavola è **l'unico che esista**, e l'ha misurato un osservatorio
+> indipendente interrogando i registri pubblici. `[A1]` `[A29]`
+
+**FRASE ISOLATA** *(in fondo, staccata)*:
+> Un Paese che ha speso **un miliardo e nove** per portare la sua amministrazione nel cloud
+> **non sa dire quale piattaforma usano le proprie scuole.**
 
 # TAVOLA 12 — LA VIA D'USCITA
 ### (dall'ATTO 11) · **il finale non è catastrofista: è la porta**
