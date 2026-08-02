@@ -712,6 +712,69 @@ dai chip al software.
 ⚠️ **ATTENZIONE ALLA COLLISIONE DI SCALE**: la scala **SEAL 1-4** della gara UE **non è** la nostra scala
 0-4. Vanno tenute distinte e mai sovrapposte nel racconto: una misura i fornitori, l'altra i modelli.
 
+### A39. 🚨 IL CASO DANIMARCA NON ESISTE NELLA FORMA IN CUI CIRCOLA
+Verificato **in danese**. È il caso più citato d'Europa, e la stampa internazionale lo ha travisato.
+
+- **24 giugno 2025**, cinque giorni dopo l'annuncio, *Version2*: «**Digitaliseringsministeriet maner til ro:
+  Vil ikke droppe Microsoft**» — **il ministero smentisce i titoli internazionali**.
+- Il pilota è di **38 dipendenti** su Collabora, con problemi documentati (interlinea, font mancanti,
+  blocchi). Titolo danese del dicembre 2025: «*Sto diventando grigio*».
+  ⚖️ **Prosegue comunque**: non è una marcia indietro, è **una migrazione faticosa**. Va detto così.
+- 🔻 **Nelle stesse settimane** lo Stato danese ha firmato **il più grande rinnovo Microsoft della sua
+  storia**: **4,2 mld DKK / 5 anni / ~100.000 dipendenti**, più **4,1 mld DKK** per 96 comuni.
+  Contro **80 mln DKK** per il piano sovranità 2026-2029. **Rapporto ~100 a 1.**
+  Motivazione ufficiale del contratto quinquennale: serve **più tempo per studiare le alternative**.
+- **Copenaghen non ha deciso di abbandonare Microsoft**: ha deliberato **un'analisi**. Lo dice il catalogo
+  ufficiale del Governo danese: «*il caso non tocca risultati ed esperienze concrete*».
+
+🚨 **TRAPPOLA 31 — la più pericolosa del registro**: **non dire «la Danimarca ha abbandonato Microsoft».**
+È falso, è verificabile in cinque minuti, ed è ciò che ci farebbe smontare più in fretta di ogni altra cosa,
+perché è il caso che tutti credono di conoscere.
+
+### A40. 🎯 Il vero caso danese è **Aarhus** — piccolo, concluso, e scritto da un governo
+60 sistemi migrati **da Azure a Hetzner**, conclusa nella **primavera 2025**: da **842.000 a 233.000
+DKK/anno**, **ripagata in 4 mesi**.
+Fonte: **catalogo casi ufficiale del Governo danese** (PA Consulting, gennaio 2026), scaricato ed estratto.
+
+🎯 **E la motivazione della migrazione, nel documento governativo, cita testualmente che il supporto Azure
+può avvenire *dagli Stati Uniti*.**
+> **È l'Atto 4 del nostro film, scritto da un governo europeo.** Vale più di qualunque nostra spiegazione.
+
+### A41. 🔥 Bruxelles ha scritto i criteri che a Roma si dice non si possano scrivere
+**Aprile 2026**: la Commissione europea aggiudica **180 mln € di cloud sovrano a nove aziende europee,
+zero americane** — Post Telecom, OVHcloud, Clever Cloud, STACKIT, Scaleway, Proximus, S3NS, Clarence,
+Mistral — valutandole su **otto criteri di sovranità**.
+*(Conferma incrociata con A38, che sullo stesso bando rileva: tre aggiudicatari SEAL-3, uno SEAL-2,
+**nessuno SEAL-4**. I due dossier si confermano a vicenda su aspetti diversi.)*
+
+> **Da mettere accanto ad A2** (il PSN costruito su Oracle, Google, Azure e AWS) **e ad A7** (il regolamento
+> ACN: zero occorrenze di «CLOUD Act», «nazionalità», «capitale»).
+> **La Commissione ha applicato a sé stessa i criteri che in Italia si dice non si possano scrivere** —
+> e senza violare il diritto degli appalti, perché ha misurato la sovranità, non escluso una nazionalità.
+> **È la risposta definitiva al contro-argomento di A11.**
+
+### A42. I fallimenti dell'area — e il numero che ridimensiona tutto
+- **Norvegia**: proposta di uscita da M365 **respinta**, **nessuno dei 21 emendamenti** approvato, e la
+  ministra ridefinisce l'obiettivo come «**amministrare la dipendenza**».
+- **Bulgaria**: obbligo di legge sull'open source **dal 2016** che dopo dieci anni non ha intaccato suite
+  d'ufficio e cloud.
+- **EDPS/Commissione**: la violazione più grave mai accertata si è chiusa **senza cambio di fornitore**.
+- **Estonia** — il paese-simbolo del governo digitale — sta portando **15.000 postazioni *dentro* il cloud
+  Microsoft**.
+- **Polonia**: la «chmura krajowa» (cloud nazionale) è costruita **su Google e Microsoft**.
+
+🔻 **IL NUMERO CHE RIDIMENSIONA TUTTO**: su **24 casi censiti nell'area, solo CINQUE sono migrazioni
+concluse e verificate su fonte primaria.** Va detto in voce: è l'antidoto al trionfalismo, e ci protegge.
+
+### A43. Tre casi nuovi, non ancora nel progetto
+- 🇮🇪 **Irlanda**: gara Microsoft da **1 miliardo € annullata** nel luglio 2026 dopo contestazione in Dáil.
+  **Nel Paese meno sospettabile d'Europa** — è la sede europea delle big tech.
+- 🇮🇸 **Islanda**: nove risposte parlamentari che dichiarano la dipendenza **ministero per ministero**, con
+  **Ísland.is** (il loro equivalente di SPID/IO) **su AWS**.
+  👉 **È il modello procedurale che l'Italia non ha usato**: un parlamento che misura e pubblica.
+- 🇷🇴 **Romania**: cloud di Stato PNRR operato dal servizio telecomunicazioni — con la critica di ApTI sul
+  ruolo dell'intelligence, riportata per onestà.
+
 ---
 
 ## 🟡 B — SOLIDO, DA CONFERMARE PRIMA DELLA MESSA IN ONDA
