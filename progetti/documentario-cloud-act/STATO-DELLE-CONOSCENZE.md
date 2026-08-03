@@ -1419,8 +1419,8 @@ La formulazione deve restare **strettamente strutturale**:
 ## ✅ CHIUSO — il PSN misurato con il metro europeo (SecNumCloud / EUCS High+)
 
 > **Prodotto il 02/08/2026.** Reperti **A50, A51, A52, A53** su fonte primaria; tabella pubblica a otto
-> requisiti su **/misure-tecniche/** sezione 7.1; scheda ****; segmento in voce
-> scritto nell'**Atto 7** e ripartito su quattro inquadrature (–).
+> requisiti su **/misure-tecniche/** sezione 7.1; scheda **`15-psn-metro-europeo.svg`**; segmento in voce
+> scritto nell'**Atto 7** e ripartito su quattro inquadrature (`065-BIS`–`065-QUINQUIES`).
 > 🔴 **Resta ignoto un solo dato**: quale dei tre livelli PSN sia il più adottato dagli enti. Senza,
 > si descrive l'architettura ma **non si quantifica in voce**.
 >
