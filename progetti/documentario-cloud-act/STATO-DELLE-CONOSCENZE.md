@@ -1149,6 +1149,37 @@ Analisi estesa in italiano e inglese: i tre stati del dato, che cos'è il confid
 ottiene davvero, i quattro limiti, l'attestazione rotta (**CVE-2026-33697**, TU Dresden, AsiaCCS ed
 ESORICS 2026), la gestione delle chiavi, il caso PSN e la conclusione. In menu in entrambe le lingue.
 
+### A53. 🎯 IL DIVARIO CON LA FRANCIA NON È TECNOLOGICO: è una frase che non è stata scritta
+**AFFIDABILITÀ: 🟢 ALTA** — sintesi dei reperti A7, A29, A50, A51, A52, tutti su fonte primaria.
+Prodotta la tabella di confronto pubblica su **/misure-tecniche/**, sezione 7.1: otto requisiti per i tre
+livelli PSN contro SecNumCloud §19.6.
+
+🚨 **LA FORMULAZIONE DA NON USARE — diventa la trappola 41.**
+❌ «I cloud francesi sono sovrani, quelli italiani no.» **Falso e smontabile con due nomi**: la Francia ha
+**Bleu** (tecnologia Microsoft) e **S3NS** (tecnologia Google). Chi lo dice perde in dieci secondi.
+
+✅ **LA FORMULAZIONE CHE REGGE.** La differenza non sta nella purezza dei fornitori: sta nel fatto che
+**la Francia ha scritto un requisito misurabile e l'Italia non ne ha scritto alcuno**. Tre verifiche
+binarie: dove è stabilita l'azienda, chi ne controlla il capitale, da dove il servizio è amministrato.
+
+> 🔥 **E la regola ha prodotto il mercato.** Bleu e S3NS **esistono perché la regola esiste**: nessuna
+> azienda americana si è ristrutturata per benevolenza, l'ha fatto perché altrimenti non poteva vendere
+> allo Stato francese. **Un fatto scomodo per la nostra tesi è la prova che la regola funziona** (già in A29).
+
+> **LA RIGA DA MANDARE IN ONDA:**
+> **In Francia un fornitore americano ha dovuto cambiare struttura societaria per vendere allo Stato.**
+> **In Italia non gli è stato chiesto di cambiare nulla.**
+
+📊 **Gli otto requisiti della tabella**: sede nell'UE · tetto al capitale extra-UE (24%) ·
+amministrazione dall'UE · immunità dichiarata · titolarità delle chiavi · protezione del dato in uso ·
+**come viene definita la parola «sovranità»** · **il requisito è in un atto vincolante?**
+⚠️ **Sul metodo, dichiarato nella pagina**: «non documentato» significa *letto e non trovato*; «zero
+occorrenze» significa *ricerca full-text eseguita, esito riportato*. La distinzione è voluta (regola 10).
+
+📍 **E il colpo finale è già nostro (A15)**: non è che l'Italia non ci avesse pensato. Nel **2021** ne
+era **coautrice** a Bruxelles. Ha chiesto la regola lì, l'ha persa nel marzo 2024, e negli stessi cinque
+anni **non l'ha mai scritta in casa propria** — l'unico strumento che non dipendeva dal voto di nessuno.
+
 ---
 
 ## 🟡 B — SOLIDO, DA CONFERMARE PRIMA DELLA MESSA IN ONDA
@@ -1661,6 +1692,11 @@ reperti A37 e A39, dove chi consulta il registro non le avrebbe trovate)*
     le premesse tecniche sono dell'ANSSI» (A52).
 40. **Non citare il BSI sul confidential computing.** Una sua posizione in merito **non è stata trovata**
     — il che è diverso dal dire che non esista. Rimosso dalla pagina per decisione del committente (A52).
+
+41. 🚨 **Non dire «i cloud francesi sono sovrani, quelli italiani no».** Bleu è Microsoft e S3NS è
+    Google: si viene smontati con due nomi. La formulazione corretta è che **la Francia ha scritto un
+    requisito misurabile e l'Italia non ne ha scritto alcuno** — ed è più forte, perché Bleu e S3NS
+    diventano **la prova che la regola funziona** (A53).
 
 ### ⚠️ Nota d'uso — collisione di scale
 La scala **SEAL 1-4** della gara UE **non è** la nostra scala **0-4**: una misura i *fornitori*, l'altra i

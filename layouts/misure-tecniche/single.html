@@ -274,6 +274,102 @@
     </div>
   </div>
 
+  <!-- TABELLA PSN vs SECNUMCLOUD -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <h2 class="mb-3">{{ if $isEN }}7.1 The comparison, requirement by requirement{{ else }}7.1 Il confronto, requisito per requisito{{ end }}</h2>
+      <p>{{ if $isEN }}The Italian public cloud is delivered in <strong>three tiers</strong>, with three very different levels of control &mdash; all promoted under the same word. This table places them against the requirements that the French framework actually measures. Every cell about PSN comes from documents we downloaded and read in full: the concession agreement, the guide to the convention, the technical specification of services and the user manual for the Azure tier &mdash; 161 pages.{{ else }}Il cloud pubblico italiano è erogato in <strong>tre livelli</strong>, con tre gradi di controllo molto diversi &mdash; tutti promossi con la stessa parola. Questa tabella li mette a confronto con i requisiti che il quadro francese misura davvero. Ogni casella sul PSN viene da documenti scaricati e letti per intero: la convenzione di concessione, la guida alla convenzione, le caratteristiche tecniche dei servizi e il manuale utente del livello su Azure &mdash; 161 pagine.{{ end }}</p>
+
+      <div class="table-responsive">
+        <table class="table table-bordered align-middle small">
+          <thead class="table-primary"><tr>
+            <th style="width:20%">{{ if $isEN }}Requirement{{ else }}Requisito{{ end }}</th>
+            <th style="width:20%">{{ if $isEN }}SecNumCloud 3.2 &sect;19.6{{ else }}SecNumCloud 3.2 &sect;19.6{{ end }}</th>
+            <th style="width:20%">{{ if $isEN }}PSN &mdash; Public Cloud PSN Managed{{ else }}PSN &mdash; Public Cloud PSN Managed{{ end }}</th>
+            <th style="width:20%">{{ if $isEN }}PSN &mdash; Hybrid on PSN site{{ else }}PSN &mdash; Hybrid on PSN site{{ end }}</th>
+            <th style="width:20%">{{ if $isEN }}PSN &mdash; Secure Public Cloud{{ else }}PSN &mdash; Secure Public Cloud{{ end }}</th>
+          </tr></thead>
+          <tbody>
+            <tr>
+              <td><strong>{{ if $isEN }}Provider established in the EU{{ else }}Sede del fornitore nell'UE{{ end }}</strong></td>
+              <td class="table-success">{{ if $isEN }}<strong>Required</strong>{{ else }}<strong>Richiesto</strong>{{ end }}</td>
+              <td class="table-danger" colspan="3">{{ if $isEN }}<strong>Not required anywhere.</strong> The term does not appear as a requirement on providers in any of the 161 pages.{{ else }}<strong>Non richiesto in alcun punto.</strong> Il termine non compare come requisito sui fornitori in nessuna delle 161 pagine.{{ end }}</td>
+            </tr>
+            <tr>
+              <td><strong>{{ if $isEN }}Capital control &mdash; non-EU stake capped{{ else }}Controllo del capitale &mdash; tetto alla quota extra-UE{{ end }}</strong></td>
+              <td class="table-success">{{ if $isEN }}<strong>Required</strong>, ceiling set at 24%{{ else }}<strong>Richiesto</strong>, tetto fissato al 24%{{ end }}</td>
+              <td class="table-danger" colspan="3">{{ if $isEN }}<strong>Not required.</strong> Zero occurrences of <em>nationality</em>, <em>parent company</em>, <em>corporate control</em>, <em>third country</em>. <strong>And the contract knows how to write such a clause</strong>: it imposes golden power and consent to every change of capital &mdash; <em>on the Italian concessionaire</em>. Never on the technology provider.{{ else }}<strong>Non richiesto.</strong> Zero occorrenze di <em>nazionalità</em>, <em>capogruppo</em>, <em>controllo societario</em>, <em>paese terzo</em>. <strong>E il contratto sa scrivere quella clausola</strong>: impone golden power e consenso a ogni variazione di capitale &mdash; <em>al concessionario italiano</em>. Mai al fornitore della tecnologia.{{ end }}</td>
+            </tr>
+            <tr>
+              <td><strong>{{ if $isEN }}Service administered from the EU{{ else }}Amministrazione del servizio dall'UE{{ end }}</strong></td>
+              <td class="table-success">{{ if $isEN }}<strong>Required</strong>{{ else }}<strong>Richiesto</strong>{{ end }}</td>
+              <td class="table-warning">{{ if $isEN }}<strong>Partly, and it is real.</strong> <em>&ldquo;Managed by Polo Strategico Nazionale personnel&rdquo;</em>, with logical and physical separation. This is the strongest tier.{{ else }}<strong>In parte, ed è reale.</strong> <em>«Gestiti da personale del Polo Strategico Nazionale»</em>, con separazione logica e fisica. È il livello più forte.{{ end }}</td>
+              <td class="table-danger">{{ if $isEN }}<strong>No.</strong> <em>&ldquo;A single control plane with Microsoft Azure Arc&rdquo;</em>, and a management plane with <em>&ldquo;a component that leverages Azure cloud services&rdquo;</em>.{{ else }}<strong>No.</strong> <em>«Un control plane unico con Microsoft Azure Arc»</em>, e un management plane con <em>«una componente che sfrutta i Servizi cloud Azure»</em>.{{ end }}</td>
+              <td class="table-danger">{{ if $isEN }}<strong>No.</strong> Delivered from <em>&ldquo;public regions of the hyperscalers&rdquo;</em>.{{ else }}<strong>No.</strong> Erogato da <em>«Region pubbliche degli Hyperscaler»</em>.{{ end }}</td>
+            </tr>
+            <tr>
+              <td><strong>{{ if $isEN }}Immunity from non-EU extraterritorial law, stated{{ else }}Immunità dichiarata dalle leggi extraterritoriali non UE{{ end }}</strong></td>
+              <td class="table-success">{{ if $isEN }}<strong>This is the whole purpose of &sect;19.6</strong>{{ else }}<strong>È l'intera ragion d'essere del &sect;19.6</strong>{{ end }}</td>
+              <td class="table-danger" colspan="3">{{ if $isEN }}<strong>Zero occurrences across 161 pages</strong> of: CLOUD Act, extraterritorial, immunity, foreign law, foreign authority, non-EU. The two occurrences of <em>jurisdiction</em> concern litigation over the concessionaire, not data. <strong>The question is not answered weakly. It is not asked.</strong>{{ else }}<strong>Zero occorrenze in 161 pagine</strong> di: CLOUD Act, extraterritoriale, immunità, legge straniera, autorità straniera, extra-UE. Le due occorrenze di <em>giurisdizione</em> riguardano il contenzioso sul concessionario, non i dati. <strong>La domanda non riceve una risposta debole. Non viene posta.</strong>{{ end }}</td>
+            </tr>
+            <tr>
+              <td><strong>{{ if $isEN }}Encryption key ownership{{ else }}Titolarità delle chiavi di cifratura{{ end }}</strong></td>
+              <td>{{ if $isEN }}Necessary but, per ANSSI, <strong>not sufficient</strong>{{ else }}Necessaria ma, secondo l'ANSSI, <strong>non sufficiente</strong>{{ end }}</td>
+              <td class="table-warning">{{ if $isEN }}<em>&ldquo;Control of the Root Key&rdquo;</em>. Real.{{ else }}<em>«Il controllo della Root Key»</em>. Reale.{{ end }}</td>
+              <td>{{ if $isEN }}Not documented for this tier.{{ else }}Non documentato per questo livello.{{ end }}</td>
+              <td class="table-warning">{{ if $isEN }}BYOK on Thales HSM on-premises, <em>&ldquo;excluding the CSP from key management&rdquo;</em>. Real &mdash; and ANSSI states BYOK <em>&ldquo;does not solve this issue&rdquo;</em>.{{ else }}BYOK su HSM Thales on-premises, <em>«escludendo il CSP dalla gestione delle chiavi»</em>. Reale &mdash; e l'ANSSI afferma che il BYOK <em>«non risolve il problema»</em>.{{ end }}</td>
+            </tr>
+            <tr>
+              <td><strong>{{ if $isEN }}Protection of data in use{{ else }}Protezione del dato in uso{{ end }}</strong></td>
+              <td>{{ if $isEN }}ANSSI: confidential computing <strong>does not meet &sect;19.6</strong>{{ else }}ANSSI: il confidential computing <strong>non soddisfa il &sect;19.6</strong>{{ end }}</td>
+              <td>{{ if $isEN }}Not documented.{{ else }}Non documentato.{{ end }}</td>
+              <td>{{ if $isEN }}Not documented.{{ else }}Non documentato.{{ end }}</td>
+              <td class="table-warning">{{ if $isEN }}Advertised <em>&ldquo;where enabled&rdquo;</em> on the commercial page. <strong>Zero occurrences in the 64-page user manual.</strong>{{ else }}Promosso <em>«ove attivato»</em> sulla pagina commerciale. <strong>Zero occorrenze nel manuale utente di 64 pagine.</strong>{{ end }}</td>
+            </tr>
+            <tr>
+              <td><strong>{{ if $isEN }}What &ldquo;sovereignty&rdquo; is defined as{{ else }}Come viene definita la «sovranità»{{ end }}</strong></td>
+              <td class="table-success">{{ if $isEN }}A <strong>legal condition</strong>: establishment, capital, administration.{{ else }}Una <strong>condizione giuridica</strong>: sede, capitale, amministrazione.{{ end }}</td>
+              <td class="table-danger" colspan="3">{{ if $isEN }}<strong>A monthly backup copy.</strong> The PSN user manual, verbatim: <em>&ldquo;the first requirement relates to data sovereignty&hellip; the replica onto PSN storage has a <strong>monthly frequency</strong> and only one version is retained&rdquo;</em>. For the secondary copy, <em>&ldquo;every six months&hellip; to maintain the data sovereignty requirement&rdquo;</em>.{{ else }}<strong>Una copia di backup mensile.</strong> Il manuale utente del PSN, verbatim: <em>«il primo requisito è legato alla sovranità del dato&hellip; la replica del dato su storage del PSN ha <strong>frequenza mensile</strong> e ne viene mantenuta solo una versione»</em>. Per la copia secondaria, <em>«ogni sei mesi&hellip; per mantenere la richiesta di sovranità del dato»</em>.{{ end }}</td>
+            </tr>
+            <tr>
+              <td><strong>{{ if $isEN }}Is the requirement written in a binding act?{{ else }}Il requisito è scritto in un atto vincolante?{{ end }}</strong></td>
+              <td class="table-success">{{ if $isEN }}<strong>Yes.</strong> A qualification framework, with legal effect for sensitive state data.{{ else }}<strong>Sì.</strong> Un referenziale di qualificazione, con effetti giuridici per i dati sensibili dello Stato.{{ end }}</td>
+              <td class="table-danger" colspan="3">{{ if $isEN }}<strong>No such requirement exists in Italian law or in the PSN contract.</strong> There is therefore nothing to comply with, nothing to measure, and no ground on which a provider could be found wanting.{{ else }}<strong>Nessun requisito del genere esiste nella normativa italiana né nel contratto PSN.</strong> Non c'è quindi nulla a cui conformarsi, nulla da misurare, e nessun terreno su cui un fornitore possa risultare inadempiente.{{ end }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="small text-muted">{{ if $isEN }}<strong>On method.</strong> Where a cell says <em>&ldquo;not documented&rdquo;</em> we mean exactly that: we read the documents and did not find it &mdash; which is different from asserting it does not exist. Where a cell says <em>&ldquo;zero occurrences&rdquo;</em>, we ran a full-text search across all four documents and state the result. The distinction is deliberate.{{ else }}<strong>Sul metodo.</strong> Dove una casella dice <em>«non documentato»</em> intendiamo esattamente questo: abbiamo letto i documenti e non l'abbiamo trovato &mdash; che è cosa diversa dall'affermare che non esista. Dove una casella dice <em>«zero occorrenze»</em>, abbiamo eseguito una ricerca full-text su tutti e quattro i documenti e ne riportiamo l'esito. La distinzione è voluta.{{ end }}</p>
+    </div>
+  </div>
+
+  <!-- PERCHE' LA FRANCIA E' AVANTI -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <h2 class="mb-3">{{ if $isEN }}7.2 Why France is ahead &mdash; and it is not the reason usually given{{ else }}7.2 Perché la Francia è avanti &mdash; e non per la ragione che si dice{{ end }}</h2>
+
+      <div class="alert alert-warning" role="alert">
+        <p class="mb-0">{{ if $isEN }}<strong>First, the claim we do <em>not</em> make.</strong> It would be easy, and wrong, to say &ldquo;French clouds are sovereign and Italian ones are not&rdquo;. France has <strong>Bleu</strong>, built on Microsoft technology, and <strong>S3NS</strong>, built on Google technology. Anyone can point at those two names and the argument collapses. So we do not make it.{{ else }}<strong>Prima, l'affermazione che <em>non</em> facciamo.</strong> Sarebbe facile, e sbagliato, dire «i cloud francesi sono sovrani e quelli italiani no». La Francia ha <strong>Bleu</strong>, costruito su tecnologia Microsoft, e <strong>S3NS</strong>, costruito su tecnologia Google. Chiunque può indicare quei due nomi e l'argomento crolla. Perciò non lo facciamo.{{ end }}</p>
+      </div>
+
+      <p class="mt-3">{{ if $isEN }}The real difference is not in the purity of the providers. It is that <strong>France wrote a requirement that can be measured, and Italy did not write one at all</strong>. Three checks, each of which is either satisfied or not: where is the company established, who controls its capital, from where is the service administered.{{ else }}La differenza vera non sta nella purezza dei fornitori. Sta nel fatto che <strong>la Francia ha scritto un requisito che si può misurare, e l'Italia non ne ha scritto alcuno</strong>. Tre verifiche, ciascuna delle quali o è soddisfatta o non lo è: dove è stabilita l'azienda, chi ne controlla il capitale, da dove il servizio è amministrato.{{ end }}</p>
+
+      <div class="callout callout-highlight success">
+        <div class="callout-title"><svg class="icon"><use href="{{ $spritesURL }}#it-check-circle"></use></svg>
+          <span>{{ if $isEN }}And here is what the rule produced{{ else }}Ed ecco che cosa ha prodotto quella regola{{ end }}</span></div>
+        <p class="mb-0">{{ if $isEN }}Bleu and S3NS <strong>exist because the rule exists</strong>. No American company restructured out of goodwill: they did it because otherwise they could not sell to the French state. American technology, licensed; a European operator; non-EU capital capped at 24%. S3NS obtained ANSSI qualification on <strong>17 December 2025</strong>. <strong>A fact that is inconvenient for our thesis turns out to be the proof that the rule works.</strong>{{ else }}Bleu e S3NS <strong>esistono perché la regola esiste</strong>. Nessuna azienda americana si è ristrutturata per benevolenza: lo ha fatto perché altrimenti non poteva vendere allo Stato francese. Tecnologia americana, in licenza; un operatore europeo; capitale extra-UE con tetto al 24%. S3NS ha ottenuto la qualificazione ANSSI il <strong>17 dicembre 2025</strong>. <strong>Un fatto scomodo per la nostra tesi si rivela la prova che la regola funziona.</strong>{{ end }}</p>
+      </div>
+
+      <div class="info-box-custom mt-4">
+        <p class="fs-5 mb-0">{{ if $isEN }}In France, an American provider <strong>had to change its corporate structure</strong> in order to sell to the state.<br>In Italy, it was <strong>never asked to change anything</strong>.{{ else }}In Francia un fornitore americano <strong>ha dovuto cambiare struttura societaria</strong> per poter vendere allo Stato.<br>In Italia <strong>non gli è stato chiesto di cambiare nulla</strong>.{{ end }}</p>
+      </div>
+
+      <p class="mt-3">{{ if $isEN }}That is the whole gap, and it is not a gap in technology, budget or engineering skill. Italy has excellent data centres, competent operators and a real consolidation programme. What it does not have is <strong>a sentence in a binding document</strong> saying what a provider must be in order to hold the state's most sensitive data. France wrote that sentence. It cost nothing to write. It changed the market.{{ else }}È tutto qui il divario, e non è un divario di tecnologia, di bilancio o di competenza ingegneristica. L'Italia ha ottimi data center, operatori capaci e un vero programma di consolidamento. Ciò che non ha è <strong>una frase in un documento vincolante</strong> che dica che cosa un fornitore debba essere per custodire i dati più sensibili dello Stato. La Francia quella frase l'ha scritta. Scriverla non è costato nulla. Ha cambiato il mercato.{{ end }}</p>
+
+      <p>{{ if $isEN }}And there is a detail that makes the comparison sharper still. Italy did not fail to think of this. <strong>In 2021 Italy co-authored, with France, Germany and Spain, the European proposal that would have introduced immunity from foreign law into the Union's cloud certification.</strong> Those requirements were removed in March 2024. Italy asked for the rule in Brussels &mdash; and in the same five years never wrote it at home, in the one instrument that depended on nobody else's vote.{{ else }}E c'è un dettaglio che rende il confronto ancora più netto. Non è che l'Italia non ci abbia pensato. <strong>Nel 2021 l'Italia è coautrice, con Francia, Germania e Spagna, della proposta europea che introduceva l'immunità dalle leggi straniere nella certificazione cloud dell'Unione.</strong> Quei requisiti sono stati rimossi nel marzo 2024. L'Italia ha chiesto la regola a Bruxelles &mdash; e negli stessi cinque anni non l'ha mai scritta in casa propria, nell'unico strumento che non dipendeva dal voto di nessun altro.{{ end }}</p>
+    </div>
+  </div>
+
   <!-- CONCLUSIONE -->
   <div class="row justify-content-center mb-5">
     <div class="col-lg-10">
