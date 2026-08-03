@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t15 d15">
+  <title id="t15">Il PSN misurato con il metro europeo</title>
+  <desc id="d15">Il referenziale francese SecNumCloud fissa tre requisiti verificabili per qualificare un servizio cloud: sede del fornitore nell'Unione europea, capitale a controllo europeo con tetto del ventiquattro per cento alla quota extra europea, e amministrazione del servizio dall'Unione. Nei documenti contrattuali e operativi del Polo Strategico Nazionale, letti per intero per centosessantuno pagine, nessuno di questi tre requisiti compare come obbligo per i fornitori: i termini nazionalita, capogruppo, controllo societario, paese terzo, CLOUD Act, legge straniera e immunita hanno zero occorrenze. La parola sovranita compare, ma con un altro significato: nel manuale utente indica una copia di backup replicata nel perimetro del PSN con frequenza mensile.</desc>
+
+  <rect x="0" y="0" width="1600" height="900" fill="#FFFFFF"/>
+
+  <text x="80" y="70" font-family="sans-serif" font-size="42" font-weight="700" fill="#111111">IL PSN COL METRO EUROPEO</text>
+  <text x="80" y="108" font-family="sans-serif" font-size="23" fill="#6C757D">I tre requisiti che la Francia ha scritto - e che in Italia non sono stati scritti</text>
+  <line x1="80" y1="128" x2="1520" y2="128" stroke="#111111" stroke-width="3"/>
+
+  <!-- intestazioni colonne -->
+  <text x="620" y="176" font-family="sans-serif" font-size="25" font-weight="700" fill="#1D9E75" text-anchor="middle">FRANCIA - SecNumCloud 19.6</text>
+  <text x="1180" y="176" font-family="sans-serif" font-size="25" font-weight="700" fill="#D9364F" text-anchor="middle">ITALIA - PSN</text>
+
+  <!-- riga 1 -->
+  <line x1="80" y1="196" x2="1520" y2="196" stroke="#6C757D" stroke-width="1"/>
+  <text x="100" y="248" font-family="sans-serif" font-size="24" font-weight="700" fill="#111111">Sede del fornitore</text>
+  <text x="100" y="278" font-family="sans-serif" font-size="24" font-weight="700" fill="#111111">nell'Unione europea</text>
+  <circle cx="620" cy="252" r="26" fill="#1D9E75"/>
+  <path d="M 607 252 L 617 263 L 634 241" stroke="#FFFFFF" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1154" y="226" width="52" height="52" fill="#FFFFFF" stroke="#D9364F" stroke-width="4" stroke-dasharray="9 7"/>
+  <text x="1250" y="260" font-family="sans-serif" font-size="21" fill="#D9364F">non richiesto</text>
+
+  <!-- riga 2 -->
+  <line x1="80" y1="300" x2="1520" y2="300" stroke="#DDDDDD" stroke-width="1"/>
+  <text x="100" y="352" font-family="sans-serif" font-size="24" font-weight="700" fill="#111111">Capitale a controllo europeo</text>
+  <text x="100" y="382" font-family="sans-serif" font-size="21" fill="#6C757D">tetto del 24% alla quota extra-UE</text>
+  <circle cx="620" cy="356" r="26" fill="#1D9E75"/>
+  <path d="M 607 356 L 617 367 L 634 345" stroke="#FFFFFF" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1154" y="330" width="52" height="52" fill="#FFFFFF" stroke="#D9364F" stroke-width="4" stroke-dasharray="9 7"/>
+  <text x="1250" y="364" font-family="sans-serif" font-size="21" fill="#D9364F">non richiesto</text>
+
+  <!-- riga 3 -->
+  <line x1="80" y1="404" x2="1520" y2="404" stroke="#DDDDDD" stroke-width="1"/>
+  <text x="100" y="456" font-family="sans-serif" font-size="24" font-weight="700" fill="#111111">Servizio amministrato</text>
+  <text x="100" y="486" font-family="sans-serif" font-size="24" font-weight="700" fill="#111111">dall'Unione europea</text>
+  <circle cx="620" cy="460" r="26" fill="#1D9E75"/>
+  <path d="M 607 460 L 617 471 L 634 449" stroke="#FFFFFF" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1180" y="446" font-family="sans-serif" font-size="20" fill="#111111" text-anchor="middle">solo sul livello PSN Managed</text>
+  <text x="1180" y="474" font-family="sans-serif" font-size="20" font-weight="700" fill="#D9364F" text-anchor="middle">sull'ibrido il control plane e Azure Arc</text>
+  <text x="1180" y="500" font-family="sans-serif" font-size="20" font-weight="700" fill="#D9364F" text-anchor="middle">sul public cloud e degli hyperscaler</text>
+
+  <line x1="80" y1="524" x2="1520" y2="524" stroke="#6C757D" stroke-width="1"/>
+
+  <!-- scansione a zero occorrenze -->
+  <text x="80" y="576" font-family="sans-serif" font-size="24" font-weight="700" fill="#111111">Cercate in 161 pagine di documenti contrattuali e operativi del PSN:</text>
+  <text x="80" y="614" font-family="sans-serif" font-size="23" font-weight="700" fill="#D9364F">CLOUD Act 0 &#183; extraterritoriale 0 &#183; nazionalita 0 &#183; capogruppo 0 &#183; paese terzo 0 &#183; controllo societario 0 &#183; immunita 0</text>
+
+  <!-- le due definizioni di sovranita -->
+  <rect x="80" y="646" width="700" height="150" fill="#FFFFFF" stroke="#1D9E75" stroke-width="3"/>
+  <rect x="80" y="646" width="10" height="150" fill="#1D9E75"/>
+  <text x="112" y="686" font-family="sans-serif" font-size="22" font-weight="700" fill="#1D9E75">In Francia "sovranita" significa</text>
+  <text x="112" y="722" font-family="sans-serif" font-size="21" fill="#111111">una condizione giuridica del fornitore:</text>
+  <text x="112" y="752" font-family="sans-serif" font-size="21" fill="#111111">sede, capitale, amministrazione.</text>
+  <text x="112" y="782" font-family="sans-serif" font-size="20" font-style="italic" fill="#6C757D">Tre verifiche: o sono soddisfatte o non lo sono.</text>
+
+  <rect x="820" y="646" width="700" height="150" fill="#FFFFFF" stroke="#D9364F" stroke-width="3"/>
+  <rect x="820" y="646" width="10" height="150" fill="#D9364F"/>
+  <text x="852" y="686" font-family="sans-serif" font-size="22" font-weight="700" fill="#D9364F">Nel manuale del PSN "sovranita del dato" e</text>
+  <text x="852" y="726" font-family="sans-serif" font-size="24" font-weight="700" fill="#111111">una copia di backup nel perimetro PSN,</text>
+  <text x="852" y="756" font-family="sans-serif" font-size="24" font-weight="700" fill="#111111">replicata con frequenza mensile.</text>
+  <text x="852" y="784" font-family="sans-serif" font-size="19" font-style="italic" fill="#6C757D">Manuale Utente Secure Public Cloud Azure, 04/04/2025</text>
+
+  <text x="80" y="846" font-family="sans-serif" font-size="20" fill="#6C757D">Fonti primarie: referenziale SecNumCloud 3.2 - Convenzione di concessione PSN, Guida alla Convenzione, Caratteristiche tecniche dei Servizi, Manuale Utente SPC Azure</text>
+  <line x1="80" y1="864" x2="1520" y2="864" stroke="#6C757D" stroke-width="1"/>
+</svg>

@@ -358,14 +358,72 @@ Serve un'indagine. È la strada del CLOUD Act.
 > per usare le chiavi». `[A52]`
 > Chiusura: **«L'Italia ha chiesto una buona gestione. E l'ha chiamata sovranità.»**
 >
-> 🔧 **RESTA DA SCRIVERE** Qui entra il confronto fra i requisiti del **PSN** e quelli di
-> **SecNumCloud** e **EUCS High+**, nella parte in cui il PSN agisce da **rivenditore** di servizi
-> Microsoft, Google e Amazon: controllo del capitale, nazionalità del personale di esercizio, titolarità
-> delle chiavi, regime del software di terzi, reversibilità.
-> **L'analisi è specificata nel TODO aperto di `STATO-DELLE-CONOSCENZE.md` e non è ancora prodotta.**
-> La struttura non dipende dal suo esito: la durata è già allocata.
-> ⚠️ Impostazione obbligata: **«il PSN misura ciò che l'Europa misura?»**, non «il PSN ha sbagliato tutto».
-> Il PSN nasce per obiettivi diversi — continuità, qualificazione, consolidamento — e questo va detto.
+**IL CONFRONTO** `[A53]` — *scheda a schermo, si costruisce riga per riga*
+
+> La Francia, per qualificare un cloud, ha scritto **tre requisiti**. Tre, e si verificano guardando
+> una visura.
+>
+> **Dove ha sede l'azienda. Chi ne controlla il capitale. Da dove il servizio viene amministrato.**
+
+**A VIDEO** — le tre righe si accendono in verde sulla colonna francese, poi la colonna italiana resta
+vuota una riga alla volta.
+
+> Sul primo: nei documenti del Polo Strategico Nazionale, **non richiesto**.
+> Sul secondo: **non richiesto**.
+> Sul terzo, ed è l'unico dove qualcosa c'è: sul livello più protetto sí — lo amministra personale
+> italiano. Ma sul livello ibrido il piano di controllo, testualmente, è **Azure Arc**. E sul terzo
+> livello i servizi girano sulle **region pubbliche** dei fornitori.
+
+> ⚠️ **VINCOLO** — la riga sul terzo requisito **non è tagliabile e non va semplificata in «no»**:
+> sul livello *PSN Managed* la risposta è **sì**, ed è documentata. Dire il contrario ci fa smontare
+> con un copia-incolla dal loro sito (**trappola 35**).
+
+**LA SCANSIONE** `[A51]` — *stessa grafica dell'Atto 7 sul regolamento: le parole con lo zero accanto*
+
+> Abbiamo poi fatto ai documenti del PSN quello che avevamo fatto al regolamento.
+> Centosessantuno pagine: la convenzione, la guida alla convenzione, le caratteristiche tecniche
+> dei servizi, il manuale utente.
+
+**A VIDEO** — le parole appaiono una per volta, ciascuna seguita da uno zero:
+`CLOUD Act` **0** · `extraterritoriale` **0** · `nazionalità` **0** · `capogruppo` **0** ·
+`paese terzo` **0** · `controllo societario` **0** · `immunità` **0**
+
+> 🎯 **E qui c'è la cosa che vale l'intero atto.**
+> Quel contratto **sa scrivere** una clausola di controllo societario. **L'ha scritta.**
+> Prevede il *golden power* e il consenso del Governo **su ogni variazione di capitale**.
+>
+> Della società italiana che gestisce i data center.
+>
+> **E non una riga sul controllo societario di chi fornisce la tecnologia che ci gira dentro.**
+
+> ⚠️ **VINCOLO** — non dire «non sapevano come si fa». Il punto è l'opposto, ed è più forte:
+> **sapevano esattamente come si scrive quella clausola, e l'hanno puntata altrove.**
+
+**LA PAROLA** `[A51]` `[A52]`
+
+> Resta una domanda. Se quei requisiti non ci sono, che cosa vuol dire «sovranità» nei documenti del PSN?
+> C'è scritto. Nel manuale utente, nel paragrafo che spiega come quel requisito viene soddisfatto.
+
+**A VIDEO, verbatim**
+> «*Il primo requisito è legato alla **sovranità del dato**… la replica del dato su storage del PSN ha
+> **frequenza mensile** e ne viene mantenuta solo una versione.*»
+
+> Sovranità del dato: **una copia di backup, una volta al mese.**
+
+> E le due difese tecniche che restano — la cifratura con chiavi proprie e il *confidential computing* —
+> non le smontiamo noi. Le smonta **l'agenzia francese che ha scritto quello standard di sovranità**:
+> il confidential computing «non è abbastanza sicuro contro un amministratore ostile» e **non soddisfa
+> quel requisito**; e sulle chiavi, testualmente, «il BYOK non risolve il problema, perché il fornitore
+> deve comunque essere ritenuto affidabile per usarle».
+
+> ⚖️ **DA DIRE NOI PER PRIMI, e non in coda — in voce, qui**: quelle misure **funzionano** contro un
+> attaccante esterno, contro gli altri clienti, contro il furto dei dischi. Sono buona ingegneria.
+> **Non funzionano contro chi amministra la piattaforma** — perché un ordine giudiziario non aggira nulla:
+> lo esegue l'amministratore, con i poteri dell'amministratore, dentro le regole del sistema.
+
+**A VIDEO — chiusura del segmento**
+> **L'Italia ha chiesto una buona gestione.**
+> **E l'ha chiamata sovranità.**
 
 **E I SOLDI?** `[A9]`
 > Abbiamo scaricato i dati ufficiali: **22.162 domande finanziate**, oltre **1,3 miliardi** erogati.

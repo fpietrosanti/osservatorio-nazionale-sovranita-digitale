@@ -1416,7 +1416,17 @@ La formulazione deve restare **strettamente strutturale**:
 
 ---
 
-## 📋 TODO APERTO — il PSN misurato con il metro europeo (SecNumCloud / EUCS High+)
+## ✅ CHIUSO — il PSN misurato con il metro europeo (SecNumCloud / EUCS High+)
+
+> **Prodotto il 02/08/2026.** Reperti **A50, A51, A52, A53** su fonte primaria; tabella pubblica a otto
+> requisiti su **/misure-tecniche/** sezione 7.1; scheda ****; segmento in voce
+> scritto nell'**Atto 7** e ripartito su quattro inquadrature (–).
+> 🔴 **Resta ignoto un solo dato**: quale dei tre livelli PSN sia il più adottato dagli enti. Senza,
+> si descrive l'architettura ma **non si quantifica in voce**.
+>
+> *Quanto segue resta come specifica di progetto e come riferimento per ogni futura revisione.*
+
+### Specifica originaria
 
 **Richiesta del committente (02/08/2026)**: produrre l'analisi che spiega **la differenza fra i requisiti del
 PSN e quelli di SecNumCloud ed EUCS High+**, nella parte in cui il PSN **agisce da rivenditore di servizi

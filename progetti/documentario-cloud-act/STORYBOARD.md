@@ -347,7 +347,10 @@ dissolvenza non produrrebbe alcun effetto.
 | **063** | 0:24 | `SCH-CAP` + `GRAF` | **Momento centrale dell'atto.** Ricerca full-text dal vivo, una parola per volta. Ogni parola compare a sinistra, il risultato **0** appare a destra e resta in colonna: `extraterritoriale` **0** · `CLOUD Act` **0** · `nazionalità` **0** · `sede legale` **0** · `capogruppo` **0** · `capitale` **0** · `paese terzo` **0**. La colonna di zeri riempie il quadro. | Ogni riga | Una nota secca per ogni zero. |
 | **064** | 0:07 | `AST` | La colonna di zeri resta. | `Non è un'omissione nostra: non ci sono.` | **VFC**: «Non ci sono. Non è un'omissione nostra: non ci sono.» |
 | **065** | 0:10 | `SCH` | **SCHEDA `04-tre-leve.svg`** — anticipazione breve del confronto ANSSI/ACN (versione estesa in 100). Qui si mostra solo che la leva societaria è assente. | Titolo scheda + fonte `[A7]` | **VFC**: raccordo. |
-| **065-BIS** | 0:55 | `SCH` + `GRAF` | 🔧 **SPAZIO RISERVATO — il PSN col metro europeo.** Tabella a tre colonne che si costruisce riga per riga: **PSN** / **SecNumCloud** / **EUCS High+**, sulle sei righe di confronto (capitale e governance, nazionalità del personale di esercizio, chiavi di cifratura, software di terzi, reversibilità, ruolo di rivenditore). **Il contenuto delle celle non è ancora determinato**: l'analisi è specificata nel TODO aperto di `STATO-DELLE-CONOSCENZE.md` e non è prodotta. La durata è allocata, la grafica è progettabile, le celle si riempiono dopo. | Titolo + fonti primarie citate cella per cella | **VFC**: da scrivere. ⚠️ Impostazione obbligata: **«il PSN misura ciò che l'Europa misura?»**, non «il PSN ha sbagliato tutto». Il PSN nasce per obiettivi diversi — continuità, qualificazione, consolidamento — **e questo va detto in voce**. |
+| **065-BIS** | 0:20 | `SCH-NEW` | **SCHEDA `15-psn-metro-europeo.svg`**, metà alta: i tre requisiti francesi si accendono in verde uno alla volta a sinistra; poi, a destra, la colonna italiana resta **vuota** riga per riga, con le caselle tratteggiate. Sul terzo requisito la colonna italiana **non resta vuota**: compaiono le tre righe distinte per i tre livelli. ⚠️ Quella distinzione non è tagliabile (trappola 35). | Titolo scheda · `SecNumCloud 3.2 §19.6` `[A53]` | **VFC**: «La Francia, per qualificare un cloud, ha scritto tre requisiti…» fino a «…sul terzo livello i servizi girano sulle region pubbliche dei fornitori.» |
+| **065-TER** | 0:16 | `SCH-NEW` + `GRAF` | Stessa scheda, **fascia centrale**: la scansione a zero occorrenze, con le sette parole che appaiono una per volta seguite dallo zero. 💡 **Stessa identica grafica dell'inquadratura `063`**: il richiamo visivo è il senso del passaggio — lo spettatore deve riconoscere di aver già visto quella colonna di zeri, applicata al regolamento. | `161 pagine · convenzione, guida, caratteristiche tecniche, manuale utente` `[A51]` | **VFC**: «Abbiamo poi fatto ai documenti del PSN quello che avevamo fatto al regolamento…» |
+| **065-QUATER** | 0:10 | `GRAF` | 🎯 **Il colpo dell'atto.** Un documento a schermo, e si evidenziano due righe: *golden power* e *consenso a ogni variazione di capitale*. Poi la cornice si allarga e mostra a chi si applicano: **la società italiana**. Accanto, la casella del fornitore della tecnologia — **vuota**. | `Convenzione di concessione PSN` | **VFC**: «Quel contratto sa scrivere una clausola di controllo societario. L'ha scritta… E non una riga su chi fornisce la tecnologia.» |
+| **065-QUINQUIES** | 0:09 | `SCH-NEW` + `TXT` | **SCHEDA `15`, fascia bassa**: i due riquadri con le due definizioni di «sovranità». Sopra, il verbatim del manuale a schermo pieno, con **«frequenza mensile»** evidenziato. | «*la replica… ha **frequenza mensile** e ne viene mantenuta solo una versione*» `[A51]` | **VFC**: «Sovranità del dato: una copia di backup, una volta al mese.» |
 | **066** | 0:14 | `SCH-CAP` | I dataset del DTD aperti in un foglio di calcolo. Si scorre in orizzontale: si contano le venti colonne, una per una. Nessuna si chiama «fornitore». | `22.162 domande finanziate · € 1.343.231.660 · 20 colonne · 0 campi fornitore` `[A9]` | **VFC**: «Abbiamo scaricato i dati ufficiali… Venti colonne. Nessuna che dica a quale fornitore siano andati.» |
 | **067** | 0:12 | `GRAF` | Frase costruita in due tempi, la seconda metà in rosso. | `Non possiamo dire che quei soldi siano finiti in America.` → `Non possiamo dire nemmeno il contrario.` | **VFC**: le due frasi, separate da una pausa lunga. |
 | **068** | 0:08 | `GRAF` | Chiusura d'atto, testo pieno schermo. | `L'Italia ha speso 1,9 miliardi per la sovranità digitale costruendo un sistema in cui è impossibile sapere quanta parte di quel denaro abbia comprato tecnologia sovrana.` | **VFC**: la frase. |
@@ -642,10 +645,16 @@ atti 2 e 3** (+10 ciascuno, distribuiti sulle inquadrature esistenti perché gli
 frasi) e **i restanti 35 sono confluiti nel dimensionamento dei blocchi nuovi**, che sono stati scritti
 con tempi di lettura pieni anziché compressi. **Non c'è tempo libero residuo.**
 
-🔧 **Una durata su 1800" è allocata ma non scritta**: i **55 secondi di `065-BIS`** (il PSN col metro
-europeo). La grafica è progettabile e la durata è ferma; **le celle si riempiono quando l'analisi
-specificata nel TODO di `STATO-DELLE-CONOSCENZE.md` sarà prodotta.** È l'unico spazio del film in questo
-stato, ed è dichiarato qui per non dimenticarlo.
+✅ **Non c'è più alcuna durata allocata e non scritta.** I 55 secondi che erano riservati al confronto
+PSN sono stati scritti il 02/08/2026 e ripartiti su **quattro inquadrature** — `065-BIS` (20"),
+`065-TER` (16"), `065-QUATER` (10") e `065-QUINQUIES` (9") — sulla base dei reperti **A50–A53**, tutti
+su fonte primaria: 161 pagine di documenti PSN e il documento di posizione dell'ANSSI, archiviati in
+`fonti/`. La scheda dedicata **`15-psn-metro-europeo.svg`** è prodotta.
+
+🔴 **Resta un solo dato mancante in tutto il film, e non blocca le riprese**: quale dei tre livelli del
+PSN sia effettivamente il più adottato dagli enti. Nessun documento ufficiale lo dice. Finché manca, le
+inquadrature `065-BIS`–`065-QUINQUIES` **descrivono l'architettura** ma **non quantificano**: in voce non
+si dice mai «la PA italiana sta prevalentemente su X».
 ## ⛔ Cose che NON si possono filmare
 *(vanno risolte in grafica o in tipografia — per necessità, e per onestà)*
 
@@ -727,8 +736,8 @@ enunciata dal proprio CTO davanti al Senato francese il 3 settembre 2019 `[A20]`
 Tutte in `schede/`, formato SVG autonomo, `viewBox="0 0 1600 900"`, leggibili in bianco e nero.
 
 ### Prodotte
-*(14 schede in v3.0: le 12 della v2.1 più la `13` e la `14`, prodotte per il materiale nuovo dell'Atto 12
-e per il blocco Airbus. **Due restano deliberatamente non assegnate**, la `07` e la `10`: sono prodotte e
+*(15 schede in v3.0: le 12 della v2.1 più la `13`, la `14` e la `15`, prodotte per il materiale nuovo
+dell'Atto 12, per il blocco Airbus e per il confronto PSN dell'Atto 7. **Due restano deliberatamente non assegnate**, la `07` e la `10`: sono prodotte e
 non vanno cancellate, ma servivano a materiale che il film non contiene più. Restano disponibili per
 altri usi — sito, dossier, presentazioni — e la loro non assegnazione è una scelta dichiarata, non una
 dimenticanza.)*
@@ -741,6 +750,7 @@ dimenticanza.)*
 | `04-tre-leve.svg` | 7 / **065** · 11 / **100** | ANSSI contro ACN: societaria, tecnica, operativa |
 | `05-paradosso-segnalazione.svg` | 5 / **051** | Le due frecce che collidono |
 | `06-linea-bruxelles.svg` | 9 / **082** | 2021→2026: l'Italia ha chiesto, e ha perso |
+| 🆕 `15-psn-metro-europeo.svg` | **7** / `065-BIS` · `065-TER` · `065-QUINQUIES` | I tre requisiti francesi, la colonna italiana vuota, la scansione a zero occorrenze e le due definizioni di «sovranità». ⚠️ Sul terzo requisito la colonna italiana **non va lasciata vuota**: il livello *PSN Managed* è amministrato da personale italiano, ed è documentato. |
 | 🆕 `13-la-data-e-bianca.svg` | **12** / `107` · `109` | I due livelli già scritti, la parentesi mai compilata, e l'unica data certa. **È la scheda che regge l'atto finale.** |
 | 🆕 `14-airbus-cerchio.svg` | **9** / `086-QUATER` *(metà sinistra)* · **11** / `104-TER` *(intera)* | Chi ha chiesto la regola l'ha poi usata come committente. ⚠️ **Va mostrata a metà la prima volta**: il riconoscimento nell'Atto 11 dipende da questo. |
 | `07-280-contro-12700.svg` | — **non assegnata, confermato in v3.0** | Serviva l'Atto 10 della v1.0, che è stato riscritto. **Riusabile come alternativa grafica all'inquadratura 060** (Atto 7), dove i numeri della migrazione compaiono comunque. Non va prodotta di nuovo, non va buttata |
