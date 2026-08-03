@@ -932,6 +932,70 @@ Rincalzo: bilancio **ENISA 25,2 mln €** (2023, fonte primaria).
 valore aggiunto**). Sconsigliate anche cifre puntuali sul capex degli hyperscaler: **le stime consultate
 sono incoerenti fra loro**.
 
+### A50. 🎯 IL PSN DESCRIVE DA SÉ LA PROPRIA ARCHITETTURA — e la parola «sovranità» non significa immunità
+**AFFIDABILITÀ: 🟢 ALTA** — fonte primaria, pagina ufficiale PSN letta integralmente dal browser il
+02/08/2026. 🔗 https://www.polostrategiconazionale.it/soluzioni/servizi-con-cloud-service-provider/
+
+🚨 **CORREZIONE A UNA NOSTRA ASSUNZIONE.** Avevamo impostato la critica su «i servizi sono operati da
+Microsoft, Google e Amazon». **La pagina non dice questo**, e affermarlo ci farebbe smontare con un
+copia-incolla dal loro stesso sito. Dice tre cose diverse per **tre livelli diversi**.
+
+**Cappello della pagina, verbatim**: la PA «potrà accedere in piena sicurezza, **autonomia e sovranità**»
+ai servizi, «attualmente realizzati in partnership con **Oracle, Google, Microsoft Azure, AWS e Oracle**».
+
+#### I tre livelli, con le parole loro
+**1. Public Cloud PSN Managed** *(Oracle e Google)* — è il livello **più forte**, e va riconosciuto:
+> «erogati da Cloud Service Provider (Oracle e Google) su Data Center del PSN o region italiane e
+> **sono gestiti da personale del Polo Strategico Nazionale** con separazione logico-fisica dalla parte
+> pubblica del CSP» · «gestione completa (dall'hardware alla piattaforma software) erogata da personale
+> PSN» · «**Il controllo della Root Key** della region» · «erogazione dei servizi in modalità
+> **completamente disconnessa dalle region pubbliche** del Cloud Service Provider»
+⚠️ **Strutturalmente somiglia al modello 21Vianet/Bleu**: il fornitore dà la tecnologia, il personale
+locale gestisce. **Non è «operato da Google».** Dirlo sarebbe falso.
+
+**2. Hybrid Cloud on PSN site** *(Microsoft Azure)* — 🔥 **è qui il reperto**:
+> «erogati da Cloud Service Provider (Microsoft Azure) tramite DC e infrastruttura proprietaria di Polo
+> Strategico Nazionale» · «L'erogazione di servizi **IaaS & PaaS** equivalenti a quelli su Microsoft Azure
+> Public Cloud» · 🎯 «**Un control plane unico con Microsoft Azure Arc**»
+
+> 🔥 **IL PIANO DI CONTROLLO È DICHIARATO MICROSOFT, DAL PSN STESSO.**
+> Il piano di controllo è esattamente il vettore che l'**Atto 4** del film descrive. Non dobbiamo
+> dimostrarlo né dedurlo: **è scritto nella loro pagina commerciale, come una funzionalità.**
+
+**3. Secure Public Cloud** *(Microsoft Azure, Google Cloud, AWS)*:
+> «erogati da un Cloud Service Provider **pubblico**… localizzato in region italiana e securizzato
+> utilizzando chiavi di crittografia gestite… dai sistemi del PSN» · «gestione delle chiavi di crittografia
+> **esterna al perimetro di controllo del CSP**» · «**Sovereignty** sui dati memorizzati tramite gestione
+> dei backup anche nel private cloud del PSN»
+⚠️ **E la riserva se la scrivono da soli**: «Il confidential computing, **ove attivato**, rende impossibile
+agli operatori del cloud service provider di accedere anche al dato durante l'elaborazione».
+**«Ove attivato»**: la protezione più forte è **opzionale**, e la pagina non dice dove sia accesa.
+👉 È esattamente la prima delle tre domande già previste al PSN nel diritto di replica.
+
+#### 🎯 LA CRITICA, NELLA FORMA CHE REGGE IL CONTRADDITTORIO
+Su questa pagina la parola «sovranità» indica **la posizione dei backup e la gestione delle chiavi**.
+**Non indica l'immunità da una giurisdizione straniera.** Sono due cose diverse, e la seconda non è mai
+nominata: nella pagina compaiono **zero occorrenze** di *nazionalità*, *controllo societario*, *CLOUD Act*,
+*legge extraterritoriale*, *giurisdizione* — coerentemente con la scansione del regolamento ACN (**A7**).
+
+> **La formulazione da usare:**
+> Il PSN ha costruito una **separazione operativa** — personale proprio, chiavi proprie, region
+> disconnesse. È più di quanto molti credano, e va riconosciuto.
+> Ma **la separazione operativa non è immunità giurisdizionale**. La Francia ha scritto requisiti su
+> **sede, capitale e controllo societario**; la Cina ha preteso **un operatore diverso dal fornitore**.
+> L'Italia ha chiesto **una buona gestione** — e l'ha chiamata sovranità.
+
+🚨 **TRAPPOLA 35 — non dire «i servizi del PSN sono operati da Microsoft, Google e Amazon».**
+È falso per il livello *PSN Managed*, dove la pagina dichiara gestione da personale PSN e controllo della
+Root Key. La formulazione corretta distingue i **tre livelli** e attacca **la parola**, non l'architettura.
+✅ Ciò che si può dire, e che basta: **il piano di controllo del livello ibrido è Azure Arc**, il
+confidential computing è **«ove attivato»**, e **nessun documento italiano pone requisiti di controllo
+societario**.
+
+⚠️ **RESTA DA VERIFICARE, e non è poco**: quale dei tre livelli sia effettivamente il più diffuso fra gli
+enti aderenti. Se la quota maggiore fosse sui livelli 2 e 3, la critica si rafforza molto; se fosse sul
+livello 1, va ridimensionata. **Senza questo dato non si può quantificare nulla in voce.**
+
 ---
 
 ## 🟡 B — SOLIDO, DA CONFERMARE PRIMA DELLA MESSA IN ONDA
@@ -1424,6 +1488,11 @@ reperti A37 e A39, dove chi consulta il registro non le avrebbe trovate)*
 34. **Non dire «Airbus ha abbandonato AWS».** Il comunicato ufficiale non nomina AWS; Jestin dichiara
     esplicitamente di **non** voler lasciare tutte le soluzioni non europee, ma di scegliere **per criticità
     del dato**. E le applicazioni sono **~70 entro il 2028**, non 900. Dettagli in A47.
+
+35. 🚨 **Non dire «i servizi del PSN sono operati da Microsoft, Google e Amazon».** È falso per il
+    livello *Public Cloud PSN Managed*, dove la pagina ufficiale dichiara gestione da **personale PSN** e
+    **controllo della Root Key**. Distinguere i tre livelli e attaccare **la parola «sovranità»**, non
+    l'architettura. Dettagli e formulazione corretta in **A50**.
 
 ### ⚠️ Nota d'uso — collisione di scale
 La scala **SEAL 1-4** della gara UE **non è** la nostra scala **0-4**: una misura i *fornitori*, l'altra i
