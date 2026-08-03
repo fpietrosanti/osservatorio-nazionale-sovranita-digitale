@@ -11,6 +11,76 @@
     </div>
   </div>
 
+  <!-- INCIPIT -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <h2 class="mb-3" id="incipit">{{ if $isEN }}A technical answer to a legal question{{ else }}Una risposta tecnica a una domanda giuridica{{ end }}</h2>
+
+      <p>{{ if $isEN }}The providers subject to the CLOUD Act &mdash; Microsoft, Google, Amazon &mdash; are not standing still. They have invested heavily, and visibly, in what is marketed as <em>sovereignty</em>: European legal entities, national regions, local operations staff, external key management, encrypted enclaves, dedicated boundaries for EU data. Some of these are serious pieces of engineering, built by competent people, and this page will credit them individually.{{ else }}I fornitori soggetti al CLOUD Act &mdash; Microsoft, Google, Amazon &mdash; non sono rimasti fermi. Hanno investito molto, e in modo visibile, in ciò che viene messo sul mercato come <em>sovranità</em>: entità giuridiche europee, region nazionali, personale operativo locale, gestione esterna delle chiavi, enclave cifrate, perimetri dedicati ai dati dell'Unione. Alcune di queste cose sono ingegneria seria, fatta da persone competenti, e in questa pagina ciascuna verrà riconosciuta per quello che vale.{{ end }}</p>
+
+      <p>{{ if $isEN }}It is worth being clear about why this is happening. It is not a change of heart: it is a <strong>commercial response to a legal exposure</strong>. European public administrations began asking an awkward question, France wrote it into a certification framework, and the market produced answers. That is healthy &mdash; and it is also where the problem starts.{{ else }}Vale la pena essere chiari sul perché stia accadendo. Non è un ripensamento: è una <strong>risposta commerciale a un'esposizione giuridica</strong>. Le amministrazioni pubbliche europee hanno cominciato a fare una domanda scomoda, la Francia l'ha scritta dentro un referenziale di certificazione, e il mercato ha prodotto delle risposte. È un fatto sano &mdash; ed è anche il punto in cui nasce il problema.{{ end }}</p>
+
+      <div class="info-box-custom">
+        <p class="fs-5 mb-0">{{ if $isEN }}Every one of these measures is <strong>built, configured and operated by the very party it is supposed to protect you from</strong>. That is not a flaw in any individual product: it is a structural property of buying a service from someone. And it means that each measure has a precise point at which it hands control back &mdash; a point where, to keep working at all, it must trust the provider again.{{ else }}Ognuna di queste misure è <strong>costruita, configurata e amministrata proprio dal soggetto da cui dovrebbe proteggervi</strong>. Non è un difetto di questo o quel prodotto: è una proprietà strutturale del comprare un servizio da qualcuno. E significa che ogni misura ha un punto preciso in cui restituisce il controllo &mdash; un punto in cui, per continuare a funzionare, deve tornare a fidarsi del fornitore.{{ end }}</p>
+      </div>
+
+      <p class="mt-3">{{ if $isEN }}The table below is the map of this page. On the left, each measure and what it genuinely solves &mdash; because each one solves something real. On the right, <strong>the point at which it closes back on itself</strong>, with a link to the section that examines it. Read the right-hand column downwards and you will notice that the reason is always the same, expressed six different ways.{{ else }}La tabella qui sotto è la mappa di questa pagina. A sinistra ogni misura e ciò che risolve davvero &mdash; perché ciascuna risolve qualcosa di reale. A destra <strong>il punto in cui si richiude su sé stessa</strong>, con il rimando alla sezione che la esamina. Si legga la colonna di destra dall'alto in basso: ci si accorge che la ragione è sempre la stessa, detta in sei modi diversi.{{ end }}</p>
+
+      <div class="table-responsive">
+        <table class="table table-bordered align-middle">
+          <thead class="table-primary"><tr>
+            <th style="width:24%">{{ if $isEN }}The measure{{ else }}La misura{{ end }}</th>
+            <th style="width:30%">{{ if $isEN }}What it genuinely solves{{ else }}Che cosa risolve davvero{{ end }}</th>
+            <th>{{ if $isEN }}Where it closes back on itself{{ else }}Dove si richiude su sé stessa{{ end }}</th>
+          </tr></thead>
+          <tbody>
+            <tr>
+              <td><strong>{{ if $isEN }}Encryption at rest with external keys{{ else }}Cifratura a riposo con chiavi esterne{{ end }}</strong></td>
+              <td>{{ if $isEN }}Disk theft, other tenants, casual inspection of an archive. <strong>Real protection.</strong>{{ else }}Furto dei dischi, altri clienti sulla stessa macchina, ispezione occasionale di un archivio. <strong>Protezione vera.</strong>{{ end }}</td>
+              <td>{{ if $isEN }}To process a record it must be decrypted, and the plaintext appears in the provider's memory. &rarr; <a href="#chiavi">&sect;4</a>{{ else }}Per elaborare un record bisogna decifrarlo, e il testo in chiaro compare nella memoria del fornitore. &rarr; <a href="#chiavi">&sect;4</a>{{ end }}</td>
+            </tr>
+            <tr>
+              <td><strong>{{ if $isEN }}National region &mdash; data residency{{ else }}Region nazionale &mdash; residenza del dato{{ end }}</strong></td>
+              <td>{{ if $isEN }}Latency, continuity, and a set of genuine data-protection obligations on transfers.{{ else }}Latenza, continuità, e una serie di obblighi reali sui trasferimenti in materia di protezione dei dati.{{ end }}</td>
+              <td>{{ if $isEN }}Jurisdiction follows the company, not the disk: the statute reaches data in the provider's <em>possession, custody or control</em>, wherever located. &rarr; <a href="#obiezioni-sez">&sect;6</a>{{ else }}La giurisdizione segue l'azienda, non il disco: la legge raggiunge i dati in <em>possesso, custodia o controllo</em> del fornitore, ovunque si trovino. &rarr; <a href="#obiezioni-sez">&sect;6</a>{{ end }}</td>
+            </tr>
+            <tr>
+              <td><strong>{{ if $isEN }}Local staff and operational separation{{ else }}Personale locale e separazione operativa{{ end }}</strong></td>
+              <td>{{ if $isEN }}Day-to-day access by foreign staff, and support performed from outside the country. <strong>A serious property.</strong>{{ else }}L'accesso quotidiano di personale estero, e il supporto svolto dall'estero. <strong>Una proprietà seria.</strong>{{ end }}</td>
+              <td>{{ if $isEN }}An order is not served on the local operations team: it is served on the parent company. &rarr; <a href="#psn">&sect;7</a>{{ else }}Un ordine non viene notificato alla squadra operativa locale: viene notificato alla casa madre. &rarr; <a href="#psn">&sect;7</a>{{ end }}</td>
+            </tr>
+            <tr>
+              <td><strong>{{ if $isEN }}Confidential computing{{ else }}Confidential computing{{ end }}</strong></td>
+              <td>{{ if $isEN }}Neighbouring tenants and passive reading of memory by the host. <strong>Genuine defence in depth</strong>, in ANSSI's own words.{{ else }}I clienti vicini di macchina e la lettura passiva della memoria da parte dell'host. <strong>Vera difesa in profondità</strong>, con le parole dell'ANSSI.{{ end }}</td>
+              <td>{{ if $isEN }}It does not hold against an <em>active</em> administrator &mdash; and it is the operator who decides whether it is switched on at all. &rarr; <a href="#limiti">&sect;3</a>{{ else }}Non regge contro un amministratore <em>attivo</em> &mdash; ed è chi gestisce la piattaforma a decidere se sia acceso. &rarr; <a href="#limiti">&sect;3</a>{{ end }}</td>
+            </tr>
+            <tr>
+              <td><strong>{{ if $isEN }}Remote attestation{{ else }}Attestazione remota{{ end }}</strong></td>
+              <td>{{ if $isEN }}Cryptographic verification that the workload running is the one you expect.{{ else }}La verifica crittografica che il carico di lavoro in esecuzione sia quello atteso.{{ end }}</td>
+              <td>{{ if $isEN }}It verifies <em>what</em> runs, not <em>where</em> &mdash; and the mechanism itself was broken in 2026. &rarr; <a href="#attestazione">&sect;3.4</a>{{ else }}Verifica <em>che cosa</em> gira, non <em>dove</em> &mdash; e il meccanismo stesso è stato rotto nel 2026. &rarr; <a href="#attestazione">&sect;3.4</a>{{ end }}</td>
+            </tr>
+            <tr>
+              <td><strong>{{ if $isEN }}European legal entity of the provider{{ else }}Entità giuridica europea del fornitore{{ end }}</strong></td>
+              <td>{{ if $isEN }}Contracting, invoicing, civil jurisdiction, and a local point of accountability.{{ else }}Il contratto, la fatturazione, la giurisdizione civile e un punto di responsabilità locale.{{ end }}</td>
+              <td>{{ if $isEN }}A European subsidiary of a non-European group is not a European group &mdash; a principle stated under oath by one of the providers themselves. &rarr; <a href="#limiti">&sect;3</a>{{ else }}Una controllata europea di un gruppo extra-europeo non è un gruppo europeo &mdash; principio enunciato sotto giuramento da uno dei fornitori stessi. &rarr; <a href="#limiti">&sect;3</a>{{ end }}</td>
+            </tr>
+            <tr>
+              <td><strong>{{ if $isEN }}&ldquo;Sovereign&rdquo; backup inside the national perimeter{{ else }}Backup «sovrano» nel perimetro nazionale{{ end }}</strong></td>
+              <td>{{ if $isEN }}Continuity and recoverability if the service becomes unavailable.{{ else }}La continuità e il recupero, se il servizio diventa indisponibile.{{ end }}</td>
+              <td>{{ if $isEN }}A copy is not an access restriction. Having a duplicate does not prevent anyone from reading the original. &rarr; <a href="#confronto">&sect;7.1</a>{{ else }}Una copia non è una limitazione d'accesso. Avere un duplicato non impedisce a nessuno di leggere l'originale. &rarr; <a href="#confronto">&sect;7.1</a>{{ end }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="callout callout-highlight">
+        <div class="callout-title"><svg class="icon"><use href="{{ $spritesURL }}#it-info-circle"></use></svg>
+          <span>{{ if $isEN }}The same sentence, seven times{{ else }}La stessa frase, sette volte{{ end }}</span></div>
+        <p class="mb-0">{{ if $isEN }}Each line in the right-hand column is a different way of writing: <strong>the measure depends on the provider</strong>. Which is why adding more of them does not help, and why the answer is not a better measure. <a href="#categoria">Section 5</a> explains why this is not an engineering problem at all; <a href="#obiezioni-sez">section 6</a> takes the objections one by one; <a href="#psn">section 7</a> applies the whole thing to the Italian public cloud.{{ else }}Ogni riga della colonna di destra è un modo diverso di scrivere: <strong>la misura dipende dal fornitore</strong>. È per questo che aggiungerne altre non aiuta, ed è per questo che la risposta non è una misura migliore. La <a href="#categoria">sezione 5</a> spiega perché non sia affatto un problema di ingegneria; la <a href="#obiezioni-sez">sezione 6</a> affronta le obiezioni una per una; la <a href="#psn">sezione 7</a> applica tutto questo al cloud pubblico italiano.{{ end }}</p>
+      </div>
+    </div>
+  </div>
+
   <!-- CONCLUSIONE IN CIMA -->
   <div class="row justify-content-center mb-5">
     <div class="col-lg-10">
@@ -39,7 +109,7 @@
   <!-- I TRE STATI DEL DATO -->
   <div class="row justify-content-center mb-5">
     <div class="col-lg-10">
-      <h2 class="mb-3">{{ if $isEN }}1. A datum exists in three states. Encryption covers two.{{ else }}1. Un dato esiste in tre stati. La cifratura ne copre due.{{ end }}</h2>
+      <h2 class="mb-3" id="stati">{{ if $isEN }}1. A datum exists in three states. Encryption covers two.{{ else }}1. Un dato esiste in tre stati. La cifratura ne copre due.{{ end }}</h2>
       <p>{{ if $isEN }}This is the whole technical argument, and it fits in one table. It is not controversial: it is how computers work.{{ else }}È tutto qui l'argomento tecnico, e sta in una tabella. Non è materia controversa: è il modo in cui funzionano i computer.{{ end }}</p>
       <div class="table-responsive">
         <table class="table table-bordered align-middle">
@@ -71,7 +141,7 @@
   <!-- CONFIDENTIAL COMPUTING -->
   <div class="row justify-content-center mb-5">
     <div class="col-lg-10">
-      <h2 class="mb-3">{{ if $isEN }}2. What confidential computing is &mdash; and what it genuinely achieves{{ else }}2. Che cos'è il confidential computing &mdash; e che cosa ottiene davvero{{ end }}</h2>
+      <h2 class="mb-3" id="cosa-e">{{ if $isEN }}2. What confidential computing is &mdash; and what it genuinely achieves{{ else }}2. Che cos'è il confidential computing &mdash; e che cosa ottiene davvero{{ end }}</h2>
       <p>{{ if $isEN }}Confidential computing is the industry's answer to the third row of that table. The processor creates an encrypted, isolated enclave &mdash; a <em>Trusted Execution Environment</em> &mdash; whose memory is encrypted with a key held in the silicon and, in principle, not available to the hypervisor. The main implementations are <strong>Intel TDX</strong>, <strong>AMD SEV-SNP</strong> and <strong>ARM CCA</strong>. A mechanism called <strong>remote attestation</strong> is supposed to let the customer verify, cryptographically, that their workload really is running inside such an enclave.{{ else }}Il confidential computing è la risposta dell'industria alla terza riga di quella tabella. Il processore crea un'enclave cifrata e isolata &mdash; un <em>Trusted Execution Environment</em> &mdash; la cui memoria è cifrata con una chiave custodita nel silicio e, in linea di principio, non disponibile all'hypervisor. Le implementazioni principali sono <strong>Intel TDX</strong>, <strong>AMD SEV-SNP</strong> e <strong>ARM CCA</strong>. Un meccanismo chiamato <strong>attestazione remota</strong> dovrebbe permettere al cliente di verificare crittograficamente che il proprio carico di lavoro giri davvero dentro una di queste enclave.{{ end }}</p>
       <div class="callout success">
         <div class="callout-title"><svg class="icon"><use href="{{ $spritesURL }}#it-check-circle"></use></svg>
@@ -84,7 +154,7 @@
   <!-- I QUATTRO LIMITI -->
   <div class="row justify-content-center mb-5">
     <div class="col-lg-10">
-      <h2 class="mb-3">{{ if $isEN }}3. Four reasons it does not produce sovereignty{{ else }}3. Quattro ragioni per cui non produce sovranità{{ end }}</h2>
+      <h2 class="mb-3" id="limiti">{{ if $isEN }}3. Four reasons it does not produce sovereignty{{ else }}3. Quattro ragioni per cui non produce sovranità{{ end }}</h2>
 
       <h3 class="h5 mt-4">{{ if $isEN }}3.1 The threat model excludes precisely our threat{{ else }}3.1 Il modello di minaccia esclude proprio la nostra minaccia{{ end }}</h3>
       <p>{{ if $isEN }}Confidential computing is designed against a <em>curious</em> operator and against neighbouring tenants. It is not designed against an operator who is <em>determined</em>, who controls the firmware and the provisioning chain, and who has time. ANSSI's conclusion on that scenario is the sentence at the top of this page. And ANSSI adds what to do instead: users <em>&ldquo;must avoid running on shared infrastructure operated by providers they cannot trust&rdquo;</em>.{{ else }}Il confidential computing è progettato contro un operatore <em>curioso</em> e contro i clienti vicini di macchina. Non è progettato contro un operatore <em>determinato</em>, che controlla il firmware e la catena di fornitura e che ha tempo. La conclusione dell'ANSSI su quello scenario è la frase in cima a questa pagina. E l'ANSSI aggiunge che cosa fare invece: gli utenti <em>«devono evitare di girare su infrastrutture condivise gestite da fornitori di cui non possono fidarsi»</em>.{{ end }}</p>
@@ -117,7 +187,7 @@
       <p>{{ if $isEN }}Confidential computing is not a property of the data. It is a <em>configuration of the platform</em>: a machine type to be selected, a feature to be enabled, firmware to be kept current. The entity that decides whether the enclave is active, for which workloads, and after which update, is the same entity the enclave is supposed to protect against.{{ else }}Il confidential computing non è una proprietà del dato. È una <em>configurazione della piattaforma</em>: un tipo di macchina da selezionare, una funzionalità da abilitare, un firmware da tenere aggiornato. Il soggetto che decide se l'enclave è attiva, per quali carichi di lavoro e dopo quale aggiornamento, è lo stesso soggetto da cui l'enclave dovrebbe proteggere.{{ end }}</p>
       <p>{{ if $isEN }}This is why the wording used by providers matters so much. When a service is described as offering confidential computing <strong>&ldquo;where enabled&rdquo;</strong>, the protection has been made conditional &mdash; and the condition is not in the customer's hands.{{ else }}È per questo che le formule usate dai fornitori pesano tanto. Quando un servizio è descritto come dotato di confidential computing <strong>«ove attivato»</strong>, la protezione è stata resa condizionale &mdash; e la condizione non è nelle mani del cliente.{{ end }}</p>
 
-      <h3 class="h5 mt-4">{{ if $isEN }}3.4 The verification mechanism itself has been broken{{ else }}3.4 Il meccanismo di verifica è stato rotto{{ end }}</h3>
+      <h3 class="h5 mt-4" id="attestazione">{{ if $isEN }}3.4 The verification mechanism itself has been broken{{ else }}3.4 Il meccanismo di verifica è stato rotto{{ end }}</h3>
       <p>{{ if $isEN }}The whole construction rests on remote attestation: without it, the customer has no way to know whether the enclave is real. In 2026 researchers led by <strong>Muhammad Usama Sardar</strong> (TU Dresden), with Mariam Moustafa and Tuomas Aura, showed that attestation performed inside the TLS handshake can be defeated by a relay attack. In The Register's summary of the work:{{ else }}L'intera costruzione poggia sull'attestazione remota: senza, il cliente non ha modo di sapere se l'enclave è reale. Nel 2026 un gruppo guidato da <strong>Muhammad Usama Sardar</strong> (TU Dresden), con Mariam Moustafa e Tuomas Aura, ha dimostrato che l'attestazione eseguita dentro l'handshake TLS può essere sconfitta con un attacco di inoltro. Nella sintesi che ne ha dato The Register:{{ end }}</p>
       <blockquote class="blockquote-card">
         <p class="mb-0"><em>{{ if $isEN }}&ldquo;A connection intended for one server can be <strong>silently redirected to a different, compromised machine running identical software, anywhere in the world</strong>, without the client ever knowing.&rdquo;{{ else }}«Una connessione destinata a un server può essere <strong>silenziosamente reindirizzata verso una macchina diversa e compromessa che esegue software identico, ovunque nel mondo</strong>, senza che il client se ne accorga mai.»{{ end }}</em></p>
@@ -138,7 +208,7 @@
   <!-- CHIAVI -->
   <div class="row justify-content-center mb-5">
     <div class="col-lg-10">
-      <h2 class="mb-3">{{ if $isEN }}4. And the keys? The same problem, one level down{{ else }}4. E le chiavi? Lo stesso problema, un piano più sotto{{ end }}</h2>
+      <h2 class="mb-3" id="chiavi">{{ if $isEN }}4. And the keys? The same problem, one level down{{ else }}4. E le chiavi? Lo stesso problema, un piano più sotto{{ end }}</h2>
       <p>{{ if $isEN }}The second technical answer usually offered is key management: the customer holds the encryption keys outside the provider's perimeter, typically in a hardware security module. The models have names &mdash; <strong>BYOK</strong> (bring your own key), <strong>HYOK</strong> and external key management &mdash; and they differ in how far the key stays away from the platform.{{ else }}La seconda risposta tecnica che viene di solito offerta è la gestione delle chiavi: il cliente custodisce le chiavi di cifratura fuori dal perimetro del fornitore, tipicamente in un modulo hardware di sicurezza. I modelli hanno un nome &mdash; <strong>BYOK</strong> (<em>bring your own key</em>), <strong>HYOK</strong> e gestione esterna delle chiavi &mdash; e differiscono per quanto la chiave resti lontana dalla piattaforma.{{ end }}</p>
       <p><strong>{{ if $isEN }}This too is real, and it too must be credited before it is criticised.{{ else }}Anche questo è reale, e anche questo va riconosciuto prima di criticarlo.{{ end }}</strong> {{ if $isEN }}Keys held in a customer-controlled HSM genuinely remove a class of exposure: stored blocks cannot be read by copying a disk, an operator cannot casually browse an archive, and a key can be revoked.{{ else }}Chiavi custodite in un HSM controllato dal cliente eliminano davvero una classe di esposizione: i blocchi memorizzati non si leggono copiando un disco, un operatore non può curiosare in un archivio, e una chiave si può revocare.{{ end }}</p>
 
@@ -181,7 +251,7 @@
   <!-- PERCHE' UN PROBLEMA GIURIDICO -->
   <div class="row justify-content-center mb-5">
     <div class="col-lg-10">
-      <h2 class="mb-3">{{ if $isEN }}5. Why a technical measure cannot solve a legal problem{{ else }}5. Perché una misura tecnica non può risolvere un problema giuridico{{ end }}</h2>
+      <h2 class="mb-3" id="categoria">{{ if $isEN }}5. Why a technical measure cannot solve a legal problem{{ else }}5. Perché una misura tecnica non può risolvere un problema giuridico{{ end }}</h2>
       <p>{{ if $isEN }}This is the part that is worth understanding even if you skip everything else on this page, and it takes about a minute.{{ else }}È la parte che vale la pena capire anche saltando tutto il resto di questa pagina, e richiede circa un minuto.{{ end }}</p>
       <p>{{ if $isEN }}Every security measure ever built assumes an <strong>adversary who has to get around something</strong>. Encryption assumes someone who does not have the key. Access control assumes someone without credentials. Network segregation assumes someone on the wrong side of a boundary. Confidential computing assumes someone who must break out of an enclave. All of these work by <em>raising the cost of circumventing the rules of the system</em>.{{ else }}Ogni misura di sicurezza mai costruita presuppone un <strong>avversario che deve aggirare qualcosa</strong>. La cifratura presuppone qualcuno che non ha la chiave. Il controllo degli accessi presuppone qualcuno senza credenziali. La segregazione di rete presuppone qualcuno dalla parte sbagliata di un confine. Il confidential computing presuppone qualcuno che deve evadere da un'enclave. Tutte funzionano <em>alzando il costo di aggirare le regole del sistema</em>.{{ end }}</p>
       <div class="info-box-custom">
@@ -195,7 +265,7 @@
   <!-- OBIEZIONI -->
   <div class="row justify-content-center mb-5">
     <div class="col-lg-10">
-      <h2 class="mb-3">{{ if $isEN }}6. The objections, one by one{{ else }}6. Le obiezioni, una per una{{ end }}</h2>
+      <h2 class="mb-3" id="obiezioni-sez">{{ if $isEN }}6. The objections, one by one{{ else }}6. Le obiezioni, una per una{{ end }}</h2>
       <p class="text-muted">{{ if $isEN }}These are the answers a provider or a public cloud programme can legitimately give. Each is reported in the strongest form we can give it, then answered. Where the objection is partly right, we say so.{{ else }}Sono le risposte che un fornitore o un programma di cloud pubblico può legittimamente dare. Ognuna è riportata nella forma più forte che sappiamo darle, e poi affrontata. Dove l'obiezione ha in parte ragione, lo diciamo.{{ end }}</p>
 
       <div class="accordion" id="obiezioni">
@@ -254,7 +324,7 @@
   <!-- IL CASO ITALIANO -->
   <div class="row justify-content-center mb-5">
     <div class="col-lg-10">
-      <h2 class="mb-3">{{ if $isEN }}7. Why this matters for Italy: the National Strategic Hub{{ else }}7. Perché questo riguarda l'Italia: il Polo Strategico Nazionale{{ end }}</h2>
+      <h2 class="mb-3" id="psn">{{ if $isEN }}7. Why this matters for Italy: the National Strategic Hub{{ else }}7. Perché questo riguarda l'Italia: il Polo Strategico Nazionale{{ end }}</h2>
       <p>{{ if $isEN }}The Italian public cloud programme &mdash; the <em>Polo Strategico Nazionale</em>, PSN &mdash; offers exactly these two measures as its protection, on the tier delivered from the hyperscalers' own public regions.{{ else }}Il programma cloud pubblico italiano &mdash; il Polo Strategico Nazionale, PSN &mdash; offre esattamente queste due misure come propria protezione, sul livello erogato dalle region pubbliche degli hyperscaler.{{ end }}</p>
       <div class="table-responsive">
         <table class="table table-bordered align-middle">
@@ -277,7 +347,7 @@
   <!-- TABELLA PSN vs SECNUMCLOUD -->
   <div class="row justify-content-center mb-5">
     <div class="col-lg-10">
-      <h2 class="mb-3">{{ if $isEN }}7.1 The comparison, requirement by requirement{{ else }}7.1 Il confronto, requisito per requisito{{ end }}</h2>
+      <h2 class="mb-3" id="confronto">{{ if $isEN }}7.1 The comparison, requirement by requirement{{ else }}7.1 Il confronto, requisito per requisito{{ end }}</h2>
       <p>{{ if $isEN }}The Italian public cloud is delivered in <strong>three tiers</strong>, with three very different levels of control &mdash; all promoted under the same word. This table places them against the requirements that the French framework actually measures. Every cell about PSN comes from documents we downloaded and read in full: the concession agreement, the guide to the convention, the technical specification of services and the user manual for the Azure tier &mdash; 161 pages.{{ else }}Il cloud pubblico italiano è erogato in <strong>tre livelli</strong>, con tre gradi di controllo molto diversi &mdash; tutti promossi con la stessa parola. Questa tabella li mette a confronto con i requisiti che il quadro francese misura davvero. Ogni casella sul PSN viene da documenti scaricati e letti per intero: la convenzione di concessione, la guida alla convenzione, le caratteristiche tecniche dei servizi e il manuale utente del livello su Azure &mdash; 161 pagine.{{ end }}</p>
 
       <div class="table-responsive">
@@ -346,7 +416,7 @@
   <!-- PERCHE' LA FRANCIA E' AVANTI -->
   <div class="row justify-content-center mb-5">
     <div class="col-lg-10">
-      <h2 class="mb-3">{{ if $isEN }}7.2 Why France is ahead &mdash; and it is not the reason usually given{{ else }}7.2 Perché la Francia è avanti &mdash; e non per la ragione che si dice{{ end }}</h2>
+      <h2 class="mb-3" id="francia">{{ if $isEN }}7.2 Why France is ahead &mdash; and it is not the reason usually given{{ else }}7.2 Perché la Francia è avanti &mdash; e non per la ragione che si dice{{ end }}</h2>
 
       <div class="alert alert-warning" role="alert">
         <p class="mb-0">{{ if $isEN }}<strong>First, the claim we do <em>not</em> make.</strong> It would be easy, and wrong, to say &ldquo;French clouds are sovereign and Italian ones are not&rdquo;. France has <strong>Bleu</strong>, built on Microsoft technology, and <strong>S3NS</strong>, built on Google technology. Anyone can point at those two names and the argument collapses. So we do not make it.{{ else }}<strong>Prima, l'affermazione che <em>non</em> facciamo.</strong> Sarebbe facile, e sbagliato, dire «i cloud francesi sono sovrani e quelli italiani no». La Francia ha <strong>Bleu</strong>, costruito su tecnologia Microsoft, e <strong>S3NS</strong>, costruito su tecnologia Google. Chiunque può indicare quei due nomi e l'argomento crolla. Perciò non lo facciamo.{{ end }}</p>
@@ -373,7 +443,7 @@
   <!-- CONCLUSIONE -->
   <div class="row justify-content-center mb-5">
     <div class="col-lg-10">
-      <h2 class="mb-3">{{ if $isEN }}8. The conclusion, stated carefully{{ else }}8. La conclusione, detta con cura{{ end }}</h2>
+      <h2 class="mb-3" id="conclusione">{{ if $isEN }}8. The conclusion, stated carefully{{ else }}8. La conclusione, detta con cura{{ end }}</h2>
       <div class="info-box-custom">
         <p class="fs-5 mb-3">{{ if $isEN }}Encryption and confidential computing are <strong>good engineering</strong>. They defeat a wide range of real attackers: other tenants, intruders, thieves, individual rogue employees. They should be used, and a provider that offers them is doing something worthwhile.{{ else }}La cifratura e il confidential computing sono <strong>buona ingegneria</strong>. Sconfiggono una gamma ampia di attaccanti reali: gli altri clienti sulla stessa macchina, gli intrusi, i ladri, il singolo dipendente infedele. Vanno usati, e un fornitore che li offre sta facendo qualcosa di utile.{{ end }}</p>
         <p class="fs-5 mb-0">{{ if $isEN }}But they are all measures that protect you <em>from someone else</em> while you are inside a house that belongs to a third party. <strong>None of them answers the question of what happens when the owner of the house is served with an order &mdash; and is forbidden to tell you.</strong> That is not an engineering question. It is a question of which law applies, and the only known ways to change the answer are the ones written into SecNumCloud and into the letters asking for EUCS High+: where the company is established, who controls its capital, and from where the service is administered.{{ else }}Ma sono tutte misure che proteggono <em>da qualcun altro</em> mentre si è dentro una casa che appartiene a un terzo. <strong>Nessuna di esse risponde alla domanda su che cosa accade quando al padrone di casa viene notificato un ordine &mdash; e gli è vietato dirvelo.</strong> Non è una domanda di ingegneria. È una domanda su quale legge si applichi, e gli unici modi noti di cambiare la risposta sono quelli scritti in SecNumCloud e nelle lettere che chiedono l'EUCS High+: dove l'azienda è stabilita, chi ne controlla il capitale, e da dove il servizio è amministrato.{{ end }}</p>
