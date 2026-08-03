@@ -1181,6 +1181,62 @@ Senza quel confronto la nostra resta un'affermazione; con quel confronto diventa
 È anche ciò che rende dicibile la tensione su **Aruba** (A47): un partner del PSN che chiede a Bruxelles il
 criterio di immunità che il PSN stesso non applica.
 
+### 🎯 LA TESI DA VERIFICARE — dettata dal committente il 02/08/2026
+*(È l'ipotesi guida dell'analisi. **Non è ancora un reperto**: è ciò che l'analisi deve dimostrare o
+smentire su fonte primaria. Fino ad allora **non entra in voce nel film**.)*
+
+**Il PSN va scomposto in due piani, e la critica riguarda solo il secondo.**
+
+✅ **Piano 1 — il consolidamento. Qui il PSN fa una cosa utile, e va detto per primo.**
+Portare in poche infrastrutture presidiate i server sparsi in migliaia di enti è un guadagno reale di
+continuità, sicurezza fisica e gestione — **qualunque software ci giri sopra**. Chi attacca il PSN
+ignorando questo perde il contraddittorio nei primi trenta secondi, e **merita di perderlo**.
+
+🔴 **Piano 2 — i servizi cloud erogati come PaaS e SaaS. È qui che la parola «sovranità» non regge.**
+Questi servizi sarebbero **interamente gestiti da Microsoft, Google e Amazon**, e **senza** i vincoli che
+altrove sono stati imposti:
+- **senza** i requisiti di **SecNumCloud** (sede, controllo del capitale, amministrazione del servizio
+  dall'Unione — il §19.6);
+- **senza** la separazione dell'operatore imposta alla Cina, dove il servizio è gestito da
+  **21Vianet** e Microsoft dichiara di fornire la tecnologia ma di **non gestire il servizio** (A4).
+
+> **È la critica più importante da rivolgere al programma italiano**, e va formulata così:
+> **il PSN è un ottimo programma di consolidamento a cui è stato dato il nome di un programma di
+> sovranità.** Le due cose non coincidono, e la seconda non è mai stata fatta.
+
+🎯 **Il confronto che rende la tesi inattaccabile — tre paesi, stesso fornitore:**
+| | Cosa ha preteso lo Stato | Esito |
+|---|---|---|
+| 🇨🇳 **Cina** | che il servizio sia **operato da un'azienda locale** | 21Vianet: «Microsoft non gestisce il servizio» |
+| 🇫🇷 **Francia** | criteri di **capitale e amministrazione** (SecNumCloud §19.6) | Bleu e S3NS |
+| 🇮🇹 **Italia** | *(da verificare: risulta nulla di equivalente)* | il fornitore resta l'operatore |
+
+🚨 **VINCOLI DI FORMULAZIONE — la tesi è forte, e proprio per questo va detta con precisione**
+1. **«Non ha niente di sovranità» non può essere affermato finché non abbiamo letto i capitolati.**
+   Oggi abbiamo **indizi convergenti e forti** (A2: il PSN poggia su Oracle, Google, Azure e AWS; A7: il
+   regolamento ACN ha **zero occorrenze** di CLOUD Act, nazionalità, capitale, paese terzo), **ma non la
+   prova diretta di chi opera che cosa.** Quella prova è esattamente l'oggetto di questa analisi.
+2. **Distinguere sempre «non c'è» da «non l'abbiamo trovato»** (regola 10). Il modello è la scansione a
+   zero occorrenze: si dichiara che cosa è stato cercato, dove, e con quale esito.
+3. **Nessuna accusa alle aziende.** Né ai fornitori, né ai partner italiani del PSN. Il bersaglio è **la
+   scelta pubblica di non scrivere i requisiti**, non chi lavora dentro il perimetro che ne è risultato.
+4. **Il piano 1 va riconosciuto prima del piano 2, in voce e non in nota.** È ciò che rende credibile il
+   piano 2 — e senza, il pezzo suona come un attacco politico.
+5. ⚠️ **Il modello cinese non va mai presentato come tutela dei diritti** (trappola 7). Serve **solo** a
+   dimostrare che **quando un governo lo impone, il fornitore lo realizza**. Vale anche qui.
+
+### 🔎 Che cosa serve per chiudere l'analisi — le domande a cui rispondere
+1. **Quali servizi PSN sono erogati come PaaS/SaaS su tecnologia dei tre fornitori, e con quale modello
+   operativo?** È la domanda centrale: chi ha le credenziali di amministrazione, da dove si opera,
+   chi può aggiornare il piano di controllo.
+2. **La qualificazione ACN distingue fra IaaS consolidato e servizi rivenduti?** E con quali requisiti
+   diversi, se li distingue.
+3. **Esiste, in qualunque atto italiano, un requisito di controllo societario o di nazionalità
+   dell'operatore?** Se non esiste, dirlo con la stessa tecnica di A7.
+4. **Le tre domande già previste al PSN nel diritto di replica** (confidential computing, chi opera
+   l'infrastruttura, perché il CLOUD Act non è mai citato) **vanno poste per iscritto**: una risposta
+   è un reperto, un rifiuto documentato è materiale narrativo.
+
 ### Come va costruita — tre colonne, stessa riga
 Per ciascun requisito, mettere a confronto **PSN** / **SecNumCloud 3.2** / **EUCS High+**:
 1. **Controllo del capitale e della governance** — SecNumCloud §19.6 (immunità da leggi extraterritoriali,
