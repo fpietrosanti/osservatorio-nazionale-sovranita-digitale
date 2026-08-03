@@ -1,7 +1,7 @@
 # «NON POSSO GARANTIRLO»
 ## Documentario d'inchiesta — 30 minuti
 
-Versione 3.0 — 2 agosto 2026 · 13 atti · **1800 secondi verificati**
+Versione 3.1 — 2 agosto 2026 · 13 atti · **1800 secondi verificati**
 
 > ⚠️ **Correzione emersa dal controllo inquadratura per inquadratura.** Nella prima stesura del piano
 > l'Atto 11 era dato a 270" e l'Atto 12 a 180". Ma spostando il finale (le tre inquadrature del terminale,
@@ -314,7 +314,7 @@ Serve un'indagine. È la strada del CLOUD Act.
 
 ---
 
-## ATTO 7 — LO STATO CERTIFICA, E NON SA · 12:10–15:20
+## ATTO 7 — LO STATO CERTIFICA, E NON SA · 12:10–15:34
 
 **IMMAGINE** — 21 luglio 2026. Comunicato.
 
@@ -433,9 +433,25 @@ vuota una riga alla volta.
 > E questo è il punto: **l'Italia ha speso 1,9 miliardi per la sovranità digitale costruendo un sistema in
 > cui è impossibile sapere quanta parte di quel denaro abbia comprato tecnologia sovrana.**
 
+**E QUI SI CHIUDE UN CERCHIO** `[A9]` `[A29]` `[A51]` — *è la terza volta*
+
+**IMMAGINE** — Tre schedari affiancati, tutti col cassetto aperto, tutti vuoti.
+
+> A quale fornitore siano andati i fondi: **non risulta da nessuna parte.**
+> Quale piattaforma usino le scuole italiane: **non lo pubblica né il Ministero né l'azienda.**
+> Su quale dei tre livelli del cloud di Stato stiano gli enti: **non è un dato pubblico.**
+>
+> Non è che le risposte siano scomode. È che **non vengono raccolte.**
+> **Un Paese che non misura non può nemmeno accorgersi di avere un problema.**
+
+> ⚠️ **VINCOLO — e vale per tutto il film**: poiché quel dato non esiste, **in nessun punto si quantifica
+> la diffusione dei tre livelli PSN**. Si descrive l'architettura. **Non si dice mai «la PA italiana sta
+> prevalentemente su X»**, e la scheda `15` mostra i tre livelli **senza proporzioni**.
+> ✅ È una decisione presa, non una lacuna: quel dato non è pubblico e non lo rincorriamo.
+
 ---
 
-## ATTO 8 — L'ASIMMETRIA · 15:20–17:05
+## ATTO 8 — L'ASIMMETRIA · 15:34–17:19
 `[A13]` — **blocco interamente riscritto: tre tesi diffuse sono false**
 
 > Si dice spesso che gli Stati Uniti vietino per legge di comprare tecnologia europea. **Non è vero**,
@@ -491,7 +507,7 @@ vuota una riga alla volta.
 
 ---
 
-## ATTO 9 — BRUXELLES: L'ITALIA HA CHIESTO, E HA PERSO · 17:05–19:45
+## ATTO 9 — BRUXELLES: L'ITALIA HA CHIESTO, E HA PERSO · 17:19–19:59
 `[A15]` — **la svolta narrativa**
 
 > A questo punto la conclusione sembra ovvia: l'Italia non ha mai chiesto protezione.
@@ -549,7 +565,7 @@ vuota una riga alla volta.
 
 ---
 
-## ATTO 10 — I FIGLI · 19:45–22:30
+## ATTO 10 — I FIGLI · 19:59–22:44
 
 > Nelle oltre dodicimila amministrazioni migrate col PNRR ci sono anche **le scuole**. `[B1]`
 > E sulle scuole il dato ce l'abbiamo. `[A1]`
@@ -617,7 +633,7 @@ vuota una riga alla volta.
 
 ---
 
-## ATTO 11 — LA VIA D'USCITA · 22:30–26:20
+## ATTO 11 — LA VIA D'USCITA · 22:44–26:34
 
 > Non si tratta di smettere di usare Microsoft.
 > **Si tratta di smettere di lasciarla operare.**
@@ -684,7 +700,7 @@ vuota una riga alla volta.
 
 ---
 
-## ATTO 12 — L'ITALIA CONCRETA · 26:20–30:00
+## ATTO 12 — L'ITALIA CONCRETA · 26:34–30:00
 
 > A questo punto la domanda è una sola: **e adesso?**
 > La risposta che si sente sempre è che serve una legge, e che le leggi le fa Roma.

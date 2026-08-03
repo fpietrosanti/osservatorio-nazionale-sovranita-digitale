@@ -1,12 +1,12 @@
 # STORYBOARD — «NON POSSO GARANTIRLO»
-## Documentario d'inchiesta — 30 minuti — storyboard sequenziale v3.0
+## Documentario d'inchiesta — 30 minuti — storyboard sequenziale v3.1
 
-Riferito a `SCRIPT-30-MINUTI.md` **v3.0 (2 agosto 2026), 13 atti**, e vincolato al registro delle
+Riferito a `SCRIPT-30-MINUTI.md` **v3.1 (2 agosto 2026), 13 atti**, e vincolato al registro delle
 **24 trappole** di `STATO-DELLE-CONOSCENZE.md`. I riferimenti `[A#]` / `[B#]` rimandano a quel documento.
 Il registro delle trappole **resta valido per intero**, anche nelle voci che riguardano materiale
 non più in film: serve a impedire che rientri.
 
-**139 inquadrature** (`001`–`118` più 21 inserimenti `-BIS`/`-TER`/…), più una condizionale
+**143 inquadrature** (`001`–`118` più 25 inserimenti `-BIS`/`-TER`/…), più una condizionale
 (`019-BIS`), su **30:00 esatti**.
 
 **Che cosa cambia in v3.0 — e come sono numerate le inquadrature nuove**
@@ -335,7 +335,7 @@ dissolvenza non produrrebbe alcun effetto.
 
 ---
 
-## ATTO 7 — LO STATO CERTIFICA, E NON SA · 12:10–15:20
+## ATTO 7 — LO STATO CERTIFICA, E NON SA · 12:10–15:34
 
 | # | Durata | Tipo | Descrizione visiva | Sovrimpressione | Audio / voce |
 |---|---|---|---|---|---|
@@ -354,6 +354,7 @@ dissolvenza non produrrebbe alcun effetto.
 | **066** | 0:14 | `SCH-CAP` | I dataset del DTD aperti in un foglio di calcolo. Si scorre in orizzontale: si contano le venti colonne, una per una. Nessuna si chiama «fornitore». | `22.162 domande finanziate · € 1.343.231.660 · 20 colonne · 0 campi fornitore` `[A9]` | **VFC**: «Abbiamo scaricato i dati ufficiali… Venti colonne. Nessuna che dica a quale fornitore siano andati.» |
 | **067** | 0:12 | `GRAF` | Frase costruita in due tempi, la seconda metà in rosso. | `Non possiamo dire che quei soldi siano finiti in America.` → `Non possiamo dire nemmeno il contrario.` | **VFC**: le due frasi, separate da una pausa lunga. |
 | **068** | 0:08 | `GRAF` | Chiusura d'atto, testo pieno schermo. | `L'Italia ha speso 1,9 miliardi per la sovranità digitale costruendo un sistema in cui è impossibile sapere quanta parte di quel denaro abbia comprato tecnologia sovrana.` | **VFC**: la frase. |
+| **068-BIS** | 0:14 | `GRAF` | 🆕 **Il motivo ricorrente, e la terza volta che compare.** Tre schedari affiancati, tutti con il cassetto aperto e **tutti vuoti**. Le targhette, una per volta: **A QUALE FORNITORE SONO ANDATI I FONDI** · **QUALE PIATTAFORMA USANO LE SCUOLE** · **SU QUALE LIVELLO DEL PSN STANNO GLI ENTI**. 💡 I primi due schedari sono già stati visti — nell'Atto 7 e nell'Atto 10: vanno disegnati **identici**, perché lo spettatore li riconosca. | `Tre domande. Nessuna risposta pubblica.` `[A9]` `[A29]` `[A51]` | **VFC**: «E c'è una cosa che a questo punto si nota da sé. Non è che le risposte siano scomode: è che **non vengono raccolte**. Un Paese che non misura non può nemmeno accorgersi di avere un problema.» |
 | **069** | 0:05 | `GRAF` | Contro-fatto onesto, obbligatorio: i nove servizi di livello massimo QC4 sono tutti e soli nativi PSN. | `Sulla fascia dei dati strategici la linea tiene.` `[A10]` | **VFC** (tono piano): la precisazione. |
 
 > ⚠️ **TRAPPOLA 1** — l'inquadratura 060 è progettata proprio per **impedire** la sovrapposizione fra
@@ -376,7 +377,7 @@ dissolvenza non produrrebbe alcun effetto.
 
 ---
 
-## ATTO 8 — L'ASIMMETRIA · 15:20–17:05
+## ATTO 8 — L'ASIMMETRIA · 15:34–17:19
 
 | # | Durata | Tipo | Descrizione visiva | Sovrimpressione | Audio / voce |
 |---|---|---|---|---|---|
@@ -417,7 +418,7 @@ dissolvenza non produrrebbe alcun effetto.
 
 ---
 
-## ATTO 9 — BRUXELLES: L'ITALIA HA CHIESTO, E HA PERSO · 17:05–19:45
+## ATTO 9 — BRUXELLES: L'ITALIA HA CHIESTO, E HA PERSO · 17:19–19:59
 **+15 secondi in v2.1.** Vedi la nota sul margine riservato in coda all'atto.
 
 | # | Durata | Tipo | Descrizione visiva | Sovrimpressione | Audio / voce |
@@ -469,7 +470,7 @@ dissolvenza non produrrebbe alcun effetto.
 
 ---
 
-## ATTO 10 — I FIGLI · 19:45–22:30
+## ATTO 10 — I FIGLI · 19:59–22:44
 **Riscritto rispetto alla v1.0: non è più l'atto dell'assenza, è l'atto del dato peggiore.**
 
 | # | Durata | Tipo | Descrizione visiva | Sovrimpressione | Audio / voce |
@@ -514,7 +515,7 @@ dissolvenza non produrrebbe alcun effetto.
 
 ---
 
-## ATTO 11 — LA VIA D'USCITA · 22:30–26:20
+## ATTO 11 — LA VIA D'USCITA · 22:44–26:34
 **230 secondi in v3.0** — 138" di inquadrature esistenti (`095`–`104`) più **92" di blocco Airbus**
 (`104-BIS`–`104-SEXIES`). ⚠️ **Le tre inquadrature del finale al terminale non sono più in questo atto**:
 sono passate all'Atto 12 come `116`–`118`. Il margine riservato della v2.1 è stato speso qui.
@@ -573,24 +574,30 @@ sono passate all'Atto 12 come `116`–`118`. Il margine riservato della v2.1 è 
 
 ---
 
-## ATTO 12 — L'ITALIA CONCRETA · 26:20–30:00
+## ATTO 12 — L'ITALIA CONCRETA · 26:34–30:00
 **Atto nuovo in v3.0, ed è qui che il film finisce.** 220 secondi: 178" di materiale nuovo
 (`105`–`115`) più i 42" del finale al terminale (`116`–`118`), che dall'Atto 11 si sposta qui.
 L'ordine dell'impianto è **prova → azione**: l'Atto 11 dimostra che il modello esiste, l'Atto 12 dice
 **chi può farlo qui, e da quando**.
 
+⏱️ **In v3.1 l'atto scende da 220" a 206"**: i 14 secondi sono andati all'inquadratura `068-BIS`
+dell'Atto 7. Sono stati tolti da `105`, `106`, `107`, `110` e `114` — tagli di pochi secondi su
+inquadrature che avevano margine di lettura. 🚨 **Non sono state toccate** `108` e `109` (la parentesi
+vuota e la frase), `112` (il cartello di onestà) né `116`–`118` (il finale): sono le inquadrature che
+reggono l'atto e il loro tempo è il loro contenuto.
+
 | # | Durata | Tipo | Descrizione visiva | Sovrimpressione | Audio / voce |
 |---|---|---|---|---|---|
-| **105** | 0:12 | `AST` | Fondo scuro. La risposta abituale compare, e viene barrata come in `081`. È il richiamo formale a quell'inquadratura: stessa grafica, stesso gesto. | ~~`Serve una legge, e le leggi le fa Roma.`~~ | **VFC**: «A questo punto la domanda è una sola: e adesso? La risposta che si sente sempre è che serve una legge, e che le leggi le fa Roma. **Non è più vero.**» |
-| **106** | 0:20 | `SCH-CAP` | Il testo del **Cloud and AI Development Act** aperto e scorso dal vivo, fino al Capo IV. Si evidenzia l'articolo 37(3). URL e riferimento del documento in quadro. | `COM(2026) 502 — Capo IV, art. 37(3)` `[A44]` | **VFC**: «Dentro c'è un capitolo di cui non ha parlato quasi nessuno: la Commissione può fare da centrale di acquisto per le amministrazioni degli Stati membri.» |
-| **107** | 0:16 | `SCH-NEW` | **SCHEDA `13-la-data-e-bianca.svg`**, metà sinistra: i due livelli si accendono uno dopo l'altro. ⚠️ *(In v3.0 questa inquadratura non usa più una variante inesistente della scheda 01: la scheda dedicata è stata prodotta.)* | `Allegato II — livello 3 e livello 4` `[A45]` | **VFC**: «Il livello 3 ammette software americano, purché se ne verifichi il codice e si scriva un piano di uscita: è il modello francese trasformato in criterio di legge. Il livello 4 toglie la deroga.» |
+| **105** | 0:09 | `AST` | Fondo scuro. La risposta abituale compare, e viene barrata come in `081`. È il richiamo formale a quell'inquadratura: stessa grafica, stesso gesto. | ~~`Serve una legge, e le leggi le fa Roma.`~~ | **VFC**: «A questo punto la domanda è una sola: e adesso? La risposta che si sente sempre è che serve una legge, e che le leggi le fa Roma. **Non è più vero.**» |
+| **106** | 0:16 | `SCH-CAP` | Il testo del **Cloud and AI Development Act** aperto e scorso dal vivo, fino al Capo IV. Si evidenzia l'articolo 37(3). URL e riferimento del documento in quadro. | `COM(2026) 502 — Capo IV, art. 37(3)` `[A44]` | **VFC**: «Dentro c'è un capitolo di cui non ha parlato quasi nessuno: la Commissione può fare da centrale di acquisto per le amministrazioni degli Stati membri.» |
+| **107** | 0:13 | `SCH-NEW` | **SCHEDA `13-la-data-e-bianca.svg`**, metà sinistra: i due livelli si accendono uno dopo l'altro. ⚠️ *(In v3.0 questa inquadratura non usa più una variante inesistente della scheda 01: la scheda dedicata è stata prodotta.)* | `Allegato II — livello 3 e livello 4` `[A45]` | **VFC**: «Il livello 3 ammette software americano, purché se ne verifichi il codice e si scriva un piano di uscita: è il modello francese trasformato in criterio di legge. Il livello 4 toglie la deroga.» |
 | **108** | 0:24 | `SCH-CAP` | 🎯 **L'inquadratura decisiva dell'atto.** Il documento continua a scorrere, lentamente, cercando le date. Lo scorrimento **non si interrompe**: si vede che si sta cercando davvero. Poi si ferma su una parentesi quadra e ci resta. | `[data di entrata in vigore più un anno]` | **VFC**: «In quel documento non c'è una sola data. Dove dovrebbero esserci le scadenze ci sono segnaposto mai compilati.» Poi silenzio sulla parentesi. |
 | **109** | 0:14 | `SCH-NEW` + `AST` | **SCHEDA `13-la-data-e-bianca.svg`**, metà destra e fascia bassa. Sopra, testo pieno schermo, molto grande, due tempi. È il fermo-immagine concettuale del film. | `LA REGOLA È SCRITTA.` → `LA DATA È BIANCA.` | **VFC**: le due righe. Poi: «Non manca il diritto. Manca la decisione politica di riempire una parentesi.» |
-| **110** | 0:18 | `SCH-CAP` | Ritorno al testo, su un altro articolo. Si evidenziano l'art. 38(7) e l'art. 39(1). | `Artt. 38(7) e 39(1)` `[A46]` | **VFC**: «Un ente locale può aderire alla centrale di acquisto europea **anche se il proprio Stato non aderisce**. E aderendo è per ciò stesso in regola con il diritto europeo degli appalti.» |
+| **110** | 0:15 | `SCH-CAP` | Ritorno al testo, su un altro articolo. Si evidenziano l'art. 38(7) e l'art. 39(1). | `Artt. 38(7) e 39(1)` `[A46]` | **VFC**: «Un ente locale può aderire alla centrale di acquisto europea **anche se il proprio Stato non aderisce**. E aderendo è per ciò stesso in regola con il diritto europeo degli appalti.» |
 | **111** | 0:16 | `GRAF` | Due alibi scritti come cartelli, che cadono uno dopo l'altro. Poi una sola riga resta. | ~~`Non possiamo, c'è il codice appalti.`~~ · ~~`Decide Roma.`~~ → `Un comune italiano può farlo da solo.` | **VFC**: «Cade insieme l'alibi giuridico e quello politico.» |
 | **112** | 0:20 | `GRAF` | 🚨 **Cartello di onestà obbligatorio, non tagliabile**, fondo differente. Quattro righe, e l'ultima è una data. | `Il regolamento non è ancora in vigore.` · `Serve un accordo fra la Commissione e almeno due Stati membri — nessuno l'ha firmato.` · `La piattaforma comune non esiste.` · `La Commissione stessa indica il 2029.` | **VFC**: le quattro righe, tono piano. Poi: «Non stiamo dicendo che la porta è aperta. Stiamo dicendo **dov'è la porta**.» |
 | **113** | 0:14 | `GRAF` | Un calendario. Tutte le date sfocate tranne una, nitida. | **`12 gennaio 2027`** `[A46]` | **VFC**: «Una data vera, però, c'è.» |
-| **114** | 0:12 | `GRAF` | La norma a schermo, sintetizzata in una riga sola. | `Da quel giorno far pagare a un cliente il costo di andarsene da un cloud è vietato. Per legge europea già in vigore.` | **VFC**: «È l'unica scadenza certa di tutta questa storia. E vale per ogni amministrazione italiana.» |
+| **114** | 0:11 | `GRAF` | La norma a schermo, sintetizzata in una riga sola. | `Da quel giorno far pagare a un cliente il costo di andarsene da un cloud è vietato. Per legge europea già in vigore.` | **VFC**: «È l'unica scadenza certa di tutta questa storia. E vale per ogni amministrazione italiana.» |
 | **115** | 0:12 | `AST` | Testo pieno schermo. Poi nero, e da lì si entra nel finale. | `Da quel giorno, «costa troppo cambiare» non è più una risposta.` | **VFC**: la riga. Poi silenzio pieno di due secondi prima di `116`. |
 | **116** | 0:20 | `SCH-CAP` | Ritorno esatto all'inquadratura 001. Terminale nero. Il cursore lampeggia. Nessun testo. L'inquadratura è volutamente lunga e regge il silenzio. | — | **VFC**: «Nel frattempo, la posta del Comandante Generale dei Carabinieri continua a passare da Google.» |
 | **117** | 0:18 | `SCH-CAP` | Il cursore continua a lampeggiare. Nessuno digita. La battuta resta sospesa, e il tempo che avanza è tempo di silenzio, non di parole. **Poi arrivano le due righe nuove della v3.0**, che sono la vera chiusura del film. | — | **VFC**: «E se un giorno qualcuno la chiedesse, **non lo sapremmo.**» — pausa lunga — «Non perché non si possa fare altrimenti. **Perché non è stato deciso.**» |
@@ -630,15 +637,15 @@ L'ordine dell'impianto è **prova → azione**: l'Atto 11 dimostra che il modell
 | 4 — L'esecuzione | 7:10–9:10 | 040–048 + 046-BIS/TER (11) | 120" *(+30)* | **120"** ✅ |
 | 5 — Il silenzio | 9:10–10:55 | 048-BIS/TER · 049–052 · 051-BIS/TER (8) | 105" *(+50)* | **105"** ✅ |
 | 6 — Era una scelta | 10:55–12:10 | 053–057 (5) | 75" | **75"** ✅ |
-| 7 — Lo Stato certifica | 12:10–15:20 | 058–069 + 065-BIS (13) | 190" *(+55)* | **190"** ✅ |
-| 8 — L'asimmetria | 15:20–17:05 | 070–080 (11) | 105" | **105"** ✅ |
-| 9 — Bruxelles | 17:05–19:45 | 081–087 + 086-BIS→QUINQUIES (11) | 160" *(+70)* | **160"** ✅ |
-| 10 — I figli | 19:45–22:30 | 088–094 + 093-BIS→SEXIES (12) | 165" *(+105)* | **165"** ✅ |
-| 11 — La via d'uscita | 22:30–26:20 | 095–104 + 104-BIS→SEXIES (15) | 230" | **230"** ✅ |
-| **12 — L'Italia concreta** | **26:20–30:00** | **105–118 (14)** | **220"** | **220"** ✅ |
-| **TOTALE** | **0:00–30:00** | **139 inquadrature** | **1800"** | **1800"** ✅ |
+| 7 — Lo Stato certifica | 12:10–15:34 | 058–069 + 065-BIS→QUINQUIES · 068-BIS (17) | 204" *(+69)* | **204"** ✅ |
+| 8 — L'asimmetria | 15:34–17:19 | 070–080 (11) | 105" | **105"** ✅ |
+| 9 — Bruxelles | 17:19–19:59 | 081–087 + 086-BIS→QUINQUIES (11) | 160" *(+70)* | **160"** ✅ |
+| 10 — I figli | 19:59–22:44 | 088–094 + 093-BIS→SEXIES (12) | 165" *(+105)* | **165"** ✅ |
+| 11 — La via d'uscita | 22:44–26:34 | 095–104 + 104-BIS→SEXIES (15) | 230" | **230"** ✅ |
+| **12 — L'Italia concreta** | **26:34–30:00** | **105–118 (14)** | **206"** | **206"** ✅ |
+| **TOTALE** | **0:00–30:00** | **143 inquadrature** | **1800"** | **1800"** ✅ |
 
-**139 inquadrature**, più la condizionale `019-BIS` che **non entra nel conteggio**.
+**143 inquadrature**, più la condizionale `019-BIS` che **non entra nel conteggio**.
 
 ⚠️ **Sul «respiro interviste» dei 30 minuti.** Dei 55 secondi previsti nel piano, **20 sono andati agli
 atti 2 e 3** (+10 ciascuno, distribuiti sulle inquadrature esistenti perché gli intervistati finiscano le
@@ -651,10 +658,21 @@ PSN sono stati scritti il 02/08/2026 e ripartiti su **quattro inquadrature** —
 su fonte primaria: 161 pagine di documenti PSN e il documento di posizione dell'ANSSI, archiviati in
 `fonti/`. La scheda dedicata **`15-psn-metro-europeo.svg`** è prodotta.
 
-🔴 **Resta un solo dato mancante in tutto il film, e non blocca le riprese**: quale dei tre livelli del
-PSN sia effettivamente il più adottato dagli enti. Nessun documento ufficiale lo dice. Finché manca, le
-inquadrature `065-BIS`–`065-QUINQUIES` **descrivono l'architettura** ma **non quantificano**: in voce non
-si dice mai «la PA italiana sta prevalentemente su X».
+✅ **DECISIONE EDITORIALE ASSESTATA (02/08/2026) — non è più una lacuna aperta.**
+Quale dei tre livelli PSN sia il più adottato dagli enti **non è un dato pubblico**, e il committente ha
+deciso di **conviverci** anziché rincorrerlo. Il film è stato adattato di conseguenza:
+
+- 🚨 **le inquadrature `065-BIS`–`065-QUINQUIES` descrivono l'architettura e non quantificano mai.**
+  In voce **non si dice** «la PA italiana sta prevalentemente su X», né si lascia intendere una
+  proporzione fra i tre livelli. La grafica della scheda `15` mostra i **tre livelli affiancati**,
+  senza dimensioni relative, senza percentuali, senza aree proporzionali.
+- ✅ **E l'assenza del dato diventa essa stessa un reperto**, perché è la **terza volta** che il film
+  incontra lo stesso schema. Vedi l'inquadratura nuova `068-BIS`.
+
+💡 **Nota per il montaggio**: se durante la lavorazione quel dato dovesse diventare pubblico — per una
+risposta al diritto di replica, un'interrogazione parlamentare o un accesso agli atti — le inquadrature
+sono già predisposte per accoglierlo: basta aggiungere le proporzioni alla scheda `15` e una riga in voce
+su `065-BIS`. **Non serve rigirare nulla.**
 ## ⛔ Cose che NON si possono filmare
 *(vanno risolte in grafica o in tipografia — per necessità, e per onestà)*
 
