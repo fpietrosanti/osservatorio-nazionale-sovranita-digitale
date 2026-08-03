@@ -1090,6 +1090,65 @@ Convenzione** scrive «Region pubbliche degli Hyperscaler (i.e., **Microsoft Azu
 dice. Finché non lo sappiamo, il film può **descrivere l'architettura** ma **non può dire «la PA italiana
 sta prevalentemente su X»**.
 
+### A52. 🔥 L'ANSSI SMONTA IL CONFIDENTIAL COMPUTING **E** IL BYOK — ed è l'agenzia che ha scritto il §19.6
+**AFFIDABILITÀ: 🟢 ALTA** — PDF integrale (13 pp., v1.0, 17.10.2025) scaricato e letto per intero,
+non la pagina di presentazione. 🔗 https://cyber.gouv.fr/sites/default/files/document/anssi-technical-position-paper-coco-v1.0.pdf
+
+#### 🎯 Le quattro frasi che valgono l'intero approfondimento, verbatim
+1. «*Confidential Computing is **not secure enough to protect data integrity and confidentiality against a
+   hostile administrator performing targeted, active attacks***.»
+2. «*The current analysis shows that Confidential Computing is **not sufficient on its own** … **to meet the
+   requirements described in section 19.6 of the SecNumCloud 3.2 framework***.»
+3. **Raccomandazione agli utenti**: «***Not rely on Confidential Computing if the cloud provider is
+   considered untrusted or potentially hostile**: against an active attacker, there are **too many known
+   vulnerabilities to effectively guard against**. In such situations, **switching to a trusted CSP or using
+   dedicated bare-metal hardware in a controled physical environment is a prerequisite***.»
+4. 🔥 **SUL BYOK** — è il reperto che chiude anche il secondo approfondimento:
+   «*Note that **“Bring Your Own Key” (BYOK) approaches do not solve this issue, as the CSP still needs to
+   be trusted to use the keys provided by the user***.»
+
+> **La catena logica è chiusa e non richiede una nostra deduzione tecnica:**
+> il **§19.6** è la clausola di immunità dalle leggi extraterritoriali — **l'ha scritta l'ANSSI** —
+> e **l'ANSSI dichiara che il confidential computing non la soddisfa**.
+> Ogni argomento che offra il confidential computing **in sostituzione** dei requisiti giurisdizionali
+> è già smentito dall'autorità che quei requisiti li ha inventati.
+
+#### ✅ Ciò che l'ANSSI riconosce alla tecnologia (da dire per primi, o perdiamo il contraddittorio)
+«*complements effectively at-rest and in-transit encryption by encrypting data in-use*» · «*still provides
+significant defence-in-depth*» · «*may raise the complexity of attacks from the host or other tenants*».
+**Non è una cattiva tecnologia. È una buona tecnologia usata per rispondere alla domanda sbagliata.**
+
+#### 🔧 Il modello di minaccia, con le parole dell'ANSSI
+- **«malicious admin»**: «*an administrator of the host … They can control the creation and execution of
+  workloads, including modifying them before they are started, and **reading or writing their memory at
+  runtime***» → **è l'acquisizione dinamica della RAM**, confermata dall'agenzia.
+- Fra gli attori contro cui il modello non regge: «*attackers with a **very high power to coerce
+  suppliers***» → **è l'attore statuale, descritto per funzione.**
+- «*physical attacks are **explicitly out-of-scope** of the security model*» — e l'ANSSI lo scrive
+  **subito dopo** aver osservato che la tecnologia «*is often presented by commercial providers as …
+  resistant to a physical attack*». **Corregge il marketing di persona.**
+
+🚨 **TRAPPOLA 39 — non attribuire all'ANSSI parole che non ha usato.**
+Nelle 13 pagine, **ZERO occorrenze** di *sovereign*, *state actor*, *extraterritorial*, *jurisdiction*,
+*legal*, *law enforcement*, *compel*. **Verificato.** L'ANSSI **non** dice «il confidential computing non
+protegge dagli attori statuali»: dice che non protegge da un **amministratore ostile attivo**, che non
+soddisfa il **§19.6**, e che contro un fornitore potenzialmente ostile **non va usato**.
+✅ **La conclusione politica è nostra; le premesse tecniche sono interamente dell'ANSSI.** Va detto così,
+ed è più forte: significa che non stiamo forzando una fonte per farle dire ciò che ci serve.
+
+🚨 **TRAPPOLA 40 — sul BSI non abbiamo nulla, e non va citato.**
+Cercata una presa di posizione del **BSI** tedesco sull'insufficienza del confidential computing:
+**non l'abbiamo trovata**. ⚠️ Attenzione alla distinzione (regola 10): *non l'abbiamo trovata*, **non**
+*non esiste*. Il BSI ha pubblicato il **C3A** (27.04.2026, criteri di autonomia cloud) e il concetto di
+**«Cyber Dominance»**, ma **non risulta una sua posizione specifica sul confidential computing**.
+❌ **Su decisione del committente il BSI è stato rimosso dalla pagina**: se il BSI fosse più permissivo,
+citarlo indebolirebbe l'argomento invece di rafforzarlo. **Si cita solo l'ANSSI, che è più stringente.**
+
+#### 📄 Prodotto: pagina pubblica bilingue `/misure-tecniche/`
+Analisi estesa in italiano e inglese: i tre stati del dato, che cos'è il confidential computing e che cosa
+ottiene davvero, i quattro limiti, l'attestazione rotta (**CVE-2026-33697**, TU Dresden, AsiaCCS ed
+ESORICS 2026), la gestione delle chiavi, il caso PSN e la conclusione. In menu in entrambe le lingue.
+
 ---
 
 ## 🟡 B — SOLIDO, DA CONFERMARE PRIMA DELLA MESSA IN ONDA
@@ -1596,6 +1655,12 @@ reperti A37 e A39, dove chi consulta il registro non le avrebbe trovate)*
 38. **Riconoscere il BYOK prima di criticarlo.** Le chiavi sono su HSM Thales on-premises, fuori dal CSP:
     è reale. Il limite — che l'**uso** delle chiavi passa per Managed Identity e Disk Encryption Set di
     Azure — va detto come **punto tecnico**, non come smascheramento (A51, e vale A22).
+
+39. **Non attribuire all'ANSSI parole che non ha usato.** Zero occorrenze di *sovereign*, *state actor*,
+    *extraterritorial*, *jurisdiction*, *legal* nelle 13 pagine. Dire: «la conclusione politica è nostra,
+    le premesse tecniche sono dell'ANSSI» (A52).
+40. **Non citare il BSI sul confidential computing.** Una sua posizione in merito **non è stata trovata**
+    — il che è diverso dal dire che non esista. Rimosso dalla pagina per decisione del committente (A52).
 
 ### ⚠️ Nota d'uso — collisione di scale
 La scala **SEAL 1-4** della gara UE **non è** la nostra scala **0-4**: una misura i *fornitori*, l'altra i

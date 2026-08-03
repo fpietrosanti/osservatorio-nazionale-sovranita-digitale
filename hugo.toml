@@ -82,6 +82,10 @@ disableKinds = ['taxonomy', 'term']
       url = '/certificazioni/'
       weight = 7
     [[languages.it.menus.main]]
+      name = 'Misure tecniche'
+      url = '/misure-tecniche/'
+      weight = 8
+    [[languages.it.menus.main]]
       name = 'Dati Aperti'
       url = '/dati-aperti/'
       weight = 8
@@ -145,6 +149,10 @@ disableKinds = ['taxonomy', 'term']
       name = 'Certifications'
       url = '/certificazioni/'
       weight = 7
+    [[languages.en.menus.main]]
+      name = 'Technical measures'
+      url = '/misure-tecniche/'
+      weight = 8
     [[languages.en.menus.main]]
       name = 'Open Data'
       url = '/dati-aperti/'

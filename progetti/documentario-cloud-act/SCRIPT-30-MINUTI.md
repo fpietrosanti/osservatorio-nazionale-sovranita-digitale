@@ -343,7 +343,22 @@ Serve un'indagine. È la strada del CLOUD Act.
 
 **E COL METRO EUROPEO?** — *segmento da 45", da scrivere quando l'analisi sarà pronta*
 
-> 🔧 **SPAZIO RISERVATO.** Qui entra il confronto fra i requisiti del **PSN** e quelli di
+> ✅ **UNA METÀ È ORA SCRITTA** (02/08/2026, reperti **A50**, **A51**, **A52**). Resta da produrre solo il
+> confronto tabellare articolo per articolo. Il segmento va costruito in **due tempi**:
+>
+> **PRIMO TEMPO — riconoscere.** «Il PSN ha fatto una cosa vera: ha consolidato migliaia di server sparsi,
+> e sul livello più protetto gestisce i servizi con personale proprio e tiene le chiavi su apparati suoi,
+> fuori dal fornitore.» ⚠️ **Non tagliabile**: senza, il resto suona come un attacco politico (trappola 35).
+>
+> **SECONDO TEMPO — la parola.** Nel manuale ufficiale del PSN «sovranità del dato» è **definita** così:
+> una copia di backup nel perimetro PSN, replicata **una volta al mese**. `[A51]`
+> E le due difese tecniche offerte le smonta **l'agenzia francese che ha scritto lo standard di sovranità**:
+> il confidential computing «non è abbastanza sicuro contro un amministratore ostile» e **non soddisfa il
+> §19.6**; il BYOK «non risolve il problema, perché il fornitore deve comunque essere ritenuto affidabile
+> per usare le chiavi». `[A52]`
+> Chiusura: **«L'Italia ha chiesto una buona gestione. E l'ha chiamata sovranità.»**
+>
+> 🔧 **RESTA DA SCRIVERE** Qui entra il confronto fra i requisiti del **PSN** e quelli di
 > **SecNumCloud** e **EUCS High+**, nella parte in cui il PSN agisce da **rivenditore** di servizi
 > Microsoft, Google e Amazon: controllo del capitale, nazionalità del personale di esercizio, titolarità
 > delle chiavi, regime del software di terzi, reversibilità.
