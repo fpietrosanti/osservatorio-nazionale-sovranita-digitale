@@ -996,6 +996,100 @@ societario**.
 enti aderenti. Se la quota maggiore fosse sui livelli 2 e 3, la critica si rafforza molto; se fosse sul
 livello 1, va ridimensionata. **Senza questo dato non si può quantificare nulla in voce.**
 
+### A51. 🔥 NEL MANUALE UFFICIALE DEL PSN, «SOVRANITÀ DEL DATO» È DEFINITA COME UNA COPIA DI BACKUP MENSILE
+**AFFIDABILITÀ: 🟢 ALTA** — quattro documenti ufficiali PSN scaricati e letti integralmente il
+02/08/2026 (testo estratto con pypdf, non riassunti di terzi).
+🔗 `PSN-Concessione-Convenzione.pdf` (53 pp.) · `PSN_Guida-alla-Convenzione_.pdf` (11 pp.) ·
+`PSN-Concessione-Caratteristiche-tecniche-dei-Servizi.pdf` (33 pp.) ·
+`PSN-Manuale-Utente-SPC-Azure.pdf` (64 pp., ed. 04/04/2025)
+
+#### 🎯 IL REPERTO CENTRALE — la definizione operativa, verbatim dal manuale
+> «Il primo requisito è legato alla **sovranità del dato**: nel perimetro fisico del PSN deve essere
+> disponibile e fruibile **una copia dei workload** erogati presenti sul Cloud Service Provider.
+> Per soddisfare il requisito della sovranità del dato, la replica del dato su storage del PSN ha
+> **frequenza mensile** e ne viene mantenuta **solo una versione**.»
+
+E per la copia secondaria:
+> «backup **ogni sei mesi** con retention di un anno, ovvero sempre 2 versioni per mantenere la richiesta
+> di **sovranità del dato**.»
+
+> 🔥 **Nel documento ufficiale del PSN, «sovranità del dato» non è una condizione giuridica:
+> è una copia di backup replicata una volta al mese.**
+> Non è una nostra interpretazione né una deduzione. È **la definizione operativa scritta nel manuale**,
+> nel paragrafo che spiega come quel requisito viene soddisfatto.
+
+#### ✅ CIÒ CHE VA RICONOSCIUTO — e va detto prima
+Il **BYOK è reale e serio**, e negarlo ci farebbe perdere il contraddittorio (vale **A22**):
+> «La gestione delle chiavi prevede l'utilizzo della modalità **Bring your own key (BYOK)**. Le chiavi di
+> cifratura vengono create e gestite dall'infrastruttura **Thales** presente on-premises nei datacenter
+> del PSN, **escludendo così, dalla gestione delle chiavi di cifratura, il CSP**.»
+
+⚠️ **Ma il limite è scritto nelle righe accanto**, ed è tecnico, non polemico: l'**uso** delle chiavi passa
+per risorse del fornitore — «attraverso un'**Azure Managed Identity** appositamente creata» e «gestite
+attraverso la risorsa **Azure Disk Encryption Set**». Le chiavi sono **custodite** fuori dal CSP; per
+cifrare e decifrare un disco in esecuzione devono però essere **rese utilizzabili alla piattaforma**.
+👉 È il limite noto del BYOK rispetto al *confidential computing*, che protegge il dato **durante
+l'elaborazione**. E qui viene il punto successivo.
+
+#### 🚨 LA DISCREPANZA FRA IL MARKETING E IL MANUALE
+La pagina commerciale (**A50**) promuove: «Il **confidential computing**, ove attivato, rende impossibile
+agli operatori del cloud service provider di accedere anche al dato durante l'elaborazione».
+**Nelle 64 pagine del manuale operativo del Secure Public Cloud Azure, «confidential computing» compare
+ZERO volte.**
+⚠️ **Da dire con precisione**: non stiamo affermando che non sia disponibile. Stiamo dicendo che
+**il manuale utente del servizio non lo documenta**, e che il sito lo qualifica da sé con «ove attivato».
+È esattamente la prima delle tre domande da porre al PSN nel diritto di replica.
+
+#### 📉 LA SCANSIONE A ZERO OCCORRENZE — 161 pagine di documenti contrattuali e operativi
+Cercati in tutti e quattro i documenti: **CLOUD Act · extraterritoriale · nazionalità · capogruppo ·
+paese terzo · controllo societario · FISA · SecNumCloud · immunità · legge straniera · diritto straniero ·
+autorità straniera · extra-UE**. → **ZERO occorrenze, in tutti e quattro.**
+
+⚖️ **E le due parole che ricorrono vanno disinnescate da noi, perché non aiutano la tesi:**
+- **«giurisdizione»** compare 2 volte nella Convenzione, ma riguarda **il contenzioso** sul concessionario
+  («le controversie, i procedimenti giurisdizionali… nei confronti del Concessionario e dei soci»).
+  **Non ha nulla a che vedere con la giurisdizione sui dati.** Citarla sarebbe scorretto.
+- **«sede legale»** (5) e **«capitale sociale»** (2) riguardano **le parti del contratto**, non i fornitori.
+
+#### 🎯 E QUI STA LA COSA PIÙ ELOQUENTE DI TUTTE
+La Convenzione **sa scrivere clausole di controllo societario. Le ha scritte** — ma **solo sul
+concessionario italiano**:
+> «La Società di Progetto è sottoposta alla normativa dello Stato italiano in materia di **golden power**.»
+> «Di tutte le **variazioni nel capitale sociale del Concessionario**… si impegna ad informare
+> tempestivamente il Concedente… al **consenso del Concedente**.»
+
+> **Lo Stato italiano ha preteso il golden power e il consenso su ogni variazione di capitale —
+> della società italiana che gestisce i data center.
+> E non ha scritto una sola riga sul controllo societario di chi fornisce la tecnologia che ci gira dentro.**
+> Non è che non sapessero come si scrive quella clausola: **l'hanno scritta, e l'hanno puntata altrove.**
+> È **esattamente il vuoto che SecNumCloud §19.6 riempie** (A7).
+
+#### 📋 Il control plane, ora confermato su fonte contrattuale (non più solo marketing)
+La **Guida alla Convenzione** (agosto 2025), su *Hybrid Cloud on PSN site*, verbatim:
+> «Registrate nelle subscription delle Amministrazioni Utenti, che diventeranno «deployment target»
+> utilizzabili attraverso il **control plane di Azure** (e.g., Portale, Powershell, CLI, RestAPI…)
+> per mezzo del **Servizio Azure Arc**»
+> «Caratterizzate da un **Management Plane** formato da… **una componente che sfrutta i Servizi cloud
+> Azure** per le funzionalità di monitoraggio, gestione aggiornamenti, raccolta eventi di sicurezza e
+> controllo security posture.»
+👉 A50 lo rilevava sulla pagina commerciale. **Ora è in un documento della Convenzione.**
+
+E sul livello più forte, *Public Cloud PSN Managed*, la Guida conferma la separazione **operativa**:
+> «permette di implementare una logica di **separazione logica e fisica**, sia nella **gestione operativa**
+> che nel **rilascio e controllo del software di base**»
+✅ Va riconosciuto. ⚠️ **Ma è separazione operativa, non giurisdizionale**: in nessun punto si dice chi
+controlla societariamente il fornitore, né quale legge si applica.
+
+#### ⚠️ UNA DISCREPANZA MINORE, DA VERIFICARE PRIMA DI CITARE I FORNITORI
+Il **sito** indica il *Secure Public Cloud* su «Microsoft Azure, Google Cloud **e AWS**»; la **Guida alla
+Convenzione** scrive «Region pubbliche degli Hyperscaler (i.e., **Microsoft Azure e Google Cloud GCP**)»,
+**senza AWS**. Non nominare AWS in quel contesto finché non è chiarito.
+
+#### 🔴 CHE COSA MANCA ANCORA — e senza cui non si quantifica nulla in voce
+**Quale dei tre livelli sia effettivamente il più adottato dagli enti.** Nessuno dei quattro documenti lo
+dice. Finché non lo sappiamo, il film può **descrivere l'architettura** ma **non può dire «la PA italiana
+sta prevalentemente su X»**.
+
 ---
 
 ## 🟡 B — SOLIDO, DA CONFERMARE PRIMA DELLA MESSA IN ONDA
@@ -1493,6 +1587,15 @@ reperti A37 e A39, dove chi consulta il registro non le avrebbe trovate)*
     livello *Public Cloud PSN Managed*, dove la pagina ufficiale dichiara gestione da **personale PSN** e
     **controllo della Root Key**. Distinguere i tre livelli e attaccare **la parola «sovranità»**, non
     l'architettura. Dettagli e formulazione corretta in **A50**.
+
+36. **Non citare i due «giurisdizione» della Convenzione PSN come se riguardassero i dati.** Riguardano
+    il **contenzioso** sul concessionario. Usarli sarebbe scorretto e verificabile in un minuto (A51).
+37. **Non dire che il PSN «non ha il confidential computing».** Ciò che possiamo dire è che **il manuale
+    utente del Secure Public Cloud Azure non lo documenta in 64 pagine**, mentre il sito lo qualifica da
+    sé con «ove attivato». La differenza fra le due frasi è tutta (A51).
+38. **Riconoscere il BYOK prima di criticarlo.** Le chiavi sono su HSM Thales on-premises, fuori dal CSP:
+    è reale. Il limite — che l'**uso** delle chiavi passa per Managed Identity e Disk Encryption Set di
+    Azure — va detto come **punto tecnico**, non come smascheramento (A51, e vale A22).
 
 ### ⚠️ Nota d'uso — collisione di scale
 La scala **SEAL 1-4** della gara UE **non è** la nostra scala **0-4**: una misura i *fornitori*, l'altra i
