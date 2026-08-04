@@ -291,6 +291,59 @@ dagli item Osservatorio in sospeso. Issue: https://github.com/mxmap-it/mxmap.it/
 
 ---
 
+## 12. Il documento mastro sul PSN, e il vincolo di allineamento pagina ↔ PDF
+
+La pagina **`/psn/`** — *«Perché il PSN non garantisce la sovranità digitale»* — è il
+**documento mastro** del progetto sul Polo Strategico Nazionale. Non è una pagina
+divulgativa con qualche fonte in fondo: è un atto d'accusa documentato, scritto per
+essere **verificato da un tecnico**, non creduto da un lettore.
+
+### 12.1 Che cosa deve garantire, sempre
+
+1. **Ogni affermazione ha la sua fonte in linea.** Un esperto di sicurezza o di
+   infrastrutture che legge deve poter cliccare, aprire il documento e confermare —
+   senza cercare. Le fonti in fondo non bastano: servono **accanto alla frase**.
+2. **Ogni citazione è verbatim da un documento letto per intero**, mai da resoconti
+   di seconda mano. Se una fonte è stata letta solo in parte, si dichiara.
+3. **Le tre convenzioni non si mescolano mai** (sono nella sezione «Come verificare»):
+   *zero occorrenze* = ricerca full-text eseguita e dichiarata · *non documentato* =
+   letto e non trovato · *non trovato* = non siamo riusciti a individuarlo.
+4. **Le scansioni sono riproducibili**: si dichiarano l'insieme dei documenti e i
+   termini cercati, comprese le insidie di estrazione (es. il PDF della Guida alla
+   Convenzione si estrae **senza spazi**: una ricerca ingenua dà zeri falsi).
+5. **Le fonti-file sono archiviate in `progetti/documentario-cloud-act/fonti/`**,
+   perché la prova non dipenda dalla permanenza in rete dei siti dei fornitori.
+6. **Si riconosce sempre per primo ciò che funziona.** Il consolidamento del PSN è un
+   guadagno reale; Nitro, Alloy, BYOK e i controlli Google sono ingegneria seria.
+   Chi attacca ignorandolo perde il confronto — e ha ragione chi glielo fa notare.
+7. **Si giudica il quadro normativo, mai le aziende.** Né i fornitori né i partner
+   italiani sono accusati di illeciti: non ne abbiamo prova e non la cerchiamo.
+
+### 12.2 🚨 VINCOLO — pagina e PDF non si scrivono due volte
+
+Il documento uscirà anche come **PDF «PSN — Analisi dei Profili di Sovranità
+Digitale»**, accanto ai brief. **Il PDF non va mai scritto a mano in parallelo alla
+pagina**: due sorgenti divergono al primo aggiornamento, ed è esattamente l'errore che
+la regola 9 esiste per impedire.
+
+✅ **Sorgente unica**: il PDF si **genera dalla pagina costruita** (`public/psn/`), non
+da un testo gemello. Ogni modifica al layout si riflette nel PDF alla rigenerazione
+successiva, senza intervento manuale.
+⚠️ Vale anche per **i due brief** (technical advice e policy advice): le tabelle di
+sintesi che riprendono questa analisi **citano la sezione della pagina**, e i numeri
+che vi compaiono si aggiornano dalla stessa fonte.
+🔴 **Prima di ogni pubblicazione**: rigenerare il PDF e verificare che non contenga
+frasi che la pagina non contiene più (stessa tecnica della regola 9 — estrazione del
+testo e ricerca delle formulazioni superate).
+
+### 12.3 Che cosa alimenta la pagina
+
+Reperti **A50–A56** di `STATO-DELLE-CONOSCENZE.md` (PSN, Google, Oracle, Amazon,
+ANSSI) e trappole **35–47**. Ogni modifica sostanziale alla pagina va riflessa nel
+registro, e viceversa.
+
+---
+
 ## 11. Repo e contatti collegati
 
 - **MxMap.it** (fonte dati): https://github.com/mxmap-it/mxmap.it
