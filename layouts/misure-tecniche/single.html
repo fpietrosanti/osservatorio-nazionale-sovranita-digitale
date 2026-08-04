@@ -648,10 +648,103 @@
     </div>
   </div>
 
+  <!-- 8. SINTESI QUATTRO FORNITORI -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <h2 class="mb-3" id="sintesi">{{ if $isEN }}8. The four vendors, and the point where they coincide{{ else }}8. I quattro fornitori, e il punto in cui coincidono{{ end }}</h2>
+
+      <p>{{ if $isEN }}Each of the four providers used by the Italian public cloud has built something real, and each has drawn a security boundary. Read one at a time, the four look different. Read side by side, <strong>they exclude four different parties &mdash; and none of them excludes the same one</strong>.{{ else }}Ciascuno dei quattro fornitori usati dal cloud pubblico italiano ha costruito qualcosa di reale, e ciascuno ha tracciato un confine di sicurezza. Letti uno per volta i quattro sembrano diversi. Letti uno accanto all'altro, <strong>escludono quattro soggetti diversi &mdash; e nessuno dei quattro esclude lo stesso</strong>.{{ end }}</p>
+
+      <div class="table-responsive">
+        <table class="table table-bordered align-middle">
+          <thead class="table-primary"><tr>
+            <th style="width:15%">{{ if $isEN }}Vendor{{ else }}Fornitore{{ end }}</th>
+            <th style="width:23%">{{ if $isEN }}Its strongest measure{{ else }}La sua misura più forte{{ end }}</th>
+            <th style="width:31%">{{ if $isEN }}Who it genuinely excludes{{ else }}Chi esclude davvero{{ end }}</th>
+            <th>{{ if $isEN }}Who it does not exclude{{ else }}Chi non esclude{{ end }}</th>
+          </tr></thead>
+          <tbody>
+            <tr><td><strong>Microsoft</strong></td>
+              <td>{{ if $isEN }}Italian region, PSN-held keys, hybrid on PSN premises{{ else }}Region italiana, chiavi del PSN, ibrido nei locali del PSN{{ end }}</td>
+              <td>{{ if $isEN }}Other tenants, disk theft, casual staff inspection{{ else }}Gli altri clienti, il furto dei dischi, l'ispezione occasionale del personale{{ end }}</td>
+              <td class="table-danger">{{ if $isEN }}Whoever holds the control plane &mdash; declared as <strong>Azure Arc</strong> in PSN's own contractual guide{{ else }}Chi tiene il piano di controllo &mdash; dichiarato <strong>Azure Arc</strong> nella guida contrattuale del PSN{{ end }}</td></tr>
+            <tr><td><strong>Google</strong></td>
+              <td>{{ if $isEN }}Assured Workloads &mdash; residency and access policies{{ else }}Assured Workloads &mdash; policy di residenza e accesso{{ end }}</td>
+              <td>{{ if $isEN }}Resource creation outside the chosen regions, non-CMEK services{{ else }}La creazione di risorse fuori dalle region scelte, i servizi senza CMEK{{ end }}</td>
+              <td class="table-danger">{{ if $isEN }}Whoever can change the policy &mdash; a change is <strong>recorded, not prevented</strong>, and can be given an exception{{ else }}Chi può cambiare la policy &mdash; la modifica è <strong>registrata, non impedita</strong>, e può ricevere un'eccezione{{ end }}</td></tr>
+            <tr><td><strong>Amazon</strong></td>
+              <td>{{ if $isEN }}Nitro Enclaves &mdash; encrypted, isolated execution{{ else }}Nitro Enclaves &mdash; esecuzione isolata e cifrata{{ end }}</td>
+              <td>{{ if $isEN }}<strong>The customer's own parent instance</strong> &mdash; its root, its admin, its compromised code{{ else }}<strong>L'istanza padre del cliente stesso</strong> &mdash; il suo root, il suo amministratore, il suo codice compromesso{{ end }}</td>
+              <td class="table-danger">{{ if $isEN }}Whoever runs the hypervisor and can stop the instance &mdash; and signs the attestation{{ else }}Chi esegue l'hypervisor e può arrestare l'istanza &mdash; e firma l'attestazione{{ end }}</td></tr>
+            <tr><td><strong>Oracle</strong></td>
+              <td>{{ if $isEN }}Alloy &mdash; a separate realm in PSN data centres, plus <em>Operator Access Control</em>{{ else }}Alloy &mdash; realm separato nei data center del PSN, più l'<em>Operator Access Control</em>{{ end }}</td>
+              <td>{{ if $isEN }}<strong>Oracle employees</strong> &mdash; genuinely: approval, time limits, command and keystroke logging{{ else }}<strong>I dipendenti Oracle</strong> &mdash; davvero: approvazione, limiti di tempo, log dei comandi e dei tasti{{ end }}</td>
+              <td class="table-danger">{{ if $isEN }}<strong>The automation that runs as <code>root</code></strong> &mdash; excluded by Oracle's own documentation &mdash; and the update channel{{ else }}<strong>L'automazione che gira come <code>root</code></strong> &mdash; esclusa dalla documentazione di Oracle stessa &mdash; e il canale degli aggiornamenti{{ end }}</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="callout callout-highlight danger">
+        <div class="callout-title"><svg class="icon"><use href="{{ $spritesURL }}#it-warning-circle"></use></svg>
+          <span>{{ if $isEN }}Four boundaries, one gap{{ else }}Quattro confini, una sola apertura{{ end }}</span></div>
+        <p class="mb-0 fs-5">{{ if $isEN }}Read the last column downwards. Every one of those parties is <strong>the vendor itself</strong>, in a different technical guise: the control plane, the policy engine, the hypervisor, the automation. <strong>Four different measures, and each stops at the same wall.</strong>{{ else }}Si legga l'ultima colonna dall'alto in basso. Ognuno di quei soggetti è <strong>il fornitore stesso</strong>, in una veste tecnica diversa: il piano di controllo, il motore delle policy, l'hypervisor, l'automazione. <strong>Quattro misure diverse, e ciascuna si ferma allo stesso muro.</strong>{{ end }}</p>
+      </div>
+
+      <h3 class="h5 mt-4">{{ if $isEN }}8.1 How the mitigations themselves create the exposure{{ else }}8.1 Come le mitigazioni stesse creano l'esposizione{{ end }}</h3>
+      <p>{{ if $isEN }}This is the part that is easy to miss, and it is the sharpest point on this page. The American statute reaches data in a provider's <strong>possession, custody or control</strong>. Each of these mitigations, in order to work, must <strong>create a new object</strong> &mdash; and that object ends up in exactly that condition.{{ else }}È la parte che sfugge più facilmente, ed è il punto più affilato di questa pagina. La legge statunitense raggiunge i dati che si trovano in <strong>possesso, custodia o controllo</strong> del fornitore. Ognuna di queste mitigazioni, per funzionare, deve <strong>creare un nuovo oggetto</strong> &mdash; e quell'oggetto finisce esattamente in quella condizione.{{ end }}</p>
+      <div class="table-responsive">
+        <table class="table table-bordered align-middle">
+          <thead class="table-primary"><tr>
+            <th style="width:30%">{{ if $isEN }}The mitigation{{ else }}La mitigazione{{ end }}</th>
+            <th style="width:32%">{{ if $isEN }}The object it must create{{ else }}L'oggetto che deve creare{{ end }}</th>
+            <th>{{ if $isEN }}Where that object sits{{ else }}Dove sta quell'oggetto{{ end }}</th>
+          </tr></thead>
+          <tbody>
+            <tr><td>{{ if $isEN }}Encryption at rest{{ else }}Cifratura a riposo{{ end }}</td>
+              <td>{{ if $isEN }}A key that the platform must be able to <em>use</em>{{ else }}Una chiave che la piattaforma deve poter <em>usare</em>{{ end }}</td>
+              <td class="table-warning">{{ if $isEN }}In the key service, or reachable from it{{ else }}Nel servizio di chiavi, o raggiungibile da esso{{ end }}</td></tr>
+            <tr><td>{{ if $isEN }}Confidential computing{{ else }}Confidential computing{{ end }}</td>
+              <td>{{ if $isEN }}An attestation, signed by a root of trust{{ else }}Un'attestazione, firmata da una radice di fiducia{{ end }}</td>
+              <td class="table-warning">{{ if $isEN }}In the manufacturer's and the vendor's chain{{ else }}Nella catena del produttore e del fornitore{{ end }}</td></tr>
+            <tr><td>{{ if $isEN }}Isolated enclave{{ else }}Enclave isolata{{ end }}</td>
+              <td>{{ if $isEN }}A hypervisor that enforces the isolation and an instance that hosts it{{ else }}Un hypervisor che applica l'isolamento e un'istanza che lo ospita{{ end }}</td>
+              <td class="table-warning">{{ if $isEN }}Entirely with the vendor{{ else }}Interamente presso il fornitore{{ end }}</td></tr>
+            <tr><td>{{ if $isEN }}Sovereign region / data boundary{{ else }}Region sovrana / data boundary{{ end }}</td>
+              <td>{{ if $isEN }}A control plane that applies and verifies the rules{{ else }}Un piano di controllo che applica e verifica le regole{{ end }}</td>
+              <td class="table-warning">{{ if $isEN }}With the vendor &mdash; and, on the hybrid tier, <strong>named in the contract</strong>{{ else }}Presso il fornitore &mdash; e, sul livello ibrido, <strong>nominato nel contratto</strong>{{ end }}</td></tr>
+            <tr><td>{{ if $isEN }}Partner-operated realm{{ else }}Realm operato dal partner{{ end }}</td>
+              <td>{{ if $isEN }}An update channel through which the platform stays alive{{ else }}Un canale di aggiornamento attraverso cui la piattaforma resta viva{{ end }}</td>
+              <td class="table-warning">{{ if $isEN }}With the vendor, who produces the updates{{ else }}Presso il fornitore, che produce gli aggiornamenti{{ end }}</td></tr>
+            <tr><td>{{ if $isEN }}European subsidiary{{ else }}Controllata europea{{ end }}</td>
+              <td>{{ if $isEN }}A chain of corporate ownership{{ else }}Una catena di controllo societario{{ end }}</td>
+              <td class="table-danger">{{ if $isEN }}Ending with a parent company outside the Union{{ else }}Che termina in una capogruppo fuori dall'Unione{{ end }}</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="info-box-custom">
+        <p class="fs-5 mb-0">{{ if $isEN }}A mitigation does not remove the legal hook. <strong>It moves it, and gives it a new name.</strong> The data becomes unreadable and the <em>key</em> becomes reachable; the memory becomes opaque and the <em>attestation</em> becomes signable; the region becomes national and the <em>control plane</em> stays abroad. This is why adding more measures does not converge on sovereignty: each new measure adds one more object to the list of things the vendor holds.{{ else }}Una mitigazione non elimina l'appiglio giuridico. <strong>Lo sposta, e gli dà un nome nuovo.</strong> Il dato diventa illeggibile e diventa raggiungibile la <em>chiave</em>; la memoria diventa opaca e diventa firmabile l'<em>attestazione</em>; la region diventa nazionale e il <em>piano di controllo</em> resta all'estero. È per questo che aggiungere misure non converge verso la sovranità: ogni misura nuova aggiunge un oggetto in più all'elenco di ciò che il fornitore detiene.{{ end }}</p>
+      </div>
+
+      <h3 class="h5 mt-4">{{ if $isEN }}8.2 What the four have in common when they speak{{ else }}8.2 Che cosa hanno in comune i quattro quando parlano{{ end }}</h3>
+      <p>{{ if $isEN }}The pattern repeats in the language, too. Each vendor makes a strong statement, and each statement is <strong>true as written</strong> &mdash; and narrower than it sounds.{{ else }}Lo schema si ripete anche nel linguaggio. Ogni fornitore fa un'affermazione forte, e ogni affermazione è <strong>vera come è scritta</strong> &mdash; e più stretta di come suona.{{ end }}</p>
+      <ul>
+        <li>{{ if $isEN }}<strong>Microsoft</strong>, under oath: <em>&ldquo;No, I cannot guarantee it, but, once again, this has never yet occurred.&rdquo;</em> The first half is the admission; the second half is unverifiable by design.{{ else }}<strong>Microsoft</strong>, sotto giuramento: <em>&laquo;No, non posso garantirlo, ma, ancora una volta, ciò non si è ancora mai verificato.&raquo;</em> La prima metà è l'ammissione; la seconda è inverificabile per costruzione.{{ end }}</li>
+        <li>{{ if $isEN }}<strong>Amazon</strong>: <em>&ldquo;no data requests that <strong>resulted in the disclosure</strong> of content <strong>stored outside the USA</strong> from <strong>corporate or government customers</strong>&rdquo;</em>. Three restrictions in one line.{{ else }}<strong>Amazon</strong>: <em>&laquo;nessuna richiesta di dati che <strong>abbia portato alla divulgazione</strong> di contenuti <strong>archiviati fuori dagli Stati Uniti</strong> da clienti <strong>aziendali o governativi</strong>&raquo;</em>. Tre restrizioni in una riga.{{ end }}</li>
+        <li>{{ if $isEN }}<strong>Oracle</strong>: <em>&ldquo;an Oracle Alloy Operator retains full control of the data and applications&rdquo;</em> &mdash; a company statement, alongside a documentation page that excludes root automation from the access controls.{{ else }}<strong>Oracle</strong>: <em>&laquo;un operatore Oracle Alloy mantiene il pieno controllo dei dati e delle applicazioni&raquo;</em> &mdash; una dichiarazione aziendale, accanto a una pagina di documentazione che esclude l'automazione root dai controlli di accesso.{{ end }}</li>
+        <li>{{ if $isEN }}<strong>Google</strong>, in a document written for schools: <em>&ldquo;we <strong>carefully review</strong> each request&rdquo;</em>. Carefully review. <strong>Not: refuse.</strong>{{ else }}<strong>Google</strong>, in un documento scritto per le scuole: <em>&laquo;esaminiamo <strong>con attenzione</strong> ciascuna richiesta&raquo;</em>. Esaminiamo con attenzione. <strong>Non: rifiutiamo.</strong>{{ end }}</li>
+      </ul>
+      <p>{{ if $isEN }}And a silence they also share: in the official announcement of the AWS European Sovereign Cloud governance, in the Google data-boundary pages, and across 161 pages of Italian contractual documents, <strong>the American statute is not discussed at all</strong>. The jurisdictional question does not receive a weak answer. It is not put.{{ else }}E un silenzio che pure condividono: nell'annuncio ufficiale sulla governance dell'AWS European Sovereign Cloud, nelle pagine Google sui data boundary e in 161 pagine di documenti contrattuali italiani, <strong>la legge statunitense non viene mai discussa</strong>. La questione giurisdizionale non riceve una risposta debole. Non viene posta.{{ end }}</p>
+
+      <div class="alert alert-warning" role="alert">
+        <p class="small mb-0"><strong>{{ if $isEN }}What none of this proves.{{ else }}Che cosa niente di tutto questo dimostra.{{ end }}</strong> {{ if $isEN }}It does not prove that any vendor has acted improperly, nor that any Italian public data has been disclosed. We have no evidence of either, and we say so. What the four analyses establish is narrower and firmer: <strong>the measures deployed are effective against the adversaries they were designed for, and none of them was designed for a legal order served on the vendor</strong>. That is not a defect of engineering. It is the boundary of what engineering can do.{{ else }}Non dimostra che alcun fornitore abbia agito scorrettamente, né che dati pubblici italiani siano stati divulgati. Non ne abbiamo prova, e lo diciamo. Ciò che le quattro analisi stabiliscono è più stretto e più solido: <strong>le misure attivate sono efficaci contro gli avversari per cui sono state progettate, e nessuna di esse è stata progettata per un ordine giuridico notificato al fornitore</strong>. Non è un difetto dell'ingegneria. È il confine di ciò che l'ingegneria può fare.{{ end }}</p>
+      </div>
+    </div>
+  </div>
+
   <!-- CONCLUSIONE -->
   <div class="row justify-content-center mb-5">
     <div class="col-lg-10">
-      <h2 class="mb-3" id="conclusione">{{ if $isEN }}8. The conclusion, stated carefully{{ else }}8. La conclusione, detta con cura{{ end }}</h2>
+      <h2 class="mb-3" id="conclusione">{{ if $isEN }}9. The conclusion, stated carefully{{ else }}9. La conclusione, detta con cura{{ end }}</h2>
       <div class="info-box-custom">
         <p class="fs-5 mb-3">{{ if $isEN }}Encryption and confidential computing are <strong>good engineering</strong>. They defeat a wide range of real attackers: other tenants, intruders, thieves, individual rogue employees. They should be used, and a provider that offers them is doing something worthwhile.{{ else }}La cifratura e il confidential computing sono <strong>buona ingegneria</strong>. Sconfiggono una gamma ampia di attaccanti reali: gli altri clienti sulla stessa macchina, gli intrusi, i ladri, il singolo dipendente infedele. Vanno usati, e un fornitore che li offre sta facendo qualcosa di utile.{{ end }}</p>
         <p class="fs-5 mb-0">{{ if $isEN }}But they are all measures that protect you <em>from someone else</em> while you are inside a house that belongs to a third party. <strong>None of them answers the question of what happens when the owner of the house is served with an order &mdash; and is forbidden to tell you.</strong> That is not an engineering question. It is a question of which law applies, and the only known ways to change the answer are the ones written into SecNumCloud and into the letters asking for EUCS High+: where the company is established, who controls its capital, and from where the service is administered.{{ else }}Ma sono tutte misure che proteggono <em>da qualcun altro</em> mentre si è dentro una casa che appartiene a un terzo. <strong>Nessuna di esse risponde alla domanda su che cosa accade quando al padrone di casa viene notificato un ordine &mdash; e gli è vietato dirvelo.</strong> Non è una domanda di ingegneria. È una domanda su quale legge si applichi, e gli unici modi noti di cambiare la risposta sono quelli scritti in SecNumCloud e nelle lettere che chiedono l'EUCS High+: dove l'azienda è stabilita, chi ne controlla il capitale, e da dove il servizio è amministrato.{{ end }}</p>
