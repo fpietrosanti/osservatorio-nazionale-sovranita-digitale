@@ -1882,6 +1882,38 @@ reperti A37 e A39, dove chi consulta il registro non le avrebbe trovate)*
 47. **Non dire che Nitro Enclaves è inutile o mal fatto.** È buona ingegneria: protegge dall'istanza padre,
     cioè dal cliente stesso. Si dice **dove AWS traccia il confine**, non che il confine sia finto (A56).
 
+48. 🚨 **ERRORE GIURIDICO CORRETTO — il Golden Power.** Avevamo scritto che il contratto «sa scrivere
+    una clausola di controllo societario e la applica al concessionario italiano, **mai al fornitore**».
+    Implica che l'Italia **avrebbe potuto** applicarlo a Microsoft o AWS: **non poteva**, il Golden Power
+    raggiunge per legge solo entità di diritto italiano. Qualunque amministrativista lo smonta in una
+    battuta. ✅ **Formulazione corretta**: il Golden Power è stato usato dove poteva arrivare; lo strumento
+    che raggiunge il fornitore **non è il Golden Power, è il requisito di gara** — ed è esattamente quello
+    che la Francia ha scritto e l'Italia no. *(Rilievo esterno, accolto e corretto il 03/08/2026.)*
+49. 🚨 **NON dire «nel manuale la sovranità è DEFINITA come un backup mensile».** Il verbatim sta nella
+    sezione sul **servizio di backup** e dice che *uno dei due requisiti di quel servizio* è «legato alla
+    sovranità del dato». Chi obiettasse «quella è la frequenza di RPO di un backup» **avrebbe ragione sul
+    meccanismo**. ✅ **Formulazione corretta**: il manuale **attacca l'etichetta formale «sovranità del
+    dato» a una misura di copia periodica fuori sito** — è uno **svuotamento semantico**, ed è l'unico
+    punto in cui il termine viene legato a qualcosa di concreto. Più difendibile, e dice la stessa cosa.
+50. **Il solo argomento terminologico sulle «zero occorrenze» è debole**: un contratto pubblico italiano non
+    cita il CLOUD Act per nome. ✅ Va accompagnato dalla **scansione delle clausole sostanziali**, eseguita
+    il 03/08/2026 sugli stessi quattro documenti: `art. 48` **0** · `autorità giurisdizionale` **0** ·
+    `ordine di un paese terzo` **0** · `trasferimenti internazionali` **0** · `rogatoria` **0** ·
+    `assistenza giudiziaria` **0** · `autorità estere` **0** · `extra-europee` **0**.
+    ⚠️ Le due occorrenze di «richiesta di accesso» riguardano lo **Zero Trust sulle identità**: citarne il
+    conteggio senza leggere il contesto sarebbe stato un errore.
+51. 🚨 **NON dire che Bleu e S3NS sono «entità 100% europee».** SecNumCloud §19.6 fissa il tetto alla
+    quota extra-UE al **24%**, non a zero: sono a **controllo** europeo, non al 100% europee. E **Bleu non
+    è qualificata**: risulta *in istruttoria*. Presentarla come sovranità realizzata ripete l'errore già
+    vietato per la Danimarca e per l'EUCS. *(Rilievo esterno **respinto** il 03/08/2026.)*
+52. 🚨 **NON usare una colonna «soggetto a CLOUD Act / FISA 702»** in nessuna tabella. Il DOJ lo qualifica
+    come accertamento **caso per caso** e non esiste giurisprudenza nota (vale A22). ✅ La colonna corretta
+    è **«esposizione dichiarata o non esclusa»**, con l'appiglio che regge: il verbatim di Hadinger sotto
+    giuramento e l'assenza di qualunque esclusione contrattuale. *(Rilievo esterno **respinto**.)*
+53. ⚠️ **NON affermare che una National Security Letter possa obbligare a veicolare aggiornamenti firmware
+    o dump della memoria.** È verosimile ma **non documentato** e non abbiamo la fonte. Ciò che abbiamo è
+    più forte perché lo scrive l'auditor: nessuna garanzia su modifiche tecniche «scelte o **imposte**».
+
 ### ⚠️ Nota d'uso — collisione di scale
 La scala **SEAL 1-4** della gara UE **non è** la nostra scala **0-4**: una misura i *fornitori*, l'altra i
 *modelli*. Non sovrapporle mai nel racconto.
