@@ -175,6 +175,53 @@
     </div>
   </div>
 
+  <!-- PSN E SOVRANITA' -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <h2 class="mb-4">{{ if $isEN }}The national cloud programme and sovereignty{{ else }}Il cloud di Stato e la sovranità{{ end }}</h2>
+
+      <div class="callout callout-highlight danger">
+        <div class="callout-title"><svg class="icon"><use href="{{ $spritesURL }}#it-warning-circle"></use></svg>
+          <span>{{ if $isEN }}The finding, in five lines{{ else }}Il giudizio, in cinque righe{{ end }}</span></div>
+        <p class="fs-5 mb-3">{{ if $isEN }}The <strong>Polo Strategico Nazionale</strong> delivers <strong>real consolidation</strong> and <strong>real security engineering</strong>. It does <strong>not</strong> deliver digital sovereignty, and it is presented as if it did.{{ else }}Il <strong>Polo Strategico Nazionale</strong> realizza <strong>un consolidamento reale</strong> e <strong>ingegneria di sicurezza reale</strong>. <strong>Non</strong> realizza la sovranità digitale, ed è presentato come se lo facesse.{{ end }}</p>
+        <ul class="mb-0">
+          <li>{{ if $isEN }}In its own user manual, the label <strong>&ldquo;data sovereignty&rdquo; is attached to a periodic off-site backup</strong>.{{ else }}Nel suo stesso manuale utente, l'etichetta <strong>&laquo;sovranità del dato&raquo; è attribuita a una copia di backup periodica fuori sito</strong>.{{ end }}</li>
+          <li>{{ if $isEN }}Across <strong>161 pages</strong> of contractual documents, neither the terms nor the <strong>substantive safeguard clauses</strong> appear: CLOUD Act, extraterritorial, nationality, corporate control, Article 48 GDPR, third-country order &mdash; all <strong>zero</strong>.{{ else }}In <strong>161 pagine</strong> di documenti contrattuali non compaiono né i termini né le <strong>clausole sostanziali di salvaguardia</strong>: CLOUD Act, extraterritoriale, nazionalità, controllo societario, articolo 48 GDPR, ordine di un paese terzo &mdash; tutte a <strong>zero</strong>.{{ end }}</li>
+          <li>{{ if $isEN }}The two technical measures relied upon &mdash; <strong>own key management and confidential computing</strong> &mdash; are declared insufficient for this purpose by the <strong>French agency that wrote the European sovereignty standard</strong>.{{ else }}Le due misure tecniche su cui si fa affidamento &mdash; <strong>gestione delle chiavi in proprio e confidential computing</strong> &mdash; sono dichiarate insufficienti a questo scopo dall'<strong>agenzia francese che ha scritto lo standard europeo di sovranità</strong>.{{ end }}</li>
+          <li>{{ if $isEN }}<strong>No offering</strong> used by the programme holds a sovereignty qualification, and none is under assessment. In France, <strong>one is qualified and another is being assessed</strong>.{{ else }}<strong>Nessuna offerta</strong> usata dal programma possiede una qualificazione di sovranità, e nessuna è in istruttoria. In Francia <strong>una è qualificata e un'altra è in istruttoria</strong>.{{ end }}</li>
+          <li>{{ if $isEN }}The instrument that would reach the provider is <strong>the procurement requirement</strong> &mdash; not golden power, which by law reaches only Italian entities. That requirement was never written.{{ else }}Lo strumento che raggiungerebbe il fornitore è <strong>il requisito di gara</strong> &mdash; non il golden power, che per legge raggiunge solo entità italiane. Quel requisito non è mai stato scritto.{{ end }}</li>
+        </ul>
+      </div>
+
+      <div class="callout success mt-4">
+        <div class="callout-title"><svg class="icon"><use href="{{ $spritesURL }}#it-check-circle"></use></svg>
+          <span>{{ if $isEN }}What must be said first{{ else }}Ciò che va detto per primo{{ end }}</span></div>
+        <p class="mb-0">{{ if $isEN }}Consolidating thousands of scattered server rooms into supervised data centres is a <strong>genuine gain</strong> in physical security, continuity and management &mdash; whatever software runs on top. Encryption, segmentation and access control reduce real risks. <strong>Any criticism that ignores this is not worth making.</strong> The objection is narrower: these measures answer a security question, and sovereignty is a jurisdictional one.{{ else }}Consolidare migliaia di sale server sparse in data center presidiati è un <strong>guadagno reale</strong> di sicurezza fisica, continuità e gestione &mdash; qualunque software ci giri sopra. Cifratura, segmentazione e controllo degli accessi riducono rischi veri. <strong>Una critica che lo ignori non merita di essere fatta.</strong> L'obiezione è più stretta: quelle misure rispondono a una domanda di sicurezza, e la sovranità è una domanda giurisdizionale.{{ end }}</p>
+      </div>
+
+      <h3 class="h5 mt-4">{{ if $isEN }}Six measures, in order of feasibility{{ else }}Sei misure, in ordine di praticabilità{{ end }}</h3>
+      <p>{{ if $isEN }}Each rests on an instrument that <strong>already exists</strong>. None requires abandoning the current providers.{{ else }}Ognuna poggia su uno strumento che <strong>esiste già</strong>. Nessuna richiede di abbandonare i fornitori attuali.{{ end }}</p>
+      <ol>
+        <li>{{ if $isEN }}<strong>Publish which tier each administration uses.</strong> It costs nothing, and its absence prevents anyone &mdash; Parliament included &mdash; from measuring the exposure.{{ else }}<strong>Pubblicare quale livello usa ciascuna amministrazione.</strong> Non costa nulla, e la sua assenza impedisce a chiunque &mdash; Parlamento compreso &mdash; di misurare l'esposizione.{{ end }}</li>
+        <li>{{ if $isEN }}<strong>Use the 12 January 2027 deadline</strong>, when European law already in force prohibits charging the cost of leaving a cloud.{{ else }}<strong>Usare la scadenza del 12 gennaio 2027</strong>, quando una legge europea già in vigore vieta di far pagare il costo di uscire da un cloud.{{ end }}</li>
+        <li>{{ if $isEN }}<strong>Map and publish the telemetry</strong> &mdash; which components transmit outside the perimeter, and what.{{ else }}<strong>Mappare e pubblicare la telemetria</strong> &mdash; quali componenti trasmettono fuori dal perimetro, e che cosa.{{ end }}</li>
+        <li>{{ if $isEN }}<strong>Require approval, not visibility, over platform changes</strong>, with quarantine and validation before release.{{ else }}<strong>Pretendere l'approvazione, non la visibilità, sulle modifiche di piattaforma</strong>, con quarantena e validazione prima del rilascio.{{ end }}</li>
+        <li>{{ if $isEN }}<strong>Write an establishment, ownership and administration requirement</strong> for the highest data classification. It need not be the French model &mdash; but it has to be written.{{ else }}<strong>Scrivere un requisito di sede, proprietà e amministrazione</strong> per la classificazione più alta. Non dev'essere il modello francese &mdash; ma dev'essere scritto.{{ end }}</li>
+        <li>{{ if $isEN }}<strong>Join the European purchasing arrangement</strong>, which a local authority may do even if its State does not &mdash; bearing in mind that the regulation is <strong>not yet in force</strong>.{{ else }}<strong>Aderire alla centrale d'acquisto europea</strong>, cosa che un ente locale può fare anche se il proprio Stato non aderisce &mdash; tenendo presente che il regolamento <strong>non è ancora in vigore</strong>.{{ end }}</li>
+      </ol>
+
+      <div class="info-box-custom mt-4">
+        <p class="mb-0">{{ if $isEN }}<strong>Accepting a residual risk is a legitimate policy choice.</strong> Describing that risk as absent is a different thing &mdash; and it is the only thing our analysis argues against. The full documentation, with primary sources, hashes of every file examined and the method for reproducing every check, is in the dedicated analysis.{{ else }}<strong>Accettare un rischio residuo è una scelta politica legittima.</strong> Descrivere quel rischio come inesistente è un'altra cosa &mdash; ed è l'unica contro cui la nostra analisi argomenta. La documentazione completa, con le fonti primarie, le impronte di ogni file esaminato e il metodo per riprodurre ogni verifica, è nell'analisi dedicata.{{ end }}</p>
+        <p class="mt-3 mb-0"><a class="btn btn-primary" href="{{ "psn/" | relLangURL }}">
+          <svg class="icon icon-white icon-sm me-1"><use href="{{ $spritesURL }}#it-file"></use></svg>
+          {{ if $isEN }}Read the full analysis{{ else }}Leggi l'analisi completa{{ end }}</a>
+          <a class="btn btn-outline-primary ms-2" href="{{ if $isEN }}{{ "pdf/psn-digital-sovereignty-profile-analysis-en.pdf" | relURL }}{{ else }}{{ "pdf/psn-analisi-profili-sovranita-digitale.pdf" | relURL }}{{ end }}" download>
+            <svg class="icon icon-primary icon-sm me-1"><use href="{{ $spritesURL }}#it-download"></use></svg>
+            {{ if $isEN }}PDF{{ else }}PDF{{ end }}</a></p>
+      </div>
+    </div>
+  </div>
+
   <!-- Contesto normativo -->
   <div class="row justify-content-center mb-5">
     <div class="col-lg-10">

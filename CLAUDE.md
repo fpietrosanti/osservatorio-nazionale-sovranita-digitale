@@ -326,8 +326,17 @@ Digitale»**, accanto ai brief. **Il PDF non va mai scritto a mano in parallelo 
 pagina**: due sorgenti divergono al primo aggiornamento, ed è esattamente l'errore che
 la regola 9 esiste per impedire.
 
-✅ **Sorgente unica**: il PDF si **genera dalla pagina costruita** (`public/psn/`), non
-da un testo gemello. Ogni modifica al layout si riflette nel PDF alla rigenerazione
+✅ **Sorgente unica, già realizzata**: il PDF si **genera dalla pagina costruita**
+(`public/psn/`), non da un testo gemello. Lo strumento è **`tools/genera-pdf-psn.py`**:
+
+```
+hugo --quiet --gc
+python tools/genera-pdf-psn.py --lang both
+```
+
+Produce `static/pdf/psn-analisi-profili-sovranita-digitale.pdf` e la versione inglese,
+leggendo l'HTML renderizzato: titoli, paragrafi, tabelle, riquadri e link diventano il
+PDF senza che nessuno riscriva il testo. Ogni modifica al layout si riflette nel PDF alla rigenerazione
 successiva, senza intervento manuale.
 ⚠️ Vale anche per **i due brief** (technical advice e policy advice): le tabelle di
 sintesi che riprendono questa analisi **citano la sezione della pagina**, e i numeri
