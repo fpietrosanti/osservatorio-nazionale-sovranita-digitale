@@ -1914,6 +1914,46 @@ reperti A37 e A39, dove chi consulta il registro non le avrebbe trovate)*
     o dump della memoria.** È verosimile ma **non documentato** e non abbiamo la fonte. Ciò che abbiamo è
     più forte perché lo scrive l'auditor: nessuna garanzia su modifiche tecniche «scelte o **imposte**».
 
+54. 🚨 **ERRORE TECNICO CORRETTO — la crittografia omomorfica.** Avevamo scritto: «non esiste una
+    scorciatoia: **una CPU non può sommare due numeri cifrati senza prima decifrarli**». È **falso come
+    proposizione universale**: crittografia omomorfica, calcolo multiparte sicuro e *privacy-preserving
+    computation* fanno esattamente quello. Un crittografo lo vede alla prima lettura, e il costo non è la
+    frase ma **la credibilità dell'intera pagina**. ✅ Formulazione corretta: **nei workload cloud ordinari**
+    il dato dev'essere in chiaro dentro un contesto di esecuzione; le tecniche su dati cifrati esistono ma
+    hanno maturità diverse e **non sono la base delle architetture qui descritte**.
+    *(Rilievo esterno accolto il 03/08/2026.)*
+55. 🚨 **Nitro System e Nitro Enclaves non sono la stessa cosa.** *Enclaves* isola l'enclave
+    dall'**istanza padre** (ambiente del cliente); il *sistema Nitro* è l'architettura di piattaforma, ed è
+    l'oggetto della dichiarazione «nessuno, inclusi i dipendenti AWS». **Rispondere a un'affermazione sul
+    sistema con la documentazione delle enclave è un errore di categoria.** La risposta buona alla
+    dichiarazione sul sistema è **l'audit NCC**, che ce l'abbiamo (A21).
+56. **Non titolare «il meccanismo di verifica è stato rotto».** Il reperto riguarda **un modo diffuso di
+    legare l'attestazione a un canale TLS**, non l'attestazione in generale. Il corpo del testo lo diceva
+    già correttamente: **era il titolo a sovraestendere**, e i titoli sono ciò che resta.
+57. **Non scrivere «società di comodo».** Si scrive **«veicolo societario preesistente»**. Per un giudizio
+    più forte servirebbero statuto, patti parasociali, diritti di veto e composizione del consiglio —
+    **nulla di ciò è stato letto** (estende la trappola 45).
+58. 🎯 **Le qualificazioni si attaccano alle OFFERTE, non alle aziende.** Dire «Microsoft 0 nel catalogo»
+    invita l'inferenza sbagliata: **Bleu, tecnologia Microsoft, è in istruttoria**, e **S3NS, tecnologia
+    Google, è qualificata**. ✅ Lettura corretta: **nessuna offerta usata dal programma italiano possiede
+    quella qualificazione, e nessuna è in istruttoria** — non che quelle tecnologie non possano sostenerne
+    una. I casi francesi dimostrano il contrario.
+59. **Il *gag order* è possibile, non automatico.** Va scritto «dove viene emesso, e non ogni ordine ne
+    porta uno». La nostra tesi regge lo stesso ed è più difendibile.
+60. ⚠️ **Non dire «l'Italia non si è mai posta il problema».** I documenti di **strategia cloud nazionale**
+    — che **non abbiamo letto** — risultano riconoscere il rischio extra-UE, e l'Italia è **coautrice dei
+    criteri europei di immunità nel 2021** (A15). ✅ La distinzione corretta, che regge: **riconoscere un
+    rischio in una strategia non è tradurlo in requisiti vincolanti, criteri di esclusione, clausole
+    contrattuali e conseguenze**. Il nostro reperto è **limitato al corpus contrattuale**.
+61. **Non dichiarare che «tutte le citazioni sono da fonti primarie»** se si cita una testata. ✅ Formula:
+    *sono state privilegiate fonti primarie; le fonti giornalistiche sono usate per contesto o come strada
+    verso il documento originale*, mai come prova.
+62. ⚠️ **Non sostenere che un ordine giuridico superi «sempre» qualunque misura tecnica.** Un ordine non
+    rompe la crittografia né crea capacità che il destinatario non ha. ✅ Ciò che regge: le misure tecniche
+    **riducono ciò che il fornitore detiene**, ma non eliminano obblighi di **assistenza prospettica**,
+    accesso ai **metadati**, controllo del **software** e **disponibilità** del servizio. E nel caso che ci
+    interessa è l'ANSSI a dire che quelle misure non soddisfano il §19.6.
+
 ### ⚠️ Nota d'uso — collisione di scale
 La scala **SEAL 1-4** della gara UE **non è** la nostra scala **0-4**: una misura i *fornitori*, l'altra i
 *modelli*. Non sovrapporle mai nel racconto.
