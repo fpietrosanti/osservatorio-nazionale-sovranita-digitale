@@ -1258,6 +1258,82 @@ Microsoft ha costituito **Bleu** ed è in istruttoria; Google ha costituito **S3
 (intestazione a **Thales Cloud Sécurisé**: il titolare è il socio europeo di controllo). **Oracle ha
 annunciato una discussione.**
 
+### A56. 🎯 NITRO ENCLAVES PROTEGGE DAL CLIENTE, NON DA AWS — e la «nuova capogruppo europea» è del 2021
+**AFFIDABILITÀ: 🟢 ALTA** — documentazione AWS, annuncio ufficiale AWS, e **registro delle imprese tedesco
+verificato su due servizi indipendenti**.
+
+#### 🔥 Il modello di minaccia, verbatim dalla documentazione AWS
+> «i dati e le applicazioni dentro l'enclave non possono essere acceduti da processi, applicazioni o utenti
+> (**root o admin**) **dell'istanza padre**» · «Il Nitro Hypervisor garantisce che **l'istanza padre** non
+> abbia accesso alle vCPU e alla memoria isolate dell'enclave»
+
+👉 **Il soggetto escluso è il cliente stesso** — il proprio root, il proprio codice compromesso.
+**AWS non è nominata.** È una difesa contro sé stessi, ed è buona ingegneria. **Non è la difesa di cui
+parla il dibattito sulla sovranità.**
+
+📌 Due dettagli dalla stessa pagina: «le enclave sono attive **solo mentre l'istanza padre è in stato
+running**; se l'istanza è **arrestata o terminata**, le enclave sono terminate» — chi controlla l'hypervisor
+controlla l'interruttore. E l'attestazione è integrata con **AWS KMS**, il servizio di chiavi gestito da AWS.
+
+#### ⚖️ Come si tratta il «nemmeno i dipendenti AWS»
+AWS fa **la dichiarazione più netta dei tre**: il Nitro System «fornisce un confine tale che **nessuno,
+inclusi i dipendenti AWS, può accedere ai carichi di lavoro o ai dati**».
+🚨 **Non si smentisce: si mostra che cosa la sostiene.** È l'audit NCC (**A21**), che dichiara da sé
+quattro limiti — pagato da AWS, *design review* **senza test**, **fuori perimetro** il control plane EC2,
+l'hypervisor, il firmware e le Nitro Card, e **nessuna garanzia** su modifiche tecniche future «scelte o
+**imposte**».
+> **La dichiarazione descrive un progetto. L'audit di quel progetto esclude espressamente il nostro scenario.**
+Contrappeso indipendente — **Trail of Bits**: «devi fidarti completamente di AWS».
+
+#### 🇩🇪 LA STRUTTURA TEDESCA, E CHE COSA DICE IL REGISTRO
+✅ **Da riconoscere**: sul piano societario Amazon ha fatto **più di Google e Oracle in Italia**. Annuncio
+AWS: «una nuova capogruppo e **tre controllate costituite in Germania**», direzione di «cittadini UE
+residenti nell'UE», consiglio consultivo di quattro cittadini UE «fra cui **almeno un membro indipendente
+non affiliato ad Amazon**», «legalmente obbligato ad agire nell'interesse dell'AWS European Sovereign
+Cloud». Prima region: **Brandeburgo**.
+
+🔥 **Ma il registro racconta un'altra storia** — *Amtsgericht Potsdam, HRB 40853*, verificato su due
+servizi di registro indipendenti:
+| Data | Iscrizione |
+|---|---|
+| **12-13.08.2021** | costituita come **SCUR-Alpha 1391 GmbH** · capitale **25.000 €** |
+| **21.10.2021** | rinominata **Amazon Germany Holdco 1 GmbH** |
+| **23.07.2025** | rinominata **AWS European Sovereign Cloud GmbH**, sede a Potsdam |
+| **17.06.2025 → 03.12.2025** | **Kathrin Renz** — l'AD indicata nell'annuncio — nominata e poi **cessata** |
+| oggi | **Stephane Israel** (14.11.2025), **Stefan A. Höchbauer** (21.01.2026) |
+| oggetto | «la partecipazione in società che… supportano servizi di hosting di dati» |
+
+> **La «nuova capogruppo europea» è una società di comodo del 2021 che fino al luglio 2025 si chiamava
+> _Amazon Germany Holdco 1 GmbH_**, con il capitale minimo di legge e un oggetto sociale di holding.
+> E **l'amministratrice presentata come volto della governance europea ha lasciato in circa sei mesi.**
+
+🚨 **TRAPPOLA 45 — non presentare la società di comodo come uno scandalo.** Usare una società già
+registrata e il capitale minimo di legge è **prassi ordinaria in Germania** e non prova malafede. Il punto
+non è la prassi: è **la distanza fra quella prassi e il linguaggio dell'annuncio**.
+🔴 **E un limite nostro, dichiarato**: l'**elenco dei soci è a pagamento e non l'abbiamo letto**.
+**Non indichiamo alcuna percentuale di proprietà.** Fonti secondarie convergenti indicano il 100% ad
+Amazon.com Inc., ma **finché non leggiamo la _Gesellschafterliste_ non lo scriviamo**.
+
+#### 📝 La frase sul «non è mai successo», scritta meglio di quella di Microsoft
+> «dal 2020 non ci sono state richieste di dati ad AWS che **abbiano portato alla divulgazione** di contenuti
+> **archiviati fuori dagli Stati Uniti** da clienti **aziendali o governativi** al governo statunitense»
+
+**Tre restrizioni in una riga**: non dice che non ci siano state *richieste*, ma che nessuna *ha portato a
+divulgazione*; solo contenuti *fuori dagli USA*; solo clienti *aziendali o governativi*. Stessa classe del
+verbatim Carniaux, e inverificabile per la stessa ragione.
+
+#### 📉 E i due silenzi
+- L'annuncio AWS sulla governance **non tratta in alcun punto il CLOUD Act**.
+- Nel catalogo ufficiale ANSSI: **Amazon 0 · AWS 0**. Né qualificata né in istruttoria.
+> Microsoft ha costituito **Bleu** ed è in istruttoria; Google ha costituito **S3NS** ed è qualificata.
+> **Amazon ha costituito una GmbH tedesca e non l'ha portata alla qualificazione francese.**
+
+#### ✅ E la domanda PSN/AWS è sciolta
+Era aperta dal primo giorno: il sito PSN indicava AWS, la Guida alla Convenzione no. **Il listino risolve**:
+«integrazione **4° cloud service provider AWS**» (2024), e il *Secure Public Cloud* è basato sui servizi
+pubblici «degli hyperscaler Microsoft Azure, Google Cloud, **AWS** e Oracle, con region in territorio
+italiano». **La Guida è semplicemente anteriore all'integrazione.**
+
 ---
 
 ## 🟡 B — SOLIDO, DA CONFERMARE PRIMA DELLA MESSA IN ONDA
@@ -1796,6 +1872,15 @@ reperti A37 e A39, dove chi consulta il registro non le avrebbe trovate)*
 44. ⚠️ **L'assenza di qualificazione ANSSI non prova che una soluzione sia inadeguata.** Prova che **non è
     mai stata misurata con quel metro** — ed è più difendibile. Vale anche il simmetrico: **non abbiamo
     trovato** analisi ANSSI su Alloy, il che non significa che non esistano (A55, regola 10).
+
+45. **Non presentare la società di comodo di AWS come uno scandalo.** Usare una GmbH già registrata e il
+    capitale minimo è **prassi ordinaria in Germania**. Il punto è **la distanza fra la prassi e il
+    linguaggio dell'annuncio**, non la prassi (A56).
+46. 🔴 **Non indicare percentuali di proprietà di AWS European Sovereign Cloud GmbH.** L'elenco dei soci è
+    a pagamento e **non lo abbiamo letto**. Si cita ciò che il registro mostra: il nome portato fino al
+    luglio 2025 (A56, regola 10).
+47. **Non dire che Nitro Enclaves è inutile o mal fatto.** È buona ingegneria: protegge dall'istanza padre,
+    cioè dal cliente stesso. Si dice **dove AWS traccia il confine**, non che il confine sia finto (A56).
 
 ### ⚠️ Nota d'uso — collisione di scale
 La scala **SEAL 1-4** della gara UE **non è** la nostra scala **0-4**: una misura i *fornitori*, l'altra i
