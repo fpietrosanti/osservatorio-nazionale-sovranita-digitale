@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $spritesURL := "https://cdn.jsdelivr.net/npm/bootstrap-italia@2.18.1/dist/svg/sprites.svg" }}
+{{ $spritesURL := (printf "%s" ("vendor/bootstrap-italia/svg/sprites.svg" | relURL)) }}
 {{ $repo := "https://github.com/mxmap-it/osservatorio-nazionale-sovranita-digitale/blob/main/progetti/documentario-cloud-act" }}
 <div class="container-xxl section-spacing-lg">
 

@@ -23,7 +23,7 @@
             {{ with .Params.pdf }}
             <a class="read-more" href="{{ . | relURL }}" download>
               <span class="text">{{ i18n "downloadPdfShort" }}</span>
-              <svg class="icon"><use href="https://cdn.jsdelivr.net/npm/bootstrap-italia@2.18.1/dist/svg/sprites.svg#it-download"></use></svg>
+              <svg class="icon"><use href="{{ "vendor/bootstrap-italia/svg/sprites.svg" | relURL }}#it-download"></use></svg>
             </a>
             {{ end }}
           </div>

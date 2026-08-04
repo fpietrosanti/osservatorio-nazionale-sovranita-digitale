@@ -1,4 +1,4 @@
-{{ $spritesURL := "https://cdn.jsdelivr.net/npm/bootstrap-italia@2.18.1/dist/svg/sprites.svg" }}
+{{ $spritesURL := (printf "%s" ("vendor/bootstrap-italia/svg/sprites.svg" | relURL)) }}
 <header class="it-header-wrapper" data-bs-target="#header-nav1">
   <div class="it-header-slim-wrapper">
     <div class="container-xxl">

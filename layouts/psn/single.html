@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{- $isEN := eq site.Language.Lang "en" -}}
-{{ $spritesURL := "https://cdn.jsdelivr.net/npm/bootstrap-italia@2.18.1/dist/svg/sprites.svg" }}
+{{ $spritesURL := (printf "%s" ("vendor/bootstrap-italia/svg/sprites.svg" | relURL)) }}
 <div class="container-xxl section-spacing-lg">
 
   <div class="row justify-content-center mb-4">
@@ -252,6 +252,10 @@
 
       <div class="alert alert-warning" role="alert">
         <p class="small mb-0">{{ if $isEN }}<strong>Who is writing, and in what capacity.</strong> This Observatory is an <strong>independent project</strong>. It is <strong>not a public body, not an authority and not an agency</strong>, and nothing here carries institutional standing: the analysis is worth exactly what its sources are worth, which is why they are all listed with their hashes. The name describes the scope of the subject examined, not a public mandate.{{ else }}<strong>Chi scrive, e a che titolo.</strong> Questo Osservatorio è un <strong>progetto indipendente</strong>. <strong>Non è un ente pubblico, non è un'autorità e non è un'agenzia</strong>, e nulla di quanto scritto qui ha valore istituzionale: l'analisi vale esattamente quanto valgono le sue fonti, ed è per questo che sono elencate tutte con le rispettive impronte. Il nome descrive l'ampiezza della materia esaminata, non un mandato pubblico.{{ end }}</p>
+      </div>
+
+      <div class="alert alert-warning" role="alert">
+        <p class="small mb-0">{{ if $isEN }}<strong>And a point of consistency we owe the reader.</strong> A site that criticises dependence on non-European infrastructure while loading its own fonts, stylesheets and icons from third-party servers would be arguing against itself. <strong>This page requests nothing from any third party.</strong> Typeface, stylesheet, script and icon sprite are served from this domain: no visitor IP address leaves for a server outside our control in order to read this analysis. It can be checked in thirty seconds with the browser's network panel &mdash; and we invite you to.{{ else }}<strong>E un punto di coerenza che dobbiamo al lettore.</strong> Un sito che critica la dipendenza da infrastrutture non europee mentre carica i propri caratteri, fogli di stile e icone da server di terze parti argomenterebbe contro sé stesso. <strong>Questa pagina non richiede nulla ad alcun soggetto terzo.</strong> Carattere tipografico, foglio di stile, script e icone sono serviti da questo dominio: nessun indirizzo IP di chi legge parte verso un server fuori dal nostro controllo per leggere questa analisi. Si verifica in trenta secondi con il pannello di rete del browser &mdash; e vi invitiamo a farlo.{{ end }}</p>
       </div>
 
       <div class="callout callout-highlight">

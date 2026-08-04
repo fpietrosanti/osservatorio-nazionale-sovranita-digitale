@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $isEN := eq site.Language.Lang "en" }}
-{{ $spritesURL := "https://cdn.jsdelivr.net/npm/bootstrap-italia@2.18.1/dist/svg/sprites.svg" }}
+{{ $spritesURL := (printf "%s" ("vendor/bootstrap-italia/svg/sprites.svg" | relURL)) }}
 {{ $kpi := site.Data.kpi }}
 {{ $sovColors := dict "extra_eu" "#D9364F" "it" "#0066CC" "eu_non_it" "#1D9E75" "unknown" "#9AA6B2" }}
 <div class="container-xxl section-spacing-lg">
