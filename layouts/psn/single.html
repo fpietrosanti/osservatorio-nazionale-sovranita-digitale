@@ -141,7 +141,9 @@
           <li><a href="#chiavi">{{ if $isEN }}And the keys? The same problem, one level down{{ else }}E le chiavi? Lo stesso problema, un piano più sotto{{ end }}</a></li>
           <li><a href="#categoria">{{ if $isEN }}Why a technical measure cannot solve a legal problem{{ else }}Perché una misura tecnica non può risolvere un problema giuridico{{ end }}</a></li>
           <li><a href="#obiezioni-sez">{{ if $isEN }}The objections, one by one{{ else }}Le obiezioni, una per una{{ end }}</a></li>
+          <li><a href="#scenari">{{ if $isEN }}Seven scenarios, graded{{ else }}Sette scenari, graduati{{ end }}</a></li>
           <li><a href="#steelman">{{ if $isEN }}The best arguments in favour of the programme{{ else }}Le migliori argomentazioni a favore del programma{{ end }}</a></li>
+          <li><a href="#raccomandazioni">{{ if $isEN }}What could be done &mdash; six measures{{ else }}Che cosa si potrebbe fare &mdash; sei misure{{ end }}</a></li>
           <li><a href="#conclusione">{{ if $isEN }}The conclusion, stated carefully{{ else }}La conclusione, detta con cura{{ end }}</a></li>
         </ol>
       </div>
@@ -990,10 +992,61 @@
     </div>
   </div>
 
+  <!-- SCENARI -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <h2 class="mb-3" id="scenari">{{ if $isEN }}16. Seven scenarios, graded{{ else }}16. Sette scenari, graduati{{ end }}</h2>
+      <p>{{ if $isEN }}A binary verdict &mdash; sovereign or not sovereign &mdash; is easier to write and easier to refute. What follows is the same evidence organised by <strong>threat scenario</strong>, because the programme performs very differently across them. <strong>In three of the seven it performs well</strong>; that is not a concession, it is the result.{{ else }}Un verdetto binario &mdash; sovrano o non sovrano &mdash; è più facile da scrivere e più facile da confutare. Segue la stessa evidenza organizzata per <strong>scenario di minaccia</strong>, perché il programma si comporta in modo molto diverso da uno all'altro. <strong>In tre dei sette si comporta bene</strong>: non è una concessione, è il risultato.{{ end }}</p>
+      <div class="table-responsive">
+        <table class="table table-bordered align-middle small">
+          <thead class="table-primary"><tr>
+            <th style="width:19%">{{ if $isEN }}Scenario{{ else }}Scenario{{ end }}</th>
+            <th style="width:27%">{{ if $isEN }}Measure declared{{ else }}Misura dichiarata{{ end }}</th>
+            <th style="width:27%">{{ if $isEN }}Public evidence{{ else }}Prova pubblica{{ end }}</th>
+            <th>{{ if $isEN }}Residual risk{{ else }}Rischio residuo{{ end }}</th>
+          </tr></thead>
+          <tbody>
+            <tr class="table-success"><td><strong>A</strong> &mdash; {{ if $isEN }}Ordinary access by a service administrator{{ else }}Accesso ordinario di un amministratore del servizio{{ end }}</td>
+              <td>{{ if $isEN }}Italian operating staff on the managed tier; Oracle's <em>Operator Access Control</em> with approval, time limits and command logging.{{ else }}Personale operativo italiano sul livello managed; <em>Operator Access Control</em> di Oracle con approvazione, limiti di tempo e log dei comandi.{{ end }}</td>
+              <td>{{ if $isEN }}Documented in vendor and programme sources.{{ else }}Documentata in fonti del fornitore e del programma.{{ end }}</td>
+              <td>{{ if $isEN }}<strong>Low.</strong> Root automation is excluded from those controls, by Oracle's own statement.{{ else }}<strong>Basso.</strong> L'automazione root è esclusa da quei controlli, per dichiarazione di Oracle.{{ end }}</td></tr>
+            <tr class="table-success"><td><strong>B</strong> &mdash; {{ if $isEN }}Provider compromise or vulnerability{{ else }}Compromissione o vulnerabilità del fornitore{{ end }}</td>
+              <td>{{ if $isEN }}Segmentation, encryption at rest with keys in a customer-controlled HSM, Nitro isolation, Zero Trust, network without public internet.{{ else }}Segmentazione, cifratura a riposo con chiavi in HSM controllato dal cliente, isolamento Nitro, Zero Trust, rete senza internet pubblico.{{ end }}</td>
+              <td>{{ if $isEN }}Documented, and technically sound.{{ else }}Documentate, e tecnicamente valide.{{ end }}</td>
+              <td class="table-success">{{ if $isEN }}<strong>Genuinely reduced.</strong> This is what these measures are built for, and they work.{{ else }}<strong>Realmente ridotto.</strong> È ciò per cui queste misure sono costruite, e funzionano.{{ end }}</td></tr>
+            <tr class="table-success"><td><strong>C</strong> &mdash; {{ if $isEN }}Legal order served on the Italian party{{ else }}Ordine giuridico al soggetto italiano{{ end }}</td>
+              <td>{{ if $isEN }}Italian and European law, national oversight, golden power on the concessionaire.{{ else }}Legge italiana ed europea, vigilanza nazionale, golden power sul concessionario.{{ end }}</td>
+              <td>{{ if $isEN }}Documented in the concession agreement.{{ else }}Documentata nella convenzione di concessione.{{ end }}</td>
+              <td class="table-success">{{ if $isEN }}<strong>Not the subject of this analysis.</strong> An order under Italian or EU law follows Italian or EU safeguards. Nothing here disputes that.{{ else }}<strong>Non è l'oggetto di questa analisi.</strong> Un ordine di diritto italiano o europeo segue garanzie italiane o europee. Nulla qui lo contesta.{{ end }}</td></tr>
+            <tr class="table-danger"><td><strong>D</strong> &mdash; {{ if $isEN }}Legal order served on a connected US company{{ else }}Ordine giuridico a una società statunitense collegata{{ end }}</td>
+              <td>{{ if $isEN }}Encryption with own keys; confidential computing <em>&ldquo;where enabled&rdquo;</em>.{{ else }}Cifratura con chiavi proprie; confidential computing <em>&laquo;ove attivato&raquo;</em>.{{ end }}</td>
+              <td class="table-danger">{{ if $isEN }}The French agency states both are <strong>insufficient</strong> for this purpose, and no contractual clause on the point was found.{{ else }}L'agenzia francese dichiara entrambe <strong>insufficienti</strong> a questo scopo, e nessuna clausola contrattuale sul punto è stata trovata.{{ end }}</td>
+              <td class="table-danger">{{ if $isEN }}<strong>Not addressed.</strong> Whether the addressee holds possession, custody or control must be established case by case &mdash; but nothing excludes it, and nothing is written about it.{{ else }}<strong>Non affrontato.</strong> Se il destinatario abbia possesso, custodia o controllo va accertato caso per caso &mdash; ma nulla lo esclude, e nulla è scritto in proposito.{{ end }}</td></tr>
+            <tr class="table-danger"><td><strong>E</strong> &mdash; {{ if $isEN }}Imposed or malicious update{{ else }}Aggiornamento imposto o malevolo{{ end }}</td>
+              <td>{{ if $isEN }}On the Oracle tier, standard patching by the operator. On the Google tiers, updates by the vendor.{{ else }}Sul livello Oracle, patching standard a cura dell'operatore. Sui livelli Google, aggiornamenti a cura del fornitore.{{ end }}</td>
+              <td class="table-warning">{{ if $isEN }}The operator has <strong>visibility</strong> of changes, including emergency ones. <strong>No approval or refusal is documented.</strong>{{ else }}L'operatore ha <strong>visibilità</strong> sulle modifiche, incluse quelle di emergenza. <strong>Nessuna approvazione o rifiuto risulta documentato.</strong>{{ end }}</td>
+              <td class="table-danger">{{ if $isEN }}<strong>Open.</strong> The Nitro audit expressly gives no assurance against changes <em>&ldquo;chosen or compelled&rdquo;</em>. This is a <strong>software-control</strong> risk, and should not be conflated with proof of data access.{{ else }}<strong>Aperto.</strong> L'audit Nitro non fornisce espressamente garanzie contro modifiche <em>&laquo;scelte o imposte&raquo;</em>. È un rischio di <strong>controllo del software</strong>, e non va confuso con la prova di un accesso ai dati.{{ end }}</td></tr>
+            <tr class="table-danger"><td><strong>F</strong> &mdash; {{ if $isEN }}Geopolitical or commercial interruption{{ else }}Interruzione geopolitica o commerciale{{ end }}</td>
+              <td>{{ if $isEN }}Sovereign backup inside the national perimeter; two Alloy regions; exclusive network.{{ else }}Backup sovrano nel perimetro nazionale; due region Alloy; rete esclusiva.{{ end }}</td>
+              <td class="table-warning">{{ if $isEN }}A copy exists. Whether the platform can operate <strong>disconnected from the vendor</strong>, and for how long, <strong>is not documented anywhere we looked</strong>.{{ else }}Una copia esiste. Se la piattaforma possa operare <strong>disconnessa dal fornitore</strong>, e per quanto, <strong>non risulta documentato in nessuna fonte esaminata</strong>.{{ end }}</td>
+              <td class="table-danger">{{ if $isEN }}<strong>Unquantified.</strong> Licences, support, updates and hardware replacement all run through non-EU parties. A backup is not continuity.{{ else }}<strong>Non quantificato.</strong> Licenze, supporto, aggiornamenti e sostituzione hardware passano tutti da soggetti extra-UE. Un backup non è continuità.{{ end }}</td></tr>
+            <tr class="table-warning"><td><strong>G</strong> &mdash; {{ if $isEN }}Request for metadata{{ else }}Richiesta di metadati{{ end }}</td>
+              <td>{{ if $isEN }}Encryption protects content. Configurations, logs, identities, billing, telemetry and resource graphs are a separate matter.{{ else }}La cifratura protegge il contenuto. Configurazioni, log, identità, fatturazione, telemetria e grafo delle risorse sono un'altra questione.{{ end }}</td>
+              <td class="table-warning">{{ if $isEN }}<strong>Not addressed in the documents examined.</strong> We found no mapping of which components transmit telemetry outside the perimeter.{{ else }}<strong>Non affrontato nei documenti esaminati.</strong> Non abbiamo trovato alcuna mappatura di quali componenti trasmettano telemetria fuori dal perimetro.{{ end }}</td>
+              <td class="table-warning">{{ if $isEN }}<strong>Undetermined, and probably underestimated.</strong> Metadata is often as revealing as content, and it is rarely encrypted end to end.{{ else }}<strong>Indeterminato, e probabilmente sottovalutato.</strong> I metadati sono spesso rivelatori quanto il contenuto, e raramente sono cifrati punto a punto.{{ end }}</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="info-box-custom">
+        <p class="fs-5 mb-0">{{ if $isEN }}<strong>The pattern is not that the programme is weak everywhere.</strong> In <strong>A, B and C</strong> it does what it was built to do, and does it well. The exposure is concentrated in <strong>D, E, F and G</strong> &mdash; foreign legal order, software control, continuity without the vendor, and metadata &mdash; and those four share one feature: <strong>none of them is a security problem. They are all questions about who holds what, and under which law.</strong>{{ else }}<strong>Lo schema non è che il programma sia debole ovunque.</strong> In <strong>A, B e C</strong> fa ciò per cui è stato costruito, e lo fa bene. L'esposizione si concentra in <strong>D, E, F e G</strong> &mdash; ordine giuridico estero, controllo del software, continuità senza il fornitore, metadati &mdash; e quei quattro condividono un tratto: <strong>nessuno è un problema di sicurezza. Sono tutte domande su chi detiene che cosa, e sotto quale legge.</strong>{{ end }}</p>
+      </div>
+    </div>
+  </div>
+
   <!-- STEELMAN -->
   <div class="row justify-content-center mb-5">
     <div class="col-lg-10">
-      <h2 class="mb-3" id="steelman">{{ if $isEN }}16. The best arguments in favour of the programme{{ else }}16. Le migliori argomentazioni a favore del programma{{ end }}</h2>
+      <h2 class="mb-3" id="steelman">{{ if $isEN }}17. The best arguments in favour of the programme{{ else }}17. Le migliori argomentazioni a favore del programma{{ end }}</h2>
       <p>{{ if $isEN }}An analysis that only presents the case against itself is not an analysis. What follows are the strongest arguments a competent defender of the Italian public cloud would make, stated <strong>as well as we can state them</strong> &mdash; and then answered with what the evidence supports, and only that.{{ else }}Un'analisi che presenta solo la propria tesi non è un'analisi. Seguono le argomentazioni più forti che un difensore competente del cloud pubblico italiano potrebbe portare, enunciate <strong>nel modo migliore che sappiamo</strong> &mdash; e poi affrontate con ciò che le prove sostengono, e soltanto quello.{{ end }}</p>
       <div class="table-responsive">
         <table class="table table-bordered align-middle">
@@ -1022,10 +1075,46 @@
     </div>
   </div>
 
+  <!-- RACCOMANDAZIONI -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <h2 class="mb-3" id="raccomandazioni">{{ if $isEN }}18. What could be done &mdash; six measures, in order of feasibility{{ else }}18. Che cosa si potrebbe fare &mdash; sei misure, in ordine di praticabilità{{ end }}</h2>
+      <p>{{ if $isEN }}Criticism that offers no alternative is commentary. What follows is ordered by how soon each measure could be adopted, and every one of them rests on an instrument that <strong>already exists</strong>. None requires abandoning the current providers.{{ else }}Una critica che non offre alternative è commento. Quel che segue è ordinato per quanto presto ciascuna misura potrebbe essere adottata, e ognuna poggia su uno strumento che <strong>esiste già</strong>. Nessuna richiede di abbandonare i fornitori attuali.{{ end }}</p>
+      <div class="table-responsive">
+        <table class="table table-bordered align-middle">
+          <thead class="table-primary"><tr><th style="width:6%">#</th><th style="width:34%">{{ if $isEN }}Measure{{ else }}Misura{{ end }}</th><th>{{ if $isEN }}Instrument that already exists{{ else }}Strumento che esiste già{{ end }}</th></tr></thead>
+          <tbody>
+            <tr class="table-success"><td><strong>1</strong></td>
+              <td><strong>{{ if $isEN }}Publish which tier each administration uses.{{ else }}Pubblicare quale livello usa ciascuna amministrazione.{{ end }}</strong></td>
+              <td>{{ if $isEN }}Costs nothing and requires no negotiation. It is the single datum whose absence prevents anyone &mdash; including Parliament &mdash; from measuring the exposure. <strong>Its absence is the third instance of the same pattern documented on this site.</strong>{{ else }}Non costa nulla e non richiede negoziato. È il dato la cui assenza impedisce a chiunque &mdash; Parlamento compreso &mdash; di misurare l'esposizione. <strong>La sua assenza è la terza occorrenza dello stesso schema documentato su questo sito.</strong>{{ end }}</td></tr>
+            <tr class="table-success"><td><strong>2</strong></td>
+              <td><strong>{{ if $isEN }}Use the 12 January 2027 deadline.{{ else }}Usare la scadenza del 12 gennaio 2027.{{ end }}</strong></td>
+              <td>{{ if $isEN }}From that date, European law already in force prohibits charging a customer the cost of leaving a cloud. It is the only certain date in the whole picture, and it turns <em>&ldquo;changing costs too much&rdquo;</em> from an argument into a question.{{ else }}Da quella data, una legge europea già in vigore vieta di far pagare a un cliente il costo di uscire da un cloud. È l'unica data certa dell'intero quadro, e trasforma <em>&laquo;cambiare costa troppo&raquo;</em> da argomento in domanda.{{ end }}</td></tr>
+            <tr class="table-warning"><td><strong>3</strong></td>
+              <td><strong>{{ if $isEN }}Map and publish the telemetry.{{ else }}Mappare e pubblicare la telemetria.{{ end }}</strong></td>
+              <td>{{ if $isEN }}Which components transmit outside the perimeter, which endpoints, which metadata. Scenario G is undetermined precisely because this map does not exist publicly &mdash; and producing it is an engineering task, not a political one.{{ else }}Quali componenti trasmettono fuori dal perimetro, verso quali endpoint, con quali metadati. Lo scenario G è indeterminato proprio perché questa mappa non esiste pubblicamente &mdash; e produrla è un compito ingegneristico, non politico.{{ end }}</td></tr>
+            <tr class="table-warning"><td><strong>4</strong></td>
+              <td><strong>{{ if $isEN }}Require approval, not visibility, over platform changes.{{ else }}Pretendere l'approvazione, non la visibilità, sulle modifiche di piattaforma.{{ end }}</strong></td>
+              <td>{{ if $isEN }}Today the operator sees changes, including emergency ones, on a dashboard. A contractual requirement of prior approval &mdash; and of quarantine and validation before release, as one French provider already does &mdash; converts scenario E from open to bounded.{{ else }}Oggi l'operatore vede le modifiche, comprese quelle di emergenza, su una dashboard. Un requisito contrattuale di approvazione preventiva &mdash; e di quarantena e validazione prima del rilascio, come già fa un fornitore francese &mdash; trasforma lo scenario E da aperto a delimitato.{{ end }}</td></tr>
+            <tr class="table-warning"><td><strong>5</strong></td>
+              <td><strong>{{ if $isEN }}Write an establishment, ownership and administration requirement for the highest data classification.{{ else }}Scrivere un requisito di sede, proprietà e amministrazione per la classificazione più alta dei dati.{{ end }}</strong></td>
+              <td>{{ if $isEN }}Three binary checks, applied only to the data that warrants them. It need not be the French model &mdash; but it has to be <strong>written</strong>, because a requirement that exists in no document cannot be complied with, measured, or breached.{{ else }}Tre verifiche binarie, applicate solo ai dati che le meritano. Non deve essere il modello francese &mdash; ma dev'essere <strong>scritto</strong>, perché a un requisito che non esiste in alcun documento non ci si può conformare, non lo si può misurare e non lo si può violare.{{ end }}</td></tr>
+            <tr><td><strong>6</strong></td>
+              <td><strong>{{ if $isEN }}Join the European purchasing arrangement, without waiting.{{ else }}Aderire alla centrale d'acquisto europea, senza aspettare.{{ end }}</strong></td>
+              <td>{{ if $isEN }}The proposed European regulation lets a local authority join <strong>even if its own State does not</strong>, and thereby comply with EU procurement law. <strong>It is not yet in force</strong> &mdash; approval is missing, the agreement between the Commission and at least two Member States is unsigned, and the platform does not exist. The point is not that the door is open: it is <strong>where the door is</strong>.{{ else }}La proposta di regolamento europeo consente a un ente locale di aderire <strong>anche se il proprio Stato non aderisce</strong>, ed essere per ciò stesso in regola con il diritto UE degli appalti. <strong>Non è ancora in vigore</strong> &mdash; manca l'approvazione, manca l'accordo fra la Commissione e almeno due Stati membri, e la piattaforma non esiste. Il punto non è che la porta sia aperta: è <strong>dov'è la porta</strong>.{{ end }}</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="alert alert-warning" role="alert">
+        <p class="small mb-0">{{ if $isEN }}<strong>What we are not recommending.</strong> Not abandoning these providers, which would be neither feasible nor obviously wise; not full technological autonomy, which carries costs, delays and operational risks of its own; and not the French framework as the only legitimate model. <strong>Accepting a residual risk is a legitimate policy choice.</strong> Describing that risk as absent is a different thing, and it is the only thing this page argues against.{{ else }}<strong>Che cosa non stiamo raccomandando.</strong> Non di abbandonare questi fornitori, il che non sarebbe né praticabile né evidentemente saggio; non la piena autonomia tecnologica, che ha costi, tempi e rischi operativi propri; e non il referenziale francese come unico modello legittimo. <strong>Accettare un rischio residuo è una scelta politica legittima.</strong> Descrivere quel rischio come inesistente è un'altra cosa, ed è l'unica contro cui questa pagina argomenta.{{ end }}</p>
+      </div>
+    </div>
+  </div>
+
   <!-- CONCLUSIONE -->
   <div class="row justify-content-center mb-5">
     <div class="col-lg-10">
-      <h2 class="mb-3" id="conclusione">{{ if $isEN }}17. The conclusion, stated carefully{{ else }}17. La conclusione, detta con cura{{ end }}</h2>
+      <h2 class="mb-3" id="conclusione">{{ if $isEN }}19. The conclusion, stated carefully{{ else }}19. La conclusione, detta con cura{{ end }}</h2>
       <div class="info-box-custom">
         <p class="fs-5 mb-3">{{ if $isEN }}Encryption and confidential computing are <strong>good engineering</strong>. They defeat a wide range of real attackers: other tenants, intruders, thieves, individual rogue employees. They should be used, and a provider that offers them is doing something worthwhile.{{ else }}La cifratura e il confidential computing sono <strong>buona ingegneria</strong>. Sconfiggono una gamma ampia di attaccanti reali: gli altri clienti sulla stessa macchina, gli intrusi, i ladri, il singolo dipendente infedele. Vanno usati, e un fornitore che li offre sta facendo qualcosa di utile.{{ end }}</p>
         <p class="fs-5 mb-0">{{ if $isEN }}But they are all measures that protect you <em>from someone else</em> while you are inside a house that belongs to a third party. <strong>None of them answers the question of what happens when the owner of the house is served with an order &mdash; and is forbidden to tell you.</strong> That is not an engineering question. It is a question of which law applies, and the only known ways to change the answer are the ones written into SecNumCloud and into the letters asking for EUCS High+: where the company is established, who controls its capital, and from where the service is administered.{{ else }}Ma sono tutte misure che proteggono <em>da qualcun altro</em> mentre si è dentro una casa che appartiene a un terzo. <strong>Nessuna di esse risponde alla domanda su che cosa accade quando al padrone di casa viene notificato un ordine &mdash; e gli è vietato dirvelo.</strong> Non è una domanda di ingegneria. È una domanda su quale legge si applichi, e gli unici modi noti di cambiare la risposta sono quelli scritti in SecNumCloud e nelle lettere che chiedono l'EUCS High+: dove l'azienda è stabilita, chi ne controlla il capitale, e da dove il servizio è amministrato.{{ end }}</p>
