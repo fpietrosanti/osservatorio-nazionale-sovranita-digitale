@@ -440,6 +440,153 @@
     </div>
   </div>
 
+  <!-- 7.3 LE DUE ARCHITETTURE -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <h2 class="mb-3" id="due-architetture">{{ if $isEN }}7.3 &ldquo;PSN Managed&rdquo; is two different architectures under one name{{ else }}7.3 &laquo;PSN Managed&raquo; sono due architetture diverse sotto un nome solo{{ end }}</h2>
+      <p>{{ if $isEN }}The Italian public cloud's most protected tier is presented as a single service. Its own page says otherwise, in one sentence:{{ else }}Il livello più protetto del cloud pubblico italiano è presentato come un servizio unico. La sua stessa pagina dice altro, in una frase:{{ end }}</p>
+      <blockquote class="blockquote-card">
+        <p class="mb-0"><em>{{ if $isEN }}&ldquo;The service is based on <strong>two technologies: Google Assured Workload and Oracle Alloy</strong>.&rdquo; &mdash; &ldquo;These infrastructures are hosted in <strong>Italian regions <em>or</em> within Polo Strategico Nazionale Data Centres</strong>.&rdquo;{{ else }}&laquo;Il servizio si basa su <strong>due tecnologie: Google Assured Workload e Oracle Alloy</strong>.&raquo; &mdash; &laquo;Queste infrastrutture sono ospitate in <strong>region italiane <em>oppure</em> all'interno dei Data Center del Polo Strategico Nazionale</strong>.&raquo;{{ end }}</em></p>
+      </blockquote>
+      <p class="mt-3">{{ if $isEN }}That <strong>&ldquo;or&rdquo;</strong> carries the whole weight. These are not two suppliers within one architecture: they are <strong>two opposite architectures</strong>, and only one of them is inside PSN's own data centres.{{ else }}Quell'<strong>&laquo;oppure&raquo;</strong> regge tutto il peso. Non sono due fornitori dentro un'architettura: sono <strong>due architetture opposte</strong>, e una sola delle due sta dentro i data center del PSN.{{ end }}</p>
+      <div class="table-responsive">
+        <table class="table table-bordered align-middle">
+          <thead class="table-primary"><tr><th style="width:24%"></th><th>{{ if $isEN }}Google side{{ else }}Lato Google{{ end }}</th><th>{{ if $isEN }}Oracle side{{ else }}Lato Oracle{{ end }}</th></tr></thead>
+          <tbody>
+            <tr><td><strong>{{ if $isEN }}Technology{{ else }}Tecnologia{{ end }}</strong></td><td>Assured Workloads</td><td>Oracle Alloy</td></tr>
+            <tr><td><strong>{{ if $isEN }}Where it runs{{ else }}Dove gira{{ end }}</strong></td><td class="table-danger">{{ if $isEN }}Google's own Italian regions &mdash; Milan <code>europe-west8</code>, Turin <code>europe-west12</code>{{ else }}Region italiane <strong>di Google</strong> &mdash; Milano <code>europe-west8</code>, Torino <code>europe-west12</code>{{ end }}</td><td class="table-warning">{{ if $isEN }}Inside PSN data centres{{ else }}Dentro i Data Center del PSN{{ end }}</td></tr>
+            <tr><td><strong>{{ if $isEN }}What it is{{ else }}Che cos'è{{ end }}</strong></td><td>{{ if $isEN }}A <strong>layer of policies</strong> over public cloud{{ else }}Uno <strong>strato di policy</strong> su cloud pubblico{{ end }}</td><td>{{ if $isEN }}A <strong>separate realm</strong>, own hardware{{ else }}Un <strong>realm separato</strong>, hardware proprio{{ end }}</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>{{ if $isEN }}PSN's own price list confirms both halves: on the Google side it lists a line item called <em>&ldquo;Sovereign Controls&rdquo;</em>, described as the ability to <em>&ldquo;set policies within GCP&rdquo;</em>. <strong>Sovereignty as a price-list item, and as a policy setting.</strong>{{ else }}Il listino del PSN conferma entrambe le metà: sul versante Google riporta una voce di listino chiamata <em>&laquo;Sovereign Controls&raquo;</em>, descritta come la possibilità di <em>&laquo;impostare delle policy all'interno di GCP&raquo;</em>. <strong>La sovranità come voce di listino, e come impostazione di policy.</strong>{{ end }}</p>
+    </div>
+  </div>
+
+  <!-- 7.4 TABELLA A CINQUE COLONNE -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <h2 class="mb-3" id="cinque-colonne">{{ if $isEN }}7.4 The five offerings, side by side{{ else }}7.4 Le cinque offerte, una accanto all'altra{{ end }}</h2>
+      <p>{{ if $isEN }}The first column is the benchmark: the only one of the five that holds a sovereignty qualification. Everything to its right does not.{{ else }}La prima colonna è il metro: l'unica delle cinque che possiede una qualificazione di sovranità. Tutto ciò che le sta a destra non ce l'ha.{{ end }}</p>
+      <div class="table-responsive">
+        <table class="table table-bordered align-middle small">
+          <thead class="table-primary"><tr>
+            <th style="width:16%"></th>
+            <th style="width:17%">🇫🇷 PREMI3NS<br><span class="fw-normal">{{ if $isEN }}(benchmark){{ else }}(riferimento){{ end }}</span></th>
+            <th style="width:17%">🇫🇷 France Data Boundary</th>
+            <th style="width:17%">🇮🇹 PSN Managed &mdash; Google</th>
+            <th style="width:17%">🇮🇹 PSN Managed &mdash; Oracle Alloy</th>
+            <th style="width:16%">🇮🇹 Secure Public Cloud Oracle</th>
+          </tr></thead>
+          <tbody>
+            <tr><td><strong>{{ if $isEN }}Where the data runs{{ else }}Dove girano i dati{{ end }}</strong></td>
+              <td class="table-success">{{ if $isEN }}S3NS data centres{{ else }}Data center S3NS{{ end }}</td>
+              <td class="table-danger">{{ if $isEN }}Google regions{{ else }}Region Google{{ end }}</td>
+              <td class="table-danger">{{ if $isEN }}Google regions &mdash; Milan, Turin{{ else }}Region Google &mdash; Milano, Torino{{ end }}</td>
+              <td class="table-warning">{{ if $isEN }}PSN data centres{{ else }}Data center PSN{{ end }}</td>
+              <td class="table-danger">{{ if $isEN }}<strong>Oracle public region</strong>{{ else }}<strong>Region pubblica Oracle</strong>{{ end }}</td></tr>
+            <tr><td><strong>{{ if $isEN }}Nature{{ else }}Natura{{ end }}</strong></td>
+              <td>{{ if $isEN }}Separate infrastructure{{ else }}Infrastruttura separata{{ end }}</td>
+              <td>{{ if $isEN }}Policy on public cloud{{ else }}Policy su cloud pubblico{{ end }}</td>
+              <td>{{ if $isEN }}Policy on public cloud{{ else }}Policy su cloud pubblico{{ end }}</td>
+              <td>{{ if $isEN }}Dedicated realm{{ else }}Realm dedicato{{ end }}</td>
+              <td>{{ if $isEN }}Public cloud{{ else }}Cloud pubblico{{ end }}</td></tr>
+            <tr><td><strong>{{ if $isEN }}Who operates the services{{ else }}Chi opera i servizi{{ end }}</strong></td>
+              <td class="table-success">{{ if $isEN }}<strong>S3NS staff only</strong>{{ else }}<strong>Solo personale S3NS</strong>{{ end }}</td>
+              <td>Google</td><td>Google</td>
+              <td class="table-warning">{{ if $isEN }}<strong>Oracle</strong> &mdash; &ldquo;secure service operations&rdquo;{{ else }}<strong>Oracle</strong> &mdash; &laquo;secure service operations&raquo;{{ end }}</td>
+              <td>Oracle</td></tr>
+            <tr><td><strong>{{ if $isEN }}Software updates{{ else }}Aggiornamenti software{{ end }}</strong></td>
+              <td class="table-success">{{ if $isEN }}<strong>Quarantined, analysed and validated by S3NS</strong> before deployment{{ else }}<strong>Messi in quarantena, analizzati e validati da S3NS</strong> prima del rilascio{{ end }}</td>
+              <td>Google</td><td>Google</td>
+              <td>{{ if $isEN }}Oracle produces them; PSN applies standard patching; <strong>Oracle performs nonstandard upgrades</strong>{{ else }}Li produce Oracle; il PSN applica il patching standard; <strong>Oracle esegue gli upgrade non standard</strong>{{ end }}</td>
+              <td>Oracle</td></tr>
+            <tr><td><strong>{{ if $isEN }}Control over updates{{ else }}Controllo sugli aggiornamenti{{ end }}</strong></td>
+              <td class="table-success">{{ if $isEN }}<strong>Approval</strong>{{ else }}<strong>Approvazione</strong>{{ end }}</td>
+              <td>&mdash;</td><td>&mdash;</td>
+              <td class="table-warning">{{ if $isEN }}<strong>Visibility only</strong> &mdash; a dashboard listing emergency, mitigating, normal and routine changes{{ else }}<strong>Solo visibilità</strong> &mdash; una dashboard che elenca modifiche di emergenza, mitiganti, normali e di routine{{ end }}</td>
+              <td>&mdash;</td></tr>
+            <tr><td><strong>{{ if $isEN }}Provider access{{ else }}Accesso del fornitore{{ end }}</strong></td>
+              <td class="table-success">{{ if $isEN }}&ldquo;Google personnel have no access&rdquo;{{ else }}&laquo;Il personale Google non ha accesso&raquo;{{ end }}</td>
+              <td>{{ if $isEN }}Split boundaries accessible to Google staff{{ else }}Split boundaries accessibili al personale Google{{ end }}</td>
+              <td>{{ if $isEN }}Identical{{ else }}Identico{{ end }}</td>
+              <td class="table-warning">{{ if $isEN }}<em>Operator Access Control</em> &mdash; <strong>but it does not cover root automation</strong>{{ else }}<em>Operator Access Control</em> &mdash; <strong>ma non copre l'automazione root</strong>{{ end }}</td>
+              <td>{{ if $isEN }}Standard OCI{{ else }}Standard OCI{{ end }}</td></tr>
+            <tr><td><strong>{{ if $isEN }}Sovereignty qualification{{ else }}Qualificazione di sovranità{{ end }}</strong></td>
+              <td class="table-success"><strong>{{ if $isEN }}Yes &mdash; SecNumCloud 3.2{{ else }}Sì &mdash; SecNumCloud 3.2{{ end }}</strong></td>
+              <td class="table-danger">{{ if $isEN }}No{{ else }}No{{ end }}</td>
+              <td class="table-danger">{{ if $isEN }}No{{ else }}No{{ end }}</td>
+              <td class="table-danger">{{ if $isEN }}No{{ else }}No{{ end }}</td>
+              <td class="table-danger">{{ if $isEN }}No{{ else }}No{{ end }}</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="callout danger">
+        <div class="callout-title"><svg class="icon"><use href="{{ $spritesURL }}#it-warning-circle"></use></svg>
+          <span>{{ if $isEN }}The fifth column: not everything is in PSN data centres{{ else }}La quinta colonna: non tutto sta nei data center del PSN{{ end }}</span></div>
+        <p class="mb-2">{{ if $isEN }}PSN's own price list introduces a further service, <em>Secure Public Cloud Oracle</em>, in these words:{{ else }}Il listino del PSN introduce un ulteriore servizio, il <em>Secure Public Cloud Oracle</em>, con queste parole:{{ end }}</p>
+        <p class="mb-2"><em>{{ if $isEN }}&ldquo;Availability of services <strong>that cannot be delivered through Alloy technology or cannot be implemented in PSN Data Centres</strong>, thanks to the <strong>direct use of the Oracle public region</strong>.&rdquo; &mdash; &ldquo;<strong>Overcoming the limits</strong> of Public Cloud PSN managed (Alloy): <strong>new-generation Exadata (X9M, X11M)</strong>, new compute classes, advanced Object Storage.&rdquo;{{ else }}&laquo;Disponibilità di servizi <strong>non erogabili tramite tecnologia Alloy o non implementabili nei Data Center PSN</strong>, grazie all'<strong>utilizzo diretto della region pubblica Oracle</strong>.&raquo; &mdash; &laquo;<strong>Superamento dei limiti</strong> Public Cloud PSN managed (Alloy): <strong>Exadata di nuova generazione (X9M, X11M)</strong>, nuove classi compute, Object Storage avanzato.&raquo;{{ end }}</em></p>
+        <p class="mb-0">{{ if $isEN }}To obtain the modern Exadata, one <strong>leaves the PSN data centres and goes to Oracle's public region</strong>. The &ldquo;sovereign&rdquo; perimeter is not where the best services are: it is where the ones Alloy can deliver are. And the mitigation is conditional again &mdash; <em>&ldquo;use of the BYOK model <strong>where applicable</strong>&rdquo;</em>.{{ else }}Per avere l'Exadata moderno si <strong>esce dai data center PSN e si va nella region pubblica Oracle</strong>. Il perimetro &laquo;sovrano&raquo; non è dove stanno i servizi migliori: è dove stanno quelli che Alloy riesce a erogare. E la mitigazione è di nuovo condizionale &mdash; <em>&laquo;utilizzo del modello BYOK <strong>ove applicabile</strong>&raquo;</em>.{{ end }}</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7.5 ORACLE ALLOY -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <h2 class="mb-3" id="alloy">{{ if $isEN }}7.5 Oracle Alloy, in Oracle's own words{{ else }}7.5 Oracle Alloy, con le parole di Oracle{{ end }}</h2>
+      <p><strong>{{ if $isEN }}First, what must be credited.{{ else }}Prima, ciò che va riconosciuto.{{ end }}</strong> {{ if $isEN }}Alloy is a genuinely separate realm, with <em>&ldquo;its own control plane&rdquo;</em>, <em>&ldquo;physically and logically separated&rdquo;</em> from Oracle's public cloud. PSN states two regions, an exclusive network with no public internet, all data in its own data centres, encryption to national-authority specifications. <strong>On the infrastructure plane this is more than the Google Data Boundary offers.</strong>{{ else }}Alloy è davvero un realm separato, con <em>&laquo;un proprio control plane&raquo;</em>, <em>&laquo;fisicamente e logicamente separato&raquo;</em> dal cloud pubblico Oracle. Il PSN dichiara due region, rete esclusiva senza internet pubblico, tutti i dati nei propri data center, cifratura secondo le specifiche dell'autorità nazionale. <strong>Sul piano dell'infrastruttura è più di quanto offra il Data Boundary di Google.</strong>{{ end }}</p>
+
+      <div class="callout callout-highlight danger">
+        <div class="callout-title"><svg class="icon"><use href="{{ $spritesURL }}#it-file"></use></svg>
+          <span>{{ if $isEN }}But the division of roles is Oracle's own{{ else }}Ma la divisione dei ruoli la scrive Oracle{{ end }}</span></div>
+        <p class="mb-2"><em>{{ if $isEN }}&ldquo;Oracle Alloy combines an <strong>Oracle-managed cloud foundation</strong> with an operator-managed business and customer experience layer. <strong>Oracle supplies the cloud platform, secure service operations, and ongoing product lifecycle management.</strong> The operator provides the <strong>hosting environment</strong> and runs the customer-facing cloud business on that foundation.&rdquo;{{ else }}&laquo;Oracle Alloy combina una <strong>cloud foundation gestita da Oracle</strong> con uno strato di business e customer experience gestito dall'operatore. <strong>Oracle fornisce la piattaforma cloud, le operazioni di servizio sicure e la gestione continua del ciclo di vita del prodotto.</strong> L'operatore fornisce <strong>l'ambiente di hosting</strong> ed esercita il business cloud rivolto al cliente su quella fondazione.&raquo;{{ end }}</em></p>
+        <p class="mb-0">{{ if $isEN }}The operator supplies the building and the commercial relationship. <strong>Service operations are Oracle's.</strong>{{ else }}L'operatore mette il palazzo e il rapporto commerciale. <strong>Le operazioni di servizio sono di Oracle.</strong>{{ end }}</p>
+      </div>
+
+      <p class="mt-3">{{ if $isEN }}And Oracle's own vocabulary for the partner is unambiguous: the operator <em>&ldquo;<strong>resells</strong> Oracle cloud services&rdquo;</em> and manages <em>&ldquo;the lifecycle of their <strong>cloud reselling business</strong>&rdquo;</em>. A telling detail: the Oracle post titled <em>&ldquo;Expanding Control &amp; Flexibility&rdquo;</em> for Alloy operators is about <strong>multiple currencies and contract renewals</strong>. The control being expanded is commercial.{{ else }}E il lessico che Oracle usa per il partner non lascia dubbi: l'operatore <em>&laquo;<strong>rivende</strong> servizi cloud Oracle&raquo;</em> e gestisce <em>&laquo;il ciclo di vita del proprio <strong>business di rivendita cloud</strong>&raquo;</em>. Un dettaglio che dice molto: il post Oracle intitolato <em>&laquo;Expanding Control &amp; Flexibility&raquo;</em> per gli operatori Alloy riguarda <strong>valute multiple e rinnovi contrattuali</strong>. Il controllo che viene ampliato è commerciale.{{ end }}</p>
+
+      <h3 class="h5 mt-4">{{ if $isEN }}Updates: who does what &mdash; stated precisely{{ else }}Aggiornamenti: chi fa che cosa, detto con precisione{{ end }}</h3>
+      <p>{{ if $isEN }}Oracle's product page says the operator <em>&ldquo;can independently manage <strong>all standard operational tasks, such as basic patching and service updates</strong>&rdquo;</em>, and can rely on <em>&ldquo;Oracle teams for troubleshooting, <strong>nonstandard upgrades</strong>, outage resolution, and escalations&rdquo;</em>. Oracle's own VP for Dedicated Cloud sums it up: it is <em>&ldquo;effectively a whole OCI region that the partner operating team can independently manage, maintain and enhance, <strong>assisted by Oracle's upgrades and support</strong>&rdquo;</em>.{{ else }}La pagina prodotto Oracle dice che l'operatore <em>&laquo;può gestire in autonomia <strong>tutte le attività operative standard, come il patching di base e gli aggiornamenti dei servizi</strong>&raquo;</em>, e può contare sui <em>&laquo;team Oracle per troubleshooting, <strong>upgrade non standard</strong>, risoluzione dei disservizi ed escalation&raquo;</em>. Il VP Dedicated Cloud di Oracle lo sintetizza: è <em>&laquo;di fatto un'intera region OCI che il team dell'operatore può gestire, mantenere e potenziare in autonomia, <strong>assistito dagli upgrade e dal supporto di Oracle</strong>&raquo;</em>.{{ end }}</p>
+      <p>{{ if $isEN }}And what the operator gets over the changes themselves is a dashboard that <em>&ldquo;provides <strong>visibility</strong> into scheduled and completed OCI service changes, including <strong>emergency</strong>, mitigating, normal, and routine changes&rdquo;</em>. The verbs are observational throughout. <strong>No approval, no refusal, no deferral is documented.</strong>{{ else }}E ciò che l'operatore ottiene sulle modifiche è una dashboard che <em>&laquo;fornisce <strong>visibilità</strong> sui cambiamenti di servizio OCI schedulati e completati, inclusi quelli <strong>di emergenza</strong>, mitiganti, normali e di routine&raquo;</em>. I verbi sono osservativi dall'inizio alla fine. <strong>Nessuna approvazione, nessun rifiuto, nessun differimento risulta documentato.</strong>{{ end }}</p>
+
+      <h3 class="h5 mt-4">{{ if $isEN }}Operator Access Control &mdash; real, and with three declared holes{{ else }}Operator Access Control &mdash; reale, e con tre buchi dichiarati{{ end }}</h3>
+      <p>{{ if $isEN }}Oracle offers a mechanism that is genuinely stronger than anything in the Google package: the customer <strong>can approve or deny access by Oracle employees</strong>, with time limits, full command logging and optional keystroke recording. It should be credited.{{ else }}Oracle offre un meccanismo davvero più forte di qualunque cosa ci sia nel pacchetto Google: il cliente <strong>può approvare o negare l'accesso dei dipendenti Oracle</strong>, con limiti di tempo, registrazione di tutti i comandi e, se richiesto, dei tasti premuti. Va riconosciuto.{{ end }}</p>
+      <div class="alert alert-warning" role="alert">
+        <p class="small mb-2"><strong>{{ if $isEN }}The three exclusions, in Oracle's words:{{ else }}Le tre esclusioni, con le parole di Oracle:{{ end }}</strong></p>
+        <ul class="small mb-0">
+          <li><em>{{ if $isEN }}&ldquo;does not control <strong>automation actions</strong>, including the actions that are run as <strong><code>root</code></strong>, or other high privileged automation users, including <strong>proxy-based automation access</strong>&rdquo;{{ else }}&laquo;non controlla le <strong>azioni di automazione</strong>, incluse quelle eseguite come <strong><code>root</code></strong>, o da altri utenti di automazione ad alto privilegio, compreso l'<strong>accesso di automazione basato su proxy</strong>&raquo;{{ end }}</em></li>
+          <li><em>{{ if $isEN }}&ldquo;doesn't offer controls on external entities of Oracle Cloud Infrastructure, such as switches, <strong>or other control plane software</strong>&rdquo;{{ else }}&laquo;non offre controlli su entità esterne di Oracle Cloud Infrastructure, come gli switch, <strong>o altro software del control plane</strong>&raquo;{{ end }}</em></li>
+          <li><em>{{ if $isEN }}&ldquo;is a solution designed for auditing and compliance of Oracle access, <strong>not a general purpose compliance solution</strong>&rdquo;{{ else }}&laquo;è una soluzione progettata per l'audit e la conformità dell'accesso Oracle, <strong>non una soluzione di conformità generale</strong>&raquo;{{ end }}</em></li>
+        </ul>
+      </div>
+      <p>{{ if $isEN }}<strong>The gate controls people. It does not control the automation that runs as root.</strong>{{ else }}<strong>Il cancello controlla le persone. Non controlla l'automazione che gira come root.</strong>{{ end }}</p>
+      <p class="small text-muted">{{ if $isEN }}Two honest caveats. Operator Access Control is documented for Exadata Cloud@Customer and Compute Cloud@Customer, not for Alloy as a whole &mdash; PSN does use Exadata on the Alloy platform, so it is pertinent, but we do not claim it covers everything. And Oracle's strongest claim &mdash; <em>&ldquo;an Oracle Alloy Operator retains full control of the data and applications&rdquo;</em> &mdash; is a <strong>company statement we could not independently verify</strong>, of the same kind as Microsoft's &ldquo;it has never happened&rdquo;.{{ else }}Due riserve oneste. L'Operator Access Control è documentato per Exadata Cloud@Customer e Compute Cloud@Customer, non per Alloy nel suo insieme &mdash; il PSN usa Exadata sulla piattaforma Alloy, quindi è pertinente, ma non sosteniamo che copra tutto. E l'affermazione più forte di Oracle &mdash; <em>&laquo;un operatore Oracle Alloy mantiene il pieno controllo dei dati e delle applicazioni&raquo;</em> &mdash; è una <strong>dichiarazione aziendale che non abbiamo potuto verificare</strong>, della stessa natura del &laquo;non è mai successo&raquo; di Microsoft.{{ end }}</p>
+    </div>
+  </div>
+
+  <!-- 7.6 ANSSI -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-10">
+      <h2 class="mb-3" id="qualificazioni">{{ if $isEN }}7.6 Who holds a sovereignty qualification, and who does not{{ else }}7.6 Chi ha una qualificazione di sovranità, e chi no{{ end }}</h2>
+      <p>{{ if $isEN }}The French agency publishes an official catalogue of qualified products and services. We read it in full &mdash; 130 pages &mdash; and searched it.{{ else }}L'agenzia francese pubblica un catalogo ufficiale dei prodotti e servizi qualificati. Lo abbiamo letto per intero &mdash; 130 pagine &mdash; e vi abbiamo cercato.{{ end }}</p>
+      <div class="callout danger">
+        <div class="callout-title"><svg class="icon"><use href="{{ $spritesURL }}#it-close-circle"></use></svg>
+          <span>{{ if $isEN }}Occurrences in the official catalogue{{ else }}Occorrenze nel catalogo ufficiale{{ end }}</span></div>
+        <p class="mb-0 fs-5"><strong>Oracle 0 &middot; Microsoft 0 &middot; Amazon 0 &middot; AWS 0 &middot; Polo Strategico Nazionale 0</strong></p>
+      </div>
+      <p class="mt-3">{{ if $isEN }}The <strong>sixteen</strong> offerings currently under assessment are equally telling: Adista, <strong>Bleu SAS</strong>, BLUE, Cegedim, Cloud Temple, Ecritel, Free Pro, GIP Mipih, ITS Integra, NumSpot, NRB, Orange Business, OVH, Prolival, Scaleway, Scalingo. <strong>Bleu &mdash; the Microsoft, Orange and Capgemini venture &mdash; is on that list. Oracle is not.</strong>{{ else }}Le <strong>sedici</strong> offerte attualmente in istruttoria dicono altrettanto: Adista, <strong>Bleu SAS</strong>, BLUE, Cegedim, Cloud Temple, Ecritel, Free Pro, GIP Mipih, ITS Integra, NumSpot, NRB, Orange Business, OVH, Prolival, Scaleway, Scalingo. <strong>Bleu &mdash; l'impresa di Microsoft, Orange e Capgemini &mdash; è in quell'elenco. Oracle no.</strong>{{ end }}</p>
+      <div class="info-box-custom">
+        <p class="fs-5 mb-0">{{ if $isEN }}On <strong>9 February 2021</strong>, before the French National Assembly, the managing director of Oracle France announced that the company was <em>&ldquo;in discussion with the agency&rdquo;</em>.<br><strong>Five and a half years later, Oracle appears neither among the qualified nor among those under assessment.</strong>{{ else }}Il <strong>9 febbraio 2021</strong>, davanti all'Assemblea nazionale francese, la direttrice generale di Oracle France annunciava che l'azienda era <em>&laquo;in discussione con l'agenzia&raquo;</em>.<br><strong>Cinque anni e mezzo dopo, Oracle non compare né fra i qualificati né fra quelli in istruttoria.</strong>{{ end }}</p>
+      </div>
+      <p class="mt-3">{{ if $isEN }}Microsoft, on the same road, set up <strong>Bleu</strong> &mdash; French controlling capital &mdash; and entered the assessment. Google set up <strong>S3NS</strong> with Thales and reached qualification, registered to <strong>Thales Cloud Sécurisé</strong>: the holder is the European controlling shareholder. <strong>Oracle announced a discussion.</strong>{{ else }}Microsoft, sulla stessa strada, ha costituito <strong>Bleu</strong> &mdash; capitale francese di controllo &mdash; ed è entrata in istruttoria. Google ha costituito <strong>S3NS</strong> con Thales ed è arrivata alla qualificazione, intestata a <strong>Thales Cloud Sécurisé</strong>: il titolare è il socio europeo di controllo. <strong>Oracle ha annunciato una discussione.</strong>{{ end }}</p>
+      <div class="alert alert-warning" role="alert">
+        <p class="small mb-0"><strong>{{ if $isEN }}What this finding does not prove.{{ else }}Che cosa questo reperto non dimostra.{{ end }}</strong> {{ if $isEN }}The absence of a qualification is not proof that Alloy is inadequate. It means something more precise, and more defensible: <strong>Alloy has never been measured against that standard</strong> &mdash; and the Italian public cloud programme, which builds its most protected tier on Alloy, <strong>has not asked anyone to measure it</strong>. We also found <strong>no French agency analysis dedicated to Oracle Alloy</strong>: not found is not the same as non-existent.{{ else }}L'assenza di una qualificazione non è la prova che Alloy sia inadeguato. Significa una cosa più precisa e più difendibile: <strong>Alloy non è mai stato misurato con quel metro</strong> &mdash; e il programma cloud pubblico italiano, che su Alloy costruisce il proprio livello più protetto, <strong>non ha chiesto a nessuno di misurarlo</strong>. Non abbiamo trovato <strong>alcuna analisi dell'agenzia francese dedicata a Oracle Alloy</strong>: non trovata non significa inesistente.{{ end }}</p>
+      </div>
+    </div>
+  </div>
+
   <!-- CONCLUSIONE -->
   <div class="row justify-content-center mb-5">
     <div class="col-lg-10">

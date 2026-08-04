@@ -1180,6 +1180,84 @@ occorrenze» significa *ricerca full-text eseguita, esito riportato*. La distinz
 era **coautrice** a Bruxelles. Ha chiesto la regola lì, l'ha persa nel marzo 2024, e negli stessi cinque
 anni **non l'ha mai scritta in casa propria** — l'unico strumento che non dipendeva dal voto di nessuno.
 
+### A54. 🎯 «PSN MANAGED» SONO DUE ARCHITETTURE OPPOSTE — e il lato Google è il livello base francese
+**AFFIDABILITÀ: 🟢 ALTA** — documentazione Google, pagina e listino PSN, tutti letti alla fonte.
+
+**La pagina PSN, verbatim**: «The service is based on **two technologies: Google Assured Workload and Oracle
+Alloy**» · «hosted in **Italian regions *or* within Polo Strategico Nazionale Data Centres**».
+👉 Quell'«**or**» regge tutto: **non sono due fornitori dentro un'architettura, sono due architetture.**
+
+| | **Lato Google** | **Lato Oracle** |
+|---|---|---|
+| Tecnologia | Assured Workloads | Oracle Alloy |
+| Dove gira | **region italiane DI GOOGLE** — Milano `europe-west8`, Torino `europe-west12` | **dentro i DC del PSN** |
+| Che cos'è | strato di **policy** su cloud pubblico | **realm separato**, hardware proprio |
+
+🔥 **E il lato Google è lo stesso identico prodotto del livello base francese.** Confrontate le due pagine
+Google: *Italy Data Boundary by PSN* e *France Data Boundary by S3NS* hanno **gli stessi 23 servizi con CMEK
+obbligatoria**, gli stessi vincoli, le stesse restrizioni sui prodotti, la stessa esclusione dei server MCP.
+**Cambia solo l'elenco delle region.**
+⚖️ Sulla differenza di region **non si insiste** (decisione del committente): la Francia può aver esteso a
+Belgio e Paesi Bassi per accordi propri. Si menziona e si va oltre.
+
+📌 **Due ammissioni dentro la documentazione Google**, identiche nelle pagine italiana e francese:
+- «gli *split boundaries* in Bigtable e Spanner **sono accessibili dal personale Google**… e **non sono
+  soggetti ai controlli di accesso amministrativo**»
+- «non fornisce controlli di residenza **per i dati in uso e in transito**» → **Google usa le nostre stesse
+  tre categorie** e dichiara di coprire solo la prima.
+
+🔴 **LA QUINTA OFFERTA — non tutto sta nei data center PSN.** Dal listino, verbatim: il *Secure Public
+Cloud Oracle* offre «servizi **non erogabili tramite tecnologia Alloy o non implementabili nei Data Center
+PSN**, grazie all'**utilizzo diretto della region pubblica Oracle**», per «superare i limiti» di Alloy —
+**Exadata di nuova generazione (X9M, X11M)**, nuove classi compute, Object Storage avanzato.
+⚠️ E la mitigazione è di nuovo condizionale: «utilizzo del modello BYOK **ove applicabile**».
+
+### A55. 🔥 ORACLE ALLOY: l'operatore mette il palazzo, Oracle opera i servizi — e nessuna qualificazione ANSSI
+**AFFIDABILITÀ: 🟢 ALTA** — documentazione e pagine Oracle lette (in parte dal browser, il fetcher dava 403);
+catalogo ufficiale ANSSI di 130 pagine scaricato ed estratto.
+
+**La divisione dei ruoli, verbatim da Oracle**:
+> «Oracle Alloy combina una **cloud foundation gestita da Oracle** con uno strato di business e customer
+> experience gestito dall'operatore. **Oracle fornisce la piattaforma cloud, le operazioni di servizio
+> sicure e la gestione continua del ciclo di vita del prodotto.** L'operatore fornisce **l'ambiente di
+> hosting** ed esercita il business cloud rivolto al cliente.»
+
+🎯 **E Oracle chiama l'operatore *rivenditore***: «consente ai partner di **rivendere** servizi cloud
+Oracle» · «il ciclo di vita del proprio **business di rivendita cloud**». **È l'Atto 4 del film, scritto dal
+fornitore.**
+📌 Dettaglio eloquente: il post Oracle intitolato **«Expanding Control & Flexibility»** per gli operatori
+Alloy riguarda **valute multiple e rinnovi contrattuali**. Il controllo ampliato è **commerciale**.
+
+**Aggiornamenti** — l'operatore «può gestire in autonomia tutte le attività operative standard, come il
+**patching di base e gli aggiornamenti dei servizi**»; Oracle fa «troubleshooting, **upgrade non standard**,
+risoluzione dei disservizi ed escalation». Il VP Dedicated Cloud: «un'intera region OCI che l'operatore può
+gestire in autonomia, **assistito dagli upgrade e dal supporto di Oracle**».
+**Sulle modifiche l'operatore ha una dashboard che «fornisce visibilità»** su cambiamenti «di **emergenza**,
+mitiganti, normali e di routine». 🚨 **Verbi solo osservativi: nessuna approvazione documentata.**
+
+✅ **Da riconoscere**: *Operator Access Control* è **più forte di qualunque cosa nel pacchetto Google** — il
+cliente **approva o nega** l'accesso dei dipendenti Oracle, con limite di tempo, log dei comandi e
+registrazione dei tasti.
+🔴 **Ma con tre esclusioni dichiarate da Oracle**: non copre «le **azioni di automazione**… eseguite come
+**`root`**… compreso l'accesso **basato su proxy**»; non copre «entità esterne… **o altro software del
+control plane**»; **«non è una soluzione di conformità generale»**.
+> **Il cancello controlla le persone. Non controlla l'automazione che gira come root.**
+
+📉 **CATALOGO UFFICIALE ANSSI, 130 pagine — occorrenze:**
+**Oracle 0 · Microsoft 0 · Amazon 0 · AWS 0 · Polo Strategico Nazionale 0.**
+Qualificati SecNumCloud: **Thales Cloud Sécurisé — Cloud de confiance S3NS** (SaaS+PaaS+CaaS, 17/12/2025 →
+17/12/2028, **l'unica con tre ambiti**) · Outscale · OVH (×2) · Cloud Temple (×2) · Orange Business ·
+Worldline · Oodrive · Whaller · Index Education.
+In istruttoria, **sedici**: Adista, **Bleu SAS**, BLUE, Cegedim, Cloud Temple, Ecritel, Free Pro, GIP Mipih,
+ITS Integra, NumSpot, NRB, Orange Business, OVH, Prolival, Scaleway, Scalingo.
+
+🕒 **E il dato che pesa**: il **9 febbraio 2021**, davanti all'Assemblea nazionale francese, la direttrice
+generale di Oracle France annunciò di essere «in discussione con l'agenzia». **Cinque anni e mezzo dopo,
+Oracle non compare né fra i qualificati né fra quelli in istruttoria.**
+Microsoft ha costituito **Bleu** ed è in istruttoria; Google ha costituito **S3NS** ed è qualificata
+(intestazione a **Thales Cloud Sécurisé**: il titolare è il socio europeo di controllo). **Oracle ha
+annunciato una discussione.**
+
 ---
 
 ## 🟡 B — SOLIDO, DA CONFERMARE PRIMA DELLA MESSA IN ONDA
@@ -1707,6 +1785,17 @@ reperti A37 e A39, dove chi consulta il registro non le avrebbe trovate)*
     Google: si viene smontati con due nomi. La formulazione corretta è che **la Francia ha scritto un
     requisito misurabile e l'Italia non ne ha scritto alcuno** — ed è più forte, perché Bleu e S3NS
     diventano **la prova che la regola funziona** (A53).
+
+42. 🚨 **Non trattare «PSN Managed» come una cosa sola.** Sono **due architetture**: il lato Google gira
+    sulle region di Google (Milano, Torino), il lato Oracle nei data center del PSN. Confonderle ci fa
+    sbagliare in entrambe le direzioni (A54).
+43. **Non dire «gli aggiornamenti li fa Oracle».** L'operatore gestisce **il patching di base e gli
+    aggiornamenti standard**; Oracle produce gli aggiornamenti ed esegue **gli upgrade non standard**.
+    La formulazione corretta è quella (A55). ⚠️ Non citare il numero dei servizi Alloy: Oracle stessa dice
+    «più di 200» nella documentazione e «più di 100» nella pagina prodotto.
+44. ⚠️ **L'assenza di qualificazione ANSSI non prova che una soluzione sia inadeguata.** Prova che **non è
+    mai stata misurata con quel metro** — ed è più difendibile. Vale anche il simmetrico: **non abbiamo
+    trovato** analisi ANSSI su Alloy, il che non significa che non esistano (A55, regola 10).
 
 ### ⚠️ Nota d'uso — collisione di scale
 La scala **SEAL 1-4** della gara UE **non è** la nostra scala **0-4**: una misura i *fornitori*, l'altra i
