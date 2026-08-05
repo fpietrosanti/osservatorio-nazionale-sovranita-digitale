@@ -1876,9 +1876,14 @@ reperti A37 e A39, dove chi consulta il registro non le avrebbe trovate)*
 45. **Non presentare la società di comodo di AWS come uno scandalo.** Usare una GmbH già registrata e il
     capitale minimo è **prassi ordinaria in Germania**. Il punto è **la distanza fra la prassi e il
     linguaggio dell'annuncio**, non la prassi (A56).
-46. 🔴 **Non indicare percentuali di proprietà di AWS European Sovereign Cloud GmbH.** L'elenco dei soci è
-    a pagamento e **non lo abbiamo letto**. Si cita ciò che il registro mostra: il nome portato fino al
-    luglio 2025 (A56, regola 10).
+46. ✅ **SCIOLTA il 05/08/2026 — la percentuale ora si può scrivere, ed è documentata.** L'**elenco notarile
+    dei soci** (HRB 40853 P, autenticato a Monaco il 20.10.2025) registra un **socio unico**:
+    **A100 ROW, Inc., Wilmington, Delaware** — State File no. 4517940 — 25.000 quote da 1,00 €,
+    **«Summe der Beteiligung in %: 100»**. PDF archiviato in `fonti/registro-imprese/` — sha256 `69c7ef33bcad3264…`.
+    ⚠️ **Ma la catena si ferma lì**: chi possieda A100 ROW **non è provabile allo stesso modo**, perché il
+    **Delaware non pubblica le informazioni sui soci**. Fonti secondarie convergono su Amazon.com, Inc.:
+    **si riporta come tale, non come prova**. ✅ E il punto non ne dipende: la capogruppo è già, su prova
+    primaria, **interamente posseduta fuori dall'Unione**.
 47. **Non dire che Nitro Enclaves è inutile o mal fatto.** È buona ingegneria: protegge dall'istanza padre,
     cioè dal cliente stesso. Si dice **dove AWS traccia il confine**, non che il confine sia finto (A56).
 
